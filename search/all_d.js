@@ -2,6 +2,7 @@ var searchData=
 [
   ['basis',['basis',['../namespacemx_1_1AO_1_1path_1_1basis.html',1,'mx::AO::path']]],
   ['hci',['HCI',['../namespacemx_1_1improc_1_1HCI.html',1,'mx::improc']]],
+  ['mxlib',['mxlib',['../index.html',1,'']]],
   ['message_20queues',['Message Queues',['../group__IPC__msgq.html',1,'']]],
   ['m',['m',['../structmx_1_1fourierModeDef.html#ae0928551dc5cee11d176632170cd9f6e',1,'mx::fourierModeDef::m()'],['../classmx_1_1levmarInterface.html#a21fd246b085012242485729b75f1388d',1,'mx::levmarInterface::m()']]],
   ['m2c',['M2c',['../aoPaths_8hpp.html#a0d71de127bf7a2939564dfc8343b99a8',1,'mx::AO::path::dm']]],
