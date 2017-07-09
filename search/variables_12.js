@@ -1,0 +1,8 @@
+var searchData=
+[
+  ['segs',['segs',['../classmx_1_1improc_1_1ds9Interface.html#a7660f7da4722e84760f5d6cc4ad1821f',1,'mx::improc::ds9Interface']]],
+  ['shmemid',['shmemid',['../structsharedmem__segment.html#aab48e0da00df3bdd98f7e529d11689a5',1,'sharedmem_segment::shmemid()'],['../classsharedMemSegment.html#adf2a6bd40a1d021b976979cb779b25d1',1,'sharedMemSegment::shmemid()']]],
+  ['sigmathreshold',['sigmaThreshold',['../structmx_1_1improc_1_1HCIobservation.html#a726d9d64c0ec69da44a88a5f3341102c',1,'mx::improc::HCIobservation']]],
+  ['size',['size',['../structsharedmem__segment.html#a799823cf7d681126c4b07308f4ca13d6',1,'sharedmem_segment::size()'],['../classsharedMemSegment.html#af679c48ff2617f1550a514227157cc68',1,'sharedMemSegment::size()']]],
+  ['skippreprocess',['skipPreProcess',['../structmx_1_1improc_1_1HCIobservation.html#a0dea6bb5c960ffc0cb88338d1e587e53',1,'mx::improc::HCIobservation']]]
+];
