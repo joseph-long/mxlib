@@ -1,0 +1,8 @@
+var searchData=
+[
+  ['zernike',['zernike',['../group__zernike__basis.html#gaedc4f1d8bd08d2f0ecd67e6fc1ceb396',1,'mx::zernike(realT rho, realT phi, int n, int m, std::vector&lt; realT &gt; &amp;c)'],['../group__zernike__basis.html#gaeb9167937cb880c50411d8f72aeda392',1,'mx::zernike(realT rho, realT phi, int n, int m)'],['../group__zernike__basis.html#ga7059f72a290f065c2d46f10a0552f409',1,'mx::zernike(realT rho, realT phi, int j)'],['../group__zernike__basis.html#gad8ee2b760024e8106bf5aa4688121efa',1,'mx::zernike(arrayT &amp;arr, int n, int m, typename arrayT::Scalar xcen, typename arrayT::Scalar ycen, typename arrayT::Scalar rad=-1)'],['../group__zernike__basis.html#ga287ee271daf7ed5e8cd004a72f93a52b',1,'mx::zernike(arrayT &amp;arr, int j, typename arrayT::Scalar xcen, typename arrayT::Scalar ycen, typename arrayT::Scalar rad=-1)'],['../group__zernike__basis.html#gafd32daa625a62aeb758afac8e251aaa8',1,'mx::zernike(arrayT &amp;arr, int n, int m, typename arrayT::Scalar rad=-1)'],['../group__zernike__basis.html#gaaa8fe60d58135a9d42842bbb4d127d7c',1,'mx::zernike(arrayT &amp;arr, int j, typename arrayT::Scalar rad=-1)']]],
+  ['zernike_2ehpp',['zernike.hpp',['../zernike_8hpp.html',1,'']]],
+  ['zernikebasis_2ehpp',['zernikeBasis.hpp',['../zernikeBasis_8hpp.html',1,'']]],
+  ['zerniker',['zernikeR',['../group__zernike__basis.html#gac5672544a29f1666018194086ac6192c',1,'mx::zernikeR(realT rho, int n, int m, std::vector&lt; realT &gt; &amp;c)'],['../group__zernike__basis.html#ga58b8a06ed1599cdda9bf0410b5fb6d3e',1,'mx::zernikeR(realT rho, int n, int m)']]],
+  ['zernikercoeffs',['zernikeRCoeffs',['../group__zernike__basis.html#gac0e1bdc2cca8db3a202cb89049595721',1,'mx']]]
+];

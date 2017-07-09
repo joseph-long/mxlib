@@ -1,0 +1,8 @@
+var group__imaging__files =
+[
+    [ "airy.hpp", "airy_8hpp.html", null ],
+    [ "fourierModes.hpp", "fourierModes_8hpp.html", null ],
+    [ "zernike.hpp", "zernike_8hpp.html", null ],
+    [ "idealCoronagraph.hpp", "idealCoronagraph_8hpp.html", null ],
+    [ "lyotCoronagraph.hpp", "lyotCoronagraph_8hpp.html", null ]
+];
