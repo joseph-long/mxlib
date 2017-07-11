@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>mxlib: basis.hpp File Reference</title>
+<title>mxlib: ao/basis.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -121,28 +121,112 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:acf1d2fe46b5d8c5cba78f0dc86a8fe96"><td class="memItemLeft" align="right" valign="top"><a id="acf1d2fe46b5d8c5cba78f0dc86a8fe96"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="basis_8hpp.html#acf1d2fe46b5d8c5cba78f0dc86a8fe96">MXAO_ORTHO_METHOD_SGS</a>&#160;&#160;&#160;0</td></tr>
-<tr class="memdesc:acf1d2fe46b5d8c5cba78f0dc86a8fe96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant to specify using the stabilized Gramm Schmidt (SGS) orthogonalization procedure. <br /></td></tr>
+<tr class="memitem:acf1d2fe46b5d8c5cba78f0dc86a8fe96"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="basis_8hpp.html#acf1d2fe46b5d8c5cba78f0dc86a8fe96">MXAO_ORTHO_METHOD_SGS</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:acf1d2fe46b5d8c5cba78f0dc86a8fe96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant to specify using the stabilized Gramm Schmidt (SGS) orthogonalization procedure.  <a href="#acf1d2fe46b5d8c5cba78f0dc86a8fe96">More...</a><br /></td></tr>
 <tr class="separator:acf1d2fe46b5d8c5cba78f0dc86a8fe96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73bcb351f33ea847f194123f3edfc8d9"><td class="memItemLeft" align="right" valign="top"><a id="a73bcb351f33ea847f194123f3edfc8d9"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="basis_8hpp.html#a73bcb351f33ea847f194123f3edfc8d9">MXAO_ORTHO_METHOD_SVD</a>&#160;&#160;&#160;1</td></tr>
-<tr class="memdesc:a73bcb351f33ea847f194123f3edfc8d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant to specify using the singular value decomposition (SVD) for orthogonalizing a modal basis. <br /></td></tr>
+<tr class="memitem:a73bcb351f33ea847f194123f3edfc8d9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="basis_8hpp.html#a73bcb351f33ea847f194123f3edfc8d9">MXAO_ORTHO_METHOD_SVD</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:a73bcb351f33ea847f194123f3edfc8d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant to specify using the singular value decomposition (SVD) for orthogonalizing a modal basis.  <a href="#a73bcb351f33ea847f194123f3edfc8d9">More...</a><br /></td></tr>
 <tr class="separator:a73bcb351f33ea847f194123f3edfc8d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3595b4d96e65d9ed9a37fdd7cc86e2ea"><td class="memTemplParams" colspan="2"><a id="a3595b4d96e65d9ed9a37fdd7cc86e2ea"></a>
-template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:a3595b4d96e65d9ed9a37fdd7cc86e2ea"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
 <tr class="memitem:a3595b4d96e65d9ed9a37fdd7cc86e2ea"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="basis_8hpp.html#a3595b4d96e65d9ed9a37fdd7cc86e2ea">mx::AO::applyPupil2Basis</a> (mx::eigenCube&lt; realT &gt; &amp;modes, const std::string &amp;basisName, const std::string &amp;pupilName, realT fwhm=0)</td></tr>
-<tr class="memdesc:a3595b4d96e65d9ed9a37fdd7cc86e2ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiply a raw modal basis by a pupil mask. <br /></td></tr>
+<tr class="memdesc:a3595b4d96e65d9ed9a37fdd7cc86e2ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiply a raw modal basis by a pupil mask.  <a href="basis_8hpp.html#a3595b4d96e65d9ed9a37fdd7cc86e2ea">More...</a><br /></td></tr>
 <tr class="separator:a3595b4d96e65d9ed9a37fdd7cc86e2ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b65e17af4f3bdb229fdc3153bd021cc"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
 <tr class="memitem:a2b65e17af4f3bdb229fdc3153bd021cc"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="basis_8hpp.html#a2b65e17af4f3bdb229fdc3153bd021cc">mx::AO::orthogonalizeBasis</a> (const std::string &amp;orthoName, const std::string &amp;basisName, const std::string &amp;pupilName, int method)</td></tr>
 <tr class="memdesc:a2b65e17af4f3bdb229fdc3153bd021cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate an orthogonal projection of a basis on a pupil.  <a href="basis_8hpp.html#a2b65e17af4f3bdb229fdc3153bd021cc">More...</a><br /></td></tr>
 <tr class="separator:a2b65e17af4f3bdb229fdc3153bd021cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="acf1d2fe46b5d8c5cba78f0dc86a8fe96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf1d2fe46b5d8c5cba78f0dc86a8fe96">&#9670;&nbsp;</a></span>MXAO_ORTHO_METHOD_SGS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MXAO_ORTHO_METHOD_SGS&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constant to specify using the stabilized Gramm Schmidt (SGS) orthogonalization procedure. </p>
+
+<p class="definition">Definition at line <a class="el" href="basis_8hpp_source.html#l00076">76</a> of file <a class="el" href="basis_8hpp_source.html">basis.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a73bcb351f33ea847f194123f3edfc8d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73bcb351f33ea847f194123f3edfc8d9">&#9670;&nbsp;</a></span>MXAO_ORTHO_METHOD_SVD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MXAO_ORTHO_METHOD_SVD&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constant to specify using the singular value decomposition (SVD) for orthogonalizing a modal basis. </p>
+
+<p class="definition">Definition at line <a class="el" href="basis_8hpp_source.html#l00081">81</a> of file <a class="el" href="basis_8hpp_source.html">basis.hpp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="file_a3595b4d96e65d9ed9a37fdd7cc86e2ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#file_a3595b4d96e65d9ed9a37fdd7cc86e2ea">&#9670;&nbsp;</a></span>applyPupil2Basis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename realT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void mx::AO::applyPupil2Basis </td>
+          <td>(</td>
+          <td class="paramtype">mx::eigenCube&lt; realT &gt; &amp;&#160;</td>
+          <td class="paramname"><em>modes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>basisName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>pupilName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>fwhm</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Multiply a raw modal basis by a pupil mask. </p>
+
+<p class="definition">Definition at line <a class="el" href="basis_8hpp_source.html#l00029">29</a> of file <a class="el" href="basis_8hpp_source.html">basis.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="basis_8hpp_source.html#l00029">mx::AO::applyPupil2Basis()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="basis_8hpp_source.html#l00029">mx::AO::applyPupil2Basis()</a>.</p>
+
+</div>
+</div>
 <a id="file_a2b65e17af4f3bdb229fdc3153bd021cc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#file_a2b65e17af4f3bdb229fdc3153bd021cc">&#9670;&nbsp;</a></span>orthogonalizeBasis()</h2>
 
@@ -209,8 +293,8 @@ template&lt;typename realT &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_4a0bf71ba3138a6abb584fb74c18f794.html">ao</a></li><li class="navelem"><a class="el" href="basis_8hpp.html">basis.hpp</a></li>
-    <li class="footer">Generated on Sun Jul 9 2017 12:39:04 for mxlib by
+    <li class="navelem"><a class="el" href="dir_4a0bf71ba3138a6abb584fb74c18f794.html">ao</a></li><li class="navelem"><a class="el" href="basis_8hpp.html">basis.hpp</a></li>
+    <li class="footer">Generated on Mon Jul 10 2017 21:09:10 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

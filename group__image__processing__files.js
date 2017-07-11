@@ -9,5 +9,6 @@ var group__image__processing__files =
     [ "imageMasks.hpp", "imageMasks_8hpp.html", null ],
     [ "imagePads.hpp", "imagePads_8hpp.html", null ],
     [ "imageTransforms.hpp", "imageTransforms_8hpp.html", null ],
+    [ "imCenterCircleSym.hpp", "imCenterCircleSym_8hpp.html", null ],
     [ "KLIPreduction.hpp", "KLIPreduction_8hpp.html", null ]
 ];

@@ -96,21 +96,17 @@ $(document).ready(function(){initNavTree('group__geo.html','');});
 <a name="details" id="details"></a><h2 class="groupheader"> </h2>
 <p>Functions for basic geometry and working with earth coordinate systems. </p>
 <table class="memberdecls">
-<tr class="memitem:ga7f98ff192ab7972e5898c131ac8ef8f8"><td class="memItemLeft" align="right" valign="top"><a id="ga7f98ff192ab7972e5898c131ac8ef8f8"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__geo.html#ga7f98ff192ab7972e5898c131ac8ef8f8">semilatrect</a>(a,  e)&#160;&#160;&#160;(e == 0.0 ? a : (e == 1.0 ? 2.*a : (e &lt; 1. ? a*(1-e*e) : a*(e*e-1))))</td></tr>
-<tr class="memdesc:ga7f98ff192ab7972e5898c131ac8ef8f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the semi-latus rectum of a <a href="http://en.wikipedia.org/wiki/Conic_section">conic section</a> <br /></td></tr>
+<tr class="memitem:ga7f98ff192ab7972e5898c131ac8ef8f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__geo.html#ga7f98ff192ab7972e5898c131ac8ef8f8">semilatrect</a>(a,  e)&#160;&#160;&#160;(e == 0.0 ? a : (e == 1.0 ? 2.*a : (e &lt; 1. ? a*(1-e*e) : a*(e*e-1))))</td></tr>
+<tr class="memdesc:ga7f98ff192ab7972e5898c131ac8ef8f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the semi-latus rectum of a <a href="http://en.wikipedia.org/wiki/Conic_section">conic section</a>  <a href="#ga7f98ff192ab7972e5898c131ac8ef8f8">More...</a><br /></td></tr>
 <tr class="separator:ga7f98ff192ab7972e5898c131ac8ef8f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga290e659cac1e23e08af8e52ebde3f5a1"><td class="memItemLeft" align="right" valign="top"><a id="ga290e659cac1e23e08af8e52ebde3f5a1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__geo.html#ga290e659cac1e23e08af8e52ebde3f5a1">focus</a>(a,  e)&#160;&#160;&#160;(e == 0.0 ? 1e34 : (e == 1.0 ? 2.*a : (e &lt; 1. ? a*(1-e*e)/e : a*(e*e-1)/e)))</td></tr>
-<tr class="memdesc:ga290e659cac1e23e08af8e52ebde3f5a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the focal parameter of a <a href="http://en.wikipedia.org/wiki/Conic_section">conic section</a> <br /></td></tr>
+<tr class="memitem:ga290e659cac1e23e08af8e52ebde3f5a1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__geo.html#ga290e659cac1e23e08af8e52ebde3f5a1">focus</a>(a,  e)&#160;&#160;&#160;(e == 0.0 ? 1e34 : (e == 1.0 ? 2.*a : (e &lt; 1. ? a*(1-e*e)/e : a*(e*e-1)/e)))</td></tr>
+<tr class="memdesc:ga290e659cac1e23e08af8e52ebde3f5a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the focal parameter of a <a href="http://en.wikipedia.org/wiki/Conic_section">conic section</a>  <a href="#ga290e659cac1e23e08af8e52ebde3f5a1">More...</a><br /></td></tr>
 <tr class="separator:ga290e659cac1e23e08af8e52ebde3f5a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaacabc34a486a39e7540654c2bc5e89a7"><td class="memItemLeft" align="right" valign="top"><a id="gaacabc34a486a39e7540654c2bc5e89a7"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__geo.html#gaacabc34a486a39e7540654c2bc5e89a7">semimaj</a>(p,  e)&#160;&#160;&#160;(e == 1.0 ? 1e34 : (e &lt; 1 ? p*e/(1-e*e) : p*e/(e*e-1) ))</td></tr>
-<tr class="memdesc:gaacabc34a486a39e7540654c2bc5e89a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the semi-major axis of a <a href="http://en.wikipedia.org/wiki/Conic_section">conic section</a>, given the focal parameter and the eccentricity. <br /></td></tr>
+<tr class="memitem:gaacabc34a486a39e7540654c2bc5e89a7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__geo.html#gaacabc34a486a39e7540654c2bc5e89a7">semimaj</a>(p,  e)&#160;&#160;&#160;(e == 1.0 ? 1e34 : (e &lt; 1 ? p*e/(1-e*e) : p*e/(e*e-1) ))</td></tr>
+<tr class="memdesc:gaacabc34a486a39e7540654c2bc5e89a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the semi-major axis of a <a href="http://en.wikipedia.org/wiki/Conic_section">conic section</a>, given the focal parameter and the eccentricity.  <a href="#gaacabc34a486a39e7540654c2bc5e89a7">More...</a><br /></td></tr>
 <tr class="separator:gaacabc34a486a39e7540654c2bc5e89a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga82042b0a5a45c44b5e484d1e6b3315b7"><td class="memItemLeft" align="right" valign="top"><a id="ga82042b0a5a45c44b5e484d1e6b3315b7"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__geo.html#ga82042b0a5a45c44b5e484d1e6b3315b7">eccent</a>(a,  p)&#160;&#160;&#160;(a == 0.0 ? 1e34 : (p &gt;= 1e9 ? 0.0 : (p&gt;0 ? (-p/(2*a)+0.5*std::sqrt(p*p/(a*a) + 4)) : (p/(2*a)+0.5*std::sqrt(p*p/(a*a) + 4)) ) ))</td></tr>
-<tr class="memdesc:ga82042b0a5a45c44b5e484d1e6b3315b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the eccentricity of a <a href="http://en.wikipedia.org/wiki/Conic_section">conic section</a> given the semi-major axis and the focal parameter. <br /></td></tr>
+<tr class="memitem:ga82042b0a5a45c44b5e484d1e6b3315b7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__geo.html#ga82042b0a5a45c44b5e484d1e6b3315b7">eccent</a>(a,  p)&#160;&#160;&#160;(a == 0.0 ? 1e34 : (p &gt;= 1e9 ? 0.0 : (p&gt;0 ? (-p/(2*a)+0.5*std::sqrt(p*p/(a*a) + 4)) : (p/(2*a)+0.5*std::sqrt(p*p/(a*a) + 4)) ) ))</td></tr>
+<tr class="memdesc:ga82042b0a5a45c44b5e484d1e6b3315b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the eccentricity of a <a href="http://en.wikipedia.org/wiki/Conic_section">conic section</a> given the semi-major axis and the focal parameter.  <a href="#ga82042b0a5a45c44b5e484d1e6b3315b7">More...</a><br /></td></tr>
 <tr class="separator:ga82042b0a5a45c44b5e484d1e6b3315b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga31a66fdddf4aae47fca74de92d80b295"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
 <tr class="memitem:ga31a66fdddf4aae47fca74de92d80b295"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__geo.html#ga31a66fdddf4aae47fca74de92d80b295">mx::dtor</a> (realT q)</td></tr>
@@ -129,6 +125,135 @@ $(document).ready(function(){initNavTree('group__geo.html','');});
 <tr class="memdesc:gad404544da0ca1afca8fb08150e3b3278"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the mean of a set of angles, correctly across 0/360.  <a href="group__geo.html#gad404544da0ca1afca8fb08150e3b3278">More...</a><br /></td></tr>
 <tr class="separator:gad404544da0ca1afca8fb08150e3b3278"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ga82042b0a5a45c44b5e484d1e6b3315b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga82042b0a5a45c44b5e484d1e6b3315b7">&#9670;&nbsp;</a></span>eccent</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eccent</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">p&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;(a == 0.0 ? 1e34 : (p &gt;= 1e9 ? 0.0 : (p&gt;0 ? (-p/(2*a)+0.5*std::sqrt(p*p/(a*a) + 4)) : (p/(2*a)+0.5*std::sqrt(p*p/(a*a) + 4)) ) ))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate the eccentricity of a <a href="http://en.wikipedia.org/wiki/Conic_section">conic section</a> given the semi-major axis and the focal parameter. </p>
+
+<p class="definition">Definition at line <a class="el" href="geo_8hpp_source.html#l00035">35</a> of file <a class="el" href="geo_8hpp_source.html">geo.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ga290e659cac1e23e08af8e52ebde3f5a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga290e659cac1e23e08af8e52ebde3f5a1">&#9670;&nbsp;</a></span>focus</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define focus</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">e&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;(e == 0.0 ? 1e34 : (e == 1.0 ? 2.*a : (e &lt; 1. ? a*(1-e*e)/e : a*(e*e-1)/e)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate the focal parameter of a <a href="http://en.wikipedia.org/wiki/Conic_section">conic section</a> </p>
+
+<p class="definition">Definition at line <a class="el" href="geo_8hpp_source.html#l00029">29</a> of file <a class="el" href="geo_8hpp_source.html">geo.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ga7f98ff192ab7972e5898c131ac8ef8f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7f98ff192ab7972e5898c131ac8ef8f8">&#9670;&nbsp;</a></span>semilatrect</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define semilatrect</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">e&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;(e == 0.0 ? a : (e == 1.0 ? 2.*a : (e &lt; 1. ? a*(1-e*e) : a*(e*e-1))))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate the semi-latus rectum of a <a href="http://en.wikipedia.org/wiki/Conic_section">conic section</a> </p>
+
+<p class="definition">Definition at line <a class="el" href="geo_8hpp_source.html#l00026">26</a> of file <a class="el" href="geo_8hpp_source.html">geo.hpp</a>.</p>
+
+</div>
+</div>
+<a id="gaacabc34a486a39e7540654c2bc5e89a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaacabc34a486a39e7540654c2bc5e89a7">&#9670;&nbsp;</a></span>semimaj</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define semimaj</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">p, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">e&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;(e == 1.0 ? 1e34 : (e &lt; 1 ? p*e/(1-e*e) : p*e/(e*e-1) ))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate the semi-major axis of a <a href="http://en.wikipedia.org/wiki/Conic_section">conic section</a>, given the focal parameter and the eccentricity. </p>
+
+<p class="definition">Definition at line <a class="el" href="geo_8hpp_source.html#l00032">32</a> of file <a class="el" href="geo_8hpp_source.html">geo.hpp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="gad5c0633245d7d9009eef8b27b13883cf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gad5c0633245d7d9009eef8b27b13883cf">&#9670;&nbsp;</a></span>angleDiff()</h2>
@@ -291,7 +416,7 @@ template&lt;typename realT &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Jul 9 2017 12:39:04 for mxlib by
+    <li class="footer">Generated on Mon Jul 10 2017 21:09:10 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

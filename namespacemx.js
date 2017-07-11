@@ -27,6 +27,7 @@ var namespacemx =
       [ "fitsHeaderCard", "structmx_1_1improc_1_1fitsHeaderCard.html", "structmx_1_1improc_1_1fitsHeaderCard" ],
       [ "gaussKernel", "structmx_1_1improc_1_1gaussKernel.html", null ],
       [ "HCIobservation", "structmx_1_1improc_1_1HCIobservation.html", "structmx_1_1improc_1_1HCIobservation" ],
+      [ "imCenterCircleSym", "structmx_1_1improc_1_1imCenterCircleSym.html", "structmx_1_1improc_1_1imCenterCircleSym" ],
       [ "KLIPreduction", "structmx_1_1improc_1_1KLIPreduction.html", "structmx_1_1improc_1_1KLIPreduction" ]
     ] ],
     [ "wfp", null, [

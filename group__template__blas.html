@@ -127,18 +127,122 @@ Functions</h2></td></tr>
 <tr class="memitem:gad43a93a5331d52bd67c31af13d3a03f8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#gad43a93a5331d52bd67c31af13d3a03f8">hadd</a> (const int N, const dataT alpha, const dataT *Y, const int incY, dataT *X, const int incX)</td></tr>
 <tr class="memdesc:gad43a93a5331d52bd67c31af13d3a03f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template wrapper for cblas-extension xHADD.  <a href="#gad43a93a5331d52bd67c31af13d3a03f8">More...</a><br /></td></tr>
 <tr class="separator:gad43a93a5331d52bd67c31af13d3a03f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac6750d0dd45bf6f1ab6f7136e366cc24"><td class="memTemplParams" colspan="2"><a id="gac6750d0dd45bf6f1ab6f7136e366cc24"></a>
-template&lt;typename dataT &gt; </td></tr>
+<tr class="memitem:gac6750d0dd45bf6f1ab6f7136e366cc24"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
 <tr class="memitem:gac6750d0dd45bf6f1ab6f7136e366cc24"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#gac6750d0dd45bf6f1ab6f7136e366cc24">gemm</a> (const enum CBLAS_ORDER Order, const enum CBLAS_TRANSPOSE TransA, const enum CBLAS_TRANSPOSE TransB, const int M, const int N, const int K, const dataT alpha, const dataT *A, const int lda, const dataT *B, const int ldb, const dataT beta, dataT *C, const int ldc)</td></tr>
-<tr class="memdesc:gac6750d0dd45bf6f1ab6f7136e366cc24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template Wrapper for cblas xGEMM. <br /></td></tr>
+<tr class="memdesc:gac6750d0dd45bf6f1ab6f7136e366cc24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template Wrapper for cblas xGEMM.  <a href="#gac6750d0dd45bf6f1ab6f7136e366cc24">More...</a><br /></td></tr>
 <tr class="separator:gac6750d0dd45bf6f1ab6f7136e366cc24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4fedc7542809e654f1afa78160aa53e7"><td class="memTemplParams" colspan="2"><a id="ga4fedc7542809e654f1afa78160aa53e7"></a>
-template&lt;typename dataT &gt; </td></tr>
+<tr class="memitem:ga4fedc7542809e654f1afa78160aa53e7"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
 <tr class="memitem:ga4fedc7542809e654f1afa78160aa53e7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#ga4fedc7542809e654f1afa78160aa53e7">syrk</a> (const enum CBLAS_ORDER Order, const enum CBLAS_UPLO Uplo, const enum CBLAS_TRANSPOSE Trans, const int N, const int K, const dataT alpha, const dataT *A, const int lda, const dataT beta, dataT *C, const int ldc)</td></tr>
-<tr class="memdesc:ga4fedc7542809e654f1afa78160aa53e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template Wrapper for cblas xSYRK. <br /></td></tr>
+<tr class="memdesc:ga4fedc7542809e654f1afa78160aa53e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template Wrapper for cblas xSYRK.  <a href="#ga4fedc7542809e654f1afa78160aa53e7">More...</a><br /></td></tr>
 <tr class="separator:ga4fedc7542809e654f1afa78160aa53e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="gac6750d0dd45bf6f1ab6f7136e366cc24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac6750d0dd45bf6f1ab6f7136e366cc24">&#9670;&nbsp;</a></span>gemm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename dataT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void gemm </td>
+          <td>(</td>
+          <td class="paramtype">const enum CBLAS_ORDER&#160;</td>
+          <td class="paramname"><em>Order</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const enum CBLAS_TRANSPOSE&#160;</td>
+          <td class="paramname"><em>TransA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const enum CBLAS_TRANSPOSE&#160;</td>
+          <td class="paramname"><em>TransB</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>M</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>K</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dataT&#160;</td>
+          <td class="paramname"><em>alpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dataT *&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>lda</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dataT *&#160;</td>
+          <td class="paramname"><em>B</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>ldb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dataT&#160;</td>
+          <td class="paramname"><em>beta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dataT *&#160;</td>
+          <td class="paramname"><em>C</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>ldc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Template Wrapper for cblas xGEMM. </p>
+
+<p class="definition">Definition at line <a class="el" href="templateBLAS_8hpp_source.html#l00190">190</a> of file <a class="el" href="templateBLAS_8hpp_source.html">templateBLAS.hpp</a>.</p>
+
+</div>
+</div>
 <a id="gad43a93a5331d52bd67c31af13d3a03f8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gad43a93a5331d52bd67c31af13d3a03f8">&#9670;&nbsp;</a></span>hadd()</h2>
 
@@ -483,12 +587,100 @@ template&lt;typename dataT &gt; </div>
 
 </div>
 </div>
+<a id="ga4fedc7542809e654f1afa78160aa53e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4fedc7542809e654f1afa78160aa53e7">&#9670;&nbsp;</a></span>syrk()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename dataT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void syrk </td>
+          <td>(</td>
+          <td class="paramtype">const enum CBLAS_ORDER&#160;</td>
+          <td class="paramname"><em>Order</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const enum CBLAS_UPLO&#160;</td>
+          <td class="paramname"><em>Uplo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const enum CBLAS_TRANSPOSE&#160;</td>
+          <td class="paramname"><em>Trans</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>K</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dataT&#160;</td>
+          <td class="paramname"><em>alpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dataT *&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>lda</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dataT&#160;</td>
+          <td class="paramname"><em>beta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dataT *&#160;</td>
+          <td class="paramname"><em>C</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>ldc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Template Wrapper for cblas xSYRK. </p>
+
+<p class="definition">Definition at line <a class="el" href="templateBLAS_8hpp_source.html#l00255">255</a> of file <a class="el" href="templateBLAS_8hpp_source.html">templateBLAS.hpp</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Jul 9 2017 12:39:05 for mxlib by
+    <li class="footer">Generated on Mon Jul 10 2017 21:09:10 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

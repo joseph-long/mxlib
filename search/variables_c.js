@@ -1,7 +1,7 @@
 var searchData=
 [
   ['m',['m',['../structmx_1_1fourierModeDef.html#ae0928551dc5cee11d176632170cd9f6e',1,'mx::fourierModeDef::m()'],['../classmx_1_1levmarInterface.html#a21fd246b085012242485729b75f1388d',1,'mx::levmarInterface::m()']]],
-  ['mask',['mask',['../structmx_1_1improc_1_1HCIobservation.html#acd05c0138e6a715be0092902b307412e',1,'mx::improc::HCIobservation']]],
+  ['mask',['mask',['../structmx_1_1improc_1_1HCIobservation.html#acd05c0138e6a715be0092902b307412e',1,'mx::improc::HCIobservation::mask()'],['../structmx_1_1improc_1_1imCenterCircleSym.html#a69114d081fbfd61d11ffec0dd6318448',1,'mx::improc::imCenterCircleSym::mask()']]],
   ['maskcube',['maskCube',['../structmx_1_1improc_1_1HCIobservation.html#ae426fe2df839f3a3cbfaaa32c383236a',1,'mx::improc::HCIobservation']]],
   ['maskfile',['maskFile',['../structmx_1_1improc_1_1HCIobservation.html#add887ecfe53b432de95c47b3f0874d57',1,'mx::improc::HCIobservation::maskFile()'],['../structmx_1_1wfp_1_1lyotCoronagraph.html#acd121750ffc2fa11199110bf14247d14',1,'mx::wfp::lyotCoronagraph::maskFile()']]],
   ['maskrad',['maskRad',['../structmx_1_1wfp_1_1lyotCoronagraph.html#ad0a050020ddd840545278bed1410c99e',1,'mx::wfp::lyotCoronagraph']]],
@@ -12,6 +12,8 @@ var searchData=
   ['maxjh',['maxJH',['../structmx_1_1astro_1_1mainSequence.html#ad99b5bbc688a26a7741d0c974d51f729',1,'mx::astro::mainSequence']]],
   ['maxl',['maxL',['../structmx_1_1astro_1_1mainSequence.html#a6c2ba5df72dcc6a40a01665894b6b7d6',1,'mx::astro::mainSequence']]],
   ['maxmv',['maxMv',['../structmx_1_1astro_1_1mainSequence.html#a92e0a2bcb9e8cf7afd887e5c1282d567',1,'mx::astro::mainSequence']]],
+  ['maxpix',['maxPix',['../structmx_1_1improc_1_1imCenterCircleSym.html#af452312dfc9c3945b690398777da9c95',1,'mx::improc::imCenterCircleSym']]],
+  ['maxrad',['maxRad',['../structmx_1_1improc_1_1imCenterCircleSym.html#aee5cb2e9e168178528453bb3c831ed83',1,'mx::improc::imCenterCircleSym']]],
   ['maxt',['maxT',['../structmx_1_1astro_1_1mainSequence.html#ab92078bf87bd110a36a289340d8444a9',1,'mx::astro::mainSequence']]],
   ['maxvic',['maxVIc',['../structmx_1_1astro_1_1mainSequence.html#a3c879391e9821de0d083315416d294ff',1,'mx::astro::mainSequence']]],
   ['maxvks',['maxVKs',['../structmx_1_1astro_1_1mainSequence.html#a44b4b236d224aff4cdbb7df47df5810b',1,'mx::astro::mainSequence']]],
@@ -21,6 +23,7 @@ var searchData=
   ['minjh',['minJH',['../structmx_1_1astro_1_1mainSequence.html#afc590b9251fcd1252a77a4883ada787c',1,'mx::astro::mainSequence']]],
   ['minl',['minL',['../structmx_1_1astro_1_1mainSequence.html#a3d73348fbfba9b8bbecdcfd6d8182494',1,'mx::astro::mainSequence']]],
   ['minmv',['minMv',['../structmx_1_1astro_1_1mainSequence.html#a371d51a1770d406e6440ba068f15628b',1,'mx::astro::mainSequence']]],
+  ['minrad',['minRad',['../structmx_1_1improc_1_1imCenterCircleSym.html#a02174722134c6dc5e6bb17c044fc66c2',1,'mx::improc::imCenterCircleSym']]],
   ['mint',['minT',['../structmx_1_1astro_1_1mainSequence.html#a10c5acd07840b55792c8417ccb330b3b',1,'mx::astro::mainSequence']]],
   ['minvic',['minVIc',['../structmx_1_1astro_1_1mainSequence.html#a912f30535ce8e94e8de09cdac7057a3e',1,'mx::astro::mainSequence']]],
   ['minvks',['minVKs',['../structmx_1_1astro_1_1mainSequence.html#aa4f61161f3fb1e69fdecdbec4f015023',1,'mx::astro::mainSequence']]],

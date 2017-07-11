@@ -115,10 +115,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga7c82e61408a872dcf22931256cf68d28"><td class="memTemplItemLeft" align="right" valign="top">units::realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__orbits.html#ga7c82e61408a872dcf22931256cf68d28">mx::astro::orbitSemiMaj</a> (typename units::realT m1, typename units::realT m2, typename units::realT P)</td></tr>
 <tr class="memdesc:ga7c82e61408a872dcf22931256cf68d28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the semi-major axis of an orbit, given the masses and Period, using SI units.  <a href="group__orbits.html#ga7c82e61408a872dcf22931256cf68d28">More...</a><br /></td></tr>
 <tr class="separator:ga7c82e61408a872dcf22931256cf68d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf3b16baed2a7a1419ae7f5102ead882f"><td class="memTemplParams" colspan="2"><a id="gaf3b16baed2a7a1419ae7f5102ead882f"></a>
-template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:gaf3b16baed2a7a1419ae7f5102ead882f"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
 <tr class="memitem:gaf3b16baed2a7a1419ae7f5102ead882f"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__orbits.html#gaf3b16baed2a7a1419ae7f5102ead882f">mx::astro::orbitMeanAnol</a> (realT t, realT t0, realT P)</td></tr>
-<tr class="memdesc:gaf3b16baed2a7a1419ae7f5102ead882f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the mean anomaly at time t, given the time of pericenter passage t0 and period P. <br /></td></tr>
+<tr class="memdesc:gaf3b16baed2a7a1419ae7f5102ead882f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the mean anomaly at time t, given the time of pericenter passage t0 and period P.  <a href="group__orbits.html#gaf3b16baed2a7a1419ae7f5102ead882f">More...</a><br /></td></tr>
 <tr class="separator:gaf3b16baed2a7a1419ae7f5102ead882f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad73c204f8dc902e3ec1d76f21046659a"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
 <tr class="memitem:gad73c204f8dc902e3ec1d76f21046659a"><td class="memTemplItemLeft" align="right" valign="top">long&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__orbits.html#gad73c204f8dc902e3ec1d76f21046659a">mx::astro::orbitElements</a> (realT &amp;r, realT &amp;f, realT E, realT D, realT e, realT M, realT a, realT tol=<a class="el" href="group__kepler.html#ga7b401ae9c745645f05a7afba53f0530a">KEPLER_TOL</a>, long itmax=<a class="el" href="group__kepler.html#ga92fa5b5d7f060e8ca1e044acf532743d">KEPLER_ITMAX</a>)</td></tr>
@@ -590,6 +589,48 @@ template&lt;typename realT &gt; </div>
 
 </div>
 </div>
+<a id="gaf3b16baed2a7a1419ae7f5102ead882f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf3b16baed2a7a1419ae7f5102ead882f">&#9670;&nbsp;</a></span>orbitMeanAnol()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename realT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">realT mx::astro::orbitMeanAnol </td>
+          <td>(</td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>t0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>P</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate the mean anomaly at time t, given the time of pericenter passage t0 and period P. </p>
+
+<p class="definition">Definition at line <a class="el" href="orbitUtils_8hpp_source.html#l00059">59</a> of file <a class="el" href="orbitUtils_8hpp_source.html">orbitUtils.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="orbitUtils_8hpp_source.html#l00167">mx::astro::orbitCartesianWork()</a>.</p>
+
+</div>
+</div>
 <a id="gaf04530685af21f97cb3d96448d74283b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaf04530685af21f97cb3d96448d74283b">&#9670;&nbsp;</a></span>orbitPeriod()</h2>
 
@@ -761,7 +802,7 @@ template&lt;typename units &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Jul 9 2017 12:39:05 for mxlib by
+    <li class="footer">Generated on Mon Jul 10 2017 21:09:10 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -29,8 +29,8 @@ var searchData=
   ['_5ftemplocation',['_tempLocation',['../classmx_1_1gnuPlot.html#affc5421bb3059d6097c671d3430e3564',1,'mx::gnuPlot']]],
   ['_5ftitle',['_title',['../classmx_1_1improc_1_1ds9Interface.html#a034a6afcf576ba3ac7716e728d826687',1,'mx::improc::ds9Interface']]],
   ['_5fwfsz',['_wfSz',['../structmx_1_1wfp_1_1idealCoronagraph.html#a104c3535d57c26c4189a44a48c281505',1,'mx::wfp::idealCoronagraph::_wfSz()'],['../structmx_1_1wfp_1_1lyotCoronagraph.html#a43e0416d4bcbb8b45f7cf1acffb97fd2',1,'mx::wfp::lyotCoronagraph::_wfSz()']]],
-  ['_5fx0',['_x0',['../classmx_1_1improc_1_1fitsFile.html#a4ec2eee698ad11a5a08c9aa2aa9388ed',1,'mx::improc::fitsFile']]],
+  ['_5fx0',['_x0',['../classmx_1_1improc_1_1fitsFile.html#a4ec2eee698ad11a5a08c9aa2aa9388ed',1,'mx::improc::fitsFile::_x0()'],['../structmx_1_1improc_1_1imCenterCircleSym.html#a37bd57f6377cfe41b93baf3750ceae93',1,'mx::improc::imCenterCircleSym::_x0()']]],
   ['_5fxpix',['_xpix',['../classmx_1_1improc_1_1fitsFile.html#a475959440e84d73ba010b99d464bffa0',1,'mx::improc::fitsFile']]],
-  ['_5fy0',['_y0',['../classmx_1_1improc_1_1fitsFile.html#a47bde3a3c5d5b4a26ab5b688e7529520',1,'mx::improc::fitsFile']]],
+  ['_5fy0',['_y0',['../classmx_1_1improc_1_1fitsFile.html#a47bde3a3c5d5b4a26ab5b688e7529520',1,'mx::improc::fitsFile::_y0()'],['../structmx_1_1improc_1_1imCenterCircleSym.html#a920116c7b5eed969a2ab5bf41bfb2c0e',1,'mx::improc::imCenterCircleSym::_y0()']]],
   ['_5fypix',['_ypix',['../classmx_1_1improc_1_1fitsFile.html#a2d64065dbf44b94797f0d3a70e765fc1',1,'mx::improc::fitsFile']]]
 ];

@@ -99,14 +99,13 @@ $(document).ready(function(){initNavTree('structmx_1_1improc_1_1fitsHeaderCard.h
 
 <p class="definition">Definition at line <a class="el" href="fitsHeaderCard_8hpp_source.html#l00027">27</a> of file <a class="el" href="fitsHeaderCard_8hpp_source.html">fitsHeaderCard.hpp</a>.</p>
 </div>
-<p><code>#include &lt;<a class="el" href="fitsHeaderCard_8hpp_source.html">fitsHeaderCard.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="fitsHeaderCard_8hpp_source.html">improc/fitsHeaderCard.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Constructors</div></td></tr>
-<tr class="memitem:a42c7a2664570565d9b2954d410bf2bf2"><td class="memItemLeft" align="right" valign="top"><a id="a42c7a2664570565d9b2954d410bf2bf2"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1fitsHeaderCard.html#a42c7a2664570565d9b2954d410bf2bf2">fitsHeaderCard</a> ()</td></tr>
-<tr class="memdesc:a42c7a2664570565d9b2954d410bf2bf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic c'tor. <br /></td></tr>
+<tr class="memitem:a42c7a2664570565d9b2954d410bf2bf2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1fitsHeaderCard.html#a42c7a2664570565d9b2954d410bf2bf2">fitsHeaderCard</a> ()</td></tr>
+<tr class="memdesc:a42c7a2664570565d9b2954d410bf2bf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic c'tor.  <a href="#a42c7a2664570565d9b2954d410bf2bf2">More...</a><br /></td></tr>
 <tr class="separator:a42c7a2664570565d9b2954d410bf2bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbf6422922d7eeb0b83ef615131814e7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1fitsHeaderCard.html#afbf6422922d7eeb0b83ef615131814e7">fitsHeaderCard</a> (std::string k, const void *v, std::string c)</td></tr>
 <tr class="memdesc:afbf6422922d7eeb0b83ef615131814e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from the three components, when value's type is unknown.  <a href="#afbf6422922d7eeb0b83ef615131814e7">More...</a><br /></td></tr>
@@ -178,33 +177,57 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ab3686b48837bb879c8185a4d10f207fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert value to a long double.  <a href="#ab3686b48837bb879c8185a4d10f207fa">More...</a><br /></td></tr>
 <tr class="separator:ab3686b48837bb879c8185a4d10f207fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Output</div></td></tr>
-<tr class="memitem:a36da5202c6f6d07e0c1ad6efd27628de"><td class="memItemLeft" align="right" valign="top"><a id="a36da5202c6f6d07e0c1ad6efd27628de"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1fitsHeaderCard.html#a36da5202c6f6d07e0c1ad6efd27628de">write</a> (fitsfile *fptr)</td></tr>
-<tr class="memdesc:a36da5202c6f6d07e0c1ad6efd27628de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes this card to a FITS file, using mx::improc::fits_write_key&lt;typename typeT&gt;(fitsfile * fptr, char * keyword, void * value, char * comment). <br /></td></tr>
+<tr class="memitem:a36da5202c6f6d07e0c1ad6efd27628de"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1fitsHeaderCard.html#a36da5202c6f6d07e0c1ad6efd27628de">write</a> (fitsfile *fptr)</td></tr>
+<tr class="memdesc:a36da5202c6f6d07e0c1ad6efd27628de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes this card to a FITS file, using mx::improc::fits_write_key&lt;typename typeT&gt;(fitsfile * fptr, char * keyword, void * value, char * comment).  <a href="#a36da5202c6f6d07e0c1ad6efd27628de">More...</a><br /></td></tr>
 <tr class="separator:a36da5202c6f6d07e0c1ad6efd27628de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a88f70f7ae2cc15c07c59b2a4aee29927"><td class="memItemLeft" align="right" valign="top"><a id="a88f70f7ae2cc15c07c59b2a4aee29927"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1fitsHeaderCard.html#a88f70f7ae2cc15c07c59b2a4aee29927">keyword</a></td></tr>
-<tr class="memdesc:a88f70f7ae2cc15c07c59b2a4aee29927"><td class="mdescLeft">&#160;</td><td class="mdescRight">The keyword. <br /></td></tr>
+<tr class="memitem:a88f70f7ae2cc15c07c59b2a4aee29927"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1fitsHeaderCard.html#a88f70f7ae2cc15c07c59b2a4aee29927">keyword</a></td></tr>
+<tr class="memdesc:a88f70f7ae2cc15c07c59b2a4aee29927"><td class="mdescLeft">&#160;</td><td class="mdescRight">The keyword.  <a href="#a88f70f7ae2cc15c07c59b2a4aee29927">More...</a><br /></td></tr>
 <tr class="separator:a88f70f7ae2cc15c07c59b2a4aee29927"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acae04fa9448d5a4ef3413a3bfe0950df"><td class="memItemLeft" align="right" valign="top"><a id="acae04fa9448d5a4ef3413a3bfe0950df"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1fitsHeaderCard.html#acae04fa9448d5a4ef3413a3bfe0950df">value</a></td></tr>
-<tr class="memdesc:acae04fa9448d5a4ef3413a3bfe0950df"><td class="mdescLeft">&#160;</td><td class="mdescRight">The value. <br /></td></tr>
+<tr class="memitem:acae04fa9448d5a4ef3413a3bfe0950df"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1fitsHeaderCard.html#acae04fa9448d5a4ef3413a3bfe0950df">value</a></td></tr>
+<tr class="memdesc:acae04fa9448d5a4ef3413a3bfe0950df"><td class="mdescLeft">&#160;</td><td class="mdescRight">The value.  <a href="#acae04fa9448d5a4ef3413a3bfe0950df">More...</a><br /></td></tr>
 <tr class="separator:acae04fa9448d5a4ef3413a3bfe0950df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2cb9503b61404b198071b1bd08fff74"><td class="memItemLeft" align="right" valign="top"><a id="af2cb9503b61404b198071b1bd08fff74"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1fitsHeaderCard.html#af2cb9503b61404b198071b1bd08fff74">comment</a></td></tr>
-<tr class="memdesc:af2cb9503b61404b198071b1bd08fff74"><td class="mdescLeft">&#160;</td><td class="mdescRight">The comment. <br /></td></tr>
+<tr class="memitem:af2cb9503b61404b198071b1bd08fff74"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1fitsHeaderCard.html#af2cb9503b61404b198071b1bd08fff74">comment</a></td></tr>
+<tr class="memdesc:af2cb9503b61404b198071b1bd08fff74"><td class="mdescLeft">&#160;</td><td class="mdescRight">The comment.  <a href="#af2cb9503b61404b198071b1bd08fff74">More...</a><br /></td></tr>
 <tr class="separator:af2cb9503b61404b198071b1bd08fff74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7d158754a1ab50d7d0ea5d50106d58d"><td class="memItemLeft" align="right" valign="top"><a id="af7d158754a1ab50d7d0ea5d50106d58d"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1fitsHeaderCard.html#af7d158754a1ab50d7d0ea5d50106d58d">type</a></td></tr>
-<tr class="memdesc:af7d158754a1ab50d7d0ea5d50106d58d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The FITS type. <br /></td></tr>
+<tr class="memitem:af7d158754a1ab50d7d0ea5d50106d58d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1fitsHeaderCard.html#af7d158754a1ab50d7d0ea5d50106d58d">type</a></td></tr>
+<tr class="memdesc:af7d158754a1ab50d7d0ea5d50106d58d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The FITS type.  <a href="#af7d158754a1ab50d7d0ea5d50106d58d">More...</a><br /></td></tr>
 <tr class="separator:af7d158754a1ab50d7d0ea5d50106d58d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a42c7a2664570565d9b2954d410bf2bf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42c7a2664570565d9b2954d410bf2bf2">&#9670;&nbsp;</a></span>fitsHeaderCard() <span class="overload">[1/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mx::improc::fitsHeaderCard::fitsHeaderCard </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Basic c'tor. </p>
+
+<p class="definition">Definition at line <a class="el" href="fitsHeaderCard_8hpp_source.html#l00047">47</a> of file <a class="el" href="fitsHeaderCard_8hpp_source.html">fitsHeaderCard.hpp</a>.</p>
+
+</div>
+</div>
 <a id="afbf6422922d7eeb0b83ef615131814e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbf6422922d7eeb0b83ef615131814e7">&#9670;&nbsp;</a></span>fitsHeaderCard() <span class="overload">[1/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afbf6422922d7eeb0b83ef615131814e7">&#9670;&nbsp;</a></span>fitsHeaderCard() <span class="overload">[2/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -260,7 +283,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struc
 </div>
 </div>
 <a id="a2dc07aed007044358e9015fead0e39e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2dc07aed007044358e9015fead0e39e8">&#9670;&nbsp;</a></span>fitsHeaderCard() <span class="overload">[2/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dc07aed007044358e9015fead0e39e8">&#9670;&nbsp;</a></span>fitsHeaderCard() <span class="overload">[3/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -316,7 +339,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struc
 </div>
 </div>
 <a id="a3c538d2b6fe3710dd6bfd8d586e67629"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c538d2b6fe3710dd6bfd8d586e67629">&#9670;&nbsp;</a></span>fitsHeaderCard() <span class="overload">[3/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c538d2b6fe3710dd6bfd8d586e67629">&#9670;&nbsp;</a></span>fitsHeaderCard() <span class="overload">[4/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -373,7 +396,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struc
 </div>
 </div>
 <a id="a4783691286e02f0464ba4c813a39964f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4783691286e02f0464ba4c813a39964f">&#9670;&nbsp;</a></span>fitsHeaderCard() <span class="overload">[4/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4783691286e02f0464ba4c813a39964f">&#9670;&nbsp;</a></span>fitsHeaderCard() <span class="overload">[5/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -430,7 +453,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struc
 </div>
 </div>
 <a id="a15d1c5e5a6b97fa1a4a6a0b658b38a7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15d1c5e5a6b97fa1a4a6a0b658b38a7a">&#9670;&nbsp;</a></span>fitsHeaderCard() <span class="overload">[5/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a15d1c5e5a6b97fa1a4a6a0b658b38a7a">&#9670;&nbsp;</a></span>fitsHeaderCard() <span class="overload">[6/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -480,7 +503,7 @@ template&lt;typename typeT &gt; </div>
 </div>
 </div>
 <a id="aeb14e67cd0c5621f3c33ce9a71108500"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb14e67cd0c5621f3c33ce9a71108500">&#9670;&nbsp;</a></span>fitsHeaderCard() <span class="overload">[6/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb14e67cd0c5621f3c33ce9a71108500">&#9670;&nbsp;</a></span>fitsHeaderCard() <span class="overload">[7/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -529,7 +552,7 @@ template&lt;typename typeT &gt; </div>
 </div>
 </div>
 <a id="ae0f2c7b06a9d718a9f24b5468554a044"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0f2c7b06a9d718a9f24b5468554a044">&#9670;&nbsp;</a></span>fitsHeaderCard() <span class="overload">[7/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0f2c7b06a9d718a9f24b5468554a044">&#9670;&nbsp;</a></span>fitsHeaderCard() <span class="overload">[8/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -578,7 +601,7 @@ template&lt;typename typeT &gt; </div>
 </div>
 </div>
 <a id="afebef7a02548f8f0a6f2e9543f231c5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afebef7a02548f8f0a6f2e9543f231c5d">&#9670;&nbsp;</a></span>fitsHeaderCard() <span class="overload">[8/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afebef7a02548f8f0a6f2e9543f231c5d">&#9670;&nbsp;</a></span>fitsHeaderCard() <span class="overload">[9/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -621,7 +644,7 @@ template&lt;typename typeT &gt; </div>
 </div>
 </div>
 <a id="ade476e7a8b8cd12b59c6562e5d1def33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade476e7a8b8cd12b59c6562e5d1def33">&#9670;&nbsp;</a></span>fitsHeaderCard() <span class="overload">[9/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ade476e7a8b8cd12b59c6562e5d1def33">&#9670;&nbsp;</a></span>fitsHeaderCard() <span class="overload">[10/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1055,8 +1078,121 @@ template&lt;typename typeT &gt; </div>
 
 </div>
 </div>
+<a id="a36da5202c6f6d07e0c1ad6efd27628de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36da5202c6f6d07e0c1ad6efd27628de">&#9670;&nbsp;</a></span>write()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mx::improc::fitsHeaderCard::write </td>
+          <td>(</td>
+          <td class="paramtype">fitsfile *&#160;</td>
+          <td class="paramname"><em>fptr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Writes this card to a FITS file, using mx::improc::fits_write_key&lt;typename typeT&gt;(fitsfile * fptr, char * keyword, void * value, char * comment). </p>
+
+<p class="definition">Definition at line <a class="el" href="fitsHeaderCard_8hpp_source.html#l00387">387</a> of file <a class="el" href="fitsHeaderCard_8hpp_source.html">fitsHeaderCard.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="fitsHeaderCard_8hpp_source.html#l00036">comment</a>, <a class="el" href="fitsHeaderCard_8hpp_source.html#l00376">Double()</a>, <a class="el" href="fitsHeaderCard_8hpp_source.html#l00371">Float()</a>, <a class="el" href="fitsHeaderCard_8hpp_source.html#l00339">Int()</a>, <a class="el" href="fitsHeaderCard_8hpp_source.html#l00030">keyword</a>, <a class="el" href="fitsHeaderCard_8hpp_source.html#l00351">Long()</a>, <a class="el" href="fitsHeaderCard_8hpp_source.html#l00361">longLong()</a>, <a class="el" href="fitsHeaderCard_8hpp_source.html#l00039">type</a>, <a class="el" href="fitsHeaderCard_8hpp_source.html#l00356">unsignedLong()</a>, and <a class="el" href="fitsHeaderCard_8hpp_source.html#l00033">value</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="af2cb9503b61404b198071b1bd08fff74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2cb9503b61404b198071b1bd08fff74">&#9670;&nbsp;</a></span>comment</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string mx::improc::fitsHeaderCard::comment</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The comment. </p>
+
+<p class="definition">Definition at line <a class="el" href="fitsHeaderCard_8hpp_source.html#l00036">36</a> of file <a class="el" href="fitsHeaderCard_8hpp_source.html">fitsHeaderCard.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="fitsHeaderCard_8hpp_source.html#l00265">fitsHeaderCard()</a>, and <a class="el" href="fitsHeaderCard_8hpp_source.html#l00387">write()</a>.</p>
+
+</div>
+</div>
+<a id="a88f70f7ae2cc15c07c59b2a4aee29927"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88f70f7ae2cc15c07c59b2a4aee29927">&#9670;&nbsp;</a></span>keyword</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string mx::improc::fitsHeaderCard::keyword</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The keyword. </p>
+
+<p class="definition">Definition at line <a class="el" href="fitsHeaderCard_8hpp_source.html#l00030">30</a> of file <a class="el" href="fitsHeaderCard_8hpp_source.html">fitsHeaderCard.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="fitsHeader_8hpp_source.html#l00370">mx::improc::fitsHeader::append()</a>, <a class="el" href="fitsHeaderCard_8hpp_source.html#l00229">fitsHeaderCard()</a>, <a class="el" href="fitsHeader_8hpp_source.html#l00458">mx::improc::fitsHeader::insert_after()</a>, <a class="el" href="fitsHeader_8hpp_source.html#l00424">mx::improc::fitsHeader::insert_before()</a>, and <a class="el" href="fitsHeaderCard_8hpp_source.html#l00387">write()</a>.</p>
+
+</div>
+</div>
+<a id="af7d158754a1ab50d7d0ea5d50106d58d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7d158754a1ab50d7d0ea5d50106d58d">&#9670;&nbsp;</a></span>type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mx::improc::fitsHeaderCard::type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The FITS type. </p>
+
+<p class="definition">Definition at line <a class="el" href="fitsHeaderCard_8hpp_source.html#l00039">39</a> of file <a class="el" href="fitsHeaderCard_8hpp_source.html">fitsHeaderCard.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="fitsHeader_8hpp_source.html#l00370">mx::improc::fitsHeader::append()</a>, <a class="el" href="fitsHeaderCard_8hpp_source.html#l00229">fitsHeaderCard()</a>, <a class="el" href="fitsHeader_8hpp_source.html#l00458">mx::improc::fitsHeader::insert_after()</a>, <a class="el" href="fitsHeader_8hpp_source.html#l00424">mx::improc::fitsHeader::insert_before()</a>, <a class="el" href="fitsHeaderCard_8hpp_source.html#l00308">setValue()</a>, and <a class="el" href="fitsHeaderCard_8hpp_source.html#l00387">write()</a>.</p>
+
+</div>
+</div>
+<a id="acae04fa9448d5a4ef3413a3bfe0950df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acae04fa9448d5a4ef3413a3bfe0950df">&#9670;&nbsp;</a></span>value</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string mx::improc::fitsHeaderCard::value</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The value. </p>
+
+<p class="definition">Definition at line <a class="el" href="fitsHeaderCard_8hpp_source.html#l00033">33</a> of file <a class="el" href="fitsHeaderCard_8hpp_source.html">fitsHeaderCard.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="fitsHeaderCard_8hpp_source.html#l00376">Double()</a>, <a class="el" href="fitsHeaderCard_8hpp_source.html#l00229">fitsHeaderCard()</a>, <a class="el" href="fitsHeaderCard_8hpp_source.html#l00371">Float()</a>, <a class="el" href="fitsHeaderCard_8hpp_source.html#l00339">Int()</a>, <a class="el" href="fitsHeaderCard_8hpp_source.html#l00351">Long()</a>, <a class="el" href="fitsHeaderCard_8hpp_source.html#l00381">longDouble()</a>, <a class="el" href="fitsHeaderCard_8hpp_source.html#l00361">longLong()</a>, <a class="el" href="fitsHeaderCard_8hpp_source.html#l00308">setValue()</a>, <a class="el" href="fitsHeaderCard_8hpp_source.html#l00330">String()</a>, <a class="el" href="fitsHeaderCard_8hpp_source.html#l00345">unsignedInt()</a>, <a class="el" href="fitsHeaderCard_8hpp_source.html#l00356">unsignedLong()</a>, <a class="el" href="fitsHeaderCard_8hpp_source.html#l00366">unsignedLongLong()</a>, <a class="el" href="fitsHeaderCard_8hpp_source.html#l00315">Value()</a>, and <a class="el" href="fitsHeaderCard_8hpp_source.html#l00387">write()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="fitsHeaderCard_8hpp_source.html">fitsHeaderCard.hpp</a></li>
+<li>improc/<a class="el" href="fitsHeaderCard_8hpp_source.html">fitsHeaderCard.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -1064,7 +1200,7 @@ template&lt;typename typeT &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemx.html">mx</a></li><li class="navelem"><b>improc</b></li><li class="navelem"><a class="el" href="structmx_1_1improc_1_1fitsHeaderCard.html">fitsHeaderCard</a></li>
-    <li class="footer">Generated on Sun Jul 9 2017 12:39:05 for mxlib by
+    <li class="footer">Generated on Mon Jul 10 2017 21:09:10 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

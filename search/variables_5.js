@@ -13,6 +13,7 @@ var searchData=
   ['filesread',['filesRead',['../structmx_1_1improc_1_1HCIobservation.html#abd30b5ddfb7d539c0047e38e064c5cda',1,'mx::improc::HCIobservation']]],
   ['finim',['finim',['../structmx_1_1improc_1_1HCIobservation.html#a6dca452b1fa27742c182778c7b5d0b12',1,'mx::improc::HCIobservation']]],
   ['finimname',['finimName',['../structmx_1_1improc_1_1HCIobservation.html#ae63f1074c0815696211551a81d1de487',1,'mx::improc::HCIobservation']]],
+  ['fit',['fit',['../structmx_1_1improc_1_1imCenterCircleSym.html#aca3502bef35e5b1e5fb6b78f22f397c0',1,'mx::improc::imCenterCircleSym']]],
   ['fluxunits',['fluxUnits',['../structmx_1_1astro_1_1calspecSpectrum.html#a3aa04335d3d387019b07b2cd14647fa9',1,'mx::astro::calspecSpectrum']]],
   ['focalmask',['focalMask',['../structmx_1_1wfp_1_1lyotCoronagraph.html#a90f1656a7bb69d6a4fd33a5f53f84723',1,'mx::wfp::lyotCoronagraph']]]
 ];

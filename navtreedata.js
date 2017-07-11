@@ -41,12 +41,13 @@ var NAVTREEINDEX =
 [
 ".html",
 "classmx_1_1improc_1_1fitsHeader.html#a011f584bb2d76a1bd94302e34d9aafae",
-"fitsUtils_8hpp_source.html",
-"group__astrophot.html#gaee33722e4bd36e354c3a0e15e29ea1df",
-"group__image__transforms.html#ga3d078cbca1634c3e1854a73a0b9aed6d",
-"group__zernike__basis.html#ga4833a57cb9616f08fb9c921c3daed815",
-"structmx_1_1astro_1_1mainSequence.html#a25a64eb09292882035a608a4aa398d27",
-"structmx_1_1improc_1_1HCIobservation.html#a921dc3e8d926171697ecf01d3a518857"
+"fitsUtils_8hpp.html#ga2187199d35666d45a32bdf82f03c2d52",
+"group__astrophot.html#gaae02082c324c59e671f43ae62942ac16",
+"group__image__transforms.html#ga23b9a6fb1491ce76e06009083726d5f6",
+"group__vectorutils.html#ga811bd7f8029cd6844572c47ce18fd54d",
+"structmx_1_1astro_1_1calspecSpectrum.html",
+"structmx_1_1improc_1_1HCIobservation.html#a81540f47ab8821a7624dffd596a81a6b",
+"zernike_8hpp.html#gafd32daa625a62aeb758afac8e251aaa8"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

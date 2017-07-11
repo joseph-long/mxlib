@@ -20,6 +20,7 @@ var searchData=
   ['fftwtypespec_3c_20float_2c_20complexft_20_3e',['fftwTypeSpec&lt; float, complexFT &gt;',['../structmx_1_1fftwTypeSpec_3_01float_00_01complexFT_01_4.html',1,'mx']]],
   ['fftwtypespec_3c_20long_20double_2c_20complexlt_20_3e',['fftwTypeSpec&lt; long double, complexLT &gt;',['../structmx_1_1fftwTypeSpec_3_01long_01double_00_01complexLT_01_4.html',1,'mx']]],
   ['fitgaussian2d',['fitGaussian2D',['../classmx_1_1fitGaussian2D.html',1,'mx']]],
+  ['fitgaussian2d_3c_20mx_3a_3agaussian2d_5fgen_5ffitter_3c_20realt_20_3e_20_3e',['fitGaussian2D&lt; mx::gaussian2D_gen_fitter&lt; realT &gt; &gt;',['../classmx_1_1fitGaussian2D.html',1,'mx']]],
   ['fitsfile',['fitsFile',['../classmx_1_1improc_1_1fitsFile.html',1,'mx::improc']]],
   ['fitsheader',['fitsHeader',['../classmx_1_1improc_1_1fitsHeader.html',1,'mx::improc']]],
   ['fitsheadercard',['fitsHeaderCard',['../structmx_1_1improc_1_1fitsHeaderCard.html',1,'mx::improc']]],

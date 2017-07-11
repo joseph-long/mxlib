@@ -25,6 +25,7 @@ var group__image__processing =
     [ "Image Masks", "group__image__masks.html", "group__image__masks" ],
     [ "Image Transforms", "group__image__transforms.html", "group__image__transforms" ],
     [ "Image Filters", "group__image__filters.html", "group__image__filters" ],
+    [ "Image Registration", "group__image__reg.html", "group__image__reg" ],
     [ "FITS Files", "group__fits__processing.html", "group__fits__processing" ],
     [ "Image Processing with Eigen", "group__eigen__image__processing.html", "group__eigen__image__processing" ],
     [ "High Contrast Imaging", "group__hc__imaging.html", "group__hc__imaging" ],

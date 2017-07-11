@@ -102,10 +102,16 @@ Getting levmar</h1>
 <p>levmar can be found at <a href="http://users.ics.forth.gr/~lourakis/levmar/">http://users.ics.forth.gr/~lourakis/levmar/ </a>.</p>
 <h1><a class="anchor" id="installing_levmar"></a>
 Installing levmar</h1>
-<p>For a static (.a) library, either use cmake to build levmar, or the provided Makefile. With that route you will have to edit the Makefile to provde the correct path to lapack and blas, etc., in the LAPACKLIBS variable.</p>
-<p>If you want a shared (.so) library, you may need to use the Makefile. You will need to add the option -fPIC to the CFLAGS. You may also want to change the AR to ar -r and RANLIB to ar -s. Also edit out any options in the  command in the liblevmar.a rule.</p>
-<p>Finnaly, once the build is complete, turn liblevmar.a into a shared libary like so: </p><div class="fragment"><div class="line">gcc -shared -Wl,-soname,liblevmar.so -o liblevmar.so *.o -rdynamic</div></div><!-- fragment --><p>The location of liblevmar.so and levmar.h should be accessible to your compiler (i.e. in your lib and include directories).</p>
-<dl class="section user"><dt>NOTE:</dt><dd>In levmar.h the line <div class="fragment"><div class="line"><span class="preprocessor">#define LINSOLVERS_RETAIN_MEMORY</span></div></div><!-- fragment --> should be commented out if there is any chance you will use levmar in a multithreaded program. In particular, if you use openmp the compiler will issue a warning at this point in the header.</dd></dl>
+<p>Download the lates levmar from the above link. I am currently on 2.6.</p>
+<p>I typically need to edit the following lines in the Makefile, like so: </p><pre class="fragment">CFLAGS=$(CONFIGFLAGS) $(ARCHFLAGS) -O3 -funroll-loops -Wall -fPIC
+LAPACKLIBS_PATH=/usr/local/atlas/lib
+AR=ar -r
+RANLIB=ar -s
+LAPACKLIBS=-llapack -lcblas -lf77blas  -latlas -lgfortran
+</pre><p> This assumes you are using gcc and ATLAS. If you installed ATLAS somewhere else, modify accordingly. We want a shared (.so) library, this is why we added the option -fPIC to the CFLAGS, and changed the AR to ar -r and RANLIB to ar -s. Also edit out any options in the $(AR) command in the liblevmar.a rule.</p>
+<dl class="section user"><dt>NOTE:</dt><dd>In levmar.h the line <div class="fragment"><div class="line"><span class="preprocessor">#define LINSOLVERS_RETAIN_MEMORY</span></div></div><!-- fragment --> should be commented out if there is any chance you will use levmar in a multithreaded program. In particular, if you use openmp the compiler will issue a warning at this point in the header. I always build levmar with this commented out.</dd></dl>
+<p>Type make to build. Do not worry if it exits with an error &ndash; as long liblevmar.a was made then everything is fine for our purposes.</p>
+<p>Finnaly, once the build is complete, turn liblevmar.a into a shared libary like so: </p><div class="fragment"><div class="line">gcc -shared -Wl,-soname,liblevmar.so -o liblevmar.so *.o -rdynamic</div></div><!-- fragment --><p>The location of liblevmar.so and levmar.h should be accessible to your compiler. I put these in $(HOME)/lib and in $(HOME)/include respectively.</p>
 <h1><a class="anchor" id="levmar_documentation"></a>
 levmar Documentation</h1>
 <p>Some levmar documentation can be found at <a href="http://users.ics.forth.gr/~lourakis/levmar/">http://users.ics.forth.gr/~lourakis/levmar/</a>. The source tree also contains documentation. </p>
@@ -114,7 +120,7 @@ levmar Documentation</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Jul 9 2017 12:39:05 for mxlib by
+    <li class="footer">Generated on Mon Jul 10 2017 21:09:10 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

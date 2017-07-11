@@ -26,6 +26,7 @@ var searchData=
   ['removewhitespace',['removeWhiteSpace',['../group__stringutils.html#ga822ccc1ae53dc6401eec5335186903bc',1,'mx::removeWhiteSpace(std::string &amp;outstr, const std::string &amp;instr)'],['../group__stringutils.html#gaf9578a02f8e527b795ee1b2a27ec8605',1,'mx::removeWhiteSpace(const std::string &amp;instr)']]],
   ['replot',['replot',['../classmx_1_1gnuPlot.html#a05d9ce2626fc7cbc4ea3d319d9b9ed6e',1,'mx::gnuPlot']]],
   ['reset',['reset',['../classmx_1_1laplace__distribution.html#ad944dd1be29ea3b542264d4f6f439153',1,'mx::laplace_distribution']]],
+  ['results',['results',['../structmx_1_1improc_1_1imCenterCircleSym.html#ab6111f8f50ab8d245f3f9841b77dcd36',1,'mx::improc::imCenterCircleSym']]],
   ['rewritephoenixspectrum',['rewritePhoenixSpectrum',['../group__astrophot.html#gaed06fffc3d23784577ebd2823c91f361',1,'mx']]],
   ['rimages',['rImages',['../aoPaths_8hpp.html#a2f1d96644f145d8da37f32e3ff7dcbc8',1,'mx::AO::path::sys::cal']]],
   ['rmat',['rMat',['../aoPaths_8hpp.html#a70a1bd28dba88b6ec5158f36559d068d',1,'mx::AO::path::sys::cal']]],

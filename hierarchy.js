@@ -40,6 +40,7 @@ var hierarchy =
     [ "mx::wfp::fraunhoferPropagator< _wavefrontT >", "classmx_1_1wfp_1_1fraunhoferPropagator.html", null ],
     [ "mx::wfp::fraunhoferPropagator< complexFieldT >", "classmx_1_1wfp_1_1fraunhoferPropagator.html", null ],
     [ "mx::gaussian2D_gen_fitter< _floatT >", "structmx_1_1gaussian2D__gen__fitter.html", null ],
+    [ "mx::gaussian2D_gen_fitter< realT >", "structmx_1_1gaussian2D__gen__fitter.html", null ],
     [ "mx::gaussian2D_sym_fitter< _floatT >", "structmx_1_1gaussian2D__sym__fitter.html", null ],
     [ "mx::improc::gaussKernel< _arrayT, _kernW >", "structmx_1_1improc_1_1gaussKernel.html", null ],
     [ "mx::gnuPlot", "classmx_1_1gnuPlot.html", null ],
@@ -50,12 +51,16 @@ var hierarchy =
       ] ]
     ] ],
     [ "mx::wfp::idealCoronagraph< _realT >", "structmx_1_1wfp_1_1idealCoronagraph.html", null ],
+    [ "mx::improc::imCenterCircleSym< realT >", "structmx_1_1improc_1_1imCenterCircleSym.html", null ],
     [ "mx::is_eigenCube< T >", "structmx_1_1is__eigenCube.html", null ],
     [ "mx::is_imagingArray< T >", "structmx_1_1is__imagingArray.html", null ],
     [ "mx::astro::units::jupiter< _realT >", "structmx_1_1astro_1_1units_1_1jupiter.html", null ],
     [ "mx::laplace_distribution< _RealType >", "classmx_1_1laplace__distribution.html", null ],
     [ "mx::levmarInterface< fitterT >", "classmx_1_1levmarInterface.html", [
       [ "mx::fitGaussian2D< fitterT >", "classmx_1_1fitGaussian2D.html", null ]
+    ] ],
+    [ "mx::levmarInterface< mx::gaussian2D_gen_fitter< realT > >", "classmx_1_1levmarInterface.html", [
+      [ "mx::fitGaussian2D< mx::gaussian2D_gen_fitter< realT > >", "classmx_1_1fitGaussian2D.html", null ]
     ] ],
     [ "mx::wfp::lyotCoronagraph< _realT, _fpmaskFloatT >", "structmx_1_1wfp_1_1lyotCoronagraph.html", null ],
     [ "mx::astro::mainSequence< realT >", "structmx_1_1astro_1_1mainSequence.html", null ],

@@ -4,7 +4,7 @@ var searchData=
   ['addcell',['addCell',['../group__stringutils.html#ga9b29c5892983c8a67f9fd0cb58385a3c',1,'mx::textTable::addCell(int row, int col, const std::string &amp;cell)'],['../group__stringutils.html#gacb7b925603b82a005583e229903fecc2',1,'mx::textTable::addCell(int row, int col, const char *cell)'],['../group__stringutils.html#ga5f095c96cbf0daefd3ecef4a101d2506',1,'mx::textTable::addCell(int row, int col, const typeT &amp;cell, int precision=0)']]],
   ['addframe',['addframe',['../classmx_1_1improc_1_1ds9Interface.html#a6f259c2005b6016238952ae53d7fa9b4',1,'mx::improc::ds9Interface']]],
   ['addsegment',['addsegment',['../classmx_1_1improc_1_1ds9Interface.html#a6d86456e3b927151add115fcf67da548',1,'mx::improc::ds9Interface']]],
-  ['airy',['airy',['../group__psfs.html#ga9e32641929818da35f7740c7a6ecf3bc',1,'mx::airy(floatT x)'],['../group__psfs.html#ga77522ac55b523b1bdf6ff88800daae5c',1,'mx::airy(floatT x, floatT eps)']]],
+  ['airy',['airy',['../group__psfs.html#gaca002878593d379d0dc9e2c62fe4488c',1,'mx::wfp::airy(floatT x)'],['../group__psfs.html#ga802dd966c12770e7931e0570905a41d9',1,'mx::wfp::airy(floatT x, floatT eps)']]],
   ['allocate_5fparams',['allocate_params',['../classmx_1_1levmarInterface.html#a8b86dd77883dc329b17bf88fd70b8e3a',1,'mx::levmarInterface::allocate_params()'],['../classmx_1_1levmarInterface.html#a42bdbc04f625d73e1257e3d956669c57',1,'mx::levmarInterface::allocate_params(int i_m)']]],
   ['allocate_5fwork',['allocate_work',['../classmx_1_1levmarInterface.html#a8b4681f0d576a26a94af8c81d277cb55',1,'mx::levmarInterface']]],
   ['anglediff',['angleDiff',['../group__geo.html#gad5c0633245d7d9009eef8b27b13883cf',1,'mx']]],

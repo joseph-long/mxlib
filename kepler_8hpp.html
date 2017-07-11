@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>mxlib: kepler.hpp File Reference</title>
+<title>mxlib: astro/kepler.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -118,13 +118,11 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga7b401ae9c745645f05a7afba53f0530a"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__kepler.html#ga7b401ae9c745645f05a7afba53f0530a">KEPLER_TOL</a>&#160;&#160;&#160;(1e-8)</td></tr>
-<tr class="memdesc:ga7b401ae9c745645f05a7afba53f0530a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default tolerance for solutions to the Kepler problem. <br /></td></tr>
+<tr class="memitem:ga7b401ae9c745645f05a7afba53f0530a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__kepler.html#ga7b401ae9c745645f05a7afba53f0530a">KEPLER_TOL</a>&#160;&#160;&#160;(1e-8)</td></tr>
+<tr class="memdesc:ga7b401ae9c745645f05a7afba53f0530a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default tolerance for solutions to the Kepler problem.  <a href="group__kepler.html#ga7b401ae9c745645f05a7afba53f0530a">More...</a><br /></td></tr>
 <tr class="separator:ga7b401ae9c745645f05a7afba53f0530a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga92fa5b5d7f060e8ca1e044acf532743d"><td class="memItemLeft" align="right" valign="top">
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__kepler.html#ga92fa5b5d7f060e8ca1e044acf532743d">KEPLER_ITMAX</a>&#160;&#160;&#160;(1000)</td></tr>
-<tr class="memdesc:ga92fa5b5d7f060e8ca1e044acf532743d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default maximum number of iterations for solutions to the Kepler problem. <br /></td></tr>
+<tr class="memitem:ga92fa5b5d7f060e8ca1e044acf532743d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__kepler.html#ga92fa5b5d7f060e8ca1e044acf532743d">KEPLER_ITMAX</a>&#160;&#160;&#160;(1000)</td></tr>
+<tr class="memdesc:ga92fa5b5d7f060e8ca1e044acf532743d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default maximum number of iterations for solutions to the Kepler problem.  <a href="group__kepler.html#ga92fa5b5d7f060e8ca1e044acf532743d">More...</a><br /></td></tr>
 <tr class="separator:ga92fa5b5d7f060e8ca1e044acf532743d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -133,10 +131,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga2486776bb73ecc3ebf0c998b50b702a0"><td class="memTemplItemLeft" align="right" valign="top">long&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__kepler.html#ga2486776bb73ecc3ebf0c998b50b702a0">mx::astro::hyperbolic_kepler</a> (realT &amp;E, realT &amp;err, realT e, realT M, realT tol, long itmax)</td></tr>
 <tr class="memdesc:ga2486776bb73ecc3ebf0c998b50b702a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve the hyperbolic kepler equation (for e&gt; 1).  <a href="group__kepler.html#ga2486776bb73ecc3ebf0c998b50b702a0">More...</a><br /></td></tr>
 <tr class="separator:ga2486776bb73ecc3ebf0c998b50b702a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga20ecc112eb6e955934bee6f44b85f02a"><td class="memTemplParams" colspan="2">
-template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:ga20ecc112eb6e955934bee6f44b85f02a"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
 <tr class="memitem:ga20ecc112eb6e955934bee6f44b85f02a"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__kepler.html#ga20ecc112eb6e955934bee6f44b85f02a">mx::astro::kepler_danby_1</a> (realT e, realT M, realT Ei)</td></tr>
-<tr class="memdesc:ga20ecc112eb6e955934bee6f44b85f02a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the next iteration of Danby's quartic Newton-Raphson method. <br /></td></tr>
+<tr class="memdesc:ga20ecc112eb6e955934bee6f44b85f02a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the next iteration of Danby's quartic Newton-Raphson method.  <a href="group__kepler.html#ga20ecc112eb6e955934bee6f44b85f02a">More...</a><br /></td></tr>
 <tr class="separator:ga20ecc112eb6e955934bee6f44b85f02a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga02cfa22e91f93dc7da9e52aa9b6ac1b8"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
 <tr class="memitem:ga02cfa22e91f93dc7da9e52aa9b6ac1b8"><td class="memTemplItemLeft" align="right" valign="top">long&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__kepler.html#ga02cfa22e91f93dc7da9e52aa9b6ac1b8">mx::astro::solve_kepler_danby</a> (realT &amp;E, realT &amp;D, realT e, realT M, realT tol, long itmax)</td></tr>
@@ -152,8 +149,8 @@ template&lt;typename realT &gt; </td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_0fc3206047eab508bd310c9d22a11fd1.html">astro</a></li><li class="navelem"><a class="el" href="kepler_8hpp.html">kepler.hpp</a></li>
-    <li class="footer">Generated on Sun Jul 9 2017 12:39:04 for mxlib by
+    <li class="navelem"><a class="el" href="dir_0fc3206047eab508bd310c9d22a11fd1.html">astro</a></li><li class="navelem"><a class="el" href="kepler_8hpp.html">kepler.hpp</a></li>
+    <li class="footer">Generated on Mon Jul 10 2017 21:09:10 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

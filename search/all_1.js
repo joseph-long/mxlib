@@ -10,7 +10,7 @@ var searchData=
   ['adiderotator_2ehpp',['ADIDerotator.hpp',['../ADIDerotator_8hpp.html',1,'']]],
   ['adiobservation',['ADIobservation',['../structmx_1_1improc_1_1ADIobservation.html',1,'mx::improc']]],
   ['adiobservation_2ehpp',['ADIobservation.hpp',['../ADIobservation_8hpp.html',1,'']]],
-  ['airy',['airy',['../group__psfs.html#ga9e32641929818da35f7740c7a6ecf3bc',1,'mx::airy(floatT x)'],['../group__psfs.html#ga77522ac55b523b1bdf6ff88800daae5c',1,'mx::airy(floatT x, floatT eps)']]],
+  ['airy',['airy',['../group__psfs.html#gaca002878593d379d0dc9e2c62fe4488c',1,'mx::wfp::airy(floatT x)'],['../group__psfs.html#ga802dd966c12770e7931e0570905a41d9',1,'mx::wfp::airy(floatT x, floatT eps)']]],
   ['airy_2ehpp',['airy.hpp',['../airy_8hpp.html',1,'']]],
   ['allocate_5fparams',['allocate_params',['../classmx_1_1levmarInterface.html#a8b86dd77883dc329b17bf88fd70b8e3a',1,'mx::levmarInterface::allocate_params()'],['../classmx_1_1levmarInterface.html#a42bdbc04f625d73e1257e3d956669c57',1,'mx::levmarInterface::allocate_params(int i_m)']]],
   ['allocate_5fwork',['allocate_work',['../classmx_1_1levmarInterface.html#a8b4681f0d576a26a94af8c81d277cb55',1,'mx::levmarInterface']]],

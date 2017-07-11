@@ -102,47 +102,39 @@ struct mx::improc::ADIDerotator&lt; _realT &gt;</h3>
 
 <p class="definition">Definition at line <a class="el" href="ADIDerotator_8hpp_source.html#l00026">26</a> of file <a class="el" href="ADIDerotator_8hpp_source.html">ADIDerotator.hpp</a>.</p>
 </div>
-<p><code>#include &lt;<a class="el" href="ADIDerotator_8hpp_source.html">ADIDerotator.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="ADIDerotator_8hpp_source.html">improc/ADIDerotator.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab57d856b714be709de9ee4d9b9cd9bf0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1ADIDerotator.html#ab57d856b714be709de9ee4d9b9cd9bf0">angleKeyword</a> (const std::string &amp;akw)</td></tr>
 <tr class="memdesc:ab57d856b714be709de9ee4d9b9cd9bf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the angle keyword.  <a href="#ab57d856b714be709de9ee4d9b9cd9bf0">More...</a><br /></td></tr>
 <tr class="separator:ab57d856b714be709de9ee4d9b9cd9bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56b967b912c90cd72c6f85acec6671b1"><td class="memItemLeft" align="right" valign="top"><a id="a56b967b912c90cd72c6f85acec6671b1"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1ADIDerotator.html#a56b967b912c90cd72c6f85acec6671b1">isSetup</a> ()</td></tr>
-<tr class="memdesc:a56b967b912c90cd72c6f85acec6671b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">To allow <a class="el" href="structmx_1_1improc_1_1ADIobservation.html" title="Process an angular differential imaging (ADI) observation. ">ADIobservation</a> to check for errors. <br /></td></tr>
+<tr class="memitem:a56b967b912c90cd72c6f85acec6671b1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1ADIDerotator.html#a56b967b912c90cd72c6f85acec6671b1">isSetup</a> ()</td></tr>
+<tr class="memdesc:a56b967b912c90cd72c6f85acec6671b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">To allow <a class="el" href="structmx_1_1improc_1_1ADIobservation.html" title="Process an angular differential imaging (ADI) observation. ">ADIobservation</a> to check for errors.  <a href="#a56b967b912c90cd72c6f85acec6671b1">More...</a><br /></td></tr>
 <tr class="separator:a56b967b912c90cd72c6f85acec6671b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a819d41a5833f433e829f26575c95401f"><td class="memItemLeft" align="right" valign="top"><a id="a819d41a5833f433e829f26575c95401f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1ADIDerotator.html#a819d41a5833f433e829f26575c95401f">extractKeywords</a> (std::vector&lt; <a class="el" href="classmx_1_1improc_1_1fitsHeader.html">fitsHeader</a> &gt; &amp;heads)</td></tr>
-<tr class="memdesc:a819d41a5833f433e829f26575c95401f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method called by <a class="el" href="structmx_1_1improc_1_1ADIobservation.html" title="Process an angular differential imaging (ADI) observation. ">ADIobservation</a> to get keyword-values. <br /></td></tr>
+<tr class="memitem:a819d41a5833f433e829f26575c95401f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1ADIDerotator.html#a819d41a5833f433e829f26575c95401f">extractKeywords</a> (std::vector&lt; <a class="el" href="classmx_1_1improc_1_1fitsHeader.html">fitsHeader</a> &gt; &amp;heads)</td></tr>
+<tr class="memdesc:a819d41a5833f433e829f26575c95401f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method called by <a class="el" href="structmx_1_1improc_1_1ADIobservation.html" title="Process an angular differential imaging (ADI) observation. ">ADIobservation</a> to get keyword-values.  <a href="#a819d41a5833f433e829f26575c95401f">More...</a><br /></td></tr>
 <tr class="separator:a819d41a5833f433e829f26575c95401f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79094f80cce7d2bd2375a3084c616e49"><td class="memItemLeft" align="right" valign="top"><a id="a79094f80cce7d2bd2375a3084c616e49"></a>
-realT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1ADIDerotator.html#a79094f80cce7d2bd2375a3084c616e49">derotAngle</a> (size_t imno) const</td></tr>
-<tr class="memdesc:a79094f80cce7d2bd2375a3084c616e49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the derotation angle for a given image number. <br /></td></tr>
+<tr class="memitem:a79094f80cce7d2bd2375a3084c616e49"><td class="memItemLeft" align="right" valign="top">realT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1ADIDerotator.html#a79094f80cce7d2bd2375a3084c616e49">derotAngle</a> (size_t imno) const</td></tr>
+<tr class="memdesc:a79094f80cce7d2bd2375a3084c616e49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the derotation angle for a given image number.  <a href="#a79094f80cce7d2bd2375a3084c616e49">More...</a><br /></td></tr>
 <tr class="separator:a79094f80cce7d2bd2375a3084c616e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a045a35874d9721585d0cea0e735c247e"><td class="memItemLeft" align="right" valign="top"><a id="a045a35874d9721585d0cea0e735c247e"></a>
-std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1ADIDerotator.html#a045a35874d9721585d0cea0e735c247e">keywords</a></td></tr>
-<tr class="memdesc:a045a35874d9721585d0cea0e735c247e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of keywords to extract from the fits headers. <br /></td></tr>
+<tr class="memitem:a045a35874d9721585d0cea0e735c247e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1ADIDerotator.html#a045a35874d9721585d0cea0e735c247e">keywords</a></td></tr>
+<tr class="memdesc:a045a35874d9721585d0cea0e735c247e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of keywords to extract from the fits headers.  <a href="#a045a35874d9721585d0cea0e735c247e">More...</a><br /></td></tr>
 <tr class="separator:a045a35874d9721585d0cea0e735c247e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af57554ecb186591562e64157347cdafa"><td class="memItemLeft" align="right" valign="top"><a id="af57554ecb186591562e64157347cdafa"></a>
-std::vector&lt; realT &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1ADIDerotator.html#af57554ecb186591562e64157347cdafa">angles</a></td></tr>
-<tr class="memdesc:af57554ecb186591562e64157347cdafa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector(s) to hold the keyword values. <br /></td></tr>
+<tr class="memitem:af57554ecb186591562e64157347cdafa"><td class="memItemLeft" align="right" valign="top">std::vector&lt; realT &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1ADIDerotator.html#af57554ecb186591562e64157347cdafa">angles</a></td></tr>
+<tr class="memdesc:af57554ecb186591562e64157347cdafa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector(s) to hold the keyword values.  <a href="#af57554ecb186591562e64157347cdafa">More...</a><br /></td></tr>
 <tr class="separator:af57554ecb186591562e64157347cdafa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebc2233256d107e264c126c20ed04b69"><td class="memItemLeft" align="right" valign="top"><a id="aebc2233256d107e264c126c20ed04b69"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1ADIDerotator.html#aebc2233256d107e264c126c20ed04b69">_angleKeyword</a></td></tr>
-<tr class="memdesc:aebc2233256d107e264c126c20ed04b69"><td class="mdescLeft">&#160;</td><td class="mdescRight">The keyword for the angle attribute. Do not set this directly. <br /></td></tr>
+<tr class="memitem:aebc2233256d107e264c126c20ed04b69"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1ADIDerotator.html#aebc2233256d107e264c126c20ed04b69">_angleKeyword</a></td></tr>
+<tr class="memdesc:aebc2233256d107e264c126c20ed04b69"><td class="mdescLeft">&#160;</td><td class="mdescRight">The keyword for the angle attribute. Do not set this directly.  <a href="#aebc2233256d107e264c126c20ed04b69">More...</a><br /></td></tr>
 <tr class="separator:aebc2233256d107e264c126c20ed04b69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b522bc9b7c5d0920288b8fa3ee3d964"><td class="memItemLeft" align="right" valign="top"><a id="a8b522bc9b7c5d0920288b8fa3ee3d964"></a>
-realT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1ADIDerotator.html#a8b522bc9b7c5d0920288b8fa3ee3d964">angleScale</a></td></tr>
-<tr class="memdesc:a8b522bc9b7c5d0920288b8fa3ee3d964"><td class="mdescLeft">&#160;</td><td class="mdescRight">The scale to multiply the angle by. <br /></td></tr>
+<tr class="memitem:a8b522bc9b7c5d0920288b8fa3ee3d964"><td class="memItemLeft" align="right" valign="top">realT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1ADIDerotator.html#a8b522bc9b7c5d0920288b8fa3ee3d964">angleScale</a></td></tr>
+<tr class="memdesc:a8b522bc9b7c5d0920288b8fa3ee3d964"><td class="mdescLeft">&#160;</td><td class="mdescRight">The scale to multiply the angle by.  <a href="#a8b522bc9b7c5d0920288b8fa3ee3d964">More...</a><br /></td></tr>
 <tr class="separator:a8b522bc9b7c5d0920288b8fa3ee3d964"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12cc1bd257ace8416c1e0900b8906c8d"><td class="memItemLeft" align="right" valign="top"><a id="a12cc1bd257ace8416c1e0900b8906c8d"></a>
-realT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1ADIDerotator.html#a12cc1bd257ace8416c1e0900b8906c8d">angleConstant</a></td></tr>
-<tr class="memdesc:a12cc1bd257ace8416c1e0900b8906c8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constant to add to the scaled-angle. <br /></td></tr>
+<tr class="memitem:a12cc1bd257ace8416c1e0900b8906c8d"><td class="memItemLeft" align="right" valign="top">realT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1ADIDerotator.html#a12cc1bd257ace8416c1e0900b8906c8d">angleConstant</a></td></tr>
+<tr class="memdesc:a12cc1bd257ace8416c1e0900b8906c8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constant to add to the scaled-angle.  <a href="#a12cc1bd257ace8416c1e0900b8906c8d">More...</a><br /></td></tr>
 <tr class="separator:a12cc1bd257ace8416c1e0900b8906c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -185,8 +177,210 @@ template&lt;typename _realT &gt; </div>
 
 </div>
 </div>
+<a id="a79094f80cce7d2bd2375a3084c616e49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79094f80cce7d2bd2375a3084c616e49">&#9670;&nbsp;</a></span>derotAngle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename _realT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">realT <a class="el" href="structmx_1_1improc_1_1ADIDerotator.html">mx::improc::ADIDerotator</a>&lt; _realT &gt;::derotAngle </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>imno</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate the derotation angle for a given image number. </p>
+
+<p class="definition">Definition at line <a class="el" href="ADIDerotator_8hpp_source.html#l00071">71</a> of file <a class="el" href="ADIDerotator_8hpp_source.html">ADIDerotator.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="geo_8hpp_source.html#l00050">mx::dtor()</a>.</p>
+
+</div>
+</div>
+<a id="a819d41a5833f433e829f26575c95401f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a819d41a5833f433e829f26575c95401f">&#9670;&nbsp;</a></span>extractKeywords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename _realT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structmx_1_1improc_1_1ADIDerotator.html">mx::improc::ADIDerotator</a>&lt; _realT &gt;::extractKeywords </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classmx_1_1improc_1_1fitsHeader.html">fitsHeader</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>heads</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Method called by <a class="el" href="structmx_1_1improc_1_1ADIobservation.html" title="Process an angular differential imaging (ADI) observation. ">ADIobservation</a> to get keyword-values. </p>
+
+<p class="definition">Definition at line <a class="el" href="ADIDerotator_8hpp_source.html#l00065">65</a> of file <a class="el" href="ADIDerotator_8hpp_source.html">ADIDerotator.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="ADIDerotator_8hpp_source.html#l00037">mx::improc::ADIDerotator&lt; _realT &gt;::_angleKeyword</a>.</p>
+
+</div>
+</div>
+<a id="a56b967b912c90cd72c6f85acec6671b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56b967b912c90cd72c6f85acec6671b1">&#9670;&nbsp;</a></span>isSetup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename _realT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="structmx_1_1improc_1_1ADIDerotator.html">mx::improc::ADIDerotator</a>&lt; _realT &gt;::isSetup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>To allow <a class="el" href="structmx_1_1improc_1_1ADIobservation.html" title="Process an angular differential imaging (ADI) observation. ">ADIobservation</a> to check for errors. </p>
+
+<p class="definition">Definition at line <a class="el" href="ADIDerotator_8hpp_source.html#l00058">58</a> of file <a class="el" href="ADIDerotator_8hpp_source.html">ADIDerotator.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aebc2233256d107e264c126c20ed04b69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebc2233256d107e264c126c20ed04b69">&#9670;&nbsp;</a></span>_angleKeyword</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename _realT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string <a class="el" href="structmx_1_1improc_1_1ADIDerotator.html">mx::improc::ADIDerotator</a>&lt; _realT &gt;::_angleKeyword</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The keyword for the angle attribute. Do not set this directly. </p>
+
+<p class="definition">Definition at line <a class="el" href="ADIDerotator_8hpp_source.html#l00037">37</a> of file <a class="el" href="ADIDerotator_8hpp_source.html">ADIDerotator.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="ADIDerotator_8hpp_source.html#l00065">mx::improc::ADIDerotator&lt; _realT &gt;::extractKeywords()</a>.</p>
+
+</div>
+</div>
+<a id="a12cc1bd257ace8416c1e0900b8906c8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12cc1bd257ace8416c1e0900b8906c8d">&#9670;&nbsp;</a></span>angleConstant</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename _realT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">realT <a class="el" href="structmx_1_1improc_1_1ADIDerotator.html">mx::improc::ADIDerotator</a>&lt; _realT &gt;::angleConstant</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The constant to add to the scaled-angle. </p>
+
+<p class="definition">Definition at line <a class="el" href="ADIDerotator_8hpp_source.html#l00049">49</a> of file <a class="el" href="ADIDerotator_8hpp_source.html">ADIDerotator.hpp</a>.</p>
+
+</div>
+</div>
+<a id="af57554ecb186591562e64157347cdafa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af57554ecb186591562e64157347cdafa">&#9670;&nbsp;</a></span>angles</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename _realT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;realT&gt; <a class="el" href="structmx_1_1improc_1_1ADIDerotator.html">mx::improc::ADIDerotator</a>&lt; _realT &gt;::angles</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Vector(s) to hold the keyword values. </p>
+
+<p class="definition">Definition at line <a class="el" href="ADIDerotator_8hpp_source.html#l00034">34</a> of file <a class="el" href="ADIDerotator_8hpp_source.html">ADIDerotator.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8b522bc9b7c5d0920288b8fa3ee3d964"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b522bc9b7c5d0920288b8fa3ee3d964">&#9670;&nbsp;</a></span>angleScale</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename _realT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">realT <a class="el" href="structmx_1_1improc_1_1ADIDerotator.html">mx::improc::ADIDerotator</a>&lt; _realT &gt;::angleScale</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The scale to multiply the angle by. </p>
+
+<p class="definition">Definition at line <a class="el" href="ADIDerotator_8hpp_source.html#l00048">48</a> of file <a class="el" href="ADIDerotator_8hpp_source.html">ADIDerotator.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a045a35874d9721585d0cea0e735c247e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a045a35874d9721585d0cea0e735c247e">&#9670;&nbsp;</a></span>keywords</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename _realT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::string&gt; <a class="el" href="structmx_1_1improc_1_1ADIDerotator.html">mx::improc::ADIDerotator</a>&lt; _realT &gt;::keywords</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Vector of keywords to extract from the fits headers. </p>
+
+<p class="definition">Definition at line <a class="el" href="ADIDerotator_8hpp_source.html#l00031">31</a> of file <a class="el" href="ADIDerotator_8hpp_source.html">ADIDerotator.hpp</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="ADIDerotator_8hpp_source.html">ADIDerotator.hpp</a></li>
+<li>improc/<a class="el" href="ADIDerotator_8hpp_source.html">ADIDerotator.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -194,7 +388,7 @@ template&lt;typename _realT &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemx.html">mx</a></li><li class="navelem"><b>improc</b></li><li class="navelem"><a class="el" href="structmx_1_1improc_1_1ADIDerotator.html">ADIDerotator</a></li>
-    <li class="footer">Generated on Sun Jul 9 2017 12:39:05 for mxlib by
+    <li class="footer">Generated on Mon Jul 10 2017 21:09:10 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -2,7 +2,7 @@ var searchData=
 [
   ['scal',['scal',['../group__template__blas.html#gad877f6b8eeca8bad2f5339d9ad427ba0',1,'templateBLAS.hpp']]],
   ['seed',['seed',['../classmx_1_1randomT.html#a9a99633b219364b0b642388851b84172',1,'mx::randomT::seed(typename ranengT::result_type seedval)'],['../classmx_1_1randomT.html#ac84b97de546e657e63bbe0c9864496fa',1,'mx::randomT::seed()']]],
-  ['seeinghalo',['seeingHalo',['../group__psfs.html#ga933513977233da0f7a3da4a13be8cfe7',1,'mx']]],
+  ['seeinghalo',['seeingHalo',['../group__psfs.html#ga2757211a82d87f16649449b125527fcb',1,'mx::wfp']]],
   ['set_5fitmax',['set_itmax',['../classmx_1_1levmarInterface.html#a2e7c2bfede722d27d556014c181e94eb',1,'mx::levmarInterface']]],
   ['set_5fnparams',['set_nparams',['../classmx_1_1levmarInterface.html#af6fe32eba4d50f44ca1bd41c368ee775',1,'mx::levmarInterface']]],
   ['set_5fopts',['set_opts',['../classmx_1_1levmarInterface.html#ae4a29f70ca99ac892c5ee71a1db09749',1,'mx::levmarInterface']]],
