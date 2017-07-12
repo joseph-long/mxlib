@@ -16,5 +16,8 @@ var searchData=
   ['headeriterator',['headerIterator',['../classmx_1_1improc_1_1fitsHeader.html#afb10926e3d11d3159c1ffce6dd4f2ee1',1,'mx::improc::fitsHeader']]],
   ['headerstovalues',['headersToValues',['../group__fits__utils.html#ga85ea40f5b9c71405952b19998289acf4',1,'mx::improc::headersToValues(std::vector&lt; dataT &gt; &amp;v, const std::vector&lt; fitsHeader &gt; &amp;heads, const std::string &amp;keyw)'],['../group__fits__utils.html#ga3346d9e5b86d3ef7f9857e68bbbc22c7',1,'mx::improc::headersToValues(const std::vector&lt; fitsHeader &gt; &amp;heads, const std::string &amp;keyw)']]],
   ['heads',['heads',['../structmx_1_1improc_1_1HCIobservation.html#af560fca98d70e1c14d70e6f863eddd9b',1,'mx::improc::HCIobservation']]],
+  ['help',['help',['../classmx_1_1application.html#a48278a0bd48bc4eec62f42254f1a8090',1,'mx::application']]],
+  ['helpexplanation',['helpExplanation',['../structmx_1_1configTarget.html#a574fb49045c2ecdd049a871108c958b2',1,'mx::configTarget']]],
+  ['helptype',['helpType',['../structmx_1_1configTarget.html#a86786c392cbe82ddb1a451c9d71f7f13',1,'mx::configTarget']]],
   ['hyperbolic_5fkepler',['hyperbolic_kepler',['../group__kepler.html#ga2486776bb73ecc3ebf0c998b50b702a0',1,'mx::astro']]]
 ];

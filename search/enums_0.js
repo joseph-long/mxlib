@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['combinemethods',['combineMethods',['../group__hc__imaging__enums.html#ga1af050405983cd62f812ec2c6809603e',1,'mx::improc::HCI']]]
+  ['argtype',['argType',['../namespacemx.html#a88799fd60ab328afdc65eb953e9d7ebf',1,'mx']]]
 ];

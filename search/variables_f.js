@@ -1,6 +1,10 @@
 var searchData=
 [
-  ['p',['p',['../structmx_1_1fourierModeDef.html#a3f6f37ce270764def32e983169e5db80',1,'mx::fourierModeDef::p()'],['../classmx_1_1levmarInterface.html#a31570dc8600c74a9c90453d2f295e859',1,'mx::levmarInterface::p()']]],
+  ['p',['p',['../structmx_1_1fourierModeDef.html#a3f6f37ce270764def32e983169e5db80',1,'mx::fourierModeDef::p()'],['../classmx_1_1levmarInterface.html#a31570dc8600c74a9c90453d2f295e859',1,'mx::levmarInterface::p()'],['../structmx_1_1AO_1_1fourierCovariance.html#a114834d4c95d1651866468791db03da0',1,'mx::AO::fourierCovariance::p()']]],
+  ['phase',['phase',['../structmx_1_1AO_1_1sim_1_1wavefront.html#ae39b6ba6a7e1d09ef0221c9dc06871bf',1,'mx::AO::sim::wavefront']]],
+  ['phi_5fw',['phi_w',['../structmx_1_1AO_1_1fourierCovariance.html#a8f76717c1065c8337e58cf0ef135d9e6',1,'mx::AO::fourierCovariance']]],
+  ['poissonvar',['poissonVar',['../classmx_1_1AO_1_1sim_1_1ccdDetector.html#a31d3114bae837e4de58bad3880963d9a',1,'mx::AO::sim::ccdDetector']]],
+  ['pp',['pp',['../structmx_1_1AO_1_1fourierCovariance.html#a294f51fc90a47cea5984b333a2fb50c1',1,'mx::AO::fourierCovariance']]],
   ['preprocess_5fazusm_5fazw',['preProcess_azUSM_azW',['../structmx_1_1improc_1_1HCIobservation.html#a8ad1c66fd705f0e89024542bca9ccf22',1,'mx::improc::HCIobservation']]],
   ['preprocess_5fazusm_5fradw',['preProcess_azUSM_radW',['../structmx_1_1improc_1_1HCIobservation.html#a7d83c8371870998aa4d0c8f4dabd78e7',1,'mx::improc::HCIobservation']]],
   ['preprocess_5fbeforecoadd',['preProcess_beforeCoadd',['../structmx_1_1improc_1_1HCIobservation.html#a70d6af687ced0adb1392283abf4f3707',1,'mx::improc::HCIobservation']]],

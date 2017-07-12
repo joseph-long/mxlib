@@ -40,14 +40,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"classmx_1_1improc_1_1fitsHeader.html#a011f584bb2d76a1bd94302e34d9aafae",
-"fitsUtils_8hpp.html#ga2187199d35666d45a32bdf82f03c2d52",
-"group__astrophot.html#gaae02082c324c59e671f43ae62942ac16",
-"group__image__transforms.html#ga23b9a6fb1491ce76e06009083726d5f6",
-"group__vectorutils.html#ga811bd7f8029cd6844572c47ce18fd54d",
-"structmx_1_1astro_1_1calspecSpectrum.html",
-"structmx_1_1improc_1_1HCIobservation.html#a81540f47ab8821a7624dffd596a81a6b",
-"zernike_8hpp.html#gafd32daa625a62aeb758afac8e251aaa8"
+"classmx_1_1AO_1_1aoSystem.html#a8d2ef2dad8beab539f616adcb137e0be",
+"classmx_1_1improc_1_1ds9Interface.html#a0815404f9952a06cf83651796a9d2e00",
+"classsharedMemSegment.html#a137c4affadf9d590a132ec7d1a6ad87b",
+"geo_8hpp.html",
+"group__fits__utils.html#ga5dc073d8726b978ab2226c67b4eaa702",
+"group__psds.html#ga216662edc588d9fe32929a2e11cbc06b",
+"levmarInterface_8hpp_source.html",
+"structmx_1_1AO_1_1fourierTemporalPSD.html#ac3c0b3d6db47af7b7e864e415843ca03",
+"structmx_1_1improc_1_1ADIDerotator.html",
+"structmx_1_1textTable.html#a75449843f36efcabf94d037f574970c3"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['r_5f0',['r_0',['../classmx_1_1AO_1_1aoAtmosphere.html#a9764aa60e3e3c9659d5ccdcd0c944b2f',1,'mx::AO::aoAtmosphere::r_0()'],['../classmx_1_1AO_1_1aoAtmosphere.html#af46df2c4e602a953499b8208004e6b98',1,'mx::AO::aoAtmosphere::r_0(const realT &amp;lam)'],['../classmx_1_1AO_1_1aoAtmosphere.html#ad91d96317a1810b14c63521509a0e00b',1,'mx::AO::aoAtmosphere::r_0(const realT &amp;r0, const realT &amp;l0)']]],
   ['radangimage',['radAngImage',['../group__image__masks.html#gaaf4fbb53416132ec8bbdb3f9084b1213',1,'mx::improc']]],
   ['radearth',['radEarth',['../group__dimensioned__constants.html#ga42888c72ceadec15dad0b7d0f3e6980c',1,'mx::astro::constants']]],
   ['radiusimage',['radiusImage',['../group__image__masks.html#ga0b1f9636c839f8361e971f07780136d1',1,'mx::improc::radiusImage(eigenT &amp;m, typename eigenT::Scalar xc, typename eigenT::Scalar yc, typename eigenT::Scalar scale=1)'],['../group__image__masks.html#gac65a4fe6489e4a02901d7fcfcbc2bc78',1,'mx::improc::radiusImage(eigenT &amp;m, typename eigenT::Scalar scale=1)']]],
@@ -17,12 +18,15 @@ var searchData=
   ['readbtram',['readBTRAM',['../group__astrophot.html#ga07d441d960a7de459cf5703cb8295801',1,'mx']]],
   ['readcalspec',['readCalspec',['../group__astrophot.html#ga143925d7c8f870845714c095496a5d62',1,'mx']]],
   ['readcolumns',['readColumns',['../group__ioutils.html#ga148553afcf2e558f95fa63f489af5051',1,'mx']]],
+  ['readconfig',['readConfig',['../structmx_1_1appConfigurator.html#a7a668dacdb861c6f4e225242f93d41a9',1,'mx::appConfigurator']]],
   ['readearthshine',['readEarthShine',['../group__astrophot.html#ga7b5510b1c262c719d3ce00093763cc8f',1,'mx::readEarthShine(std::vector&lt; dataT &gt; &amp;lambda, std::vector&lt; dataT &gt; &amp;albedo, std::string &amp;datadir=&quot;&quot;)'],['../group__astrophot.html#ga28a13f34e17a06a8524417b917866653',1,'mx::readEarthShine(std::vector&lt; dataT &gt; &amp;lambda, std::vector&lt; dataT &gt; &amp;albedo)']]],
   ['readfiles',['readFiles',['../structmx_1_1improc_1_1ADIobservation.html#a33c53f6db2d2d3ca9fa603827001dc9d',1,'mx::improc::ADIobservation::readFiles()'],['../structmx_1_1improc_1_1HCIobservation.html#a6db8cba45cd927c6914c0d9b612d07aa',1,'mx::improc::HCIobservation::readFiles()']]],
   ['readheader',['readHeader',['../classmx_1_1improc_1_1fitsFile.html#a9ceae5721089aedf752c8d52d5cbcfde',1,'mx::improc::fitsFile::readHeader(fitsHeader &amp;head)'],['../classmx_1_1improc_1_1fitsFile.html#aa42ccfbf272e08d3081294d7169aac3a',1,'mx::improc::fitsFile::readHeader(fitsHeader &amp;head, const std::string &amp;fname)'],['../classmx_1_1improc_1_1fitsFile.html#a4229629af7e047fe2563d7126e87bf67',1,'mx::improc::fitsFile::readHeader(std::vector&lt; fitsHeader &gt; &amp;heads, const std::vector&lt; std::string &gt; &amp;flist)']]],
   ['readphoenix',['readPhoenix',['../group__astrophot.html#ga1020c936030c6629282cc814eca8d08f',1,'mx']]],
   ['readpickles',['readPickles',['../group__astrophot.html#ga31335d0526d4a67c3c78b6eb9072ad4a',1,'mx']]],
   ['readweights',['readWeights',['../structmx_1_1improc_1_1HCIobservation.html#a68d20a4e16e5cfbe6d9a95295406e151',1,'mx::improc::HCIobservation']]],
+  ['reconstruct',['reconstruct',['../classmx_1_1AO_1_1sim_1_1directPhaseReconstructor.html#a8ab9d14b769855f6f863d5c43486752e',1,'mx::AO::sim::directPhaseReconstructor::reconstruct(measurementT &amp;commandVect, wfsImageT &amp;wfsImage)'],['../classmx_1_1AO_1_1sim_1_1directPhaseReconstructor.html#a8ab9d14b769855f6f863d5c43486752e',1,'mx::AO::sim::directPhaseReconstructor::reconstruct(measurementT &amp;commandVect, wfsImageT &amp;wfsImage)'],['../classmx_1_1AO_1_1sim_1_1pywfsSlopeReconstructor.html#a110bbfa6aa98d63497b5fe3740d19a87',1,'mx::AO::sim::pywfsSlopeReconstructor::reconstruct()']]],
+  ['reltol',['relTol',['../structmx_1_1AO_1_1fourierTemporalPSD.html#a4ceefdf9edac6fc3eabce1cc7b214dc6',1,'mx::AO::fourierTemporalPSD::relTol(realT rt)'],['../structmx_1_1AO_1_1fourierTemporalPSD.html#a8cb192d04649db7d938e7244270e9178',1,'mx::AO::fourierTemporalPSD::relTol()']]],
   ['removewhitespace',['removeWhiteSpace',['../group__stringutils.html#ga822ccc1ae53dc6401eec5335186903bc',1,'mx::removeWhiteSpace(std::string &amp;outstr, const std::string &amp;instr)'],['../group__stringutils.html#gaf9578a02f8e527b795ee1b2a27ec8605',1,'mx::removeWhiteSpace(const std::string &amp;instr)']]],
   ['replot',['replot',['../classmx_1_1gnuPlot.html#a05d9ce2626fc7cbc4ea3d319d9b9ed6e',1,'mx::gnuPlot']]],
   ['reset',['reset',['../classmx_1_1laplace__distribution.html#ad944dd1be29ea3b542264d4f6f439153',1,'mx::laplace_distribution']]],
@@ -30,6 +34,7 @@ var searchData=
   ['rewritephoenixspectrum',['rewritePhoenixSpectrum',['../group__astrophot.html#gaed06fffc3d23784577ebd2823c91f361',1,'mx']]],
   ['rimages',['rImages',['../aoPaths_8hpp.html#a2f1d96644f145d8da37f32e3ff7dcbc8',1,'mx::AO::path::sys::cal']]],
   ['rmat',['rMat',['../aoPaths_8hpp.html#a70a1bd28dba88b6ec5158f36559d068d',1,'mx::AO::path::sys::cal']]],
+  ['ron_5fwfs',['ron_wfs',['../classmx_1_1AO_1_1aoSystem.html#aac530fd7487ff3e861e7f21c425d05bd',1,'mx::AO::aoSystem::ron_wfs(realT nron)'],['../classmx_1_1AO_1_1aoSystem.html#a96b25b51f326d07aa7d0ec452554a2c9',1,'mx::AO::aoSystem::ron_wfs()']]],
   ['root',['root',['../group__mxAO__paths.html#gacdc2275d0092d14ac2a56be9047bca85',1,'mx::AO::path::basis::root()'],['../aoPaths_8hpp.html#ae15063a696ee85f352987ab233b40ee5',1,'mx::AO::path::dm::root()'],['../aoPaths_8hpp.html#a63cadf1f78b2b6df6966f740e3058077',1,'mx::AO::path::pupil::root()'],['../aoPaths_8hpp.html#a1f7fa884358515b4f69a8cfa4ec30fec',1,'mx::AO::path::sys::root()'],['../aoPaths_8hpp.html#aab63f7178f0a9f96e13dd7b99310e327',1,'mx::AO::path::sys::cal::root()']]],
   ['rows',['rows',['../classmx_1_1psdFilter.html#a1a85813ac98306769aeb7b127833c32c',1,'mx::psdFilter']]],
   ['rtod',['rtod',['../group__geo.html#gae5df7dc5b76526af1657e2b5c5b877c5',1,'mx']]]

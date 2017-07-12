@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['ycen',['ycen',['../classmx_1_1wfp_1_1fraunhoferPropagator.html#ab87f18c1e9d2474182dfb4c82201a91c',1,'mx::wfp::fraunhoferPropagator']]]
+  ['x',['x',['../classmx_1_1levmarInterface.html#ae67103569afdd6ac760b586db1e98b89',1,'mx::levmarInterface']]],
+  ['xcen',['xcen',['../classmx_1_1wfp_1_1fraunhoferPropagator.html#a5563d55681716a31ae2fc856971f43ac',1,'mx::wfp::fraunhoferPropagator']]]
 ];

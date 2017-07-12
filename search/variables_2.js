@@ -4,6 +4,8 @@ var searchData=
   ['cards',['cards',['../classmx_1_1improc_1_1fitsHeader.html#a139bfba2e066a8d741ec60b9f0248f5d',1,'mx::improc::fitsHeader']]],
   ['centerfocal',['centerFocal',['../classmx_1_1wfp_1_1fraunhoferPropagator.html#ab9823dea12b909f0e0626c6216e50071',1,'mx::wfp::fraunhoferPropagator']]],
   ['centerpupil',['centerPupil',['../classmx_1_1wfp_1_1fraunhoferPropagator.html#a78dc5c1497b61e6f1497082ce00b096d',1,'mx::wfp::fraunhoferPropagator']]],
+  ['clonlytargets',['clOnlyTargets',['../structmx_1_1appConfigurator.html#ad986120b39a26aa8136e861d00bdc4a6',1,'mx::appConfigurator']]],
+  ['cltype',['clType',['../structmx_1_1configTarget.html#a7459a127d6b0d8a1b5ea4ef83c954ae3',1,'mx::configTarget']]],
   ['coaddcombinemethod',['coaddCombineMethod',['../structmx_1_1improc_1_1HCIobservation.html#a07f7166867dfb7e500b098039267904c',1,'mx::improc::HCIobservation']]],
   ['coaddkeywords',['coaddKeywords',['../structmx_1_1improc_1_1HCIobservation.html#ae1faf4621c92fe0df4da6c5b1b97eba1',1,'mx::improc::HCIobservation']]],
   ['coaddmaximno',['coaddMaxImno',['../structmx_1_1improc_1_1HCIobservation.html#a2748c600b261aee2107cc33125f48455',1,'mx::improc::HCIobservation']]],

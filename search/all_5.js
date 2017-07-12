@@ -13,6 +13,8 @@ var searchData=
   ['eigensyevr',['eigenSYEVR',['../namespacemx.html#a5dc96970e6a8191696cf99d5459731a5',1,'mx']]],
   ['eigensyrk',['eigenSYRK',['../namespacemx.html#a4759ae46579e597dad5fcd1b9bc06df7',1,'mx']]],
   ['elb',['ELB',['../group__sofa__constants.html#gad456db8785d8f80e9e3be300820e3412',1,'sofa_constants.h']]],
+  ['eleven_5fsixths',['eleven_sixths',['../group__aoConstants.html#gaf804a8ecdece60d564df36771ec60c33',1,'mx::AO::constants']]],
+  ['eleven_5fthirds',['eleven_thirds',['../group__aoConstants.html#ga0f8405c977fa3c5d6c183d8d6ed003c7',1,'mx::AO::constants']]],
   ['elg',['ELG',['../group__sofa__constants.html#gacd108e20f71c7aeafd5f50dcc9d487d1',1,'sofa_constants.h']]],
   ['empty',['empty',['../classmx_1_1improc_1_1fitsHeader.html#a4f74abb8efc7a57945e665c81eb49825',1,'mx::improc::fitsHeader']]],
   ['end',['end',['../classmx_1_1improc_1_1fitsHeader.html#ab822fd1f21bbe54953bec6c6b40e372e',1,'mx::improc::fitsHeader']]],
@@ -27,6 +29,7 @@ var searchData=
   ['error_20handling_20files',['Error Handling Files',['../group__error__handling__files.html',1,'']]],
   ['error_20handling_20macros',['Error Handling Macros',['../group__error__macros.html',1,'']]],
   ['error_5freport',['error_report',['../group__error__handling.html#ga56a81b53911bc4cf6de96f0a0b1885c7',1,'mx']]],
+  ['etfderivative',['etfDerivative',['../structmx_1_1AO_1_1clGainOpt.html#a0d18b54f0064e696d31bdbbeb05e1b60',1,'mx::AO::clGainOpt']]],
   ['exactfinimname',['exactFinimName',['../structmx_1_1improc_1_1HCIobservation.html#a018089dc8ca06307a683631a4c0b2f50',1,'mx::improc::HCIobservation']]],
   ['except_5fcode',['except_code',['../classmxException.html#abeb706caf2acd70d1b12a283f74b0a9f',1,'mxException']]],
   ['except_5fcode_5fmnem',['except_code_mnem',['../classmxException.html#a05a659382d87668ddaf4d39a1bca344e',1,'mxException']]],
@@ -40,7 +43,9 @@ var searchData=
   ['excludemethods',['excludeMethods',['../group__hc__imaging__enums.html#ga7bedc230d1b422b72f51ddcec55deaed',1,'mx::improc::HCI']]],
   ['excludenone',['excludeNone',['../group__hc__imaging__enums.html#gga7bedc230d1b422b72f51ddcec55deaeda6ffc2f84e2b15449da555a36819faa69',1,'mx::improc::HCI']]],
   ['excludepixel',['excludePixel',['../group__hc__imaging__enums.html#gga7bedc230d1b422b72f51ddcec55deaeda0891b70655197e1f42a28c71a2ce2508',1,'mx::improc::HCI']]],
+  ['execute',['execute',['../classmx_1_1application.html#a70db2cc94470121def8fea9ca0f56b52',1,'mx::application']]],
   ['expdistt',['expDistT',['../group__random.html#gad47f8d163003db6d1dd446069573371c',1,'mx']]],
+  ['exposeimage',['exposeImage',['../classmx_1_1AO_1_1sim_1_1ccdDetector.html#a9ac73a873ae5711781214fb066e6dbf8',1,'mx::AO::sim::ccdDetector']]],
   ['extractkeywords',['extractKeywords',['../structmx_1_1improc_1_1ADIDerotator.html#a819d41a5833f433e829f26575c95401f',1,'mx::improc::ADIDerotator']]],
   ['execution',['Execution',['../group__fftw__template__exec.html',1,'']]]
 ];

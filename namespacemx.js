@@ -1,7 +1,27 @@
 var namespacemx =
 [
     [ "AO", null, [
-      [ "path", "namespacemx_1_1AO_1_1path.html", null ]
+      [ "path", "namespacemx_1_1AO_1_1path.html", null ],
+      [ "sim", null, [
+        [ "ccdDetector", "classmx_1_1AO_1_1sim_1_1ccdDetector.html", "classmx_1_1AO_1_1sim_1_1ccdDetector" ],
+        [ "directPhaseReconstructor", "classmx_1_1AO_1_1sim_1_1directPhaseReconstructor.html", "classmx_1_1AO_1_1sim_1_1directPhaseReconstructor" ],
+        [ "generalIntegrator", "classmx_1_1AO_1_1sim_1_1generalIntegrator.html", "classmx_1_1AO_1_1sim_1_1generalIntegrator" ],
+        [ "leakyIntegrator", "classmx_1_1AO_1_1sim_1_1leakyIntegrator.html", "classmx_1_1AO_1_1sim_1_1leakyIntegrator" ],
+        [ "pywfsSlopeReconstructor", "classmx_1_1AO_1_1sim_1_1pywfsSlopeReconstructor.html", "classmx_1_1AO_1_1sim_1_1pywfsSlopeReconstructor" ],
+        [ "simulatedAOSystem", "classmx_1_1AO_1_1sim_1_1simulatedAOSystem.html", "classmx_1_1AO_1_1sim_1_1simulatedAOSystem" ],
+        [ "turbAtmosphere", "structmx_1_1AO_1_1sim_1_1turbAtmosphere.html", "structmx_1_1AO_1_1sim_1_1turbAtmosphere" ],
+        [ "turbLayer", "structmx_1_1AO_1_1sim_1_1turbLayer.html", "structmx_1_1AO_1_1sim_1_1turbLayer" ],
+        [ "wavefront", "structmx_1_1AO_1_1sim_1_1wavefront.html", "structmx_1_1AO_1_1sim_1_1wavefront" ]
+      ] ],
+      [ "aoAtmosphere", "classmx_1_1AO_1_1aoAtmosphere.html", "classmx_1_1AO_1_1aoAtmosphere" ],
+      [ "aoSystem", "classmx_1_1AO_1_1aoSystem.html", "classmx_1_1AO_1_1aoSystem" ],
+      [ "clGainOpt", "structmx_1_1AO_1_1clGainOpt.html", "structmx_1_1AO_1_1clGainOpt" ],
+      [ "clGainOptOptGain_OL", "structmx_1_1AO_1_1clGainOptOptGain__OL.html", null ],
+      [ "clMaxStableGainOpt", "structmx_1_1AO_1_1clMaxStableGainOpt.html", null ],
+      [ "fourierCovariance", "structmx_1_1AO_1_1fourierCovariance.html", "structmx_1_1AO_1_1fourierCovariance" ],
+      [ "fourierTemporalPSD", "structmx_1_1AO_1_1fourierTemporalPSD.html", "structmx_1_1AO_1_1fourierTemporalPSD" ],
+      [ "pywfsUnmod", "structmx_1_1AO_1_1pywfsUnmod.html", "structmx_1_1AO_1_1pywfsUnmod" ],
+      [ "vonKarmanSpectrum", "structmx_1_1AO_1_1vonKarmanSpectrum.html", "structmx_1_1AO_1_1vonKarmanSpectrum" ]
     ] ],
     [ "astro", null, [
       [ "units", null, [
@@ -35,8 +55,12 @@ var namespacemx =
       [ "idealCoronagraph", "structmx_1_1wfp_1_1idealCoronagraph.html", "structmx_1_1wfp_1_1idealCoronagraph" ],
       [ "lyotCoronagraph", "structmx_1_1wfp_1_1lyotCoronagraph.html", "structmx_1_1wfp_1_1lyotCoronagraph" ]
     ] ],
+    [ "appConfigurator", "structmx_1_1appConfigurator.html", "structmx_1_1appConfigurator" ],
+    [ "application", "classmx_1_1application.html", "classmx_1_1application" ],
     [ "array2Fit", "structmx_1_1array2Fit.html", "structmx_1_1array2Fit" ],
     [ "autocorrelationFromPSD", "structmx_1_1autocorrelationFromPSD.html", "structmx_1_1autocorrelationFromPSD" ],
+    [ "clOptions", "structmx_1_1clOptions.html", "structmx_1_1clOptions" ],
+    [ "configTarget", "structmx_1_1configTarget.html", "structmx_1_1configTarget" ],
     [ "eigenArrPlanes", "structmx_1_1eigenArrPlanes.html", null ],
     [ "fftT< _inputT, _outputT, _dim, 0 >", "classmx_1_1fftT_3_01__inputT_00_01__outputT_00_01__dim_00_010_01_4.html", "classmx_1_1fftT_3_01__inputT_00_01__outputT_00_01__dim_00_010_01_4" ],
     [ "fftwPlanSpec", "structmx_1_1fftwPlanSpec.html", "structmx_1_1fftwPlanSpec" ],

@@ -89,6 +89,7 @@ $(document).ready(function(){initNavTree('namespacemx.html','');});
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">mx Namespace Reference</div>  </div>
@@ -102,11 +103,23 @@ $(document).ready(function(){initNavTree('namespacemx.html','');});
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1appConfigurator.html">appConfigurator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to manage a set of configurable values, and read their values from config/ini files and the command line.  <a href="structmx_1_1appConfigurator.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1application.html">application</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class for managing application configuration and execution.  <a href="classmx_1_1application.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1array2Fit.html">array2Fit</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper for a native array to pass to <a class="el" href="classmx_1_1levmarInterface.html">levmarInterface</a>.  <a href="structmx_1_1array2Fit.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1autocorrelationFromPSD.html">autocorrelationFromPSD</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functor for calculating the autocorrelation given a PSD.  <a href="structmx_1_1autocorrelationFromPSD.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1clOptions.html">clOptions</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Command line options parser.  <a href="structmx_1_1clOptions.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1configTarget.html">configTarget</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A configuration target.  <a href="structmx_1_1configTarget.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1eigenArrPlanes.html">eigenArrPlanes</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function object to retun the number of planes for any Eigen like object, whether 2D or a 3D cube.  <a href="structmx_1_1eigenArrPlanes.html#details">More...</a><br /></td></tr>
@@ -245,6 +258,12 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga893d800e4194e8e14bbec29e81f96ff7"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__random.html#ga893d800e4194e8e14bbec29e81f96ff7">lapDistT</a> = <a class="el" href="classmx_1_1randomT.html">randomT</a>&lt; realT, std::mt19937_64, <a class="el" href="classmx_1_1laplace__distribution.html">laplace_distribution</a>&lt; realT &gt; &gt;</td></tr>
 <tr class="memdesc:ga893d800e4194e8e14bbec29e81f96ff7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for a laplace random variate.  <a href="group__random.html#ga893d800e4194e8e14bbec29e81f96ff7">More...</a><br /></td></tr>
 <tr class="separator:ga893d800e4194e8e14bbec29e81f96ff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a88799fd60ab328afdc65eb953e9d7ebf"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemx.html#a88799fd60ab328afdc65eb953e9d7ebf">argType</a> <tr class="memdesc:a88799fd60ab328afdc65eb953e9d7ebf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Argument types.  <a href="namespacemx.html#a88799fd60ab328afdc65eb953e9d7ebf">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a88799fd60ab328afdc65eb953e9d7ebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -894,6 +913,25 @@ Functions</h2></td></tr>
 <tr class="memdesc:gaaa8fe60d58135a9d42842bbb4d127d7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill in an Eigen-like array with a Zernike polynomial.  <a href="group__zernike__basis.html#gaaa8fe60d58135a9d42842bbb4d127d7c">More...</a><br /></td></tr>
 <tr class="separator:gaaa8fe60d58135a9d42842bbb4d127d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a88799fd60ab328afdc65eb953e9d7ebf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88799fd60ab328afdc65eb953e9d7ebf">&#9670;&nbsp;</a></span>argType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacemx.html#a88799fd60ab328afdc65eb953e9d7ebf">mx::argType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Argument types. </p>
+
+<p class="definition">Definition at line <a class="el" href="clOptions_8hpp_source.html#l00024">24</a> of file <a class="el" href="clOptions_8hpp_source.html">clOptions.hpp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a5dc96970e6a8191696cf99d5459731a5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5dc96970e6a8191696cf99d5459731a5">&#9670;&nbsp;</a></span>eigenSYEVR()</h2>
@@ -1212,7 +1250,7 @@ template&lt;typename _RealType , typename _CharT , typename _Traits &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemx.html">mx</a></li>
-    <li class="footer">Generated on Mon Jul 10 2017 21:09:10 for mxlib by
+    <li class="footer">Generated on Tue Jul 11 2017 21:37:30 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

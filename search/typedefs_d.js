@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['wavefrontt',['wavefrontT',['../classmx_1_1wfp_1_1fraunhoferPropagator.html#ad19f27f229499d31f9525bc946b2f04f',1,'mx::wfp::fraunhoferPropagator']]]
+  ['unidistt',['uniDistT',['../group__random.html#ga848abbe0d8297949ee7796b1f0a5d8de',1,'mx']]]
 ];

@@ -8,6 +8,8 @@ var searchData=
   ['fitsheadercard_2ehpp',['fitsHeaderCard.hpp',['../fitsHeaderCard_8hpp.html',1,'']]],
   ['fitsutils_2ehpp',['fitsUtils.hpp',['../fitsUtils_8hpp.html',1,'']]],
   ['fourierbasis_2ehpp',['fourierBasis.hpp',['../fourierBasis_8hpp.html',1,'']]],
+  ['fouriercovariance_2ehpp',['fourierCovariance.hpp',['../fourierCovariance_8hpp.html',1,'']]],
   ['fouriermodes_2ehpp',['fourierModes.hpp',['../fourierModes_8hpp.html',1,'']]],
+  ['fouriertemporalpsd_2ehpp',['fourierTemporalPSD.hpp',['../fourierTemporalPSD_8hpp.html',1,'']]],
   ['fraunhoferpropagator_2ehpp',['fraunhoferPropagator.hpp',['../fraunhoferPropagator_8hpp.html',1,'']]]
 ];

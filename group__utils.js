@@ -6,5 +6,6 @@ var group__utils =
     [ "File System Utilities", "group__fileutils.html", "group__fileutils" ],
     [ "Multi-threading Utilities", "group__mtutils.html", "group__mtutils" ],
     [ "System Programming", "group__system.html", "group__system" ],
+    [ "An Application Framework", "group__mxApp.html", "group__mxApp" ],
     [ "Utility Files", "group__utils__files.html", "group__utils__files" ]
 ];

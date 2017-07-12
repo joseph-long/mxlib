@@ -1,8 +1,11 @@
 var searchData=
 [
+  ['z',['Z',['../classmx_1_1AO_1_1aoAtmosphere.html#a21d57c16ae56c8e956a0721fc7513455',1,'mx::AO::aoAtmosphere']]],
+  ['z_5fmean',['z_mean',['../classmx_1_1AO_1_1aoAtmosphere.html#a7b0e1901ea26f7b6e81a4887547c771b',1,'mx::AO::aoAtmosphere::z_mean()'],['../classmx_1_1AO_1_1aoAtmosphere.html#a1e78329caea6cc8259237f3910b282e5',1,'mx::AO::aoAtmosphere::z_mean(const realT &amp;zm)']]],
   ['zernike',['zernike',['../group__zernike__basis.html#gaedc4f1d8bd08d2f0ecd67e6fc1ceb396',1,'mx::zernike(realT rho, realT phi, int n, int m, std::vector&lt; realT &gt; &amp;c)'],['../group__zernike__basis.html#gaeb9167937cb880c50411d8f72aeda392',1,'mx::zernike(realT rho, realT phi, int n, int m)'],['../group__zernike__basis.html#ga7059f72a290f065c2d46f10a0552f409',1,'mx::zernike(realT rho, realT phi, int j)'],['../group__zernike__basis.html#gad8ee2b760024e8106bf5aa4688121efa',1,'mx::zernike(arrayT &amp;arr, int n, int m, typename arrayT::Scalar xcen, typename arrayT::Scalar ycen, typename arrayT::Scalar rad=-1)'],['../group__zernike__basis.html#ga287ee271daf7ed5e8cd004a72f93a52b',1,'mx::zernike(arrayT &amp;arr, int j, typename arrayT::Scalar xcen, typename arrayT::Scalar ycen, typename arrayT::Scalar rad=-1)'],['../group__zernike__basis.html#gafd32daa625a62aeb758afac8e251aaa8',1,'mx::zernike(arrayT &amp;arr, int n, int m, typename arrayT::Scalar rad=-1)'],['../group__zernike__basis.html#gaaa8fe60d58135a9d42842bbb4d127d7c',1,'mx::zernike(arrayT &amp;arr, int j, typename arrayT::Scalar rad=-1)']]],
   ['zernike_2ehpp',['zernike.hpp',['../zernike_8hpp.html',1,'']]],
   ['zernikebasis_2ehpp',['zernikeBasis.hpp',['../zernikeBasis_8hpp.html',1,'']]],
   ['zerniker',['zernikeR',['../group__zernike__basis.html#gac5672544a29f1666018194086ac6192c',1,'mx::zernikeR(realT rho, int n, int m, std::vector&lt; realT &gt; &amp;c)'],['../group__zernike__basis.html#ga58b8a06ed1599cdda9bf0410b5fb6d3e',1,'mx::zernikeR(realT rho, int n, int m)']]],
-  ['zernikercoeffs',['zernikeRCoeffs',['../group__zernike__basis.html#gac0e1bdc2cca8db3a202cb89049595721',1,'mx']]]
+  ['zernikercoeffs',['zernikeRCoeffs',['../group__zernike__basis.html#gac0e1bdc2cca8db3a202cb89049595721',1,'mx']]],
+  ['zeta',['zeta',['../classmx_1_1AO_1_1aoSystem.html#ae0e3e011be0b46679f48003c8f074d33',1,'mx::AO::aoSystem::zeta(realT nz)'],['../classmx_1_1AO_1_1aoSystem.html#ad8d8e428fefbd66dcc623c9fc1aa3d73',1,'mx::AO::aoSystem::zeta()']]]
 ];
