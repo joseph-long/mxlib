@@ -10,6 +10,7 @@ var searchData=
   ['fakepa',['fakePA',['../structmx_1_1improc_1_1ADIobservation.html#a437e17de2aecb90ceeb49a1d172f891e',1,'mx::improc::ADIobservation']]],
   ['fakescalefilename',['fakeScaleFileName',['../structmx_1_1improc_1_1ADIobservation.html#a79570844b73d46abdbe0401d4f55dcb2',1,'mx::improc::ADIobservation']]],
   ['fakesep',['fakeSep',['../structmx_1_1improc_1_1ADIobservation.html#a9f59a3b12db52c41ed08baeb9eb854a3',1,'mx::improc::ADIobservation']]],
+  ['false',['False',['../structmx_1_1meta_1_1trueFalseT_3_01false_01_4.html#aa9192b4fb9a312a98a67817528694386',1,'mx::meta::trueFalseT&lt; false &gt;']]],
   ['fastestpeak',['fastestPeak',['../structmx_1_1AO_1_1fourierTemporalPSD.html#a021ea10ca514361d4a3e8a83aced2ea8',1,'mx::AO::fourierTemporalPSD']]],
   ['fbg',['Fbg',['../classmx_1_1AO_1_1aoSystem.html#af842011ede06bfffabaca01b57c57cde',1,'mx::AO::aoSystem::Fbg(realT fbg)'],['../classmx_1_1AO_1_1aoSystem.html#a62a35648a7f61fd6ad3eee2bafc60d89',1,'mx::AO::aoSystem::Fbg()']]],
   ['fast_20fourier_20transforms',['Fast Fourier Transforms',['../group__fft.html',1,'']]],

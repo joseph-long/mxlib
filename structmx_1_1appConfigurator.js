@@ -10,8 +10,9 @@ var structmx_1_1appConfigurator =
     [ "get", "structmx_1_1appConfigurator.html#a30ca566ee16bf8cf1711e18033f377ae", null ],
     [ "get", "structmx_1_1appConfigurator.html#ada3199ab9231b9090a74ab1894aca7c5", null ],
     [ "get", "structmx_1_1appConfigurator.html#adc9e07b8568f4478a0e9bd34c0fbc431", null ],
+    [ "get", "structmx_1_1appConfigurator.html#a6e1b77966673d86ac93c9d8365419f61", null ],
     [ "isSet", "structmx_1_1appConfigurator.html#a7da71a77762c5d18df2d0af5a6e76050", null ],
-    [ "parseCommandLine", "structmx_1_1appConfigurator.html#a8a6ff3396cffa1a0ce547c5c5d5ce86d", null ],
+    [ "parseCommandLine", "structmx_1_1appConfigurator.html#ac851f27b280f03833d8355ff0da48c43", null ],
     [ "readConfig", "structmx_1_1appConfigurator.html#a7a668dacdb861c6f4e225242f93d41a9", null ],
     [ "clOnlyTargets", "structmx_1_1appConfigurator.html#ad986120b39a26aa8136e861d00bdc4a6", null ],
     [ "targets", "structmx_1_1appConfigurator.html#aa53893cc79fd08306a00ceefeb40d3b1", null ]

@@ -63,6 +63,7 @@ var searchData=
   ['measurementsize',['measurementSize',['../classmx_1_1AO_1_1sim_1_1directPhaseReconstructor.html#a5c30899f4723ce2407afe33b0f8fa676',1,'mx::AO::sim::directPhaseReconstructor::measurementSize()'],['../classmx_1_1AO_1_1sim_1_1directPhaseReconstructor.html#a5c30899f4723ce2407afe33b0f8fa676',1,'mx::AO::sim::directPhaseReconstructor::measurementSize()'],['../classmx_1_1AO_1_1sim_1_1pywfsSlopeReconstructor.html#a9cee34ae6fbbd10a10f88e581ce99298',1,'mx::AO::sim::pywfsSlopeReconstructor::measurementSize()']]],
   ['median',['median',['../classmx_1_1improc_1_1eigenCube.html#a8daeb429a3a2dc7ce5ce9c21036c2790',1,'mx::improc::eigenCube']]],
   ['mediancombine',['medianCombine',['../group__hc__imaging__enums.html#gga1af050405983cd62f812ec2c6809603eaf2b98cc56b125154fa3d0e16ebba0433',1,'mx::improc::HCI']]],
+  ['meta_2dprogramming_20utilities_2e',['Meta-programming Utilities.',['../group__meta.html',1,'']]],
   ['min',['min',['../classmx_1_1laplace__distribution.html#ad92e084f3a4c83cfeae0c6248baf101d',1,'mx::laplace_distribution']]],
   ['mindpx',['mindpx',['../structmx_1_1improc_1_1KLIPreduction.html#a1d4c35d162bfdf021f27a85563802e6e',1,'mx::improc::KLIPreduction']]],
   ['minhks',['minHKs',['../structmx_1_1astro_1_1mainSequence.html#a47eb1c4752c1dde67250d54814e130ad',1,'mx::astro::mainSequence']]],

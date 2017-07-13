@@ -5,6 +5,7 @@ var group__timeutils =
     [ "Cal2mjd", "group__timeutils.html#gacdd110d0d8cca27cc959b33b666ce885", null ],
     [ "get_curr_time", "group__timeutils.html#ga06a225fe04bb8236fec9d8afdbb3b94e", null ],
     [ "ISO8601date2mjd", "group__timeutils.html#gaaed5d9d66ee5f53b72cc1b423d4a5c44", null ],
+    [ "ISO8601dateBreakdown", "group__timeutils.html#ga9c9ce4871cb82d3363af3b577f11520b", null ],
     [ "ISO8601DateTimeStr", "group__timeutils.html#ga4f7f57095346e9b07d01b3a9566d55a0", null ],
     [ "ISO8601DateTimeStr", "group__timeutils.html#ga13480d3d24f7676bd5ef4730e558c95a", null ],
     [ "ISO8601DateTimeStr< time_t >", "group__timeutils.html#gae8c301b28a67a2e7e1055ec7ff7e6e1b", null ],

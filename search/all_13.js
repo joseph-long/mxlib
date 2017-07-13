@@ -31,6 +31,8 @@ var searchData=
   ['setsinglelayer',['setSingleLayer',['../classmx_1_1AO_1_1aoAtmosphere.html#a2eef1262036875a7cb7be345290d1f05',1,'mx::AO::aoAtmosphere']]],
   ['setsize',['setSize',['../classmx_1_1psdFilter.html#a23792d1f860b24696a5eeef316082649',1,'mx::psdFilter']]],
   ['setup',['setup',['../classmx_1_1application.html#a3cf62c46fadf1c59ed10210faa38d5e3',1,'mx::application::setup()'],['../structmx_1_1AO_1_1sim_1_1turbAtmosphere.html#a0875ff60b0cd531545a614e9df52e3d9',1,'mx::AO::sim::turbAtmosphere::setup()']]],
+  ['setupconfig',['setupConfig',['../classmx_1_1application.html#adbc55e4e058b45b1003abcfc65ca1f80',1,'mx::application']]],
+  ['setupstandardconfig',['setupStandardConfig',['../classmx_1_1application.html#a2243312b3d57bd2cd97b43311a3e52a1',1,'mx::application']]],
   ['setvalue',['setValue',['../structmx_1_1improc_1_1fitsHeaderCard.html#a303a6e04daadff1129b90a6a8f4ce46d',1,'mx::improc::fitsHeaderCard']]],
   ['setwavefrontsizepixels',['setWavefrontSizePixels',['../classmx_1_1wfp_1_1fraunhoferPropagator.html#a5d8f63e45cb651756ab1c524805f49ef',1,'mx::wfp::fraunhoferPropagator']]],
   ['setzero',['setZero',['../structmx_1_1AO_1_1sim_1_1wavefront.html#a9449f30d83b93b664a6e051c5f90d62e',1,'mx::AO::sim::wavefront']]],

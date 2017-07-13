@@ -50,6 +50,15 @@ var namespacemx =
       [ "imCenterCircleSym", "structmx_1_1improc_1_1imCenterCircleSym.html", "structmx_1_1improc_1_1imCenterCircleSym" ],
       [ "KLIPreduction", "structmx_1_1improc_1_1KLIPreduction.html", "structmx_1_1improc_1_1KLIPreduction" ]
     ] ],
+    [ "meta", null, [
+      [ "has_value_type< T, void_t< typename T::value_type > >", "structmx_1_1meta_1_1has__value__type_3_01T_00_01void__t_3_01typename_01T_1_1value__type_01_4_01_4.html", null ],
+      [ "is_std_vector", "structmx_1_1meta_1_1is__std__vector.html", null ],
+      [ "is_std_vector< T, false >", "structmx_1_1meta_1_1is__std__vector_3_01T_00_01false_01_4.html", null ],
+      [ "is_std_vector< T, true >", "structmx_1_1meta_1_1is__std__vector_3_01T_00_01true_01_4.html", null ],
+      [ "trueFalseT", "structmx_1_1meta_1_1trueFalseT.html", null ],
+      [ "trueFalseT< false >", "structmx_1_1meta_1_1trueFalseT_3_01false_01_4.html", "structmx_1_1meta_1_1trueFalseT_3_01false_01_4" ],
+      [ "trueFalseT< true >", "structmx_1_1meta_1_1trueFalseT_3_01true_01_4.html", "structmx_1_1meta_1_1trueFalseT_3_01true_01_4" ]
+    ] ],
     [ "wfp", null, [
       [ "fraunhoferPropagator", "classmx_1_1wfp_1_1fraunhoferPropagator.html", "classmx_1_1wfp_1_1fraunhoferPropagator" ],
       [ "idealCoronagraph", "structmx_1_1wfp_1_1idealCoronagraph.html", "structmx_1_1wfp_1_1idealCoronagraph" ],

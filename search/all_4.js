@@ -36,6 +36,7 @@ var searchData=
   ['djy',['DJY',['../group__sofa__constants.html#ga03652f4f21d54f7d406c65339dfdb618',1,'sofa_constants.h']]],
   ['dmas2r',['DMAS2R',['../group__sofa__constants.html#gaaf2d6ce49301fb872ab8cca3bc003a2a',1,'sofa_constants.h']]],
   ['dnint',['dnint',['../group__sofa__constants.html#ga70fcd918438b8f5feb7cbcbb2eb639e7',1,'sofa_constants.h']]],
+  ['dohelp',['doHelp',['../classmx_1_1application.html#aa63ee2e2b6a735a5a047efed82eda22f',1,'mx::application']]],
   ['dooutputpsfsub',['doOutputPSFSub',['../structmx_1_1improc_1_1HCIobservation.html#a6a055e79df273043385de0ad8d6a1f52',1,'mx::improc::HCIobservation']]],
   ['double',['Double',['../structmx_1_1improc_1_1fitsHeaderCard.html#ab017d86971f54948f88f8153fa0f2a4c',1,'mx::improc::fitsHeaderCard']]],
   ['dowritefinim',['doWriteFinim',['../structmx_1_1improc_1_1HCIobservation.html#af276e524dc3d2cf031436c0d6f0679f4',1,'mx::improc::HCIobservation']]],

@@ -39,7 +39,11 @@ var searchData=
   ['todo_20list',['Todo List',['../todo.html',1,'']]],
   ['tolower',['toLower',['../group__stringutils.html#ga22e0c6a104b6cc29b7e5343747345786',1,'mx::toLower(std::string &amp;outstr, const std::string &amp;instr)'],['../group__stringutils.html#gaf517a1d30a110065616488d6f40b31e8',1,'mx::toLower(const std::string &amp;instr)']]],
   ['toupper',['toUpper',['../group__stringutils.html#gab20d87e5a570ff6f7a48abeaeaec4e23',1,'mx::toUpper(std::string &amp;outstr, const std::string &amp;instr)'],['../group__stringutils.html#ga5bf75b6a701e85c0c4d12c5130cd7019',1,'mx::toUpper(const std::string &amp;instr)']]],
+  ['true',['True',['../structmx_1_1meta_1_1trueFalseT_3_01true_01_4.html#a4be3ccac7925c0cfbc7425c01542a7b8',1,'mx::meta::trueFalseT&lt; true &gt;']]],
+  ['truefalset',['trueFalseT',['../structmx_1_1meta_1_1trueFalseT.html',1,'mx::meta']]],
   ['truefalset_2ehpp',['trueFalseT.hpp',['../trueFalseT_8hpp.html',1,'']]],
+  ['truefalset_3c_20false_20_3e',['trueFalseT&lt; false &gt;',['../structmx_1_1meta_1_1trueFalseT_3_01false_01_4.html',1,'mx::meta']]],
+  ['truefalset_3c_20true_20_3e',['trueFalseT&lt; true &gt;',['../structmx_1_1meta_1_1trueFalseT_3_01true_01_4.html',1,'mx::meta']]],
   ['ttmtai',['TTMTAI',['../group__sofa__constants.html#gab851c4d7cba718eba9cf6230126f3ee0',1,'sofa_constants.h']]],
   ['tukey1d',['tukey1d',['../group__signal__processing.html#ga3e1d0376939f9119404f3d6d12e1b0bd',1,'mx']]],
   ['tukey2d',['tukey2d',['../group__signal__processing.html#ga6a9a24e5bd3c7f3c7cfd7fe5c044e17c',1,'mx']]],
@@ -52,5 +56,6 @@ var searchData=
   ['turnas',['TURNAS',['../group__sofa__constants.html#gaaf20f03cdba50323f599c11c09d3c7d9',1,'sofa_constants.h']]],
   ['twosqrt2log2',['twosqrt2log2',['../group__gen__math__gaussians.html#gab0f2b4f5ac5142883b02dc3f450db57f',1,'gaussian.hpp']]],
   ['type',['type',['../structmx_1_1improc_1_1fitsHeaderCard.html#af7d158754a1ab50d7d0ea5d50106d58d',1,'mx::improc::fitsHeaderCard']]],
+  ['typetraits_2ehpp',['typeTraits.hpp',['../typeTraits_8hpp.html',1,'']]],
   ['the_20zernike_20basis',['The Zernike Basis',['../group__zernike__basis.html',1,'']]]
 ];

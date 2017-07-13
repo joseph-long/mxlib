@@ -71,6 +71,9 @@ var hierarchy =
     [ "mx::improc::imCenterCircleSym< realT >", "structmx_1_1improc_1_1imCenterCircleSym.html", null ],
     [ "mx::is_eigenCube< T >", "structmx_1_1is__eigenCube.html", null ],
     [ "mx::is_imagingArray< T >", "structmx_1_1is__imagingArray.html", null ],
+    [ "mx::meta::is_std_vector< T, if_value_type >", "structmx_1_1meta_1_1is__std__vector.html", null ],
+    [ "mx::meta::is_std_vector< T, false >", "structmx_1_1meta_1_1is__std__vector_3_01T_00_01false_01_4.html", null ],
+    [ "mx::meta::is_std_vector< T, true >", "structmx_1_1meta_1_1is__std__vector_3_01T_00_01true_01_4.html", null ],
     [ "mx::astro::units::jupiter< _realT >", "structmx_1_1astro_1_1units_1_1jupiter.html", null ],
     [ "mx::laplace_distribution< _RealType >", "classmx_1_1laplace__distribution.html", null ],
     [ "mx::AO::sim::leakyIntegrator< _realT >", "classmx_1_1AO_1_1sim_1_1leakyIntegrator.html", null ],
@@ -103,6 +106,11 @@ var hierarchy =
     [ "mx::astro::units::solar< _realT >", "structmx_1_1astro_1_1units_1_1solar.html", null ],
     [ "mx::syevrMem< sizeT, intT, floatT >", "structmx_1_1syevrMem.html", null ],
     [ "mx::textTable", "structmx_1_1textTable.html", null ],
+    [ "mx::meta::trueFalseT< trueFalse >", "structmx_1_1meta_1_1trueFalseT.html", null ],
+    [ "mx::meta::trueFalseT< false >", "structmx_1_1meta_1_1trueFalseT_3_01false_01_4.html", null ],
+    [ "mx::meta::trueFalseT< true >", "structmx_1_1meta_1_1trueFalseT_3_01true_01_4.html", [
+      [ "mx::meta::has_value_type< T, void_t< typename T::value_type > >", "structmx_1_1meta_1_1has__value__type_3_01T_00_01void__t_3_01typename_01T_1_1value__type_01_4_01_4.html", null ]
+    ] ],
     [ "mx::AO::sim::turbAtmosphere< _realT >", "structmx_1_1AO_1_1sim_1_1turbAtmosphere.html", null ],
     [ "mx::AO::sim::turbLayer< _realT >", "structmx_1_1AO_1_1sim_1_1turbLayer.html", null ],
     [ "mx::AO::vonKarmanSpectrum< floatT >", "structmx_1_1AO_1_1vonKarmanSpectrum.html", null ],

@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('structmx_1_1appConfigurator.html','');
 <div class="textblock"><p>Class to manage a set of configurable values, and read their values from config/ini files and the command line. </p>
 <dl class="bug"><dt><b><a class="el" href="bug.html#_bug000001">Bug:</a></b></dt><dd>a config=value pair listed in a conf file twice seems to cause a failure, even if they are the same value.</dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00086">86</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00088">88</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="appConfigurator_8hpp_source.html">app/appConfigurator.hpp</a>&gt;</code></p>
 <table class="memberdecls">
@@ -123,9 +123,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1d9b5752e73cf1a13bda2fd8db35e2f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1appConfigurator.html#a1d9b5752e73cf1a13bda2fd8db35e2f2">add</a> (const std::string &amp;n, const std::string &amp;so, const std::string &amp;lo, int clt, const std::string &amp;s, const std::string &amp;kw, bool isReq=false, const std::string &amp;ht=&quot;&quot;, const std::string &amp;he=&quot;&quot;)</td></tr>
 <tr class="memdesc:a1d9b5752e73cf1a13bda2fd8db35e2f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a <a class="el" href="structmx_1_1configTarget.html" title="A configuration target. ">configTarget</a>.  <a href="#a1d9b5752e73cf1a13bda2fd8db35e2f2">More...</a><br /></td></tr>
 <tr class="separator:a1d9b5752e73cf1a13bda2fd8db35e2f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a6ff3396cffa1a0ce547c5c5d5ce86d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1appConfigurator.html#a8a6ff3396cffa1a0ce547c5c5d5ce86d">parseCommandLine</a> (int argc, char **argv)</td></tr>
-<tr class="memdesc:a8a6ff3396cffa1a0ce547c5c5d5ce86d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse the command line, updating the targets.  <a href="#a8a6ff3396cffa1a0ce547c5c5d5ce86d">More...</a><br /></td></tr>
-<tr class="separator:a8a6ff3396cffa1a0ce547c5c5d5ce86d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac851f27b280f03833d8355ff0da48c43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1appConfigurator.html#ac851f27b280f03833d8355ff0da48c43">parseCommandLine</a> (int argc, char **argv, const std::string &amp;oneTarget=&quot;&quot;)</td></tr>
+<tr class="memdesc:ac851f27b280f03833d8355ff0da48c43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse the command line, updating the targets.  <a href="#ac851f27b280f03833d8355ff0da48c43">More...</a><br /></td></tr>
+<tr class="separator:ac851f27b280f03833d8355ff0da48c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a668dacdb861c6f4e225242f93d41a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1appConfigurator.html#a7a668dacdb861c6f4e225242f93d41a9">readConfig</a> (const std::string &amp;fname)</td></tr>
 <tr class="memdesc:a7a668dacdb861c6f4e225242f93d41a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a config/ini file, updating the targets.  <a href="#a7a668dacdb861c6f4e225242f93d41a9">More...</a><br /></td></tr>
 <tr class="separator:a7a668dacdb861c6f4e225242f93d41a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -151,6 +151,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adc9e07b8568f4478a0e9bd34c0fbc431"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structmx_1_1appConfigurator.html#adc9e07b8568f4478a0e9bd34c0fbc431">get</a> (std::vector&lt; typeT &gt; &amp;v, const std::string &amp;name, int i)</td></tr>
 <tr class="memdesc:adc9e07b8568f4478a0e9bd34c0fbc431"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the i-th value of the target, converted to the specified config target.  <a href="#adc9e07b8568f4478a0e9bd34c0fbc431">More...</a><br /></td></tr>
 <tr class="separator:adc9e07b8568f4478a0e9bd34c0fbc431"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e1b77966673d86ac93c9d8365419f61"><td class="memTemplParams" colspan="2">template&lt;typename typeT &gt; </td></tr>
+<tr class="memitem:a6e1b77966673d86ac93c9d8365419f61"><td class="memTemplItemLeft" align="right" valign="top">typeT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structmx_1_1appConfigurator.html#a6e1b77966673d86ac93c9d8365419f61">get</a> (const std::string &amp;name)</td></tr>
+<tr class="memdesc:a6e1b77966673d86ac93c9d8365419f61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the final value of the target, returned as the specified type.  <a href="#a6e1b77966673d86ac93c9d8365419f61">More...</a><br /></td></tr>
+<tr class="separator:a6e1b77966673d86ac93c9d8365419f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -176,7 +180,7 @@ Public Attributes</h2></td></tr>
 
 <p>Iterator for the clOnlyTargets list. </p>
 
-<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00092">92</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00094">94</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
 
 </div>
 </div>
@@ -194,7 +198,7 @@ Public Attributes</h2></td></tr>
 
 <p>Iterator for the targets unordered_map. </p>
 
-<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00089">89</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00091">91</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
 
 </div>
 </div>
@@ -232,9 +236,11 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00220">220</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00255">255</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="appConfigurator_8hpp_source.html#l00037">mx::configTarget::keyword</a>, <a class="el" href="appConfigurator_8hpp_source.html#l00032">mx::configTarget::name</a>, and <a class="el" href="appConfigurator_8hpp_source.html#l00036">mx::configTarget::section</a>.</p>
+<p class="reference">References <a class="el" href="appConfigurator_8hpp_source.html#l00039">mx::configTarget::keyword</a>, <a class="el" href="appConfigurator_8hpp_source.html#l00034">mx::configTarget::name</a>, and <a class="el" href="appConfigurator_8hpp_source.html#l00038">mx::configTarget::section</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="application_8hpp_source.html#l00252">mx::application::setupStandardConfig()</a>.</p>
 
 </div>
 </div>
@@ -331,9 +337,9 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00234">234</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00269">269</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="appConfigurator_8hpp_source.html#l00049">mx::configTarget::configTarget()</a>.</p>
+<p class="reference">References <a class="el" href="appConfigurator_8hpp_source.html#l00051">mx::configTarget::configTarget()</a>.</p>
 
 </div>
 </div>
@@ -362,9 +368,9 @@ Public Attributes</h2></td></tr>
 
 <p>Clear the containers and free up the associated memory. </p>
 
-<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00213">213</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00248">248</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="application_8hpp_source.html#l00068">mx::application::main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="application_8hpp_source.html#l00104">mx::application::main()</a>.</p>
 
 </div>
 </div>
@@ -401,14 +407,14 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00325">325</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00365">365</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="appConfigurator_8hpp_source.html#l00032">mx::configTarget::name</a>.</p>
+<p class="reference">References <a class="el" href="appConfigurator_8hpp_source.html#l00034">mx::configTarget::name</a>.</p>
 
 </div>
 </div>
 <a id="a49ee5dcf311d7651d816d29fe9aed4cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49ee5dcf311d7651d816d29fe9aed4cf">&#9670;&nbsp;</a></span>get() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a49ee5dcf311d7651d816d29fe9aed4cf">&#9670;&nbsp;</a></span>get() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -459,14 +465,14 @@ template&lt;typename typeT &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00331">331</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00371">371</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="appConfigurator_8hpp_source.html#l00032">mx::configTarget::name</a>, and <a class="el" href="appConfigurator_8hpp_source.html#l00046">mx::configTarget::values</a>.</p>
+<p class="reference">References <a class="el" href="appConfigurator_8hpp_source.html#l00034">mx::configTarget::name</a>, and <a class="el" href="appConfigurator_8hpp_source.html#l00048">mx::configTarget::values</a>.</p>
 
 </div>
 </div>
 <a id="a30ca566ee16bf8cf1711e18033f377ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30ca566ee16bf8cf1711e18033f377ae">&#9670;&nbsp;</a></span>get() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a30ca566ee16bf8cf1711e18033f377ae">&#9670;&nbsp;</a></span>get() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -511,14 +517,14 @@ template&lt;typename typeT &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00346">346</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00386">386</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="appConfigurator_8hpp_source.html#l00032">mx::configTarget::name</a>.</p>
+<p class="reference">References <a class="el" href="appConfigurator_8hpp_source.html#l00034">mx::configTarget::name</a>.</p>
 
 </div>
 </div>
 <a id="ada3199ab9231b9090a74ab1894aca7c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada3199ab9231b9090a74ab1894aca7c5">&#9670;&nbsp;</a></span>get() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ada3199ab9231b9090a74ab1894aca7c5">&#9670;&nbsp;</a></span>get() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -562,14 +568,14 @@ template&lt;typename typeT &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00400">400</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00440">440</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="appConfigurator_8hpp_source.html#l00032">mx::configTarget::name</a>.</p>
+<p class="reference">References <a class="el" href="appConfigurator_8hpp_source.html#l00034">mx::configTarget::name</a>.</p>
 
 </div>
 </div>
 <a id="adc9e07b8568f4478a0e9bd34c0fbc431"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc9e07b8568f4478a0e9bd34c0fbc431">&#9670;&nbsp;</a></span>get() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adc9e07b8568f4478a0e9bd34c0fbc431">&#9670;&nbsp;</a></span>get() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -616,9 +622,49 @@ template&lt;typename typeT &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00360">360</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00400">400</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="appConfigurator_8hpp_source.html#l00046">mx::configTarget::values</a>.</p>
+<p class="reference">References <a class="el" href="appConfigurator_8hpp_source.html#l00048">mx::configTarget::values</a>.</p>
+
+</div>
+</div>
+<a id="a6e1b77966673d86ac93c9d8365419f61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e1b77966673d86ac93c9d8365419f61">&#9670;&nbsp;</a></span>get() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename typeT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typeT mx::appConfigurator::get </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the final value of the target, returned as the specified type. </p>
+<p>The default-constructed/initialized value is returned if <a class="el" href="structmx_1_1appConfigurator.html#a7da71a77762c5d18df2d0af5a6e76050">isSet()</a> == false, so this should carefully be used in conjunction with <a class="el" href="structmx_1_1appConfigurator.html#a7da71a77762c5d18df2d0af5a6e76050">isSet()</a> to avoid overwriting default values.</p>
+<p>This works for vectors as well (through tag dispatching). In any case, you must explicitly specify typeT, as in </p><div class="fragment"><div class="line"><span class="keywordtype">float</span> f = get&lt;float&gt;(name);</div><div class="line">std::vector&lt;float&gt; v = get&lt;std::vector&lt;float&gt;&gt;(name); </div></div><!-- fragment --><dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">0</td><td>on success. </td></tr>
+    <tr><td class="paramname">-1</td><td>on error. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>the config target name </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00496">496</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="appConfigurator_8hpp_source.html#l00034">mx::configTarget::name</a>.</p>
 
 </div>
 </div>
@@ -657,14 +703,14 @@ false if no value was set. </dd></dl>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00318">318</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00358">358</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="appConfigurator_8hpp_source.html#l00032">mx::configTarget::name</a>.</p>
+<p class="reference">References <a class="el" href="appConfigurator_8hpp_source.html#l00034">mx::configTarget::name</a>.</p>
 
 </div>
 </div>
-<a id="a8a6ff3396cffa1a0ce547c5c5d5ce86d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a6ff3396cffa1a0ce547c5c5d5ce86d">&#9670;&nbsp;</a></span>parseCommandLine()</h2>
+<a id="ac851f27b280f03833d8355ff0da48c43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac851f27b280f03833d8355ff0da48c43">&#9670;&nbsp;</a></span>parseCommandLine()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -682,7 +728,13 @@ false if no value was set. </dd></dl>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">char **&#160;</td>
-          <td class="paramname"><em>argv</em>&#160;</td>
+          <td class="paramname"><em>argv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>oneTarget</em> = <code>&quot;&quot;</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -698,12 +750,20 @@ false if no value was set. </dd></dl>
 </div><div class="memdoc">
 
 <p>Parse the command line, updating the targets. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">argc</td><td>standard command line result specifying number of argumetns in argv </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">argv</td><td>standard command line result containing the arguments. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">oneTarget</td><td>[optional] if not empty, then only this target is extracted by the parser. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00249">249</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00284">284</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="clOptions_8hpp_source.html#l00186">mx::clOptions::getAll()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="application_8hpp_source.html#l00106">mx::application::setup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="application_8hpp_source.html#l00171">mx::application::setup()</a>.</p>
 
 </div>
 </div>
@@ -731,9 +791,9 @@ false if no value was set. </dd></dl>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00299">299</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00339">339</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="application_8hpp_source.html#l00106">mx::application::setup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="application_8hpp_source.html#l00171">mx::application::setup()</a>.</p>
 
 </div>
 </div>
@@ -752,9 +812,9 @@ false if no value was set. </dd></dl>
 
 <p>Targets which are only for the command line are stored separately in a list. </p>
 
-<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00098">98</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00100">100</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="application_8hpp_source.html#l00227">mx::application::help()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="application_8hpp_source.html#l00321">mx::application::help()</a>.</p>
 
 </div>
 </div>
@@ -772,9 +832,9 @@ false if no value was set. </dd></dl>
 
 <p>The targets are stored in an unordered_map for fast access by key. </p>
 
-<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00095">95</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="appConfigurator_8hpp_source.html#l00097">97</a> of file <a class="el" href="appConfigurator_8hpp_source.html">appConfigurator.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="application_8hpp_source.html#l00227">mx::application::help()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="application_8hpp_source.html#l00321">mx::application::help()</a>.</p>
 
 </div>
 </div>
@@ -787,7 +847,7 @@ false if no value was set. </dd></dl>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemx.html">mx</a></li><li class="navelem"><a class="el" href="structmx_1_1appConfigurator.html">appConfigurator</a></li>
-    <li class="footer">Generated on Tue Jul 11 2017 21:37:30 for mxlib by
+    <li class="footer">Generated on Wed Jul 12 2017 22:42:30 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -21,6 +21,7 @@ var searchData=
   ['optgainopenloop',['optGainOpenLoop',['../structmx_1_1AO_1_1clGainOpt.html#ab92543bfa05b7528ef4f2c1b65f42982',1,'mx::AO::clGainOpt::optGainOpenLoop(std::vector&lt; realT &gt; &amp;PSDerr, std::vector&lt; realT &gt; &amp;PSDnoise)'],['../structmx_1_1AO_1_1clGainOpt.html#a0bb34d04c31248f67d38b67851644536',1,'mx::AO::clGainOpt::optGainOpenLoop(std::vector&lt; realT &gt; &amp;PSDerr, std::vector&lt; realT &gt; &amp;PSDnoise, realT &amp;gmax)']]],
   ['optimizeaplcmc',['optimizeAPLCMC',['../structmx_1_1wfp_1_1lyotCoronagraph.html#a9a3ab92867a56530c85687f255e5f266',1,'mx::wfp::lyotCoronagraph']]],
   ['optimumtauwfs',['optimumTauWFS',['../classmx_1_1AO_1_1aoSystem.html#a0a297fae85b7ca494198e6d5740d3219',1,'mx::AO::aoSystem']]],
+  ['optionhelp',['optionHelp',['../classmx_1_1application.html#ac1fd348e381b3fc9560df0d99275b794',1,'mx::application']]],
   ['opts',['opts',['../classmx_1_1levmarInterface.html#aa24977b384484fab3819704a727169e5',1,'mx::levmarInterface']]],
   ['opttau',['optTau',['../classmx_1_1AO_1_1aoSystem.html#a7f23e3366fe24f8a1706bcf50d9b0d24',1,'mx::AO::aoSystem::optTau(bool ot)'],['../classmx_1_1AO_1_1aoSystem.html#a4ae2d951cdf83d7a72c4ba29b69ac619',1,'mx::AO::aoSystem::optTau()']]],
   ['orbitcartesian2dphi',['orbitCartesian2DPhi',['../group__orbits.html#gaed8f1230da256b0745e215db7533fc12',1,'mx::astro']]],

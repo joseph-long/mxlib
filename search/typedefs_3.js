@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['false',['False',['../structmx_1_1meta_1_1trueFalseT_3_01false_01_4.html#aa9192b4fb9a312a98a67817528694386',1,'mx::meta::trueFalseT&lt; false &gt;']]],
   ['fitsfilec',['fitsFilec',['../group__fits__processing__typedefs.html#gae441bf333c0da52071b31bf9f367b03f',1,'mx::improc']]],
   ['fitsfiled',['fitsFiled',['../group__fits__processing__typedefs.html#gadea7e3107c8ea9260ada836cfc9f1d21',1,'mx::improc']]],
   ['fitsfilef',['fitsFilef',['../group__fits__processing__typedefs.html#ga2898f253c0ca0eae5f6353c6ee4cb51a',1,'mx::improc']]],

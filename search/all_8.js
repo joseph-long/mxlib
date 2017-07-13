@@ -7,6 +7,7 @@ var searchData=
   ['hadd_5fimpl',['hadd_impl',['../group__template__blas.html#gaaaa719adba79275b8aa4c87cb04e246b',1,'templateBLAS.hpp']]],
   ['hadp',['hadp',['../group__template__blas.html#ga893933ac4102cfc197809550f253d116',1,'templateBLAS.hpp']]],
   ['hadp_5fimpl',['hadp_impl',['../group__template__blas.html#ga9d48d81e8f9acea8bd9d552b55dfec22',1,'templateBLAS.hpp']]],
+  ['has_5fvalue_5ftype_3c_20t_2c_20void_5ft_3c_20typename_20t_3a_3avalue_5ftype_20_3e_20_3e',['has_value_type&lt; T, void_t&lt; typename T::value_type &gt; &gt;',['../structmx_1_1meta_1_1has__value__type_3_01T_00_01void__t_3_01typename_01T_1_1value__type_01_4_01_4.html',1,'mx::meta']]],
   ['hasjacobian',['hasJacobian',['../structmx_1_1hasJacobian.html',1,'mx']]],
   ['high_20contrast_20imaging',['High Contrast Imaging',['../group__hc__imaging.html',1,'']]],
   ['hci_20enums',['HCI Enums',['../group__hc__imaging__enums.html',1,'']]],
@@ -19,5 +20,6 @@ var searchData=
   ['help',['help',['../classmx_1_1application.html#a48278a0bd48bc4eec62f42254f1a8090',1,'mx::application']]],
   ['helpexplanation',['helpExplanation',['../structmx_1_1configTarget.html#a574fb49045c2ecdd049a871108c958b2',1,'mx::configTarget']]],
   ['helptype',['helpType',['../structmx_1_1configTarget.html#a86786c392cbe82ddb1a451c9d71f7f13',1,'mx::configTarget']]],
+  ['helpwidth',['helpWidth',['../classmx_1_1application.html#a66dd015ffba8503c4f70a7b86874f7c5',1,'mx::application']]],
   ['hyperbolic_5fkepler',['hyperbolic_kepler',['../group__kepler.html#ga2486776bb73ecc3ebf0c998b50b702a0',1,'mx::astro']]]
 ];
