@@ -5,8 +5,6 @@ var searchData=
   ['fakepa',['fakePA',['../structmx_1_1improc_1_1ADIobservation.html#a437e17de2aecb90ceeb49a1d172f891e',1,'mx::improc::ADIobservation']]],
   ['fakescalefilename',['fakeScaleFileName',['../structmx_1_1improc_1_1ADIobservation.html#a79570844b73d46abdbe0401d4f55dcb2',1,'mx::improc::ADIobservation']]],
   ['fakesep',['fakeSep',['../structmx_1_1improc_1_1ADIobservation.html#a9f59a3b12db52c41ed08baeb9eb854a3',1,'mx::improc::ADIobservation']]],
-  ['fft_5fback',['fft_back',['../classmx_1_1psdFilter.html#af1edd685b2f5652d43fbfe2ccd85da22',1,'mx::psdFilter']]],
-  ['fft_5ffwd',['fft_fwd',['../classmx_1_1psdFilter.html#a437a2731f5005dc668e7b0721c5fd7eb',1,'mx::psdFilter']]],
   ['fi',['fi',['../structmx_1_1wfp_1_1lyotCoronagraph.html#a0c57ab2bc5abc4b885a1c08e4d210698',1,'mx::wfp::lyotCoronagraph']]],
   ['filelist',['fileList',['../structmx_1_1improc_1_1HCIobservation.html#a628c550a33b85e6e9b3659895c89a873',1,'mx::improc::HCIobservation']]],
   ['filesdeleted',['filesDeleted',['../structmx_1_1improc_1_1HCIobservation.html#a62f3082988e83c70efd010dd81c2492c',1,'mx::improc::HCIobservation']]],

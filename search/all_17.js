@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['wisdom',['Wisdom',['../group__fftw__template__wisdom.html',1,'']]],
   ['wavefront_20propagation',['Wavefront Propagation',['../group__imaging.html',1,'']]],
   ['wavefront_20propagation_20files',['Wavefront Propagation Files',['../group__imaging__files.html',1,'']]],
   ['working_20with_20strings',['Working with strings',['../group__stringutils.html',1,'']]],
@@ -10,8 +9,10 @@ var searchData=
   ['wavefrontt',['wavefrontT',['../classmx_1_1AO_1_1sim_1_1leakyIntegrator.html#a34b64b2c8c997f658715c585475cff9b',1,'mx::AO::sim::leakyIntegrator::wavefrontT()'],['../classmx_1_1AO_1_1sim_1_1simulatedAOSystem.html#a70dc05592794019b718f6c1cdd11b76e',1,'mx::AO::sim::simulatedAOSystem::wavefrontT()'],['../classmx_1_1wfp_1_1fraunhoferPropagator.html#ad19f27f229499d31f9525bc946b2f04f',1,'mx::wfp::fraunhoferPropagator::wavefrontT()']]],
   ['wavelengthunits',['wavelengthUnits',['../structmx_1_1astro_1_1calspecSpectrum.html#afa1982b72b7f42c2781c93cf751c2695',1,'mx::astro::calspecSpectrum']]],
   ['weightfile',['weightFile',['../structmx_1_1improc_1_1HCIobservation.html#a5679d04395f938a28d54b950876911fd',1,'mx::improc::HCIobservation']]],
-  ['wfevar',['wfeVar',['../classmx_1_1AO_1_1aoSystem.html#ade20d8bcb2a509bb5f92db3cb956a735',1,'mx::AO::aoSystem']]],
+  ['wfevar',['wfeVar',['../classmx_1_1AO_1_1aoSystem.html#a651e810b645d191aa5929489b03d4f90',1,'mx::AO::aoSystem']]],
   ['wfps',['wfPS',['../structmx_1_1AO_1_1sim_1_1turbAtmosphere.html#a312796312670677ab030b26f306c03cb',1,'mx::AO::sim::turbAtmosphere']]],
+  ['wfs',['wfs',['../structmx_1_1AO_1_1wfs.html',1,'mx::AO']]],
+  ['wfsbetaunalloc',['wfsBetaUnalloc',['../classmx_1_1AO_1_1aoSystem.html#a2c69832dc4f660a5fe11f21f57bac9f6',1,'mx::AO::aoSystem']]],
   ['wfsnoisepsd',['wfsNoisePSD',['../group__mxAOAnalytic.html#ga0979f1dc1bb3dc2676f8b0acf781767a',1,'mx::AO']]],
   ['wfsnoisepsd_2ehpp',['wfsNoisePSD.hpp',['../wfsNoisePSD_8hpp.html',1,'']]],
   ['wfsz',['wfSz',['../structmx_1_1wfp_1_1idealCoronagraph.html#a1e12e750f345ee9d725ed7704f2608d6',1,'mx::wfp::idealCoronagraph::wfSz()'],['../structmx_1_1wfp_1_1idealCoronagraph.html#a55ba3993b8cb270359587da582acacbf',1,'mx::wfp::idealCoronagraph::wfSz(int sz)'],['../structmx_1_1wfp_1_1lyotCoronagraph.html#af0b3d6b119fa8c624d1f625302ee2571',1,'mx::wfp::lyotCoronagraph::wfSz()'],['../structmx_1_1wfp_1_1lyotCoronagraph.html#ad7eee445dcbe0cf38a3d46721adda272',1,'mx::wfp::lyotCoronagraph::wfSz(int sz)']]],

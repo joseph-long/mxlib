@@ -1,9 +1,12 @@
 var searchData=
 [
-  ['z',['Z',['../classmx_1_1AO_1_1aoAtmosphere.html#a21d57c16ae56c8e956a0721fc7513455',1,'mx::AO::aoAtmosphere']]],
-  ['z_5fmean',['z_mean',['../classmx_1_1AO_1_1aoAtmosphere.html#a7b0e1901ea26f7b6e81a4887547c771b',1,'mx::AO::aoAtmosphere::z_mean()'],['../classmx_1_1AO_1_1aoAtmosphere.html#a1e78329caea6cc8259237f3910b282e5',1,'mx::AO::aoAtmosphere::z_mean(const realT &amp;zm)']]],
-  ['zernike',['zernike',['../group__zernike__basis.html#gaedc4f1d8bd08d2f0ecd67e6fc1ceb396',1,'mx::zernike(realT rho, realT phi, int n, int m, std::vector&lt; realT &gt; &amp;c)'],['../group__zernike__basis.html#gaeb9167937cb880c50411d8f72aeda392',1,'mx::zernike(realT rho, realT phi, int n, int m)'],['../group__zernike__basis.html#ga7059f72a290f065c2d46f10a0552f409',1,'mx::zernike(realT rho, realT phi, int j)'],['../group__zernike__basis.html#gad8ee2b760024e8106bf5aa4688121efa',1,'mx::zernike(arrayT &amp;arr, int n, int m, typename arrayT::Scalar xcen, typename arrayT::Scalar ycen, typename arrayT::Scalar rad=-1)'],['../group__zernike__basis.html#ga287ee271daf7ed5e8cd004a72f93a52b',1,'mx::zernike(arrayT &amp;arr, int j, typename arrayT::Scalar xcen, typename arrayT::Scalar ycen, typename arrayT::Scalar rad=-1)'],['../group__zernike__basis.html#gafd32daa625a62aeb758afac8e251aaa8',1,'mx::zernike(arrayT &amp;arr, int n, int m, typename arrayT::Scalar rad=-1)'],['../group__zernike__basis.html#gaaa8fe60d58135a9d42842bbb4d127d7c',1,'mx::zernike(arrayT &amp;arr, int j, typename arrayT::Scalar rad=-1)']]],
-  ['zerniker',['zernikeR',['../group__zernike__basis.html#gac5672544a29f1666018194086ac6192c',1,'mx::zernikeR(realT rho, int n, int m, std::vector&lt; realT &gt; &amp;c)'],['../group__zernike__basis.html#ga58b8a06ed1599cdda9bf0410b5fb6d3e',1,'mx::zernikeR(realT rho, int n, int m)']]],
-  ['zernikercoeffs',['zernikeRCoeffs',['../group__zernike__basis.html#gac0e1bdc2cca8db3a202cb89049595721',1,'mx']]],
-  ['zeta',['zeta',['../classmx_1_1AO_1_1aoSystem.html#ae0e3e011be0b46679f48003c8f074d33',1,'mx::AO::aoSystem::zeta(realT nz)'],['../classmx_1_1AO_1_1aoSystem.html#ad8d8e428fefbd66dcc623c9fc1aa3d73',1,'mx::AO::aoSystem::zeta()']]]
+  ['_7eds9interface',['~ds9Interface',['../classmx_1_1improc_1_1ds9Interface.html#a3491854532369532535a34e425e2c619',1,'mx::improc::ds9Interface']]],
+  ['_7efitsfile',['~fitsFile',['../classmx_1_1improc_1_1fitsFile.html#a5bf28a247249749aa36a9611c0197dad',1,'mx::improc::fitsFile']]],
+  ['_7efitsheader',['~fitsHeader',['../classmx_1_1improc_1_1fitsHeader.html#a340f768325ed8d39c54899f2e53529ef',1,'mx::improc::fitsHeader']]],
+  ['_7efouriercovariance',['~fourierCovariance',['../structmx_1_1AO_1_1fourierCovariance.html#a769e5b0efea7eca33829180e0dd8a70b',1,'mx::AO::fourierCovariance']]],
+  ['_7efouriertemporalpsd',['~fourierTemporalPSD',['../structmx_1_1AO_1_1fourierTemporalPSD.html#acba50f00cdd9cd2024a7081f1b3afaaf',1,'mx::AO::fourierTemporalPSD']]],
+  ['_7efraunhoferpropagator',['~fraunhoferPropagator',['../classmx_1_1wfp_1_1fraunhoferPropagator.html#a6e9efe5f6e2f30d544da33758fd07997',1,'mx::wfp::fraunhoferPropagator']]],
+  ['_7elevmarinterface',['~levmarInterface',['../classmx_1_1levmarInterface.html#a26f1a5e4ea61fdb36693051898a6b40d',1,'mx::levmarInterface']]],
+  ['_7emxexception',['~mxException',['../classmxException.html#aeb093966eec1072ea16bdad97411abff',1,'mxException']]],
+  ['_7esimulatedaosystem',['~simulatedAOSystem',['../classmx_1_1AO_1_1sim_1_1simulatedAOSystem.html#ad353aaf06c3d18bf3c88562408da2f8c',1,'mx::AO::sim::simulatedAOSystem']]]
 ];

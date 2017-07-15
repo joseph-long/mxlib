@@ -118,7 +118,7 @@ key3=value5
 key3=value5.1
 key4=value6_over_
      multiple_lines</pre><p> such that section1.key3 is distinct from section2.key3 (they must have different config-target names though). Additional entries within one file with the same section and key are appended with a newline to the previous entry. So the value of section2.key3 is "value5\\nvalue5.1". Multi-line values are handled such that in the above example the result is key4=value6_over_multiple_lines. Vectors are input as in section1.key4.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>add handling of += </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo:</a></b></dt><dd>add handling of += </dd></dl>
 <p>The command line parser handles both short-opt ("-h -vArg -n Arg") and long-opt ("--help --value=Arg --number=Arg") styles.</p>
 <dl class="section note"><dt>Note</dt><dd>After <a class="el" href="classmx_1_1application.html#a4d6c4db837ff133849b021a42e6a3e47" title="Override this function to extract the configured values and set up the application. ">loadConfig()</a> but before <a class="el" href="classmx_1_1application.html#a70db2cc94470121def8fea9ca0f56b52" title="This function is where the derived class should do its work. ">execute()</a>, the containers in <a class="el" href="classmx_1_1application.html#ad33dfc15939f1e7b564ad8d256a7a165">config</a> are de-allocated , so they can not be used inside execute. </dd></dl>
 
@@ -841,7 +841,7 @@ the value of <a class="el" href="classmx_1_1application.html#a70db2cc94470121def
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemx.html">mx</a></li><li class="navelem"><a class="el" href="classmx_1_1application.html">application</a></li>
-    <li class="footer">Generated on Wed Jul 12 2017 23:21:19 for mxlib by
+    <li class="footer">Generated on Fri Jul 14 2017 22:59:10 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

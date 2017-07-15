@@ -106,13 +106,14 @@ $(document).ready(function(){initNavTree('fourierCovariance_8hpp.html','');});
 </div><div class="textblock"><code>#include &lt;boost/math/constants/constants.hpp&gt;</code><br />
 <code>#include &lt;gsl/gsl_integration.h&gt;</code><br />
 <code>#include &lt;gsl/gsl_errno.h&gt;</code><br />
-<code>#include &lt;mx/jinc.hpp&gt;</code><br />
-<code>#include &lt;mx/fourierModes.hpp&gt;</code><br />
-<code>#include &lt;mx/fitsFile.hpp&gt;</code><br />
-<code>#include &lt;mx/mxlib_uncomp_version.h&gt;</code><br />
-<code>#include &lt;mx/mxlib.h&gt;</code><br />
-<code>#include &lt;mx/ompLoopWatcher.hpp&gt;</code><br />
-<code>#include &lt;mx/timeUtils.hpp&gt;</code><br />
+<code>#include &quot;../../math/func/jinc.hpp&quot;</code><br />
+<code>#include &quot;<a class="el" href="fourierModes_8hpp_source.html">../../fourierModes.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="fitsFile_8hpp_source.html">../../improc/fitsFile.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="eigenCube_8hpp_source.html">../../improc/eigenCube.hpp</a>&quot;</code><br />
+<code>#include &quot;../../mxlib_uncomp_version.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="mxlib_8h_source.html">../../mxlib.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="ompLoopWatcher_8hpp_source.html">../../ompLoopWatcher.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="timeUtils_8hpp_source.html">../../timeUtils.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="aoPSDs_8hpp_source.html">aoPSDs.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="aoSystem_8hpp_source.html">aoSystem.hpp</a>&quot;</code><br />
@@ -171,9 +172,9 @@ Functions</h2></td></tr>
 
 <p>The size of the gsl_integration workspaces. </p>
 
-<p class="definition">Definition at line <a class="el" href="fourierCovariance_8hpp_source.html#l00044">44</a> of file <a class="el" href="fourierCovariance_8hpp_source.html">fourierCovariance.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="fourierCovariance_8hpp_source.html#l00045">45</a> of file <a class="el" href="fourierCovariance_8hpp_source.html">fourierCovariance.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="fourierCovariance_8hpp_source.html#l00279">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::fourierCovariance()</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00381">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::fourierTemporalPSD()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00301">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::getVariance()</a>, and <a class="el" href="fourierCovariance_8hpp_source.html#l00202">mx::AO::kInt()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="fourierCovariance_8hpp_source.html#l00280">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::fourierCovariance()</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00347">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::fourierTemporalPSD()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00302">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::getVariance()</a>, and <a class="el" href="fourierCovariance_8hpp_source.html#l00203">mx::AO::kInt()</a>.</p>
 
 </div>
 </div>
@@ -222,11 +223,11 @@ template&lt;typename floatT , typename aosysT &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="fourierCovariance_8hpp_source.html#l00202">202</a> of file <a class="el" href="fourierCovariance_8hpp_source.html">fourierCovariance.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="fourierCovariance_8hpp_source.html#l00203">203</a> of file <a class="el" href="fourierCovariance_8hpp_source.html">fourierCovariance.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="constants_8hpp_source.html#l00071">mx::astro::constants::k()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00263">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::k</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00202">mx::AO::kInt()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00272">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::phi_w</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00242">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::useBasic</a>, and <a class="el" href="fourierCovariance_8hpp_source.html#l00044">WSZ</a>.</p>
+<p class="reference">References <a class="el" href="constants_8hpp_source.html#l00071">mx::astro::constants::k()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00264">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::k</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00203">mx::AO::kInt()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00273">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::phi_w</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00243">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::useBasic</a>, and <a class="el" href="fourierCovariance_8hpp_source.html#l00045">WSZ</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="fourierCovariance_8hpp_source.html#l00202">mx::AO::kInt()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="fourierCovariance_8hpp_source.html#l00203">mx::AO::kInt()</a>.</p>
 
 </div>
 </div>
@@ -274,11 +275,11 @@ template&lt;typename floatT , typename aosysT &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="fourierCovariance_8hpp_source.html#l00131">131</a> of file <a class="el" href="fourierCovariance_8hpp_source.html">fourierCovariance.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="fourierCovariance_8hpp_source.html#l00132">132</a> of file <a class="el" href="fourierCovariance_8hpp_source.html">fourierCovariance.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="fourierCovariance_8hpp_source.html#l00239">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::aosys</a>, <a class="el" href="jinc_8hpp_source.html#l00039">mx::jinc()</a>, <a class="el" href="constants_8hpp_source.html#l00071">mx::astro::constants::k()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00263">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::k</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00248">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::m</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00257">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::mp</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00251">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::n</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00260">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::np</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00245">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::p</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00131">mx::AO::phiInt_mod()</a>, and <a class="el" href="fourierCovariance_8hpp_source.html#l00254">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::pp</a>.</p>
+<p class="reference">References <a class="el" href="fourierCovariance_8hpp_source.html#l00240">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::aosys</a>, <a class="el" href="constants_8hpp_source.html#l00071">mx::astro::constants::k()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00264">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::k</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00249">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::m</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00258">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::mp</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00252">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::n</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00261">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::np</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00246">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::p</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00132">mx::AO::phiInt_mod()</a>, and <a class="el" href="fourierCovariance_8hpp_source.html#l00255">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::pp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="fourierCovariance_8hpp_source.html#l00131">mx::AO::phiInt_mod()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="fourierCovariance_8hpp_source.html#l00132">mx::AO::phiInt_mod()</a>.</p>
 
 </div>
 </div>
@@ -288,7 +289,7 @@ template&lt;typename floatT , typename aosysT &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4a0bf71ba3138a6abb584fb74c18f794.html">ao</a></li><li class="navelem"><a class="el" href="dir_cf528a69cdca6105739343681d2398d1.html">analysis</a></li><li class="navelem"><a class="el" href="fourierCovariance_8hpp.html">fourierCovariance.hpp</a></li>
-    <li class="footer">Generated on Wed Jul 12 2017 23:21:19 for mxlib by
+    <li class="footer">Generated on Fri Jul 14 2017 22:59:09 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

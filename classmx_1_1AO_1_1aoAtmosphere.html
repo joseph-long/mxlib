@@ -101,7 +101,7 @@ $(document).ready(function(){initNavTree('classmx_1_1AO_1_1aoAtmosphere.html',''
 class mx::AO::aoAtmosphere&lt; _realT &gt;</h3>
 
 <p>A class to specify atmosphere parameters and perform related calculations. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo:</a></b></dt><dd><p class="startdd">Add layer outer scales. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd><p class="startdd">Add layer outer scales. </p>
 <p>Add calculation of f_G and tau_0. </p>
 <p class="enddd">Add provision for airmass (secant z).</p>
 </dd></dl>
@@ -199,22 +199,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1e78329caea6cc8259237f3910b282e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#a1e78329caea6cc8259237f3910b282e5">z_mean</a> (const <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> &amp;zm)</td></tr>
 <tr class="memdesc:a1e78329caea6cc8259237f3910b282e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the weighted mean _z_mean and renormalize the layer heights.  <a href="#a1e78329caea6cc8259237f3910b282e5">More...</a><br /></td></tr>
 <tr class="separator:a1e78329caea6cc8259237f3910b282e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99f6b82e868550f44f5ce0fd2ee31e92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#a99f6b82e868550f44f5ce0fd2ee31e92">X</a> (<a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> k, <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> lam_sci)</td></tr>
-<tr class="memdesc:a99f6b82e868550f44f5ce0fd2ee31e92"><td class="mdescLeft">&#160;</td><td class="mdescRight">The fraction of the turbulence PSD in phase after Fresnel propagation.  <a href="#a99f6b82e868550f44f5ce0fd2ee31e92">More...</a><br /></td></tr>
-<tr class="separator:a99f6b82e868550f44f5ce0fd2ee31e92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7e1676ae5d793d1b43d498d267aa931"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa7e1676ae5d793d1b43d498d267aa931">dX</a> (<a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> k, <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> lam_sci, <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> lam)</td></tr>
-<tr class="memdesc:aa7e1676ae5d793d1b43d498d267aa931"><td class="mdescLeft">&#160;</td><td class="mdescRight">The differential fraction of the turbulence PSD in phase after Fresnel propagation.  <a href="#aa7e1676ae5d793d1b43d498d267aa931">More...</a><br /></td></tr>
-<tr class="separator:aa7e1676ae5d793d1b43d498d267aa931"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44848a7a41b28f35a597bc265043cbae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#a44848a7a41b28f35a597bc265043cbae">Y</a> (<a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> k, <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> lam_sci)</td></tr>
-<tr class="memdesc:a44848a7a41b28f35a597bc265043cbae"><td class="mdescLeft">&#160;</td><td class="mdescRight">The fraction of the turbulence PSD in amplitude after Fresnel propagation.  <a href="#a44848a7a41b28f35a597bc265043cbae">More...</a><br /></td></tr>
-<tr class="separator:a44848a7a41b28f35a597bc265043cbae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48048df603d11c68dc3d4df37a8ba830"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#a48048df603d11c68dc3d4df37a8ba830">dY</a> (<a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> k, <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> lam_sci, <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> lam)</td></tr>
-<tr class="memdesc:a48048df603d11c68dc3d4df37a8ba830"><td class="mdescLeft">&#160;</td><td class="mdescRight">The differential fraction of the turbulence PSD in amplitude after Fresnel propagation.  <a href="#a48048df603d11c68dc3d4df37a8ba830">More...</a><br /></td></tr>
-<tr class="separator:a48048df603d11c68dc3d4df37a8ba830"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad23d90110ecf712e8a82f3420f167250"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#ad23d90110ecf712e8a82f3420f167250">X</a> (<a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> k, <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> lam_sci, <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> secZ)</td></tr>
+<tr class="memdesc:ad23d90110ecf712e8a82f3420f167250"><td class="mdescLeft">&#160;</td><td class="mdescRight">The fraction of the turbulence PSD in phase after Fresnel propagation.  <a href="#ad23d90110ecf712e8a82f3420f167250">More...</a><br /></td></tr>
+<tr class="separator:ad23d90110ecf712e8a82f3420f167250"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9da1325ffeacc09c92d441faae821dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#ab9da1325ffeacc09c92d441faae821dd">dX</a> (<a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> k, <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> lam_sci, <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> lam_wfs)</td></tr>
+<tr class="memdesc:ab9da1325ffeacc09c92d441faae821dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The differential fraction of the turbulence PSD in phase after Fresnel propagation.  <a href="#ab9da1325ffeacc09c92d441faae821dd">More...</a><br /></td></tr>
+<tr class="separator:ab9da1325ffeacc09c92d441faae821dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdfb76bd7c7c734a3ea318e190af48a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#acdfb76bd7c7c734a3ea318e190af48a1">Y</a> (<a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> k, <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> lam_sci, <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> secZ)</td></tr>
+<tr class="memdesc:acdfb76bd7c7c734a3ea318e190af48a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The fraction of the turbulence PSD in amplitude after Fresnel propagation.  <a href="#acdfb76bd7c7c734a3ea318e190af48a1">More...</a><br /></td></tr>
+<tr class="separator:acdfb76bd7c7c734a3ea318e190af48a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0183fffd52c03714d7ccea5b7de4406"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#ab0183fffd52c03714d7ccea5b7de4406">dY</a> (<a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> k, <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> lam_sci, <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> lam_wfs)</td></tr>
+<tr class="memdesc:ab0183fffd52c03714d7ccea5b7de4406"><td class="mdescLeft">&#160;</td><td class="mdescRight">The differential fraction of the turbulence PSD in amplitude after Fresnel propagation.  <a href="#ab0183fffd52c03714d7ccea5b7de4406">More...</a><br /></td></tr>
+<tr class="separator:ab0183fffd52c03714d7ccea5b7de4406"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b1507f12700f788ffd435e9d51ea884"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#a7b1507f12700f788ffd435e9d51ea884">n_air</a> (<a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> lam)</td></tr>
 <tr class="separator:a7b1507f12700f788ffd435e9d51ea884"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21d57c16ae56c8e956a0721fc7513455"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#a21d57c16ae56c8e956a0721fc7513455">Z</a> (<a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> k, <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> lambda_i, <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> lambda_wfs, <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> zeta)</td></tr>
-<tr class="separator:a21d57c16ae56c8e956a0721fc7513455"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61fa3d9dd7e5f3cfd0269eccc340cb09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#a61fa3d9dd7e5f3cfd0269eccc340cb09">X_Z</a> (<a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> k, <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> lambda_sci, <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> lambda_wfs, <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> secZ)</td></tr>
+<tr class="separator:a61fa3d9dd7e5f3cfd0269eccc340cb09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20946581d471e8d54f3710e490497312"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#a20946581d471e8d54f3710e490497312">fwhm</a> (<a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> lam_sci)</td></tr>
 <tr class="memdesc:a20946581d471e8d54f3710e490497312"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the full-width at half-maximum of a seeing limited image for this atmosphere.  <a href="#a20946581d471e8d54f3710e490497312">More...</a><br /></td></tr>
 <tr class="separator:a20946581d471e8d54f3710e490497312"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -327,7 +327,7 @@ template&lt;typename realT &gt; </div>
 
 <p>Constructor. </p>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00414">414</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00403">403</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -358,7 +358,7 @@ template&lt;typename realT &gt; </div>
 <p>This is only re-calculated if either _layer_Cn2 or _layer_v_wind is changed, otherwise this just returns the value of _v_wind.</p>
 <dl class="section return"><dt>Returns</dt><dd>the current value of _dir_wind. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00606">606</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00595">595</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -397,12 +397,12 @@ template&lt;typename iosT &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00831">831</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00826">826</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
-<a id="aa7e1676ae5d793d1b43d498d267aa931"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7e1676ae5d793d1b43d498d267aa931">&#9670;&nbsp;</a></span>dX()</h2>
+<a id="ab9da1325ffeacc09c92d441faae821dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9da1325ffeacc09c92d441faae821dd">&#9670;&nbsp;</a></span>dX()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -425,7 +425,7 @@ template&lt;typename realT &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td>
-          <td class="paramname"><em>lam</em>&#160;</td>
+          <td class="paramname"><em>lam_wfs</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -437,21 +437,22 @@ template&lt;typename realT &gt; </div>
 
 <p>The differential fraction of the turbulence PSD in phase after Fresnel propagation. </p>
 <p>See Equation (25) of Guyon (2005) <a class="el" href="citelist.html#CITEREF_guyon_2005">[7]</a>.</p>
+<dl class="section return"><dt>Returns</dt><dd>the value of the dX function. </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">k</td><td>the spatial frequency, in inverse meters. </td></tr>
-    <tr><td class="paramname">lam_sci</td><td>the wavelength</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">k</td><td>the spatial frequency, in inverse meters. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">lam_sci</td><td>is the science observation wavelength. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">lam_wfs</td><td>is the wavefront sensor wavelength. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the value of the dX function. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00729">729</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00720">720</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a48048df603d11c68dc3d4df37a8ba830"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48048df603d11c68dc3d4df37a8ba830">&#9670;&nbsp;</a></span>dY()</h2>
+<a id="ab0183fffd52c03714d7ccea5b7de4406"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0183fffd52c03714d7ccea5b7de4406">&#9670;&nbsp;</a></span>dY()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -474,7 +475,7 @@ template&lt;typename realT &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td>
-          <td class="paramname"><em>lam</em>&#160;</td>
+          <td class="paramname"><em>lam_wfs</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -486,16 +487,17 @@ template&lt;typename realT &gt; </div>
 
 <p>The differential fraction of the turbulence PSD in amplitude after Fresnel propagation. </p>
 <p>See Equation (27) of Guyon (2005) <a class="el" href="citelist.html#CITEREF_guyon_2005">[7]</a>.</p>
+<dl class="section return"><dt>Returns</dt><dd>the value of the dY function. </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">k</td><td>the spatial frequency, in inverse meters. </td></tr>
-    <tr><td class="paramname">lam_sci</td><td>the wavelength</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">k</td><td>the spatial frequency, in inverse meters. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">lam_sci</td><td>is the science observation wavelength. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">lam_wfs</td><td>is the wavefront sensor wavelength. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the value of the dY function. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00754">754</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00748">748</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -532,7 +534,7 @@ template&lt;typename realT &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the value of the FWHM ( \( \epsilon_{0/vK} \)) for the current atmosphere parameters. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00792">792</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00787">787</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -556,9 +558,9 @@ template&lt;typename realT &gt; </div>
 <p>Get the value of the outer scale. </p>
 <dl class="section return"><dt>Returns</dt><dd>the current value of _L_0. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00462">462</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00451">451</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="aoPSDs_8hpp_source.html#l00263">mx::AO::vonKarmanSpectrum&lt; floatT &gt;::fittingError()</a>, and <a class="el" href="aoPSDs_8hpp_source.html#l00172">mx::AO::vonKarmanSpectrum&lt; floatT &gt;::operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="aoPSDs_8hpp_source.html#l00263">mx::AO::vonKarmanSpectrum&lt; realT &gt;::fittingError()</a>, and <a class="el" href="aoPSDs_8hpp_source.html#l00170">mx::AO::vonKarmanSpectrum&lt; realT &gt;::operator()()</a>.</p>
 
 </div>
 </div>
@@ -588,7 +590,7 @@ template&lt;typename realT &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00468">468</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00457">457</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -613,9 +615,9 @@ template&lt;typename realT &gt; </div>
 <p>This is the wavelength at which r_0 is specified.</p>
 <dl class="section return"><dt>Returns</dt><dd>the current value of _lam_0. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00456">456</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00445">445</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="aoPSDs_8hpp_source.html#l00227">mx::AO::vonKarmanSpectrum&lt; floatT &gt;::operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="aoPSDs_8hpp_source.html#l00226">mx::AO::vonKarmanSpectrum&lt; realT &gt;::operator()()</a>.</p>
 
 </div>
 </div>
@@ -646,7 +648,7 @@ template&lt;typename realT &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the value of _layer_Cn2[n]. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00517">517</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00506">506</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -670,7 +672,7 @@ template&lt;typename realT &gt; </div>
 <p>Get the vector of layer strengths. </p>
 <dl class="section return"><dt>Returns</dt><dd>a copy of the vector of layer strengths: _layer_Cn2. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00523">523</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00512">512</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -713,7 +715,7 @@ template&lt;typename realT &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00529">529</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00518">518</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -744,7 +746,7 @@ template&lt;typename realT &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the value of _layer_dir[n]. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00574">574</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00563">563</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -768,7 +770,7 @@ template&lt;typename realT &gt; </div>
 <p>Get the vector of layer wind directions. </p>
 <dl class="section return"><dt>Returns</dt><dd>a copy of the vector of layer wind directions: _layer_dir. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00580">580</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00569">569</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -798,7 +800,7 @@ template&lt;typename realT &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00586">586</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00575">575</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -829,7 +831,7 @@ template&lt;typename realT &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the value of _layer_v_wind[n]. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00554">554</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00543">543</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -853,7 +855,7 @@ template&lt;typename realT &gt; </div>
 <p>Get the vector of layer windspeeds. </p>
 <dl class="section return"><dt>Returns</dt><dd>a copy of the vector of layer windspeeds: _layer_v_wind. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00561">561</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00550">550</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -883,7 +885,7 @@ template&lt;typename realT &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00567">567</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00556">556</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -914,7 +916,7 @@ template&lt;typename realT &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the value of _layer_z[n]. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00474">474</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00463">463</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -938,7 +940,7 @@ template&lt;typename realT &gt; </div>
 <p>Get the vector layer heights. </p>
 <dl class="section return"><dt>Returns</dt><dd>a copy of the vector of layer heights: _layer_z. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00480">480</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00469">469</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -968,7 +970,7 @@ template&lt;typename realT &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00510">510</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00499">499</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -992,7 +994,7 @@ template&lt;typename realT &gt; </div>
 <p>Load the default atmosphere model from Guyon (2005). </p>
 <p>Sets the parameters from Table 4 of Guyon (2005) <a class="el" href="citelist.html#CITEREF_guyon_2005">[7]</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00805">805</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00800">800</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -1015,7 +1017,7 @@ template&lt;typename realT &gt; </div>
 
 <p>Load parameters corresponding to the median atmosphere of the GMT site survey at LCO. </p>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00816">816</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00811">811</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -1043,7 +1045,7 @@ template&lt;typename realT &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00767">767</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00761">761</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -1067,7 +1069,7 @@ template&lt;typename realT &gt; </div>
 <p>Get the number of layers. </p>
 <dl class="section return"><dt>Returns</dt><dd>the size of the _layer_Cn2 vector. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00593">593</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00582">582</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -1091,9 +1093,9 @@ template&lt;typename realT &gt; </div>
 <p>Get the value of Fried's parameter r_0 at the reference wavelength lam_0. </p>
 <dl class="section return"><dt>Returns</dt><dd>the curret value of _r_0. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00428">428</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00417">417</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="aoPSDs_8hpp_source.html#l00263">mx::AO::vonKarmanSpectrum&lt; floatT &gt;::fittingError()</a>, and <a class="el" href="aoPSDs_8hpp_source.html#l00172">mx::AO::vonKarmanSpectrum&lt; floatT &gt;::operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="aoPSDs_8hpp_source.html#l00263">mx::AO::vonKarmanSpectrum&lt; realT &gt;::fittingError()</a>, and <a class="el" href="aoPSDs_8hpp_source.html#l00170">mx::AO::vonKarmanSpectrum&lt; realT &gt;::operator()()</a>.</p>
 
 </div>
 </div>
@@ -1125,7 +1127,7 @@ template&lt;typename realT &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00434">434</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00423">423</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -1166,7 +1168,7 @@ template&lt;typename realT &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00440">440</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00429">429</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -1214,7 +1216,7 @@ template&lt;typename _realT&gt; </div>
 
 <p>Set a single layer model. </p>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00393">393</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00382">382</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -1245,9 +1247,9 @@ template&lt;typename realT &gt; </div>
 
 <p>Recalculate _v_wind. </p>
 <p>Called by <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#af0f5e4d20368b49c1ce3189cb0f1719e" title="Get the weighted mean wind speed. ">v_wind()</a> whenever _v_wind_updated is true.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo:</a></b></dt><dd>handle dir_wind averaging across 0/2pi </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>handle dir_wind averaging across 0/2pi </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00613">613</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00602">602</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -1279,7 +1281,7 @@ template&lt;typename realT &gt; </div>
 <p>Recalculate _z_mean. </p>
 <p>Called by <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#a7b0e1901ea26f7b6e81a4887547c771b" title="Get the weighted mean layer height. ">z_mean()</a> whenever _z_mean_updated is true. </p>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00674">674</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00663">663</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -1309,7 +1311,7 @@ template&lt;typename realT &gt; </div>
 <p>This is only re-calculated if either _layer_Cn2 or _layer_v_wind is changed, otherwise this just returns the value of _v_wind.</p>
 <dl class="section return"><dt>Returns</dt><dd>the current value of _v_wind. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00599">599</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00588">588</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -1340,12 +1342,12 @@ template&lt;typename realT &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00648">648</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00637">637</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a99f6b82e868550f44f5ce0fd2ee31e92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99f6b82e868550f44f5ce0fd2ee31e92">&#9670;&nbsp;</a></span>X()</h2>
+<a id="ad23d90110ecf712e8a82f3420f167250"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad23d90110ecf712e8a82f3420f167250">&#9670;&nbsp;</a></span>X()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1362,7 +1364,13 @@ template&lt;typename realT &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td>
-          <td class="paramname"><em>lam_sci</em>&#160;</td>
+          <td class="paramname"><em>lam_sci</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td>
+          <td class="paramname"><em>secZ</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1374,23 +1382,79 @@ template&lt;typename realT &gt; </div>
 
 <p>The fraction of the turbulence PSD in phase after Fresnel propagation. </p>
 <p>See Equation (14) of Guyon (2005) <a class="el" href="citelist.html#CITEREF_guyon_2005">[7]</a>.</p>
+<dl class="section return"><dt>Returns</dt><dd>the value of the X function. </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">k</td><td>the spatial frequency, in inverse meters. </td></tr>
-    <tr><td class="paramname">lam_sci</td><td>the wavelength</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">k</td><td>the spatial frequency, in inverse meters. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">lam_sci</td><td>is the science observation wavelength. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">secZ</td><td>is the secant of the zenith distance. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the value of the X function. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00716">716</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00705">705</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="aoPSDs_8hpp_source.html#l00227">mx::AO::vonKarmanSpectrum&lt; floatT &gt;::operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="aoPSDs_8hpp_source.html#l00226">mx::AO::vonKarmanSpectrum&lt; realT &gt;::operator()()</a>.</p>
 
 </div>
 </div>
-<a id="a44848a7a41b28f35a597bc265043cbae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44848a7a41b28f35a597bc265043cbae">&#9670;&nbsp;</a></span>Y()</h2>
+<a id="a61fa3d9dd7e5f3cfd0269eccc340cb09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61fa3d9dd7e5f3cfd0269eccc340cb09">&#9670;&nbsp;</a></span>X_Z()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename realT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html">mx::AO::aoAtmosphere</a>&lt; <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> &gt;::X_Z </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td>
+          <td class="paramname"><em>k</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td>
+          <td class="paramname"><em>lambda_sci</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td>
+          <td class="paramname"><em>lambda_wfs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td>
+          <td class="paramname"><em>secZ</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">k</td><td>the spatial frequency, in inverse metes </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">lambda_sci</td><td>is the science observation wavelength. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">lambda_wfs</td><td>is the wavefront sensor wavelength. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">secZ</td><td>is the secant of the zenith distance. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00769">769</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="aoPSDs_8hpp_source.html#l00226">mx::AO::vonKarmanSpectrum&lt; realT &gt;::operator()()</a>.</p>
+
+</div>
+</div>
+<a id="acdfb76bd7c7c734a3ea318e190af48a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdfb76bd7c7c734a3ea318e190af48a1">&#9670;&nbsp;</a></span>Y()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1407,7 +1471,13 @@ template&lt;typename realT &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td>
-          <td class="paramname"><em>lam_sci</em>&#160;</td>
+          <td class="paramname"><em>lam_sci</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td>
+          <td class="paramname"><em>secZ</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1419,70 +1489,19 @@ template&lt;typename realT &gt; </div>
 
 <p>The fraction of the turbulence PSD in amplitude after Fresnel propagation. </p>
 <p>See Equation (15) of Guyon (2005) <a class="el" href="citelist.html#CITEREF_guyon_2005">[7]</a>.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">k</td><td>the spatial frequency, in inverse meters. </td></tr>
-    <tr><td class="paramname">lam_sci</td><td>the wavelength</td></tr>
-  </table>
-  </dd>
-</dl>
 <dl class="section return"><dt>Returns</dt><dd>the value of the Y function. </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00742">742</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="aoPSDs_8hpp_source.html#l00227">mx::AO::vonKarmanSpectrum&lt; floatT &gt;::operator()()</a>.</p>
-
-</div>
-</div>
-<a id="a21d57c16ae56c8e956a0721fc7513455"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21d57c16ae56c8e956a0721fc7513455">&#9670;&nbsp;</a></span>Z()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename realT &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html">mx::AO::aoAtmosphere</a>&lt; <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a> &gt;::Z </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td>
-          <td class="paramname"><em>k</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td>
-          <td class="paramname"><em>lambda_i</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td>
-          <td class="paramname"><em>lambda_wfs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#aa2fd73377267146ebf8606d73cff2f67">realT</a>&#160;</td>
-          <td class="paramname"><em>zeta</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">k</td><td>the spatial frequency, in inverse metes </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">k</td><td>the spatial frequency, in inverse meters. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">lam_sci</td><td>is the science observation wavelength. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">secZ</td><td>is the secant of the zenith distance. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00775">775</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00733">733</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="aoPSDs_8hpp_source.html#l00227">mx::AO::vonKarmanSpectrum&lt; floatT &gt;::operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="aoPSDs_8hpp_source.html#l00226">mx::AO::vonKarmanSpectrum&lt; realT &gt;::operator()()</a>.</p>
 
 </div>
 </div>
@@ -1511,7 +1530,7 @@ template&lt;typename realT &gt; </div>
 <p>This is only re-calculated if either _layer_Cn2 or _layer_z is changed, otherwise this just returns the value of _z_mean.</p>
 <dl class="section return"><dt>Returns</dt><dd>the current value of _z_mean. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00667">667</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00656">656</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -1534,15 +1553,15 @@ template&lt;typename realT &gt; </div>
 </div><div class="memdoc">
 
 <p>Set the weighted mean _z_mean and renormalize the layer heights. </p>
-<p>Calling this function changes the values of _layer_z so that the Layer averaged 5/3 \(C_n^2\) moment of the height is the new value specified by zm.</p>
+<p>Calling this function changes the values of _layer_z so that the Layer averaged 5/3 \(C_n^2\) moment of the height is the new value specified. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">zm</td><td>is the new value of _v_wind. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">zm</td><td>is the new value of _v_wind. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00697">697</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="aoAtmosphere_8hpp_source.html#l00686">686</a> of file <a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>.</p>
 
 </div>
 </div>
@@ -1948,7 +1967,7 @@ template&lt;typename _realT&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemx.html">mx</a></li><li class="navelem"><b>AO</b></li><li class="navelem"><a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html">aoAtmosphere</a></li>
-    <li class="footer">Generated on Wed Jul 12 2017 23:21:19 for mxlib by
+    <li class="footer">Generated on Fri Jul 14 2017 22:59:10 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

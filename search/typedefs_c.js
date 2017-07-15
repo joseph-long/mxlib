@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['targetiterator',['targetIterator',['../structmx_1_1appConfigurator.html#a9bb4f7c8e8ef94d6a94a47b71dc78a6e',1,'mx::appConfigurator']]],
-  ['true',['True',['../structmx_1_1meta_1_1trueFalseT_3_01true_01_4.html#a4be3ccac7925c0cfbc7425c01542a7b8',1,'mx::meta::trueFalseT&lt; true &gt;']]]
+  ['wavefrontt',['wavefrontT',['../classmx_1_1AO_1_1sim_1_1leakyIntegrator.html#a34b64b2c8c997f658715c585475cff9b',1,'mx::AO::sim::leakyIntegrator::wavefrontT()'],['../classmx_1_1AO_1_1sim_1_1simulatedAOSystem.html#a70dc05592794019b718f6c1cdd11b76e',1,'mx::AO::sim::simulatedAOSystem::wavefrontT()'],['../classmx_1_1wfp_1_1fraunhoferPropagator.html#ad19f27f229499d31f9525bc946b2f04f',1,'mx::wfp::fraunhoferPropagator::wavefrontT()']]]
 ];

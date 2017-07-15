@@ -8,6 +8,5 @@ var searchData=
   ['_7efraunhoferpropagator',['~fraunhoferPropagator',['../classmx_1_1wfp_1_1fraunhoferPropagator.html#a6e9efe5f6e2f30d544da33758fd07997',1,'mx::wfp::fraunhoferPropagator']]],
   ['_7elevmarinterface',['~levmarInterface',['../classmx_1_1levmarInterface.html#a26f1a5e4ea61fdb36693051898a6b40d',1,'mx::levmarInterface']]],
   ['_7emxexception',['~mxException',['../classmxException.html#aeb093966eec1072ea16bdad97411abff',1,'mxException']]],
-  ['_7epsdfilter',['~psdFilter',['../classmx_1_1psdFilter.html#a202b34f5e270e724a8c0c09eb6d9850d',1,'mx::psdFilter']]],
   ['_7esimulatedaosystem',['~simulatedAOSystem',['../classmx_1_1AO_1_1sim_1_1simulatedAOSystem.html#ad353aaf06c3d18bf3c88562408da2f8c',1,'mx::AO::sim::simulatedAOSystem']]]
 ];

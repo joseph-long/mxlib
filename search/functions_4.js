@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['d',['D',['../structmx_1_1AO_1_1vonKarmanSpectrum.html#ae53338dfe44b6e0b52845908a758afbc',1,'mx::AO::vonKarmanSpectrum::D()'],['../structmx_1_1AO_1_1vonKarmanSpectrum.html#a8dec9c147a1d8ccbd178ebd2b4d74f4f',1,'mx::AO::vonKarmanSpectrum::D(floatT nd)'],['../classmx_1_1AO_1_1aoSystem.html#a41ab0094ef0052549a5d1b4bb3a4058a',1,'mx::AO::aoSystem::D(realT nD)'],['../classmx_1_1AO_1_1aoSystem.html#ae7878b3b08b7a935d2060da50930dc2f',1,'mx::AO::aoSystem::D()']]],
-  ['d_5fmin',['d_min',['../classmx_1_1AO_1_1aoSystem.html#ac60f571e9d1960e774210749b5866114',1,'mx::AO::aoSystem::d_min(realT nd)'],['../classmx_1_1AO_1_1aoSystem.html#a665a1da917067fe8f00abf047773e6bc',1,'mx::AO::aoSystem::d_min()']]],
-  ['d_5fopt',['d_opt',['../classmx_1_1AO_1_1aoSystem.html#a2c99b403b26f81316e28634066bfd5ab',1,'mx::AO::aoSystem']]],
+  ['d',['D',['../structmx_1_1AO_1_1vonKarmanSpectrum.html#a9bdb95482ccce36186b666c73d3b3da0',1,'mx::AO::vonKarmanSpectrum::D()'],['../structmx_1_1AO_1_1vonKarmanSpectrum.html#a5aa7a8fc47694f5a8e4d0be43c4e6a9e',1,'mx::AO::vonKarmanSpectrum::D(realT nd)'],['../classmx_1_1AO_1_1aoSystem.html#ad054204e7ed4b31ecf764376a8ddabb7',1,'mx::AO::aoSystem::D(realT nD)'],['../classmx_1_1AO_1_1aoSystem.html#a6bc238231e49a44631980d44937abc22',1,'mx::AO::aoSystem::D()']]],
+  ['d_5fmin',['d_min',['../classmx_1_1AO_1_1aoSystem.html#a67b0256eee6fa0023bcf6c9b9f3cacc8',1,'mx::AO::aoSystem::d_min(realT nd)'],['../classmx_1_1AO_1_1aoSystem.html#a1e7b380e686b58d88d513f47174bf913',1,'mx::AO::aoSystem::d_min()']]],
+  ['d_5fopt',['d_opt',['../classmx_1_1AO_1_1aoSystem.html#ad6600cf6f59489843ddee5d633a770af',1,'mx::AO::aoSystem']]],
   ['day',['day',['../group__dimensioned__constants.html#gaa1ea49135ded31f7f8112a0776dcb4fd',1,'mx::astro::constants']]],
-  ['deltatau',['deltaTau',['../classmx_1_1AO_1_1aoSystem.html#a2ba291383e33166724a55eb56ea5ee3f',1,'mx::AO::aoSystem::deltaTau(realT ndel)'],['../classmx_1_1AO_1_1aoSystem.html#af42a1e7d5abd9752c7266928bdb15080',1,'mx::AO::aoSystem::deltaTau()']]],
+  ['deltatau',['deltaTau',['../classmx_1_1AO_1_1aoSystem.html#a95e7ee53a4f5380cd9159a447a350e3b',1,'mx::AO::aoSystem::deltaTau(realT ndel)'],['../classmx_1_1AO_1_1aoSystem.html#a4b45d0183d04b02b7d18cf33076bc1ed',1,'mx::AO::aoSystem::deltaTau()']]],
   ['derotangle',['derotAngle',['../structmx_1_1improc_1_1ADIDerotator.html#a79094f80cce7d2bd2375a3084c616e49',1,'mx::improc::ADIDerotator']]],
   ['derotate',['derotate',['../structmx_1_1improc_1_1ADIobservation.html#aa5d8fdeeadff4c040097f75769a55e26',1,'mx::improc::ADIobservation']]],
   ['detach',['detach',['../classsharedMemSegment.html#a137c4affadf9d590a132ec7d1a6ad87b',1,'sharedMemSegment']]],
@@ -12,15 +12,17 @@ var searchData=
   ['detrows',['detRows',['../classmx_1_1AO_1_1sim_1_1directPhaseReconstructor.html#a11a1673d0ad22e6cea6d29c922addcbd',1,'mx::AO::sim::directPhaseReconstructor::detRows()'],['../classmx_1_1AO_1_1sim_1_1directPhaseReconstructor.html#afd1450455c2189765f96632e154a3858',1,'mx::AO::sim::directPhaseReconstructor::detRows(int dr)'],['../classmx_1_1AO_1_1sim_1_1directPhaseReconstructor.html#a11a1673d0ad22e6cea6d29c922addcbd',1,'mx::AO::sim::directPhaseReconstructor::detRows()'],['../classmx_1_1AO_1_1sim_1_1directPhaseReconstructor.html#afd1450455c2189765f96632e154a3858',1,'mx::AO::sim::directPhaseReconstructor::detRows(int dr)'],['../classmx_1_1AO_1_1sim_1_1pywfsSlopeReconstructor.html#ac6edb8e71412128e7ec99bd794780956',1,'mx::AO::sim::pywfsSlopeReconstructor::detRows()'],['../classmx_1_1AO_1_1sim_1_1pywfsSlopeReconstructor.html#a366e244af9a77557e1a0dcb144eac335',1,'mx::AO::sim::pywfsSlopeReconstructor::detRows(int dr)']]],
   ['dir_5fwind',['dir_wind',['../classmx_1_1AO_1_1aoAtmosphere.html#af64aff207ab1276fb35a9b537bc69f1e',1,'mx::AO::aoAtmosphere']]],
   ['directphasereconstructor',['directPhaseReconstructor',['../classmx_1_1AO_1_1sim_1_1directPhaseReconstructor.html#abcf095f5011262c00db1f24867c2a478',1,'mx::AO::sim::directPhaseReconstructor::directPhaseReconstructor()'],['../classmx_1_1AO_1_1sim_1_1directPhaseReconstructor.html#abcf095f5011262c00db1f24867c2a478',1,'mx::AO::sim::directPhaseReconstructor::directPhaseReconstructor()']]],
+  ['dispanisoamperror',['dispAnisoAmpError',['../classmx_1_1AO_1_1aoSystem.html#afa0dd32820d78ba8ab1bb50e6f79fe9c',1,'mx::AO::aoSystem']]],
+  ['dispanisoopderror',['dispAnisoOPDError',['../classmx_1_1AO_1_1aoSystem.html#a443a277556e8118aa9abe6c538646116',1,'mx::AO::aoSystem']]],
   ['display',['display',['../classmx_1_1improc_1_1ds9Interface.html#a2624ca6b33f55e4c25ae2c75ac54ddd8',1,'mx::improc::ds9Interface::display(const dataT *im, size_t dim1, size_t dim2, size_t dim3, int frame=1)'],['../classmx_1_1improc_1_1ds9Interface.html#ae0580418d2c27a66eb005911492eb04c',1,'mx::improc::ds9Interface::display(const arrayT &amp;array, int frame=1)']]],
   ['double',['Double',['../structmx_1_1improc_1_1fitsHeaderCard.html#ab017d86971f54948f88f8153fa0f2a4c',1,'mx::improc::fitsHeaderCard']]],
   ['drawline',['drawLine',['../imagingUtils_8hpp.html#ab3f1da9aa368329b62030983bab6163e',1,'mx::wfp']]],
   ['ds9interface',['ds9Interface',['../classmx_1_1improc_1_1ds9Interface.html#a8cdcc97d833f5e4f62f27f1caf80076b',1,'mx::improc::ds9Interface::ds9Interface()'],['../classmx_1_1improc_1_1ds9Interface.html#a0e4bcd73c80506841a018dd03997847c',1,'mx::improc::ds9Interface::ds9Interface(const arrayT &amp;array, int frame=1)']]],
-  ['dtor',['dtor',['../group__geo.html#ga31a66fdddf4aae47fca74de92d80b295',1,'mx']]],
   ['dump_5fparams',['dump_params',['../classmx_1_1levmarInterface.html#a152f10a0bda3e0853bd55e6288044c8c',1,'mx::levmarInterface']]],
   ['dump_5freport',['dump_report',['../classmx_1_1levmarInterface.html#ac667de20db5a3f4718714514786d8241',1,'mx::levmarInterface']]],
+  ['dumpaosystem',['dumpAOSystem',['../classmx_1_1AO_1_1aoSystem.html#a05d1f82cd8e16649800b66600eef583b',1,'mx::AO::aoSystem']]],
   ['dumpatmosphere',['dumpAtmosphere',['../classmx_1_1AO_1_1aoAtmosphere.html#a0df20772c60d77ef7c33bbf4e1b4b463',1,'mx::AO::aoAtmosphere']]],
-  ['dumpwfs',['dumpWFS',['../structmx_1_1AO_1_1pywfsUnmod.html#a8a352944653b3821fcf80c888b928793',1,'mx::AO::pywfsUnmod']]],
-  ['dx',['dX',['../classmx_1_1AO_1_1aoAtmosphere.html#aa7e1676ae5d793d1b43d498d267aa931',1,'mx::AO::aoAtmosphere']]],
-  ['dy',['dY',['../classmx_1_1AO_1_1aoAtmosphere.html#a48048df603d11c68dc3d4df37a8ba830',1,'mx::AO::aoAtmosphere']]]
+  ['dumpwfs',['dumpWFS',['../structmx_1_1AO_1_1wfs.html#aafaeebbb75ed2a6ff56fd36585b4b339',1,'mx::AO::wfs']]],
+  ['dx',['dX',['../classmx_1_1AO_1_1aoAtmosphere.html#ab9da1325ffeacc09c92d441faae821dd',1,'mx::AO::aoAtmosphere']]],
+  ['dy',['dY',['../classmx_1_1AO_1_1aoAtmosphere.html#ab0183fffd52c03714d7ccea5b7de4406',1,'mx::AO::aoAtmosphere']]]
 ];

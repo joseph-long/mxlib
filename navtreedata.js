@@ -40,16 +40,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"classmx_1_1AO_1_1aoSystem.html#a88ddbd1e1bcee6faae88c440f291d1b9",
-"classmx_1_1gnuPlot.html#a9fc2cb7ea90c94ae6cb95c3bc1668761",
-"classmx_1_1wfp_1_1fraunhoferPropagator.html#a4d3f3bcd19147c6f714e53076c951abc",
-"functions_y.html",
-"group__fits__processing.html",
-"group__planets.html",
-"influenceFunctions_8hpp.html#afedbd777bd7302825ce422ab5e884b65",
-"structmx_1_1AO_1_1fourierTemporalPSD.html#a219363c3779564ac9fee24fa1c5bbfa1",
-"structmx_1_1fftwTypeSpec_3_01double_00_01complexDT_01_4.html",
-"structmx_1_1improc_1_1imCenterCircleSym.html#a69114d081fbfd61d11ffec0dd6318448"
+"classmx_1_1AO_1_1aoSystem.html#a70e3bb9ae01d1484be7cc6e82c276a1b",
+"classmx_1_1application.html#adbc55e4e058b45b1003abcfc65ca1f80",
+"classmx_1_1wfp_1_1fraunhoferPropagator.html#a5d8f63e45cb651756ab1c524805f49ef",
+"group__IPC__msgq.html#ga83d47af2e683ab23938f383958b56a9f",
+"group__hc__imaging__enums.html#ga1af050405983cd62f812ec2c6809603e",
+"group__stringutils.html#gacb7b925603b82a005583e229903fecc2",
+"stringUtils_8hpp.html#gaac0597c3349fcb81b18dfd9a9e6d2975",
+"structmx_1_1astro_1_1units_1_1cgs.html#ab4dbf9c8945799b2dad9357aa908bb1d",
+"structmx_1_1improc_1_1fitsHeaderCard.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

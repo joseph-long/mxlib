@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['kepler_2ehpp',['kepler.hpp',['../kepler_8hpp.html',1,'']]],
-  ['klipreduction_2ehpp',['KLIPreduction.hpp',['../KLIPreduction_8hpp.html',1,'']]]
+  ['leakyintegrator_2ehpp',['leakyIntegrator.hpp',['../leakyIntegrator_8hpp.html',1,'']]],
+  ['levmarinterface_2ehpp',['levmarInterface.hpp',['../levmarInterface_8hpp.html',1,'']]],
+  ['lyotcoronagraph_2ehpp',['lyotCoronagraph.hpp',['../lyotCoronagraph_8hpp.html',1,'']]]
 ];

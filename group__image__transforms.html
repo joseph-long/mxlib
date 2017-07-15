@@ -247,9 +247,9 @@ template&lt;typename imageOutT , typename imageInT &gt; </div>
 
 <p>Down-sample an image, reducing its size while conserving the total flux. </p>
 <p>If the old size is an integer multiple of the new size, this is just a re-bin. If not an integer multiple, the image is interpolated after performing the closest re-bin, and then re-normalized to conserve flux.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000022">Todo:</a></b></dt><dd>Allow selection of interpolator, providing a default version. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000020">Todo:</a></b></dt><dd>Allow selection of interpolator, providing a default version. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="imageTransforms_8hpp_source.html#l00498">498</a> of file <a class="el" href="imageTransforms_8hpp_source.html">imageTransforms.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="imageTransforms_8hpp_source.html#l00497">497</a> of file <a class="el" href="imageTransforms_8hpp_source.html">imageTransforms.hpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="pywfsSlopeReconstructor_8hpp_source.html#l00362">mx::AO::sim::pywfsSlopeReconstructor&lt; _floatT &gt;::calcMeasurement()</a>, and <a class="el" href="ccdDetector_8hpp_source.html#l00315">mx::AO::sim::ccdDetector&lt; _floatT &gt;::exposeImage()</a>.</p>
 
@@ -291,15 +291,7 @@ template&lt;typename arrOutT , typename arrInT , typename transformT &gt; </div>
 
 <p>Magnify an image. </p>
 <p>Uses the given transformation type to magnify the input image to the size of the output image.</p>
-<p>Here we assume that the image center is the mxlib standard: </p><div class="fragment"><div class="line">x_center = 0.5*(im.rows()-1);</div><div class="line">y_center = 0.5*(im.cols()-1);</div></div><!-- fragment --><p> Some care is necessary to prevent magnification from shifting with respect to this center. The main result is that the magnification factors (which can be different in x and y) are defined thus: </p><div class="fragment"><div class="line">x_mag = (transim.rows()-1.0) / (im.rows()-1.0);</div><div class="line">y_mag = (transim.cols()-1.0) / (im.cols()-1.0);</div></div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">transim</td><td>contains the magnified image. Must be pre-allocated. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">im</td><td>is the image to be magnified. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">trans</td><td>is the transformation to use</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
+<p>Here we assume that the image center is the mxlib standard: </p><div class="fragment"><div class="line">x_center = 0.5*(im.rows()-1);</div><div class="line">y_center = 0.5*(im.cols()-1);</div></div><!-- fragment --><p> Some care is necessary to prevent magnification from shifting with respect to this center. The main result is that the magnification factors (which can be different in x and y) are defined thus: </p><div class="fragment"><div class="line">x_mag = (transim.rows()-1.0) / (im.rows()-1.0);</div><div class="line">y_mag = (transim.cols()-1.0) / (im.cols()-1.0);</div></div><!-- fragment --><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">arrOutT</td><td>is the eigen array type of the output. </td></tr>
     <tr><td class="paramname">arrInT</td><td>is the eigen array type of the input. </td></tr>
@@ -307,8 +299,16 @@ template&lt;typename arrOutT , typename arrInT , typename transformT &gt; </div>
   </table>
   </dd>
 </dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">transim</td><td>contains the magnified image. Must be pre-allocated. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">im</td><td>is the image to be magnified. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">trans</td><td>is the transformation to use </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="imageTransforms_8hpp_source.html#l00414">414</a> of file <a class="el" href="imageTransforms_8hpp_source.html">imageTransforms.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="imageTransforms_8hpp_source.html#l00410">410</a> of file <a class="el" href="imageTransforms_8hpp_source.html">imageTransforms.hpp</a>.</p>
 
 </div>
 </div>
@@ -523,7 +523,7 @@ template&lt;typename outputArrT , typename inputArrT &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jul 12 2017 23:21:19 for mxlib by
+    <li class="footer">Generated on Fri Jul 14 2017 22:59:10 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

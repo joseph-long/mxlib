@@ -91,77 +91,68 @@ $(document).ready(function(){initNavTree('todo.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt><a class="anchor" id="_todo000009"></a>Class <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html">mx::AO::aoAtmosphere&lt; _realT &gt;</a>  </dt>
+<dt><a class="anchor" id="_todo000007"></a>Class <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html">mx::AO::aoAtmosphere&lt; _realT &gt;</a>  </dt>
 <dd><p class="startdd">Add layer outer scales. </p>
 <p>Add calculation of f_G and tau_0. </p>
 <p class="enddd">Add provision for airmass (secant z). </p>
 </dd>
-<dt><a class="anchor" id="_todo000010"></a>Member <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#a0ae34b2322c1601e0b637a7a39105d98">mx::AO::aoAtmosphere&lt; _realT &gt;::update_v_wind</a>  ()</dt>
+<dt><a class="anchor" id="_todo000008"></a>Member <a class="el" href="classmx_1_1AO_1_1aoAtmosphere.html#a0ae34b2322c1601e0b637a7a39105d98">mx::AO::aoAtmosphere&lt; _realT &gt;::update_v_wind</a>  ()</dt>
 <dd>handle dir_wind averaging across 0/2pi  </dd>
-<dt><a class="anchor" id="_todo000011"></a>Member <a class="el" href="classmx_1_1AO_1_1aoSystem.html#a0a297fae85b7ca494198e6d5740d3219">mx::AO::aoSystem&lt; realT, inputSpectT, wfsBetaT &gt;::optimumTauWFS</a>  (realT m, realT n)</dt>
+<dt><a class="anchor" id="_todo000009"></a>Member <a class="el" href="classmx_1_1AO_1_1aoSystem.html#afcaf78af4f53a5f70c074a71e9c80989">mx::AO::aoSystem&lt; realT, inputSpectT &gt;::optimumTauWFS</a>  (realT m, realT n)</dt>
 <dd>Check inclusion of X in parameters </dd>
-<dt><a class="anchor" id="_todo000012"></a>Member <a class="el" href="structmx_1_1AO_1_1fourierCovariance.html#a50aa2c6b9b532dbb2afd6225035cb80e">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::getVariance</a>  (floatT &amp;error)</dt>
+<dt><a class="anchor" id="_todo000010"></a>Member <a class="el" href="structmx_1_1AO_1_1fourierCovariance.html#a50aa2c6b9b532dbb2afd6225035cb80e">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::getVariance</a>  (floatT &amp;error)</dt>
 <dd><p class="startdd">document me </p>
 <p class="enddd">handle gsl errors  </p>
 </dd>
-<dt><a class="anchor" id="_todo000013"></a>Class <a class="el" href="structmx_1_1AO_1_1fourierTemporalPSD.html">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;</a>  </dt>
+<dt><a class="anchor" id="_todo000011"></a>Class <a class="el" href="structmx_1_1AO_1_1fourierTemporalPSD.html">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;</a>  </dt>
 <dd><p class="startdd">Split off the integration parameters in a separate structure. </p>
 <p class="enddd">once integration parameters are in a separate structure, make this a class with protected members. </p>
 </dd>
-<dt><a class="anchor" id="_todo000015"></a>Member <a class="el" href="structmx_1_1AO_1_1fourierTemporalPSD.html#a94936e91e97516f0d80f53c2a3e8fe9c">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::multiLayerPSD</a>  (std::vector&lt; realT &gt; &amp;PSD, std::vector&lt; realT &gt; &amp;freq, realT m, realT n, int p, realT fmax=0)</dt>
+<dt><a class="anchor" id="_todo000013"></a>Member <a class="el" href="structmx_1_1AO_1_1fourierTemporalPSD.html#a94936e91e97516f0d80f53c2a3e8fe9c">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::multiLayerPSD</a>  (std::vector&lt; realT &gt; &amp;PSD, std::vector&lt; realT &gt; &amp;freq, realT m, realT n, int p, realT fmax=0)</dt>
 <dd><p class="startdd">implement error checking </p>
 <p class="enddd">handle reports of convergence failures form singleLayerPSD when implemented. </p>
 </dd>
-<dt><a class="anchor" id="_todo000014"></a>Member <a class="el" href="structmx_1_1AO_1_1fourierTemporalPSD.html#a32e87f26e9c27b2377432eb8f10c2727">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::singleLayerPSD</a>  (std::vector&lt; realT &gt; &amp;PSD, std::vector&lt; realT &gt; &amp;freq, realT m, realT n, int layer_i, int p, realT fmax=0)</dt>
+<dt><a class="anchor" id="_todo000012"></a>Member <a class="el" href="structmx_1_1AO_1_1fourierTemporalPSD.html#a32e87f26e9c27b2377432eb8f10c2727">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::singleLayerPSD</a>  (std::vector&lt; realT &gt; &amp;PSD, std::vector&lt; realT &gt; &amp;freq, realT m, realT n, int layer_i, int p, realT fmax=0)</dt>
 <dd><p class="startdd">implement error checking. </p>
 <p>need a way to track convergence failures in integral without throwing an error. </p>
 <p class="enddd">need better handling of averaging for the -17/3 extension. </p>
 </dd>
-<dt><a class="anchor" id="_todo000017"></a>Class <a class="el" href="structmx_1_1AO_1_1sim_1_1turbAtmosphere.html">mx::AO::sim::turbAtmosphere&lt; _realT &gt;</a>  </dt>
+<dt><a class="anchor" id="_todo000015"></a>Class <a class="el" href="structmx_1_1AO_1_1sim_1_1turbAtmosphere.html">mx::AO::sim::turbAtmosphere&lt; _realT &gt;</a>  </dt>
 <dd><p class="startdd">document this </p>
 <p class="enddd">add facility for switching interpolators  </p>
 </dd>
-<dt><a class="anchor" id="_todo000018"></a>Class <a class="el" href="structmx_1_1AO_1_1sim_1_1turbLayer.html">mx::AO::sim::turbLayer&lt; _realT &gt;</a>  </dt>
+<dt><a class="anchor" id="_todo000016"></a>Class <a class="el" href="structmx_1_1AO_1_1sim_1_1turbLayer.html">mx::AO::sim::turbLayer&lt; _realT &gt;</a>  </dt>
 <dd><p class="startdd">document this </p>
 <p class="enddd">add facility for changing interpolator  </p>
 </dd>
-<dt><a class="anchor" id="_todo000007"></a>Member <a class="el" href="structmx_1_1appConfigurator.html#a7a668dacdb861c6f4e225242f93d41a9">mx::appConfigurator::readConfig</a>  (const std::string &amp;fname)</dt>
+<dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="structmx_1_1appConfigurator.html#a7a668dacdb861c6f4e225242f93d41a9">mx::appConfigurator::readConfig</a>  (const std::string &amp;fname)</dt>
 <dd>handle += here, by appending to the last value as if a vector.  </dd>
-<dt><a class="anchor" id="_todo000008"></a>Class <a class="el" href="classmx_1_1application.html">mx::application</a>  </dt>
+<dt><a class="anchor" id="_todo000006"></a>Class <a class="el" href="classmx_1_1application.html">mx::application</a>  </dt>
 <dd>add handling of +=  </dd>
-<dt><a class="anchor" id="_todo000001"></a>Class <a class="el" href="classmx_1_1fftT_3_01__inputT_00_01__outputT_00_01__dim_00_010_01_4.html">mx::fftT&lt; _inputT, _outputT, _dim, 0 &gt;</a>  </dt>
-<dd><p class="startdd">document fftT </p>
-<p>add execute interface with fftw like signature </p>
-<p class="enddd">add plan interface where user passes in pointers (to avoid allocations) </p>
-</dd>
-<dt><a class="anchor" id="_todo000004"></a>Class <a class="el" href="classmx_1_1gnuPlot.html">mx::gnuPlot</a>  </dt>
+<dt><a class="anchor" id="_todo000003"></a>Class <a class="el" href="classmx_1_1gnuPlot.html">mx::gnuPlot</a>  </dt>
 <dd>Use mxError for error reporting. </dd>
-<dt><a class="anchor" id="_todo000019"></a>Member <a class="el" href="structmx_1_1improc_1_1HCIobservation.html#ab3e30727c0959ac43e3db7c48d14ec43">mx::improc::HCIobservation&lt; _realT &gt;::coaddImages</a>  ()</dt>
+<dt><a class="anchor" id="_todo000017"></a>Member <a class="el" href="structmx_1_1improc_1_1HCIobservation.html#ab3e30727c0959ac43e3db7c48d14ec43">mx::improc::HCIobservation&lt; _realT &gt;::coaddImages</a>  ()</dt>
 <dd><p class="startdd">this should really include end of exposure too. </p>
 <p class="enddd">this needs to handle averaging of angles  </p>
 </dd>
-<dt><a class="anchor" id="_todo000021"></a>Member <a class="el" href="structmx_1_1improc_1_1HCIobservation.html#af60ad6a04a3e0d1086710246901f3191">mx::improc::HCIobservation&lt; _realT &gt;::outputPreProcessed</a>  ()</dt>
+<dt><a class="anchor" id="_todo000019"></a>Member <a class="el" href="structmx_1_1improc_1_1HCIobservation.html#af60ad6a04a3e0d1086710246901f3191">mx::improc::HCIobservation&lt; _realT &gt;::outputPreProcessed</a>  ()</dt>
 <dd>Should add a HISTORY card here  </dd>
-<dt><a class="anchor" id="_todo000022"></a>Member <a class="el" href="group__image__transforms.html#gaa575d47dbaf2c5a20b51d34c2cdc8605">mx::improc::imageDownSample</a>  (imageOutT &amp;imout, const imageInT &amp;imin)</dt>
+<dt><a class="anchor" id="_todo000020"></a>Member <a class="el" href="group__image__transforms.html#gaa575d47dbaf2c5a20b51d34c2cdc8605">mx::improc::imageDownSample</a>  (imageOutT &amp;imout, const imageInT &amp;imin)</dt>
 <dd>Allow selection of interpolator, providing a default version.  </dd>
-<dt><a class="anchor" id="_todo000003"></a>Member <a class="el" href="group__fourier__basis.html#ga1a5e5d354d47b9780f7c1b232a767b8e">mx::makeFourierModeFreqs_Circ</a>  (std::vector&lt; fourierModeDef &gt; &amp;spf, int N)</dt>
+<dt><a class="anchor" id="_todo000002"></a>Member <a class="el" href="group__fourier__basis.html#ga1a5e5d354d47b9780f7c1b232a767b8e">mx::makeFourierModeFreqs_Circ</a>  (std::vector&lt; fourierModeDef &gt; &amp;spf, int N)</dt>
 <dd>use push_back instead of resize </dd>
-<dt><a class="anchor" id="_todo000002"></a>Member <a class="el" href="group__fourier__basis.html#ga4a14c9755b4540b34c52fc3d45a141f7">mx::makeFourierModeFreqs_PandV</a>  (std::vector&lt; fourierModeDef &gt; &amp;spf, int N)</dt>
+<dt><a class="anchor" id="_todo000001"></a>Member <a class="el" href="group__fourier__basis.html#ga4a14c9755b4540b34c52fc3d45a141f7">mx::makeFourierModeFreqs_PandV</a>  (std::vector&lt; fourierModeDef &gt; &amp;spf, int N)</dt>
 <dd>use push_back instead of resize  </dd>
-<dt><a class="anchor" id="_todo000005"></a>Class <a class="el" href="classmx_1_1psdFilter.html">mx::psdFilter&lt; _realT &gt;</a>  </dt>
-<dd><p class="startdd">investigate whether it is really necessary to use the backward transform. </p>
-<p class="enddd">once fftT has a plan interface with pointers for working memory, use it.  </p>
-</dd>
-<dt><a class="anchor" id="_todo000006"></a>Class <a class="el" href="structmx_1_1textTable.html">mx::textTable</a>  </dt>
+<dt><a class="anchor" id="_todo000004"></a>Class <a class="el" href="structmx_1_1textTable.html">mx::textTable</a>  </dt>
 <dd><p class="startdd">have ability to add whole row, with a variadic template to handle different types </p>
 <p>allow non-wrapping (i.e. unlimited width) columns </p>
 <p>headers and footers </p>
 <p>add centering (h and v) and right and bottom justification </p>
 <p class="enddd">have a latex() setup function  </p>
 </dd>
-<dt><a class="anchor" id="_todo000024"></a>Member <a class="el" href="imagingUtils_8hpp.html#ab3f1da9aa368329b62030983bab6163e">mx::wfp::drawLine</a>  (arrayT &amp;im, typename arrayT::Scalar x0, typename arrayT::Scalar y0, typename arrayT::Scalar x1, typename arrayT::Scalar y1, typename arrayT::Scalar halfWidth)</dt>
+<dt><a class="anchor" id="_todo000022"></a>Member <a class="el" href="imagingUtils_8hpp.html#ab3f1da9aa368329b62030983bab6163e">mx::wfp::drawLine</a>  (arrayT &amp;im, typename arrayT::Scalar x0, typename arrayT::Scalar y0, typename arrayT::Scalar x1, typename arrayT::Scalar y1, typename arrayT::Scalar halfWidth)</dt>
 <dd>should handle width much more intelligently, this only works for ~45 degree lines. </dd>
-<dt><a class="anchor" id="_todo000023"></a>Member <a class="el" href="structmx_1_1wfp_1_1idealCoronagraph.html#a7b9b299d75b35a32589bbe813bc0dd0c">mx::wfp::idealCoronagraph&lt; _realT &gt;::setPupil</a>  (imageT &amp;pupil)</dt>
+<dt><a class="anchor" id="_todo000021"></a>Member <a class="el" href="structmx_1_1wfp_1_1idealCoronagraph.html#a7b9b299d75b35a32589bbe813bc0dd0c">mx::wfp::idealCoronagraph&lt; _realT &gt;::setPupil</a>  (imageT &amp;pupil)</dt>
 <dd>This should be called "loadCoronagraph" and take a fits file name to match <a class="el" href="structmx_1_1wfp_1_1lyotCoronagraph.html" title="The Lyot Coronagraph. ">lyotCoronagraph</a></dd>
 </dl>
 </div></div><!-- contents -->
@@ -169,7 +160,7 @@ $(document).ready(function(){initNavTree('todo.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jul 12 2017 23:21:19 for mxlib by
+    <li class="footer">Generated on Fri Jul 14 2017 22:59:10 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
