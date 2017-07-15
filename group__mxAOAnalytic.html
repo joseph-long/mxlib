@@ -108,17 +108,17 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1vonKarmanSpectrum.html">mx::AO::vonKarmanSpectrum&lt; realT &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manage calculations using the von Karman spatial power spectrum.  <a href="structmx_1_1AO_1_1vonKarmanSpectrum.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1AO_1_1aoSystem.html">mx::AO::aoSystem&lt; realT, inputSpectT &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1AO_1_1aoSystem.html">mx::AO::aoSystem&lt; realT, inputSpectT, iosT &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describes an analytic adaptive optics (AO) system.  <a href="classmx_1_1AO_1_1aoSystem.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1wfs.html">mx::AO::wfs&lt; realT &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ideal wavefront sensor sensitivity function.  <a href="structmx_1_1AO_1_1wfs.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1beta__p_1_1wfs.html">mx::AO::beta_p::wfs&lt; realT, iosT &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ideal wavefront sensor sensitivity function.  <a href="structmx_1_1AO_1_1beta__p_1_1wfs.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1pywfsUnmod.html">mx::AO::pywfsUnmod&lt; realT &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The unmodulated pyramid wavefront sensor sensitivity function.  <a href="structmx_1_1AO_1_1pywfsUnmod.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1beta__p_1_1pywfsUnmod.html">mx::AO::beta_p::pywfsUnmod&lt; realT, iosT &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The unmodulated pyramid wavefront sensor sensitivity function.  <a href="structmx_1_1AO_1_1beta__p_1_1pywfsUnmod.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1pywfsModAsymptotic.html">mx::AO::pywfsModAsymptotic&lt; realT &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The asymptotic modulated pyramid wavefront sensor sensitivity function.  <a href="structmx_1_1AO_1_1pywfsModAsymptotic.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1beta__p_1_1pywfsModAsymptotic.html">mx::AO::beta_p::pywfsModAsymptotic&lt; realT, iosT &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The asymptotic modulated pyramid wavefront sensor sensitivity function.  <a href="structmx_1_1AO_1_1beta__p_1_1pywfsModAsymptotic.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1clGainOpt.html">mx::AO::clGainOpt&lt; _realT &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage optimizing closed-loop gains.  <a href="structmx_1_1AO_1_1clGainOpt.html#details">More...</a><br /></td></tr>
@@ -193,7 +193,7 @@ template&lt;typename realT , typename aosysT &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00775">775</a> of file <a class="el" href="fourierTemporalPSD_8hpp_source.html">fourierTemporalPSD.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00086">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_aosys</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00088">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_f</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00092">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_layer_i</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00089">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_m</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00090">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_n</a>, and <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00091">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_p</a>.</p>
+<p class="reference">References <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00086">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_aosys</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00088">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_f</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00092">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_layer_i</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00089">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_m</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00090">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_n</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00091">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_p</a>, and <a class="el" href="jinc_8hpp_source.html#l00045">mx::math::func::jinc()</a>.</p>
 
 </div>
 </div>
@@ -229,7 +229,7 @@ template&lt;typename realT , typename aosysT &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00809">809</a> of file <a class="el" href="fourierTemporalPSD_8hpp_source.html">fourierTemporalPSD.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00086">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_aosys</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00088">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_f</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00092">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_layer_i</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00089">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_m</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00090">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_n</a>, and <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00091">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_p</a>.</p>
+<p class="reference">References <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00086">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_aosys</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00088">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_f</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00092">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_layer_i</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00089">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_m</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00090">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_n</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00091">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_p</a>, and <a class="el" href="jinc_8hpp_source.html#l00045">mx::math::func::jinc()</a>.</p>
 
 </div>
 </div>
@@ -265,7 +265,7 @@ template&lt;typename realT , typename aosysT &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00845">845</a> of file <a class="el" href="fourierTemporalPSD_8hpp_source.html">fourierTemporalPSD.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00086">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_aosys</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00088">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_f</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00092">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_layer_i</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00102">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_mode_i</a>, and <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00104">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_modeCoeffs</a>.</p>
+<p class="reference">References <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00086">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_aosys</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00088">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_f</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00092">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_layer_i</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00102">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_mode_i</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00104">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::_modeCoeffs</a>, and <a class="el" href="jinc_8hpp_source.html#l00045">mx::math::func::jinc()</a>.</p>
 
 </div>
 </div>
@@ -315,7 +315,7 @@ template&lt;typename floatT , typename aosysT &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="fourierCovariance_8hpp_source.html#l00065">65</a> of file <a class="el" href="fourierCovariance_8hpp_source.html">fourierCovariance.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="fourierCovariance_8hpp_source.html#l00240">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::aosys</a>, <a class="el" href="constants_8hpp_source.html#l00071">mx::astro::constants::k()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00264">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::k</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00249">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::m</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00258">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::mp</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00252">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::n</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00261">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::np</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00246">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::p</a>, and <a class="el" href="fourierCovariance_8hpp_source.html#l00255">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::pp</a>.</p>
+<p class="reference">References <a class="el" href="fourierCovariance_8hpp_source.html#l00240">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::aosys</a>, <a class="el" href="jinc_8hpp_source.html#l00045">mx::math::func::jinc()</a>, <a class="el" href="constants_8hpp_source.html#l00071">mx::astro::constants::k()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00264">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::k</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00249">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::m</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00258">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::mp</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00252">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::n</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00261">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::np</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00246">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::p</a>, and <a class="el" href="fourierCovariance_8hpp_source.html#l00255">mx::AO::fourierCovariance&lt; floatT, aosysT &gt;::pp</a>.</p>
 
 </div>
 </div>
@@ -461,7 +461,7 @@ template&lt;typename realT &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Jul 14 2017 22:59:10 for mxlib by
+    <li class="footer">Generated on Sat Jul 15 2017 14:22:57 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

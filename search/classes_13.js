@@ -1,5 +1,5 @@
 var searchData=
 [
   ['wavefront',['wavefront',['../structmx_1_1AO_1_1sim_1_1wavefront.html',1,'mx::AO::sim']]],
-  ['wfs',['wfs',['../structmx_1_1AO_1_1wfs.html',1,'mx::AO']]]
+  ['wfs',['wfs',['../structmx_1_1AO_1_1beta__p_1_1wfs.html',1,'mx::AO::beta_p']]]
 ];

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['earth',['earth',['../structmx_1_1astro_1_1units_1_1earth.html',1,'mx::astro::units']]],
+  ['eccent',['eccent',['../group__geo.html#ga82042b0a5a45c44b5e484d1e6b3315b7',1,'geo.hpp']]],
   ['eigenarrplanes',['eigenArrPlanes',['../structmx_1_1eigenArrPlanes.html',1,'mx']]],
   ['eigencube',['eigenCube',['../classmx_1_1improc_1_1eigenCube.html',1,'mx::improc']]],
   ['eigencube_2ehpp',['eigenCube.hpp',['../eigenCube_8hpp.html',1,'']]],
@@ -42,8 +43,9 @@ var searchData=
   ['excludemethods',['excludeMethods',['../group__hc__imaging__enums.html#ga7bedc230d1b422b72f51ddcec55deaed',1,'mx::improc::HCI']]],
   ['excludenone',['excludeNone',['../group__hc__imaging__enums.html#gga7bedc230d1b422b72f51ddcec55deaeda6ffc2f84e2b15449da555a36819faa69',1,'mx::improc::HCI']]],
   ['excludepixel',['excludePixel',['../group__hc__imaging__enums.html#gga7bedc230d1b422b72f51ddcec55deaeda0891b70655197e1f42a28c71a2ce2508',1,'mx::improc::HCI']]],
-  ['execute',['execute',['../classmx_1_1application.html#a70db2cc94470121def8fea9ca0f56b52',1,'mx::application']]],
+  ['execute',['execute',['../classmx_1_1application.html#acd3e958739e59dcf736e5131185d9210',1,'mx::application']]],
   ['expdistt',['expDistT',['../group__random.html#gad47f8d163003db6d1dd446069573371c',1,'mx']]],
   ['exposeimage',['exposeImage',['../classmx_1_1AO_1_1sim_1_1ccdDetector.html#a9ac73a873ae5711781214fb066e6dbf8',1,'mx::AO::sim::ccdDetector']]],
-  ['extractkeywords',['extractKeywords',['../structmx_1_1improc_1_1ADIDerotator.html#a819d41a5833f433e829f26575c95401f',1,'mx::improc::ADIDerotator']]]
+  ['extractkeywords',['extractKeywords',['../structmx_1_1improc_1_1ADIDerotator.html#a819d41a5833f433e829f26575c95401f',1,'mx::improc::ADIDerotator']]],
+  ['execution',['Execution',['../group__fftw__template__exec.html',1,'']]]
 ];

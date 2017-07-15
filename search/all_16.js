@@ -19,5 +19,6 @@ var searchData=
   ['vector_20utilities',['Vector Utilities',['../group__vectorutils.html',1,'']]],
   ['vectorutils_2ehpp',['vectorUtils.hpp',['../vectorUtils_8hpp.html',1,'']]],
   ['vectorvariance',['vectorVariance',['../group__vectorutils.html#ga8931139d61b25cfd3c73cf715ce23aa8',1,'mx::vectorVariance(const vectorT &amp;vec, typename vectorT::value_type &amp;mean)'],['../group__vectorutils.html#gadf78c7a8d2fcacc9af4cc9ec394791bd',1,'mx::vectorVariance(const vectorT &amp;vec)']]],
+  ['vonkarman_5fpsd',['vonKarman_psd',['../group__psds.html#gaed98346fd5a35b6daba93907e690f66d',1,'mx::sigproc']]],
   ['vonkarmanspectrum',['vonKarmanSpectrum',['../structmx_1_1AO_1_1vonKarmanSpectrum.html',1,'mx::AO::vonKarmanSpectrum&lt; realT &gt;'],['../structmx_1_1AO_1_1vonKarmanSpectrum.html#a03dd68131272432d3b38a772d6524c36',1,'mx::AO::vonKarmanSpectrum::vonKarmanSpectrum()'],['../structmx_1_1AO_1_1vonKarmanSpectrum.html#a9be52dcd0c3104bb1e02572d62aa9157',1,'mx::AO::vonKarmanSpectrum::vonKarmanSpectrum(bool subP, bool subT, realT D)']]]
 ];

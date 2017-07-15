@@ -9,5 +9,7 @@ var searchData=
   ['application',['application',['../classmx_1_1application.html',1,'mx']]],
   ['array2fit',['array2Fit',['../structmx_1_1array2Fit.html',1,'mx']]],
   ['array2fit_3c_20float_20_3e',['array2Fit&lt; float &gt;',['../structmx_1_1array2Fit.html',1,'mx']]],
+  ['autocorrelationfrompsd',['autocorrelationFromPSD',['../structmx_1_1autocorrelationFromPSD.html',1,'mx']]],
+  ['autocorrelationfrompsd_3c_20realt_20_3e',['autocorrelationFromPSD&lt; realT &gt;',['../structmx_1_1autocorrelationFromPSD.html',1,'mx']]],
   ['azboxkernel',['azBoxKernel',['../structmx_1_1improc_1_1azBoxKernel.html',1,'mx::improc']]]
 ];

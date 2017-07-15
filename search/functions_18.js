@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['y',['Y',['../classmx_1_1AO_1_1aoAtmosphere.html#acdfb76bd7c7c734a3ea318e190af48a1',1,'mx::AO::aoAtmosphere']]],
-  ['year',['year',['../group__dimensioned__constants.html#ga2bdce797247018b98db078a14b04ec6e',1,'mx::astro::constants']]]
+  ['x',['X',['../classmx_1_1AO_1_1aoAtmosphere.html#ad23d90110ecf712e8a82f3420f167250',1,'mx::AO::aoAtmosphere']]],
+  ['x_5fz',['X_Z',['../classmx_1_1AO_1_1aoAtmosphere.html#a61fa3d9dd7e5f3cfd0269eccc340cb09',1,'mx::AO::aoAtmosphere']]]
 ];

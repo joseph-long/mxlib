@@ -86,6 +86,9 @@ $(document).ready(function(){initNavTree('group__template__blas.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#files">Files</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Templatized BLAS interface<div class="ingroups"><a class="el" href="group__gen__math.html">General Mathematics</a> &raquo; <a class="el" href="group__template__blaslap.html">Templatized BLAS and Lapack</a></div></div>  </div>
 </div><!--header-->
@@ -93,13 +96,591 @@ $(document).ready(function(){initNavTree('group__template__blas.html','');});
 
 <p>Templatized interface to the BLAS.  
 <a href="#details">More...</a></p>
+<a name="details" id="details"></a><h2 class="groupheader"> </h2>
 <p>Templatized interface to the BLAS. </p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"></a>
+Files</h2></td></tr>
+<tr class="memitem:templateBLAS_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="templateBLAS_8hpp.html">templateBLAS.hpp</a></td></tr>
+<tr class="memdesc:templateBLAS_8hpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declares and defines templatized wrappers for the BLAS. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga8889b04d18e49dbdba8580ba172de3ea"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
+<tr class="memitem:ga8889b04d18e49dbdba8580ba172de3ea"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#ga8889b04d18e49dbdba8580ba172de3ea">mx::math::scal</a> (const int N, const dataT alpha, dataT *X, const int incX)</td></tr>
+<tr class="memdesc:ga8889b04d18e49dbdba8580ba172de3ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template wrapper for cblas xSCAL.  <a href="group__template__blas.html#ga8889b04d18e49dbdba8580ba172de3ea">More...</a><br /></td></tr>
+<tr class="separator:ga8889b04d18e49dbdba8580ba172de3ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaafc77f081091e88961c3f43264a7a6da"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
+<tr class="memitem:gaafc77f081091e88961c3f43264a7a6da"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#gaafc77f081091e88961c3f43264a7a6da">mx::math::hadp_impl</a> (const int N, dataT *__restrict__ Y, dataT *__restrict__ X)</td></tr>
+<tr class="memdesc:gaafc77f081091e88961c3f43264a7a6da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of the Hadamard (element-wise) product of two vectors.  <a href="group__template__blas.html#gaafc77f081091e88961c3f43264a7a6da">More...</a><br /></td></tr>
+<tr class="separator:gaafc77f081091e88961c3f43264a7a6da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1621ce1a597b9fb9447f3ca296679e7c"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
+<tr class="memitem:ga1621ce1a597b9fb9447f3ca296679e7c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#ga1621ce1a597b9fb9447f3ca296679e7c">mx::math::hadp</a> (const int N, dataT *Y, dataT *X)</td></tr>
+<tr class="memdesc:ga1621ce1a597b9fb9447f3ca296679e7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template wrapper for cblas-extension xHADP.  <a href="group__template__blas.html#ga1621ce1a597b9fb9447f3ca296679e7c">More...</a><br /></td></tr>
+<tr class="separator:ga1621ce1a597b9fb9447f3ca296679e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab49ebccd89fa6665a721922754b0445c"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
+<tr class="memitem:gab49ebccd89fa6665a721922754b0445c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#gab49ebccd89fa6665a721922754b0445c">mx::math::hadd_impl</a> (const int N, const dataT alpha, const dataT *Y, const int incY, dataT *X, const int incX)</td></tr>
+<tr class="memdesc:gab49ebccd89fa6665a721922754b0445c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of the Hadamard (element-wise) division of two vectors.  <a href="group__template__blas.html#gab49ebccd89fa6665a721922754b0445c">More...</a><br /></td></tr>
+<tr class="separator:gab49ebccd89fa6665a721922754b0445c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga533678f811dd6bda72bf578e50ede88c"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
+<tr class="memitem:ga533678f811dd6bda72bf578e50ede88c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#ga533678f811dd6bda72bf578e50ede88c">mx::math::hadd</a> (const int N, const dataT alpha, const dataT *Y, const int incY, dataT *X, const int incX)</td></tr>
+<tr class="memdesc:ga533678f811dd6bda72bf578e50ede88c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template wrapper for cblas-extension xHADD.  <a href="group__template__blas.html#ga533678f811dd6bda72bf578e50ede88c">More...</a><br /></td></tr>
+<tr class="separator:ga533678f811dd6bda72bf578e50ede88c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadc518ea0ce47d20666caa0e65abaca48"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
+<tr class="memitem:gadc518ea0ce47d20666caa0e65abaca48"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#gadc518ea0ce47d20666caa0e65abaca48">mx::math::gemm</a> (const enum CBLAS_ORDER Order, const enum CBLAS_TRANSPOSE TransA, const enum CBLAS_TRANSPOSE TransB, const int M, const int N, const int K, const dataT alpha, const dataT *A, const int lda, const dataT *B, const int ldb, const dataT beta, dataT *C, const int ldc)</td></tr>
+<tr class="memdesc:gadc518ea0ce47d20666caa0e65abaca48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template Wrapper for cblas xGEMM.  <a href="group__template__blas.html#gadc518ea0ce47d20666caa0e65abaca48">More...</a><br /></td></tr>
+<tr class="separator:gadc518ea0ce47d20666caa0e65abaca48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga30c42fe54ef218bae41966be7ad74537"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
+<tr class="memitem:ga30c42fe54ef218bae41966be7ad74537"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#ga30c42fe54ef218bae41966be7ad74537">mx::math::syrk</a> (const enum CBLAS_ORDER Order, const enum CBLAS_UPLO Uplo, const enum CBLAS_TRANSPOSE Trans, const int N, const int K, const dataT alpha, const dataT *A, const int lda, const dataT beta, dataT *C, const int ldc)</td></tr>
+<tr class="memdesc:ga30c42fe54ef218bae41966be7ad74537"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template Wrapper for cblas xSYRK.  <a href="group__template__blas.html#ga30c42fe54ef218bae41966be7ad74537">More...</a><br /></td></tr>
+<tr class="separator:ga30c42fe54ef218bae41966be7ad74537"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="gadc518ea0ce47d20666caa0e65abaca48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadc518ea0ce47d20666caa0e65abaca48">&#9670;&nbsp;</a></span>gemm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename dataT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void mx::math::gemm </td>
+          <td>(</td>
+          <td class="paramtype">const enum CBLAS_ORDER&#160;</td>
+          <td class="paramname"><em>Order</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const enum CBLAS_TRANSPOSE&#160;</td>
+          <td class="paramname"><em>TransA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const enum CBLAS_TRANSPOSE&#160;</td>
+          <td class="paramname"><em>TransB</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>M</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>K</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dataT&#160;</td>
+          <td class="paramname"><em>alpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dataT *&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>lda</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dataT *&#160;</td>
+          <td class="paramname"><em>B</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>ldb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dataT&#160;</td>
+          <td class="paramname"><em>beta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dataT *&#160;</td>
+          <td class="paramname"><em>C</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>ldc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Template Wrapper for cblas xGEMM. </p>
+
+<p class="definition">Definition at line <a class="el" href="templateBLAS_8hpp_source.html#l00195">195</a> of file <a class="el" href="templateBLAS_8hpp_source.html">templateBLAS.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ga533678f811dd6bda72bf578e50ede88c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga533678f811dd6bda72bf578e50ede88c">&#9670;&nbsp;</a></span>hadd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename dataT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void mx::math::hadd </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dataT&#160;</td>
+          <td class="paramname"><em>alpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dataT *&#160;</td>
+          <td class="paramname"><em>Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>incY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dataT *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>incX</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Template wrapper for cblas-extension xHADD. </p>
+<p>Computes the the Hadamard or element-wise product: X &lt;- alpha*X/Y</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">N</td><td>[in] the length of the two vectors </td></tr>
+    <tr><td class="paramname">alpha</td><td>[in] scalar to multiply each element by </td></tr>
+    <tr><td class="paramname">Y</td><td>[in] vector to perform element-wise division with </td></tr>
+    <tr><td class="paramname">incY</td><td>[in] in-memory increment or stride for Y </td></tr>
+    <tr><td class="paramname">X</td><td>[in/out] vector which is multiplied by alpha and element-wise divided by Y </td></tr>
+    <tr><td class="paramname">incX</td><td>[in] in-memeory increment or stride for X</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">dataT</td><td>the data type of the alpha, X, and Y </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="templateBLAS_8hpp_source.html#l00179">179</a> of file <a class="el" href="templateBLAS_8hpp_source.html">templateBLAS.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="templateBLAS_8hpp_source.html#l00150">mx::math::hadd_impl()</a>.</p>
+
+</div>
+</div>
+<a id="gab49ebccd89fa6665a721922754b0445c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab49ebccd89fa6665a721922754b0445c">&#9670;&nbsp;</a></span>hadd_impl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename dataT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void mx::math::hadd_impl </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dataT&#160;</td>
+          <td class="paramname"><em>alpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dataT *&#160;</td>
+          <td class="paramname"><em>Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>incY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dataT *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>incX</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementation of the Hadamard (element-wise) division of two vectors. </p>
+<p>Computes the the Hadamard or element-wise product: X &lt;- alpha*X/Y</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">N</td><td>[in] the length of the two vectors </td></tr>
+    <tr><td class="paramname">alpha</td><td>[in] scalar to multiply each element by </td></tr>
+    <tr><td class="paramname">Y</td><td>[in] vector to perform element-wise division with </td></tr>
+    <tr><td class="paramname">incY</td><td>[in] in-memory increment or stride for Y </td></tr>
+    <tr><td class="paramname">X</td><td>[in/out] vector which is multiplied by alpha and element-wise divided by Y </td></tr>
+    <tr><td class="paramname">incX</td><td>[in] in-memeory increment or stride for X</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">dataT</td><td>the data type of the alpha, X, and Y </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="templateBLAS_8hpp_source.html#l00150">150</a> of file <a class="el" href="templateBLAS_8hpp_source.html">templateBLAS.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="templateBLAS_8hpp_source.html#l00179">mx::math::hadd()</a>.</p>
+
+</div>
+</div>
+<a id="ga1621ce1a597b9fb9447f3ca296679e7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1621ce1a597b9fb9447f3ca296679e7c">&#9670;&nbsp;</a></span>hadp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename dataT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mx::math::hadp </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dataT *&#160;</td>
+          <td class="paramname"><em>Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dataT *&#160;</td>
+          <td class="paramname"><em>X</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Template wrapper for cblas-extension xHADP. </p>
+<p>Computes the the Hadamard or element-wise product: X &lt;- alpha*X*Y</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">N</td><td>[in] the length of the two vectors </td></tr>
+    <tr><td class="paramname">alpha</td><td>[in] scalar to multiply each element by </td></tr>
+    <tr><td class="paramname">Y</td><td>[in] vector to perform element-wise multiplication with </td></tr>
+    <tr><td class="paramname">incY</td><td>[in] in-memory increment or stride for Y </td></tr>
+    <tr><td class="paramname">X</td><td>[in/out] vector which is multiplied by alpha and element-wise multiplied by Y </td></tr>
+    <tr><td class="paramname">incX</td><td>[in] in-memeory increment or stride for X</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">dataT</td><td>the data type of the alpha, X, and Y </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="templateBLAS_8hpp_source.html#l00128">128</a> of file <a class="el" href="templateBLAS_8hpp_source.html">templateBLAS.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="templateBLAS_8hpp_source.html#l00098">mx::math::hadp_impl()</a>.</p>
+
+</div>
+</div>
+<a id="gaafc77f081091e88961c3f43264a7a6da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaafc77f081091e88961c3f43264a7a6da">&#9670;&nbsp;</a></span>hadp_impl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename dataT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mx::math::hadp_impl </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dataT *__restrict__&#160;</td>
+          <td class="paramname"><em>Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dataT *__restrict__&#160;</td>
+          <td class="paramname"><em>X</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implementation of the Hadamard (element-wise) product of two vectors. </p>
+<p>Computes the the Hadamard or element-wise product: X &lt;- alpha*X*Y</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">N</td><td>[in] the length of the two vectors </td></tr>
+    <tr><td class="paramname">alpha</td><td>[in] scalar to multiply each element by </td></tr>
+    <tr><td class="paramname">Y</td><td>[in] vector to perform element-wise multiplication with </td></tr>
+    <tr><td class="paramname">incY</td><td>[in] in-memory increment or stride for Y </td></tr>
+    <tr><td class="paramname">X</td><td>[in/out] vector which is multiplied by alpha and element-wise multiplied by Y </td></tr>
+    <tr><td class="paramname">incX</td><td>[in] in-memeory increment or stride for X</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">dataT</td><td>the data type of the alpha, X, and Y </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="templateBLAS_8hpp_source.html#l00098">98</a> of file <a class="el" href="templateBLAS_8hpp_source.html">templateBLAS.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="templateBLAS_8hpp_source.html#l00128">mx::math::hadp()</a>.</p>
+
+</div>
+</div>
+<a id="ga8889b04d18e49dbdba8580ba172de3ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8889b04d18e49dbdba8580ba172de3ea">&#9670;&nbsp;</a></span>scal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename dataT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void mx::math::scal </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dataT&#160;</td>
+          <td class="paramname"><em>alpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dataT *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>incX</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Template wrapper for cblas xSCAL. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">dataT</td><td>the data type of the alpha, X, and Y </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="templateBLAS_8hpp_source.html#l00032">32</a> of file <a class="el" href="templateBLAS_8hpp_source.html">templateBLAS.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ga30c42fe54ef218bae41966be7ad74537"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga30c42fe54ef218bae41966be7ad74537">&#9670;&nbsp;</a></span>syrk()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename dataT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void mx::math::syrk </td>
+          <td>(</td>
+          <td class="paramtype">const enum CBLAS_ORDER&#160;</td>
+          <td class="paramname"><em>Order</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const enum CBLAS_UPLO&#160;</td>
+          <td class="paramname"><em>Uplo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const enum CBLAS_TRANSPOSE&#160;</td>
+          <td class="paramname"><em>Trans</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>K</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dataT&#160;</td>
+          <td class="paramname"><em>alpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dataT *&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>lda</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dataT&#160;</td>
+          <td class="paramname"><em>beta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dataT *&#160;</td>
+          <td class="paramname"><em>C</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>ldc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Template Wrapper for cblas xSYRK. </p>
+
+<p class="definition">Definition at line <a class="el" href="templateBLAS_8hpp_source.html#l00260">260</a> of file <a class="el" href="templateBLAS_8hpp_source.html">templateBLAS.hpp</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Jul 14 2017 22:59:10 for mxlib by
+    <li class="footer">Generated on Sat Jul 15 2017 14:22:57 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -1,11 +1,11 @@
 var group__template__blas =
 [
     [ "templateBLAS.hpp", "templateBLAS_8hpp.html", null ],
-    [ "gemm", "group__template__blas.html#gac6750d0dd45bf6f1ab6f7136e366cc24", null ],
-    [ "hadd", "group__template__blas.html#gad43a93a5331d52bd67c31af13d3a03f8", null ],
-    [ "hadd_impl", "group__template__blas.html#gaaaa719adba79275b8aa4c87cb04e246b", null ],
-    [ "hadp", "group__template__blas.html#ga893933ac4102cfc197809550f253d116", null ],
-    [ "hadp_impl", "group__template__blas.html#ga9d48d81e8f9acea8bd9d552b55dfec22", null ],
-    [ "scal", "group__template__blas.html#gad877f6b8eeca8bad2f5339d9ad427ba0", null ],
-    [ "syrk", "group__template__blas.html#ga4fedc7542809e654f1afa78160aa53e7", null ]
+    [ "gemm", "group__template__blas.html#gadc518ea0ce47d20666caa0e65abaca48", null ],
+    [ "hadd", "group__template__blas.html#ga533678f811dd6bda72bf578e50ede88c", null ],
+    [ "hadd_impl", "group__template__blas.html#gab49ebccd89fa6665a721922754b0445c", null ],
+    [ "hadp", "group__template__blas.html#ga1621ce1a597b9fb9447f3ca296679e7c", null ],
+    [ "hadp_impl", "group__template__blas.html#gaafc77f081091e88961c3f43264a7a6da", null ],
+    [ "scal", "group__template__blas.html#ga8889b04d18e49dbdba8580ba172de3ea", null ],
+    [ "syrk", "group__template__blas.html#ga30c42fe54ef218bae41966be7ad74537", null ]
 ];

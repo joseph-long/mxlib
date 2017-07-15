@@ -1,6 +1,7 @@
 var namespacemx =
 [
     [ "AO", null, [
+      [ "beta_p", "namespacemx_1_1AO_1_1beta__p.html", "namespacemx_1_1AO_1_1beta__p" ],
       [ "path", "namespacemx_1_1AO_1_1path.html", null ],
       [ "sim", null, [
         [ "ccdDetector", "classmx_1_1AO_1_1sim_1_1ccdDetector.html", "classmx_1_1AO_1_1sim_1_1ccdDetector" ],
@@ -20,10 +21,7 @@ var namespacemx =
       [ "clMaxStableGainOpt", "structmx_1_1AO_1_1clMaxStableGainOpt.html", null ],
       [ "fourierCovariance", "structmx_1_1AO_1_1fourierCovariance.html", "structmx_1_1AO_1_1fourierCovariance" ],
       [ "fourierTemporalPSD", "structmx_1_1AO_1_1fourierTemporalPSD.html", "structmx_1_1AO_1_1fourierTemporalPSD" ],
-      [ "pywfsModAsymptotic", "structmx_1_1AO_1_1pywfsModAsymptotic.html", "structmx_1_1AO_1_1pywfsModAsymptotic" ],
-      [ "pywfsUnmod", "structmx_1_1AO_1_1pywfsUnmod.html", "structmx_1_1AO_1_1pywfsUnmod" ],
-      [ "vonKarmanSpectrum", "structmx_1_1AO_1_1vonKarmanSpectrum.html", "structmx_1_1AO_1_1vonKarmanSpectrum" ],
-      [ "wfs", "structmx_1_1AO_1_1wfs.html", "structmx_1_1AO_1_1wfs" ]
+      [ "vonKarmanSpectrum", "structmx_1_1AO_1_1vonKarmanSpectrum.html", "structmx_1_1AO_1_1vonKarmanSpectrum" ]
     ] ],
     [ "astro", null, [
       [ "units", null, [
@@ -61,6 +59,9 @@ var namespacemx =
       [ "trueFalseT< false >", "structmx_1_1meta_1_1trueFalseT_3_01false_01_4.html", "structmx_1_1meta_1_1trueFalseT_3_01false_01_4" ],
       [ "trueFalseT< true >", "structmx_1_1meta_1_1trueFalseT_3_01true_01_4.html", "structmx_1_1meta_1_1trueFalseT_3_01true_01_4" ]
     ] ],
+    [ "sigproc", null, [
+      [ "psdFilter", "classmx_1_1sigproc_1_1psdFilter.html", "classmx_1_1sigproc_1_1psdFilter" ]
+    ] ],
     [ "wfp", null, [
       [ "fraunhoferPropagator", "classmx_1_1wfp_1_1fraunhoferPropagator.html", "classmx_1_1wfp_1_1fraunhoferPropagator" ],
       [ "idealCoronagraph", "structmx_1_1wfp_1_1idealCoronagraph.html", "structmx_1_1wfp_1_1idealCoronagraph" ],
@@ -69,9 +70,29 @@ var namespacemx =
     [ "appConfigurator", "structmx_1_1appConfigurator.html", "structmx_1_1appConfigurator" ],
     [ "application", "classmx_1_1application.html", "classmx_1_1application" ],
     [ "array2Fit", "structmx_1_1array2Fit.html", "structmx_1_1array2Fit" ],
+    [ "autocorrelationFromPSD", "structmx_1_1autocorrelationFromPSD.html", "structmx_1_1autocorrelationFromPSD" ],
     [ "clOptions", "structmx_1_1clOptions.html", "structmx_1_1clOptions" ],
     [ "configTarget", "structmx_1_1configTarget.html", "structmx_1_1configTarget" ],
     [ "eigenArrPlanes", "structmx_1_1eigenArrPlanes.html", null ],
+    [ "fftT< _inputT, _outputT, _dim, 0 >", "classmx_1_1fftT_3_01__inputT_00_01__outputT_00_01__dim_00_010_01_4.html", "classmx_1_1fftT_3_01__inputT_00_01__outputT_00_01__dim_00_010_01_4" ],
+    [ "fftwPlanSpec", "structmx_1_1fftwPlanSpec.html", "structmx_1_1fftwPlanSpec" ],
+    [ "fftwPlanSpec< __float128 >", "structmx_1_1fftwPlanSpec_3_01____float128_01_4.html", "structmx_1_1fftwPlanSpec_3_01____float128_01_4" ],
+    [ "fftwPlanSpec< double >", "structmx_1_1fftwPlanSpec_3_01double_01_4.html", "structmx_1_1fftwPlanSpec_3_01double_01_4" ],
+    [ "fftwPlanSpec< float >", "structmx_1_1fftwPlanSpec_3_01float_01_4.html", "structmx_1_1fftwPlanSpec_3_01float_01_4" ],
+    [ "fftwPlanSpec< long double >", "structmx_1_1fftwPlanSpec_3_01long_01double_01_4.html", "structmx_1_1fftwPlanSpec_3_01long_01double_01_4" ],
+    [ "fftwTypeSpec", "structmx_1_1fftwTypeSpec.html", "structmx_1_1fftwTypeSpec" ],
+    [ "fftwTypeSpec< __float128, complexQT >", "structmx_1_1fftwTypeSpec_3_01____float128_00_01complexQT_01_4.html", "structmx_1_1fftwTypeSpec_3_01____float128_00_01complexQT_01_4" ],
+    [ "fftwTypeSpec< complexDT, complexDT >", "structmx_1_1fftwTypeSpec_3_01complexDT_00_01complexDT_01_4.html", "structmx_1_1fftwTypeSpec_3_01complexDT_00_01complexDT_01_4" ],
+    [ "fftwTypeSpec< complexDT, double >", "structmx_1_1fftwTypeSpec_3_01complexDT_00_01double_01_4.html", "structmx_1_1fftwTypeSpec_3_01complexDT_00_01double_01_4" ],
+    [ "fftwTypeSpec< complexFT, complexFT >", "structmx_1_1fftwTypeSpec_3_01complexFT_00_01complexFT_01_4.html", "structmx_1_1fftwTypeSpec_3_01complexFT_00_01complexFT_01_4" ],
+    [ "fftwTypeSpec< complexFT, float >", "structmx_1_1fftwTypeSpec_3_01complexFT_00_01float_01_4.html", "structmx_1_1fftwTypeSpec_3_01complexFT_00_01float_01_4" ],
+    [ "fftwTypeSpec< complexLT, complexLT >", "structmx_1_1fftwTypeSpec_3_01complexLT_00_01complexLT_01_4.html", "structmx_1_1fftwTypeSpec_3_01complexLT_00_01complexLT_01_4" ],
+    [ "fftwTypeSpec< complexLT, long double >", "structmx_1_1fftwTypeSpec_3_01complexLT_00_01long_01double_01_4.html", "structmx_1_1fftwTypeSpec_3_01complexLT_00_01long_01double_01_4" ],
+    [ "fftwTypeSpec< complexQT, __float128 >", "structmx_1_1fftwTypeSpec_3_01complexQT_00_01____float128_01_4.html", "structmx_1_1fftwTypeSpec_3_01complexQT_00_01____float128_01_4" ],
+    [ "fftwTypeSpec< complexQT, complexQT >", "structmx_1_1fftwTypeSpec_3_01complexQT_00_01complexQT_01_4.html", "structmx_1_1fftwTypeSpec_3_01complexQT_00_01complexQT_01_4" ],
+    [ "fftwTypeSpec< double, complexDT >", "structmx_1_1fftwTypeSpec_3_01double_00_01complexDT_01_4.html", "structmx_1_1fftwTypeSpec_3_01double_00_01complexDT_01_4" ],
+    [ "fftwTypeSpec< float, complexFT >", "structmx_1_1fftwTypeSpec_3_01float_00_01complexFT_01_4.html", "structmx_1_1fftwTypeSpec_3_01float_00_01complexFT_01_4" ],
+    [ "fftwTypeSpec< long double, complexLT >", "structmx_1_1fftwTypeSpec_3_01long_01double_00_01complexLT_01_4.html", "structmx_1_1fftwTypeSpec_3_01long_01double_00_01complexLT_01_4" ],
     [ "fitGaussian2D", "classmx_1_1fitGaussian2D.html", null ],
     [ "fourierModeDef", "structmx_1_1fourierModeDef.html", "structmx_1_1fourierModeDef" ],
     [ "gaussian2D_gen_fitter", "structmx_1_1gaussian2D__gen__fitter.html", null ],

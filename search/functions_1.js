@@ -13,11 +13,13 @@ var searchData=
   ['airy',['airy',['../group__psfs.html#gaca002878593d379d0dc9e2c62fe4488c',1,'mx::wfp::airy(floatT x)'],['../group__psfs.html#ga802dd966c12770e7931e0570905a41d9',1,'mx::wfp::airy(floatT x, floatT eps)']]],
   ['allocate_5fparams',['allocate_params',['../classmx_1_1levmarInterface.html#a8b86dd77883dc329b17bf88fd70b8e3a',1,'mx::levmarInterface::allocate_params()'],['../classmx_1_1levmarInterface.html#a42bdbc04f625d73e1257e3d956669c57',1,'mx::levmarInterface::allocate_params(int i_m)']]],
   ['allocate_5fwork',['allocate_work',['../classmx_1_1levmarInterface.html#a8b4681f0d576a26a94af8c81d277cb55',1,'mx::levmarInterface']]],
+  ['anglediff',['angleDiff',['../group__geo.html#gad5c0633245d7d9009eef8b27b13883cf',1,'mx']]],
   ['angleimage',['angleImage',['../group__image__masks.html#gae867f958e975a1fb99b9902d9f2d6621',1,'mx::improc::angleImage(eigenT &amp;m, typename eigenT::Scalar xc, typename eigenT::Scalar yc, typename eigenT::Scalar scale=radian&lt; typename eigenT::Scalar &gt;())'],['../group__image__masks.html#gac2ab5bd600d74e77b1367f8ca9dc5cc0',1,'mx::improc::angleImage(eigenT &amp;m, typename eigenT::Scalar scale=radian&lt; typename eigenT::Scalar &gt;())']]],
   ['anglekeyword',['angleKeyword',['../structmx_1_1improc_1_1ADIDerotator.html#ab57d856b714be709de9ee4d9b9cd9bf0',1,'mx::improc::ADIDerotator']]],
+  ['anglemean',['angleMean',['../group__geo.html#gad404544da0ca1afca8fb08150e3b3278',1,'mx']]],
   ['annulusindices',['annulusIndices',['../group__image__masks.html#gaf2a256ac7d5a7e089aecfff4224920a6',1,'mx::improc']]],
   ['aoatmosphere',['aoAtmosphere',['../classmx_1_1AO_1_1aoAtmosphere.html#a118af4c06d010da87dd424e2f0fbada3',1,'mx::AO::aoAtmosphere']]],
-  ['aosystem',['aoSystem',['../classmx_1_1AO_1_1aoSystem.html#a0aeddf7cef602ce55711c539ae788e59',1,'mx::AO::aoSystem']]],
+  ['aosystem',['aoSystem',['../classmx_1_1AO_1_1aoSystem.html#aeaca2fd5247a1c778d2370ed12dbef68',1,'mx::AO::aoSystem']]],
   ['append',['append',['../classmx_1_1improc_1_1fitsHeader.html#a56ac65cf2a4adc2ddb2b3d1dd58df56c',1,'mx::improc::fitsHeader::append(fitsHeaderCard card)'],['../classmx_1_1improc_1_1fitsHeader.html#a6fbf93ef68bbf5819203e43bdf9add4b',1,'mx::improc::fitsHeader::append(const std::string &amp;k, const typeT &amp;v, const std::string &amp;c)'],['../classmx_1_1improc_1_1fitsHeader.html#a3a4d3ec986ae825ab7db048f66656937',1,'mx::improc::fitsHeader::append(const std::string &amp;k, const typeT &amp;v)'],['../classmx_1_1improc_1_1fitsHeader.html#a5d0920a4e3a44135de1ae532c775ca0f',1,'mx::improc::fitsHeader::append(const std::string &amp;k)'],['../classmx_1_1improc_1_1fitsHeader.html#a4e1443353c3a81a70cd35c0efc2cefe5',1,'mx::improc::fitsHeader::append(fitsHeader &amp;head)']]],
   ['applymask',['applyMask',['../group__image__masks.html#ga917b7b98a203cb1bb70556e9ca3e8a6b',1,'mx::improc']]],
   ['applypupil2basis',['applyPupil2Basis',['../basis_8hpp.html#a3595b4d96e65d9ed9a37fdd7cc86e2ea',1,'mx::AO']]],
@@ -33,5 +35,9 @@ var searchData=
   ['astrofilttrimwavelength',['astrofiltTrimWavelength',['../group__astrophot.html#gab5f5b337ae91b81f78b9bb00005aa427',1,'mx::astrofiltTrimWavelength(std::vector&lt; dataT &gt; &amp;lambda, std::vector&lt; dataT &gt; &amp;spectrum, dataT lambda_0, dataT lambda_f)'],['../group__astrophot.html#ga51be4b8c6e41a6c4da2abb19049ab94f',1,'mx::astrofiltTrimWavelength(std::vector&lt; dataT &gt; &amp;lambda, std::vector&lt; dataT &gt; &amp;spectrum, std::vector&lt; dataT &gt; &amp;lambda_ref)']]],
   ['asvectors',['asVectors',['../classmx_1_1improc_1_1eigenCube.html#acc99a7a26b8ab985cf85765c6e39b765',1,'mx::improc::eigenCube']]],
   ['attach',['attach',['../group__IPC__sharedmem.html#ga80162a1d822d4c6446aed6a9c7c85d09',1,'sharedMemSegment']]],
-  ['au',['au',['../group__dimensioned__constants.html#gad0aa372a8941f7e0f5efe3fce8d71607',1,'mx::astro::constants']]]
+  ['au',['au',['../group__dimensioned__constants.html#gad0aa372a8941f7e0f5efe3fce8d71607',1,'mx::astro::constants']]],
+  ['augment1sidedpsd',['augment1SidedPSD',['../group__psds.html#gab462b0d5d3bff8bdc108433a87324c01',1,'mx::sigproc']]],
+  ['augment1sidedpsdfreq',['augment1SidedPSDFreq',['../group__psds.html#ga9be4feb5c4ac0b44608a726306b0311a',1,'mx::sigproc']]],
+  ['autocorrelation',['autocorrelation',['../group__signal__processing.html#ga468b1813168bea3b20d10b186ce29c77',1,'mx::autocorrelation(T *ac, size_t Nac, T *sig, size_t Nsig)'],['../group__signal__processing.html#ga6718a2b55e4001b45430b47f79527642',1,'mx::autocorrelation(std::vector&lt; T &gt; &amp;ac, std::vector&lt; T &gt; &amp;sig)']]],
+  ['averageperiodogram',['averagePeriodogram',['../group__psds.html#gaf95c3d909800ffc09f4c776f3f7a06b3',1,'mx::sigproc']]]
 ];

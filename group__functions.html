@@ -87,7 +87,8 @@ $(document).ready(function(){initNavTree('group__functions.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#groups">Modules</a>  </div>
+<a href="#groups">Modules</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Special Functions<div class="ingroups"><a class="el" href="group__gen__math.html">General Mathematics</a></div></div>  </div>
 </div><!--header-->
@@ -106,13 +107,227 @@ Modules</h2></td></tr>
 <tr class="memitem:group__psfs"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__psfs.html">Point Spread Functions</a></td></tr>
 <tr class="memdesc:group__psfs"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functions describing PSFs. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:gaf7e3e0d052049a12fd7d4e0190cf5602"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gaf7e3e0d052049a12fd7d4e0190cf5602"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__functions.html#gaf7e3e0d052049a12fd7d4e0190cf5602">mx::math::func::jinc</a> (const T &amp;x)</td></tr>
+<tr class="memdesc:gaf7e3e0d052049a12fd7d4e0190cf5602"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the the Jinc function.  <a href="group__functions.html#gaf7e3e0d052049a12fd7d4e0190cf5602">More...</a><br /></td></tr>
+<tr class="separator:gaf7e3e0d052049a12fd7d4e0190cf5602"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3a702ef04302dc30da61d1f6d19ec87b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga3a702ef04302dc30da61d1f6d19ec87b"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__functions.html#ga3a702ef04302dc30da61d1f6d19ec87b">mx::math::func::jinc2</a> (const T &amp;x)</td></tr>
+<tr class="memdesc:ga3a702ef04302dc30da61d1f6d19ec87b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the Jinc2 function.  <a href="group__functions.html#ga3a702ef04302dc30da61d1f6d19ec87b">More...</a><br /></td></tr>
+<tr class="separator:ga3a702ef04302dc30da61d1f6d19ec87b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac161085bf2825b8ad6fc16c2c70f7d80"><td class="memTemplParams" colspan="2">template&lt;typename floatT &gt; </td></tr>
+<tr class="memitem:gac161085bf2825b8ad6fc16c2c70f7d80"><td class="memTemplItemLeft" align="right" valign="top">floatT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__functions.html#gac161085bf2825b8ad6fc16c2c70f7d80">mx::logistic_param</a> (floatT x, floatT thalf)</td></tr>
+<tr class="memdesc:gac161085bf2825b8ad6fc16c2c70f7d80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the logistic function parameter for a specified rise time.  <a href="group__functions.html#gac161085bf2825b8ad6fc16c2c70f7d80">More...</a><br /></td></tr>
+<tr class="separator:gac161085bf2825b8ad6fc16c2c70f7d80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga310891eaa852857974778c32bd2e4bfd"><td class="memTemplParams" colspan="2">template&lt;typename floatT &gt; </td></tr>
+<tr class="memitem:ga310891eaa852857974778c32bd2e4bfd"><td class="memTemplItemLeft" align="right" valign="top">floatT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__functions.html#ga310891eaa852857974778c32bd2e4bfd">mx::logistic</a> (floatT t, floatT t0=0, floatT a=1)</td></tr>
+<tr class="memdesc:ga310891eaa852857974778c32bd2e4bfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the value of the logistic function.  <a href="group__functions.html#ga310891eaa852857974778c32bd2e4bfd">More...</a><br /></td></tr>
+<tr class="separator:ga310891eaa852857974778c32bd2e4bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="gaf7e3e0d052049a12fd7d4e0190cf5602"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf7e3e0d052049a12fd7d4e0190cf5602">&#9670;&nbsp;</a></span>jinc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T mx::math::func::jinc </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the the Jinc function. </p>
+<p>The Jinc function is defined here as </p><p class="formulaDsp">
+\[ Ji(x) = \frac{J_1(x)}{x} \]
+</p>
+<p> where \( J_1 \) is the cylindrical bessel function of the first kind of order 1.</p>
+<p>Follows the technique in boost sinc_pi, using the Taylor series for small arguments. If x is smaller than \( \epsilon \), then it returns 1/2. If x is larger than \( \epsilon \) but smaler than \( \sqrt{\epsilon} \), then this function returns </p><p class="formulaDsp">
+\[ Ji(x) \approx \frac{1}{2} - \frac{x^2}{16}. \]
+</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>is the argument</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the value of Ji(x)</dd></dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>is an floating point type </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="jinc_8hpp_source.html#l00045">45</a> of file <a class="el" href="jinc_8hpp_source.html">jinc.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="airy_8hpp_source.html#l00031">mx::wfp::airy()</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00775">mx::AO::F_basic()</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00809">mx::AO::F_mod()</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00845">mx::AO::F_projMod()</a>, <a class="el" href="aoPSDs_8hpp_source.html#l00170">mx::AO::vonKarmanSpectrum&lt; realT &gt;::operator()()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00065">mx::AO::phiInt_basic()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00132">mx::AO::phiInt_mod()</a>, and <a class="el" href="turbAtmosphere_8hpp_source.html#l00150">mx::AO::sim::turbAtmosphere&lt; _realT &gt;::setup()</a>.</p>
+
+</div>
+</div>
+<a id="ga3a702ef04302dc30da61d1f6d19ec87b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3a702ef04302dc30da61d1f6d19ec87b">&#9670;&nbsp;</a></span>jinc2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T mx::math::func::jinc2 </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the Jinc2 function. </p>
+<p>The Jinc2 function is defined here as </p><p class="formulaDsp">
+\[ Ji_2(x) = \frac{J_2(x)}{x} \]
+</p>
+<p> where \( J_2 \) is the cylindrical bessel function of the first kind of order 2.</p>
+<p>If x is smaller than \( \sqrt{\epsilon} \), returns 0.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>is the argument</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the value of Ji2(x) </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="jinc_8hpp_source.html#l00087">87</a> of file <a class="el" href="jinc_8hpp_source.html">jinc.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="aoPSDs_8hpp_source.html#l00170">mx::AO::vonKarmanSpectrum&lt; realT &gt;::operator()()</a>, and <a class="el" href="turbAtmosphere_8hpp_source.html#l00150">mx::AO::sim::turbAtmosphere&lt; _realT &gt;::setup()</a>.</p>
+
+</div>
+</div>
+<a id="ga310891eaa852857974778c32bd2e4bfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga310891eaa852857974778c32bd2e4bfd">&#9670;&nbsp;</a></span>logistic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename floatT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">floatT mx::logistic </td>
+          <td>(</td>
+          <td class="paramtype">floatT&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">floatT&#160;</td>
+          <td class="paramname"><em>t0</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">floatT&#160;</td>
+          <td class="paramname"><em>a</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the value of the logistic function. </p>
+<p>The logistic function is </p><p class="formulaDsp">
+\[ f(t) = \frac{1}{1 + e^{-a(t-t_0)}} \]
+</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">t</td><td>[input] the argument. </td></tr>
+    <tr><td class="paramname">t0</td><td>[input] [optional] the center of the curve, defaults to 0. </td></tr>
+    <tr><td class="paramname">a</td><td>[input] [optional] the exponent parameter, defaults to 1.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the value of the logistic function at t</dd></dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">floatT</td><td>is the floating point type of the arguments and the returned value. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="logistic_8hpp_source.html#l00060">60</a> of file <a class="el" href="logistic_8hpp_source.html">logistic.hpp</a>.</p>
+
+</div>
+</div>
+<a id="gac161085bf2825b8ad6fc16c2c70f7d80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac161085bf2825b8ad6fc16c2c70f7d80">&#9670;&nbsp;</a></span>logistic_param()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename floatT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">floatT mx::logistic_param </td>
+          <td>(</td>
+          <td class="paramtype">floatT&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">floatT&#160;</td>
+          <td class="paramname"><em>thalf</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the logistic function parameter for a specified rise time. </p>
+<p>The logistic function is </p><p class="formulaDsp">
+\[ f(t) = \frac{1}{1 + e^{-a(t-t_0)}} \]
+</p>
+<p> The parameter \( a \) controls how fast the function rises. Here it is specified by the value \( f(t_{1/2}) = x\), where \( 0 &lt; x &lt; 1 \).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>[input] the value at which the rist time is specified. </td></tr>
+    <tr><td class="paramname">thalf</td><td>[input] half the rise time, or the time after 0 when f(t) = x.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the value of a</dd></dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">floatT</td><td>is the floating point type of the arguments and the returned value. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="logistic_8hpp_source.html#l00038">38</a> of file <a class="el" href="logistic_8hpp_source.html">logistic.hpp</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Jul 14 2017 22:59:10 for mxlib by
+    <li class="footer">Generated on Sat Jul 15 2017 14:22:57 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

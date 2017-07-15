@@ -6,5 +6,5 @@ var searchData=
   ['zernikebasis_2ehpp',['zernikeBasis.hpp',['../zernikeBasis_8hpp.html',1,'']]],
   ['zerniker',['zernikeR',['../group__zernike__basis.html#gac5672544a29f1666018194086ac6192c',1,'mx::zernikeR(realT rho, int n, int m, std::vector&lt; realT &gt; &amp;c)'],['../group__zernike__basis.html#ga58b8a06ed1599cdda9bf0410b5fb6d3e',1,'mx::zernikeR(realT rho, int n, int m)']]],
   ['zernikercoeffs',['zernikeRCoeffs',['../group__zernike__basis.html#gac0e1bdc2cca8db3a202cb89049595721',1,'mx']]],
-  ['zeta',['zeta',['../classmx_1_1AO_1_1aoSystem.html#aeec66c9dbe395e51946069d29de3a9c8',1,'mx::AO::aoSystem::zeta(realT nz)'],['../classmx_1_1AO_1_1aoSystem.html#a3a981fb04439ee73488d39610f674afa',1,'mx::AO::aoSystem::zeta()']]]
+  ['zeta',['zeta',['../classmx_1_1AO_1_1aoSystem.html#ab31cd43011aebf0c222956ecc856f5c5',1,'mx::AO::aoSystem::zeta(realT nz)'],['../classmx_1_1AO_1_1aoSystem.html#a47040405873dc89ef4f97f61b7b2b44c',1,'mx::AO::aoSystem::zeta()']]]
 ];

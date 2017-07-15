@@ -1,8 +1,8 @@
 var templateLapack_8hpp =
 [
-    [ "gesdd", "group__template__lapack.html#ga5d88fe320b43e12a8ab2f7fa2ba39686", null ],
-    [ "gesvd", "group__template__lapack.html#ga56841d5615d42e029ca84749fbe1262f", null ],
-    [ "lamch", "group__template__lapack.html#ga1dccb70219eecc33c6959702a39ed274", null ],
-    [ "syevr", "group__template__lapack.html#gac851088e48dbc6bf5b886d669859b141", null ],
-    [ "sytrd", "group__template__lapack.html#gac15af6607a7bd4883f26b29d54e43383", null ]
+    [ "gesdd", "templateLapack_8hpp.html#ga1a3e51e94d8fe728f2ea662172b51691", null ],
+    [ "gesvd", "templateLapack_8hpp.html#ga2f1b506c92a357c1e6f114a737b70b5a", null ],
+    [ "lamch", "templateLapack_8hpp.html#ga9b5224c8973688d47eb9f92ea76da804", null ],
+    [ "syevr", "templateLapack_8hpp.html#gaaa585f200abebdac9cbeef59b28fc0c2", null ],
+    [ "sytrd", "templateLapack_8hpp.html#ga3e8d23e38a41b0052fa369230ec0e51e", null ]
 ];

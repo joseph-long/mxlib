@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>mxlib: templateLapack.hpp File Reference</title>
+<title>mxlib: math/templateLapack.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -87,6 +87,7 @@ $(document).ready(function(){initNavTree('templateLapack_8hpp.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">templateLapack.hpp File Reference<div class="ingroups"><a class="el" href="group__gen__math.html">General Mathematics</a> &raquo; <a class="el" href="group__template__blaslap.html">Templatized BLAS and Lapack</a> &raquo; <a class="el" href="group__template__lapack.html">Templatized Lapack interface</a></div></div>  </div>
@@ -103,36 +104,42 @@ $(document).ready(function(){initNavTree('templateLapack_8hpp.html','');});
 </div>
 <p><a href="templateLapack_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespacemx"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemx.html">mx</a></td></tr>
+<tr class="memdesc:namespacemx"><td class="mdescLeft">&#160;</td><td class="mdescRight">The mxlib c++ namespace. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga1dccb70219eecc33c6959702a39ed274"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
-<tr class="memitem:ga1dccb70219eecc33c6959702a39ed274"><td class="memTemplItemLeft" align="right" valign="top">dataT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__lapack.html#ga1dccb70219eecc33c6959702a39ed274">lamch</a> (char CMACH)</td></tr>
-<tr class="memdesc:ga1dccb70219eecc33c6959702a39ed274"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine machine parameters.  <a href="group__template__lapack.html#ga1dccb70219eecc33c6959702a39ed274">More...</a><br /></td></tr>
-<tr class="separator:ga1dccb70219eecc33c6959702a39ed274"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac15af6607a7bd4883f26b29d54e43383"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
-<tr class="memitem:gac15af6607a7bd4883f26b29d54e43383"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__lapack.html#gac15af6607a7bd4883f26b29d54e43383">sytrd</a> (char UPLO, int N, dataT *A, int LDA, dataT *D, dataT *E, dataT *TAU, dataT *WORK, int LWORK, int INFO)</td></tr>
-<tr class="memdesc:gac15af6607a7bd4883f26b29d54e43383"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reduce a real symmetric matrix to real symmetric tridiagonal form by an orthogonal similarity transformation.  <a href="group__template__lapack.html#gac15af6607a7bd4883f26b29d54e43383">More...</a><br /></td></tr>
-<tr class="separator:gac15af6607a7bd4883f26b29d54e43383"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac851088e48dbc6bf5b886d669859b141"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
-<tr class="memitem:gac851088e48dbc6bf5b886d669859b141"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__lapack.html#gac851088e48dbc6bf5b886d669859b141">syevr</a> (char JOBZ, char RANGE, char UPLO, int N, dataT *A, int LDA, dataT VL, dataT VU, int IL, int IU, dataT ABSTOL, int *M, dataT *W, dataT *Z, int LDZ, int *ISUPPZ, dataT *WORK, int LWORK, int *IWORK, int LIWORK)</td></tr>
-<tr class="memdesc:gac851088e48dbc6bf5b886d669859b141"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute selected eigenvalues and, optionally, eigenvectors of a real symmetric matrix.  <a href="group__template__lapack.html#gac851088e48dbc6bf5b886d669859b141">More...</a><br /></td></tr>
-<tr class="separator:gac851088e48dbc6bf5b886d669859b141"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga56841d5615d42e029ca84749fbe1262f"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
-<tr class="memitem:ga56841d5615d42e029ca84749fbe1262f"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__lapack.html#ga56841d5615d42e029ca84749fbe1262f">gesvd</a> (char JOBU, char JOBVT, int M, int N, dataT *A, int LDA, dataT *S, dataT *U, int LDU, dataT *VT, int LDVT, dataT *WORK, int LWORK)</td></tr>
-<tr class="memdesc:ga56841d5615d42e029ca84749fbe1262f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the singular value decomposition (SVD) of a real matrix.  <a href="group__template__lapack.html#ga56841d5615d42e029ca84749fbe1262f">More...</a><br /></td></tr>
-<tr class="separator:ga56841d5615d42e029ca84749fbe1262f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5d88fe320b43e12a8ab2f7fa2ba39686"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
-<tr class="memitem:ga5d88fe320b43e12a8ab2f7fa2ba39686"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__lapack.html#ga5d88fe320b43e12a8ab2f7fa2ba39686">gesdd</a> (char JOBZ, int M, int N, dataT *A, int LDA, dataT *S, dataT *U, int LDU, dataT *VT, int LDVT, dataT *WORK, int LWORK, int *IWORK, int INFO)</td></tr>
-<tr class="memdesc:ga5d88fe320b43e12a8ab2f7fa2ba39686"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the singular value decomposition (SVD) of a real matrix with GESDD.  <a href="group__template__lapack.html#ga5d88fe320b43e12a8ab2f7fa2ba39686">More...</a><br /></td></tr>
-<tr class="separator:ga5d88fe320b43e12a8ab2f7fa2ba39686"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9b5224c8973688d47eb9f92ea76da804"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
+<tr class="memitem:ga9b5224c8973688d47eb9f92ea76da804"><td class="memTemplItemLeft" align="right" valign="top">dataT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__lapack.html#ga9b5224c8973688d47eb9f92ea76da804">mx::math::lamch</a> (char CMACH)</td></tr>
+<tr class="memdesc:ga9b5224c8973688d47eb9f92ea76da804"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine machine parameters.  <a href="group__template__lapack.html#ga9b5224c8973688d47eb9f92ea76da804">More...</a><br /></td></tr>
+<tr class="separator:ga9b5224c8973688d47eb9f92ea76da804"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3e8d23e38a41b0052fa369230ec0e51e"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
+<tr class="memitem:ga3e8d23e38a41b0052fa369230ec0e51e"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__lapack.html#ga3e8d23e38a41b0052fa369230ec0e51e">mx::math::sytrd</a> (char UPLO, int N, dataT *A, int LDA, dataT *D, dataT *E, dataT *TAU, dataT *WORK, int LWORK, int INFO)</td></tr>
+<tr class="memdesc:ga3e8d23e38a41b0052fa369230ec0e51e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reduce a real symmetric matrix to real symmetric tridiagonal form by an orthogonal similarity transformation.  <a href="group__template__lapack.html#ga3e8d23e38a41b0052fa369230ec0e51e">More...</a><br /></td></tr>
+<tr class="separator:ga3e8d23e38a41b0052fa369230ec0e51e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaa585f200abebdac9cbeef59b28fc0c2"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
+<tr class="memitem:gaaa585f200abebdac9cbeef59b28fc0c2"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__lapack.html#gaaa585f200abebdac9cbeef59b28fc0c2">mx::math::syevr</a> (char JOBZ, char RANGE, char UPLO, int N, dataT *A, int LDA, dataT VL, dataT VU, int IL, int IU, dataT ABSTOL, int *M, dataT *W, dataT *Z, int LDZ, int *ISUPPZ, dataT *WORK, int LWORK, int *IWORK, int LIWORK)</td></tr>
+<tr class="memdesc:gaaa585f200abebdac9cbeef59b28fc0c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute selected eigenvalues and, optionally, eigenvectors of a real symmetric matrix.  <a href="group__template__lapack.html#gaaa585f200abebdac9cbeef59b28fc0c2">More...</a><br /></td></tr>
+<tr class="separator:gaaa585f200abebdac9cbeef59b28fc0c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2f1b506c92a357c1e6f114a737b70b5a"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
+<tr class="memitem:ga2f1b506c92a357c1e6f114a737b70b5a"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__lapack.html#ga2f1b506c92a357c1e6f114a737b70b5a">mx::math::gesvd</a> (char JOBU, char JOBVT, int M, int N, dataT *A, int LDA, dataT *S, dataT *U, int LDU, dataT *VT, int LDVT, dataT *WORK, int LWORK)</td></tr>
+<tr class="memdesc:ga2f1b506c92a357c1e6f114a737b70b5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the singular value decomposition (SVD) of a real matrix.  <a href="group__template__lapack.html#ga2f1b506c92a357c1e6f114a737b70b5a">More...</a><br /></td></tr>
+<tr class="separator:ga2f1b506c92a357c1e6f114a737b70b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1a3e51e94d8fe728f2ea662172b51691"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
+<tr class="memitem:ga1a3e51e94d8fe728f2ea662172b51691"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__lapack.html#ga1a3e51e94d8fe728f2ea662172b51691">mx::math::gesdd</a> (char JOBZ, int M, int N, dataT *A, int LDA, dataT *S, dataT *U, int LDU, dataT *VT, int LDVT, dataT *WORK, int LWORK, int *IWORK, int INFO)</td></tr>
+<tr class="memdesc:ga1a3e51e94d8fe728f2ea662172b51691"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the singular value decomposition (SVD) of a real matrix with GESDD.  <a href="group__template__lapack.html#ga1a3e51e94d8fe728f2ea662172b51691">More...</a><br /></td></tr>
+<tr class="separator:ga1a3e51e94d8fe728f2ea662172b51691"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="templateLapack_8hpp.html">templateLapack.hpp</a></li>
-    <li class="footer">Generated on Wed Jul 12 2017 23:21:19 for mxlib by
+    <li class="navelem"><a class="el" href="dir_fba38f648377aa56ae5d69782adf9e53.html">math</a></li><li class="navelem"><a class="el" href="templateLapack_8hpp.html">templateLapack.hpp</a></li>
+    <li class="footer">Generated on Sat Jul 15 2017 14:22:57 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

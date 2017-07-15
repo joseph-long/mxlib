@@ -1,6 +1,8 @@
 var searchData=
 [
   ['the_20sofa_20library',['The SOFA Library',['../group__astro__sofa.html',1,'']]],
+  ['type_20specification',['Type Specification',['../group__fftw__template__type__specs.html',1,'']]],
+  ['types',['Types',['../group__fftw__template__types.html',1,'']]],
   ['template_20fftw',['Template FFTW',['../group__fftw__templates.html',1,'']]],
   ['the_20fourier_20basis',['The Fourier Basis',['../group__fourier__basis.html',1,'']]],
   ['the_20gaussian_20function',['The Gaussian Function',['../group__gen__math__gaussians.html',1,'']]],

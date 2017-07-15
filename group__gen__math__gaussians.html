@@ -86,6 +86,10 @@ $(document).ready(function(){initNavTree('group__gen__math__gaussians.html','');
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#files">Files</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">The Gaussian Function<div class="ingroups"><a class="el" href="group__gen__math.html">General Mathematics</a> &raquo; <a class="el" href="group__functions.html">Special Functions</a></div></div>  </div>
 </div><!--header-->
@@ -93,13 +97,1122 @@ $(document).ready(function(){initNavTree('group__gen__math__gaussians.html','');
 
 <p>Utilities for working with the Gaussian function.  
 <a href="#details">More...</a></p>
+<a name="details" id="details"></a><h2 class="groupheader"> </h2>
 <p>Utilities for working with the Gaussian function. </p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"></a>
+Files</h2></td></tr>
+<tr class="memitem:gaussian_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gaussian_8hpp.html">gaussian.hpp</a></td></tr>
+<tr class="memdesc:gaussian_8hpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declarations for utilities related to the Gaussian function. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:gab0f2b4f5ac5142883b02dc3f450db57f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gen__math__gaussians.html#gab0f2b4f5ac5142883b02dc3f450db57f">twosqrt2log2</a>&#160;&#160;&#160;2.354820045030949382091484</td></tr>
+<tr class="memdesc:gab0f2b4f5ac5142883b02dc3f450db57f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant to convert between the Gaussian width parameter and FWHM.  <a href="#gab0f2b4f5ac5142883b02dc3f450db57f">More...</a><br /></td></tr>
+<tr class="separator:gab0f2b4f5ac5142883b02dc3f450db57f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga61dd0853f67951d285f28a6da884ce77"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gen__math__gaussians.html#ga61dd0853f67951d285f28a6da884ce77">fwhm2sigma</a>(fw)&#160;&#160;&#160;( (fw) / <a class="el" href="group__gen__math__gaussians.html#gab0f2b4f5ac5142883b02dc3f450db57f">twosqrt2log2</a>)</td></tr>
+<tr class="memdesc:ga61dd0853f67951d285f28a6da884ce77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from FWHM to the Gaussian width parameter.  <a href="#ga61dd0853f67951d285f28a6da884ce77">More...</a><br /></td></tr>
+<tr class="separator:ga61dd0853f67951d285f28a6da884ce77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4d9ce0138d2902c9fada22b4c5d6eed9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gen__math__gaussians.html#ga4d9ce0138d2902c9fada22b4c5d6eed9">sigma2fwhm</a>(sig)&#160;&#160;&#160;( (sig) * <a class="el" href="group__gen__math__gaussians.html#gab0f2b4f5ac5142883b02dc3f450db57f">twosqrt2log2</a>)</td></tr>
+<tr class="memdesc:ga4d9ce0138d2902c9fada22b4c5d6eed9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from Gaussian width parameter to FWHM.  <a href="#ga4d9ce0138d2902c9fada22b4c5d6eed9">More...</a><br /></td></tr>
+<tr class="separator:ga4d9ce0138d2902c9fada22b4c5d6eed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga4525708b7a72ff3368ea764189264d20"><td class="memTemplParams" colspan="2">template&lt;typename arithT &gt; </td></tr>
+<tr class="memitem:ga4525708b7a72ff3368ea764189264d20"><td class="memTemplItemLeft" align="right" valign="top">arithT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gen__math__gaussians.html#ga4525708b7a72ff3368ea764189264d20">mx::gaussian</a> (const arithT &amp;x, const arithT G0, const arithT A, const arithT &amp;x0, const arithT &amp;sigma)</td></tr>
+<tr class="memdesc:ga4525708b7a72ff3368ea764189264d20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find value at position (x) of the 1D arbitrarily-centered symmetric Gaussian.  <a href="group__gen__math__gaussians.html#ga4525708b7a72ff3368ea764189264d20">More...</a><br /></td></tr>
+<tr class="separator:ga4525708b7a72ff3368ea764189264d20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga43d064e790adb4502efa1babbebc559d"><td class="memTemplParams" colspan="2">template&lt;typename arithT &gt; </td></tr>
+<tr class="memitem:ga43d064e790adb4502efa1babbebc559d"><td class="memTemplItemLeft" align="right" valign="top">arithT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gen__math__gaussians.html#ga43d064e790adb4502efa1babbebc559d">mx::gaussian2D</a> (const arithT &amp;x, const arithT &amp;y, const arithT G0, const arithT A, const arithT &amp;x0, const arithT &amp;y0, const arithT &amp;sigma)</td></tr>
+<tr class="memdesc:ga43d064e790adb4502efa1babbebc559d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find value at position (x,y) of the 2D arbitrarily-centered symmetric Gaussian.  <a href="group__gen__math__gaussians.html#ga43d064e790adb4502efa1babbebc559d">More...</a><br /></td></tr>
+<tr class="separator:ga43d064e790adb4502efa1babbebc559d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga920cd3ab18e27b6061bdf99ea90eb8e0"><td class="memTemplParams" colspan="2">template&lt;typename arithT &gt; </td></tr>
+<tr class="memitem:ga920cd3ab18e27b6061bdf99ea90eb8e0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gen__math__gaussians.html#ga920cd3ab18e27b6061bdf99ea90eb8e0">mx::gaussian2D</a> (arithT *arr, size_t nx, size_t ny, const arithT &amp;G0, const arithT &amp;A, const arithT &amp;x0, const arithT &amp;y0, const arithT &amp;sigma)</td></tr>
+<tr class="memdesc:ga920cd3ab18e27b6061bdf99ea90eb8e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill in an array with the 2D arbitrarily-centered symmetric Gaussian.  <a href="group__gen__math__gaussians.html#ga920cd3ab18e27b6061bdf99ea90eb8e0">More...</a><br /></td></tr>
+<tr class="separator:ga920cd3ab18e27b6061bdf99ea90eb8e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8f84c5a01003f21719bdb9862e28e548"><td class="memTemplParams" colspan="2">template&lt;typename arithT &gt; </td></tr>
+<tr class="memitem:ga8f84c5a01003f21719bdb9862e28e548"><td class="memTemplItemLeft" align="right" valign="top">arithT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gen__math__gaussians.html#ga8f84c5a01003f21719bdb9862e28e548">mx::gaussian2D</a> (const arithT &amp;x, const arithT &amp;y, const arithT &amp;G0, const arithT &amp;A, const arithT &amp;x0, const arithT &amp;y0, const arithT &amp;a, const arithT &amp;b, const arithT &amp;c)</td></tr>
+<tr class="memdesc:ga8f84c5a01003f21719bdb9862e28e548"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find value at position (x,y) of the 2D general elliptical Gaussian.  <a href="group__gen__math__gaussians.html#ga8f84c5a01003f21719bdb9862e28e548">More...</a><br /></td></tr>
+<tr class="separator:ga8f84c5a01003f21719bdb9862e28e548"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga47d3beb63ad5f92763af5b3a4676e59e"><td class="memTemplParams" colspan="2">template&lt;typename arithT &gt; </td></tr>
+<tr class="memitem:ga47d3beb63ad5f92763af5b3a4676e59e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gen__math__gaussians.html#ga47d3beb63ad5f92763af5b3a4676e59e">mx::gaussian2D_gen2rot</a> (arithT &amp;sigma_x, arithT &amp;sigma_y, arithT &amp;theta, const arithT &amp;a, const arithT &amp;b, const arithT &amp;c)</td></tr>
+<tr class="memdesc:ga47d3beb63ad5f92763af5b3a4676e59e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from (a,b,c) to ( \(\sigma_x\), \(\sigma_y\), \(\theta\)) for the elliptical Gaussian.  <a href="group__gen__math__gaussians.html#ga47d3beb63ad5f92763af5b3a4676e59e">More...</a><br /></td></tr>
+<tr class="separator:ga47d3beb63ad5f92763af5b3a4676e59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa601b2915024be53ee8320b95f331991"><td class="memTemplParams" colspan="2">template&lt;typename arithT &gt; </td></tr>
+<tr class="memitem:gaa601b2915024be53ee8320b95f331991"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gen__math__gaussians.html#gaa601b2915024be53ee8320b95f331991">mx::gaussian2D_rot2gen</a> (arithT &amp;a, arithT &amp;b, arithT &amp;c, const arithT &amp;sigma_x, const arithT &amp;sigma_y, const arithT &amp;theta)</td></tr>
+<tr class="memdesc:gaa601b2915024be53ee8320b95f331991"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from ( \(\sigma_x\), \(\sigma_y\), \(\theta\)) to (a,b,c) for the elliptical Gaussian.  <a href="group__gen__math__gaussians.html#gaa601b2915024be53ee8320b95f331991">More...</a><br /></td></tr>
+<tr class="separator:gaa601b2915024be53ee8320b95f331991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga194ef4fcb6c420e197e9ae60665b78ca"><td class="memTemplParams" colspan="2">template&lt;typename arithT &gt; </td></tr>
+<tr class="memitem:ga194ef4fcb6c420e197e9ae60665b78ca"><td class="memTemplItemLeft" align="right" valign="top">arithT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gen__math__gaussians.html#ga194ef4fcb6c420e197e9ae60665b78ca">mx::gaussian2D_ang</a> (const arithT &amp;x, const arithT &amp;y, const arithT &amp;G0, const arithT &amp;A, const arithT &amp;x0, const arithT &amp;y0, const arithT &amp;sigma_x, const arithT &amp;sigma_y, const arithT &amp;theta)</td></tr>
+<tr class="memdesc:ga194ef4fcb6c420e197e9ae60665b78ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find value at position (x,y) of the 2D rotated elliptical Gaussian.  <a href="group__gen__math__gaussians.html#ga194ef4fcb6c420e197e9ae60665b78ca">More...</a><br /></td></tr>
+<tr class="separator:ga194ef4fcb6c420e197e9ae60665b78ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4d8571f7933d7239ad2acc28f0432637"><td class="memTemplParams" colspan="2">template&lt;typename arithT &gt; </td></tr>
+<tr class="memitem:ga4d8571f7933d7239ad2acc28f0432637"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gen__math__gaussians.html#ga4d8571f7933d7239ad2acc28f0432637">mx::gaussian2D</a> (arithT *arr, size_t nx, size_t ny, const arithT &amp;G0, const arithT &amp;A, const arithT &amp;x0, const arithT &amp;y0, const arithT &amp;a, const arithT &amp;b, const arithT &amp;c)</td></tr>
+<tr class="memdesc:ga4d8571f7933d7239ad2acc28f0432637"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill in an array with the 2D general elliptical Gaussian.  <a href="group__gen__math__gaussians.html#ga4d8571f7933d7239ad2acc28f0432637">More...</a><br /></td></tr>
+<tr class="separator:ga4d8571f7933d7239ad2acc28f0432637"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab7f3a0c470499405fcf601ecb999f2df"><td class="memTemplParams" colspan="2">template&lt;typename arithT &gt; </td></tr>
+<tr class="memitem:gab7f3a0c470499405fcf601ecb999f2df"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gen__math__gaussians.html#gab7f3a0c470499405fcf601ecb999f2df">mx::gaussian2D_ang</a> (arithT *arr, size_t nx, size_t ny, const arithT &amp;G0, const arithT &amp;A, const arithT &amp;x0, const arithT &amp;y0, const arithT &amp;sigma_x, const arithT &amp;sigma_y, const arithT &amp;theta)</td></tr>
+<tr class="memdesc:gab7f3a0c470499405fcf601ecb999f2df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill in an array with the 2D general elliptical Gaussian.  <a href="group__gen__math__gaussians.html#gab7f3a0c470499405fcf601ecb999f2df">More...</a><br /></td></tr>
+<tr class="separator:gab7f3a0c470499405fcf601ecb999f2df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaac220a114374924a2eeb714c2bb34a95"><td class="memTemplParams" colspan="2">template&lt;typename arithT &gt; </td></tr>
+<tr class="memitem:gaac220a114374924a2eeb714c2bb34a95"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gen__math__gaussians.html#gaac220a114374924a2eeb714c2bb34a95">mx::gaussian2D_jacobian</a> (arithT *j, const arithT &amp;x, const arithT &amp;y, const arithT &amp;G0, const arithT &amp;A, const arithT &amp;x0, const arithT &amp;y0, const arithT &amp;a, const arithT &amp;b, const arithT &amp;c)</td></tr>
+<tr class="memdesc:gaac220a114374924a2eeb714c2bb34a95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the Jacobian at position (x,y) for the 2D general elliptical Gaussian.  <a href="group__gen__math__gaussians.html#gaac220a114374924a2eeb714c2bb34a95">More...</a><br /></td></tr>
+<tr class="separator:gaac220a114374924a2eeb714c2bb34a95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ga61dd0853f67951d285f28a6da884ce77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga61dd0853f67951d285f28a6da884ce77">&#9670;&nbsp;</a></span>fwhm2sigma</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define fwhm2sigma</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">fw</td><td>)</td>
+          <td>&#160;&#160;&#160;( (fw) / <a class="el" href="group__gen__math__gaussians.html#gab0f2b4f5ac5142883b02dc3f450db57f">twosqrt2log2</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert from FWHM to the Gaussian width parameter. </p>
+<p>Performs the conversion:</p>
+<p>\( \sigma = 2\sqrt{2\log2}FWHM \) </p>
+
+<p class="definition">Definition at line <a class="el" href="gaussian_8hpp_source.html#l00038">38</a> of file <a class="el" href="gaussian_8hpp_source.html">gaussian.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="influenceFunctions_8hpp_source.html#l00234">mx::AO::influenceFunctionsGaussian()</a>.</p>
+
+</div>
+</div>
+<a id="ga4d9ce0138d2902c9fada22b4c5d6eed9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4d9ce0138d2902c9fada22b4c5d6eed9">&#9670;&nbsp;</a></span>sigma2fwhm</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define sigma2fwhm</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">sig</td><td>)</td>
+          <td>&#160;&#160;&#160;( (sig) * <a class="el" href="group__gen__math__gaussians.html#gab0f2b4f5ac5142883b02dc3f450db57f">twosqrt2log2</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert from Gaussian width parameter to FWHM. </p>
+<p>Performs the conversion:</p>
+<p>\( FWHM = 2\sqrt{2\log2}\sigma \) </p>
+
+<p class="definition">Definition at line <a class="el" href="gaussian_8hpp_source.html#l00046">46</a> of file <a class="el" href="gaussian_8hpp_source.html">gaussian.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="imCenterCircleSym_8hpp_source.html#l00203">mx::improc::imCenterCircleSym&lt; realT &gt;::results()</a>.</p>
+
+</div>
+</div>
+<a id="gab0f2b4f5ac5142883b02dc3f450db57f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab0f2b4f5ac5142883b02dc3f450db57f">&#9670;&nbsp;</a></span>twosqrt2log2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define twosqrt2log2&#160;&#160;&#160;2.354820045030949382091484</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constant to convert between the Gaussian width parameter and FWHM. </p>
+<p>Used for</p>
+<p>\( FWHM = 2\sqrt{2\log2}\sigma \)</p>
+<p>This was calculated in long double precision. </p>
+
+<p class="definition">Definition at line <a class="el" href="gaussian_8hpp_source.html#l00030">30</a> of file <a class="el" href="gaussian_8hpp_source.html">gaussian.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ga4525708b7a72ff3368ea764189264d20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4525708b7a72ff3368ea764189264d20">&#9670;&nbsp;</a></span>gaussian()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename arithT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">arithT mx::gaussian </td>
+          <td>(</td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT&#160;</td>
+          <td class="paramname"><em>G0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>x0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>sigma</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find value at position (x) of the 1D arbitrarily-centered symmetric Gaussian. </p>
+<p>Computes: \( G(x) = G_0 + A\exp[-(0.5/\sigma^2)((x-x_0)^2)]\)</p>
+<dl class="section return"><dt>Returns</dt><dd>the value of the 1D arbitrarily-centered symmetric Gaussian at (x)</dd></dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">arithT</td><td>is type to use for arithmetic </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>is the x-position at which to evaluate the Gaussian </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">G0</td><td>is the constant to add to the Gaussian </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">A</td><td>is the scaling factor (peak = A) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x0</td><td>is the x-coordinate of the center </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sigma</td><td>is the width of the Gaussian. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="gaussian_8hpp_source.html#l00059">59</a> of file <a class="el" href="gaussian_8hpp_source.html">gaussian.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ga43d064e790adb4502efa1babbebc559d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga43d064e790adb4502efa1babbebc559d">&#9670;&nbsp;</a></span>gaussian2D() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename arithT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">arithT mx::gaussian2D </td>
+          <td>(</td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT&#160;</td>
+          <td class="paramname"><em>G0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>x0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>y0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>sigma</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find value at position (x,y) of the 2D arbitrarily-centered symmetric Gaussian. </p>
+<p>Computes: \( G(x,y) = G_0 + A\exp[-(0.5/\sigma^2)((x-x_0)^2+(y-y_0)^2)]\)</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>is the x-position at which to evaluate the Gaussian </td></tr>
+    <tr><td class="paramname">y</td><td>is the y-positoin at which to evaluate the Gaussian </td></tr>
+    <tr><td class="paramname">G0</td><td>is the constant to add to the Gaussian </td></tr>
+    <tr><td class="paramname">A</td><td>is the scaling factor (peak = A) </td></tr>
+    <tr><td class="paramname">x0</td><td>is the x-coordinate of the center </td></tr>
+    <tr><td class="paramname">y0</td><td>is the y-coordinate of the center </td></tr>
+    <tr><td class="paramname">sigma</td><td>is the width of the Gaussian.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the value of the 2D arbitrarily-centered symmetric Gaussian at (x,y)</dd></dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">arithT</td><td>is type to use for arithmetic </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="gaussian_8hpp_source.html#l00087">87</a> of file <a class="el" href="gaussian_8hpp_source.html">gaussian.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="gaussian_8hpp_source.html#l00116">mx::gaussian2D()</a>, <a class="el" href="gaussian_8hpp_source.html#l00368">mx::gaussian2D_ang()</a>, and <a class="el" href="influenceFunctions_8hpp_source.html#l00234">mx::AO::influenceFunctionsGaussian()</a>.</p>
+
+</div>
+</div>
+<a id="ga920cd3ab18e27b6061bdf99ea90eb8e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga920cd3ab18e27b6061bdf99ea90eb8e0">&#9670;&nbsp;</a></span>gaussian2D() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename arithT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void mx::gaussian2D </td>
+          <td>(</td>
+          <td class="paramtype">arithT *&#160;</td>
+          <td class="paramname"><em>arr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>nx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>ny</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>G0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>x0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>y0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>sigma</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fill in an array with the 2D arbitrarily-centered symmetric Gaussian. </p>
+<p>At each pixel (x,y) of the array this computes:</p>
+<p>\( (x,y) = G_0 + A\exp[-(0.5/\sigma^2)((x-x_0)^2+(y-y_0)^2)] \)</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arr</td><td>is the allocated array to fill in </td></tr>
+    <tr><td class="paramname">nx</td><td>is the size of the x dimension of the array </td></tr>
+    <tr><td class="paramname">ny</td><td>is the size of the y dimension of the array </td></tr>
+    <tr><td class="paramname">G0</td><td>is the constant to add to the Gaussian </td></tr>
+    <tr><td class="paramname">A</td><td>is the scaling factor (peak = A) </td></tr>
+    <tr><td class="paramname">x0</td><td>is the x-coordinate of the center </td></tr>
+    <tr><td class="paramname">y0</td><td>is the y-coordinate of the center </td></tr>
+    <tr><td class="paramname">sigma</td><td>is the third rotation and scaling factor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">arithT</td><td>is the type to use for arithmetic </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="gaussian_8hpp_source.html#l00116">116</a> of file <a class="el" href="gaussian_8hpp_source.html">gaussian.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="gaussian_8hpp_source.html#l00087">mx::gaussian2D()</a>.</p>
+
+</div>
+</div>
+<a id="ga8f84c5a01003f21719bdb9862e28e548"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8f84c5a01003f21719bdb9862e28e548">&#9670;&nbsp;</a></span>gaussian2D() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename arithT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">arithT mx::gaussian2D </td>
+          <td>(</td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>G0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>x0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>y0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find value at position (x,y) of the 2D general elliptical Gaussian. </p>
+<p>Computes:</p>
+<p>\( G(x,y) = G_0 + A\exp [-0.5( a(x-x_0)^2 + b(x-x_0)(y-y_0) + c(y-y_0)^2 ]\)</p>
+<p>where, for a counter-clockwise rotation \( \theta \), we have</p>
+<p>\( a = \frac{\cos^2 \theta}{\sigma_x^2} + \frac{\sin^2\theta}{\sigma_y^2}\)</p>
+<p>\( b = \frac{\sin 2\theta}{2} \left(\frac{1}{\sigma_x^2} - \frac{1}{\sigma_y^2} \right)\)</p>
+<p>\( c = \frac{\sin^2 \theta}{\sigma_x^2} + \frac{\cos^2\theta}{\sigma_y^2}\)</p>
+<p>In this version the parameters are specified directly as (a,b,c), in particular avoiding the trig function calls. This should be much more efficient, and so this version should be used inside fitting routines, etc. However note that the matrix {a b}{b c} must be <a href="http://mathworld.wolfram.com/PositiveDefiniteMatrix.html">positive-definite</a> otherwise infinities can result from the argument of the exponent being positive.</p>
+<p>The functions <a class="el" href="group__gen__math__gaussians.html#ga47d3beb63ad5f92763af5b3a4676e59e">gaussian2D_gen2rot</a> and <a class="el" href="group__gen__math__gaussians.html#gaa601b2915024be53ee8320b95f331991">gaussian2D_rot2gen</a> provide conversions from (a,b,c) to ( \(\sigma_x\), \(\sigma_y\), \(\theta\)) and back. The function <a class="el" href="group__gen__math__gaussians.html#ga194ef4fcb6c420e197e9ae60665b78ca">gaussian2D_ang</a> is a wrapper for this function, which instead accepts ( \(\sigma_x\), \(\sigma_y\), \(\theta\)) as inputs.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>is the x-position at which to evaluate the Gaussian </td></tr>
+    <tr><td class="paramname">y</td><td>is the y-positoin at which to evaluate the Gaussian </td></tr>
+    <tr><td class="paramname">G0</td><td>is the constant to add to the Gaussian </td></tr>
+    <tr><td class="paramname">A</td><td>is the scaling factor (peak = A) </td></tr>
+    <tr><td class="paramname">x0</td><td>is the x-coordinate of the center </td></tr>
+    <tr><td class="paramname">y0</td><td>is the y-coordinate of the center </td></tr>
+    <tr><td class="paramname">a</td><td>is the first rotation and scaling factor </td></tr>
+    <tr><td class="paramname">b</td><td>is the second rotation and scaling factor </td></tr>
+    <tr><td class="paramname">c</td><td>is the third rotation and scaling factor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the value of the 2D elliptical Gaussian at (x,y)</dd></dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">arithT</td><td>is type to use for arithmetic </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="gaussian_8hpp_source.html#l00176">176</a> of file <a class="el" href="gaussian_8hpp_source.html">gaussian.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ga4d8571f7933d7239ad2acc28f0432637"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4d8571f7933d7239ad2acc28f0432637">&#9670;&nbsp;</a></span>gaussian2D() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename arithT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void mx::gaussian2D </td>
+          <td>(</td>
+          <td class="paramtype">arithT *&#160;</td>
+          <td class="paramname"><em>arr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>nx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>ny</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>G0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>x0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>y0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fill in an array with the 2D general elliptical Gaussian. </p>
+<p>At each pixel (x,y) of the array this computes:</p>
+<p>\( G(x,y) = G_0 + A\exp [-0.5( a(x-x_0)^2 + b(x-x_0)(y-y_0) + c(y-y_0)^2 ]\)</p>
+<p>where, for a counter-clockwise rotation \( \theta \), we have</p>
+<p>\( a = \frac{\cos^2 \theta}{\sigma_x^2} + \frac{\sin^2\theta}{\sigma_y^2}\)</p>
+<p>\( b = \frac{\sin 2\theta}{2} \left(\frac{1}{\sigma_x^2} - \frac{1}{\sigma_y^2} \right)\)</p>
+<p>\( c = \frac{\sin^2 \theta}{\sigma_x^2} + \frac{\cos^2\theta}{\sigma_y^2}\)</p>
+<p>In this version the parameters are specified directly as (a,b,c), in particular avoiding the trig function calls. This should be much more efficient, and so this version should be used inside fitting routines, etc.</p>
+<p>The functions <a class="el" href="group__gen__math__gaussians.html#ga47d3beb63ad5f92763af5b3a4676e59e">gaussian2D_gen2rot</a> and <a class="el" href="group__gen__math__gaussians.html#gaa601b2915024be53ee8320b95f331991">gaussian2D_rot2gen</a> provide conversions from (a,b,c) to ( \(\sigma_x\), \(\sigma_y\), \(\theta\)) and back. The function <a class="el" href="group__gen__math__gaussians.html#ga194ef4fcb6c420e197e9ae60665b78ca">gaussian2D_ang</a> is a wrapper for this function, which instead accepts ( \(\sigma_x\), \(\sigma_y\), \(\theta\)) as inputs.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arr</td><td>is the allocated array to fill in </td></tr>
+    <tr><td class="paramname">nx</td><td>is the size of the x dimension of the array </td></tr>
+    <tr><td class="paramname">ny</td><td>is the size of the y dimension of the array </td></tr>
+    <tr><td class="paramname">G0</td><td>is the constant to add to the Gaussian </td></tr>
+    <tr><td class="paramname">A</td><td>is the scaling factor (peak = A) </td></tr>
+    <tr><td class="paramname">x0</td><td>is the x-coordinate (in pixels) of the center </td></tr>
+    <tr><td class="paramname">y0</td><td>is the y-coordinate (in pixels) of the center </td></tr>
+    <tr><td class="paramname">a</td><td>is the first rotation and scaling factor </td></tr>
+    <tr><td class="paramname">b</td><td>is the second rotation and scaling factor </td></tr>
+    <tr><td class="paramname">c</td><td>is the third rotation and scaling factor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">arithT</td><td>is the type to use for arithmetic </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="gaussian_8hpp_source.html#l00420">420</a> of file <a class="el" href="gaussian_8hpp_source.html">gaussian.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="gaussian_8hpp_source.html#l00087">mx::gaussian2D()</a>.</p>
+
+</div>
+</div>
+<a id="ga194ef4fcb6c420e197e9ae60665b78ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga194ef4fcb6c420e197e9ae60665b78ca">&#9670;&nbsp;</a></span>gaussian2D_ang() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename arithT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">arithT mx::gaussian2D_ang </td>
+          <td>(</td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>G0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>x0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>y0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>sigma_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>sigma_y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>theta</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find value at position (x,y) of the 2D rotated elliptical Gaussian. </p>
+<p>Computes: \( G(x,y) = G_0 + A\exp [-0.5( a(x-x_0)^2 + b(x-x_0)(y-y_0) + c(y-y_0)^2 ]\)</p>
+<p>where, for a counter-clockwise rotation \( \theta \), we have</p>
+<p>\( a = \frac{\cos^2 \theta}{\sigma_x^2} + \frac{\sin^2\theta}{\sigma_y^2}\)</p>
+<p>\( b = \frac{\sin 2\theta}{2} \left(\frac{1}{\sigma_x^2} - \frac{1}{\sigma_y^2} \right)\)</p>
+<p>\( c = \frac{\sin^2 \theta}{\sigma_x^2} + \frac{\cos^2\theta}{\sigma_y^2}\)</p>
+<p>This is a convenience wrapper for the general elliptical Gaussian function Gaussian2D, where here (a,b,c) are first calculated from ( \(\sigma_x\), \(\sigma_y\), \(\theta\)). This will in general be slower due to the trig function calls, so the (a,b,c) version should be used most of the time.</p>
+<p>The functions <a class="el" href="group__gen__math__gaussians.html#ga47d3beb63ad5f92763af5b3a4676e59e">gaussian2D_gen2rot</a> and <a class="el" href="group__gen__math__gaussians.html#gaa601b2915024be53ee8320b95f331991">gaussian2D_rot2gen</a> provide conversions from (a,b,c) to ( \(\sigma_x\), \(\sigma_y\), \(\theta\)) and back. The function gaussian2D_rot is a wrapper for this function, which instead accepts ( \(\sigma_x\), \(\sigma_y\), \(\theta\)) as inputs.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>is the x-position at which to evaluate the Gaussian </td></tr>
+    <tr><td class="paramname">y</td><td>is the y-positoin at which to evaluate the Gaussian </td></tr>
+    <tr><td class="paramname">G0</td><td>is the constant to add to the Gaussian </td></tr>
+    <tr><td class="paramname">A</td><td>is the scaling factor (peak = A) </td></tr>
+    <tr><td class="paramname">x0</td><td>is the x-coordinate of the center </td></tr>
+    <tr><td class="paramname">y0</td><td>is the y-coordinate of the center </td></tr>
+    <tr><td class="paramname">sigma_x</td><td>is the width in the rotated x direction </td></tr>
+    <tr><td class="paramname">sigma_y</td><td>is the width in the rotated y direction </td></tr>
+    <tr><td class="paramname">theta</td><td>is the counter-clockwise rotation angle</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the value of the 2D elliptical Gaussian at (x,y)</dd></dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">arithT</td><td>is type to use for arithmetic </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="gaussian_8hpp_source.html#l00368">368</a> of file <a class="el" href="gaussian_8hpp_source.html">gaussian.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="constants_8hpp_source.html#l00060">mx::astro::constants::c()</a>, <a class="el" href="gaussian_8hpp_source.html#l00087">mx::gaussian2D()</a>, and <a class="el" href="gaussian_8hpp_source.html#l00313">mx::gaussian2D_rot2gen()</a>.</p>
+
+</div>
+</div>
+<a id="gab7f3a0c470499405fcf601ecb999f2df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab7f3a0c470499405fcf601ecb999f2df">&#9670;&nbsp;</a></span>gaussian2D_ang() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename arithT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void mx::gaussian2D_ang </td>
+          <td>(</td>
+          <td class="paramtype">arithT *&#160;</td>
+          <td class="paramname"><em>arr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>nx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>ny</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>G0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>x0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>y0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>sigma_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>sigma_y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>theta</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fill in an array with the 2D general elliptical Gaussian. </p>
+<p>At each pixel (x,y) of the array this computes:</p>
+<p>\( G(x,y) = G_0 + A\exp [-0.5( a(x-x_0)^2 + b(x-x_0)(y-y_0) + c(y-y_0)^2 ]\)</p>
+<p>where, for a counter-clockwise rotation \( \theta \), we have</p>
+<p>\( a = \frac{\cos^2 \theta}{\sigma_x^2} + \frac{\sin^2\theta}{\sigma_y^2}\)</p>
+<p>\( b = \frac{\sin 2\theta}{2} \left(\frac{1}{\sigma_x^2} - \frac{1}{\sigma_y^2} \right)\)</p>
+<p>\( c = \frac{\sin^2 \theta}{\sigma_x^2} + \frac{\cos^2\theta}{\sigma_y^2}\)</p>
+<p>This is a convenience wrapper for the general elliptical Gaussian function Gaussian2D, where here (a,b,c) are first calculated from ( \(\sigma_x\), \(\sigma_y\), \(\theta\)).</p>
+<p>The functions <a class="el" href="group__gen__math__gaussians.html#ga47d3beb63ad5f92763af5b3a4676e59e">gaussian2D_gen2rot</a> and <a class="el" href="group__gen__math__gaussians.html#gaa601b2915024be53ee8320b95f331991">gaussian2D_rot2gen</a> provide conversions from (a,b,c) to ( \(\sigma_x\), \(\sigma_y\), \(\theta\)) and back.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>is the x-position at which to evaluate the Gaussian </td></tr>
+    <tr><td class="paramname">y</td><td>is the y-positoin at which to evaluate the Gaussian </td></tr>
+    <tr><td class="paramname">G0</td><td>is the constant to add to the Gaussian </td></tr>
+    <tr><td class="paramname">A</td><td>is the scaling factor (peak = A) </td></tr>
+    <tr><td class="paramname">x0</td><td>is the x-coordinate of the center </td></tr>
+    <tr><td class="paramname">y0</td><td>is the y-coordinate of the center </td></tr>
+    <tr><td class="paramname">sigma_x</td><td>is the width in the rotated x direction </td></tr>
+    <tr><td class="paramname">sigma_y</td><td>is the width in the rotated y direction </td></tr>
+    <tr><td class="paramname">theta</td><td>is the counter-clockwise rotation angle</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the value of the 2D elliptical Gaussian at (x,y)</dd></dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">arithT</td><td>is type to use for arithmetic </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="gaussian_8hpp_source.html#l00480">480</a> of file <a class="el" href="gaussian_8hpp_source.html">gaussian.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="constants_8hpp_source.html#l00060">mx::astro::constants::c()</a>, <a class="el" href="gaussian_8hpp_source.html#l00087">mx::gaussian2D()</a>, and <a class="el" href="gaussian_8hpp_source.html#l00313">mx::gaussian2D_rot2gen()</a>.</p>
+
+</div>
+</div>
+<a id="ga47d3beb63ad5f92763af5b3a4676e59e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga47d3beb63ad5f92763af5b3a4676e59e">&#9670;&nbsp;</a></span>gaussian2D_gen2rot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename arithT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void mx::gaussian2D_gen2rot </td>
+          <td>(</td>
+          <td class="paramtype">arithT &amp;&#160;</td>
+          <td class="paramname"><em>sigma_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">arithT &amp;&#160;</td>
+          <td class="paramname"><em>sigma_y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">arithT &amp;&#160;</td>
+          <td class="paramname"><em>theta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert from (a,b,c) to ( \(\sigma_x\), \(\sigma_y\), \(\theta\)) for the elliptical Gaussian. </p>
+<p>The general 2D elliptical Gaussian</p>
+<p>\( G(x,y) = G_0 + A\exp [-0.5( a(x-x_0)^2 + b(x-x_0)(y-y_0) + c(y-y_0)^2 ]\)</p>
+<p>can be expressed in terms of widths and a rotation angle using:</p>
+<p>\( a = \frac{\cos^2 \theta}{\sigma_x^2} + \frac{\sin^2\theta}{\sigma_y^2}\)</p>
+<p>\( b = \frac{\sin 2\theta}{2} \left(\frac{1}{\sigma_x^2} - \frac{1}{\sigma_y^2} \right)\)</p>
+<p>\( c = \frac{\sin^2 \theta}{\sigma_x^2} + \frac{\cos^2\theta}{\sigma_y^2}\)</p>
+<p>where \( \theta \) specifies a counter-clockwise rotation.</p>
+<p>This function calculates ( \(\sigma_x\), \(\sigma_y\), \(\theta\)) from inputs (a,b,c). It adopts the convention that the long axis of the ellipse is \(\sigma_x\), and \(\theta\) is chosen appropriately. Note that \(-\frac{\pi}{2} &lt; \theta &lt; \frac{\pi}{2}\).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sigma_x</td><td>[output] </td></tr>
+    <tr><td class="paramname">sigma_y</td><td>[output] </td></tr>
+    <tr><td class="paramname">theta</td><td>[output] </td></tr>
+    <tr><td class="paramname">a</td><td>[input] </td></tr>
+    <tr><td class="paramname">b</td><td>[input] </td></tr>
+    <tr><td class="paramname">c</td><td>[input]</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">arithT</td><td>is type to use for arithmetic </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="gaussian_8hpp_source.html#l00224">224</a> of file <a class="el" href="gaussian_8hpp_source.html">gaussian.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="constants_8hpp_source.html#l00060">mx::astro::constants::c()</a>.</p>
+
+</div>
+</div>
+<a id="gaac220a114374924a2eeb714c2bb34a95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaac220a114374924a2eeb714c2bb34a95">&#9670;&nbsp;</a></span>gaussian2D_jacobian()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename arithT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void mx::gaussian2D_jacobian </td>
+          <td>(</td>
+          <td class="paramtype">arithT *&#160;</td>
+          <td class="paramname"><em>j</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>G0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>x0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>y0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate the Jacobian at position (x,y) for the 2D general elliptical Gaussian. </p>
+<p>Given:</p>
+<p>\( G(x,y) = G_0 + A\exp [-0.5( a(x-x_0)^2 + b(x-x_0)(y-y_0) + c(y-y_0)^2 ]\)</p>
+<p>we calculate</p>
+<p>\( \frac{\partial G}{\partial G_0} = 1 \)</p>
+<p>\( \frac{\partial G}{\partial A} = (G - G_0)/A \)</p>
+<p>\( \frac{\partial G}{\partial x_0} = 0.5(G-G_0)( 2a(x-x_0) + b(y-y_0)) \)</p>
+<p>\( \frac{\partial G}{\partial y_0} = 0.5(G-G_0) ( b(x-x_0) + 2c(y-y_0)) \)</p>
+<p>\( \frac{\partial G}{\partial a} = -0.5(G-G_0) ( (x-x_0)^2 ) \)</p>
+<p>\( \frac{\partial G}{\partial b} = -0.5(G-G_0) ( (x-x_0)(y-y_0) ) \)</p>
+<p>\( \frac{\partial G}{\partial c} = -0.5(G-G_0) ( (y-y_0)^2 )\)</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">j</td><td>is a 7 element vector which is populated with the derivatives </td></tr>
+    <tr><td class="paramname">x</td><td>is the x-position at which to evaluate the Gaussian </td></tr>
+    <tr><td class="paramname">y</td><td>is the y-positoin at which to evaluate the Gaussian </td></tr>
+    <tr><td class="paramname">G0</td><td>is the constant to add to the Gaussian </td></tr>
+    <tr><td class="paramname">A</td><td>is the scaling factor (peak = A) </td></tr>
+    <tr><td class="paramname">x0</td><td>is the x-coordinate of the center </td></tr>
+    <tr><td class="paramname">y0</td><td>is the y-coordinate of the center </td></tr>
+    <tr><td class="paramname">a</td><td>is the first rotation and scaling factor </td></tr>
+    <tr><td class="paramname">b</td><td>is the second rotation and scaling factor </td></tr>
+    <tr><td class="paramname">c</td><td>is the third rotation and scaling factor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">arithT</td><td>is type to use for arithmetic </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="gaussian_8hpp_source.html#l00546">546</a> of file <a class="el" href="gaussian_8hpp_source.html">gaussian.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="constants_8hpp_source.html#l00060">mx::astro::constants::c()</a>.</p>
+
+</div>
+</div>
+<a id="gaa601b2915024be53ee8320b95f331991"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa601b2915024be53ee8320b95f331991">&#9670;&nbsp;</a></span>gaussian2D_rot2gen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename arithT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void mx::gaussian2D_rot2gen </td>
+          <td>(</td>
+          <td class="paramtype">arithT &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">arithT &amp;&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">arithT &amp;&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>sigma_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>sigma_y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const arithT &amp;&#160;</td>
+          <td class="paramname"><em>theta</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert from ( \(\sigma_x\), \(\sigma_y\), \(\theta\)) to (a,b,c) for the elliptical Gaussian. </p>
+<p>The general 2D elliptical Gaussian</p>
+<p>\( G(x,y) = G_0 + A\exp [-0.5( a(x-x_0)^2 + b(x-x_0)(y-y_0) + c(y-y_0)^2 ]\)</p>
+<p>can be expressed in terms of widths and a rotation angle using:</p>
+<p>\( a = \frac{\cos^2 \theta}{\sigma_x^2} + \frac{\sin^2\theta}{\sigma_y^2}\)</p>
+<p>\( b = \frac{\sin 2\theta}{2} \left(\frac{1}{\sigma_x^2} - \frac{1}{\sigma_y^2} \right)\)</p>
+<p>\( c = \frac{\sin^2 \theta}{\sigma_x^2} + \frac{\cos^2\theta}{\sigma_y^2}\)</p>
+<p>where \( \theta \) specifies a counter-clockwise rotation.</p>
+<p>This function calculates (a,b,c) from inputs ( \(\sigma_x\), \(\sigma_y\), \(\theta\)).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>[output] </td></tr>
+    <tr><td class="paramname">b</td><td>[output] </td></tr>
+    <tr><td class="paramname">c</td><td>[output] </td></tr>
+    <tr><td class="paramname">sigma_x</td><td>[input] </td></tr>
+    <tr><td class="paramname">sigma_y</td><td>[input] </td></tr>
+    <tr><td class="paramname">theta</td><td>[input]</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">arithT</td><td>is type to use for arithmetic </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="gaussian_8hpp_source.html#l00313">313</a> of file <a class="el" href="gaussian_8hpp_source.html">gaussian.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="gaussian_8hpp_source.html#l00368">mx::gaussian2D_ang()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Jul 14 2017 22:59:10 for mxlib by
+    <li class="footer">Generated on Sat Jul 15 2017 14:22:57 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

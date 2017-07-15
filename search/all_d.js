@@ -1,6 +1,7 @@
 var searchData=
 [
   ['basis',['basis',['../namespacemx_1_1AO_1_1path_1_1basis.html',1,'mx::AO::path']]],
+  ['beta_5fp',['beta_p',['../namespacemx_1_1AO_1_1beta__p.html',1,'mx::AO']]],
   ['hci',['HCI',['../namespacemx_1_1improc_1_1HCI.html',1,'mx::improc']]],
   ['mxlib',['mxlib',['../index.html',1,'']]],
   ['message_20queues',['Message Queues',['../group__IPC__msgq.html',1,'']]],
@@ -59,7 +60,7 @@ var searchData=
   ['maxvrc',['maxVRc',['../structmx_1_1astro_1_1mainSequence.html#aacff134f11359a11df0016cd8b873cd0',1,'mx::astro::mainSequence']]],
   ['mean',['mean',['../classmx_1_1improc_1_1eigenCube.html#ad1049985ad3f3296b2fa72ab62159f6f',1,'mx::improc::eigenCube::mean(eigenT &amp;mim)'],['../classmx_1_1improc_1_1eigenCube.html#afa94ac8985c1eaf3dafbf2f7daed6290',1,'mx::improc::eigenCube::mean(eigenT &amp;mim, eigenCubeT &amp;mask)'],['../classmx_1_1improc_1_1eigenCube.html#aa75d995de421048b9f5ac491d95e7c62',1,'mx::improc::eigenCube::mean(eigenT &amp;mim, std::vector&lt; dataT &gt; &amp;weights)'],['../classmx_1_1improc_1_1eigenCube.html#a5d967499b318a847e652feb2e1064ef2',1,'mx::improc::eigenCube::mean(eigenT &amp;mim, std::vector&lt; dataT &gt; &amp;weights, eigenCubeT &amp;mask)']]],
   ['meancombine',['meanCombine',['../group__hc__imaging__enums.html#gga1af050405983cd62f812ec2c6809603eaea9e0fb17ff76149d07a1774f1b5329d',1,'mx::improc::HCI']]],
-  ['measurementerror',['measurementError',['../classmx_1_1AO_1_1aoSystem.html#a5d2bf171b5c5dd4d35b55d8b98803a9b',1,'mx::AO::aoSystem::measurementError(realT m, realT n)'],['../classmx_1_1AO_1_1aoSystem.html#a7ecfc73beb1e18c1b1bed1572e3264d1',1,'mx::AO::aoSystem::measurementError()']]],
+  ['measurementerror',['measurementError',['../classmx_1_1AO_1_1aoSystem.html#a0fddf5b1d709cc9b47e8c2d7a7e31fec',1,'mx::AO::aoSystem::measurementError(realT m, realT n)'],['../classmx_1_1AO_1_1aoSystem.html#a14740b205e59ba28e7ae601272ec379b',1,'mx::AO::aoSystem::measurementError()']]],
   ['measurementsize',['measurementSize',['../classmx_1_1AO_1_1sim_1_1directPhaseReconstructor.html#a5c30899f4723ce2407afe33b0f8fa676',1,'mx::AO::sim::directPhaseReconstructor::measurementSize()'],['../classmx_1_1AO_1_1sim_1_1directPhaseReconstructor.html#a5c30899f4723ce2407afe33b0f8fa676',1,'mx::AO::sim::directPhaseReconstructor::measurementSize()'],['../classmx_1_1AO_1_1sim_1_1pywfsSlopeReconstructor.html#a9cee34ae6fbbd10a10f88e581ce99298',1,'mx::AO::sim::pywfsSlopeReconstructor::measurementSize()']]],
   ['median',['median',['../classmx_1_1improc_1_1eigenCube.html#a8daeb429a3a2dc7ce5ce9c21036c2790',1,'mx::improc::eigenCube']]],
   ['mediancombine',['medianCombine',['../group__hc__imaging__enums.html#gga1af050405983cd62f812ec2c6809603eaf2b98cc56b125154fa3d0e16ebba0433',1,'mx::improc::HCI']]],
@@ -72,7 +73,7 @@ var searchData=
   ['minmv',['minMv',['../structmx_1_1astro_1_1mainSequence.html#a371d51a1770d406e6440ba068f15628b',1,'mx::astro::mainSequence']]],
   ['minrad',['minRad',['../structmx_1_1improc_1_1imCenterCircleSym.html#a02174722134c6dc5e6bb17c044fc66c2',1,'mx::improc::imCenterCircleSym']]],
   ['mint',['minT',['../structmx_1_1astro_1_1mainSequence.html#a10c5acd07840b55792c8417ccb330b3b',1,'mx::astro::mainSequence']]],
-  ['mintauwfs',['minTauWFS',['../classmx_1_1AO_1_1aoSystem.html#af5b92d5e401103e2d5a83ca96bf6c2c3',1,'mx::AO::aoSystem::minTauWFS(realT ntau)'],['../classmx_1_1AO_1_1aoSystem.html#aa201549149e50cb40a96d6fe45f6d18a',1,'mx::AO::aoSystem::minTauWFS()']]],
+  ['mintauwfs',['minTauWFS',['../classmx_1_1AO_1_1aoSystem.html#a56853b760dfacc86cbcba1a9134e4049',1,'mx::AO::aoSystem::minTauWFS(realT ntau)'],['../classmx_1_1AO_1_1aoSystem.html#a0aaf33f71fa74f588c144f2648313a44',1,'mx::AO::aoSystem::minTauWFS()']]],
   ['minvic',['minVIc',['../structmx_1_1astro_1_1mainSequence.html#a912f30535ce8e94e8de09cdac7057a3e',1,'mx::astro::mainSequence']]],
   ['minvks',['minVKs',['../structmx_1_1astro_1_1mainSequence.html#aa4f61161f3fb1e69fdecdbec4f015023',1,'mx::astro::mainSequence']]],
   ['minvrc',['minVRc',['../structmx_1_1astro_1_1mainSequence.html#a67a8ce59b8ca3e85d5f64223f5b7522b',1,'mx::astro::mainSequence']]],

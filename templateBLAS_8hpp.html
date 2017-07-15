@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>mxlib: templateBLAS.hpp File Reference</title>
+<title>mxlib: math/templateBLAS.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -87,6 +87,7 @@ $(document).ready(function(){initNavTree('templateBLAS_8hpp.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">templateBLAS.hpp File Reference<div class="ingroups"><a class="el" href="group__gen__math.html">General Mathematics</a> &raquo; <a class="el" href="group__template__blaslap.html">Templatized BLAS and Lapack</a> &raquo; <a class="el" href="group__template__blas.html">Templatized BLAS interface</a></div></div>  </div>
@@ -105,44 +106,50 @@ $(document).ready(function(){initNavTree('templateBLAS_8hpp.html','');});
 </div>
 <p><a href="templateBLAS_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespacemx"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemx.html">mx</a></td></tr>
+<tr class="memdesc:namespacemx"><td class="mdescLeft">&#160;</td><td class="mdescRight">The mxlib c++ namespace. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gad877f6b8eeca8bad2f5339d9ad427ba0"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
-<tr class="memitem:gad877f6b8eeca8bad2f5339d9ad427ba0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#gad877f6b8eeca8bad2f5339d9ad427ba0">scal</a> (const int N, const dataT alpha, dataT *X, const int incX)</td></tr>
-<tr class="memdesc:gad877f6b8eeca8bad2f5339d9ad427ba0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template wrapper for cblas xSCAL.  <a href="group__template__blas.html#gad877f6b8eeca8bad2f5339d9ad427ba0">More...</a><br /></td></tr>
-<tr class="separator:gad877f6b8eeca8bad2f5339d9ad427ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9d48d81e8f9acea8bd9d552b55dfec22"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
-<tr class="memitem:ga9d48d81e8f9acea8bd9d552b55dfec22"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#ga9d48d81e8f9acea8bd9d552b55dfec22">hadp_impl</a> (const int N, dataT *__restrict__ Y, dataT *__restrict__ X)</td></tr>
-<tr class="memdesc:ga9d48d81e8f9acea8bd9d552b55dfec22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of the Hadamard (element-wise) product of two vectors.  <a href="group__template__blas.html#ga9d48d81e8f9acea8bd9d552b55dfec22">More...</a><br /></td></tr>
-<tr class="separator:ga9d48d81e8f9acea8bd9d552b55dfec22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga893933ac4102cfc197809550f253d116"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
-<tr class="memitem:ga893933ac4102cfc197809550f253d116"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#ga893933ac4102cfc197809550f253d116">hadp</a> (const int N, dataT *Y, dataT *X)</td></tr>
-<tr class="memdesc:ga893933ac4102cfc197809550f253d116"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template wrapper for cblas-extension xHADP.  <a href="group__template__blas.html#ga893933ac4102cfc197809550f253d116">More...</a><br /></td></tr>
-<tr class="separator:ga893933ac4102cfc197809550f253d116"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaaaa719adba79275b8aa4c87cb04e246b"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
-<tr class="memitem:gaaaa719adba79275b8aa4c87cb04e246b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#gaaaa719adba79275b8aa4c87cb04e246b">hadd_impl</a> (const int N, const dataT alpha, const dataT *Y, const int incY, dataT *X, const int incX)</td></tr>
-<tr class="memdesc:gaaaa719adba79275b8aa4c87cb04e246b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of the Hadamard (element-wise) division of two vectors.  <a href="group__template__blas.html#gaaaa719adba79275b8aa4c87cb04e246b">More...</a><br /></td></tr>
-<tr class="separator:gaaaa719adba79275b8aa4c87cb04e246b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad43a93a5331d52bd67c31af13d3a03f8"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
-<tr class="memitem:gad43a93a5331d52bd67c31af13d3a03f8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#gad43a93a5331d52bd67c31af13d3a03f8">hadd</a> (const int N, const dataT alpha, const dataT *Y, const int incY, dataT *X, const int incX)</td></tr>
-<tr class="memdesc:gad43a93a5331d52bd67c31af13d3a03f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template wrapper for cblas-extension xHADD.  <a href="group__template__blas.html#gad43a93a5331d52bd67c31af13d3a03f8">More...</a><br /></td></tr>
-<tr class="separator:gad43a93a5331d52bd67c31af13d3a03f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac6750d0dd45bf6f1ab6f7136e366cc24"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
-<tr class="memitem:gac6750d0dd45bf6f1ab6f7136e366cc24"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#gac6750d0dd45bf6f1ab6f7136e366cc24">gemm</a> (const enum CBLAS_ORDER Order, const enum CBLAS_TRANSPOSE TransA, const enum CBLAS_TRANSPOSE TransB, const int M, const int N, const int K, const dataT alpha, const dataT *A, const int lda, const dataT *B, const int ldb, const dataT beta, dataT *C, const int ldc)</td></tr>
-<tr class="memdesc:gac6750d0dd45bf6f1ab6f7136e366cc24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template Wrapper for cblas xGEMM.  <a href="group__template__blas.html#gac6750d0dd45bf6f1ab6f7136e366cc24">More...</a><br /></td></tr>
-<tr class="separator:gac6750d0dd45bf6f1ab6f7136e366cc24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4fedc7542809e654f1afa78160aa53e7"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
-<tr class="memitem:ga4fedc7542809e654f1afa78160aa53e7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#ga4fedc7542809e654f1afa78160aa53e7">syrk</a> (const enum CBLAS_ORDER Order, const enum CBLAS_UPLO Uplo, const enum CBLAS_TRANSPOSE Trans, const int N, const int K, const dataT alpha, const dataT *A, const int lda, const dataT beta, dataT *C, const int ldc)</td></tr>
-<tr class="memdesc:ga4fedc7542809e654f1afa78160aa53e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template Wrapper for cblas xSYRK.  <a href="group__template__blas.html#ga4fedc7542809e654f1afa78160aa53e7">More...</a><br /></td></tr>
-<tr class="separator:ga4fedc7542809e654f1afa78160aa53e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8889b04d18e49dbdba8580ba172de3ea"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
+<tr class="memitem:ga8889b04d18e49dbdba8580ba172de3ea"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#ga8889b04d18e49dbdba8580ba172de3ea">mx::math::scal</a> (const int N, const dataT alpha, dataT *X, const int incX)</td></tr>
+<tr class="memdesc:ga8889b04d18e49dbdba8580ba172de3ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template wrapper for cblas xSCAL.  <a href="group__template__blas.html#ga8889b04d18e49dbdba8580ba172de3ea">More...</a><br /></td></tr>
+<tr class="separator:ga8889b04d18e49dbdba8580ba172de3ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaafc77f081091e88961c3f43264a7a6da"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
+<tr class="memitem:gaafc77f081091e88961c3f43264a7a6da"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#gaafc77f081091e88961c3f43264a7a6da">mx::math::hadp_impl</a> (const int N, dataT *__restrict__ Y, dataT *__restrict__ X)</td></tr>
+<tr class="memdesc:gaafc77f081091e88961c3f43264a7a6da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of the Hadamard (element-wise) product of two vectors.  <a href="group__template__blas.html#gaafc77f081091e88961c3f43264a7a6da">More...</a><br /></td></tr>
+<tr class="separator:gaafc77f081091e88961c3f43264a7a6da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1621ce1a597b9fb9447f3ca296679e7c"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
+<tr class="memitem:ga1621ce1a597b9fb9447f3ca296679e7c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#ga1621ce1a597b9fb9447f3ca296679e7c">mx::math::hadp</a> (const int N, dataT *Y, dataT *X)</td></tr>
+<tr class="memdesc:ga1621ce1a597b9fb9447f3ca296679e7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template wrapper for cblas-extension xHADP.  <a href="group__template__blas.html#ga1621ce1a597b9fb9447f3ca296679e7c">More...</a><br /></td></tr>
+<tr class="separator:ga1621ce1a597b9fb9447f3ca296679e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab49ebccd89fa6665a721922754b0445c"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
+<tr class="memitem:gab49ebccd89fa6665a721922754b0445c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#gab49ebccd89fa6665a721922754b0445c">mx::math::hadd_impl</a> (const int N, const dataT alpha, const dataT *Y, const int incY, dataT *X, const int incX)</td></tr>
+<tr class="memdesc:gab49ebccd89fa6665a721922754b0445c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of the Hadamard (element-wise) division of two vectors.  <a href="group__template__blas.html#gab49ebccd89fa6665a721922754b0445c">More...</a><br /></td></tr>
+<tr class="separator:gab49ebccd89fa6665a721922754b0445c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga533678f811dd6bda72bf578e50ede88c"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
+<tr class="memitem:ga533678f811dd6bda72bf578e50ede88c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#ga533678f811dd6bda72bf578e50ede88c">mx::math::hadd</a> (const int N, const dataT alpha, const dataT *Y, const int incY, dataT *X, const int incX)</td></tr>
+<tr class="memdesc:ga533678f811dd6bda72bf578e50ede88c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template wrapper for cblas-extension xHADD.  <a href="group__template__blas.html#ga533678f811dd6bda72bf578e50ede88c">More...</a><br /></td></tr>
+<tr class="separator:ga533678f811dd6bda72bf578e50ede88c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadc518ea0ce47d20666caa0e65abaca48"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
+<tr class="memitem:gadc518ea0ce47d20666caa0e65abaca48"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#gadc518ea0ce47d20666caa0e65abaca48">mx::math::gemm</a> (const enum CBLAS_ORDER Order, const enum CBLAS_TRANSPOSE TransA, const enum CBLAS_TRANSPOSE TransB, const int M, const int N, const int K, const dataT alpha, const dataT *A, const int lda, const dataT *B, const int ldb, const dataT beta, dataT *C, const int ldc)</td></tr>
+<tr class="memdesc:gadc518ea0ce47d20666caa0e65abaca48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template Wrapper for cblas xGEMM.  <a href="group__template__blas.html#gadc518ea0ce47d20666caa0e65abaca48">More...</a><br /></td></tr>
+<tr class="separator:gadc518ea0ce47d20666caa0e65abaca48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga30c42fe54ef218bae41966be7ad74537"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
+<tr class="memitem:ga30c42fe54ef218bae41966be7ad74537"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__template__blas.html#ga30c42fe54ef218bae41966be7ad74537">mx::math::syrk</a> (const enum CBLAS_ORDER Order, const enum CBLAS_UPLO Uplo, const enum CBLAS_TRANSPOSE Trans, const int N, const int K, const dataT alpha, const dataT *A, const int lda, const dataT beta, dataT *C, const int ldc)</td></tr>
+<tr class="memdesc:ga30c42fe54ef218bae41966be7ad74537"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template Wrapper for cblas xSYRK.  <a href="group__template__blas.html#ga30c42fe54ef218bae41966be7ad74537">More...</a><br /></td></tr>
+<tr class="separator:ga30c42fe54ef218bae41966be7ad74537"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="templateBLAS_8hpp.html">templateBLAS.hpp</a></li>
-    <li class="footer">Generated on Wed Jul 12 2017 23:21:19 for mxlib by
+    <li class="navelem"><a class="el" href="dir_fba38f648377aa56ae5d69782adf9e53.html">math</a></li><li class="navelem"><a class="el" href="templateBLAS_8hpp.html">templateBLAS.hpp</a></li>
+    <li class="footer">Generated on Sat Jul 15 2017 14:22:57 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
