@@ -4,8 +4,10 @@ var geo_8hpp =
     [ "focus", "group__geo.html#ga290e659cac1e23e08af8e52ebde3f5a1", null ],
     [ "semilatrect", "group__geo.html#ga7f98ff192ab7972e5898c131ac8ef8f8", null ],
     [ "semimaj", "group__geo.html#gaacabc34a486a39e7540654c2bc5e89a7", null ],
-    [ "angleDiff", "geo_8hpp.html#gad5c0633245d7d9009eef8b27b13883cf", null ],
-    [ "angleMean", "geo_8hpp.html#gad404544da0ca1afca8fb08150e3b3278", null ],
-    [ "dtor", "geo_8hpp.html#ga31a66fdddf4aae47fca74de92d80b295", null ],
-    [ "rtod", "geo_8hpp.html#gae5df7dc5b76526af1657e2b5c5b877c5", null ]
+    [ "angleDiff", "geo_8hpp.html#gacd188a1f72156491abce8b4c2ad9d393", null ],
+    [ "angleMean", "geo_8hpp.html#ga9aeac3c37b3a9f122ed625f27ce4c5c2", null ],
+    [ "angleMod", "geo_8hpp.html#ga240ac82d23cb00d5460201dd0875e220", null ],
+    [ "continueAngles", "geo_8hpp.html#ga03d19941cd996137174b767ab992aa13", null ],
+    [ "dtor", "geo_8hpp.html#ga92a420eb057d344c22e3973c29030489", null ],
+    [ "rtod", "geo_8hpp.html#ga3f273f8d9960b886b09a9fce620f1607", null ]
 ];

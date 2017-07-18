@@ -44,13 +44,13 @@ var NAVTREEINDEX =
 "classmx_1_1application.html#a064075afc69f2d39ebacee89f50d6b56",
 "classmx_1_1math_1_1fit_1_1levmarInterface.html#abdffc0c849383513da641cc6eec596e4",
 "functions_a.html",
-"group__binvector.html#ga7eb7bba22c3e145fef6078776374bda3",
-"group__image__processing.html",
-"group__vectorutils.html#ga603d303d6d01a38ad1dabc5ce6d5f9b4",
-"stringUtils_8hpp.html#gaab1f64c92c699366b7343f7fe6011481",
-"structmx_1_1astro_1_1units_1_1cgs.html#ab4dbf9c8945799b2dad9357aa908bb1d",
-"structmx_1_1improc_1_1HCIobservation.html#ad2fdb1f25a15d2491153331eb9862930",
-"wooferTweeterDM_8hpp_source.html"
+"group__binvector.html#ga38709b0ce3d32a3e2d573f326571127b",
+"group__image__padding.html#gab0e7c73ee2d7464fd5ce1efbcba761ae",
+"group__vectorutils.html#ga1986919834cd5916ded818f2ef0f26a1",
+"stringUtils_8hpp.html#ga53b16d2cf46ae7d3325b94ca8582f5a0",
+"structmx_1_1astro_1_1mainSequence.html#afc590b9251fcd1252a77a4883ada787c",
+"structmx_1_1improc_1_1HCIobservation.html#ac863a1708339a9f9faaad43a25441746",
+"weibull_8hpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

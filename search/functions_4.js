@@ -18,7 +18,7 @@ var searchData=
   ['double',['Double',['../structmx_1_1improc_1_1fitsHeaderCard.html#ab017d86971f54948f88f8153fa0f2a4c',1,'mx::improc::fitsHeaderCard']]],
   ['drawline',['drawLine',['../imagingUtils_8hpp.html#ab3f1da9aa368329b62030983bab6163e',1,'mx::wfp']]],
   ['ds9interface',['ds9Interface',['../classmx_1_1improc_1_1ds9Interface.html#a8cdcc97d833f5e4f62f27f1caf80076b',1,'mx::improc::ds9Interface::ds9Interface()'],['../classmx_1_1improc_1_1ds9Interface.html#a0e4bcd73c80506841a018dd03997847c',1,'mx::improc::ds9Interface::ds9Interface(const arrayT &amp;array, int frame=1)']]],
-  ['dtor',['dtor',['../group__geo.html#ga31a66fdddf4aae47fca74de92d80b295',1,'mx']]],
+  ['dtor',['dtor',['../group__geo.html#ga92a420eb057d344c22e3973c29030489',1,'mx::math']]],
   ['dump_5fparams',['dump_params',['../classmx_1_1math_1_1fit_1_1levmarInterface.html#a4faf711a520e3fa44cebc0f93887c95f',1,'mx::math::fit::levmarInterface']]],
   ['dump_5freport',['dump_report',['../classmx_1_1math_1_1fit_1_1levmarInterface.html#a8d880adb50b978e6c230f9748b9d7c29',1,'mx::math::fit::levmarInterface']]],
   ['dumpaosystem',['dumpAOSystem',['../classmx_1_1AO_1_1aoSystem.html#aa4fd7640772b0c1af5a1abb2d445f17a',1,'mx::AO::aoSystem']]],

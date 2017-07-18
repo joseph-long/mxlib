@@ -109,6 +109,7 @@ var searchData=
   ['connect',['connect',['../classmx_1_1gnuPlot.html#aa43762765e592ba8550cc22d786ed115',1,'mx::gnuPlot']]],
   ['constants_2ehpp',['constants.hpp',['../constants_8hpp.html',1,'']]],
   ['construct',['construct',['../classmx_1_1improc_1_1fitsFile.html#acdd88a4c5259062c42fa5f07d2d09c01',1,'mx::improc::fitsFile']]],
+  ['continueangles',['continueAngles',['../group__geo.html#ga03d19941cd996137174b767ab992aa13',1,'mx::math']]],
   ['convertfromstring',['convertFromString',['../group__stringutils.html#ga7db7d762be02d79f69d77c987a705da6',1,'mx']]],
   ['convertfromstring_3c_20bool_20_3e',['convertFromString&lt; bool &gt;',['../group__stringutils.html#ga53b16d2cf46ae7d3325b94ca8582f5a0',1,'mx']]],
   ['convertfromstring_3c_20char_20_3e',['convertFromString&lt; char &gt;',['../group__stringutils.html#gab6c6a247a3ce6021af0a97974ee49991',1,'mx']]],

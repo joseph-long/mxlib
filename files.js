@@ -46,7 +46,9 @@ var files =
     [ "vectorUtils.hpp", "vectorUtils_8hpp.html", "vectorUtils_8hpp" ],
     [ "zernike.hpp", "zernike_8hpp.html", "zernike_8hpp" ],
     [ "msgq.c", "msgq_8c.html", "msgq_8c" ],
+    [ "mx.makefile.inc", "mx_8makefile_8inc_source.html", null ],
     [ "mxlib.c", "mxlib_8c.html", "mxlib_8c" ],
+    [ "mxlib.makefile.inc", "mxlib_8makefile_8inc_source.html", null ],
     [ "process_interface.c", "process__interface_8c.html", "process__interface_8c" ],
     [ "sharedmem_segment.c", "sharedmem__segment_8c.html", "sharedmem__segment_8c" ]
 ];

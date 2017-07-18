@@ -53,7 +53,7 @@ var searchData=
   ['ds9interface',['ds9Interface',['../classmx_1_1improc_1_1ds9Interface.html',1,'mx::improc::ds9Interface'],['../classmx_1_1improc_1_1ds9Interface.html#a8cdcc97d833f5e4f62f27f1caf80076b',1,'mx::improc::ds9Interface::ds9Interface()'],['../classmx_1_1improc_1_1ds9Interface.html#a0e4bcd73c80506841a018dd03997847c',1,'mx::improc::ds9Interface::ds9Interface(const arrayT &amp;array, int frame=1)']]],
   ['ds9interface_2ehpp',['ds9Interface.hpp',['../ds9Interface_8hpp.html',1,'']]],
   ['dsign',['dsign',['../group__sofa__constants.html#ga59b49e5e1b0f4e96d22eb8cc0afb5bc0',1,'sofa_constants.h']]],
-  ['dtor',['dtor',['../group__geo.html#ga31a66fdddf4aae47fca74de92d80b295',1,'mx']]],
+  ['dtor',['dtor',['../group__geo.html#ga92a420eb057d344c22e3973c29030489',1,'mx::math']]],
   ['dty',['DTY',['../group__sofa__constants.html#gaf8ef72c58a390141765e3ccd27fd6dd4',1,'sofa_constants.h']]],
   ['dump_5fparams',['dump_params',['../classmx_1_1math_1_1fit_1_1levmarInterface.html#a4faf711a520e3fa44cebc0f93887c95f',1,'mx::math::fit::levmarInterface']]],
   ['dump_5freport',['dump_report',['../classmx_1_1math_1_1fit_1_1levmarInterface.html#a8d880adb50b978e6c230f9748b9d7c29',1,'mx::math::fit::levmarInterface']]],

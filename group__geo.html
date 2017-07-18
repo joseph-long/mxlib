@@ -108,22 +108,30 @@ $(document).ready(function(){initNavTree('group__geo.html','');});
 <tr class="memitem:ga82042b0a5a45c44b5e484d1e6b3315b7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__geo.html#ga82042b0a5a45c44b5e484d1e6b3315b7">eccent</a>(a,  p)&#160;&#160;&#160;(a == 0.0 ? 1e34 : (p &gt;= 1e9 ? 0.0 : (p&gt;0 ? (-p/(2*a)+0.5*std::sqrt(p*p/(a*a) + 4)) : (p/(2*a)+0.5*std::sqrt(p*p/(a*a) + 4)) ) ))</td></tr>
 <tr class="memdesc:ga82042b0a5a45c44b5e484d1e6b3315b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the eccentricity of a <a href="http://en.wikipedia.org/wiki/Conic_section">conic section</a> given the semi-major axis and the focal parameter.  <a href="#ga82042b0a5a45c44b5e484d1e6b3315b7">More...</a><br /></td></tr>
 <tr class="separator:ga82042b0a5a45c44b5e484d1e6b3315b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga31a66fdddf4aae47fca74de92d80b295"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
-<tr class="memitem:ga31a66fdddf4aae47fca74de92d80b295"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__geo.html#ga31a66fdddf4aae47fca74de92d80b295">mx::dtor</a> (realT q)</td></tr>
-<tr class="memdesc:ga31a66fdddf4aae47fca74de92d80b295"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from degrees to radians.  <a href="group__geo.html#ga31a66fdddf4aae47fca74de92d80b295">More...</a><br /></td></tr>
-<tr class="separator:ga31a66fdddf4aae47fca74de92d80b295"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae5df7dc5b76526af1657e2b5c5b877c5"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
-<tr class="memitem:gae5df7dc5b76526af1657e2b5c5b877c5"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__geo.html#gae5df7dc5b76526af1657e2b5c5b877c5">mx::rtod</a> (realT q)</td></tr>
-<tr class="memdesc:gae5df7dc5b76526af1657e2b5c5b877c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from radians to degrees.  <a href="group__geo.html#gae5df7dc5b76526af1657e2b5c5b877c5">More...</a><br /></td></tr>
-<tr class="separator:gae5df7dc5b76526af1657e2b5c5b877c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad5c0633245d7d9009eef8b27b13883cf"><td class="memTemplParams" colspan="2">template&lt;int degrad = 0, typename realT &gt; </td></tr>
-<tr class="memitem:gad5c0633245d7d9009eef8b27b13883cf"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__geo.html#gad5c0633245d7d9009eef8b27b13883cf">mx::angleDiff</a> (realT q1, realT q2)</td></tr>
-<tr class="memdesc:gad5c0633245d7d9009eef8b27b13883cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the difference between two angles, correctly across 0/360.  <a href="group__geo.html#gad5c0633245d7d9009eef8b27b13883cf">More...</a><br /></td></tr>
-<tr class="separator:gad5c0633245d7d9009eef8b27b13883cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad404544da0ca1afca8fb08150e3b3278"><td class="memTemplParams" colspan="2">template&lt;typename realT , int degrad = 0&gt; </td></tr>
-<tr class="memitem:gad404544da0ca1afca8fb08150e3b3278"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__geo.html#gad404544da0ca1afca8fb08150e3b3278">mx::angleMean</a> (std::vector&lt; realT &gt; &amp;q)</td></tr>
-<tr class="memdesc:gad404544da0ca1afca8fb08150e3b3278"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the mean of a set of angles, correctly across 0/360.  <a href="group__geo.html#gad404544da0ca1afca8fb08150e3b3278">More...</a><br /></td></tr>
-<tr class="separator:gad404544da0ca1afca8fb08150e3b3278"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga92a420eb057d344c22e3973c29030489"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:ga92a420eb057d344c22e3973c29030489"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__geo.html#ga92a420eb057d344c22e3973c29030489">mx::math::dtor</a> (realT q)</td></tr>
+<tr class="memdesc:ga92a420eb057d344c22e3973c29030489"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from degrees to radians.  <a href="group__geo.html#ga92a420eb057d344c22e3973c29030489">More...</a><br /></td></tr>
+<tr class="separator:ga92a420eb057d344c22e3973c29030489"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3f273f8d9960b886b09a9fce620f1607"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:ga3f273f8d9960b886b09a9fce620f1607"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__geo.html#ga3f273f8d9960b886b09a9fce620f1607">mx::math::rtod</a> (realT q)</td></tr>
+<tr class="memdesc:ga3f273f8d9960b886b09a9fce620f1607"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from radians to degrees.  <a href="group__geo.html#ga3f273f8d9960b886b09a9fce620f1607">More...</a><br /></td></tr>
+<tr class="separator:ga3f273f8d9960b886b09a9fce620f1607"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga240ac82d23cb00d5460201dd0875e220"><td class="memTemplParams" colspan="2">template&lt;int degrad = 0, typename realT &gt; </td></tr>
+<tr class="memitem:ga240ac82d23cb00d5460201dd0875e220"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__geo.html#ga240ac82d23cb00d5460201dd0875e220">mx::math::angleMod</a> (realT q)</td></tr>
+<tr class="memdesc:ga240ac82d23cb00d5460201dd0875e220"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the angle modulo full-circle, normalizing to a positive value.  <a href="group__geo.html#ga240ac82d23cb00d5460201dd0875e220">More...</a><br /></td></tr>
+<tr class="separator:ga240ac82d23cb00d5460201dd0875e220"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacd188a1f72156491abce8b4c2ad9d393"><td class="memTemplParams" colspan="2">template&lt;int degrad = 0, typename realT &gt; </td></tr>
+<tr class="memitem:gacd188a1f72156491abce8b4c2ad9d393"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__geo.html#gacd188a1f72156491abce8b4c2ad9d393">mx::math::angleDiff</a> (realT q1, realT q2)</td></tr>
+<tr class="memdesc:gacd188a1f72156491abce8b4c2ad9d393"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the difference between two angles, correctly across 0/360.  <a href="group__geo.html#gacd188a1f72156491abce8b4c2ad9d393">More...</a><br /></td></tr>
+<tr class="separator:gacd188a1f72156491abce8b4c2ad9d393"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9aeac3c37b3a9f122ed625f27ce4c5c2"><td class="memTemplParams" colspan="2">template&lt;int degrad = 0, typename realT &gt; </td></tr>
+<tr class="memitem:ga9aeac3c37b3a9f122ed625f27ce4c5c2"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__geo.html#ga9aeac3c37b3a9f122ed625f27ce4c5c2">mx::math::angleMean</a> (std::vector&lt; realT &gt; &amp;q)</td></tr>
+<tr class="memdesc:ga9aeac3c37b3a9f122ed625f27ce4c5c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the mean of a set of angles, correctly across 0/360.  <a href="group__geo.html#ga9aeac3c37b3a9f122ed625f27ce4c5c2">More...</a><br /></td></tr>
+<tr class="separator:ga9aeac3c37b3a9f122ed625f27ce4c5c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga03d19941cd996137174b767ab992aa13"><td class="memTemplParams" colspan="2">template&lt;int degrad = 0, typename realT &gt; </td></tr>
+<tr class="memitem:ga03d19941cd996137174b767ab992aa13"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__geo.html#ga03d19941cd996137174b767ab992aa13">mx::math::continueAngles</a> (std::vector&lt; realT &gt; &amp;angles, realT threshold=0.75)</td></tr>
+<tr class="memdesc:ga03d19941cd996137174b767ab992aa13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a vector of angles continuous, fixing the 0/360 crossing.  <a href="group__geo.html#ga03d19941cd996137174b767ab992aa13">More...</a><br /></td></tr>
+<tr class="separator:ga03d19941cd996137174b767ab992aa13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ga82042b0a5a45c44b5e484d1e6b3315b7"></a>
@@ -154,7 +162,7 @@ $(document).ready(function(){initNavTree('group__geo.html','');});
 
 <p>Calculate the eccentricity of a <a href="http://en.wikipedia.org/wiki/Conic_section">conic section</a> given the semi-major axis and the focal parameter. </p>
 
-<p class="definition">Definition at line <a class="el" href="geo_8hpp_source.html#l00035">35</a> of file <a class="el" href="geo_8hpp_source.html">geo.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="geo_8hpp_source.html#l00037">37</a> of file <a class="el" href="geo_8hpp_source.html">geo.hpp</a>.</p>
 
 </div>
 </div>
@@ -186,7 +194,7 @@ $(document).ready(function(){initNavTree('group__geo.html','');});
 
 <p>Calculate the focal parameter of a <a href="http://en.wikipedia.org/wiki/Conic_section">conic section</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="geo_8hpp_source.html#l00029">29</a> of file <a class="el" href="geo_8hpp_source.html">geo.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="geo_8hpp_source.html#l00031">31</a> of file <a class="el" href="geo_8hpp_source.html">geo.hpp</a>.</p>
 
 </div>
 </div>
@@ -218,7 +226,7 @@ $(document).ready(function(){initNavTree('group__geo.html','');});
 
 <p>Calculate the semi-latus rectum of a <a href="http://en.wikipedia.org/wiki/Conic_section">conic section</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="geo_8hpp_source.html#l00026">26</a> of file <a class="el" href="geo_8hpp_source.html">geo.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="geo_8hpp_source.html#l00028">28</a> of file <a class="el" href="geo_8hpp_source.html">geo.hpp</a>.</p>
 
 </div>
 </div>
@@ -250,13 +258,13 @@ $(document).ready(function(){initNavTree('group__geo.html','');});
 
 <p>Calculate the semi-major axis of a <a href="http://en.wikipedia.org/wiki/Conic_section">conic section</a>, given the focal parameter and the eccentricity. </p>
 
-<p class="definition">Definition at line <a class="el" href="geo_8hpp_source.html#l00032">32</a> of file <a class="el" href="geo_8hpp_source.html">geo.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="geo_8hpp_source.html#l00034">34</a> of file <a class="el" href="geo_8hpp_source.html">geo.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="gad5c0633245d7d9009eef8b27b13883cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad5c0633245d7d9009eef8b27b13883cf">&#9670;&nbsp;</a></span>angleDiff()</h2>
+<a id="gacd188a1f72156491abce8b4c2ad9d393"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacd188a1f72156491abce8b4c2ad9d393">&#9670;&nbsp;</a></span>angleDiff()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -264,7 +272,7 @@ $(document).ready(function(){initNavTree('group__geo.html','');});
 template&lt;int degrad = 0, typename realT &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">realT mx::angleDiff </td>
+          <td class="memname">realT mx::math::angleDiff </td>
           <td>(</td>
           <td class="paramtype">realT&#160;</td>
           <td class="paramname"><em>q1</em>, </td>
@@ -285,35 +293,36 @@ template&lt;int degrad = 0, typename realT &gt; </div>
 
 <p>Calculate the difference between two angles, correctly across 0/360. </p>
 <p>Calculates \( dq = q2- q1 \), but accounts for crossing 0/360. This implies that \( dq \le 180 \).</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">q1</td><td>angle to subtract from q2, in degrees. </td></tr>
-    <tr><td class="paramname">q2</td><td>angle to subtract q1 from, in degrees.</td></tr>
-  </table>
-  </dd>
-</dl>
 <dl class="section return"><dt>Returns</dt><dd>the difference of q2 and q1</dd></dl>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
+    <tr><td class="paramname">degrad</td><td>controls whether this is in degrees (0, default) or radians (1) </td></tr>
     <tr><td class="paramname">realT</td><td>is the type in which to do arithmetic </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">q1</td><td>angle to subtract from q2, in degrees. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">q2</td><td>angle to subtract q1 from, in degrees. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="geo_8hpp_source.html#l00085">85</a> of file <a class="el" href="geo_8hpp_source.html">geo.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="geo_8hpp_source.html#l00113">113</a> of file <a class="el" href="geo_8hpp_source.html">geo.hpp</a>.</p>
 
 </div>
 </div>
-<a id="gad404544da0ca1afca8fb08150e3b3278"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad404544da0ca1afca8fb08150e3b3278">&#9670;&nbsp;</a></span>angleMean()</h2>
+<a id="ga9aeac3c37b3a9f122ed625f27ce4c5c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9aeac3c37b3a9f122ed625f27ce4c5c2">&#9670;&nbsp;</a></span>angleMean()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename realT , int degrad = 0&gt; </div>
+template&lt;int degrad = 0, typename realT &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">realT mx::angleMean </td>
+          <td class="memname">realT mx::math::angleMean </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; realT &gt; &amp;&#160;</td>
           <td class="paramname"><em>q</em></td><td>)</td>
@@ -339,14 +348,104 @@ template&lt;typename realT , int degrad = 0&gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="geo_8hpp_source.html#l00124">124</a> of file <a class="el" href="geo_8hpp_source.html">geo.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="geo_8hpp_source.html#l00154">154</a> of file <a class="el" href="geo_8hpp_source.html">geo.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="constants_8hpp_source.html#l00060">mx::astro::constants::c()</a>.</p>
 
 </div>
 </div>
-<a id="ga31a66fdddf4aae47fca74de92d80b295"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga31a66fdddf4aae47fca74de92d80b295">&#9670;&nbsp;</a></span>dtor()</h2>
+<a id="ga240ac82d23cb00d5460201dd0875e220"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga240ac82d23cb00d5460201dd0875e220">&#9670;&nbsp;</a></span>angleMod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int degrad = 0, typename realT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">realT mx::math::angleMod </td>
+          <td>(</td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>q</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate the angle modulo full-circle, normalizing to a positive value. </p>
+<p>The output will be betweeen 0 and 360 (or 0 and 2pi).</p>
+<dl class="section return"><dt>Returns</dt><dd>the value of q normalized to 0 &lt;= q &lt; 360[2pi]</dd></dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">degrad</td><td>controls whether this is in degrees (0, default) or radians (1) </td></tr>
+    <tr><td class="paramname">realT</td><td>is the type in which to do arithmetic </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>the angle </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="geo_8hpp_source.html#l00084">84</a> of file <a class="el" href="geo_8hpp_source.html">geo.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="ADIDerotator_8hpp_source.html#l00071">mx::improc::ADIDerotator&lt; _realT &gt;::derotAngle()</a>.</p>
+
+</div>
+</div>
+<a id="ga03d19941cd996137174b767ab992aa13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga03d19941cd996137174b767ab992aa13">&#9670;&nbsp;</a></span>continueAngles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int degrad = 0, typename realT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int mx::math::continueAngles </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; realT &gt; &amp;&#160;</td>
+          <td class="paramname"><em>angles</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>threshold</em> = <code>0.75</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Make a vector of angles continuous, fixing the 0/360 crossing. </p>
+<p>The vector is modified so it is continuous.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">degrad</td><td>controls whether angles are degrees (false) or radians (true) </td></tr>
+    <tr><td class="paramname">realT</td><td>is the type in which to do arithmetic </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">angles</td><td>the vector of angles </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">threshold</td><td>[optional] the fraction of a full circle at which to consider a difference in angle discontinuous. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="geo_8hpp_source.html#l00187">187</a> of file <a class="el" href="geo_8hpp_source.html">geo.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ga92a420eb057d344c22e3973c29030489"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga92a420eb057d344c22e3973c29030489">&#9670;&nbsp;</a></span>dtor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -354,7 +453,7 @@ template&lt;typename realT , int degrad = 0&gt; </div>
 template&lt;typename realT &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">realT mx::dtor </td>
+          <td class="memname">realT mx::math::dtor </td>
           <td>(</td>
           <td class="paramtype">realT&#160;</td>
           <td class="paramname"><em>q</em></td><td>)</td>
@@ -372,14 +471,14 @@ template&lt;typename realT &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the angle q converted to radians </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="geo_8hpp_source.html#l00050">50</a> of file <a class="el" href="geo_8hpp_source.html">geo.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="geo_8hpp_source.html#l00052">52</a> of file <a class="el" href="geo_8hpp_source.html">geo.hpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="ADIDerotator_8hpp_source.html#l00071">mx::improc::ADIDerotator&lt; _realT &gt;::derotAngle()</a>, <a class="el" href="astrodyn_8cpp_source.html#l00203">get_ParAng_deg()</a>, and <a class="el" href="ADIobservation_8hpp_source.html#l00277">mx::improc::ADIobservation&lt; _realT, _derotFunctObj &gt;::injectFake()</a>.</p>
 
 </div>
 </div>
-<a id="gae5df7dc5b76526af1657e2b5c5b877c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae5df7dc5b76526af1657e2b5c5b877c5">&#9670;&nbsp;</a></span>rtod()</h2>
+<a id="ga3f273f8d9960b886b09a9fce620f1607"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3f273f8d9960b886b09a9fce620f1607">&#9670;&nbsp;</a></span>rtod()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -387,7 +486,7 @@ template&lt;typename realT &gt; </div>
 template&lt;typename realT &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">realT mx::rtod </td>
+          <td class="memname">realT mx::math::rtod </td>
           <td>(</td>
           <td class="paramtype">realT&#160;</td>
           <td class="paramname"><em>q</em></td><td>)</td>
@@ -405,7 +504,7 @@ template&lt;typename realT &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the angle q converted to degrees </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="geo_8hpp_source.html#l00067">67</a> of file <a class="el" href="geo_8hpp_source.html">geo.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="geo_8hpp_source.html#l00069">69</a> of file <a class="el" href="geo_8hpp_source.html">geo.hpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="astrodyn_8cpp_source.html#l00203">get_ParAng_deg()</a>.</p>
 
@@ -416,7 +515,7 @@ template&lt;typename realT &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 17 2017 17:23:38 for mxlib by
+    <li class="footer">Generated on Tue Jul 18 2017 13:28:02 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

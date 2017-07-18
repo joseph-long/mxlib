@@ -37,5 +37,5 @@ var searchData=
   ['ron_5fwfs',['ron_wfs',['../classmx_1_1AO_1_1aoSystem.html#a45c7e2314001944ae6b05d6cf665058a',1,'mx::AO::aoSystem::ron_wfs(realT nron)'],['../classmx_1_1AO_1_1aoSystem.html#a8bdae54e805e803cab76f62d397b66b4',1,'mx::AO::aoSystem::ron_wfs()']]],
   ['root',['root',['../group__mxAO__paths.html#gacdc2275d0092d14ac2a56be9047bca85',1,'mx::AO::path::basis::root()'],['../aoPaths_8hpp.html#ae15063a696ee85f352987ab233b40ee5',1,'mx::AO::path::dm::root()'],['../aoPaths_8hpp.html#a63cadf1f78b2b6df6966f740e3058077',1,'mx::AO::path::pupil::root()'],['../aoPaths_8hpp.html#a1f7fa884358515b4f69a8cfa4ec30fec',1,'mx::AO::path::sys::root()'],['../aoPaths_8hpp.html#aab63f7178f0a9f96e13dd7b99310e327',1,'mx::AO::path::sys::cal::root()']]],
   ['rows',['rows',['../classmx_1_1sigproc_1_1psdFilter.html#a07e901e5c58426ef7e0bc0b480c3f6d1',1,'mx::sigproc::psdFilter']]],
-  ['rtod',['rtod',['../group__geo.html#gae5df7dc5b76526af1657e2b5c5b877c5',1,'mx']]]
+  ['rtod',['rtod',['../group__geo.html#ga3f273f8d9960b886b09a9fce620f1607',1,'mx::math']]]
 ];

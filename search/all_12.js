@@ -54,5 +54,5 @@ var searchData=
   ['roots_2ehpp',['roots.hpp',['../roots_8hpp.html',1,'']]],
   ['rows',['rows',['../structmx_1_1textTable.html#aba644cb492ef6df2679c37cbb02bc246',1,'mx::textTable::rows()'],['../classmx_1_1sigproc_1_1psdFilter.html#a07e901e5c58426ef7e0bc0b480c3f6d1',1,'mx::sigproc::psdFilter::rows()']]],
   ['rowsep',['rowSep',['../structmx_1_1textTable.html#a75449843f36efcabf94d037f574970c3',1,'mx::textTable']]],
-  ['rtod',['rtod',['../group__geo.html#gae5df7dc5b76526af1657e2b5c5b877c5',1,'mx']]]
+  ['rtod',['rtod',['../group__geo.html#ga3f273f8d9960b886b09a9fce620f1607',1,'mx::math']]]
 ];
