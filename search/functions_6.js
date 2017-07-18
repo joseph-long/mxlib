@@ -27,7 +27,7 @@ var searchData=
   ['filter',['filter',['../classmx_1_1sigproc_1_1psdFilter.html#a8d3f08d20c3db0f2143537dd31ddda03',1,'mx::sigproc::psdFilter']]],
   ['filtercommands',['filterCommands',['../classmx_1_1AO_1_1sim_1_1leakyIntegrator.html#a7fd01700575b879ca917e97798de71ae',1,'mx::AO::sim::leakyIntegrator']]],
   ['filterimage',['filterImage',['../group__image__filters.html#ga6fa4c2dcfdcbc1c2f90cccec1ee66618',1,'mx::improc']]],
-  ['fit',['fit',['../classmx_1_1levmarInterface.html#a3e0ab487d500024a648bb314fcd852f9',1,'mx::levmarInterface']]],
+  ['fit',['fit',['../classmx_1_1math_1_1fit_1_1fitGaussian2D.html#ad6ed7c61fd51f7f5d6b6c1fb846644c3',1,'mx::math::fit::fitGaussian2D::fit()'],['../classmx_1_1math_1_1fit_1_1levmarInterface.html#a33b7709eae7dd0d1828e628efbf84b98',1,'mx::math::fit::levmarInterface::fit()']]],
   ['fit_5fmn_5fmax',['fit_mn_max',['../classmx_1_1AO_1_1aoSystem.html#a531bf33e17714fa8b8c7697e1fec12c0',1,'mx::AO::aoSystem::fit_mn_max(int mnm)'],['../classmx_1_1AO_1_1aoSystem.html#a998452c15c31f86f6e4e9eccb5c68351',1,'mx::AO::aoSystem::fit_mn_max()']]],
   ['fits_5fwrite_5fkey',['fits_write_key',['../group__fits__utils.html#gad7e837ea16b6b22491dc46feae88ac44',1,'mx::improc']]],
   ['fitsfile',['fitsFile',['../classmx_1_1improc_1_1fitsFile.html#abcbb50772d5e4a380155ca436f49183e',1,'mx::improc::fitsFile::fitsFile()'],['../classmx_1_1improc_1_1fitsFile.html#a24f8a38649c7b25e4905d29408a2592c',1,'mx::improc::fitsFile::fitsFile(const std::string &amp;fname, bool doopen=true)']]],

@@ -7,7 +7,7 @@ var searchData=
   ['_7efouriercovariance',['~fourierCovariance',['../structmx_1_1AO_1_1fourierCovariance.html#a769e5b0efea7eca33829180e0dd8a70b',1,'mx::AO::fourierCovariance']]],
   ['_7efouriertemporalpsd',['~fourierTemporalPSD',['../structmx_1_1AO_1_1fourierTemporalPSD.html#acba50f00cdd9cd2024a7081f1b3afaaf',1,'mx::AO::fourierTemporalPSD']]],
   ['_7efraunhoferpropagator',['~fraunhoferPropagator',['../classmx_1_1wfp_1_1fraunhoferPropagator.html#a6e9efe5f6e2f30d544da33758fd07997',1,'mx::wfp::fraunhoferPropagator']]],
-  ['_7elevmarinterface',['~levmarInterface',['../classmx_1_1levmarInterface.html#a26f1a5e4ea61fdb36693051898a6b40d',1,'mx::levmarInterface']]],
+  ['_7elevmarinterface',['~levmarInterface',['../classmx_1_1math_1_1fit_1_1levmarInterface.html#a7ed1c1a62342023781d6d5f75b86b0de',1,'mx::math::fit::levmarInterface']]],
   ['_7emxexception',['~mxException',['../classmxException.html#aeb093966eec1072ea16bdad97411abff',1,'mxException']]],
   ['_7epsdfilter',['~psdFilter',['../classmx_1_1sigproc_1_1psdFilter.html#a3b686203743a9b6aa731dfff28398b76',1,'mx::sigproc::psdFilter']]],
   ['_7esimulatedaosystem',['~simulatedAOSystem',['../classmx_1_1AO_1_1sim_1_1simulatedAOSystem.html#ad353aaf06c3d18bf3c88562408da2f8c',1,'mx::AO::sim::simulatedAOSystem']]],

@@ -5,6 +5,7 @@ var searchData=
   ['tau',['tau',['../structmx_1_1AO_1_1clGainOpt.html#a01b7175af75169897d477e964eba9263',1,'mx::AO::clGainOpt::tau()'],['../structmx_1_1AO_1_1clGainOpt.html#a67aa77978afa6b91ad3135554ffdc60a',1,'mx::AO::clGainOpt::tau(realT newTau)']]],
   ['teff',['Teff',['../structmx_1_1astro_1_1mainSequence.html#af7884bdc622f956102bf818ec9049669',1,'mx::astro::mainSequence::Teff(realT numType)'],['../structmx_1_1astro_1_1mainSequence.html#a49228ea716297e8f3fdc98dda40a3624',1,'mx::astro::mainSequence::Teff(const std::string &amp;spType)']]],
   ['teffsun',['TeffSun',['../group__dimensioned__constants.html#gad2f47a0cc970cd0ace4e7c905590059b',1,'mx::astro::constants']]],
+  ['theta',['theta',['../classmx_1_1math_1_1fit_1_1fitGaussian2D.html#a5a47c7582ca4c7e0bcf2b2fa28bba5cb',1,'mx::math::fit::fitGaussian2D']]],
   ['three_5ffifths',['three_fifths',['../group__aoConstants.html#ga98d13a598cd7fe38f410730b428bdd07',1,'mx::AO::constants']]],
   ['threshold',['threshold',['../structmx_1_1improc_1_1HCIobservation.html#ae96d8d4e994b01f25907348558be8e9e',1,'mx::improc::HCIobservation']]],
   ['ti',['Ti',['../structmx_1_1AO_1_1clGainOpt.html#a6f13df8331e74cdc262c55b4013caff0',1,'mx::AO::clGainOpt::Ti()'],['../structmx_1_1AO_1_1clGainOpt.html#aef17b6eb511bdba5c6fa7c07596934bb',1,'mx::AO::clGainOpt::Ti(realT newTi)']]],

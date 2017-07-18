@@ -16,5 +16,9 @@ var group__eigen__image__processing =
       [ "sigmaMean", "classmx_1_1improc_1_1eigenCube.html#a74407a0aec20cf48f081fd5ede42b80e", null ],
       [ "sigmaMean", "classmx_1_1improc_1_1eigenCube.html#a6442f2b11f13666beaf6bcb861e92232", null ]
     ] ],
-    [ "eigenImage", "group__eigen__image__processing.html#gaa5f4935db90fd971a51c9ffa85fcfa99", null ]
+    [ "is_eigenCube", "structmx_1_1improc_1_1is__eigenCube.html", null ],
+    [ "eigenArrPlanes", "structmx_1_1improc_1_1eigenArrPlanes.html", null ],
+    [ "eigenImage", "group__eigen__image__processing.html#gaa5f4935db90fd971a51c9ffa85fcfa99", null ],
+    [ "imageMedian", "group__eigen__image__processing.html#ga7c15ce5d1256dfdf2962fb96fc7b9190", null ],
+    [ "imageMedian", "group__eigen__image__processing.html#gaf2c33450cd88c7a23d561ca21bdae7fd", null ]
 ];

@@ -155,9 +155,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:afb3ce6077aaee654cee7d959d70ddada"><td class="memItemLeft" align="right" valign="top">realT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1imCenterCircleSym.html#afb3ce6077aaee654cee7d959d70ddada">guessWidth</a></td></tr>
 <tr class="memdesc:afb3ce6077aaee654cee7d959d70ddada"><td class="mdescLeft">&#160;</td><td class="mdescRight">Guess in original pixels for the FWHM of the cost grid. Default is 0.5, which seems to work well in most cases.  <a href="#afb3ce6077aaee654cee7d959d70ddada">More...</a><br /></td></tr>
 <tr class="separator:afb3ce6077aaee654cee7d959d70ddada"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca3502bef35e5b1e5fb6b78f22f397c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmx_1_1fitGaussian2D.html">mx::fitGaussian2D</a>&lt; <a class="el" href="structmx_1_1gaussian2D__gen__fitter.html">mx::gaussian2D_gen_fitter</a>&lt; realT &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1imCenterCircleSym.html#aca3502bef35e5b1e5fb6b78f22f397c0">fit</a></td></tr>
-<tr class="memdesc:aca3502bef35e5b1e5fb6b78f22f397c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The fitter for finding the centroid of the grid. You can use this to inspect the details of the fit if desired.  <a href="#aca3502bef35e5b1e5fb6b78f22f397c0">More...</a><br /></td></tr>
-<tr class="separator:aca3502bef35e5b1e5fb6b78f22f397c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70e17cf66d14c37b05e532445ba5dc5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gaussian__peak__fit.html#ga245d3421e4aa7d1fcdd730a2a66ada29">mx::math::fit::fitGaussian2Dgen</a>&lt; realT &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1imCenterCircleSym.html#a70e17cf66d14c37b05e532445ba5dc5c">fit</a></td></tr>
+<tr class="memdesc:a70e17cf66d14c37b05e532445ba5dc5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The fitter for finding the centroid of the grid. You can use this to inspect the details of the fit if desired.  <a href="#a70e17cf66d14c37b05e532445ba5dc5c">More...</a><br /></td></tr>
+<tr class="separator:a70e17cf66d14c37b05e532445ba5dc5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37bd57f6377cfe41b93baf3750ceae93"><td class="memItemLeft" align="right" valign="top">realT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1improc_1_1imCenterCircleSym.html#a37bd57f6377cfe41b93baf3750ceae93">_x0</a></td></tr>
 <tr class="memdesc:a37bd57f6377cfe41b93baf3750ceae93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal storage of the guess center position.  <a href="#a37bd57f6377cfe41b93baf3750ceae93">More...</a><br /></td></tr>
 <tr class="separator:a37bd57f6377cfe41b93baf3750ceae93"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,6 +221,7 @@ template&lt;typename realT &gt; </div>
 </div><div class="memdoc">
 
 <p>Peform the grid search and fit. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000022">Todo:</a></b></dt><dd>This needs to be able to handle highly non-symmetric peaks much better. </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">x</td><td>the x-coordinate of the estimated center of rotational symmetry </td></tr>
@@ -232,9 +233,9 @@ template&lt;typename realT &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="imCenterCircleSym_8hpp_source.html#l00086">86</a> of file <a class="el" href="imCenterCircleSym_8hpp_source.html">imCenterCircleSym.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="imCenterCircleSym_8hpp_source.html#l00087">87</a> of file <a class="el" href="imCenterCircleSym_8hpp_source.html">imCenterCircleSym.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="imCenterCircleSym_8hpp_source.html#l00042">mx::improc::imCenterCircleSym&lt; realT &gt;::dPix</a>, <a class="el" href="imageFilters_8hpp_source.html#l00193">mx::improc::filterImage()</a>, <a class="el" href="imCenterCircleSym_8hpp_source.html#l00037">mx::improc::imCenterCircleSym&lt; realT &gt;::grid</a>, <a class="el" href="constants_8hpp_source.html#l00071">mx::astro::constants::k()</a>, <a class="el" href="imCenterCircleSym_8hpp_source.html#l00045">mx::improc::imCenterCircleSym&lt; realT &gt;::maxRad</a>, <a class="el" href="imCenterCircleSym_8hpp_source.html#l00044">mx::improc::imCenterCircleSym&lt; realT &gt;::minRad</a>, <a class="el" href="vectorUtils_8hpp_source.html#l00053">mx::vectorMean()</a>, and <a class="el" href="vectorUtils_8hpp_source.html#l00163">mx::vectorVariance()</a>.</p>
+<p class="reference">References <a class="el" href="imCenterCircleSym_8hpp_source.html#l00042">mx::improc::imCenterCircleSym&lt; realT &gt;::dPix</a>, <a class="el" href="imageFilters_8hpp_source.html#l00193">mx::improc::filterImage()</a>, <a class="el" href="fitGaussian_8hpp_source.html#l00142">mx::math::fit::fitGaussian2D&lt; fitterT &gt;::fit()</a>, <a class="el" href="imCenterCircleSym_8hpp_source.html#l00037">mx::improc::imCenterCircleSym&lt; realT &gt;::grid</a>, <a class="el" href="constants_8hpp_source.html#l00071">mx::astro::constants::k()</a>, <a class="el" href="imCenterCircleSym_8hpp_source.html#l00045">mx::improc::imCenterCircleSym&lt; realT &gt;::maxRad</a>, <a class="el" href="imCenterCircleSym_8hpp_source.html#l00044">mx::improc::imCenterCircleSym&lt; realT &gt;::minRad</a>, <a class="el" href="fitGaussian_8hpp_source.html#l00128">mx::math::fit::fitGaussian2D&lt; fitterT &gt;::setArray()</a>, <a class="el" href="fitGaussian_8hpp_source.html#l00083">mx::math::fit::fitGaussian2D&lt; fitterT &gt;::setGuess()</a>, <a class="el" href="vectorUtils_8hpp_source.html#l00053">mx::vectorMean()</a>, <a class="el" href="vectorUtils_8hpp_source.html#l00163">mx::vectorVariance()</a>, <a class="el" href="fitGaussian_8hpp_source.html#l00169">mx::math::fit::fitGaussian2D&lt; fitterT &gt;::x0()</a>, and <a class="el" href="fitGaussian_8hpp_source.html#l00175">mx::math::fit::fitGaussian2D&lt; fitterT &gt;::y0()</a>.</p>
 
 </div>
 </div>
@@ -304,7 +305,7 @@ template&lt;typename realT &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="imCenterCircleSym_8hpp_source.html#l00070">70</a> of file <a class="el" href="imCenterCircleSym_8hpp_source.html">imCenterCircleSym.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="imCenterCircleSym_8hpp_source.html#l00071">71</a> of file <a class="el" href="imCenterCircleSym_8hpp_source.html">imCenterCircleSym.hpp</a>.</p>
 
 </div>
 </div>
@@ -335,9 +336,9 @@ template&lt;typename realT &gt; </div>
 
 <p>Dump the results to std::cout. </p>
 
-<p class="definition">Definition at line <a class="el" href="imCenterCircleSym_8hpp_source.html#l00203">203</a> of file <a class="el" href="imCenterCircleSym_8hpp_source.html">imCenterCircleSym.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="imCenterCircleSym_8hpp_source.html#l00205">205</a> of file <a class="el" href="imCenterCircleSym_8hpp_source.html">imCenterCircleSym.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="imCenterCircleSym_8hpp_source.html#l00042">mx::improc::imCenterCircleSym&lt; realT &gt;::dPix</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00318">mx::levmarInterface&lt; fitterT &gt;::dump_report()</a>, and <a class="el" href="gaussian_8hpp_source.html#l00046">sigma2fwhm</a>.</p>
+<p class="reference">References <a class="el" href="imCenterCircleSym_8hpp_source.html#l00042">mx::improc::imCenterCircleSym&lt; realT &gt;::dPix</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; fitterT &gt;::dump_report()</a>, <a class="el" href="gaussian_8hpp_source.html#l00051">sigma2fwhm</a>, <a class="el" href="fitGaussian_8hpp_source.html#l00198">mx::math::fit::fitGaussian2D&lt; fitterT &gt;::sigma_x()</a>, <a class="el" href="fitGaussian_8hpp_source.html#l00205">mx::math::fit::fitGaussian2D&lt; fitterT &gt;::sigma_y()</a>, <a class="el" href="fitGaussian_8hpp_source.html#l00169">mx::math::fit::fitGaussian2D&lt; fitterT &gt;::x0()</a>, and <a class="el" href="fitGaussian_8hpp_source.html#l00175">mx::math::fit::fitGaussian2D&lt; fitterT &gt;::y0()</a>.</p>
 
 </div>
 </div>
@@ -358,7 +359,7 @@ template&lt;typename realT &gt; </div>
 
 <p>Internal storage of the guess center position. </p>
 
-<p class="definition">Definition at line <a class="el" href="imCenterCircleSym_8hpp_source.html#l00054">54</a> of file <a class="el" href="imCenterCircleSym_8hpp_source.html">imCenterCircleSym.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="imCenterCircleSym_8hpp_source.html#l00055">55</a> of file <a class="el" href="imCenterCircleSym_8hpp_source.html">imCenterCircleSym.hpp</a>.</p>
 
 </div>
 </div>
@@ -378,7 +379,7 @@ template&lt;typename realT &gt; </div>
 
 <p>Internal storage of the guess center position. </p>
 
-<p class="definition">Definition at line <a class="el" href="imCenterCircleSym_8hpp_source.html#l00055">55</a> of file <a class="el" href="imCenterCircleSym_8hpp_source.html">imCenterCircleSym.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="imCenterCircleSym_8hpp_source.html#l00056">56</a> of file <a class="el" href="imCenterCircleSym_8hpp_source.html">imCenterCircleSym.hpp</a>.</p>
 
 </div>
 </div>
@@ -400,7 +401,7 @@ template&lt;typename realT &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="imCenterCircleSym_8hpp_source.html#l00042">42</a> of file <a class="el" href="imCenterCircleSym_8hpp_source.html">imCenterCircleSym.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="imCenterCircleSym_8hpp_source.html#l00086">mx::improc::imCenterCircleSym&lt; realT &gt;::center()</a>, and <a class="el" href="imCenterCircleSym_8hpp_source.html#l00203">mx::improc::imCenterCircleSym&lt; realT &gt;::results()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="imCenterCircleSym_8hpp_source.html#l00087">mx::improc::imCenterCircleSym&lt; realT &gt;::center()</a>, and <a class="el" href="imCenterCircleSym_8hpp_source.html#l00205">mx::improc::imCenterCircleSym&lt; realT &gt;::results()</a>.</p>
 
 </div>
 </div>
@@ -424,8 +425,8 @@ template&lt;typename realT &gt; </div>
 
 </div>
 </div>
-<a id="aca3502bef35e5b1e5fb6b78f22f397c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca3502bef35e5b1e5fb6b78f22f397c0">&#9670;&nbsp;</a></span>fit</h2>
+<a id="a70e17cf66d14c37b05e532445ba5dc5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70e17cf66d14c37b05e532445ba5dc5c">&#9670;&nbsp;</a></span>fit</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -433,14 +434,14 @@ template&lt;typename realT &gt; </div>
 template&lt;typename realT &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classmx_1_1fitGaussian2D.html">mx::fitGaussian2D</a>&lt;<a class="el" href="structmx_1_1gaussian2D__gen__fitter.html">mx::gaussian2D_gen_fitter</a>&lt;realT&gt; &gt; <a class="el" href="structmx_1_1improc_1_1imCenterCircleSym.html">mx::improc::imCenterCircleSym</a>&lt; realT &gt;::fit</td>
+          <td class="memname"><a class="el" href="group__gaussian__peak__fit.html#ga245d3421e4aa7d1fcdd730a2a66ada29">mx::math::fit::fitGaussian2Dgen</a>&lt;realT&gt; <a class="el" href="structmx_1_1improc_1_1imCenterCircleSym.html">mx::improc::imCenterCircleSym</a>&lt; realT &gt;::fit</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>The fitter for finding the centroid of the grid. You can use this to inspect the details of the fit if desired. </p>
 
-<p class="definition">Definition at line <a class="el" href="imCenterCircleSym_8hpp_source.html#l00052">52</a> of file <a class="el" href="imCenterCircleSym_8hpp_source.html">imCenterCircleSym.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="imCenterCircleSym_8hpp_source.html#l00053">53</a> of file <a class="el" href="imCenterCircleSym_8hpp_source.html">imCenterCircleSym.hpp</a>.</p>
 
 </div>
 </div>
@@ -462,7 +463,7 @@ template&lt;typename realT &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="imCenterCircleSym_8hpp_source.html#l00037">37</a> of file <a class="el" href="imCenterCircleSym_8hpp_source.html">imCenterCircleSym.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="imCenterCircleSym_8hpp_source.html#l00086">mx::improc::imCenterCircleSym&lt; realT &gt;::center()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="imCenterCircleSym_8hpp_source.html#l00087">mx::improc::imCenterCircleSym&lt; realT &gt;::center()</a>.</p>
 
 </div>
 </div>
@@ -544,7 +545,7 @@ template&lt;typename realT &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="imCenterCircleSym_8hpp_source.html#l00045">45</a> of file <a class="el" href="imCenterCircleSym_8hpp_source.html">imCenterCircleSym.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="imCenterCircleSym_8hpp_source.html#l00086">mx::improc::imCenterCircleSym&lt; realT &gt;::center()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="imCenterCircleSym_8hpp_source.html#l00087">mx::improc::imCenterCircleSym&lt; realT &gt;::center()</a>.</p>
 
 </div>
 </div>
@@ -566,7 +567,7 @@ template&lt;typename realT &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="imCenterCircleSym_8hpp_source.html#l00044">44</a> of file <a class="el" href="imCenterCircleSym_8hpp_source.html">imCenterCircleSym.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="imCenterCircleSym_8hpp_source.html#l00086">mx::improc::imCenterCircleSym&lt; realT &gt;::center()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="imCenterCircleSym_8hpp_source.html#l00087">mx::improc::imCenterCircleSym&lt; realT &gt;::center()</a>.</p>
 
 </div>
 </div>
@@ -619,7 +620,7 @@ template&lt;typename realT &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemx.html">mx</a></li><li class="navelem"><b>improc</b></li><li class="navelem"><a class="el" href="structmx_1_1improc_1_1imCenterCircleSym.html">imCenterCircleSym</a></li>
-    <li class="footer">Generated on Sat Jul 15 2017 14:33:40 for mxlib by
+    <li class="footer">Generated on Mon Jul 17 2017 17:23:39 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

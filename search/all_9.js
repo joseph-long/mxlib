@@ -17,6 +17,7 @@ var searchData=
   ['imagefilters_2ehpp',['imageFilters.hpp',['../imageFilters_8hpp.html',1,'']]],
   ['imagemagnify',['imageMagnify',['../group__image__transforms.html#ga3e35a0db70c18656ab9f54558e8bd694',1,'mx::improc']]],
   ['imagemasks_2ehpp',['imageMasks.hpp',['../imageMasks_8hpp.html',1,'']]],
+  ['imagemedian',['imageMedian',['../group__eigen__image__processing.html#ga7c15ce5d1256dfdf2962fb96fc7b9190',1,'mx::improc::imageMedian(const imageT &amp;mat, const maskT *mask, std::vector&lt; typename imageT::Scalar &gt; *work=0)'],['../group__eigen__image__processing.html#gaf2c33450cd88c7a23d561ca21bdae7fd',1,'mx::improc::imageMedian(const imageT &amp;mat, std::vector&lt; typename imageT::Scalar &gt; *work=0)']]],
   ['imagemjd',['imageMJD',['../structmx_1_1improc_1_1HCIobservation.html#abdafadbfbb9bce50ae14ce41e0c9a845',1,'mx::improc::HCIobservation']]],
   ['imagepads_2ehpp',['imagePads.hpp',['../imagePads_8hpp.html',1,'']]],
   ['imagerotate',['imageRotate',['../group__image__transforms.html#ga3842e84008d9123b8df9962380354f30',1,'mx::improc']]],
@@ -37,8 +38,9 @@ var searchData=
   ['influencefunctions',['influenceFunctions',['../aoPaths_8hpp.html#af8a8509c2e0ae0fd1134ff2a2a4c7455',1,'mx::AO::path::dm']]],
   ['influencefunctions_2ehpp',['influenceFunctions.hpp',['../influenceFunctions_8hpp.html',1,'']]],
   ['influencefunctionsgaussian',['influenceFunctionsGaussian',['../influenceFunctions_8hpp.html#afedbd777bd7302825ce422ab5e884b65',1,'mx::AO']]],
-  ['info',['info',['../classmx_1_1levmarInterface.html#a3a2560851438369223f92275c1e9156e',1,'mx::levmarInterface']]],
+  ['info',['info',['../classmx_1_1math_1_1fit_1_1levmarInterface.html#a010287f824c3314d3a3e79c8b199a18c',1,'mx::math::fit::levmarInterface']]],
   ['init',['init',['../structmx_1_1AO_1_1clGainOpt.html#aafc646375ebb0df856635238bc9ddc7c',1,'mx::AO::clGainOpt::init()'],['../classmx_1_1improc_1_1ds9Interface.html#a6fef146255212a38107352bcc8833f45',1,'mx::improc::ds9Interface::init()'],['../structmx_1_1improc_1_1imCenterCircleSym.html#a543416b159a637637db405fe64750abd',1,'mx::improc::imCenterCircleSym::init()']]],
+  ['init_5fp',['init_p',['../classmx_1_1math_1_1fit_1_1levmarInterface.html#a4c1b3c7be76a9c7b0cd8e3f93937a0df',1,'mx::math::fit::levmarInterface']]],
   ['initialize',['initialize',['../group__IPC__sharedmem.html#ga1ace9407afff11413273554044e60a2e',1,'sharedMemSegment::initialize()'],['../classmx_1_1AO_1_1aoSystem.html#a00e8b8ad6a76edf27293abce69022a99',1,'mx::AO::aoSystem::initialize()'],['../structmx_1_1AO_1_1fourierTemporalPSD.html#ae1debb82841f2efcbc9d7246b4a883bf',1,'mx::AO::fourierTemporalPSD::initialize()'],['../classmx_1_1AO_1_1sim_1_1generalIntegrator.html#aa1739e37eafea942ce5bdeb3b2a9bc6a',1,'mx::AO::sim::generalIntegrator::initialize()'],['../classmx_1_1AO_1_1sim_1_1leakyIntegrator.html#a8be7b855dd55f5eac6c5711fb04f55cf',1,'mx::AO::sim::leakyIntegrator::initialize()'],['../structmx_1_1improc_1_1HCIobservation.html#a5710d7edb00afc615d181c7cdcfbdb07',1,'mx::improc::HCIobservation::initialize()'],['../classmx_1_1wfp_1_1fraunhoferPropagator.html#aac6c364eb9593e7a33ae97781518a11a',1,'mx::wfp::fraunhoferPropagator::initialize()']]],
   ['initializermat',['initializeRMat',['../classmx_1_1AO_1_1sim_1_1directPhaseReconstructor.html#a6d29c9c02e015a14e9378f6d939f5610',1,'mx::AO::sim::directPhaseReconstructor::initializeRMat(int nmodes, realT calamp, int detrows, int detcols)'],['../classmx_1_1AO_1_1sim_1_1directPhaseReconstructor.html#a6d29c9c02e015a14e9378f6d939f5610',1,'mx::AO::sim::directPhaseReconstructor::initializeRMat(int nmodes, realT calamp, int detrows, int detcols)'],['../classmx_1_1AO_1_1sim_1_1pywfsSlopeReconstructor.html#ae913cf1ee3f63cde50ba8997c5718647',1,'mx::AO::sim::pywfsSlopeReconstructor::initializeRMat()']]],
   ['initmeasurements',['initMeasurements',['../classmx_1_1AO_1_1sim_1_1generalIntegrator.html#aa700335add2ccdc5ef3481c976993194',1,'mx::AO::sim::generalIntegrator::initMeasurements()'],['../classmx_1_1AO_1_1sim_1_1leakyIntegrator.html#a812b5a1131df91d4e0fd0a0f32339ef3',1,'mx::AO::sim::leakyIntegrator::initMeasurements()']]],
@@ -64,7 +66,7 @@ var searchData=
   ['input_2foutput_20utilities',['Input/Output Utilities',['../group__ioutils.html',1,'']]],
   ['interprocess_20communication',['Interprocess Communication',['../group__IPC.html',1,'']]],
   ['ipc_2eh',['IPC.h',['../IPC_8h.html',1,'']]],
-  ['is_5feigencube',['is_eigenCube',['../structmx_1_1is__eigenCube.html',1,'mx']]],
+  ['is_5feigencube',['is_eigenCube',['../structmx_1_1improc_1_1is__eigenCube.html',1,'mx::improc']]],
   ['is_5fimagingarray',['is_imagingArray',['../structmx_1_1is__imagingArray.html',1,'mx']]],
   ['is_5fstd_5fvector',['is_std_vector',['../structmx_1_1meta_1_1is__std__vector.html',1,'mx::meta']]],
   ['is_5fstd_5fvector_3c_20t_2c_20false_20_3e',['is_std_vector&lt; T, false &gt;',['../structmx_1_1meta_1_1is__std__vector_3_01T_00_01false_01_4.html',1,'mx::meta']]],
@@ -80,5 +82,5 @@ var searchData=
   ['issetup',['isSetup',['../structmx_1_1improc_1_1ADIDerotator.html#a56b967b912c90cd72c6f85acec6671b1',1,'mx::improc::ADIDerotator']]],
   ['iterator',['iterator',['../classmx_1_1improc_1_1fitsHeader.html#a1dd73dcf42fd4fb724b55e5b8a13f27e',1,'mx::improc::fitsHeader']]],
   ['iterno',['iterNo',['../structmx_1_1AO_1_1sim_1_1wavefront.html#aa51a0cd10a565c7f90dae6e7841bb874',1,'mx::AO::sim::wavefront']]],
-  ['itmax',['itmax',['../classmx_1_1levmarInterface.html#aa92adfa8d2fe5795229c3a0d29b4b36a',1,'mx::levmarInterface']]]
+  ['itmax',['itmax',['../classmx_1_1math_1_1fit_1_1levmarInterface.html#a200e5711b5d098973cfa3a0034cd1439',1,'mx::math::fit::levmarInterface']]]
 ];

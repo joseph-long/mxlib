@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['m',['m',['../structmx_1_1fourierModeDef.html#ae0928551dc5cee11d176632170cd9f6e',1,'mx::fourierModeDef::m()'],['../classmx_1_1levmarInterface.html#a21fd246b085012242485729b75f1388d',1,'mx::levmarInterface::m()'],['../structmx_1_1AO_1_1fourierCovariance.html#a7c8bc8a60f4665a4783426d32400ce8b',1,'mx::AO::fourierCovariance::m()']]],
+  ['m',['m',['../structmx_1_1fourierModeDef.html#ae0928551dc5cee11d176632170cd9f6e',1,'mx::fourierModeDef::m()'],['../structmx_1_1AO_1_1fourierCovariance.html#a7c8bc8a60f4665a4783426d32400ce8b',1,'mx::AO::fourierCovariance::m()'],['../classmx_1_1math_1_1fit_1_1levmarInterface.html#a68aefcab33992ad6898c77ba8473f5f4',1,'mx::math::fit::levmarInterface::m()']]],
   ['mask',['mask',['../structmx_1_1improc_1_1HCIobservation.html#acd05c0138e6a715be0092902b307412e',1,'mx::improc::HCIobservation::mask()'],['../structmx_1_1improc_1_1imCenterCircleSym.html#a69114d081fbfd61d11ffec0dd6318448',1,'mx::improc::imCenterCircleSym::mask()']]],
   ['maskcube',['maskCube',['../structmx_1_1improc_1_1HCIobservation.html#ae426fe2df839f3a3cbfaaa32c383236a',1,'mx::improc::HCIobservation']]],
   ['maskfile',['maskFile',['../structmx_1_1improc_1_1HCIobservation.html#add887ecfe53b432de95c47b3f0874d57',1,'mx::improc::HCIobservation::maskFile()'],['../structmx_1_1wfp_1_1lyotCoronagraph.html#acd121750ffc2fa11199110bf14247d14',1,'mx::wfp::lyotCoronagraph::maskFile()']]],

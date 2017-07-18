@@ -20,16 +20,11 @@ var files =
     [ "eigenUtils.hpp", "eigenUtils_8hpp_source.html", null ],
     [ "environment.hpp", "environment_8hpp.html", "environment_8hpp" ],
     [ "fileUtils.hpp", "fileUtils_8hpp.html", "fileUtils_8hpp" ],
-    [ "fitGaussian.hpp", "fitGaussian_8hpp.html", null ],
     [ "fourierModes.hpp", "fourierModes_8hpp.html", "fourierModes_8hpp" ],
     [ "gnuPlot.hpp", "gnuPlot_8hpp.html", "gnuPlot_8hpp" ],
     [ "gslInterpolation.hpp", "gslInterpolation_8hpp.html", "gslInterpolation_8hpp" ],
     [ "imagingArray.hpp", "imagingArray_8hpp.html", "imagingArray_8hpp" ],
     [ "IPC.h", "IPC_8h.html", "IPC_8h" ],
-    [ "levmarInterface.hpp", "levmarInterface_8hpp.html", [
-      [ "hasJacobian", "structmx_1_1hasJacobian.html", "structmx_1_1hasJacobian" ],
-      [ "array2Fit", "structmx_1_1array2Fit.html", "structmx_1_1array2Fit" ]
-    ] ],
     [ "msgq.h", "msgq_8h.html", "msgq_8h" ],
     [ "mxError.hpp", "mxError_8hpp.html", "mxError_8hpp" ],
     [ "mxException.hpp", "mxException_8hpp.html", null ],

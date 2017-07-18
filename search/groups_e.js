@@ -5,6 +5,7 @@ var searchData=
   ['types',['Types',['../group__fftw__template__types.html',1,'']]],
   ['template_20fftw',['Template FFTW',['../group__fftw__templates.html',1,'']]],
   ['the_20fourier_20basis',['The Fourier Basis',['../group__fourier__basis.html',1,'']]],
+  ['the_20airy_20pattern',['The Airy Pattern',['../group__gen__math__airy__pattern.html',1,'']]],
   ['the_20gaussian_20function',['The Gaussian Function',['../group__gen__math__gaussians.html',1,'']]],
   ['the_20kepler_20problem',['The Kepler Problem',['../group__kepler.html',1,'']]],
   ['the_20levmar_20library',['The levmar library',['../group__levmar.html',1,'']]],

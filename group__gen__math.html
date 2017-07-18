@@ -110,6 +110,9 @@ Modules</h2></td></tr>
 <tr class="memitem:group__template__blaslap"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__template__blaslap.html">Templatized BLAS and Lapack</a></td></tr>
 <tr class="memdesc:group__template__blaslap"><td class="mdescLeft">&#160;</td><td class="mdescRight">Templatized interfaces to the BLAS and the Lapack library. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__eigen__lapack"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__eigen__lapack.html">Eigen Lapack interfaces</a></td></tr>
+<tr class="memdesc:group__eigen__lapack"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interfaces to Lapack and BLAS for Eigen-like arrays. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group__interpolation"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__interpolation.html">Interpolation</a></td></tr>
 <tr class="memdesc:group__interpolation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Various tools for interpolating data and discrete functions. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,268 +134,12 @@ Modules</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga80395f0dd853b37394d9c44e4369104c"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
-<tr class="memitem:ga80395f0dd853b37394d9c44e4369104c"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gen__math.html#ga80395f0dd853b37394d9c44e4369104c">mx::eigenGESDD</a> (Eigen::Array&lt; dataT,-1,-1 &gt; &amp;U, Eigen::Array&lt; dataT,-1,-1 &gt; &amp;S, Eigen::Array&lt; dataT,-1,-1 &gt; &amp;VT, Eigen::Array&lt; dataT,-1,-1 &gt; &amp;A)</td></tr>
-<tr class="memdesc:ga80395f0dd853b37394d9c44e4369104c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the SVD of an Eigen::Array using LAPACK's xgesdd.  <a href="group__gen__math.html#ga80395f0dd853b37394d9c44e4369104c">More...</a><br /></td></tr>
-<tr class="separator:ga80395f0dd853b37394d9c44e4369104c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga74ae7b41e75e12913c04ebc64070b54a"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
-<tr class="memitem:ga74ae7b41e75e12913c04ebc64070b54a"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gen__math.html#ga74ae7b41e75e12913c04ebc64070b54a">mx::eigenPseudoInverse</a> (Eigen::Array&lt; dataT, -1, -1 &gt; &amp;PInv, dataT &amp;condition, int &amp;nRejected, Eigen::Array&lt; dataT, -1, -1 &gt; &amp;U, Eigen::Array&lt; dataT, -1, -1 &gt; &amp;S, Eigen::Array&lt; dataT, -1, -1 &gt; &amp;VT, Eigen::Array&lt; dataT, -1, -1 &gt; &amp;A, dataT &amp;maxCondition, int interact=MX_PINV_NO_INTERACT)</td></tr>
-<tr class="memdesc:ga74ae7b41e75e12913c04ebc64070b54a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the pseudo-inverse of a patrix using the SVD.  <a href="group__gen__math.html#ga74ae7b41e75e12913c04ebc64070b54a">More...</a><br /></td></tr>
-<tr class="separator:ga74ae7b41e75e12913c04ebc64070b54a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8921fbf7272e9f0b3463707b33fc2897"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
-<tr class="memitem:ga8921fbf7272e9f0b3463707b33fc2897"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gen__math.html#ga8921fbf7272e9f0b3463707b33fc2897">mx::eigenPseudoInverse</a> (Eigen::Array&lt; dataT, -1, -1 &gt; &amp;PInv, dataT &amp;condition, int &amp;nRejected, Eigen::Array&lt; dataT, -1, -1 &gt; &amp;A, dataT &amp;maxCondition, int interact=MX_PINV_NO_INTERACT)</td></tr>
-<tr class="memdesc:ga8921fbf7272e9f0b3463707b33fc2897"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the pseudo-inverse of a patrix using the SVD.  <a href="group__gen__math.html#ga8921fbf7272e9f0b3463707b33fc2897">More...</a><br /></td></tr>
-<tr class="separator:ga8921fbf7272e9f0b3463707b33fc2897"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6354e22623c85c5e6104496d1729728d"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
 <tr class="memitem:ga6354e22623c85c5e6104496d1729728d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gen__math.html#ga6354e22623c85c5e6104496d1729728d">mx::quarticRoots</a> (std::vector&lt; std::complex&lt; realT &gt; &gt; &amp;x, realT a, realT b, realT c, realT d, realT e)</td></tr>
 <tr class="memdesc:ga6354e22623c85c5e6104496d1729728d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the roots of the general quartic equation.  <a href="group__gen__math.html#ga6354e22623c85c5e6104496d1729728d">More...</a><br /></td></tr>
 <tr class="separator:ga6354e22623c85c5e6104496d1729728d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga80395f0dd853b37394d9c44e4369104c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga80395f0dd853b37394d9c44e4369104c">&#9670;&nbsp;</a></span>eigenGESDD()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename dataT &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">int mx::eigenGESDD </td>
-          <td>(</td>
-          <td class="paramtype">Eigen::Array&lt; dataT,-1,-1 &gt; &amp;&#160;</td>
-          <td class="paramname"><em>U</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Eigen::Array&lt; dataT,-1,-1 &gt; &amp;&#160;</td>
-          <td class="paramname"><em>S</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Eigen::Array&lt; dataT,-1,-1 &gt; &amp;&#160;</td>
-          <td class="paramname"><em>VT</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Eigen::Array&lt; dataT,-1,-1 &gt; &amp;&#160;</td>
-          <td class="paramname"><em>A</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compute the SVD of an Eigen::Array using LAPACK's xgesdd. </p>
-<p>Computes the SVD of A, \( A = U S V^T \).</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">U</td><td>the A.rows() x A.rows() left matrix </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">S</td><td>the A.cols() x 1 matrix of singular values </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">VT</td><td>the A.cols() x A.cols() right matrix, note this is the transpose. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">A</td><td>the input matrix to be decomposed</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>0 on success -i on error in ith parameter (from LAPACK xgesdd) &gt;0 did not converge (from LAPACK xgesdd) </dd></dl>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">dataT</td><td>is either float or double. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="eigenUtils_8hpp_source.html#l00458">458</a> of file <a class="el" href="eigenUtils_8hpp_source.html">eigenUtils.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="eigenUtils_8hpp_source.html#l00513">mx::eigenPseudoInverse()</a>.</p>
-
-</div>
-</div>
-<a id="ga74ae7b41e75e12913c04ebc64070b54a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga74ae7b41e75e12913c04ebc64070b54a">&#9670;&nbsp;</a></span>eigenPseudoInverse() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename dataT &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">int mx::eigenPseudoInverse </td>
-          <td>(</td>
-          <td class="paramtype">Eigen::Array&lt; dataT, -1, -1 &gt; &amp;&#160;</td>
-          <td class="paramname"><em>PInv</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">dataT &amp;&#160;</td>
-          <td class="paramname"><em>condition</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int &amp;&#160;</td>
-          <td class="paramname"><em>nRejected</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Eigen::Array&lt; dataT, -1, -1 &gt; &amp;&#160;</td>
-          <td class="paramname"><em>U</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Eigen::Array&lt; dataT, -1, -1 &gt; &amp;&#160;</td>
-          <td class="paramname"><em>S</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Eigen::Array&lt; dataT, -1, -1 &gt; &amp;&#160;</td>
-          <td class="paramname"><em>VT</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Eigen::Array&lt; dataT, -1, -1 &gt; &amp;&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">dataT &amp;&#160;</td>
-          <td class="paramname"><em>maxCondition</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>interact</em> = <code>MX_PINV_NO_INTERACT</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Calculate the pseudo-inverse of a patrix using the SVD. </p>
-<p>First computes the SVD of A, \( A = U S V^T \), using eigenGESDD. Then the psuedo-inverse is calculated as \( A^+ = V S^+ U^T\).</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">PInv</td><td>the pseudo-inverse of A </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">condition</td><td>The final condition number. </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">nRejected</td><td>the number of eigenvectors rejected </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">U</td><td></td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">S</td><td></td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">VT</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">A</td><td>the matrix to invert </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">maxCondition</td><td>he maximum condition number desired, which is used to threshold the singular values. Set to 0 use include all eigenvalues/vectors. This is ignored if interactive. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">interact</td><td>[optional] a bitmask controlling interaction. If (interact &amp; MX_PINV_PLOT) is true, then <a class="el" href="classmx_1_1gnuPlot.html" title="A c++ interface to gnuplot. ">gnuPlot</a> is used to display the singular values. If (interact &amp; MX_PINV_ASK) is true then the minimum singular value threshold is requested from the user using stdin. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">dataT</td><td>is either float or double. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="eigenUtils_8hpp_source.html#l00513">513</a> of file <a class="el" href="eigenUtils_8hpp_source.html">eigenUtils.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="gnuPlot_8hpp_source.html#l00566">mx::gnuPlot::command()</a>, <a class="el" href="eigenUtils_8hpp_source.html#l00458">mx::eigenGESDD()</a>, <a class="el" href="gnuPlot_8hpp_source.html#l00701">mx::gnuPlot::logy()</a>, <a class="el" href="gnuPlot_8hpp_source.html#l00744">mx::gnuPlot::plot()</a>, and <a class="el" href="constants_8hpp_source.html#l00082">mx::astro::constants::sigma()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="eigenUtils_8hpp_source.html#l00633">mx::eigenPseudoInverse()</a>, and <a class="el" href="influenceFunctions_8hpp_source.html#l00368">mx::AO::ifPInv()</a>.</p>
-
-</div>
-</div>
-<a id="ga8921fbf7272e9f0b3463707b33fc2897"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8921fbf7272e9f0b3463707b33fc2897">&#9670;&nbsp;</a></span>eigenPseudoInverse() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename dataT &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">int mx::eigenPseudoInverse </td>
-          <td>(</td>
-          <td class="paramtype">Eigen::Array&lt; dataT, -1, -1 &gt; &amp;&#160;</td>
-          <td class="paramname"><em>PInv</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">dataT &amp;&#160;</td>
-          <td class="paramname"><em>condition</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int &amp;&#160;</td>
-          <td class="paramname"><em>nRejected</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Eigen::Array&lt; dataT, -1, -1 &gt; &amp;&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">dataT &amp;&#160;</td>
-          <td class="paramname"><em>maxCondition</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>interact</em> = <code>MX_PINV_NO_INTERACT</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Calculate the pseudo-inverse of a patrix using the SVD. </p>
-<p>First computes the SVD of A, \( A = U S V^T \), using eigenGESDD. Then the psuedo-inverse is calculated as \( A^+ = V S^+ U^T\). This interface does not provide access to U, S and VT.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">PInv</td><td>[out] the pseudo-inverse of A </td></tr>
-    <tr><td class="paramname">condition</td><td>[out] The final condition number. </td></tr>
-    <tr><td class="paramname">nRejected</td><td>[out] the number of eigenvectors rejected </td></tr>
-    <tr><td class="paramname">A</td><td>[in] the matrix to invert </td></tr>
-    <tr><td class="paramname">maxCondition</td><td>[in] the maximum condition number desired, whichis used to threshold the singular values. Set to 0 use include all eigenvalues/vectors. This is ignored if interactive. </td></tr>
-    <tr><td class="paramname">interact</td><td>[in] [optional] a bitmask controlling interaction. If (interact &amp; MX_PINV_PLOT) is true, then <a class="el" href="classmx_1_1gnuPlot.html" title="A c++ interface to gnuplot. ">gnuPlot</a> is used to display the eigenvalues. If (interact &amp; MX_PINV_ASK) is true then the minimum eigenvaue threshold is requested from the user using stdin. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">dataT</td><td>is either float or double. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="eigenUtils_8hpp_source.html#l00633">633</a> of file <a class="el" href="eigenUtils_8hpp_source.html">eigenUtils.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="eigenUtils_8hpp_source.html#l00513">mx::eigenPseudoInverse()</a>.</p>
-
-</div>
-</div>
 <a id="ga6354e22623c85c5e6104496d1729728d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga6354e22623c85c5e6104496d1729728d">&#9670;&nbsp;</a></span>quarticRoots()</h2>
 
@@ -479,7 +226,7 @@ template&lt;typename realT &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jul 15 2017 14:33:40 for mxlib by
+    <li class="footer">Generated on Mon Jul 17 2017 17:23:38 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

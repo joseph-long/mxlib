@@ -4,7 +4,8 @@ var searchData=
   ['imc',['imc',['../structmx_1_1improc_1_1HCIobservation.html#a0e2a6894a7ea91bd15d220169f3ccd67',1,'mx::improc::HCIobservation']]],
   ['imsize',['imSize',['../structmx_1_1improc_1_1HCIobservation.html#a6a9d2d6143870771a6b747a8cd997772',1,'mx::improc::HCIobservation']]],
   ['includerefnum',['includeRefNum',['../structmx_1_1improc_1_1KLIPreduction.html#abc899bc7602a3a9022398c6a3b365226',1,'mx::improc::KLIPreduction']]],
-  ['info',['info',['../classmx_1_1levmarInterface.html#a3a2560851438369223f92275c1e9156e',1,'mx::levmarInterface']]],
+  ['info',['info',['../classmx_1_1math_1_1fit_1_1levmarInterface.html#a010287f824c3314d3a3e79c8b199a18c',1,'mx::math::fit::levmarInterface']]],
+  ['init_5fp',['init_p',['../classmx_1_1math_1_1fit_1_1levmarInterface.html#a4c1b3c7be76a9c7b0cd8e3f93937a0df',1,'mx::math::fit::levmarInterface']]],
   ['interphks',['interpHKs',['../structmx_1_1astro_1_1mainSequence.html#ac8132e30ddfeac963260b8602ebbdf0d',1,'mx::astro::mainSequence']]],
   ['interpjh',['interpJH',['../structmx_1_1astro_1_1mainSequence.html#aa5fb2e52e04fef94148b2bb6cd46d384',1,'mx::astro::mainSequence']]],
   ['interpl',['interpL',['../structmx_1_1astro_1_1mainSequence.html#ae9c82f5ebc4f7a61596fb6d36f2b5870',1,'mx::astro::mainSequence']]],
@@ -16,5 +17,5 @@ var searchData=
   ['invokedname',['invokedName',['../classmx_1_1application.html#afa6a6fde32e1136df9c3b38530bba1fe',1,'mx::application']]],
   ['isrequired',['isRequired',['../structmx_1_1configTarget.html#afe794c0a0b544fcb658e1351c86b03fa',1,'mx::configTarget']]],
   ['iterno',['iterNo',['../structmx_1_1AO_1_1sim_1_1wavefront.html#aa51a0cd10a565c7f90dae6e7841bb874',1,'mx::AO::sim::wavefront']]],
-  ['itmax',['itmax',['../classmx_1_1levmarInterface.html#aa92adfa8d2fe5795229c3a0d29b4b36a',1,'mx::levmarInterface']]]
+  ['itmax',['itmax',['../classmx_1_1math_1_1fit_1_1levmarInterface.html#a200e5711b5d098973cfa3a0034cd1439',1,'mx::math::fit::levmarInterface']]]
 ];

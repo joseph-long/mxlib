@@ -104,8 +104,8 @@ Modules</h2></td></tr>
 <tr class="memitem:group__gen__math__gaussians"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gen__math__gaussians.html">The Gaussian Function</a></td></tr>
 <tr class="memdesc:group__gen__math__gaussians"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utilities for working with the Gaussian function. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__psfs"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__psfs.html">Point Spread Functions</a></td></tr>
-<tr class="memdesc:group__psfs"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functions describing PSFs. <br /></td></tr>
+<tr class="memitem:group__gen__math__airy__pattern"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gen__math__airy__pattern.html">The Airy Pattern</a></td></tr>
+<tr class="memdesc:group__gen__math__airy__pattern"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utilities for working with the Airy Pattern. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -118,6 +118,18 @@ Functions</h2></td></tr>
 <tr class="memitem:ga3a702ef04302dc30da61d1f6d19ec87b"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__functions.html#ga3a702ef04302dc30da61d1f6d19ec87b">mx::math::func::jinc2</a> (const T &amp;x)</td></tr>
 <tr class="memdesc:ga3a702ef04302dc30da61d1f6d19ec87b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the Jinc2 function.  <a href="group__functions.html#ga3a702ef04302dc30da61d1f6d19ec87b">More...</a><br /></td></tr>
 <tr class="separator:ga3a702ef04302dc30da61d1f6d19ec87b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5117fc1d2f42142647ee366d406039d8"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:ga5117fc1d2f42142647ee366d406039d8"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__functions.html#ga5117fc1d2f42142647ee366d406039d8">weibull_lambda</a> (std::vector&lt; realT &gt; &amp;x, realT k, realT x0=0)</td></tr>
+<tr class="memdesc:ga5117fc1d2f42142647ee366d406039d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The MLE of the Weibull distribution lambda parameter.  <a href="#ga5117fc1d2f42142647ee366d406039d8">More...</a><br /></td></tr>
+<tr class="separator:ga5117fc1d2f42142647ee366d406039d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa4c8f60b09f4a020426dda2da95429ab"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:gaa4c8f60b09f4a020426dda2da95429ab"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__functions.html#gaa4c8f60b09f4a020426dda2da95429ab">weibull</a> (realT x, realT x0, realT k, realT lambda)</td></tr>
+<tr class="memdesc:gaa4c8f60b09f4a020426dda2da95429ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">The general shifted Weibull distribution at a point.  <a href="#gaa4c8f60b09f4a020426dda2da95429ab">More...</a><br /></td></tr>
+<tr class="separator:gaa4c8f60b09f4a020426dda2da95429ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7855e05008832880aa2a4da1df058170"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:ga7855e05008832880aa2a4da1df058170"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__functions.html#ga7855e05008832880aa2a4da1df058170">weibull</a> (realT x, realT k, realT lambda)</td></tr>
+<tr class="memdesc:ga7855e05008832880aa2a4da1df058170"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Weibull distribution at a point.  <a href="#ga7855e05008832880aa2a4da1df058170">More...</a><br /></td></tr>
+<tr class="separator:ga7855e05008832880aa2a4da1df058170"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac161085bf2825b8ad6fc16c2c70f7d80"><td class="memTemplParams" colspan="2">template&lt;typename floatT &gt; </td></tr>
 <tr class="memitem:gac161085bf2825b8ad6fc16c2c70f7d80"><td class="memTemplItemLeft" align="right" valign="top">floatT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__functions.html#gac161085bf2825b8ad6fc16c2c70f7d80">mx::logistic_param</a> (floatT x, floatT thalf)</td></tr>
 <tr class="memdesc:gac161085bf2825b8ad6fc16c2c70f7d80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the logistic function parameter for a specified rise time.  <a href="group__functions.html#gac161085bf2825b8ad6fc16c2c70f7d80">More...</a><br /></td></tr>
@@ -170,7 +182,7 @@ template&lt;typename T &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="jinc_8hpp_source.html#l00045">45</a> of file <a class="el" href="jinc_8hpp_source.html">jinc.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="airy_8hpp_source.html#l00031">mx::wfp::airy()</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00775">mx::AO::F_basic()</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00809">mx::AO::F_mod()</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00845">mx::AO::F_projMod()</a>, <a class="el" href="aoPSDs_8hpp_source.html#l00170">mx::AO::vonKarmanSpectrum&lt; realT &gt;::operator()()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00065">mx::AO::phiInt_basic()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00132">mx::AO::phiInt_mod()</a>, and <a class="el" href="turbAtmosphere_8hpp_source.html#l00150">mx::AO::sim::turbAtmosphere&lt; _realT &gt;::setup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="airyPattern_8hpp_source.html#l00037">mx::math::func::airyPattern()</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00775">mx::AO::F_basic()</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00809">mx::AO::F_mod()</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00845">mx::AO::F_projMod()</a>, <a class="el" href="aoPSDs_8hpp_source.html#l00170">mx::AO::vonKarmanSpectrum&lt; realT &gt;::operator()()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00065">mx::AO::phiInt_basic()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00132">mx::AO::phiInt_mod()</a>, and <a class="el" href="turbAtmosphere_8hpp_source.html#l00150">mx::AO::sim::turbAtmosphere&lt; _realT &gt;::setup()</a>.</p>
 
 </div>
 </div>
@@ -322,12 +334,197 @@ template&lt;typename floatT &gt; </div>
 
 </div>
 </div>
+<a id="gaa4c8f60b09f4a020426dda2da95429ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa4c8f60b09f4a020426dda2da95429ab">&#9670;&nbsp;</a></span>weibull() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename realT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">realT weibull </td>
+          <td>(</td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>x0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>k</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>lambda</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The general shifted Weibull distribution at a point. </p>
+<p>Calculates the value of the Weibull distribution at a location specified by x.</p>
+<p class="formulaDsp">
+\[ f(x; x_o, \lambda, k) = \begin{cases} \frac{k}{\lambda}\left( \frac{x-x_o}{\lambda}\right)^{k-1} \exp \left( -\left(\frac{x-x_o}{\lambda}\right)^k \right), &amp; x \ge 0 \\ 0, &amp; x &lt; 0 \end{cases} \]
+</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">realT</td><td>a real floating point type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the value of the Weibull distribution at x. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>the location at which to calculate the distribution </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x0</td><td>the location parameter </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">k</td><td>the shape parameter </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">lambda</td><td>the scale parameter </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="weibull_8hpp_source.html#l00054">54</a> of file <a class="el" href="weibull_8hpp_source.html">weibull.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="weibull_8hpp_source.html#l00089">weibull()</a>.</p>
+
+</div>
+</div>
+<a id="ga7855e05008832880aa2a4da1df058170"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7855e05008832880aa2a4da1df058170">&#9670;&nbsp;</a></span>weibull() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename realT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">realT weibull </td>
+          <td>(</td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>k</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>lambda</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The Weibull distribution at a point. </p>
+<p>Calculates the value of the Weibull distribution at a location specified by x.</p>
+<p class="formulaDsp">
+\[ f(x; \lambda, k) = \begin{cases} \frac{k}{\lambda}\left( \frac{x}{\lambda}\right)^{k-1} \exp \left( -\left(\frac{x}{\lambda}\right)^k \right), &amp; x \ge 0 \\ 0, &amp; x &lt; 0 \end{cases} \]
+</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">realT</td><td>a real floating point type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the value of the Weibull distribution at x.</dd></dl>
+<p>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>the location at which to calculate the distribution </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">k</td><td>the shape parameter </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">lambda</td><td>the scale parameter </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="weibull_8hpp_source.html#l00089">89</a> of file <a class="el" href="weibull_8hpp_source.html">weibull.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="weibull_8hpp_source.html#l00054">weibull()</a>.</p>
+
+</div>
+</div>
+<a id="ga5117fc1d2f42142647ee366d406039d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5117fc1d2f42142647ee366d406039d8">&#9670;&nbsp;</a></span>weibull_lambda()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename realT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">realT weibull_lambda </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; realT &gt; &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>k</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>x0</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The MLE of the Weibull distribution lambda parameter. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">realT</td><td>a real floating point type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the MLE of lambda given the data. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>the data points </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">k</td><td>the shape parameter </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x0</td><td>[optional] the location parameter </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="weibull_8hpp_source.html#l00019">19</a> of file <a class="el" href="weibull_8hpp_source.html">weibull.hpp</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jul 15 2017 14:33:40 for mxlib by
+    <li class="footer">Generated on Mon Jul 17 2017 17:23:38 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

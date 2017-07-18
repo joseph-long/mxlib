@@ -18,7 +18,7 @@ var group__imaging =
       [ "xcen", "classmx_1_1wfp_1_1fraunhoferPropagator.html#a5563d55681716a31ae2fc856971f43ac", null ],
       [ "ycen", "classmx_1_1wfp_1_1fraunhoferPropagator.html#ab87f18c1e9d2474182dfb4c82201a91c", null ]
     ] ],
-    [ "Point Spread Functions", "group__psfs.html", "group__psfs" ],
+    [ "Point Spread Functions", "group__psfs.html", null ],
     [ "The Fourier Basis", "group__fourier__basis.html", "group__fourier__basis" ],
     [ "The Zernike Basis", "group__zernike__basis.html", "group__zernike__basis" ],
     [ "Coronagraphs", "group__coronagraphs.html", "group__coronagraphs" ],

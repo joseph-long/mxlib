@@ -22,7 +22,7 @@ var searchData=
   ['optimizeaplcmc',['optimizeAPLCMC',['../structmx_1_1wfp_1_1lyotCoronagraph.html#a9a3ab92867a56530c85687f255e5f266',1,'mx::wfp::lyotCoronagraph']]],
   ['optimumtauwfs',['optimumTauWFS',['../classmx_1_1AO_1_1aoSystem.html#a52b31129c09836d32445ea0003579917',1,'mx::AO::aoSystem']]],
   ['optionhelp',['optionHelp',['../classmx_1_1application.html#a21755620652f9ba1bcdb74a73659e314',1,'mx::application']]],
-  ['opts',['opts',['../classmx_1_1levmarInterface.html#aa24977b384484fab3819704a727169e5',1,'mx::levmarInterface']]],
+  ['opts',['opts',['../classmx_1_1math_1_1fit_1_1levmarInterface.html#aaa39e2662f2cf93897cfe8b9778f5957',1,'mx::math::fit::levmarInterface']]],
   ['opttau',['optTau',['../classmx_1_1AO_1_1aoSystem.html#a97d82e87f53dd661d8ed299864457b92',1,'mx::AO::aoSystem::optTau(bool ot)'],['../classmx_1_1AO_1_1aoSystem.html#a48df3ded01d9753940e75440b1fd14ba',1,'mx::AO::aoSystem::optTau()']]],
   ['orbitcartesian2dphi',['orbitCartesian2DPhi',['../group__orbits.html#gaed8f1230da256b0745e215db7533fc12',1,'mx::astro']]],
   ['orbitcartesianwork',['orbitCartesianWork',['../group__orbits.html#ga8d625f304ac8854e26355f860591f604',1,'mx::astro']]],
@@ -41,5 +41,5 @@ var searchData=
   ['outputpreprocessed',['outputPreProcessed',['../structmx_1_1improc_1_1HCIobservation.html#af60ad6a04a3e0d1086710246901f3191',1,'mx::improc::HCIobservation']]],
   ['outputpsfsub',['outputPSFSub',['../structmx_1_1improc_1_1HCIobservation.html#a96f7fb0f32d6d3439733d7680a1e2c70',1,'mx::improc::HCIobservation']]],
   ['outputstatus',['outputStatus',['../classmx_1_1ompLoopWatcher.html#a3c24b1d41dfd5b1c1de48b1809571b26',1,'mx::ompLoopWatcher']]],
-  ['own_5fp',['own_p',['../classmx_1_1levmarInterface.html#a924ba7e742f7f8b4c42bf44366f97071',1,'mx::levmarInterface']]]
+  ['own_5fp',['own_p',['../classmx_1_1math_1_1fit_1_1levmarInterface.html#add883dab77f8d985208367885d94ecbb',1,'mx::math::fit::levmarInterface']]]
 ];

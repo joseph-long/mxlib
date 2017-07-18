@@ -86,172 +86,20 @@ $(document).ready(function(){initNavTree('group__psfs.html','');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Point Spread Functions<div class="ingroups"><a class="el" href="group__imaging.html">Wavefront Propagation</a><a class="el" href="group__gen__math.html">General Mathematics</a> &raquo;  &#124; <a class="el" href="group__functions.html">Special Functions</a></div></div>  </div>
+<div class="title">Point Spread Functions<div class="ingroups"><a class="el" href="group__imaging.html">Wavefront Propagation</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p>Functions describing PSFs.  
 <a href="#details">More...</a></p>
-<a name="details" id="details"></a><h2 class="groupheader"> </h2>
 <p>Functions describing PSFs. </p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:gaca002878593d379d0dc9e2c62fe4488c"><td class="memTemplParams" colspan="2">template&lt;typename floatT &gt; </td></tr>
-<tr class="memitem:gaca002878593d379d0dc9e2c62fe4488c"><td class="memTemplItemLeft" align="right" valign="top">floatT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__psfs.html#gaca002878593d379d0dc9e2c62fe4488c">mx::wfp::airy</a> (floatT x)</td></tr>
-<tr class="memdesc:gaca002878593d379d0dc9e2c62fe4488c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The classical Airy pattern.  <a href="group__psfs.html#gaca002878593d379d0dc9e2c62fe4488c">More...</a><br /></td></tr>
-<tr class="separator:gaca002878593d379d0dc9e2c62fe4488c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga802dd966c12770e7931e0570905a41d9"><td class="memTemplParams" colspan="2">template&lt;typename floatT &gt; </td></tr>
-<tr class="memitem:ga802dd966c12770e7931e0570905a41d9"><td class="memTemplItemLeft" align="right" valign="top">floatT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__psfs.html#ga802dd966c12770e7931e0570905a41d9">mx::wfp::airy</a> (floatT x, floatT eps)</td></tr>
-<tr class="memdesc:ga802dd966c12770e7931e0570905a41d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The centrally obscured Airy pattern.  <a href="group__psfs.html#ga802dd966c12770e7931e0570905a41d9">More...</a><br /></td></tr>
-<tr class="separator:ga802dd966c12770e7931e0570905a41d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2757211a82d87f16649449b125527fcb"><td class="memTemplParams" colspan="2">template&lt;typename floatT &gt; </td></tr>
-<tr class="memitem:ga2757211a82d87f16649449b125527fcb"><td class="memTemplItemLeft" align="right" valign="top">floatT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__psfs.html#ga2757211a82d87f16649449b125527fcb">mx::wfp::seeingHalo</a> (floatT x, floatT fwhm)</td></tr>
-<tr class="memdesc:ga2757211a82d87f16649449b125527fcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seeing Halo Profile.  <a href="group__psfs.html#ga2757211a82d87f16649449b125527fcb">More...</a><br /></td></tr>
-<tr class="separator:ga2757211a82d87f16649449b125527fcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="gaca002878593d379d0dc9e2c62fe4488c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaca002878593d379d0dc9e2c62fe4488c">&#9670;&nbsp;</a></span>airy() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename floatT &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">floatT mx::wfp::airy </td>
-          <td>(</td>
-          <td class="paramtype">floatT&#160;</td>
-          <td class="paramname"><em>x</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The classical Airy pattern. </p>
-<p>Returns the intensity distribution of the Airy pattern at a given \( \lambda/D \)</p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">floatT</td><td>is the floating point type used for arithmetic. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>is the separation in units of \( \lambda/D \). </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="airy_8hpp_source.html#l00031">31</a> of file <a class="el" href="airy_8hpp_source.html">airy.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="jinc_8hpp_source.html#l00045">mx::math::func::jinc()</a>.</p>
-
-</div>
-</div>
-<a id="ga802dd966c12770e7931e0570905a41d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga802dd966c12770e7931e0570905a41d9">&#9670;&nbsp;</a></span>airy() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename floatT &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">floatT mx::wfp::airy </td>
-          <td>(</td>
-          <td class="paramtype">floatT&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">floatT&#160;</td>
-          <td class="paramname"><em>eps</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The centrally obscured Airy pattern. </p>
-<p>Returns the intensity distribution of the centrally obscured Airy pattern at a given \( \lambda/D \)</p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">floatT</td><td>is the floating point type used for arithmetic. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>is the separation in units of \( \lambda/D \). </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">eps</td><td>is the ratio of the circular central obscuration diameter to the diameter. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="airy_8hpp_source.html#l00044">44</a> of file <a class="el" href="airy_8hpp_source.html">airy.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="jinc_8hpp_source.html#l00045">mx::math::func::jinc()</a>.</p>
-
-</div>
-</div>
-<a id="ga2757211a82d87f16649449b125527fcb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2757211a82d87f16649449b125527fcb">&#9670;&nbsp;</a></span>seeingHalo()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename floatT &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">floatT mx::wfp::seeingHalo </td>
-          <td>(</td>
-          <td class="paramtype">floatT&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">floatT&#160;</td>
-          <td class="paramname"><em>fwhm</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Seeing Halo Profile. </p>
-<p>A Moffat profile due to Roddier (1981)<a class="el" href="citelist.html#CITEREF_roddier_1981">[15]</a>, see also Racine et al (1999)<a class="el" href="citelist.html#CITEREF_racine_1999">[14]</a>, which can be used to describe the seeing limited point-spread function of a telescope imaging through turbulence, or the halo in partially corrected imaging.</p>
-<dl class="section return"><dt>Returns</dt><dd>the value of the profile at x, in units of fractional flux per unit area. </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>the separation in the same units as fwhm. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">fwhm</td><td>the fwhm in arbitrary units. Note that this defines the area units of the density. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="airy_8hpp_source.html#l00060">60</a> of file <a class="el" href="airy_8hpp_source.html">airy.hpp</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jul 15 2017 14:33:40 for mxlib by
+    <li class="footer">Generated on Mon Jul 17 2017 17:23:38 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

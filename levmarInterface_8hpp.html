@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>mxlib: levmarInterface.hpp File Reference</title>
+<title>mxlib: math/fit/levmarInterface.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -102,20 +102,23 @@ $(document).ready(function(){initNavTree('levmarInterface_8hpp.html','');});
 
 <p class="definition">Definition in file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 </div><div class="textblock"><code>#include &quot;<a class="el" href="templateLevmar_8hpp_source.html">templateLevmar.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="timeUtils_8hpp_source.html">timeUtils.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="timeUtils_8hpp_source.html">../../timeUtils.hpp</a>&quot;</code><br />
 </div>
 <p><a href="levmarInterface_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1hasJacobian.html">mx::hasJacobian&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test whether a function type has a Jacobian function by testing whether it has a typedef of "hasJacobian".  <a href="structmx_1_1hasJacobian.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1math_1_1fit_1_1hasJacobian.html">mx::math::fit::hasJacobian&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test whether a function type has a Jacobian function by testing whether it has a typedef of "hasJacobian".  <a href="structmx_1_1math_1_1fit_1_1hasJacobian.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1array2Fit.html">mx::array2Fit&lt; floatT &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper for a native array to pass to <a class="el" href="classmx_1_1levmarInterface.html">levmarInterface</a>.  <a href="structmx_1_1array2Fit.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html">mx::math::fit::levmarInterface&lt; fitterT &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An interface to the levmar package.  <a href="classmx_1_1math_1_1fit_1_1levmarInterface.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1levmarInterface.html">mx::levmarInterface&lt; fitterT &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An interface to the levmar package.  <a href="classmx_1_1levmarInterface.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1math_1_1fit_1_1hasJacobian.html">mx::math::fit::hasJacobian&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test whether a function type has a Jacobian function by testing whether it has a typedef of "hasJacobian".  <a href="structmx_1_1math_1_1fit_1_1hasJacobian.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1math_1_1fit_1_1array2Fit.html">mx::math::fit::array2Fit&lt; realT &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper for a native array to pass to <a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html">levmarInterface</a>.  <a href="structmx_1_1math_1_1fit_1_1array2Fit.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -129,8 +132,8 @@ Namespaces</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="levmarInterface_8hpp.html">levmarInterface.hpp</a></li>
-    <li class="footer">Generated on Sat Jul 15 2017 14:33:40 for mxlib by
+    <li class="navelem"><a class="el" href="dir_fba38f648377aa56ae5d69782adf9e53.html">math</a></li><li class="navelem"><a class="el" href="dir_6db95d63ecdf0969fe78c6ed6d247181.html">fit</a></li><li class="navelem"><a class="el" href="levmarInterface_8hpp.html">levmarInterface.hpp</a></li>
+    <li class="footer">Generated on Mon Jul 17 2017 17:23:38 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

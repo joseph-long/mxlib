@@ -2,6 +2,7 @@ var searchData=
 [
   ['cardmap',['cardMap',['../classmx_1_1improc_1_1fitsHeader.html#a4a1a10a8cdbe301db0864883eb5f67f7',1,'mx::improc::fitsHeader']]],
   ['cards',['cards',['../classmx_1_1improc_1_1fitsHeader.html#a139bfba2e066a8d741ec60b9f0248f5d',1,'mx::improc::fitsHeader']]],
+  ['cenobs',['cenObs',['../structmx_1_1math_1_1fit_1_1array2FitAiry.html#a889eb74a51ecc4c464e9f71966fb8a86',1,'mx::math::fit::array2FitAiry']]],
   ['centerfocal',['centerFocal',['../classmx_1_1wfp_1_1fraunhoferPropagator.html#ab9823dea12b909f0e0626c6216e50071',1,'mx::wfp::fraunhoferPropagator']]],
   ['centerpupil',['centerPupil',['../classmx_1_1wfp_1_1fraunhoferPropagator.html#a78dc5c1497b61e6f1497082ce00b096d',1,'mx::wfp::fraunhoferPropagator']]],
   ['clonlytargets',['clOnlyTargets',['../structmx_1_1appConfigurator.html#ad986120b39a26aa8136e861d00bdc4a6',1,'mx::appConfigurator']]],
@@ -20,6 +21,6 @@ var searchData=
   ['configpathglobal',['configPathGlobal',['../classmx_1_1application.html#a5f35a2973494e790d87a96bc24dd8964',1,'mx::application']]],
   ['configpathlocal',['configPathLocal',['../classmx_1_1application.html#a0149a96378eaacfa5fa9cbbe791b948d',1,'mx::application']]],
   ['configpathuser',['configPathUser',['../classmx_1_1application.html#ae253ad0f2332d20b6eb755b463bfab1c',1,'mx::application']]],
-  ['covar',['covar',['../classmx_1_1levmarInterface.html#acdc2fbc9d9fa9d3819eb2ada4a2596cc',1,'mx::levmarInterface']]],
-  ['covar_5fsz',['covar_sz',['../classmx_1_1levmarInterface.html#ac2454fcc5bc89a968edfa5d90b30ef01',1,'mx::levmarInterface']]]
+  ['covar',['covar',['../classmx_1_1math_1_1fit_1_1levmarInterface.html#a0ed27e744bdebd3d070761e5d9451383',1,'mx::math::fit::levmarInterface']]],
+  ['covar_5fsz',['covar_sz',['../classmx_1_1math_1_1fit_1_1levmarInterface.html#ae96b8d6f9de7f330752e95c4f5715216',1,'mx::math::fit::levmarInterface']]]
 ];

@@ -1,13 +1,16 @@
 var hierarchy =
 [
     [ "mx::improc::ADIDerotator< _realT >", "structmx_1_1improc_1_1ADIDerotator.html", null ],
+    [ "mx::math::fit::airy2D_obs_fitter< _realT >", "structmx_1_1math_1_1fit_1_1airy2D__obs__fitter.html", null ],
+    [ "mx::math::fit::airy2D_obs_fitter_ps< _realT >", "structmx_1_1math_1_1fit_1_1airy2D__obs__fitter__ps.html", null ],
+    [ "mx::math::fit::airy2D_obs_fitter_ps_eps< _realT >", "structmx_1_1math_1_1fit_1_1airy2D__obs__fitter__ps__eps.html", null ],
     [ "mx::AO::aoAtmosphere< _realT >", "classmx_1_1AO_1_1aoAtmosphere.html", null ],
     [ "mx::AO::aoAtmosphere< realT >", "classmx_1_1AO_1_1aoAtmosphere.html", null ],
     [ "mx::AO::aoSystem< realT, inputSpectT, iosT >", "classmx_1_1AO_1_1aoSystem.html", null ],
     [ "mx::appConfigurator", "structmx_1_1appConfigurator.html", null ],
     [ "mx::application", "classmx_1_1application.html", null ],
-    [ "mx::array2Fit< floatT >", "structmx_1_1array2Fit.html", null ],
-    [ "mx::array2Fit< float >", "structmx_1_1array2Fit.html", null ],
+    [ "mx::math::fit::array2Fit< realT >", "structmx_1_1math_1_1fit_1_1array2Fit.html", null ],
+    [ "mx::math::fit::array2FitAiry< realT >", "structmx_1_1math_1_1fit_1_1array2FitAiry.html", null ],
     [ "mx::autocorrelationFromPSD< T >", "structmx_1_1autocorrelationFromPSD.html", null ],
     [ "mx::autocorrelationFromPSD< realT >", "structmx_1_1autocorrelationFromPSD.html", null ],
     [ "mx::improc::azBoxKernel< _arrayT, _kernW >", "structmx_1_1improc_1_1azBoxKernel.html", null ],
@@ -25,7 +28,7 @@ var hierarchy =
     [ "mx::AO::sim::directPhaseReconstructor< realT >", "classmx_1_1AO_1_1sim_1_1directPhaseReconstructor.html", null ],
     [ "mx::improc::ds9Interface", "classmx_1_1improc_1_1ds9Interface.html", null ],
     [ "mx::astro::units::earth< _realT >", "structmx_1_1astro_1_1units_1_1earth.html", null ],
-    [ "mx::eigenArrPlanes< arrT, isCube >", "structmx_1_1eigenArrPlanes.html", null ],
+    [ "mx::improc::eigenArrPlanes< arrT, isCube >", "structmx_1_1improc_1_1eigenArrPlanes.html", null ],
     [ "mx::improc::eigenCube< dataT >", "classmx_1_1improc_1_1eigenCube.html", null ],
     [ "mx::improc::eigenCube< realT >", "classmx_1_1improc_1_1eigenCube.html", null ],
     [ "mx::fftT< _inputT, _outputT, _dim, 0 >", "classmx_1_1fftT_3_01__inputT_00_01__outputT_00_01__dim_00_010_01_4.html", null ],
@@ -55,13 +58,12 @@ var hierarchy =
     [ "mx::AO::fourierTemporalPSD< realT, aosysT >", "structmx_1_1AO_1_1fourierTemporalPSD.html", null ],
     [ "mx::wfp::fraunhoferPropagator< _wavefrontT >", "classmx_1_1wfp_1_1fraunhoferPropagator.html", null ],
     [ "mx::wfp::fraunhoferPropagator< complexFieldT >", "classmx_1_1wfp_1_1fraunhoferPropagator.html", null ],
-    [ "mx::gaussian2D_gen_fitter< _floatT >", "structmx_1_1gaussian2D__gen__fitter.html", null ],
-    [ "mx::gaussian2D_gen_fitter< realT >", "structmx_1_1gaussian2D__gen__fitter.html", null ],
-    [ "mx::gaussian2D_sym_fitter< _floatT >", "structmx_1_1gaussian2D__sym__fitter.html", null ],
+    [ "mx::math::fit::gaussian2D_gen_fitter< _realT >", "structmx_1_1math_1_1fit_1_1gaussian2D__gen__fitter.html", null ],
+    [ "mx::math::fit::gaussian2D_sym_fitter< _realT >", "structmx_1_1math_1_1fit_1_1gaussian2D__sym__fitter.html", null ],
     [ "mx::improc::gaussKernel< _arrayT, _kernW >", "structmx_1_1improc_1_1gaussKernel.html", null ],
     [ "mx::AO::sim::generalIntegrator< _realT >", "classmx_1_1AO_1_1sim_1_1generalIntegrator.html", null ],
     [ "mx::gnuPlot", "classmx_1_1gnuPlot.html", null ],
-    [ "mx::hasJacobian< T >", "structmx_1_1hasJacobian.html", null ],
+    [ "mx::math::fit::hasJacobian< T >", "structmx_1_1math_1_1fit_1_1hasJacobian.html", null ],
     [ "mx::improc::HCIobservation< _realT >", "structmx_1_1improc_1_1HCIobservation.html", [
       [ "mx::improc::ADIobservation< _realT, _derotFunctObj >", "structmx_1_1improc_1_1ADIobservation.html", [
         [ "mx::improc::KLIPreduction< _realT, _derotFunctObj, _evCalcT >", "structmx_1_1improc_1_1KLIPreduction.html", null ]
@@ -69,7 +71,7 @@ var hierarchy =
     ] ],
     [ "mx::wfp::idealCoronagraph< _realT >", "structmx_1_1wfp_1_1idealCoronagraph.html", null ],
     [ "mx::improc::imCenterCircleSym< realT >", "structmx_1_1improc_1_1imCenterCircleSym.html", null ],
-    [ "mx::is_eigenCube< T >", "structmx_1_1is__eigenCube.html", null ],
+    [ "mx::improc::is_eigenCube< T >", "structmx_1_1improc_1_1is__eigenCube.html", null ],
     [ "mx::is_imagingArray< T >", "structmx_1_1is__imagingArray.html", null ],
     [ "mx::meta::is_std_vector< T, if_value_type >", "structmx_1_1meta_1_1is__std__vector.html", null ],
     [ "mx::meta::is_std_vector< T, false >", "structmx_1_1meta_1_1is__std__vector_3_01T_00_01false_01_4.html", null ],
@@ -77,11 +79,12 @@ var hierarchy =
     [ "mx::astro::units::jupiter< _realT >", "structmx_1_1astro_1_1units_1_1jupiter.html", null ],
     [ "mx::laplace_distribution< _RealType >", "classmx_1_1laplace__distribution.html", null ],
     [ "mx::AO::sim::leakyIntegrator< _realT >", "classmx_1_1AO_1_1sim_1_1leakyIntegrator.html", null ],
-    [ "mx::levmarInterface< fitterT >", "classmx_1_1levmarInterface.html", [
-      [ "mx::fitGaussian2D< fitterT >", "classmx_1_1fitGaussian2D.html", null ]
+    [ "mx::math::fit::levmarInterface< fitterT >", "classmx_1_1math_1_1fit_1_1levmarInterface.html", [
+      [ "mx::math::fit::fitAiry2D< fitterT >", "classmx_1_1math_1_1fit_1_1fitAiry2D.html", null ],
+      [ "mx::math::fit::fitGaussian2D< fitterT >", "classmx_1_1math_1_1fit_1_1fitGaussian2D.html", null ]
     ] ],
-    [ "mx::levmarInterface< mx::gaussian2D_gen_fitter< realT > >", "classmx_1_1levmarInterface.html", [
-      [ "mx::fitGaussian2D< mx::gaussian2D_gen_fitter< realT > >", "classmx_1_1fitGaussian2D.html", null ]
+    [ "mx::math::fit::levmarInterface< realT >", "classmx_1_1math_1_1fit_1_1levmarInterface.html", [
+      [ "mx::math::fit::fitGaussian2D< realT >", "classmx_1_1math_1_1fit_1_1fitGaussian2D.html", null ]
     ] ],
     [ "mx::wfp::lyotCoronagraph< _realT, _fpmaskFloatT >", "structmx_1_1wfp_1_1lyotCoronagraph.html", null ],
     [ "mx::astro::mainSequence< realT >", "structmx_1_1astro_1_1mainSequence.html", null ],
@@ -102,7 +105,7 @@ var hierarchy =
     [ "mx::astro::units::si< _realT >", "structmx_1_1astro_1_1units_1_1si.html", null ],
     [ "mx::AO::sim::simulatedAOSystem< _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT >", "classmx_1_1AO_1_1sim_1_1simulatedAOSystem.html", null ],
     [ "mx::astro::units::solar< _realT >", "structmx_1_1astro_1_1units_1_1solar.html", null ],
-    [ "mx::syevrMem< sizeT, intT, floatT >", "structmx_1_1syevrMem.html", null ],
+    [ "mx::math::syevrMem< sizeT, intT, floatT >", "structmx_1_1math_1_1syevrMem.html", null ],
     [ "mx::textTable", "structmx_1_1textTable.html", null ],
     [ "mx::meta::trueFalseT< trueFalse >", "structmx_1_1meta_1_1trueFalseT.html", null ],
     [ "mx::meta::trueFalseT< false >", "structmx_1_1meta_1_1trueFalseT_3_01false_01_4.html", null ],

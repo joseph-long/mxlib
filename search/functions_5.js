@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['eigengesdd',['eigenGESDD',['../group__gen__math.html#ga80395f0dd853b37394d9c44e4369104c',1,'mx']]],
-  ['eigenpseudoinverse',['eigenPseudoInverse',['../group__gen__math.html#ga74ae7b41e75e12913c04ebc64070b54a',1,'mx::eigenPseudoInverse(Eigen::Array&lt; dataT, -1, -1 &gt; &amp;PInv, dataT &amp;condition, int &amp;nRejected, Eigen::Array&lt; dataT, -1, -1 &gt; &amp;U, Eigen::Array&lt; dataT, -1, -1 &gt; &amp;S, Eigen::Array&lt; dataT, -1, -1 &gt; &amp;VT, Eigen::Array&lt; dataT, -1, -1 &gt; &amp;A, dataT &amp;maxCondition, int interact=MX_PINV_NO_INTERACT)'],['../group__gen__math.html#ga8921fbf7272e9f0b3463707b33fc2897',1,'mx::eigenPseudoInverse(Eigen::Array&lt; dataT, -1, -1 &gt; &amp;PInv, dataT &amp;condition, int &amp;nRejected, Eigen::Array&lt; dataT, -1, -1 &gt; &amp;A, dataT &amp;maxCondition, int interact=MX_PINV_NO_INTERACT)']]],
-  ['eigensyevr',['eigenSYEVR',['../namespacemx.html#a5dc96970e6a8191696cf99d5459731a5',1,'mx']]],
-  ['eigensyrk',['eigenSYRK',['../namespacemx.html#a4759ae46579e597dad5fcd1b9bc06df7',1,'mx']]],
+  ['eigengesdd',['eigenGESDD',['../group__eigen__lapack.html#ga9aaeb0d387261fd9031582339541a4ae',1,'mx::math']]],
+  ['eigenpseudoinverse',['eigenPseudoInverse',['../group__eigen__lapack.html#gaa4510e1a9565b324625079ffd516ee21',1,'mx::math::eigenPseudoInverse(Eigen::Array&lt; dataT, -1, -1 &gt; &amp;PInv, dataT &amp;condition, int &amp;nRejected, Eigen::Array&lt; dataT, -1, -1 &gt; &amp;U, Eigen::Array&lt; dataT, -1, -1 &gt; &amp;S, Eigen::Array&lt; dataT, -1, -1 &gt; &amp;VT, Eigen::Array&lt; dataT, -1, -1 &gt; &amp;A, dataT &amp;maxCondition, int interact=MX_PINV_NO_INTERACT)'],['../group__eigen__lapack.html#ga33dce7721a6e2999d72651ad358bbdf6',1,'mx::math::eigenPseudoInverse(Eigen::Array&lt; dataT, -1, -1 &gt; &amp;PInv, dataT &amp;condition, int &amp;nRejected, Eigen::Array&lt; dataT, -1, -1 &gt; &amp;A, dataT &amp;maxCondition, int interact=MX_PINV_NO_INTERACT)']]],
+  ['eigensyevr',['eigenSYEVR',['../group__eigen__lapack.html#ga7b56cb516580a565dc3aa5e5d9f2ec71',1,'mx::math']]],
+  ['eigensyrk',['eigenSYRK',['../group__eigen__lapack.html#ga9c4fc17379b2d70e1f7deb476edd43b9',1,'mx::math']]],
   ['eleven_5fsixths',['eleven_sixths',['../group__aoConstants.html#gaf804a8ecdece60d564df36771ec60c33',1,'mx::AO::constants']]],
   ['eleven_5fthirds',['eleven_thirds',['../group__aoConstants.html#ga0f8405c977fa3c5d6c183d8d6ed003c7',1,'mx::AO::constants']]],
   ['empty',['empty',['../classmx_1_1improc_1_1fitsHeader.html#a4f74abb8efc7a57945e665c81eb49825',1,'mx::improc::fitsHeader']]],

@@ -41,6 +41,7 @@ var namespacemx =
       [ "bilinearTransform", "structmx_1_1improc_1_1bilinearTransform.html", null ],
       [ "cubicConvolTransform", "structmx_1_1improc_1_1cubicConvolTransform.html", null ],
       [ "ds9Interface", "classmx_1_1improc_1_1ds9Interface.html", "classmx_1_1improc_1_1ds9Interface" ],
+      [ "eigenArrPlanes", "structmx_1_1improc_1_1eigenArrPlanes.html", null ],
       [ "eigenCube", "classmx_1_1improc_1_1eigenCube.html", "classmx_1_1improc_1_1eigenCube" ],
       [ "fitsFile", "classmx_1_1improc_1_1fitsFile.html", "classmx_1_1improc_1_1fitsFile" ],
       [ "fitsHeader", "classmx_1_1improc_1_1fitsHeader.html", "classmx_1_1improc_1_1fitsHeader" ],
@@ -48,7 +49,24 @@ var namespacemx =
       [ "gaussKernel", "structmx_1_1improc_1_1gaussKernel.html", null ],
       [ "HCIobservation", "structmx_1_1improc_1_1HCIobservation.html", "structmx_1_1improc_1_1HCIobservation" ],
       [ "imCenterCircleSym", "structmx_1_1improc_1_1imCenterCircleSym.html", "structmx_1_1improc_1_1imCenterCircleSym" ],
+      [ "is_eigenCube", "structmx_1_1improc_1_1is__eigenCube.html", null ],
       [ "KLIPreduction", "structmx_1_1improc_1_1KLIPreduction.html", "structmx_1_1improc_1_1KLIPreduction" ]
+    ] ],
+    [ "math", null, [
+      [ "fit", null, [
+        [ "airy2D_obs_fitter", "structmx_1_1math_1_1fit_1_1airy2D__obs__fitter.html", null ],
+        [ "airy2D_obs_fitter_ps", "structmx_1_1math_1_1fit_1_1airy2D__obs__fitter__ps.html", null ],
+        [ "airy2D_obs_fitter_ps_eps", "structmx_1_1math_1_1fit_1_1airy2D__obs__fitter__ps__eps.html", null ],
+        [ "array2Fit", "structmx_1_1math_1_1fit_1_1array2Fit.html", "structmx_1_1math_1_1fit_1_1array2Fit" ],
+        [ "array2FitAiry", "structmx_1_1math_1_1fit_1_1array2FitAiry.html", "structmx_1_1math_1_1fit_1_1array2FitAiry" ],
+        [ "fitAiry2D", "classmx_1_1math_1_1fit_1_1fitAiry2D.html", "classmx_1_1math_1_1fit_1_1fitAiry2D" ],
+        [ "fitGaussian2D", "classmx_1_1math_1_1fit_1_1fitGaussian2D.html", "classmx_1_1math_1_1fit_1_1fitGaussian2D" ],
+        [ "gaussian2D_gen_fitter", "structmx_1_1math_1_1fit_1_1gaussian2D__gen__fitter.html", null ],
+        [ "gaussian2D_sym_fitter", "structmx_1_1math_1_1fit_1_1gaussian2D__sym__fitter.html", "structmx_1_1math_1_1fit_1_1gaussian2D__sym__fitter" ],
+        [ "hasJacobian", "structmx_1_1math_1_1fit_1_1hasJacobian.html", "structmx_1_1math_1_1fit_1_1hasJacobian" ],
+        [ "levmarInterface", "classmx_1_1math_1_1fit_1_1levmarInterface.html", "classmx_1_1math_1_1fit_1_1levmarInterface" ]
+      ] ],
+      [ "syevrMem", "structmx_1_1math_1_1syevrMem.html", null ]
     ] ],
     [ "meta", null, [
       [ "has_value_type< T, void_t< typename T::value_type > >", "structmx_1_1meta_1_1has__value__type_3_01T_00_01void__t_3_01typename_01T_1_1value__type_01_4_01_4.html", null ],
@@ -69,11 +87,9 @@ var namespacemx =
     ] ],
     [ "appConfigurator", "structmx_1_1appConfigurator.html", "structmx_1_1appConfigurator" ],
     [ "application", "classmx_1_1application.html", "classmx_1_1application" ],
-    [ "array2Fit", "structmx_1_1array2Fit.html", "structmx_1_1array2Fit" ],
     [ "autocorrelationFromPSD", "structmx_1_1autocorrelationFromPSD.html", "structmx_1_1autocorrelationFromPSD" ],
     [ "clOptions", "structmx_1_1clOptions.html", "structmx_1_1clOptions" ],
     [ "configTarget", "structmx_1_1configTarget.html", "structmx_1_1configTarget" ],
-    [ "eigenArrPlanes", "structmx_1_1eigenArrPlanes.html", null ],
     [ "fftT< _inputT, _outputT, _dim, 0 >", "classmx_1_1fftT_3_01__inputT_00_01__outputT_00_01__dim_00_010_01_4.html", "classmx_1_1fftT_3_01__inputT_00_01__outputT_00_01__dim_00_010_01_4" ],
     [ "fftwPlanSpec", "structmx_1_1fftwPlanSpec.html", "structmx_1_1fftwPlanSpec" ],
     [ "fftwPlanSpec< __float128 >", "structmx_1_1fftwPlanSpec_3_01____float128_01_4.html", "structmx_1_1fftwPlanSpec_3_01____float128_01_4" ],
@@ -93,18 +109,11 @@ var namespacemx =
     [ "fftwTypeSpec< double, complexDT >", "structmx_1_1fftwTypeSpec_3_01double_00_01complexDT_01_4.html", "structmx_1_1fftwTypeSpec_3_01double_00_01complexDT_01_4" ],
     [ "fftwTypeSpec< float, complexFT >", "structmx_1_1fftwTypeSpec_3_01float_00_01complexFT_01_4.html", "structmx_1_1fftwTypeSpec_3_01float_00_01complexFT_01_4" ],
     [ "fftwTypeSpec< long double, complexLT >", "structmx_1_1fftwTypeSpec_3_01long_01double_00_01complexLT_01_4.html", "structmx_1_1fftwTypeSpec_3_01long_01double_00_01complexLT_01_4" ],
-    [ "fitGaussian2D", "classmx_1_1fitGaussian2D.html", null ],
     [ "fourierModeDef", "structmx_1_1fourierModeDef.html", "structmx_1_1fourierModeDef" ],
-    [ "gaussian2D_gen_fitter", "structmx_1_1gaussian2D__gen__fitter.html", null ],
-    [ "gaussian2D_sym_fitter", "structmx_1_1gaussian2D__sym__fitter.html", null ],
     [ "gnuPlot", "classmx_1_1gnuPlot.html", "classmx_1_1gnuPlot" ],
-    [ "hasJacobian", "structmx_1_1hasJacobian.html", "structmx_1_1hasJacobian" ],
-    [ "is_eigenCube", "structmx_1_1is__eigenCube.html", null ],
     [ "is_imagingArray", "structmx_1_1is__imagingArray.html", null ],
     [ "laplace_distribution", "classmx_1_1laplace__distribution.html", "classmx_1_1laplace__distribution" ],
-    [ "levmarInterface", "classmx_1_1levmarInterface.html", "classmx_1_1levmarInterface" ],
     [ "ompLoopWatcher", "classmx_1_1ompLoopWatcher.html", "classmx_1_1ompLoopWatcher" ],
     [ "randomT", "classmx_1_1randomT.html", "classmx_1_1randomT" ],
-    [ "syevrMem", "structmx_1_1syevrMem.html", null ],
     [ "textTable", "structmx_1_1textTable.html", "structmx_1_1textTable" ]
 ];

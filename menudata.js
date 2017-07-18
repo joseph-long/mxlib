@@ -170,7 +170,8 @@ var menudata={children:[
 {text:"g",url:"globals_func.html#index_g"},
 {text:"l",url:"globals_func.html#index_l"},
 {text:"m",url:"globals_func.html#index_m"},
-{text:"s",url:"globals_func.html#index_s"}]},
+{text:"s",url:"globals_func.html#index_s"},
+{text:"w",url:"globals_func.html#index_w"}]},
 {text:"Macros",url:"globals_defs.html",children:[
 {text:"d",url:"globals_defs.html#index_d"},
 {text:"e",url:"globals_defs.html#index_e"},

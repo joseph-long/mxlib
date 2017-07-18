@@ -1,6 +1,11 @@
 var searchData=
 [
   ['false',['False',['../structmx_1_1meta_1_1trueFalseT_3_01false_01_4.html#aa9192b4fb9a312a98a67817528694386',1,'mx::meta::trueFalseT&lt; false &gt;']]],
+  ['fitairy2dbothfixed',['fitAiry2DbothFixed',['../group__airy__peak__fit.html#ga457fef28579b550b2b0d3b09614a59f7',1,'mx::math::fit']]],
+  ['fitairy2dcenobsfixed',['fitAiry2DcenObsFixed',['../group__airy__peak__fit.html#gaaa4d6d79513b77aa4357a6bfe013d144',1,'mx::math::fit']]],
+  ['fitairy2dnonefixed',['fitAiry2DnoneFixed',['../group__airy__peak__fit.html#gae8cc00d37cdf51b943c38a0fc9a22d26',1,'mx::math::fit']]],
+  ['fitgaussian2dgen',['fitGaussian2Dgen',['../group__gaussian__peak__fit.html#ga245d3421e4aa7d1fcdd730a2a66ada29',1,'mx::math::fit']]],
+  ['fitgaussian2dsym',['fitGaussian2Dsym',['../group__gaussian__peak__fit.html#ga7ed0df18c6ac63660630f3aaa6657413',1,'mx::math::fit']]],
   ['fitsfilec',['fitsFilec',['../group__fits__processing__typedefs.html#gae441bf333c0da52071b31bf9f367b03f',1,'mx::improc']]],
   ['fitsfiled',['fitsFiled',['../group__fits__processing__typedefs.html#gadea7e3107c8ea9260ada836cfc9f1d21',1,'mx::improc']]],
   ['fitsfilef',['fitsFilef',['../group__fits__processing__typedefs.html#ga2898f253c0ca0eae5f6353c6ee4cb51a',1,'mx::improc']]],

@@ -5,7 +5,7 @@ var searchData=
   ['hci',['HCI',['../namespacemx_1_1improc_1_1HCI.html',1,'mx::improc']]],
   ['mxlib',['mxlib',['../index.html',1,'']]],
   ['message_20queues',['Message Queues',['../group__IPC__msgq.html',1,'']]],
-  ['m',['m',['../structmx_1_1fourierModeDef.html#ae0928551dc5cee11d176632170cd9f6e',1,'mx::fourierModeDef::m()'],['../classmx_1_1levmarInterface.html#a21fd246b085012242485729b75f1388d',1,'mx::levmarInterface::m()'],['../structmx_1_1AO_1_1fourierCovariance.html#a7c8bc8a60f4665a4783426d32400ce8b',1,'mx::AO::fourierCovariance::m()']]],
+  ['m',['m',['../structmx_1_1fourierModeDef.html#ae0928551dc5cee11d176632170cd9f6e',1,'mx::fourierModeDef::m()'],['../structmx_1_1AO_1_1fourierCovariance.html#a7c8bc8a60f4665a4783426d32400ce8b',1,'mx::AO::fourierCovariance::m()'],['../classmx_1_1math_1_1fit_1_1levmarInterface.html#a68aefcab33992ad6898c77ba8473f5f4',1,'mx::math::fit::levmarInterface::m()']]],
   ['m2c',['M2c',['../aoPaths_8hpp.html#a0d71de127bf7a2939564dfc8343b99a8',1,'mx::AO::path::dm']]],
   ['m2cmatrix',['m2cMatrix',['../influenceFunctions_8hpp.html#a832def7f95a4ed3dad7a1e0e91e422c1',1,'mx::AO::m2cMatrix(Eigen::Array&lt; realT, -1, -1 &gt; &amp;M2c, Eigen::Array&lt; realT, -1, -1 &gt; &amp;Ap, mx::eigenCube&lt; realT &gt; &amp;M)'],['../influenceFunctions_8hpp.html#a13abc2303834fd02735990e03e87ea2f',1,'mx::AO::m2cMatrix(const std::string &amp;dmName, const std::string &amp;basisName)']]],
   ['main',['main',['../classmx_1_1application.html#a8c3c2fa1129e76a94964e5eecd45ff0c',1,'mx::application']]],

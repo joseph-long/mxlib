@@ -2,6 +2,7 @@ var searchData=
 [
   ['fftwtemplates_2ehpp',['fftwTemplates.hpp',['../fftwTemplates_8hpp.html',1,'']]],
   ['fileutils_2ehpp',['fileUtils.hpp',['../fileUtils_8hpp.html',1,'']]],
+  ['fitairy_2ehpp',['fitAiry.hpp',['../fitAiry_8hpp.html',1,'']]],
   ['fitgaussian_2ehpp',['fitGaussian.hpp',['../fitGaussian_8hpp.html',1,'']]],
   ['fitsfile_2ehpp',['fitsFile.hpp',['../fitsFile_8hpp.html',1,'']]],
   ['fitsheader_2ehpp',['fitsHeader.hpp',['../fitsHeader_8hpp.html',1,'']]],

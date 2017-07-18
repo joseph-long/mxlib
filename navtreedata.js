@@ -40,16 +40,17 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"classmx_1_1AO_1_1aoSystem.html#a62260a1ece740e47f1bcb29f0e21cd6b",
-"classmx_1_1application.html#a5f35a2973494e790d87a96bc24dd8964",
-"classmx_1_1ompLoopWatcher.html#af67ad1162f7e1cdffbee7625f4ef4a95",
-"functions_j.html",
-"group__error__handling.html#gacc968e47358b648a87d2c64213b1882e",
-"group__mxAO__paths.html#gacdc2275d0092d14ac2a56be9047bca85",
-"imagePads_8hpp.html#gafaacecf29a8060fa8bab7c4c74aa2dec",
-"structmx_1_1AO_1_1clGainOpt.html#a8b8854dec98023548f498522e005dc26",
-"structmx_1_1fftwPlanSpec.html",
-"structmx_1_1improc_1_1cubicConvolTransform.html"
+"classmx_1_1AO_1_1aoSystem.html#a5c891f4faaee5a1ad8795e991a50fc5b",
+"classmx_1_1application.html#a064075afc69f2d39ebacee89f50d6b56",
+"classmx_1_1math_1_1fit_1_1levmarInterface.html#abdffc0c849383513da641cc6eec596e4",
+"functions_a.html",
+"group__binvector.html#ga7eb7bba22c3e145fef6078776374bda3",
+"group__image__processing.html",
+"group__vectorutils.html#ga603d303d6d01a38ad1dabc5ce6d5f9b4",
+"stringUtils_8hpp.html#gaab1f64c92c699366b7343f7fe6011481",
+"structmx_1_1astro_1_1units_1_1cgs.html#ab4dbf9c8945799b2dad9357aa908bb1d",
+"structmx_1_1improc_1_1HCIobservation.html#ad2fdb1f25a15d2491153331eb9862930",
+"wooferTweeterDM_8hpp_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

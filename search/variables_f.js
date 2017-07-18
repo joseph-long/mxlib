@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['p',['p',['../structmx_1_1fourierModeDef.html#a3f6f37ce270764def32e983169e5db80',1,'mx::fourierModeDef::p()'],['../classmx_1_1levmarInterface.html#a31570dc8600c74a9c90453d2f295e859',1,'mx::levmarInterface::p()'],['../structmx_1_1AO_1_1fourierCovariance.html#a114834d4c95d1651866468791db03da0',1,'mx::AO::fourierCovariance::p()']]],
+  ['p',['p',['../structmx_1_1fourierModeDef.html#a3f6f37ce270764def32e983169e5db80',1,'mx::fourierModeDef::p()'],['../structmx_1_1AO_1_1fourierCovariance.html#a114834d4c95d1651866468791db03da0',1,'mx::AO::fourierCovariance::p()'],['../classmx_1_1math_1_1fit_1_1levmarInterface.html#a8732e48f876dbd09a3470ad3d4a86106',1,'mx::math::fit::levmarInterface::p()']]],
   ['phase',['phase',['../structmx_1_1AO_1_1sim_1_1wavefront.html#ae39b6ba6a7e1d09ef0221c9dc06871bf',1,'mx::AO::sim::wavefront']]],
   ['phi_5fw',['phi_w',['../structmx_1_1AO_1_1fourierCovariance.html#a8f76717c1065c8337e58cf0ef135d9e6',1,'mx::AO::fourierCovariance']]],
   ['poissonvar',['poissonVar',['../classmx_1_1AO_1_1sim_1_1ccdDetector.html#a31d3114bae837e4de58bad3880963d9a',1,'mx::AO::sim::ccdDetector']]],

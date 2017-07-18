@@ -4,6 +4,7 @@ var searchData=
   ['image',['image',['../classmx_1_1improc_1_1eigenCube.html#a7a602325e19cd65132ffd7b36a058438',1,'mx::improc::eigenCube']]],
   ['imagedownsample',['imageDownSample',['../group__image__transforms.html#gaa575d47dbaf2c5a20b51d34c2cdc8605',1,'mx::improc']]],
   ['imagemagnify',['imageMagnify',['../group__image__transforms.html#ga3e35a0db70c18656ab9f54558e8bd694',1,'mx::improc']]],
+  ['imagemedian',['imageMedian',['../group__eigen__image__processing.html#ga7c15ce5d1256dfdf2962fb96fc7b9190',1,'mx::improc::imageMedian(const imageT &amp;mat, const maskT *mask, std::vector&lt; typename imageT::Scalar &gt; *work=0)'],['../group__eigen__image__processing.html#gaf2c33450cd88c7a23d561ca21bdae7fd',1,'mx::improc::imageMedian(const imageT &amp;mat, std::vector&lt; typename imageT::Scalar &gt; *work=0)']]],
   ['imagerotate',['imageRotate',['../group__image__transforms.html#ga3842e84008d9123b8df9962380354f30',1,'mx::improc']]],
   ['imageshift',['imageShift',['../group__image__transforms.html#ga10ec746e44075305327ab44e2f62d38e',1,'mx::improc']]],
   ['imageshiftwp',['imageShiftWP',['../group__image__transforms.html#ga23b9a6fb1491ce76e06009083726d5f6',1,'mx::improc']]],
