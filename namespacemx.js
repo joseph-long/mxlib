@@ -78,6 +78,8 @@ var namespacemx =
       [ "trueFalseT< true >", "structmx_1_1meta_1_1trueFalseT_3_01true_01_4.html", "structmx_1_1meta_1_1trueFalseT_3_01true_01_4" ]
     ] ],
     [ "sigproc", null, [
+      [ "autocorrelationFromPSD", "structmx_1_1sigproc_1_1autocorrelationFromPSD.html", "structmx_1_1sigproc_1_1autocorrelationFromPSD" ],
+      [ "linearPredictor", "structmx_1_1sigproc_1_1linearPredictor.html", null ],
       [ "psdFilter", "classmx_1_1sigproc_1_1psdFilter.html", "classmx_1_1sigproc_1_1psdFilter" ]
     ] ],
     [ "wfp", null, [
@@ -87,7 +89,6 @@ var namespacemx =
     ] ],
     [ "appConfigurator", "structmx_1_1appConfigurator.html", "structmx_1_1appConfigurator" ],
     [ "application", "classmx_1_1application.html", "classmx_1_1application" ],
-    [ "autocorrelationFromPSD", "structmx_1_1autocorrelationFromPSD.html", "structmx_1_1autocorrelationFromPSD" ],
     [ "clOptions", "structmx_1_1clOptions.html", "structmx_1_1clOptions" ],
     [ "configTarget", "structmx_1_1configTarget.html", "structmx_1_1configTarget" ],
     [ "fftT< _inputT, _outputT, _dim, 0 >", "classmx_1_1fftT_3_01__inputT_00_01__outputT_00_01__dim_00_010_01_4.html", "classmx_1_1fftT_3_01__inputT_00_01__outputT_00_01__dim_00_010_01_4" ],

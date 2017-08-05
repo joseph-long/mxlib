@@ -11,8 +11,8 @@ var hierarchy =
     [ "mx::application", "classmx_1_1application.html", null ],
     [ "mx::math::fit::array2Fit< realT >", "structmx_1_1math_1_1fit_1_1array2Fit.html", null ],
     [ "mx::math::fit::array2FitAiry< realT >", "structmx_1_1math_1_1fit_1_1array2FitAiry.html", null ],
-    [ "mx::autocorrelationFromPSD< T >", "structmx_1_1autocorrelationFromPSD.html", null ],
-    [ "mx::autocorrelationFromPSD< realT >", "structmx_1_1autocorrelationFromPSD.html", null ],
+    [ "mx::sigproc::autocorrelationFromPSD< T >", "structmx_1_1sigproc_1_1autocorrelationFromPSD.html", null ],
+    [ "mx::sigproc::autocorrelationFromPSD< realT >", "structmx_1_1sigproc_1_1autocorrelationFromPSD.html", null ],
     [ "mx::improc::azBoxKernel< _arrayT, _kernW >", "structmx_1_1improc_1_1azBoxKernel.html", null ],
     [ "mx::improc::bilinearTransform< _arithT >", "structmx_1_1improc_1_1bilinearTransform.html", null ],
     [ "mx::astro::calspecSpectrum< _units >", "structmx_1_1astro_1_1calspecSpectrum.html", null ],
@@ -86,6 +86,8 @@ var hierarchy =
     [ "mx::math::fit::levmarInterface< realT >", "classmx_1_1math_1_1fit_1_1levmarInterface.html", [
       [ "mx::math::fit::fitGaussian2D< realT >", "classmx_1_1math_1_1fit_1_1fitGaussian2D.html", null ]
     ] ],
+    [ "mx::sigproc::linearPredictor< _realT >", "structmx_1_1sigproc_1_1linearPredictor.html", null ],
+    [ "mx::sigproc::linearPredictor< realT >", "structmx_1_1sigproc_1_1linearPredictor.html", null ],
     [ "mx::wfp::lyotCoronagraph< _realT, _fpmaskFloatT >", "structmx_1_1wfp_1_1lyotCoronagraph.html", null ],
     [ "mx::astro::mainSequence< realT >", "structmx_1_1astro_1_1mainSequence.html", null ],
     [ "msgq", "structmsgq.html", null ],
@@ -105,7 +107,7 @@ var hierarchy =
     [ "mx::astro::units::si< _realT >", "structmx_1_1astro_1_1units_1_1si.html", null ],
     [ "mx::AO::sim::simulatedAOSystem< _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT >", "classmx_1_1AO_1_1sim_1_1simulatedAOSystem.html", null ],
     [ "mx::astro::units::solar< _realT >", "structmx_1_1astro_1_1units_1_1solar.html", null ],
-    [ "mx::math::syevrMem< sizeT, intT, floatT >", "structmx_1_1math_1_1syevrMem.html", null ],
+    [ "mx::math::syevrMem< floatT >", "structmx_1_1math_1_1syevrMem.html", null ],
     [ "mx::textTable", "structmx_1_1textTable.html", null ],
     [ "mx::meta::trueFalseT< trueFalse >", "structmx_1_1meta_1_1trueFalseT.html", null ],
     [ "mx::meta::trueFalseT< false >", "structmx_1_1meta_1_1trueFalseT_3_01false_01_4.html", null ],

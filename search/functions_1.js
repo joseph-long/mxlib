@@ -39,6 +39,6 @@ var searchData=
   ['au',['au',['../group__dimensioned__constants.html#gad0aa372a8941f7e0f5efe3fce8d71607',1,'mx::astro::constants']]],
   ['augment1sidedpsd',['augment1SidedPSD',['../group__psds.html#gab462b0d5d3bff8bdc108433a87324c01',1,'mx::sigproc']]],
   ['augment1sidedpsdfreq',['augment1SidedPSDFreq',['../group__psds.html#ga9be4feb5c4ac0b44608a726306b0311a',1,'mx::sigproc']]],
-  ['autocorrelation',['autocorrelation',['../group__signal__processing.html#ga468b1813168bea3b20d10b186ce29c77',1,'mx::autocorrelation(T *ac, size_t Nac, T *sig, size_t Nsig)'],['../group__signal__processing.html#ga6718a2b55e4001b45430b47f79527642',1,'mx::autocorrelation(std::vector&lt; T &gt; &amp;ac, std::vector&lt; T &gt; &amp;sig)']]],
+  ['autocorrelation',['autocorrelation',['../group__signal__processing.html#ga367c27a77ed0cce60a762d968a510888',1,'mx::sigproc::autocorrelation(T *ac, size_t Nac, T *sig, size_t Nsig)'],['../group__signal__processing.html#gadbc4beeec00c60f6f2c107736a778159',1,'mx::sigproc::autocorrelation(std::vector&lt; T &gt; &amp;ac, std::vector&lt; T &gt; &amp;sig)']]],
   ['averageperiodogram',['averagePeriodogram',['../group__psds.html#gaf95c3d909800ffc09f4c776f3f7a06b3',1,'mx::sigproc']]]
 ];

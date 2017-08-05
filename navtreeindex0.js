@@ -1,7 +1,7 @@
 var NAVTREEINDEX0 =
 {
 ".html":[4,0,0,0],
-".html":[4,0,0,1],
+".html":[4,0,0,2],
 ".html":[5,0,0,0],
 ".html":[5,0,0,0,2],
 ".html":[5,0,0,1],
@@ -108,8 +108,8 @@ var NAVTREEINDEX0 =
 "astrodyn_8hpp_source.html":[6,0,11],
 "astrotypes_8h_source.html":[6,0,14],
 "autocorrelation_8hpp.html":[6,0,8,0],
-"autocorrelation_8hpp.html#ga468b1813168bea3b20d10b186ce29c77":[6,0,8,0,1],
-"autocorrelation_8hpp.html#ga6718a2b55e4001b45430b47f79527642":[6,0,8,0,2],
+"autocorrelation_8hpp.html#ga367c27a77ed0cce60a762d968a510888":[6,0,8,0,0],
+"autocorrelation_8hpp.html#gadbc4beeec00c60f6f2c107736a778159":[6,0,8,0,1],
 "autocorrelation_8hpp_source.html":[6,0,8,0],
 "basis_8hpp.html":[6,0,0,3],
 "basis_8hpp.html#a2b65e17af4f3bdb229fdc3153bd021cc":[6,0,0,3,3],
@@ -118,9 +118,11 @@ var NAVTREEINDEX0 =
 "basis_8hpp.html#acf1d2fe46b5d8c5cba78f0dc86a8fe96":[6,0,0,3,0],
 "basis_8hpp_source.html":[6,0,0,3],
 "binVector_8hpp.html":[6,0,15],
-"binVector_8hpp.html#ga38709b0ce3d32a3e2d573f326571127b":[6,0,15,2],
-"binVector_8hpp.html#ga72a63e48c9bf362ec1a192240c627bb3":[6,0,15,0],
-"binVector_8hpp.html#ga7eb7bba22c3e145fef6078776374bda3":[6,0,15,1],
+"binVector_8hpp.html#a9ef751d5ed89c8402904ba5db0793aa7":[6,0,15,0],
+"binVector_8hpp.html#ga1c624b5c7197f141ce5678d0b9b5f2ea":[6,0,15,2],
+"binVector_8hpp.html#ga38709b0ce3d32a3e2d573f326571127b":[6,0,15,4],
+"binVector_8hpp.html#ga7eb7bba22c3e145fef6078776374bda3":[6,0,15,3],
+"binVector_8hpp.html#gae0d83fe0d42385db94eb11dbf9df8658":[6,0,15,1],
 "binVector_8hpp_source.html":[6,0,15],
 "blackbody_8hpp_source.html":[6,0,2,2],
 "bug.html":[2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "classmx_1_1AO_1_1aoSystem.html#a4f49648b3d6384002054b9194dc0a3a9":[0,5,5,0,2,99],
 "classmx_1_1AO_1_1aoSystem.html#a513b5b2bcbae6bcc22a10b97bad0f215":[0,5,5,0,2,27],
 "classmx_1_1AO_1_1aoSystem.html#a52b31129c09836d32445ea0003579917":[0,5,5,0,2,74],
-"classmx_1_1AO_1_1aoSystem.html#a531bf33e17714fa8b8c7697e1fec12c0":[0,5,5,0,2,48],
-"classmx_1_1AO_1_1aoSystem.html#a56853b760dfacc86cbcba1a9134e4049":[0,5,5,0,2,62],
-"classmx_1_1AO_1_1aoSystem.html#a57864dcd3fc9178b793f3a7c92ba9eeb":[0,5,5,0,2,91]
+"classmx_1_1AO_1_1aoSystem.html#a531bf33e17714fa8b8c7697e1fec12c0":[0,5,5,0,2,48]
 };

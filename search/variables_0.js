@@ -37,7 +37,7 @@ var searchData=
   ['_5ff0photons',['_F0Photons',['../structmx_1_1AO_1_1sim_1_1turbAtmosphere.html#ac1be0e5d8a3ef3a8a2bf87993e2ff23c',1,'mx::AO::sim::turbAtmosphere']]],
   ['_5ffbg',['_Fbg',['../classmx_1_1AO_1_1aoSystem.html#abdaf4ff80234f5a26e905804249a65a9',1,'mx::AO::aoSystem']]],
   ['_5ffchanged',['_fChanged',['../structmx_1_1AO_1_1clGainOpt.html#ae1967c4d1504617f710a907b08bb260b',1,'mx::AO::clGainOpt']]],
-  ['_5ffiledir',['_fileDir',['../structmx_1_1wfp_1_1lyotCoronagraph.html#a3829055119ab3c6eef569c7830b033aa',1,'mx::wfp::lyotCoronagraph']]],
+  ['_5ffiledir',['_fileDir',['../structmx_1_1wfp_1_1idealCoronagraph.html#a003925639376555a45fdec220200802a',1,'mx::wfp::idealCoronagraph::_fileDir()'],['../structmx_1_1wfp_1_1lyotCoronagraph.html#a3829055119ab3c6eef569c7830b033aa',1,'mx::wfp::lyotCoronagraph::_fileDir()']]],
   ['_5ffilename',['_fileName',['../classmx_1_1improc_1_1fitsFile.html#a4ec3d5fea6f5e69c999318f8395a8f9c',1,'mx::improc::fitsFile']]],
   ['_5ffit_5fmn_5fmax',['_fit_mn_max',['../classmx_1_1AO_1_1aoSystem.html#a241b42b6b8e224d3a4393c1398929278',1,'mx::AO::aoSystem']]],
   ['_5fforcegen',['_forceGen',['../structmx_1_1AO_1_1sim_1_1turbAtmosphere.html#a120698221d9034e567de1b890ab2b416',1,'mx::AO::sim::turbAtmosphere']]],

@@ -102,14 +102,27 @@ Getting levmar</h1>
 <p>levmar can be found at <a href="http://users.ics.forth.gr/~lourakis/levmar/">http://users.ics.forth.gr/~lourakis/levmar/ </a>.</p>
 <h1><a class="anchor" id="installing_levmar"></a>
 Installing levmar</h1>
-<p>Download the lates levmar from the above link. I am currently on 2.6.</p>
+<p>Download the latest levmar from the above link. I am currently on 2.6.</p>
 <p>I typically need to edit the following lines in the Makefile, like so: </p><pre class="fragment">CFLAGS=$(CONFIGFLAGS) $(ARCHFLAGS) -O3 -funroll-loops -Wall -fPIC
-LAPACKLIBS_PATH=/usr/local/atlas/lib
 AR=ar -r
 RANLIB=ar -s
+</pre><p> This assumes you are using gcc. We want a shared (.so) library, this is why we added the option -fPIC to the CFLAGS, and changed the AR to ar -r and RANLIB to ar -s. Finally, in the liblevmar.a rule:</p><ul>
+<li>delete the "crv" options to the $(AR) command</li>
+</ul>
+<h2><a class="anchor" id="levmarLAPACK"></a>
+Lapack</h2>
+<p>To have levmar use Lapack, we need to specify where the libraries are in the makefile.</p>
+<p>For ATLAS: </p><pre class="fragment">LAPACKLIBS_PATH=/usr/local/atlas/lib
 LAPACKLIBS=-llapack -lcblas -lf77blas  -latlas -lgfortran
-</pre><p> This assumes you are using gcc and ATLAS. If you installed ATLAS somewhere else, modify accordingly. We want a shared (.so) library, this is why we added the option -fPIC to the CFLAGS, and changed the AR to ar -r and RANLIB to ar -s. Also edit out any options in the $(AR) command in the liblevmar.a rule.</p>
-<dl class="section user"><dt>NOTE:</dt><dd>In levmar.h the line <div class="fragment"><div class="line"><span class="preprocessor">#define LINSOLVERS_RETAIN_MEMORY</span></div></div><!-- fragment --> should be commented out if there is any chance you will use levmar in a multithreaded program. In particular, if you use openmp the compiler will issue a warning at this point in the header. I always build levmar with this commented out.</dd></dl>
+</pre><p> If you installed ATLAS somewhere else, modify accordingly.</p>
+<p>For MKL: </p><pre class="fragment">LAPACKLIBS_PATH=${MKLROOT}/lib/intel64
+LAPACKLIBS=-Wl,--no-as-needed -lmkl_intel_ilp64 -lmkl_gnu_thread -lmkl_core -lgomp -lpthread -lm -ldl
+</pre><p> Depending on your architecture, you may need to edit the path and these flags. The <a href="https://software.intel.com/en-us/articles/intel-mkl-link-line-advisor">MKL line advisor</a> is of great help in determining this.</p>
+<h2><a class="anchor" id="levmarmt"></a>
+Multithreading</h2>
+<p>In levmar.h the line </p><div class="fragment"><div class="line"><span class="preprocessor">#define LINSOLVERS_RETAIN_MEMORY</span></div></div><!-- fragment --><p> should be commented out if there is any chance you will use levmar in a multithreaded program. In particular, if you use openmp the compiler will issue a warning at this point in the header. I always build levmar with this commented out.</p>
+<h2><a class="anchor" id="levmarbuild"></a>
+Bulding</h2>
 <p>Type make to build. Do not worry if it exits with an error &ndash; as long liblevmar.a was made then everything is fine for our purposes.</p>
 <p>Finnaly, once the build is complete, turn liblevmar.a into a shared libary like so: </p><div class="fragment"><div class="line">gcc -shared -Wl,-soname,liblevmar.so -o liblevmar.so *.o -rdynamic</div></div><!-- fragment --><p>The location of liblevmar.so and levmar.h should be accessible to your compiler. I put these in $(HOME)/lib and in $(HOME)/include respectively.</p>
 <h1><a class="anchor" id="levmar_documentation"></a>
@@ -120,7 +133,7 @@ levmar Documentation</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jul 18 2017 13:28:03 for mxlib by
+    <li class="footer">Generated on Sat Aug 5 2017 13:34:43 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

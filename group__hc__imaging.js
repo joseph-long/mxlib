@@ -74,6 +74,7 @@ var group__hc__imaging =
       [ "Nims", "structmx_1_1improc_1_1HCIobservation.html#a07fcf23d68bd58a8d3407600f85d8133", null ],
       [ "Npix", "structmx_1_1improc_1_1HCIobservation.html#a81540f47ab8821a7624dffd596a81a6b", null ],
       [ "Nrows", "structmx_1_1improc_1_1HCIobservation.html#a70accb20e8f8787db6fc8f43af8a72eb", null ],
+      [ "outputDir", "structmx_1_1improc_1_1HCIobservation.html#a504d256dcccbbbe20645cf4a41466fbc", null ],
       [ "preProcess_azUSM_azW", "structmx_1_1improc_1_1HCIobservation.html#a8ad1c66fd705f0e89024542bca9ccf22", null ],
       [ "preProcess_azUSM_radW", "structmx_1_1improc_1_1HCIobservation.html#a7d83c8371870998aa4d0c8f4dabd78e7", null ],
       [ "preProcess_beforeCoadd", "structmx_1_1improc_1_1HCIobservation.html#a70d6af687ced0adb1392283abf4f3707", null ],
@@ -92,11 +93,12 @@ var group__hc__imaging =
       [ "weightFile", "structmx_1_1improc_1_1HCIobservation.html#a5679d04395f938a28d54b950876911fd", null ]
     ] ],
     [ "KLIPreduction", "structmx_1_1improc_1_1KLIPreduction.html", [
-      [ "calcKLIms", "structmx_1_1improc_1_1KLIPreduction.html#a857abe774e1be3030dabaff44efe876b", null ],
+      [ "worker", "structmx_1_1improc_1_1KLIPreduction.html#a9914dcaf1491f383a4404d28c11bee67", null ],
       [ "excludeMethod", "structmx_1_1improc_1_1KLIPreduction.html#a8c532c5c9dc539dee26a756f90a1c78d", null ],
       [ "includeRefNum", "structmx_1_1improc_1_1KLIPreduction.html#abc899bc7602a3a9022398c6a3b365226", null ],
       [ "mindpx", "structmx_1_1improc_1_1KLIPreduction.html#a1d4c35d162bfdf021f27a85563802e6e", null ],
-      [ "Nmodes", "structmx_1_1improc_1_1KLIPreduction.html#a468567f5b112df315b73ee70be902ffa", null ]
+      [ "Nmodes", "structmx_1_1improc_1_1KLIPreduction.html#a468567f5b112df315b73ee70be902ffa", null ],
+      [ "t_worker_begin", "structmx_1_1improc_1_1KLIPreduction.html#a6c41ea4f54cc94f959fd5ce9b04120b7", null ]
     ] ],
     [ "HCI Enums", "group__hc__imaging__enums.html", "group__hc__imaging__enums" ],
     [ "High Contrast Imaging Files", "group__hc__imaging__files.html", "group__hc__imaging__files" ]

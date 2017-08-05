@@ -1,18 +1,20 @@
 var group__signal__processing =
 [
+    [ "autocorrelationFromPSD", "structmx_1_1sigproc_1_1autocorrelationFromPSD.html", [
+      [ "operator()", "structmx_1_1sigproc_1_1autocorrelationFromPSD.html#ac2814d49690e650b397cae9b94eb02bd", null ],
+      [ "operator()", "structmx_1_1sigproc_1_1autocorrelationFromPSD.html#a432a12d1a7eeb73d8b356f72e9c5803e", null ]
+    ] ],
+    [ "linearPredictor", "structmx_1_1sigproc_1_1linearPredictor.html", null ],
     [ "Fast Fourier Transforms", "group__fft.html", "group__fft" ],
     [ "Power Spectra", "group__psds.html", "group__psds" ],
     [ "Image Filters", "group__image__filters.html", "group__image__filters" ],
     [ "Signal Processing Files", "group__signal__processing__files.html", "group__signal__processing__files" ],
-    [ "autocorrelation.hpp", "autocorrelation_8hpp.html", null ],
-    [ "gramSchmidt.hpp", "gramSchmidt_8hpp.html", null ],
-    [ "signalWindows.hpp", "signalWindows_8hpp.html", null ],
-    [ "autocorrelation", "group__signal__processing.html#ga468b1813168bea3b20d10b186ce29c77", null ],
-    [ "autocorrelation", "group__signal__processing.html#ga6718a2b55e4001b45430b47f79527642", null ],
-    [ "gramSchmidt", "group__signal__processing.html#ga2c237d6b6277be5ea33385166bda60a5", null ],
-    [ "gramSchmidt", "group__signal__processing.html#ga3f0921e8ac0faec6c717a73644769f07", null ],
-    [ "gramSchmidtSpectrum", "group__signal__processing.html#ga133707ba960f0e2b74076d5e823be478", null ],
-    [ "tukey1d", "group__signal__processing.html#ga3e1d0376939f9119404f3d6d12e1b0bd", null ],
-    [ "tukey2d", "group__signal__processing.html#ga6a9a24e5bd3c7f3c7cfd7fe5c044e17c", null ],
-    [ "tukey2dAnnulus", "group__signal__processing.html#ga79cb7faed00214a6384fb900bbb1ee31", null ]
+    [ "autocorrelation", "group__signal__processing.html#ga367c27a77ed0cce60a762d968a510888", null ],
+    [ "autocorrelation", "group__signal__processing.html#gadbc4beeec00c60f6f2c107736a778159", null ],
+    [ "gramSchmidt", "group__signal__processing.html#ga8fd9793819dc5750982b9895476583ac", null ],
+    [ "gramSchmidt", "group__signal__processing.html#gaa81966083d704b713dd0c6467c82e4a0", null ],
+    [ "gramSchmidtSpectrum", "group__signal__processing.html#ga22b2a894b50bc11ffc82908a316b9cfb", null ],
+    [ "tukey1d", "group__signal__processing.html#gad999b803cf7f36f2ce5067179f3bdf65", null ],
+    [ "tukey2d", "group__signal__processing.html#ga8f4e77df7fca2f1556d4f56796a92bbc", null ],
+    [ "tukey2dAnnulus", "group__signal__processing.html#gae9aed144559ae151b4c78b3c80c60099", null ]
 ];

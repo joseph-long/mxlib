@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['f',['f',['../structmx_1_1AO_1_1clGainOpt.html#a7db96cfd9a761127e084c26d76b80b72',1,'mx::AO::clGainOpt::f(realT *newF, size_t nF)'],['../structmx_1_1AO_1_1clGainOpt.html#a73a120c202ad1a7f9a081f79b9df478f',1,'mx::AO::clGainOpt::f(std::vector&lt; realT &gt; &amp;newF)']]],
+  ['f',['f',['../structmx_1_1AO_1_1clGainOpt.html#a7db96cfd9a761127e084c26d76b80b72',1,'mx::AO::clGainOpt::f(realT *newF, size_t nF)'],['../structmx_1_1AO_1_1clGainOpt.html#a73a120c202ad1a7f9a081f79b9df478f',1,'mx::AO::clGainOpt::f(std::vector&lt; realT &gt; &amp;newF)'],['../structmx_1_1AO_1_1clGainOpt.html#aa0de5d34c33eee6133ec892213b4b8fe',1,'mx::AO::clGainOpt::f(size_t i)']]],
   ['f0',['F0',['../classmx_1_1AO_1_1aoSystem.html#a87866d9e8882b29762de196c15b4e09e',1,'mx::AO::aoSystem::F0(realT nF0)'],['../classmx_1_1AO_1_1aoSystem.html#a442504e4f8cbcbcea60deacc45387bdd',1,'mx::AO::aoSystem::F0()']]],
   ['f_5fbasic',['F_basic',['../group__mxAOAnalytic.html#gae6ffd3a9b6fdfb2ef5a0f4fd20ffed8a',1,'mx::AO']]],
   ['f_5fmod',['F_mod',['../group__mxAOAnalytic.html#ga2594847ba6f46f2d5a07b3e3a1280de0',1,'mx::AO']]],

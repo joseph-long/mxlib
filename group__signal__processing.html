@@ -87,8 +87,8 @@ $(document).ready(function(){initNavTree('group__signal__processing.html','');})
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#groups">Modules</a> &#124;
-<a href="#files">Files</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Signal Processing</div>  </div>
@@ -100,6 +100,15 @@ $(document).ready(function(){initNavTree('group__signal__processing.html','');})
 <a name="details" id="details"></a><h2 class="groupheader"> </h2>
 <p>Tools for processing signals. </p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1sigproc_1_1autocorrelationFromPSD.html">mx::sigproc::autocorrelationFromPSD&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functor for calculating the autocorrelation given a PSD.  <a href="structmx_1_1sigproc_1_1autocorrelationFromPSD.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1sigproc_1_1linearPredictor.html">mx::sigproc::linearPredictor&lt; _realT &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to support linear prediction.  <a href="structmx_1_1sigproc_1_1linearPredictor.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
 Modules</h2></td></tr>
 <tr class="memitem:group__fft"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__fft.html">Fast Fourier Transforms</a></td></tr>
@@ -115,56 +124,44 @@ Modules</h2></td></tr>
 <tr class="memdesc:group__signal__processing__files"><td class="mdescLeft">&#160;</td><td class="mdescRight">Source files for processing signals. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"></a>
-Files</h2></td></tr>
-<tr class="memitem:autocorrelation_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="autocorrelation_8hpp.html">autocorrelation.hpp</a></td></tr>
-<tr class="memdesc:autocorrelation_8hpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tools for working with autocorrelations. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gramSchmidt_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gramSchmidt_8hpp.html">gramSchmidt.hpp</a></td></tr>
-<tr class="memdesc:gramSchmidt_8hpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Procedures to orthogonalize vector basis sets. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:signalWindows_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="signalWindows_8hpp.html">signalWindows.hpp</a></td></tr>
-<tr class="memdesc:signalWindows_8hpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Procedures to calculate window functions for signal processing. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga2c237d6b6277be5ea33385166bda60a5"><td class="memTemplParams" colspan="2">template&lt;int progress = 0, typename eigenTout , typename eigenTin &gt; </td></tr>
-<tr class="memitem:ga2c237d6b6277be5ea33385166bda60a5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__signal__processing.html#ga2c237d6b6277be5ea33385166bda60a5">mx::gramSchmidt</a> (eigenTout &amp;out, const eigenTin &amp;in)</td></tr>
-<tr class="memdesc:ga2c237d6b6277be5ea33385166bda60a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform Gram-Schmidt ortogonalization of a basis set, and normalize the result.  <a href="group__signal__processing.html#ga2c237d6b6277be5ea33385166bda60a5">More...</a><br /></td></tr>
-<tr class="separator:ga2c237d6b6277be5ea33385166bda60a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3f0921e8ac0faec6c717a73644769f07"><td class="memTemplParams" colspan="2">template&lt;int progress = 0, typename eigenTout , typename eigenTin , typename eigenTWin &gt; </td></tr>
-<tr class="memitem:ga3f0921e8ac0faec6c717a73644769f07"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__signal__processing.html#ga3f0921e8ac0faec6c717a73644769f07">mx::gramSchmidt</a> (eigenTout &amp;out, const eigenTin &amp;in, const eigenTWin &amp;window)</td></tr>
-<tr class="memdesc:ga3f0921e8ac0faec6c717a73644769f07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform Gram-Schmidt ortogonalization of a basis set on a window, and normalize the result.  <a href="group__signal__processing.html#ga3f0921e8ac0faec6c717a73644769f07">More...</a><br /></td></tr>
-<tr class="separator:ga3f0921e8ac0faec6c717a73644769f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga133707ba960f0e2b74076d5e823be478"><td class="memTemplParams" colspan="2">template&lt;int progress = 0, typename eigenTout , typename eigenTout2 , typename eigenTin &gt; </td></tr>
-<tr class="memitem:ga133707ba960f0e2b74076d5e823be478"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__signal__processing.html#ga133707ba960f0e2b74076d5e823be478">mx::gramSchmidtSpectrum</a> (eigenTout &amp;out, eigenTout2 &amp;spect, const eigenTin &amp;in)</td></tr>
-<tr class="memdesc:ga133707ba960f0e2b74076d5e823be478"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform Gram-Schmidt ortogonalization of a basis set, and normalize the result, while recording the spectrum.  <a href="group__signal__processing.html#ga133707ba960f0e2b74076d5e823be478">More...</a><br /></td></tr>
-<tr class="separator:ga133707ba960f0e2b74076d5e823be478"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3e1d0376939f9119404f3d6d12e1b0bd"><td class="memTemplParams" colspan="2">template&lt;typename floatT &gt; </td></tr>
-<tr class="memitem:ga3e1d0376939f9119404f3d6d12e1b0bd"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__signal__processing.html#ga3e1d0376939f9119404f3d6d12e1b0bd">mx::tukey1d</a> (floatT *filt, int N, floatT alpha)</td></tr>
-<tr class="memdesc:ga3e1d0376939f9119404f3d6d12e1b0bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a 1-D Tukey window.  <a href="group__signal__processing.html#ga3e1d0376939f9119404f3d6d12e1b0bd">More...</a><br /></td></tr>
-<tr class="separator:ga3e1d0376939f9119404f3d6d12e1b0bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6a9a24e5bd3c7f3c7cfd7fe5c044e17c"><td class="memTemplParams" colspan="2">template&lt;typename floatT &gt; </td></tr>
-<tr class="memitem:ga6a9a24e5bd3c7f3c7cfd7fe5c044e17c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__signal__processing.html#ga6a9a24e5bd3c7f3c7cfd7fe5c044e17c">mx::tukey2d</a> (floatT *filt, int dim, floatT N, floatT alpha, floatT xc, floatT yc)</td></tr>
-<tr class="memdesc:ga6a9a24e5bd3c7f3c7cfd7fe5c044e17c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a 2-D Tukey window.  <a href="group__signal__processing.html#ga6a9a24e5bd3c7f3c7cfd7fe5c044e17c">More...</a><br /></td></tr>
-<tr class="separator:ga6a9a24e5bd3c7f3c7cfd7fe5c044e17c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga79cb7faed00214a6384fb900bbb1ee31"><td class="memTemplParams" colspan="2">template&lt;typename floatT &gt; </td></tr>
-<tr class="memitem:ga79cb7faed00214a6384fb900bbb1ee31"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__signal__processing.html#ga79cb7faed00214a6384fb900bbb1ee31">mx::tukey2dAnnulus</a> (floatT *filt, int dim, floatT N, floatT eps, floatT alpha, floatT xc, floatT yc)</td></tr>
-<tr class="memdesc:ga79cb7faed00214a6384fb900bbb1ee31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a 2-D Tukey window on an annulus.  <a href="group__signal__processing.html#ga79cb7faed00214a6384fb900bbb1ee31">More...</a><br /></td></tr>
-<tr class="separator:ga79cb7faed00214a6384fb900bbb1ee31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga468b1813168bea3b20d10b186ce29c77"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga468b1813168bea3b20d10b186ce29c77"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__signal__processing.html#ga468b1813168bea3b20d10b186ce29c77">mx::autocorrelation</a> (T *ac, size_t Nac, T *sig, size_t Nsig)</td></tr>
-<tr class="memdesc:ga468b1813168bea3b20d10b186ce29c77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the autocorrelation of a time-series.  <a href="group__signal__processing.html#ga468b1813168bea3b20d10b186ce29c77">More...</a><br /></td></tr>
-<tr class="separator:ga468b1813168bea3b20d10b186ce29c77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6718a2b55e4001b45430b47f79527642"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga6718a2b55e4001b45430b47f79527642"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__signal__processing.html#ga6718a2b55e4001b45430b47f79527642">mx::autocorrelation</a> (std::vector&lt; T &gt; &amp;ac, std::vector&lt; T &gt; &amp;sig)</td></tr>
-<tr class="memdesc:ga6718a2b55e4001b45430b47f79527642"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the autocorrelation of a time-series.  <a href="group__signal__processing.html#ga6718a2b55e4001b45430b47f79527642">More...</a><br /></td></tr>
-<tr class="separator:ga6718a2b55e4001b45430b47f79527642"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga367c27a77ed0cce60a762d968a510888"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga367c27a77ed0cce60a762d968a510888"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__signal__processing.html#ga367c27a77ed0cce60a762d968a510888">mx::sigproc::autocorrelation</a> (T *ac, size_t Nac, T *sig, size_t Nsig)</td></tr>
+<tr class="memdesc:ga367c27a77ed0cce60a762d968a510888"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the autocorrelation of a time-series.  <a href="group__signal__processing.html#ga367c27a77ed0cce60a762d968a510888">More...</a><br /></td></tr>
+<tr class="separator:ga367c27a77ed0cce60a762d968a510888"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadbc4beeec00c60f6f2c107736a778159"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gadbc4beeec00c60f6f2c107736a778159"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__signal__processing.html#gadbc4beeec00c60f6f2c107736a778159">mx::sigproc::autocorrelation</a> (std::vector&lt; T &gt; &amp;ac, std::vector&lt; T &gt; &amp;sig)</td></tr>
+<tr class="memdesc:gadbc4beeec00c60f6f2c107736a778159"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the autocorrelation of a time-series.  <a href="group__signal__processing.html#gadbc4beeec00c60f6f2c107736a778159">More...</a><br /></td></tr>
+<tr class="separator:gadbc4beeec00c60f6f2c107736a778159"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8fd9793819dc5750982b9895476583ac"><td class="memTemplParams" colspan="2">template&lt;int progress = 0, typename eigenTout , typename eigenTin &gt; </td></tr>
+<tr class="memitem:ga8fd9793819dc5750982b9895476583ac"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__signal__processing.html#ga8fd9793819dc5750982b9895476583ac">mx::sigproc::gramSchmidt</a> (eigenTout &amp;out, const eigenTin &amp;in)</td></tr>
+<tr class="memdesc:ga8fd9793819dc5750982b9895476583ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform Gram-Schmidt ortogonalization of a basis set, and normalize the result.  <a href="group__signal__processing.html#ga8fd9793819dc5750982b9895476583ac">More...</a><br /></td></tr>
+<tr class="separator:ga8fd9793819dc5750982b9895476583ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa81966083d704b713dd0c6467c82e4a0"><td class="memTemplParams" colspan="2">template&lt;int progress = 0, typename eigenTout , typename eigenTin , typename eigenTWin &gt; </td></tr>
+<tr class="memitem:gaa81966083d704b713dd0c6467c82e4a0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__signal__processing.html#gaa81966083d704b713dd0c6467c82e4a0">mx::sigproc::gramSchmidt</a> (eigenTout &amp;out, const eigenTin &amp;in, const eigenTWin &amp;window)</td></tr>
+<tr class="memdesc:gaa81966083d704b713dd0c6467c82e4a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform Gram-Schmidt ortogonalization of a basis set on a window, and normalize the result.  <a href="group__signal__processing.html#gaa81966083d704b713dd0c6467c82e4a0">More...</a><br /></td></tr>
+<tr class="separator:gaa81966083d704b713dd0c6467c82e4a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga22b2a894b50bc11ffc82908a316b9cfb"><td class="memTemplParams" colspan="2">template&lt;int progress = 0, typename eigenTout , typename eigenTout2 , typename eigenTin &gt; </td></tr>
+<tr class="memitem:ga22b2a894b50bc11ffc82908a316b9cfb"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__signal__processing.html#ga22b2a894b50bc11ffc82908a316b9cfb">mx::sigproc::gramSchmidtSpectrum</a> (eigenTout &amp;out, eigenTout2 &amp;spect, const eigenTin &amp;in)</td></tr>
+<tr class="memdesc:ga22b2a894b50bc11ffc82908a316b9cfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform Gram-Schmidt ortogonalization of a basis set, and normalize the result, while recording the spectrum.  <a href="group__signal__processing.html#ga22b2a894b50bc11ffc82908a316b9cfb">More...</a><br /></td></tr>
+<tr class="separator:ga22b2a894b50bc11ffc82908a316b9cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad999b803cf7f36f2ce5067179f3bdf65"><td class="memTemplParams" colspan="2">template&lt;typename floatT &gt; </td></tr>
+<tr class="memitem:gad999b803cf7f36f2ce5067179f3bdf65"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__signal__processing.html#gad999b803cf7f36f2ce5067179f3bdf65">mx::sigproc::tukey1d</a> (floatT *filt, int N, floatT alpha)</td></tr>
+<tr class="memdesc:gad999b803cf7f36f2ce5067179f3bdf65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a 1-D Tukey window.  <a href="group__signal__processing.html#gad999b803cf7f36f2ce5067179f3bdf65">More...</a><br /></td></tr>
+<tr class="separator:gad999b803cf7f36f2ce5067179f3bdf65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8f4e77df7fca2f1556d4f56796a92bbc"><td class="memTemplParams" colspan="2">template&lt;typename floatT &gt; </td></tr>
+<tr class="memitem:ga8f4e77df7fca2f1556d4f56796a92bbc"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__signal__processing.html#ga8f4e77df7fca2f1556d4f56796a92bbc">mx::sigproc::tukey2d</a> (floatT *filt, int dim, floatT N, floatT alpha, floatT xc, floatT yc)</td></tr>
+<tr class="memdesc:ga8f4e77df7fca2f1556d4f56796a92bbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a 2-D Tukey window.  <a href="group__signal__processing.html#ga8f4e77df7fca2f1556d4f56796a92bbc">More...</a><br /></td></tr>
+<tr class="separator:ga8f4e77df7fca2f1556d4f56796a92bbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae9aed144559ae151b4c78b3c80c60099"><td class="memTemplParams" colspan="2">template&lt;typename floatT &gt; </td></tr>
+<tr class="memitem:gae9aed144559ae151b4c78b3c80c60099"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__signal__processing.html#gae9aed144559ae151b4c78b3c80c60099">mx::sigproc::tukey2dAnnulus</a> (floatT *filt, int dim, floatT N, floatT eps, floatT alpha, floatT xc, floatT yc)</td></tr>
+<tr class="memdesc:gae9aed144559ae151b4c78b3c80c60099"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a 2-D Tukey window on an annulus.  <a href="group__signal__processing.html#gae9aed144559ae151b4c78b3c80c60099">More...</a><br /></td></tr>
+<tr class="separator:gae9aed144559ae151b4c78b3c80c60099"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga468b1813168bea3b20d10b186ce29c77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga468b1813168bea3b20d10b186ce29c77">&#9670;&nbsp;</a></span>autocorrelation() <span class="overload">[1/2]</span></h2>
+<a id="ga367c27a77ed0cce60a762d968a510888"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga367c27a77ed0cce60a762d968a510888">&#9670;&nbsp;</a></span>autocorrelation() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -172,7 +169,7 @@ Functions</h2></td></tr>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void mx::autocorrelation </td>
+          <td class="memname">void mx::sigproc::autocorrelation </td>
           <td>(</td>
           <td class="paramtype">T *&#160;</td>
           <td class="paramname"><em>ac</em>, </td>
@@ -204,30 +201,28 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Calculate the autocorrelation of a time-series. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">ac</td><td>[out] is the pre-allocated array of length Nac which will contain the autocorrelation on return </td></tr>
-    <tr><td class="paramname">Nac</td><td>[in] is the length of ac </td></tr>
-    <tr><td class="paramname">sig</td><td>[in] is the input time-series (signal) </td></tr>
-    <tr><td class="paramname">Nsig</td><td>[in] is the length of the input time-series</td></tr>
-  </table>
-  </dd>
-</dl>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">T</td><td>is the real type of the data and autocorrelation. </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">ac</td><td>is the pre-allocated array of length Nac which will contain the autocorrelation on return </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Nac</td><td>is the length of ac </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sig</td><td>is the input time-series (signal) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Nsig</td><td>is the length of the input time-series </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="autocorrelation_8hpp_source.html#l00032">32</a> of file <a class="el" href="autocorrelation_8hpp_source.html">autocorrelation.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="autocorrelation_8hpp_source.html#l00061">mx::autocorrelation()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="autocorrelation_8hpp_source.html#l00029">29</a> of file <a class="el" href="autocorrelation_8hpp_source.html">autocorrelation.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ga6718a2b55e4001b45430b47f79527642"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6718a2b55e4001b45430b47f79527642">&#9670;&nbsp;</a></span>autocorrelation() <span class="overload">[2/2]</span></h2>
+<a id="gadbc4beeec00c60f6f2c107736a778159"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadbc4beeec00c60f6f2c107736a778159">&#9670;&nbsp;</a></span>autocorrelation() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -235,7 +230,7 @@ template&lt;typename T &gt; </div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void mx::autocorrelation </td>
+          <td class="memname">void mx::sigproc::autocorrelation </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; T &gt; &amp;&#160;</td>
           <td class="paramname"><em>ac</em>, </td>
@@ -255,28 +250,26 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Calculate the autocorrelation of a time-series. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">ac</td><td>[out] will contain the autocorrelation on return. If ac.size()==0 then it is resized to sig.size(). </td></tr>
-    <tr><td class="paramname">sig</td><td>[in] is the input time-series (signal)</td></tr>
-  </table>
-  </dd>
-</dl>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">T</td><td>is the real type of the data and autocorrelation. </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">ac</td><td>will contain the autocorrelation on return. If ac.size()==0 then it is resized to sig.size(). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sig</td><td>is the input time-series (signal) </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="autocorrelation_8hpp_source.html#l00061">61</a> of file <a class="el" href="autocorrelation_8hpp_source.html">autocorrelation.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="autocorrelation_8hpp_source.html#l00032">mx::autocorrelation()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="autocorrelation_8hpp_source.html#l00058">58</a> of file <a class="el" href="autocorrelation_8hpp_source.html">autocorrelation.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ga2c237d6b6277be5ea33385166bda60a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2c237d6b6277be5ea33385166bda60a5">&#9670;&nbsp;</a></span>gramSchmidt() <span class="overload">[1/2]</span></h2>
+<a id="ga8fd9793819dc5750982b9895476583ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8fd9793819dc5750982b9895476583ac">&#9670;&nbsp;</a></span>gramSchmidt() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -284,7 +277,7 @@ template&lt;typename T &gt; </div>
 template&lt;int progress = 0, typename eigenTout , typename eigenTin &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void mx::gramSchmidt </td>
+          <td class="memname">void mx::sigproc::gramSchmidt </td>
           <td>(</td>
           <td class="paramtype">eigenTout &amp;&#160;</td>
           <td class="paramname"><em>out</em>, </td>
@@ -321,12 +314,12 @@ template&lt;int progress = 0, typename eigenTout , typename eigenTin &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="gramSchmidt_8hpp_source.html#l00032">32</a> of file <a class="el" href="gramSchmidt_8hpp_source.html">gramSchmidt.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gramSchmidt_8hpp_source.html#l00033">33</a> of file <a class="el" href="gramSchmidt_8hpp_source.html">gramSchmidt.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ga3f0921e8ac0faec6c717a73644769f07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3f0921e8ac0faec6c717a73644769f07">&#9670;&nbsp;</a></span>gramSchmidt() <span class="overload">[2/2]</span></h2>
+<a id="gaa81966083d704b713dd0c6467c82e4a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa81966083d704b713dd0c6467c82e4a0">&#9670;&nbsp;</a></span>gramSchmidt() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -334,7 +327,7 @@ template&lt;int progress = 0, typename eigenTout , typename eigenTin &gt; </div>
 template&lt;int progress = 0, typename eigenTout , typename eigenTin , typename eigenTWin &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void mx::gramSchmidt </td>
+          <td class="memname">void mx::sigproc::gramSchmidt </td>
           <td>(</td>
           <td class="paramtype">eigenTout &amp;&#160;</td>
           <td class="paramname"><em>out</em>, </td>
@@ -379,12 +372,12 @@ template&lt;int progress = 0, typename eigenTout , typename eigenTin , typename 
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="gramSchmidt_8hpp_source.html#l00076">76</a> of file <a class="el" href="gramSchmidt_8hpp_source.html">gramSchmidt.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gramSchmidt_8hpp_source.html#l00079">79</a> of file <a class="el" href="gramSchmidt_8hpp_source.html">gramSchmidt.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ga133707ba960f0e2b74076d5e823be478"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga133707ba960f0e2b74076d5e823be478">&#9670;&nbsp;</a></span>gramSchmidtSpectrum()</h2>
+<a id="ga22b2a894b50bc11ffc82908a316b9cfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga22b2a894b50bc11ffc82908a316b9cfb">&#9670;&nbsp;</a></span>gramSchmidtSpectrum()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -392,7 +385,7 @@ template&lt;int progress = 0, typename eigenTout , typename eigenTin , typename 
 template&lt;int progress = 0, typename eigenTout , typename eigenTout2 , typename eigenTin &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void mx::gramSchmidtSpectrum </td>
+          <td class="memname">void mx::sigproc::gramSchmidtSpectrum </td>
           <td>(</td>
           <td class="paramtype">eigenTout &amp;&#160;</td>
           <td class="paramname"><em>out</em>, </td>
@@ -436,12 +429,12 @@ template&lt;int progress = 0, typename eigenTout , typename eigenTout2 , typenam
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="gramSchmidt_8hpp_source.html#l00140">140</a> of file <a class="el" href="gramSchmidt_8hpp_source.html">gramSchmidt.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gramSchmidt_8hpp_source.html#l00145">145</a> of file <a class="el" href="gramSchmidt_8hpp_source.html">gramSchmidt.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ga3e1d0376939f9119404f3d6d12e1b0bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3e1d0376939f9119404f3d6d12e1b0bd">&#9670;&nbsp;</a></span>tukey1d()</h2>
+<a id="gad999b803cf7f36f2ce5067179f3bdf65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad999b803cf7f36f2ce5067179f3bdf65">&#9670;&nbsp;</a></span>tukey1d()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -449,7 +442,7 @@ template&lt;int progress = 0, typename eigenTout , typename eigenTout2 , typenam
 template&lt;typename floatT &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void mx::tukey1d </td>
+          <td class="memname">void mx::sigproc::tukey1d </td>
           <td>(</td>
           <td class="paramtype">floatT *&#160;</td>
           <td class="paramname"><em>filt</em>, </td>
@@ -497,8 +490,8 @@ template&lt;typename floatT &gt; </div>
 
 </div>
 </div>
-<a id="ga6a9a24e5bd3c7f3c7cfd7fe5c044e17c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6a9a24e5bd3c7f3c7cfd7fe5c044e17c">&#9670;&nbsp;</a></span>tukey2d()</h2>
+<a id="ga8f4e77df7fca2f1556d4f56796a92bbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8f4e77df7fca2f1556d4f56796a92bbc">&#9670;&nbsp;</a></span>tukey2d()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -506,7 +499,7 @@ template&lt;typename floatT &gt; </div>
 template&lt;typename floatT &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void mx::tukey2d </td>
+          <td class="memname">void mx::sigproc::tukey2d </td>
           <td>(</td>
           <td class="paramtype">floatT *&#160;</td>
           <td class="paramname"><em>filt</em>, </td>
@@ -565,14 +558,14 @@ template&lt;typename floatT &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="signalWindows_8hpp_source.html#l00079">79</a> of file <a class="el" href="signalWindows_8hpp_source.html">signalWindows.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="signalWindows_8hpp_source.html#l00081">81</a> of file <a class="el" href="signalWindows_8hpp_source.html">signalWindows.hpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="directPhaseReconstructor_8hpp_source.html#l00182">mx::AO::sim::directPhaseReconstructor&lt; realT &gt;::directPhaseReconstructor()</a>.</p>
 
 </div>
 </div>
-<a id="ga79cb7faed00214a6384fb900bbb1ee31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga79cb7faed00214a6384fb900bbb1ee31">&#9670;&nbsp;</a></span>tukey2dAnnulus()</h2>
+<a id="gae9aed144559ae151b4c78b3c80c60099"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae9aed144559ae151b4c78b3c80c60099">&#9670;&nbsp;</a></span>tukey2dAnnulus()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -580,7 +573,7 @@ template&lt;typename floatT &gt; </div>
 template&lt;typename floatT &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void mx::tukey2dAnnulus </td>
+          <td class="memname">void mx::sigproc::tukey2dAnnulus </td>
           <td>(</td>
           <td class="paramtype">floatT *&#160;</td>
           <td class="paramname"><em>filt</em>, </td>
@@ -652,7 +645,7 @@ template&lt;typename floatT &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="signalWindows_8hpp_source.html#l00138">138</a> of file <a class="el" href="signalWindows_8hpp_source.html">signalWindows.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="signalWindows_8hpp_source.html#l00142">142</a> of file <a class="el" href="signalWindows_8hpp_source.html">signalWindows.hpp</a>.</p>
 
 </div>
 </div>
@@ -661,7 +654,7 @@ template&lt;typename floatT &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jul 18 2017 13:28:02 for mxlib by
+    <li class="footer">Generated on Sat Aug 5 2017 13:34:43 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

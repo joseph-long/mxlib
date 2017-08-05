@@ -100,16 +100,24 @@ Introduction</h1>
 <p>2017-07: I'm engaged in a fairly major reorganization and refactor. So right now not everything will work out of the box.</p>
 <h1><a class="anchor" id="install_depends"></a>
 Basic Dependencies</h1>
+<p>This is the list of the other libraries and code-bases mxlib depends on.</p>
 <ol type="1">
 <li>You need a c++11 compatible compiler (or c++14, or &ndash;std=c++0x in g++ works)</li>
 <li>You need the <a href="https://www.gnu.org/software/gsl/">GNU Scientific Library (GSL)</a> (this is probably obtainable from the linux distro package manager, but I recommend building yourself)</li>
 <li>You need the boost c++ library (this is probably obtainable from the linux distro package manager, fine to install with apt or yum)</li>
 <li>You need the <a href="http://heasarc.gsfc.nasa.gov/fitsio/">cfitsio </a> FITS library.</li>
-<li>You need a BLAS and LAPACK. An excellent option is ATLAS, see my notes on <a class="el" href="group__atlas.html">installing ATLAS</a>.</li>
+<li>You need a BLAS and LAPACK.<ul>
+<li>ATLAS: An excellent option is ATLAS, see my notes on <a class="el" href="group__atlas.html">installing ATLAS</a>.</li>
+<li>MKL: the intel Math Kernel Library (MKL) is probably the highest performance option. It is free (as-in-beer) and straightforward to install.</li>
+</ul>
+</li>
 <li>You will need the <a class="el" href="group__levmar.html">levmar least squares library</a> to use the data fitting tools.</li>
 <li>You need <a class="el" href="group__fftw.html">the FFTW library, with at least version 3.3.5</a>.</li>
 <li>You need the <a class="el" href="group__astro__sofa.html">IAU sofa libary</a>.</li>
-<li>You need the Eigen matrix library (<a href="http://eigen.tuxfamily.org/index.php">http://eigen.tuxfamily.org/index.php</a>). I am currently on 3.3.4.</li>
+<li>You need the Eigen matrix library (<a href="http://eigen.tuxfamily.org/index.php">http://eigen.tuxfamily.org/index.php</a>). I am currently on 3.3.4.<ul>
+<li>I normally unpack the Eigen directory in $HOME/include, and create a symbolic link $Home/include/Eigen &ndash;&gt; eigen-eigen-xxyyzz/Eigen</li>
+</ul>
+</li>
 </ol>
 <p>The relevant header files for each library need to be accessible to the compiler, either in a standard location or in one you specify when compiling your programs.</p>
 <h1><a class="anchor" id="install_build"></a>
@@ -122,7 +130,7 @@ Build and Install</h1>
 </li>
 <li><p class="startli">Examine the file <a class="el" href="mxlib_8makefile_8inc_source.html">local/mxlib.makefile.inc</a>, and edit as desired. It is probably only necessary to edit INSTALL_PATH. But you can edit all of the following if needed: </p><div class="fragment"><div class="line">INSTALL_PATH = $(HOME)</div><div class="line">INCLUDE_PATH = $(INSTALL_PATH)/include/<a class="code" href="namespacemx.html">mx</a></div><div class="line">LIB_PATH = $(INSTALL_PATH)/lib</div><div class="line">BIN_PATH = $(HOME)/bin </div></div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>You should only edit the <a class="el" href="mxlib_8makefile_8inc_source.html">mxlib.makefile.inc</a> in the local directory &ndash; this will preserve the git repo status.</dd></dl>
 </li>
-<li>In the mxlib directory, type make, and then make install.</li>
+<li>In the mxlib directory, type make, and then make install. The library is now installed.</li>
 </ol>
 <h1><a class="anchor" id="github"></a>
 I've Moved!</h1>
@@ -133,7 +141,7 @@ I've Moved!</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jul 18 2017 13:28:02 for mxlib by
+    <li class="footer">Generated on Sat Aug 5 2017 13:34:43 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

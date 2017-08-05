@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"classmx_1_1application.html#a0149a96378eaacfa5fa9cbbe791b948d":[0,7,7,2,17],
+"classmx_1_1application.html#a0277fcf3162c6f09498b76a113bc8dfd":[0,7,7,2,1],
 "classmx_1_1application.html#a064075afc69f2d39ebacee89f50d6b56":[0,7,7,2,8],
 "classmx_1_1application.html#a21755620652f9ba1bcdb74a73659e314":[0,7,7,2,6],
 "classmx_1_1application.html#a2af9b7de4741b204eddd50d800bed1db":[0,7,7,2,11],
@@ -20,9 +22,9 @@ var NAVTREEINDEX2 =
 "classmx_1_1application.html#af8e78f79b81b50f8305db0a5b4c7b3df":[0,7,7,2,12],
 "classmx_1_1application.html#afa6a6fde32e1136df9c3b38530bba1fe":[0,7,7,2,21],
 "classmx_1_1application.html#aff88d099a29777543628105566430293":[0,7,7,2,13],
-"classmx_1_1fftT_3_01__inputT_00_01__outputT_00_01__dim_00_010_01_4.html":[5,0,0,12],
-"classmx_1_1fftT_3_01__inputT_00_01__outputT_00_01__dim_00_010_01_4.html#a45636d1f0d0fcaff5959dbd1967fb931":[5,0,0,12,1],
-"classmx_1_1fftT_3_01__inputT_00_01__outputT_00_01__dim_00_010_01_4.html#afa4731fab6c1c059d2a2474985b6abf1":[5,0,0,12,0],
+"classmx_1_1fftT_3_01__inputT_00_01__outputT_00_01__dim_00_010_01_4.html":[5,0,0,11],
+"classmx_1_1fftT_3_01__inputT_00_01__outputT_00_01__dim_00_010_01_4.html#a45636d1f0d0fcaff5959dbd1967fb931":[5,0,0,11,1],
+"classmx_1_1fftT_3_01__inputT_00_01__outputT_00_01__dim_00_010_01_4.html#afa4731fab6c1c059d2a2474985b6abf1":[5,0,0,11,0],
 "classmx_1_1gnuPlot.html":[0,2,6,0],
 "classmx_1_1gnuPlot.html#a05d9ce2626fc7cbc4ea3d319d9b9ed6e":[0,2,6,0,15],
 "classmx_1_1gnuPlot.html#a12caed8b617f8a96a88705c3f2e9c85f":[0,2,6,0,25],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "classmx_1_1math_1_1fit_1_1levmarInterface.html#a9df7fd9fd443437f59033f798ac174f9":[0,2,5,0,16],
 "classmx_1_1math_1_1fit_1_1levmarInterface.html#aaa39e2662f2cf93897cfe8b9778f5957":[0,2,5,0,39],
 "classmx_1_1math_1_1fit_1_1levmarInterface.html#ab9e7ffb13087081867d991b6e4bc67f0":[0,2,5,0,10],
-"classmx_1_1math_1_1fit_1_1levmarInterface.html#abbad6b104253480f09d03f69ead69d38":[0,2,5,0,19],
-"classmx_1_1math_1_1fit_1_1levmarInterface.html#abbd4850d9d0f800f3da6e4ccce93a0fb":[0,2,5,0,42],
-"classmx_1_1math_1_1fit_1_1levmarInterface.html#abcb3ff0785e6d6d8ada6767e30f612bc":[0,2,5,0,22]
+"classmx_1_1math_1_1fit_1_1levmarInterface.html#abbad6b104253480f09d03f69ead69d38":[0,2,5,0,19]
 };

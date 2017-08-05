@@ -12,7 +12,7 @@ var searchData=
   ['application',['application',['../classmx_1_1application.html',1,'mx']]],
   ['array2fit',['array2Fit',['../structmx_1_1math_1_1fit_1_1array2Fit.html',1,'mx::math::fit']]],
   ['array2fitairy',['array2FitAiry',['../structmx_1_1math_1_1fit_1_1array2FitAiry.html',1,'mx::math::fit']]],
-  ['autocorrelationfrompsd',['autocorrelationFromPSD',['../structmx_1_1autocorrelationFromPSD.html',1,'mx']]],
-  ['autocorrelationfrompsd_3c_20realt_20_3e',['autocorrelationFromPSD&lt; realT &gt;',['../structmx_1_1autocorrelationFromPSD.html',1,'mx']]],
+  ['autocorrelationfrompsd',['autocorrelationFromPSD',['../structmx_1_1sigproc_1_1autocorrelationFromPSD.html',1,'mx::sigproc']]],
+  ['autocorrelationfrompsd_3c_20realt_20_3e',['autocorrelationFromPSD&lt; realT &gt;',['../structmx_1_1sigproc_1_1autocorrelationFromPSD.html',1,'mx::sigproc']]],
   ['azboxkernel',['azBoxKernel',['../structmx_1_1improc_1_1azBoxKernel.html',1,'mx::improc']]]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>mxlib: binVector Files</title>
+<title>mxlib: binVector Binary File Format</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -87,9 +87,12 @@ $(document).ready(function(){initNavTree('group__binvector.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">binVector Files<div class="ingroups"><a class="el" href="group__utils.html">General Utilities</a> &raquo; <a class="el" href="group__ioutils.html">Input/Output Utilities</a></div></div>  </div>
+<div class="title">binVector Binary File Format<div class="ingroups"><a class="el" href="group__utils.html">General Utilities</a> &raquo; <a class="el" href="group__ioutils.html">Input/Output Utilities</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -100,12 +103,30 @@ $(document).ready(function(){initNavTree('group__binvector.html','');});
 <p>The binVector file format is very simple: the first 8 bytes contain a unit64_t integer which specifies the type of the data. The second 8 bytes contain a uint64_t integer which specifies the length L of the data vector. The remaining L*sizeof(dataT) bytes contain the data.</p>
 <p>The suggested extension for BinVector files is ".binv". </p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespacemx_1_1binVTypes"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemx_1_1binVTypes.html">mx::binVTypes</a></td></tr>
+<tr class="memdesc:namespacemx_1_1binVTypes"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace fo the bin-vector type-codes. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:gae0d83fe0d42385db94eb11dbf9df8658"><td class="memItemLeft" align="right" valign="top">typedef uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__binvector.html#gae0d83fe0d42385db94eb11dbf9df8658">mx::binVTypeT</a></td></tr>
+<tr class="memdesc:gae0d83fe0d42385db94eb11dbf9df8658"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of binVector type codes.  <a href="group__binvector.html#gae0d83fe0d42385db94eb11dbf9df8658">More...</a><br /></td></tr>
+<tr class="separator:gae0d83fe0d42385db94eb11dbf9df8658"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:gaf05a4c84212dca2e81079b587cbf8207"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: binVTypeT <tr class="memdesc:gaf05a4c84212dca2e81079b587cbf8207"><td class="mdescLeft">&#160;</td><td class="mdescRight">The pre-defined type codes for binVector.  <a href="group__binvector.html#gaf05a4c84212dca2e81079b587cbf8207">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:gaf05a4c84212dca2e81079b587cbf8207"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga72a63e48c9bf362ec1a192240c627bb3"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
-<tr class="memitem:ga72a63e48c9bf362ec1a192240c627bb3"><td class="memTemplItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__binvector.html#ga72a63e48c9bf362ec1a192240c627bb3">mx::binVectorTypeCode</a> ()</td></tr>
-<tr class="memdesc:ga72a63e48c9bf362ec1a192240c627bb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the integer type code corresponding to the type.  <a href="group__binvector.html#ga72a63e48c9bf362ec1a192240c627bb3">More...</a><br /></td></tr>
-<tr class="separator:ga72a63e48c9bf362ec1a192240c627bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1c624b5c7197f141ce5678d0b9b5f2ea"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
+<tr class="memitem:ga1c624b5c7197f141ce5678d0b9b5f2ea"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__binvector.html#gae0d83fe0d42385db94eb11dbf9df8658">binVTypeT</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__binvector.html#ga1c624b5c7197f141ce5678d0b9b5f2ea">mx::binVectorTypeCode</a> ()</td></tr>
+<tr class="memdesc:ga1c624b5c7197f141ce5678d0b9b5f2ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the integer type code corresponding to the type.  <a href="group__binvector.html#ga1c624b5c7197f141ce5678d0b9b5f2ea">More...</a><br /></td></tr>
+<tr class="separator:ga1c624b5c7197f141ce5678d0b9b5f2ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7eb7bba22c3e145fef6078776374bda3"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
 <tr class="memitem:ga7eb7bba22c3e145fef6078776374bda3"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__binvector.html#ga7eb7bba22c3e145fef6078776374bda3">mx::readBinVector</a> (std::vector&lt; dataT &gt; &amp;vec, const std::string &amp;fname)</td></tr>
 <tr class="memdesc:ga7eb7bba22c3e145fef6078776374bda3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a BinVector file from disk.  <a href="group__binvector.html#ga7eb7bba22c3e145fef6078776374bda3">More...</a><br /></td></tr>
@@ -115,9 +136,47 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga38709b0ce3d32a3e2d573f326571127b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a BinVector file to disk.  <a href="group__binvector.html#ga38709b0ce3d32a3e2d573f326571127b">More...</a><br /></td></tr>
 <tr class="separator:ga38709b0ce3d32a3e2d573f326571127b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="gae0d83fe0d42385db94eb11dbf9df8658"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae0d83fe0d42385db94eb11dbf9df8658">&#9670;&nbsp;</a></span>binVTypeT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef uint64_t <a class="el" href="group__binvector.html#gae0d83fe0d42385db94eb11dbf9df8658">mx::binVTypeT</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The type of binVector type codes. </p>
+
+<p class="definition">Definition at line <a class="el" href="binVector_8hpp_source.html#l00037">37</a> of file <a class="el" href="binVector_8hpp_source.html">binVector.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="gaf05a4c84212dca2e81079b587cbf8207"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf05a4c84212dca2e81079b587cbf8207">&#9670;&nbsp;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum : <a class="el" href="group__binvector.html#gae0d83fe0d42385db94eb11dbf9df8658">binVTypeT</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The pre-defined type codes for binVector. </p>
+
+<p class="definition">Definition at line <a class="el" href="binVector_8hpp_source.html#l00048">48</a> of file <a class="el" href="binVector_8hpp_source.html">binVector.hpp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga72a63e48c9bf362ec1a192240c627bb3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga72a63e48c9bf362ec1a192240c627bb3">&#9670;&nbsp;</a></span>binVectorTypeCode()</h2>
+<a id="ga1c624b5c7197f141ce5678d0b9b5f2ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1c624b5c7197f141ce5678d0b9b5f2ea">&#9670;&nbsp;</a></span>binVectorTypeCode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -125,7 +184,7 @@ Functions</h2></td></tr>
 template&lt;typename dataT &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">uint64_t mx::binVectorTypeCode </td>
+          <td class="memname"><a class="el" href="group__binvector.html#gae0d83fe0d42385db94eb11dbf9df8658">binVTypeT</a> mx::binVectorTypeCode </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -173,23 +232,23 @@ template&lt;typename dataT &gt; </div>
 </div><div class="memdoc">
 
 <p>Read a BinVector file from disk. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">vec</td><td>is a vector which will be resized and populated. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">fname</td><td>is the name (full-path) of the file.</td></tr>
-  </table>
-  </dd>
-</dl>
 <dl class="section note"><dt>Note</dt><dd>dataT must match what was stored in the file.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>0 on success. </dd>
 <dd>
 -1 if an error occurs. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">vec</td><td>vec is a vector which will be resized and populated. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">fname</td><td>fname is the name (full-path) of the file. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="binVector_8hpp_source.html#l00159">159</a> of file <a class="el" href="binVector_8hpp_source.html">binVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="binVector_8hpp_source.html#l00201">201</a> of file <a class="el" href="binVector_8hpp_source.html">binVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="mxError_8hpp_source.html#l00148">MXE_FILERERR</a>, <a class="el" href="mxError_8hpp_source.html#l00126">MXE_SIZEERR</a>, <a class="el" href="mxError_8hpp_source.html#l00060">mxError</a>, and <a class="el" href="mxError_8hpp_source.html#l00077">mxPError</a>.</p>
+<p class="reference">References <a class="el" href="mxError_8hpp_source.html#l00162">MXE_FILERERR</a>, <a class="el" href="mxError_8hpp_source.html#l00126">MXE_SIZEERR</a>, <a class="el" href="mxError_8hpp_source.html#l00060">mxError</a>, and <a class="el" href="mxError_8hpp_source.html#l00077">mxPError</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00741">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::getGridFreq()</a>, and <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00750">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::getGridPSD()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00747">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::getGridFreq()</a>, and <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00756">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::getGridPSD()</a>.</p>
 
 </div>
 </div>
@@ -222,22 +281,22 @@ template&lt;typename dataT &gt; </div>
 </div><div class="memdoc">
 
 <p>Write a BinVector file to disk. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">fname</td><td>is the name (full-path) of the file. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">vec</td><td>is the vector which will be written to disk.</td></tr>
-  </table>
-  </dd>
-</dl>
 <dl class="section return"><dt>Returns</dt><dd>0 on success. </dd>
 <dd>
 -1 if an error occurs. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">fname</td><td>fname is the name (full-path) of the file. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">vec</td><td>vec is the vector which will be written to disk. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="binVector_8hpp_source.html#l00250">250</a> of file <a class="el" href="binVector_8hpp_source.html">binVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="binVector_8hpp_source.html#l00294">294</a> of file <a class="el" href="binVector_8hpp_source.html">binVector.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="mxError_8hpp_source.html#l00077">mxPError</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00660">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::makePSDGrid()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00666">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::makePSDGrid()</a>.</p>
 
 </div>
 </div>
@@ -246,7 +305,7 @@ template&lt;typename dataT &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jul 18 2017 13:28:03 for mxlib by
+    <li class="footer">Generated on Sat Aug 5 2017 13:34:43 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

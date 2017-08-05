@@ -137,6 +137,10 @@ $(document).ready(function(){initNavTree('group__vectorutils.html','');});
 <tr class="memitem:ga580ed1fb2ff186db8ea6df3982ed5bd1"><td class="memTemplParams" colspan="2">template&lt;typename vectorT &gt; </td></tr>
 <tr class="memitem:ga580ed1fb2ff186db8ea6df3982ed5bd1"><td class="memTemplItemLeft" align="right" valign="top">vectorT::value_type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__vectorutils.html#ga580ed1fb2ff186db8ea6df3982ed5bd1">mx::vectorSigmaMean</a> (const vectorT &amp;vec, const vectorT &amp;weights, typename vectorT::value_type sigma)</td></tr>
 <tr class="separator:ga580ed1fb2ff186db8ea6df3982ed5bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga163731ac2a12f7e3e2e28fd8745e3ce9"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:ga163731ac2a12f7e3e2e28fd8745e3ce9"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__vectorutils.html#ga163731ac2a12f7e3e2e28fd8745e3ce9">mx::vectorSmoothMean</a> (std::vector&lt; realT &gt; &amp;smVec, std::vector&lt; realT &gt; &amp;vec, int win)</td></tr>
+<tr class="memdesc:ga163731ac2a12f7e3e2e28fd8745e3ce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Smooth a vector using the mean in a window specified by its full-width.  <a href="group__vectorutils.html#ga163731ac2a12f7e3e2e28fd8745e3ce9">More...</a><br /></td></tr>
+<tr class="separator:ga163731ac2a12f7e3e2e28fd8745e3ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ga1986919834cd5916ded818f2ef0f26a1"></a>
@@ -379,7 +383,7 @@ template&lt;typename vectorT &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="vectorUtils_8hpp_source.html#l00030">30</a> of file <a class="el" href="vectorUtils_8hpp_source.html">vectorUtils.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00660">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::makePSDGrid()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00666">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;::makePSDGrid()</a>.</p>
 
 </div>
 </div>
@@ -597,6 +601,54 @@ template&lt;typename vectorT &gt; </div>
 
 </div>
 </div>
+<a id="ga163731ac2a12f7e3e2e28fd8745e3ce9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga163731ac2a12f7e3e2e28fd8745e3ce9">&#9670;&nbsp;</a></span>vectorSmoothMean()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename realT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int mx::vectorSmoothMean </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; realT &gt; &amp;&#160;</td>
+          <td class="paramname"><em>smVec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; realT &gt; &amp;&#160;</td>
+          <td class="paramname"><em>vec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>win</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Smooth a vector using the mean in a window specified by its full-width. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">smVec</td><td>the smoothed version of the vector </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">vec</td><td>the input vector, unaltered. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">win</td><td>the full-width of the smoothing window </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="vectorUtils_8hpp_source.html#l00325">325</a> of file <a class="el" href="vectorUtils_8hpp_source.html">vectorUtils.hpp</a>.</p>
+
+</div>
+</div>
 <a id="ga8931139d61b25cfd3c73cf715ce23aa8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga8931139d61b25cfd3c73cf715ce23aa8">&#9670;&nbsp;</a></span>vectorVariance() <span class="overload">[1/2]</span></h2>
 
@@ -691,7 +743,7 @@ template&lt;typename vectorT &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jul 18 2017 13:28:02 for mxlib by
+    <li class="footer">Generated on Sat Aug 5 2017 13:34:43 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -94,14 +94,16 @@ $(document).ready(function(){initNavTree('bug.html','');});
 <dt><a class="anchor" id="_bug000001"></a>Class <a class="el" href="structmx_1_1appConfigurator.html">mx::appConfigurator</a>  </dt>
 <dd>a config=value pair listed in a conf file twice seems to cause a failure, even if they are the same value. </dd>
 <dt><a class="anchor" id="_bug000002"></a>Member <a class="el" href="structmx_1_1improc_1_1HCIobservation.html#a6db8cba45cd927c6914c0d9b612d07aa">mx::improc::HCIobservation&lt; _realT &gt;::readFiles</a>  ()</dt>
-<dd>It is this step that is really slow during file reads <em>sometimes</em> </dd>
+<dd>It is this step that is really slow during file reads <em>sometimes</em>  </dd>
+<dt><a class="anchor" id="_bug000003"></a>Member <a class="el" href="structmx_1_1improc_1_1KLIPreduction.html#a9914dcaf1491f383a4404d28c11bee67">mx::improc::KLIPreduction&lt; _realT, _derotFunctObj, _evCalcT &gt;::worker</a>  (<a class="el" href="classmx_1_1improc_1_1eigenCube.html">eigenCube&lt; realT &gt;</a> &amp;rims, std::vector&lt; size_t &gt; &amp;idx, realT dang)</dt>
+<dd>2017-07-18 this omp critical is necessary on jetstream install. Investigation needed. </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jul 18 2017 13:28:02 for mxlib by
+    <li class="footer">Generated on Sat Aug 5 2017 13:34:43 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
