@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>mxlib: fourierModes.hpp File Reference</title>
+<title>mxlib: sigproc/fourierModes.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -102,14 +102,15 @@ $(document).ready(function(){initNavTree('fourierModes_8hpp.html','');});
 
 <p class="definition">Definition in file <a class="el" href="fourierModes_8hpp_source.html">fourierModes.hpp</a>.</p>
 </div><div class="textblock"><code>#include &lt;vector&gt;</code><br />
-<code>#include &quot;<a class="el" href="mxError_8hpp_source.html">mxError.hpp</a>&quot;</code><br />
+<code>#include &lt;boost/math/constants/constants.hpp&gt;</code><br />
+<code>#include &quot;<a class="el" href="mxError_8hpp_source.html">../mxError.hpp</a>&quot;</code><br />
 </div>
 <p><a href="fourierModes_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1fourierModeDef.html">mx::fourierModeDef</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure to contain the parameters of a Fourier mode.  <a href="structmx_1_1fourierModeDef.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1sigproc_1_1fourierModeDef.html">mx::sigproc::fourierModeDef</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure to contain the parameters of a Fourier mode.  <a href="structmx_1_1sigproc_1_1fourierModeDef.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -123,75 +124,75 @@ Namespaces</h2></td></tr>
 <tr class="memitem:gaca9c13dd70ca58a40750886b069fffdc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#gaca9c13dd70ca58a40750886b069fffdc">MX_FOURIER_MODIFIED</a>&#160;&#160;&#160;1</td></tr>
 <tr class="memdesc:gaca9c13dd70ca58a40750886b069fffdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signifies the modified Fourier basis.  <a href="group__fourier__basis.html#gaca9c13dd70ca58a40750886b069fffdc">More...</a><br /></td></tr>
 <tr class="separator:gaca9c13dd70ca58a40750886b069fffdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga13876a98e108e1ef3e8799ee941a6c5c"><td class="memTemplParams" colspan="2">template&lt;class typeN &gt; </td></tr>
-<tr class="memitem:ga13876a98e108e1ef3e8799ee941a6c5c"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga13876a98e108e1ef3e8799ee941a6c5c">mx::makeFourierModeC</a> (typeN im, typename typeN::Scalar m, typename typeN::Scalar n)</td></tr>
-<tr class="memdesc:ga13876a98e108e1ef3e8799ee941a6c5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate a single cosine mode.  <a href="group__fourier__basis.html#ga13876a98e108e1ef3e8799ee941a6c5c">More...</a><br /></td></tr>
-<tr class="separator:ga13876a98e108e1ef3e8799ee941a6c5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga167a311b41ee6760b3643e2ff835e5c3"><td class="memTemplParams" colspan="2">template&lt;class typeN &gt; </td></tr>
-<tr class="memitem:ga167a311b41ee6760b3643e2ff835e5c3"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga167a311b41ee6760b3643e2ff835e5c3">mx::makeFourierModeS</a> (typeN im, typename typeN::Scalar m, typename typeN::Scalar n)</td></tr>
-<tr class="memdesc:ga167a311b41ee6760b3643e2ff835e5c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate a single sine mode.  <a href="group__fourier__basis.html#ga167a311b41ee6760b3643e2ff835e5c3">More...</a><br /></td></tr>
-<tr class="separator:ga167a311b41ee6760b3643e2ff835e5c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga19c865680604c890aeab87405ee59fe5"><td class="memTemplParams" colspan="2">template&lt;class typeN &gt; </td></tr>
-<tr class="memitem:ga19c865680604c890aeab87405ee59fe5"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga19c865680604c890aeab87405ee59fe5">mx::makeFourierMode</a> (typeN im, typename typeN::Scalar m, typename typeN::Scalar n, int p)</td></tr>
-<tr class="memdesc:ga19c865680604c890aeab87405ee59fe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate a single basic Fourier mode.  <a href="group__fourier__basis.html#ga19c865680604c890aeab87405ee59fe5">More...</a><br /></td></tr>
-<tr class="separator:ga19c865680604c890aeab87405ee59fe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4b620f6e7843275a040962c8a9f068ab"><td class="memTemplParams" colspan="2">template&lt;class typeN &gt; </td></tr>
-<tr class="memitem:ga4b620f6e7843275a040962c8a9f068ab"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga4b620f6e7843275a040962c8a9f068ab">mx::makeModifiedFourierMode</a> (typeN im, typename typeN::Scalar m, typename typeN::Scalar n, int p)</td></tr>
-<tr class="memdesc:ga4b620f6e7843275a040962c8a9f068ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate a single modified Fourier mode.  <a href="group__fourier__basis.html#ga4b620f6e7843275a040962c8a9f068ab">More...</a><br /></td></tr>
-<tr class="separator:ga4b620f6e7843275a040962c8a9f068ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga601b5a9c749bb325e594d5dfd4cdf2ff"><td class="memTemplParams" colspan="2">template&lt;class typeN &gt; </td></tr>
-<tr class="memitem:ga601b5a9c749bb325e594d5dfd4cdf2ff"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga601b5a9c749bb325e594d5dfd4cdf2ff">mx::makeModifiedFourierModeP</a> (typeN im, typename typeN::Scalar m, typename typeN::Scalar n)</td></tr>
-<tr class="memdesc:ga601b5a9c749bb325e594d5dfd4cdf2ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate a single modified Fourier +1 mode.  <a href="group__fourier__basis.html#ga601b5a9c749bb325e594d5dfd4cdf2ff">More...</a><br /></td></tr>
-<tr class="separator:ga601b5a9c749bb325e594d5dfd4cdf2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaca0640538d47d137466137d277f9469a"><td class="memTemplParams" colspan="2">template&lt;class typeN &gt; </td></tr>
-<tr class="memitem:gaca0640538d47d137466137d277f9469a"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#gaca0640538d47d137466137d277f9469a">mx::makeModifiedFourierModeM</a> (typeN im, typename typeN::Scalar m, typename typeN::Scalar n)</td></tr>
-<tr class="memdesc:gaca0640538d47d137466137d277f9469a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate a single modified Fourier -1 mode.  <a href="group__fourier__basis.html#gaca0640538d47d137466137d277f9469a">More...</a><br /></td></tr>
-<tr class="separator:gaca0640538d47d137466137d277f9469a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafee0a6ad869a707d1f41928c0692fa77"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#gafee0a6ad869a707d1f41928c0692fa77">mx::comp_fourierModeDef_PandV</a> (const fourierModeDef &amp;spf1, const fourierModeDef &amp;spf2)</td></tr>
-<tr class="memdesc:gafee0a6ad869a707d1f41928c0692fa77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorting functor for modes according to the Poyner and Veran (2005) standard.  <a href="group__fourier__basis.html#gafee0a6ad869a707d1f41928c0692fa77">More...</a><br /></td></tr>
-<tr class="separator:gafee0a6ad869a707d1f41928c0692fa77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4a14c9755b4540b34c52fc3d45a141f7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga4a14c9755b4540b34c52fc3d45a141f7">mx::makeFourierModeFreqs_PandV</a> (std::vector&lt; fourierModeDef &gt; &amp;spf, int N)</td></tr>
-<tr class="memdesc:ga4a14c9755b4540b34c52fc3d45a141f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a Poyneer and Veran spatial frequency grid.  <a href="group__fourier__basis.html#ga4a14c9755b4540b34c52fc3d45a141f7">More...</a><br /></td></tr>
-<tr class="separator:ga4a14c9755b4540b34c52fc3d45a141f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga191a936b8ffeba503bff81d97aafc3da"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga191a936b8ffeba503bff81d97aafc3da">mx::comp_fourierModeDef</a> (const fourierModeDef &amp;spf1, const fourierModeDef &amp;spf2)</td></tr>
-<tr class="memdesc:ga191a936b8ffeba503bff81d97aafc3da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorting functor for modes according to the mx::AO standard.  <a href="group__fourier__basis.html#ga191a936b8ffeba503bff81d97aafc3da">More...</a><br /></td></tr>
-<tr class="separator:ga191a936b8ffeba503bff81d97aafc3da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1a5e5d354d47b9780f7c1b232a767b8e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga1a5e5d354d47b9780f7c1b232a767b8e">mx::makeFourierModeFreqs_Circ</a> (std::vector&lt; fourierModeDef &gt; &amp;spf, int N)</td></tr>
-<tr class="memdesc:ga1a5e5d354d47b9780f7c1b232a767b8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a circular spatial frequency grid.  <a href="group__fourier__basis.html#ga1a5e5d354d47b9780f7c1b232a767b8e">More...</a><br /></td></tr>
-<tr class="separator:ga1a5e5d354d47b9780f7c1b232a767b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5170222c9069f471be37effa01681da4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga5170222c9069f471be37effa01681da4">mx::fourierModeNumber</a> (int m, int n, int p)</td></tr>
-<tr class="memdesc:ga5170222c9069f471be37effa01681da4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the index of a Fourier mode given its (m,n,p) coordinates.  <a href="group__fourier__basis.html#ga5170222c9069f471be37effa01681da4">More...</a><br /></td></tr>
-<tr class="separator:ga5170222c9069f471be37effa01681da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga13c8837b805cf0e2006e4bfef9f16275"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga13c8837b805cf0e2006e4bfef9f16275">mx::fourierModeCoordinates</a> (int &amp;m, int &amp;n, int &amp;p, int i)</td></tr>
-<tr class="memdesc:ga13c8837b805cf0e2006e4bfef9f16275"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the (m,n,p) coordinates of a Fourier mode given its index.  <a href="group__fourier__basis.html#ga13c8837b805cf0e2006e4bfef9f16275">More...</a><br /></td></tr>
-<tr class="separator:ga13c8837b805cf0e2006e4bfef9f16275"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8055011d5f399d2cc73e0ae0f1dee890"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga8055011d5f399d2cc73e0ae0f1dee890">mx::makeFourierModeFreqs_Rect</a> (std::vector&lt; fourierModeDef &gt; &amp;spf, int N)</td></tr>
-<tr class="memdesc:ga8055011d5f399d2cc73e0ae0f1dee890"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a rectangular spatial frequency grid.  <a href="group__fourier__basis.html#ga8055011d5f399d2cc73e0ae0f1dee890">More...</a><br /></td></tr>
-<tr class="separator:ga8055011d5f399d2cc73e0ae0f1dee890"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1f1fa5442c220d6d7106a50f7383169b"><td class="memTemplParams" colspan="2">template&lt;typename cubeT &gt; </td></tr>
-<tr class="memitem:ga1f1fa5442c220d6d7106a50f7383169b"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga1f1fa5442c220d6d7106a50f7383169b">mx::fillFourierBasis</a> (cubeT &amp;cube, int dim, std::vector&lt; fourierModeDef &gt; spf, int basisType)</td></tr>
-<tr class="memdesc:ga1f1fa5442c220d6d7106a50f7383169b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill in a cube with a Fourier basis.  <a href="group__fourier__basis.html#ga1f1fa5442c220d6d7106a50f7383169b">More...</a><br /></td></tr>
-<tr class="separator:ga1f1fa5442c220d6d7106a50f7383169b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8a5d30e7290e2bdce624762f2debc783"><td class="memTemplParams" colspan="2">template&lt;typename cubeT &gt; </td></tr>
-<tr class="memitem:ga8a5d30e7290e2bdce624762f2debc783"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga8a5d30e7290e2bdce624762f2debc783">mx::makeFourierBasis_PandV</a> (cubeT &amp;cube, int dim, int N, int basisType)</td></tr>
-<tr class="memdesc:ga8a5d30e7290e2bdce624762f2debc783"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a rectangular modified Fourier basis with the Poyneer and Veran ordering.  <a href="group__fourier__basis.html#ga8a5d30e7290e2bdce624762f2debc783">More...</a><br /></td></tr>
-<tr class="separator:ga8a5d30e7290e2bdce624762f2debc783"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9c84b194452b7a6bb071c2ad97285d96"><td class="memTemplParams" colspan="2">template&lt;typename cubeT &gt; </td></tr>
-<tr class="memitem:ga9c84b194452b7a6bb071c2ad97285d96"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga9c84b194452b7a6bb071c2ad97285d96">mx::makeFourierBasis_Circ</a> (cubeT &amp;cube, int dim, int N, int basisType)</td></tr>
-<tr class="memdesc:ga9c84b194452b7a6bb071c2ad97285d96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a circular Fourier basis.  <a href="group__fourier__basis.html#ga9c84b194452b7a6bb071c2ad97285d96">More...</a><br /></td></tr>
-<tr class="separator:ga9c84b194452b7a6bb071c2ad97285d96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga135f3ac1763a6657bee65d94d5bb6a31"><td class="memTemplParams" colspan="2">template&lt;typename cubeT &gt; </td></tr>
-<tr class="memitem:ga135f3ac1763a6657bee65d94d5bb6a31"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga135f3ac1763a6657bee65d94d5bb6a31">mx::makeFourierBasis_Rect</a> (cubeT &amp;cube, int dim, int N, int basisType)</td></tr>
-<tr class="memdesc:ga135f3ac1763a6657bee65d94d5bb6a31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a rectangular Fourier basis.  <a href="group__fourier__basis.html#ga135f3ac1763a6657bee65d94d5bb6a31">More...</a><br /></td></tr>
-<tr class="separator:ga135f3ac1763a6657bee65d94d5bb6a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad97f831eb34a6508a3c327c8ff1d1a8e"><td class="memTemplParams" colspan="2">template&lt;class typeN &gt; </td></tr>
+<tr class="memitem:gad97f831eb34a6508a3c327c8ff1d1a8e"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#gad97f831eb34a6508a3c327c8ff1d1a8e">mx::sigproc::makeFourierModeC</a> (typeN im, typename typeN::Scalar m, typename typeN::Scalar n)</td></tr>
+<tr class="memdesc:gad97f831eb34a6508a3c327c8ff1d1a8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate a single cosine mode.  <a href="group__fourier__basis.html#gad97f831eb34a6508a3c327c8ff1d1a8e">More...</a><br /></td></tr>
+<tr class="separator:gad97f831eb34a6508a3c327c8ff1d1a8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0e6e7d63b0d17d7fca0e77fcedbd90f4"><td class="memTemplParams" colspan="2">template&lt;class typeN &gt; </td></tr>
+<tr class="memitem:ga0e6e7d63b0d17d7fca0e77fcedbd90f4"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga0e6e7d63b0d17d7fca0e77fcedbd90f4">mx::sigproc::makeFourierModeS</a> (typeN im, typename typeN::Scalar m, typename typeN::Scalar n)</td></tr>
+<tr class="memdesc:ga0e6e7d63b0d17d7fca0e77fcedbd90f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate a single sine mode.  <a href="group__fourier__basis.html#ga0e6e7d63b0d17d7fca0e77fcedbd90f4">More...</a><br /></td></tr>
+<tr class="separator:ga0e6e7d63b0d17d7fca0e77fcedbd90f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabcdca428cd8cad523ca422377a096a2a"><td class="memTemplParams" colspan="2">template&lt;class typeN &gt; </td></tr>
+<tr class="memitem:gabcdca428cd8cad523ca422377a096a2a"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#gabcdca428cd8cad523ca422377a096a2a">mx::sigproc::makeFourierMode</a> (typeN im, typename typeN::Scalar m, typename typeN::Scalar n, int p)</td></tr>
+<tr class="memdesc:gabcdca428cd8cad523ca422377a096a2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate a single basic Fourier mode.  <a href="group__fourier__basis.html#gabcdca428cd8cad523ca422377a096a2a">More...</a><br /></td></tr>
+<tr class="separator:gabcdca428cd8cad523ca422377a096a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4788ad24a0edcb9d8ae0c024c8eda48e"><td class="memTemplParams" colspan="2">template&lt;class typeN &gt; </td></tr>
+<tr class="memitem:ga4788ad24a0edcb9d8ae0c024c8eda48e"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga4788ad24a0edcb9d8ae0c024c8eda48e">mx::sigproc::makeModifiedFourierMode</a> (typeN im, typename typeN::Scalar m, typename typeN::Scalar n, int p)</td></tr>
+<tr class="memdesc:ga4788ad24a0edcb9d8ae0c024c8eda48e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate a single modified Fourier mode.  <a href="group__fourier__basis.html#ga4788ad24a0edcb9d8ae0c024c8eda48e">More...</a><br /></td></tr>
+<tr class="separator:ga4788ad24a0edcb9d8ae0c024c8eda48e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga94012ee2b190358fb3801224694218eb"><td class="memTemplParams" colspan="2">template&lt;class typeN &gt; </td></tr>
+<tr class="memitem:ga94012ee2b190358fb3801224694218eb"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga94012ee2b190358fb3801224694218eb">mx::sigproc::makeModifiedFourierModeP</a> (typeN im, typename typeN::Scalar m, typename typeN::Scalar n)</td></tr>
+<tr class="memdesc:ga94012ee2b190358fb3801224694218eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate a single modified Fourier +1 mode.  <a href="group__fourier__basis.html#ga94012ee2b190358fb3801224694218eb">More...</a><br /></td></tr>
+<tr class="separator:ga94012ee2b190358fb3801224694218eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0d2a2f5b94925db8f6b23b70e3efccf4"><td class="memTemplParams" colspan="2">template&lt;class typeN &gt; </td></tr>
+<tr class="memitem:ga0d2a2f5b94925db8f6b23b70e3efccf4"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga0d2a2f5b94925db8f6b23b70e3efccf4">mx::sigproc::makeModifiedFourierModeM</a> (typeN im, typename typeN::Scalar m, typename typeN::Scalar n)</td></tr>
+<tr class="memdesc:ga0d2a2f5b94925db8f6b23b70e3efccf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate a single modified Fourier -1 mode.  <a href="group__fourier__basis.html#ga0d2a2f5b94925db8f6b23b70e3efccf4">More...</a><br /></td></tr>
+<tr class="separator:ga0d2a2f5b94925db8f6b23b70e3efccf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf980531e659c8662344c20817ac40e45"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#gaf980531e659c8662344c20817ac40e45">mx::sigproc::comp_fourierModeDef_PandV</a> (const fourierModeDef &amp;spf1, const fourierModeDef &amp;spf2)</td></tr>
+<tr class="memdesc:gaf980531e659c8662344c20817ac40e45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorting functor for modes according to the Poyner and Veran (2005) standard.  <a href="group__fourier__basis.html#gaf980531e659c8662344c20817ac40e45">More...</a><br /></td></tr>
+<tr class="separator:gaf980531e659c8662344c20817ac40e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacaba39501cb18e7e623277338bb02da1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#gacaba39501cb18e7e623277338bb02da1">mx::sigproc::makeFourierModeFreqs_PandV</a> (std::vector&lt; fourierModeDef &gt; &amp;spf, int N)</td></tr>
+<tr class="memdesc:gacaba39501cb18e7e623277338bb02da1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a Poyneer and Veran spatial frequency grid.  <a href="group__fourier__basis.html#gacaba39501cb18e7e623277338bb02da1">More...</a><br /></td></tr>
+<tr class="separator:gacaba39501cb18e7e623277338bb02da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga66b17b4fe4f81ecfef02cf13246e15ab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga66b17b4fe4f81ecfef02cf13246e15ab">mx::sigproc::comp_fourierModeDef</a> (const fourierModeDef &amp;spf1, const fourierModeDef &amp;spf2)</td></tr>
+<tr class="memdesc:ga66b17b4fe4f81ecfef02cf13246e15ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorting functor for modes according to the mx::AO standard.  <a href="group__fourier__basis.html#ga66b17b4fe4f81ecfef02cf13246e15ab">More...</a><br /></td></tr>
+<tr class="separator:ga66b17b4fe4f81ecfef02cf13246e15ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9e282ff5bd3482baac97c36a10e3eb4f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga9e282ff5bd3482baac97c36a10e3eb4f">mx::sigproc::makeFourierModeFreqs_Circ</a> (std::vector&lt; fourierModeDef &gt; &amp;spf, int N)</td></tr>
+<tr class="memdesc:ga9e282ff5bd3482baac97c36a10e3eb4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a circular spatial frequency grid.  <a href="group__fourier__basis.html#ga9e282ff5bd3482baac97c36a10e3eb4f">More...</a><br /></td></tr>
+<tr class="separator:ga9e282ff5bd3482baac97c36a10e3eb4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga95abd22ecd034a666dab91cc31e9c54a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga95abd22ecd034a666dab91cc31e9c54a">mx::sigproc::fourierModeNumber</a> (int m, int n, int p)</td></tr>
+<tr class="memdesc:ga95abd22ecd034a666dab91cc31e9c54a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the index of a Fourier mode given its (m,n,p) coordinates.  <a href="group__fourier__basis.html#ga95abd22ecd034a666dab91cc31e9c54a">More...</a><br /></td></tr>
+<tr class="separator:ga95abd22ecd034a666dab91cc31e9c54a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1e41643ee55c12b8d6777f4736460b08"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga1e41643ee55c12b8d6777f4736460b08">mx::sigproc::fourierModeCoordinates</a> (int &amp;m, int &amp;n, int &amp;p, int i)</td></tr>
+<tr class="memdesc:ga1e41643ee55c12b8d6777f4736460b08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the (m,n,p) coordinates of a Fourier mode given its index.  <a href="group__fourier__basis.html#ga1e41643ee55c12b8d6777f4736460b08">More...</a><br /></td></tr>
+<tr class="separator:ga1e41643ee55c12b8d6777f4736460b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4b7d2d148eb078037ac20074bbbcc357"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga4b7d2d148eb078037ac20074bbbcc357">mx::sigproc::makeFourierModeFreqs_Rect</a> (std::vector&lt; fourierModeDef &gt; &amp;spf, int N)</td></tr>
+<tr class="memdesc:ga4b7d2d148eb078037ac20074bbbcc357"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a rectangular spatial frequency grid.  <a href="group__fourier__basis.html#ga4b7d2d148eb078037ac20074bbbcc357">More...</a><br /></td></tr>
+<tr class="separator:ga4b7d2d148eb078037ac20074bbbcc357"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab6ce642d471acce4871e2e07d1514846"><td class="memTemplParams" colspan="2">template&lt;typename cubeT &gt; </td></tr>
+<tr class="memitem:gab6ce642d471acce4871e2e07d1514846"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#gab6ce642d471acce4871e2e07d1514846">mx::sigproc::fillFourierBasis</a> (cubeT &amp;cube, int dim, std::vector&lt; fourierModeDef &gt; spf, int basisType)</td></tr>
+<tr class="memdesc:gab6ce642d471acce4871e2e07d1514846"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill in a cube with a Fourier basis.  <a href="group__fourier__basis.html#gab6ce642d471acce4871e2e07d1514846">More...</a><br /></td></tr>
+<tr class="separator:gab6ce642d471acce4871e2e07d1514846"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga577bc56e87870842ab37b6659a30c491"><td class="memTemplParams" colspan="2">template&lt;typename cubeT &gt; </td></tr>
+<tr class="memitem:ga577bc56e87870842ab37b6659a30c491"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga577bc56e87870842ab37b6659a30c491">mx::sigproc::makeFourierBasis_PandV</a> (cubeT &amp;cube, int dim, int N, int basisType)</td></tr>
+<tr class="memdesc:ga577bc56e87870842ab37b6659a30c491"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a rectangular modified Fourier basis with the Poyneer and Veran ordering.  <a href="group__fourier__basis.html#ga577bc56e87870842ab37b6659a30c491">More...</a><br /></td></tr>
+<tr class="separator:ga577bc56e87870842ab37b6659a30c491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga365be757fe57b1014ad8de4ee5e0776e"><td class="memTemplParams" colspan="2">template&lt;typename cubeT &gt; </td></tr>
+<tr class="memitem:ga365be757fe57b1014ad8de4ee5e0776e"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#ga365be757fe57b1014ad8de4ee5e0776e">mx::sigproc::makeFourierBasis_Circ</a> (cubeT &amp;cube, int dim, int N, int basisType)</td></tr>
+<tr class="memdesc:ga365be757fe57b1014ad8de4ee5e0776e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a circular Fourier basis.  <a href="group__fourier__basis.html#ga365be757fe57b1014ad8de4ee5e0776e">More...</a><br /></td></tr>
+<tr class="separator:ga365be757fe57b1014ad8de4ee5e0776e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae98182594c692cbf3aa1c55977132b5f"><td class="memTemplParams" colspan="2">template&lt;typename cubeT &gt; </td></tr>
+<tr class="memitem:gae98182594c692cbf3aa1c55977132b5f"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fourier__basis.html#gae98182594c692cbf3aa1c55977132b5f">mx::sigproc::makeFourierBasis_Rect</a> (cubeT &amp;cube, int dim, int N, int basisType)</td></tr>
+<tr class="memdesc:gae98182594c692cbf3aa1c55977132b5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a rectangular Fourier basis.  <a href="group__fourier__basis.html#gae98182594c692cbf3aa1c55977132b5f">More...</a><br /></td></tr>
+<tr class="separator:gae98182594c692cbf3aa1c55977132b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="fourierModes_8hpp.html">fourierModes.hpp</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 13:34:43 for mxlib by
+    <li class="navelem"><a class="el" href="dir_749a31579df8fa01bae22bb783a391d0.html">sigproc</a></li><li class="navelem"><a class="el" href="fourierModes_8hpp.html">fourierModes.hpp</a></li>
+    <li class="footer">Generated on Wed Aug 30 2017 23:13:58 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

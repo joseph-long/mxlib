@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['meancombine',['meanCombine',['../group__hc__imaging__enums.html#gga1af050405983cd62f812ec2c6809603eaea9e0fb17ff76149d07a1774f1b5329d',1,'mx::improc::HCI']]],
-  ['mediancombine',['medianCombine',['../group__hc__imaging__enums.html#gga1af050405983cd62f812ec2c6809603eaf2b98cc56b125154fa3d0e16ebba0433',1,'mx::improc::HCI']]],
-  ['modified',['modified',['../fourierTemporalPSD_8hpp.html#adfa9e8f0b7cedf78ed6a4faed760b99eab5a8702b77bbe73bf6f0cc3f908160a5',1,'mx::AO']]]
+  ['dispamplitude',['dispAmplitude',['../aoPSDs_8hpp.html#a0f4baedf7d74d4e8cefdb04d40c95e49a1881a31639caa4d33d553a88a7da3959',1,'mx::AO::analysis::PSDComponent']]],
+  ['dispphase',['dispPhase',['../aoPSDs_8hpp.html#a0f4baedf7d74d4e8cefdb04d40c95e49ad7324e009fdd796c041bc53935641b00',1,'mx::AO::analysis::PSDComponent']]]
 ];

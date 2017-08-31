@@ -88,7 +88,8 @@ $(document).ready(function(){initNavTree('aoPSDs_8hpp.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
 <div class="title">aoPSDs.hpp File Reference<div class="ingroups"><a class="el" href="group__imaging.html">Wavefront Propagation</a> &raquo; <a class="el" href="group__mxAO.html">Adaptive Optics</a> &raquo; <a class="el" href="group__mxAO__files.html">Adaptive Optics Files</a></div></div>  </div>
 </div><!--header-->
@@ -111,8 +112,8 @@ $(document).ready(function(){initNavTree('aoPSDs_8hpp.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1vonKarmanSpectrum.html">mx::AO::vonKarmanSpectrum&lt; realT &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manage calculations using the von Karman spatial power spectrum.  <a href="structmx_1_1AO_1_1vonKarmanSpectrum.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1analysis_1_1vonKarmanSpectrum.html">mx::AO::analysis::vonKarmanSpectrum&lt; realT &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manage calculations using the von Karman spatial power spectrum.  <a href="structmx_1_1AO_1_1analysis_1_1vonKarmanSpectrum.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -120,14 +121,53 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacemx"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemx.html">mx</a></td></tr>
 <tr class="memdesc:namespacemx"><td class="mdescLeft">&#160;</td><td class="mdescRight">The mxlib c++ namespace. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a0f4baedf7d74d4e8cefdb04d40c95e49"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="aoPSDs_8hpp.html#a0f4baedf7d74d4e8cefdb04d40c95e49ab92df95df4ca7319ae092e568a1f7408">mx::AO::analysis::PSDComponent::phase</a>, 
+<a class="el" href="aoPSDs_8hpp.html#a0f4baedf7d74d4e8cefdb04d40c95e49af20f57efb700598dcb2ae18149793261">mx::AO::analysis::PSDComponent::amplitude</a>, 
+<a class="el" href="aoPSDs_8hpp.html#a0f4baedf7d74d4e8cefdb04d40c95e49ad7324e009fdd796c041bc53935641b00">mx::AO::analysis::PSDComponent::dispPhase</a>, 
+<a class="el" href="aoPSDs_8hpp.html#a0f4baedf7d74d4e8cefdb04d40c95e49a1881a31639caa4d33d553a88a7da3959">mx::AO::analysis::PSDComponent::dispAmplitude</a>
+ }<tr class="memdesc:a0f4baedf7d74d4e8cefdb04d40c95e49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum to specify which component of the PSD to calcualte.  <a href="aoPSDs_8hpp.html#a0f4baedf7d74d4e8cefdb04d40c95e49">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a0f4baedf7d74d4e8cefdb04d40c95e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="file_a0f4baedf7d74d4e8cefdb04d40c95e49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#file_a0f4baedf7d74d4e8cefdb04d40c95e49">&#9670;&nbsp;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enum to specify which component of the PSD to calcualte. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0f4baedf7d74d4e8cefdb04d40c95e49ab92df95df4ca7319ae092e568a1f7408"></a>phase&#160;</td><td class="fielddoc"><p>The phase or OPD. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a0f4baedf7d74d4e8cefdb04d40c95e49af20f57efb700598dcb2ae18149793261"></a>amplitude&#160;</td><td class="fielddoc"><p>The amplitude. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a0f4baedf7d74d4e8cefdb04d40c95e49ad7324e009fdd796c041bc53935641b00"></a>dispPhase&#160;</td><td class="fielddoc"><p>The phase component of dispersive anisoplanatism. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a0f4baedf7d74d4e8cefdb04d40c95e49a1881a31639caa4d33d553a88a7da3959"></a>dispAmplitude&#160;</td><td class="fielddoc"><p>The amplitude component of dispersive anisoplanatism. </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="aoPSDs_8hpp_source.html#l00033">33</a> of file <a class="el" href="aoPSDs_8hpp_source.html">aoPSDs.hpp</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4a0bf71ba3138a6abb584fb74c18f794.html">ao</a></li><li class="navelem"><a class="el" href="dir_cf528a69cdca6105739343681d2398d1.html">analysis</a></li><li class="navelem"><a class="el" href="aoPSDs_8hpp.html">aoPSDs.hpp</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 13:34:43 for mxlib by
+    <li class="footer">Generated on Wed Aug 30 2017 23:13:57 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

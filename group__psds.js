@@ -24,7 +24,7 @@ var group__psds =
       [ "fft_back", "classmx_1_1sigproc_1_1psdFilter.html#a751d809d5a503d49e6bdb8a343786903", null ],
       [ "fft_fwd", "classmx_1_1sigproc_1_1psdFilter.html#abe85a0df28ab817d56e139bf84ece945", null ]
     ] ],
-    [ "augment1SidedPSD", "group__psds.html#gab462b0d5d3bff8bdc108433a87324c01", null ],
+    [ "augment1SidedPSD", "group__psds.html#ga4a3bfd131b011f02ff71d1303e47dfd5", null ],
     [ "augment1SidedPSDFreq", "group__psds.html#ga9be4feb5c4ac0b44608a726306b0311a", null ],
     [ "averagePeriodogram", "group__psds.html#gaf95c3d909800ffc09f4c776f3f7a06b3", null ],
     [ "freq_sampling", "group__psds.html#gad62e6e7fd9fde862c407f3d6613e6374", null ],

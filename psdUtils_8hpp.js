@@ -1,6 +1,6 @@
 var psdUtils_8hpp =
 [
-    [ "augment1SidedPSD", "psdUtils_8hpp.html#gab462b0d5d3bff8bdc108433a87324c01", null ],
+    [ "augment1SidedPSD", "psdUtils_8hpp.html#ga4a3bfd131b011f02ff71d1303e47dfd5", null ],
     [ "augment1SidedPSDFreq", "psdUtils_8hpp.html#ga9be4feb5c4ac0b44608a726306b0311a", null ],
     [ "averagePeriodogram", "psdUtils_8hpp.html#gaf95c3d909800ffc09f4c776f3f7a06b3", null ],
     [ "freq_sampling", "psdUtils_8hpp.html#gad62e6e7fd9fde862c407f3d6613e6374", null ],

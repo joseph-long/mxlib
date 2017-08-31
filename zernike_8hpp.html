@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>mxlib: zernike.hpp File Reference</title>
+<title>mxlib: sigproc/zernike.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('zernike_8hpp.html','');});
 <a name="details" id="details"></a><h2 class="groupheader"> </h2>
 <div class="textblock"><p>Working with the Zernike polynomials. </p>
 <dl class="section author"><dt>Author</dt><dd>Jared R. Males (<a href="#" onclick="location.href='mai'+'lto:'+'jar'+'ed'+'mal'+'es'+'@gm'+'ai'+'l.c'+'om'; return false;">jared<span style="display: none;">.nosp@m.</span>male<span style="display: none;">.nosp@m.</span>s@gma<span style="display: none;">.nosp@m.</span>il.c<span style="display: none;">.nosp@m.</span>om</a>) </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo:</a></b></dt><dd>the basic zernike polys should be in math::func.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>the basic zernike polys should be in math::func.</dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="zernike_8hpp_source.html">zernike.hpp</a>.</p>
 </div><div class="textblock"><code>#include &lt;cmath&gt;</code><br />
@@ -119,57 +119,57 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
-<tr class="memitem:ga4833a57cb9616f08fb9c921c3daed815"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__zernike__basis.html#ga4833a57cb9616f08fb9c921c3daed815">mx::noll_nm</a> (int &amp;n, int &amp;m, int j)</td></tr>
-<tr class="memdesc:ga4833a57cb9616f08fb9c921c3daed815"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Zernike coefficients n,m corrresponding the Noll index j.  <a href="group__zernike__basis.html#ga4833a57cb9616f08fb9c921c3daed815">More...</a><br /></td></tr>
-<tr class="separator:ga4833a57cb9616f08fb9c921c3daed815"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac0e1bdc2cca8db3a202cb89049595721"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
-<tr class="memitem:gac0e1bdc2cca8db3a202cb89049595721"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__zernike__basis.html#gac0e1bdc2cca8db3a202cb89049595721">mx::zernikeRCoeffs</a> (std::vector&lt; realT &gt; &amp;c, int n, int m)</td></tr>
-<tr class="memdesc:gac0e1bdc2cca8db3a202cb89049595721"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the coefficients of a Zernike radial polynomial.  <a href="group__zernike__basis.html#gac0e1bdc2cca8db3a202cb89049595721">More...</a><br /></td></tr>
-<tr class="separator:gac0e1bdc2cca8db3a202cb89049595721"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac5672544a29f1666018194086ac6192c"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
-<tr class="memitem:gac5672544a29f1666018194086ac6192c"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__zernike__basis.html#gac5672544a29f1666018194086ac6192c">mx::zernikeR</a> (realT rho, int n, int m, std::vector&lt; realT &gt; &amp;c)</td></tr>
-<tr class="memdesc:gac5672544a29f1666018194086ac6192c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the value of a Zernike radial polynomial at a given separation.  <a href="group__zernike__basis.html#gac5672544a29f1666018194086ac6192c">More...</a><br /></td></tr>
-<tr class="separator:gac5672544a29f1666018194086ac6192c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga58b8a06ed1599cdda9bf0410b5fb6d3e"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
-<tr class="memitem:ga58b8a06ed1599cdda9bf0410b5fb6d3e"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__zernike__basis.html#ga58b8a06ed1599cdda9bf0410b5fb6d3e">mx::zernikeR</a> (realT rho, int n, int m)</td></tr>
-<tr class="memdesc:ga58b8a06ed1599cdda9bf0410b5fb6d3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the value of a Zernike radial polynomial at a given separation.  <a href="group__zernike__basis.html#ga58b8a06ed1599cdda9bf0410b5fb6d3e">More...</a><br /></td></tr>
-<tr class="separator:ga58b8a06ed1599cdda9bf0410b5fb6d3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaedc4f1d8bd08d2f0ecd67e6fc1ceb396"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
-<tr class="memitem:gaedc4f1d8bd08d2f0ecd67e6fc1ceb396"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__zernike__basis.html#gaedc4f1d8bd08d2f0ecd67e6fc1ceb396">mx::zernike</a> (realT rho, realT phi, int n, int m, std::vector&lt; realT &gt; &amp;c)</td></tr>
-<tr class="memdesc:gaedc4f1d8bd08d2f0ecd67e6fc1ceb396"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the value of a Zernike radial polynomial at a given radius and angle.  <a href="group__zernike__basis.html#gaedc4f1d8bd08d2f0ecd67e6fc1ceb396">More...</a><br /></td></tr>
-<tr class="separator:gaedc4f1d8bd08d2f0ecd67e6fc1ceb396"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeb9167937cb880c50411d8f72aeda392"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
-<tr class="memitem:gaeb9167937cb880c50411d8f72aeda392"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__zernike__basis.html#gaeb9167937cb880c50411d8f72aeda392">mx::zernike</a> (realT rho, realT phi, int n, int m)</td></tr>
-<tr class="memdesc:gaeb9167937cb880c50411d8f72aeda392"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the value of a Zernike radial polynomial at a given radius and angle.  <a href="group__zernike__basis.html#gaeb9167937cb880c50411d8f72aeda392">More...</a><br /></td></tr>
-<tr class="separator:gaeb9167937cb880c50411d8f72aeda392"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7059f72a290f065c2d46f10a0552f409"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
-<tr class="memitem:ga7059f72a290f065c2d46f10a0552f409"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__zernike__basis.html#ga7059f72a290f065c2d46f10a0552f409">mx::zernike</a> (realT rho, realT phi, int j)</td></tr>
-<tr class="memdesc:ga7059f72a290f065c2d46f10a0552f409"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the value of a Zernike radial polynomial at a given radius and angle.  <a href="group__zernike__basis.html#ga7059f72a290f065c2d46f10a0552f409">More...</a><br /></td></tr>
-<tr class="separator:ga7059f72a290f065c2d46f10a0552f409"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad8ee2b760024e8106bf5aa4688121efa"><td class="memTemplParams" colspan="2">template&lt;typename arrayT , int overscan = 2&gt; </td></tr>
-<tr class="memitem:gad8ee2b760024e8106bf5aa4688121efa"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__zernike__basis.html#gad8ee2b760024e8106bf5aa4688121efa">mx::zernike</a> (arrayT &amp;arr, int n, int m, typename arrayT::Scalar xcen, typename arrayT::Scalar ycen, typename arrayT::Scalar rad=-1)</td></tr>
-<tr class="memdesc:gad8ee2b760024e8106bf5aa4688121efa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill in an Eigen-like array with a Zernike polynomial.  <a href="group__zernike__basis.html#gad8ee2b760024e8106bf5aa4688121efa">More...</a><br /></td></tr>
-<tr class="separator:gad8ee2b760024e8106bf5aa4688121efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga287ee271daf7ed5e8cd004a72f93a52b"><td class="memTemplParams" colspan="2">template&lt;typename arrayT &gt; </td></tr>
-<tr class="memitem:ga287ee271daf7ed5e8cd004a72f93a52b"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__zernike__basis.html#ga287ee271daf7ed5e8cd004a72f93a52b">mx::zernike</a> (arrayT &amp;arr, int j, typename arrayT::Scalar xcen, typename arrayT::Scalar ycen, typename arrayT::Scalar rad=-1)</td></tr>
-<tr class="memdesc:ga287ee271daf7ed5e8cd004a72f93a52b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill in an Eigen-like array with a Zernike polynomial.  <a href="group__zernike__basis.html#ga287ee271daf7ed5e8cd004a72f93a52b">More...</a><br /></td></tr>
-<tr class="separator:ga287ee271daf7ed5e8cd004a72f93a52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafd32daa625a62aeb758afac8e251aaa8"><td class="memTemplParams" colspan="2">template&lt;typename arrayT &gt; </td></tr>
-<tr class="memitem:gafd32daa625a62aeb758afac8e251aaa8"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__zernike__basis.html#gafd32daa625a62aeb758afac8e251aaa8">mx::zernike</a> (arrayT &amp;arr, int n, int m, typename arrayT::Scalar rad=-1)</td></tr>
-<tr class="memdesc:gafd32daa625a62aeb758afac8e251aaa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill in an Eigen-like array with a Zernike polynomial.  <a href="group__zernike__basis.html#gafd32daa625a62aeb758afac8e251aaa8">More...</a><br /></td></tr>
-<tr class="separator:gafd32daa625a62aeb758afac8e251aaa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaaa8fe60d58135a9d42842bbb4d127d7c"><td class="memTemplParams" colspan="2">template&lt;typename arrayT &gt; </td></tr>
-<tr class="memitem:gaaa8fe60d58135a9d42842bbb4d127d7c"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__zernike__basis.html#gaaa8fe60d58135a9d42842bbb4d127d7c">mx::zernike</a> (arrayT &amp;arr, int j, typename arrayT::Scalar rad=-1)</td></tr>
-<tr class="memdesc:gaaa8fe60d58135a9d42842bbb4d127d7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill in an Eigen-like array with a Zernike polynomial.  <a href="group__zernike__basis.html#gaaa8fe60d58135a9d42842bbb4d127d7c">More...</a><br /></td></tr>
-<tr class="separator:gaaa8fe60d58135a9d42842bbb4d127d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaf5fdab614542171202d1d8226a9bb6e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__zernike__basis.html#gaaf5fdab614542171202d1d8226a9bb6e">mx::sigproc::noll_nm</a> (int &amp;n, int &amp;m, int j)</td></tr>
+<tr class="memdesc:gaaf5fdab614542171202d1d8226a9bb6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Zernike coefficients n,m corrresponding the Noll index j.  <a href="group__zernike__basis.html#gaaf5fdab614542171202d1d8226a9bb6e">More...</a><br /></td></tr>
+<tr class="separator:gaaf5fdab614542171202d1d8226a9bb6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae64ae7b6ea0261fde0ad6d6b3d1599d6"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:gae64ae7b6ea0261fde0ad6d6b3d1599d6"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__zernike__basis.html#gae64ae7b6ea0261fde0ad6d6b3d1599d6">mx::sigproc::zernikeRCoeffs</a> (std::vector&lt; realT &gt; &amp;c, int n, int m)</td></tr>
+<tr class="memdesc:gae64ae7b6ea0261fde0ad6d6b3d1599d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the coefficients of a Zernike radial polynomial.  <a href="group__zernike__basis.html#gae64ae7b6ea0261fde0ad6d6b3d1599d6">More...</a><br /></td></tr>
+<tr class="separator:gae64ae7b6ea0261fde0ad6d6b3d1599d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaca83fbc4944e1f3e0123794ebf214bb"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:gaaca83fbc4944e1f3e0123794ebf214bb"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__zernike__basis.html#gaaca83fbc4944e1f3e0123794ebf214bb">mx::sigproc::zernikeR</a> (realT rho, int n, int m, std::vector&lt; realT &gt; &amp;c)</td></tr>
+<tr class="memdesc:gaaca83fbc4944e1f3e0123794ebf214bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the value of a Zernike radial polynomial at a given separation.  <a href="group__zernike__basis.html#gaaca83fbc4944e1f3e0123794ebf214bb">More...</a><br /></td></tr>
+<tr class="separator:gaaca83fbc4944e1f3e0123794ebf214bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac76f282526c9780f7388009e0310b06b"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:gac76f282526c9780f7388009e0310b06b"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__zernike__basis.html#gac76f282526c9780f7388009e0310b06b">mx::sigproc::zernikeR</a> (realT rho, int n, int m)</td></tr>
+<tr class="memdesc:gac76f282526c9780f7388009e0310b06b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the value of a Zernike radial polynomial at a given separation.  <a href="group__zernike__basis.html#gac76f282526c9780f7388009e0310b06b">More...</a><br /></td></tr>
+<tr class="separator:gac76f282526c9780f7388009e0310b06b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaa7747f8484054f7fe4d9de0ebb69857"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:gaaa7747f8484054f7fe4d9de0ebb69857"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__zernike__basis.html#gaaa7747f8484054f7fe4d9de0ebb69857">mx::sigproc::zernike</a> (realT rho, realT phi, int n, int m, std::vector&lt; realT &gt; &amp;c)</td></tr>
+<tr class="memdesc:gaaa7747f8484054f7fe4d9de0ebb69857"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the value of a Zernike radial polynomial at a given radius and angle.  <a href="group__zernike__basis.html#gaaa7747f8484054f7fe4d9de0ebb69857">More...</a><br /></td></tr>
+<tr class="separator:gaaa7747f8484054f7fe4d9de0ebb69857"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6051c68b362193de2abd34b7744ce97f"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:ga6051c68b362193de2abd34b7744ce97f"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__zernike__basis.html#ga6051c68b362193de2abd34b7744ce97f">mx::sigproc::zernike</a> (realT rho, realT phi, int n, int m)</td></tr>
+<tr class="memdesc:ga6051c68b362193de2abd34b7744ce97f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the value of a Zernike radial polynomial at a given radius and angle.  <a href="group__zernike__basis.html#ga6051c68b362193de2abd34b7744ce97f">More...</a><br /></td></tr>
+<tr class="separator:ga6051c68b362193de2abd34b7744ce97f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad01ef1045903fd6d422a1e863db2c667"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:gad01ef1045903fd6d422a1e863db2c667"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__zernike__basis.html#gad01ef1045903fd6d422a1e863db2c667">mx::sigproc::zernike</a> (realT rho, realT phi, int j)</td></tr>
+<tr class="memdesc:gad01ef1045903fd6d422a1e863db2c667"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the value of a Zernike radial polynomial at a given radius and angle.  <a href="group__zernike__basis.html#gad01ef1045903fd6d422a1e863db2c667">More...</a><br /></td></tr>
+<tr class="separator:gad01ef1045903fd6d422a1e863db2c667"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga041e4516ee2250d355cc4f154f32c7c1"><td class="memTemplParams" colspan="2">template&lt;typename arrayT , int overscan = 2&gt; </td></tr>
+<tr class="memitem:ga041e4516ee2250d355cc4f154f32c7c1"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__zernike__basis.html#ga041e4516ee2250d355cc4f154f32c7c1">mx::sigproc::zernike</a> (arrayT &amp;arr, int n, int m, typename arrayT::Scalar xcen, typename arrayT::Scalar ycen, typename arrayT::Scalar rad=-1)</td></tr>
+<tr class="memdesc:ga041e4516ee2250d355cc4f154f32c7c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill in an Eigen-like array with a Zernike polynomial.  <a href="group__zernike__basis.html#ga041e4516ee2250d355cc4f154f32c7c1">More...</a><br /></td></tr>
+<tr class="separator:ga041e4516ee2250d355cc4f154f32c7c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7fa3841c4da321760f2dbebfee2f85d9"><td class="memTemplParams" colspan="2">template&lt;typename arrayT &gt; </td></tr>
+<tr class="memitem:ga7fa3841c4da321760f2dbebfee2f85d9"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__zernike__basis.html#ga7fa3841c4da321760f2dbebfee2f85d9">mx::sigproc::zernike</a> (arrayT &amp;arr, int j, typename arrayT::Scalar xcen, typename arrayT::Scalar ycen, typename arrayT::Scalar rad=-1)</td></tr>
+<tr class="memdesc:ga7fa3841c4da321760f2dbebfee2f85d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill in an Eigen-like array with a Zernike polynomial.  <a href="group__zernike__basis.html#ga7fa3841c4da321760f2dbebfee2f85d9">More...</a><br /></td></tr>
+<tr class="separator:ga7fa3841c4da321760f2dbebfee2f85d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4dd62fb08e12e04c7aa4b6fa6a0f30c7"><td class="memTemplParams" colspan="2">template&lt;typename arrayT &gt; </td></tr>
+<tr class="memitem:ga4dd62fb08e12e04c7aa4b6fa6a0f30c7"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__zernike__basis.html#ga4dd62fb08e12e04c7aa4b6fa6a0f30c7">mx::sigproc::zernike</a> (arrayT &amp;arr, int n, int m, typename arrayT::Scalar rad=-1)</td></tr>
+<tr class="memdesc:ga4dd62fb08e12e04c7aa4b6fa6a0f30c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill in an Eigen-like array with a Zernike polynomial.  <a href="group__zernike__basis.html#ga4dd62fb08e12e04c7aa4b6fa6a0f30c7">More...</a><br /></td></tr>
+<tr class="separator:ga4dd62fb08e12e04c7aa4b6fa6a0f30c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad7469148db0af2f8d47e2d254bbb6190"><td class="memTemplParams" colspan="2">template&lt;typename arrayT &gt; </td></tr>
+<tr class="memitem:gad7469148db0af2f8d47e2d254bbb6190"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__zernike__basis.html#gad7469148db0af2f8d47e2d254bbb6190">mx::sigproc::zernike</a> (arrayT &amp;arr, int j, typename arrayT::Scalar rad=-1)</td></tr>
+<tr class="memdesc:gad7469148db0af2f8d47e2d254bbb6190"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill in an Eigen-like array with a Zernike polynomial.  <a href="group__zernike__basis.html#gad7469148db0af2f8d47e2d254bbb6190">More...</a><br /></td></tr>
+<tr class="separator:gad7469148db0af2f8d47e2d254bbb6190"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="zernike_8hpp.html">zernike.hpp</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 13:34:43 for mxlib by
+    <li class="navelem"><a class="el" href="dir_749a31579df8fa01bae22bb783a391d0.html">sigproc</a></li><li class="navelem"><a class="el" href="zernike_8hpp.html">zernike.hpp</a></li>
+    <li class="footer">Generated on Wed Aug 30 2017 23:13:58 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

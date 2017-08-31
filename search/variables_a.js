@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['k',['k',['../structmx_1_1AO_1_1fourierCovariance.html#a11d4b60d1d1cfc481715c9092d5f2345',1,'mx::AO::fourierCovariance']]],
-  ['k_5fw',['k_w',['../structmx_1_1AO_1_1fourierCovariance.html#ab83e7ac62c88398e514a28e74aa4c177',1,'mx::AO::fourierCovariance']]],
+  ['k',['k',['../structmx_1_1AO_1_1analysis_1_1fourierCovariance.html#af7c798e0c3079a48aea0f819b937f285',1,'mx::AO::analysis::fourierCovariance']]],
+  ['k_5fw',['k_w',['../structmx_1_1AO_1_1analysis_1_1fourierCovariance.html#ae26a199e9568c7258dcf5c11985887b9',1,'mx::AO::analysis::fourierCovariance']]],
   ['key',['key',['../structsharedmem__segment.html#ae97b6ec7787b16220ba18492ed37c271',1,'sharedmem_segment::key()'],['../classsharedMemSegment.html#a647a261a94864339e4e0945c9a8c6b7e',1,'sharedMemSegment::key()']]],
   ['key_5fid',['key_id',['../structsharedmem__segment.html#a9cb79650343ce974ea2fee3a317d9081',1,'sharedmem_segment::key_id()'],['../classsharedMemSegment.html#a16f51dbbc0b1dc8e20dc9cc2a70280d2',1,'sharedMemSegment::key_id()']]],
   ['key_5fpath',['key_path',['../structsharedmem__segment.html#a0a027435884951089e98e5babf938050',1,'sharedmem_segment::key_path()'],['../classsharedMemSegment.html#a1117e908061ebafa784630da8dcc39eb',1,'sharedMemSegment::key_path()']]],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['basic',['basic',['../fourierTemporalPSD_8hpp.html#adfa9e8f0b7cedf78ed6a4faed760b99eadb3681030cf8d61236bfe5d386e4c068',1,'mx::AO']]]
+  ['amplitude',['amplitude',['../aoPSDs_8hpp.html#a0f4baedf7d74d4e8cefdb04d40c95e49af20f57efb700598dcb2ae18149793261',1,'mx::AO::analysis::PSDComponent']]]
 ];

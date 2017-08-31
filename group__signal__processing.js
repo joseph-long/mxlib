@@ -4,7 +4,9 @@ var group__signal__processing =
       [ "operator()", "structmx_1_1sigproc_1_1autocorrelationFromPSD.html#ac2814d49690e650b397cae9b94eb02bd", null ],
       [ "operator()", "structmx_1_1sigproc_1_1autocorrelationFromPSD.html#a432a12d1a7eeb73d8b356f72e9c5803e", null ]
     ] ],
-    [ "linearPredictor", "structmx_1_1sigproc_1_1linearPredictor.html", null ],
+    [ "linearPredictor", "structmx_1_1sigproc_1_1linearPredictor.html", [
+      [ "calcCoefficients", "structmx_1_1sigproc_1_1linearPredictor.html#abd8faeae91b199f1deb24f39aab7115a", null ]
+    ] ],
     [ "Fast Fourier Transforms", "group__fft.html", "group__fft" ],
     [ "Power Spectra", "group__psds.html", "group__psds" ],
     [ "Image Filters", "group__image__filters.html", "group__image__filters" ],

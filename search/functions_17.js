@@ -2,10 +2,10 @@ var searchData=
 [
   ['weibull',['weibull',['../group__functions.html#gaa4c8f60b09f4a020426dda2da95429ab',1,'weibull(realT x, realT x0, realT k, realT lambda):&#160;weibull.hpp'],['../group__functions.html#ga7855e05008832880aa2a4da1df058170',1,'weibull(realT x, realT k, realT lambda):&#160;weibull.hpp']]],
   ['weibull_5flambda',['weibull_lambda',['../group__functions.html#ga5117fc1d2f42142647ee366d406039d8',1,'weibull.hpp']]],
-  ['wfevar',['wfeVar',['../classmx_1_1AO_1_1aoSystem.html#a0ec5c137dc2a3aa58a8d4eda774e24e9',1,'mx::AO::aoSystem']]],
+  ['wfevar',['wfeVar',['../classmx_1_1AO_1_1analysis_1_1aoSystem.html#a46c7d0db7a46248fa04045b7bed1ab13',1,'mx::AO::analysis::aoSystem']]],
   ['wfps',['wfPS',['../structmx_1_1AO_1_1sim_1_1turbAtmosphere.html#a312796312670677ab030b26f306c03cb',1,'mx::AO::sim::turbAtmosphere']]],
-  ['wfs',['wfs',['../structmx_1_1AO_1_1beta__p_1_1wfs.html#a01215a1c53f9e0bc62c0313e7ea795bb',1,'mx::AO::beta_p::wfs']]],
-  ['wfsbetaunalloc',['wfsBetaUnalloc',['../classmx_1_1AO_1_1aoSystem.html#adebb43a6eb0745ce9846bd72387e18b7',1,'mx::AO::aoSystem']]],
+  ['wfs',['wfs',['../structmx_1_1AO_1_1analysis_1_1wfs.html#a4e28512997520c28578be3a6151a3d41',1,'mx::AO::analysis::wfs']]],
+  ['wfsbetaunalloc',['wfsBetaUnalloc',['../classmx_1_1AO_1_1analysis_1_1aoSystem.html#a8db18f5399516b10b134ebc6a11c0de1',1,'mx::AO::analysis::aoSystem']]],
   ['wfsnoisepsd',['wfsNoisePSD',['../group__mxAOAnalytic.html#ga0979f1dc1bb3dc2676f8b0acf781767a',1,'mx::AO']]],
   ['wfsz',['wfSz',['../structmx_1_1wfp_1_1idealCoronagraph.html#a1e12e750f345ee9d725ed7704f2608d6',1,'mx::wfp::idealCoronagraph::wfSz()'],['../structmx_1_1wfp_1_1idealCoronagraph.html#a55ba3993b8cb270359587da582acacbf',1,'mx::wfp::idealCoronagraph::wfSz(int sz)'],['../structmx_1_1wfp_1_1lyotCoronagraph.html#af0b3d6b119fa8c624d1f625302ee2571',1,'mx::wfp::lyotCoronagraph::wfSz()'],['../structmx_1_1wfp_1_1lyotCoronagraph.html#ad7eee445dcbe0cf38a3d46721adda272',1,'mx::wfp::lyotCoronagraph::wfSz(int sz)']]],
   ['what',['what',['../classmxException.html#a5b2dff8897d30b881bc3457a6f8d2440',1,'mxException']]],

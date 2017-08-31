@@ -104,12 +104,66 @@ Functions</h2></td></tr>
 <tr class="memitem:gae5efdc2d330b9047dc29e5d5a06d86c1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fftw__template__plans.html#gae5efdc2d330b9047dc29e5d5a06d86c1">mx::fftw_make_planner_thread_safe</a> ()</td></tr>
 <tr class="memdesc:gae5efdc2d330b9047dc29e5d5a06d86c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper for fftwX_make_planner_thread_safe()  <a href="group__fftw__template__plans.html#gae5efdc2d330b9047dc29e5d5a06d86c1">More...</a><br /></td></tr>
 <tr class="separator:gae5efdc2d330b9047dc29e5d5a06d86c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5066c5b7f98445203998b88df8100b4e"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:ga5066c5b7f98445203998b88df8100b4e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fftw__template__plans.html#ga5066c5b7f98445203998b88df8100b4e">mx::fftw_plan_with_nthreads</a> (int nthreads)</td></tr>
+<tr class="memdesc:ga5066c5b7f98445203998b88df8100b4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tell the FFTW planner how many threads to use.  <a href="group__fftw__template__plans.html#ga5066c5b7f98445203998b88df8100b4e">More...</a><br /></td></tr>
+<tr class="separator:ga5066c5b7f98445203998b88df8100b4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga03c86fe6a07a41026efabc376a3756e0"><td class="memTemplParams" colspan="2">template&lt;typename inputDataT , typename outputDataT &gt; </td></tr>
 <tr class="memitem:ga03c86fe6a07a41026efabc376a3756e0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structmx_1_1fftwTypeSpec.html">fftwTypeSpec</a>&lt; inputDataT, outputDataT &gt;::planT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fftw__template__plans.html#ga03c86fe6a07a41026efabc376a3756e0">mx::fftw_plan_dft</a> (std::vector&lt; int &gt; n, inputDataT *in, outputDataT *out, int sign, unsigned flags)</td></tr>
 <tr class="memdesc:ga03c86fe6a07a41026efabc376a3756e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper for the fftwX_plan_dft functions.  <a href="group__fftw__template__plans.html#ga03c86fe6a07a41026efabc376a3756e0">More...</a><br /></td></tr>
 <tr class="separator:ga03c86fe6a07a41026efabc376a3756e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5da3c8cd973302cb1903a64deeb68f8f"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:ga5da3c8cd973302cb1903a64deeb68f8f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fftw__template__plans.html#ga5da3c8cd973302cb1903a64deeb68f8f">mx::fftw_cleanup</a> ()</td></tr>
+<tr class="memdesc:ga5da3c8cd973302cb1903a64deeb68f8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cleanup persistent planner data.  <a href="group__fftw__template__plans.html#ga5da3c8cd973302cb1903a64deeb68f8f">More...</a><br /></td></tr>
+<tr class="separator:ga5da3c8cd973302cb1903a64deeb68f8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac57d3471076e5c4e6b75d00310324583"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:gac57d3471076e5c4e6b75d00310324583"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fftw__template__plans.html#gac57d3471076e5c4e6b75d00310324583">mx::fftw_cleanup_threads</a> ()</td></tr>
+<tr class="memdesc:gac57d3471076e5c4e6b75d00310324583"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cleanup persistent planner data and threads data.  <a href="group__fftw__template__plans.html#gac57d3471076e5c4e6b75d00310324583">More...</a><br /></td></tr>
+<tr class="separator:gac57d3471076e5c4e6b75d00310324583"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ga5da3c8cd973302cb1903a64deeb68f8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5da3c8cd973302cb1903a64deeb68f8f">&#9670;&nbsp;</a></span>fftw_cleanup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename realT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void mx::fftw_cleanup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cleanup persistent planner data. </p>
+
+</div>
+</div>
+<a id="gac57d3471076e5c4e6b75d00310324583"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac57d3471076e5c4e6b75d00310324583">&#9670;&nbsp;</a></span>fftw_cleanup_threads()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename realT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void mx::fftw_cleanup_threads </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cleanup persistent planner data and threads data. </p>
+
+</div>
+</div>
 <a id="gae5efdc2d330b9047dc29e5d5a06d86c1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gae5efdc2d330b9047dc29e5d5a06d86c1">&#9670;&nbsp;</a></span>fftw_make_planner_thread_safe()</h2>
 
@@ -205,12 +259,46 @@ template&lt;typename inputDataT , typename outputDataT &gt; </div>
 
 </div>
 </div>
+<a id="ga5066c5b7f98445203998b88df8100b4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5066c5b7f98445203998b88df8100b4e">&#9670;&nbsp;</a></span>fftw_plan_with_nthreads()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename realT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void mx::fftw_plan_with_nthreads </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nthreads</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tell the FFTW planner how many threads to use. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">realT</td><td>the real floating point type. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">nthreads</td><td>the number of threads. Set to 1 to disable threads. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Aug 5 2017 13:34:43 for mxlib by
+    <li class="footer">Generated on Wed Aug 30 2017 23:13:58 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

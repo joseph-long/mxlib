@@ -31,7 +31,6 @@ var searchData=
   ['error_20handling_20files',['Error Handling Files',['../group__error__handling__files.html',1,'']]],
   ['error_20handling_20macros',['Error Handling Macros',['../group__error__macros.html',1,'']]],
   ['error_5freport',['error_report',['../group__error__handling.html#ga56a81b53911bc4cf6de96f0a0b1885c7',1,'mx']]],
-  ['etfderivative',['etfDerivative',['../structmx_1_1AO_1_1clGainOpt.html#a0d18b54f0064e696d31bdbbeb05e1b60',1,'mx::AO::clGainOpt']]],
   ['exactfinimname',['exactFinimName',['../structmx_1_1improc_1_1HCIobservation.html#a018089dc8ca06307a683631a4c0b2f50',1,'mx::improc::HCIobservation']]],
   ['except_5fcode',['except_code',['../classmxException.html#abeb706caf2acd70d1b12a283f74b0a9f',1,'mxException']]],
   ['except_5fcode_5fmnem',['except_code_mnem',['../classmxException.html#a05a659382d87668ddaf4d39a1bca344e',1,'mxException']]],

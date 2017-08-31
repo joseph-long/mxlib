@@ -113,20 +113,24 @@ $(document).ready(function(){initNavTree('fourierTemporalPSD_8hpp.html','');});
 <code>#include &quot;<a class="el" href="jinc_8hpp_source.html">../../math/func/jinc.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vectorUtils_8hpp_source.html">../../vectorUtils.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="stringUtils_8hpp_source.html">../../stringUtils.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="fourierModes_8hpp_source.html">../../fourierModes.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="fourierModes_8hpp_source.html">../../sigproc/fourierModes.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="readColumns_8hpp_source.html">../../readColumns.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="binVector_8hpp_source.html">../../binVector.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ompLoopWatcher_8hpp_source.html">../../ompLoopWatcher.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mxError_8hpp_source.html">../../mxError.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="gslInterpolation_8hpp_source.html">../../gslInterpolation.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="wfsNoisePSD_8hpp_source.html">wfsNoisePSD.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="clAOLinearPredictor_8hpp_source.html">clAOLinearPredictor.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="clGainOpt_8hpp_source.html">clGainOpt.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="varmapToImage_8hpp_source.html">varmapToImage.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="aoConstants_8hpp_source.html">aoConstants.hpp</a>&quot;</code><br />
 </div>
 <p><a href="fourierTemporalPSD_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1fourierTemporalPSD.html">mx::AO::fourierTemporalPSD&lt; realT, aosysT &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to manage the calculation of temporatl PSDs of the Fourier modes.  <a href="structmx_1_1AO_1_1fourierTemporalPSD.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1analysis_1_1fourierTemporalPSD.html">mx::AO::analysis::fourierTemporalPSD&lt; realT, aosysT &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to manage the calculation of temporal PSDs of the Fourier modes in atmospheric turbulence.  <a href="structmx_1_1AO_1_1analysis_1_1fourierTemporalPSD.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -137,46 +141,46 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:adfa9e8f0b7cedf78ed6a4faed760b99e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fourierTemporalPSD_8hpp.html#adfa9e8f0b7cedf78ed6a4faed760b99e">mx::AO::basis</a> : unsigned int { <a class="el" href="fourierTemporalPSD_8hpp.html#adfa9e8f0b7cedf78ed6a4faed760b99eadb3681030cf8d61236bfe5d386e4c068">mx::AO::basic</a>, 
-<a class="el" href="fourierTemporalPSD_8hpp.html#adfa9e8f0b7cedf78ed6a4faed760b99eab5a8702b77bbe73bf6f0cc3f908160a5">mx::AO::modified</a>
+<tr class="memitem:aa3aa5ac3f2ebf59289762d1635289dc1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fourierTemporalPSD_8hpp.html#aa3aa5ac3f2ebf59289762d1635289dc1">mx::AO::analysis::basis</a> : unsigned int { <a class="el" href="fourierTemporalPSD_8hpp.html#aa3aa5ac3f2ebf59289762d1635289dc1a51eaaade2b4d6be0e4e7d889c5bc2a19">mx::AO::analysis::basic</a>, 
+<a class="el" href="fourierTemporalPSD_8hpp.html#aa3aa5ac3f2ebf59289762d1635289dc1a23bd18db53b6316fb40ffc008831b642">mx::AO::analysis::modified</a>
  }</td></tr>
-<tr class="separator:adfa9e8f0b7cedf78ed6a4faed760b99e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:aa3aa5ac3f2ebf59289762d1635289dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gae6ffd3a9b6fdfb2ef5a0f4fd20ffed8a"><td class="memTemplParams" colspan="2">template&lt;typename realT , typename aosysT &gt; </td></tr>
-<tr class="memitem:gae6ffd3a9b6fdfb2ef5a0f4fd20ffed8a"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__mxAOAnalytic.html#gae6ffd3a9b6fdfb2ef5a0f4fd20ffed8a">mx::AO::F_basic</a> (realT kv, void *params)</td></tr>
-<tr class="memdesc:gae6ffd3a9b6fdfb2ef5a0f4fd20ffed8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Worker function for GSL Integration for the basic sin/cos Fourier modes.  <a href="group__mxAOAnalytic.html#gae6ffd3a9b6fdfb2ef5a0f4fd20ffed8a">More...</a><br /></td></tr>
-<tr class="separator:gae6ffd3a9b6fdfb2ef5a0f4fd20ffed8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2594847ba6f46f2d5a07b3e3a1280de0"><td class="memTemplParams" colspan="2">template&lt;typename realT , typename aosysT &gt; </td></tr>
-<tr class="memitem:ga2594847ba6f46f2d5a07b3e3a1280de0"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__mxAOAnalytic.html#ga2594847ba6f46f2d5a07b3e3a1280de0">mx::AO::F_mod</a> (realT kv, void *params)</td></tr>
-<tr class="memdesc:ga2594847ba6f46f2d5a07b3e3a1280de0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Worker function for GSL Integration for the modified Fourier modes.  <a href="group__mxAOAnalytic.html#ga2594847ba6f46f2d5a07b3e3a1280de0">More...</a><br /></td></tr>
-<tr class="separator:ga2594847ba6f46f2d5a07b3e3a1280de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga51b98d16e742fe49bb79f36de59d242f"><td class="memTemplParams" colspan="2">template&lt;typename realT , typename aosysT &gt; </td></tr>
-<tr class="memitem:ga51b98d16e742fe49bb79f36de59d242f"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__mxAOAnalytic.html#ga51b98d16e742fe49bb79f36de59d242f">mx::AO::F_projMod</a> (realT kv, void *params)</td></tr>
-<tr class="memdesc:ga51b98d16e742fe49bb79f36de59d242f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Worker function for GSL Integration for a basis projected onto the modified Fourier modes.  <a href="group__mxAOAnalytic.html#ga51b98d16e742fe49bb79f36de59d242f">More...</a><br /></td></tr>
-<tr class="separator:ga51b98d16e742fe49bb79f36de59d242f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga68fe13d24baf657b1dfc036c0cee3d4d"><td class="memTemplParams" colspan="2">template&lt;typename realT , typename aosysT &gt; </td></tr>
+<tr class="memitem:ga68fe13d24baf657b1dfc036c0cee3d4d"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__mxAOAnalytic.html#ga68fe13d24baf657b1dfc036c0cee3d4d">mx::AO::analysis::F_basic</a> (realT kv, void *params)</td></tr>
+<tr class="memdesc:ga68fe13d24baf657b1dfc036c0cee3d4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Worker function for GSL Integration for the basic sin/cos Fourier modes.  <a href="group__mxAOAnalytic.html#ga68fe13d24baf657b1dfc036c0cee3d4d">More...</a><br /></td></tr>
+<tr class="separator:ga68fe13d24baf657b1dfc036c0cee3d4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6a42ec37d19e5e32f560c1d630a44848"><td class="memTemplParams" colspan="2">template&lt;typename realT , typename aosysT &gt; </td></tr>
+<tr class="memitem:ga6a42ec37d19e5e32f560c1d630a44848"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__mxAOAnalytic.html#ga6a42ec37d19e5e32f560c1d630a44848">mx::AO::analysis::F_mod</a> (realT kv, void *params)</td></tr>
+<tr class="memdesc:ga6a42ec37d19e5e32f560c1d630a44848"><td class="mdescLeft">&#160;</td><td class="mdescRight">Worker function for GSL Integration for the modified Fourier modes.  <a href="group__mxAOAnalytic.html#ga6a42ec37d19e5e32f560c1d630a44848">More...</a><br /></td></tr>
+<tr class="separator:ga6a42ec37d19e5e32f560c1d630a44848"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7af7f2691a7869ff105f6483e4769a2e"><td class="memTemplParams" colspan="2">template&lt;typename realT , typename aosysT &gt; </td></tr>
+<tr class="memitem:ga7af7f2691a7869ff105f6483e4769a2e"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__mxAOAnalytic.html#ga7af7f2691a7869ff105f6483e4769a2e">mx::AO::analysis::F_projMod</a> (realT kv, void *params)</td></tr>
+<tr class="memdesc:ga7af7f2691a7869ff105f6483e4769a2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Worker function for GSL Integration for a basis projected onto the modified Fourier modes.  <a href="group__mxAOAnalytic.html#ga7af7f2691a7869ff105f6483e4769a2e">More...</a><br /></td></tr>
+<tr class="separator:ga7af7f2691a7869ff105f6483e4769a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="file_adfa9e8f0b7cedf78ed6a4faed760b99e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#file_adfa9e8f0b7cedf78ed6a4faed760b99e">&#9670;&nbsp;</a></span>basis</h2>
+<a id="file_aa3aa5ac3f2ebf59289762d1635289dc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#file_aa3aa5ac3f2ebf59289762d1635289dc1">&#9670;&nbsp;</a></span>basis</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="fourierTemporalPSD_8hpp.html#adfa9e8f0b7cedf78ed6a4faed760b99e">mx::AO::basis</a> : unsigned int</td>
+          <td class="memname">enum <a class="el" href="fourierTemporalPSD_8hpp.html#aa3aa5ac3f2ebf59289762d1635289dc1">mx::AO::analysis::basis</a> : unsigned int</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adfa9e8f0b7cedf78ed6a4faed760b99eadb3681030cf8d61236bfe5d386e4c068"></a>basic&#160;</td><td class="fielddoc"><p>The basic sine and cosine Fourier modes. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa3aa5ac3f2ebf59289762d1635289dc1a51eaaade2b4d6be0e4e7d889c5bc2a19"></a>basic&#160;</td><td class="fielddoc"><p>The basic sine and cosine Fourier modes. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="adfa9e8f0b7cedf78ed6a4faed760b99eab5a8702b77bbe73bf6f0cc3f908160a5"></a>modified&#160;</td><td class="fielddoc"><p>The modified Fourier basis from <b>[males_guyon_2017]</b>. </p>
+<tr><td class="fieldname"><a id="aa3aa5ac3f2ebf59289762d1635289dc1a23bd18db53b6316fb40ffc008831b642"></a>modified&#160;</td><td class="fielddoc"><p>The modified Fourier basis from <b>[males_guyon_2017]</b>. </p>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00054">54</a> of file <a class="el" href="fourierTemporalPSD_8hpp_source.html">fourierTemporalPSD.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00059">59</a> of file <a class="el" href="fourierTemporalPSD_8hpp_source.html">fourierTemporalPSD.hpp</a>.</p>
 
 </div>
 </div>
@@ -186,7 +190,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4a0bf71ba3138a6abb584fb74c18f794.html">ao</a></li><li class="navelem"><a class="el" href="dir_cf528a69cdca6105739343681d2398d1.html">analysis</a></li><li class="navelem"><a class="el" href="fourierTemporalPSD_8hpp.html">fourierTemporalPSD.hpp</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 13:34:43 for mxlib by
+    <li class="footer">Generated on Wed Aug 30 2017 23:13:57 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

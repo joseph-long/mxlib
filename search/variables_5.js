@@ -14,6 +14,6 @@ var searchData=
   ['finim',['finim',['../structmx_1_1improc_1_1HCIobservation.html#a6dca452b1fa27742c182778c7b5d0b12',1,'mx::improc::HCIobservation']]],
   ['finimname',['finimName',['../structmx_1_1improc_1_1HCIobservation.html#ae63f1074c0815696211551a81d1de487',1,'mx::improc::HCIobservation']]],
   ['fit',['fit',['../structmx_1_1improc_1_1imCenterCircleSym.html#a70e17cf66d14c37b05e532445ba5dc5c',1,'mx::improc::imCenterCircleSym']]],
-  ['fluxunits',['fluxUnits',['../structmx_1_1astro_1_1calspecSpectrum.html#a3aa04335d3d387019b07b2cd14647fa9',1,'mx::astro::calspecSpectrum']]],
+  ['fluxunits',['fluxUnits',['../structmx_1_1astro_1_1basicSpectrum.html#a2fcd0a8bc0db12e7b2c6e6e1d588df93',1,'mx::astro::basicSpectrum::fluxUnits()'],['../structmx_1_1astro_1_1astroFilter.html#a29e286f60436dfc18e6b89a15ab3f9ce',1,'mx::astro::astroFilter::fluxUnits()'],['../structmx_1_1astro_1_1calspecSpectrum.html#a3aa04335d3d387019b07b2cd14647fa9',1,'mx::astro::calspecSpectrum::fluxUnits()'],['../structmx_1_1astro_1_1picklesSpectrum.html#a12452a8e8e97c35db51e5edea3a8d128',1,'mx::astro::picklesSpectrum::fluxUnits()']]],
   ['focalmask',['focalMask',['../structmx_1_1wfp_1_1lyotCoronagraph.html#a90f1656a7bb69d6a4fd33a5f53f84723',1,'mx::wfp::lyotCoronagraph']]]
 ];

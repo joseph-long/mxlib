@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['m',['m',['../structmx_1_1fourierModeDef.html#ae0928551dc5cee11d176632170cd9f6e',1,'mx::fourierModeDef::m()'],['../structmx_1_1AO_1_1fourierCovariance.html#a7c8bc8a60f4665a4783426d32400ce8b',1,'mx::AO::fourierCovariance::m()'],['../classmx_1_1math_1_1fit_1_1levmarInterface.html#a68aefcab33992ad6898c77ba8473f5f4',1,'mx::math::fit::levmarInterface::m()']]],
+  ['m',['m',['../structmx_1_1AO_1_1analysis_1_1fourierCovariance.html#a131d8739b4a24491386f1036890ead6e',1,'mx::AO::analysis::fourierCovariance::m()'],['../classmx_1_1math_1_1fit_1_1levmarInterface.html#a68aefcab33992ad6898c77ba8473f5f4',1,'mx::math::fit::levmarInterface::m()'],['../structmx_1_1sigproc_1_1fourierModeDef.html#a0414196c4b994dd967c86a0a399a386d',1,'mx::sigproc::fourierModeDef::m()']]],
   ['mask',['mask',['../structmx_1_1improc_1_1HCIobservation.html#acd05c0138e6a715be0092902b307412e',1,'mx::improc::HCIobservation::mask()'],['../structmx_1_1improc_1_1imCenterCircleSym.html#a69114d081fbfd61d11ffec0dd6318448',1,'mx::improc::imCenterCircleSym::mask()']]],
   ['maskcube',['maskCube',['../structmx_1_1improc_1_1HCIobservation.html#ae426fe2df839f3a3cbfaaa32c383236a',1,'mx::improc::HCIobservation']]],
   ['maskfile',['maskFile',['../structmx_1_1improc_1_1HCIobservation.html#add887ecfe53b432de95c47b3f0874d57',1,'mx::improc::HCIobservation::maskFile()'],['../structmx_1_1wfp_1_1lyotCoronagraph.html#acd121750ffc2fa11199110bf14247d14',1,'mx::wfp::lyotCoronagraph::maskFile()']]],
@@ -31,7 +31,8 @@ var searchData=
   ['mjdisiso8601',['MJDisISO8601',['../structmx_1_1improc_1_1HCIobservation.html#adcf043c78aaf29a7a998ea5156a69296',1,'mx::improc::HCIobservation']]],
   ['mjdkeyword',['MJDKeyword',['../structmx_1_1improc_1_1HCIobservation.html#ab58b89f7e4de30757e169a847ca29c6b',1,'mx::improc::HCIobservation']]],
   ['mjdunits',['MJDUnits',['../structmx_1_1improc_1_1HCIobservation.html#a8948132b241f4ca219de71688bcf6e32',1,'mx::improc::HCIobservation']]],
-  ['mp',['mp',['../structmx_1_1AO_1_1fourierCovariance.html#a69e30c385327818c6433c4eccdd9b8e3',1,'mx::AO::fourierCovariance']]],
+  ['mncon',['mnCon',['../structmx_1_1AO_1_1analysis_1_1fourierCovariance.html#af1fad4c8d48b3f63c98d916115fa5475',1,'mx::AO::analysis::fourierCovariance']]],
+  ['mp',['mp',['../structmx_1_1AO_1_1analysis_1_1fourierCovariance.html#af76c8563c548c855abf55fbb2c213565',1,'mx::AO::analysis::fourierCovariance']]],
   ['mtext',['mtext',['../structmsgq__textmsg.html#aede1d5f829d8ce60fc0f545e968c7aee',1,'msgq_textmsg']]],
   ['mtype',['mtype',['../structmsgq__textmsg.html#a33d0f5b510cfc0e709857af87b305177',1,'msgq_textmsg']]],
   ['mvs',['Mvs',['../structmx_1_1astro_1_1mainSequence.html#a3ec1fca6c2e2f01501b21652917a168b',1,'mx::astro::mainSequence']]]

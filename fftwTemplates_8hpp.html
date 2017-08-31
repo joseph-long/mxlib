@@ -219,10 +219,22 @@ Functions</h2></td></tr>
 <tr class="memitem:gae5efdc2d330b9047dc29e5d5a06d86c1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fftw__template__plans.html#gae5efdc2d330b9047dc29e5d5a06d86c1">mx::fftw_make_planner_thread_safe</a> ()</td></tr>
 <tr class="memdesc:gae5efdc2d330b9047dc29e5d5a06d86c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper for fftwX_make_planner_thread_safe()  <a href="group__fftw__template__plans.html#gae5efdc2d330b9047dc29e5d5a06d86c1">More...</a><br /></td></tr>
 <tr class="separator:gae5efdc2d330b9047dc29e5d5a06d86c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5066c5b7f98445203998b88df8100b4e"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:ga5066c5b7f98445203998b88df8100b4e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fftw__template__plans.html#ga5066c5b7f98445203998b88df8100b4e">mx::fftw_plan_with_nthreads</a> (int nthreads)</td></tr>
+<tr class="memdesc:ga5066c5b7f98445203998b88df8100b4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tell the FFTW planner how many threads to use.  <a href="group__fftw__template__plans.html#ga5066c5b7f98445203998b88df8100b4e">More...</a><br /></td></tr>
+<tr class="separator:ga5066c5b7f98445203998b88df8100b4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga03c86fe6a07a41026efabc376a3756e0"><td class="memTemplParams" colspan="2">template&lt;typename inputDataT , typename outputDataT &gt; </td></tr>
 <tr class="memitem:ga03c86fe6a07a41026efabc376a3756e0"><td class="memTemplItemLeft" align="right" valign="top">fftwTypeSpec&lt; inputDataT, outputDataT &gt;::planT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fftw__template__plans.html#ga03c86fe6a07a41026efabc376a3756e0">mx::fftw_plan_dft</a> (std::vector&lt; int &gt; n, inputDataT *in, outputDataT *out, int sign, unsigned flags)</td></tr>
 <tr class="memdesc:ga03c86fe6a07a41026efabc376a3756e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper for the fftwX_plan_dft functions.  <a href="group__fftw__template__plans.html#ga03c86fe6a07a41026efabc376a3756e0">More...</a><br /></td></tr>
 <tr class="separator:ga03c86fe6a07a41026efabc376a3756e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5da3c8cd973302cb1903a64deeb68f8f"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:ga5da3c8cd973302cb1903a64deeb68f8f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fftw__template__plans.html#ga5da3c8cd973302cb1903a64deeb68f8f">mx::fftw_cleanup</a> ()</td></tr>
+<tr class="memdesc:ga5da3c8cd973302cb1903a64deeb68f8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cleanup persistent planner data.  <a href="group__fftw__template__plans.html#ga5da3c8cd973302cb1903a64deeb68f8f">More...</a><br /></td></tr>
+<tr class="separator:ga5da3c8cd973302cb1903a64deeb68f8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac57d3471076e5c4e6b75d00310324583"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:gac57d3471076e5c4e6b75d00310324583"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fftw__template__plans.html#gac57d3471076e5c4e6b75d00310324583">mx::fftw_cleanup_threads</a> ()</td></tr>
+<tr class="memdesc:gac57d3471076e5c4e6b75d00310324583"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cleanup persistent planner data and threads data.  <a href="group__fftw__template__plans.html#gac57d3471076e5c4e6b75d00310324583">More...</a><br /></td></tr>
+<tr class="separator:gac57d3471076e5c4e6b75d00310324583"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3bce7eecbe39e1a71a37490a2479a0a4"><td class="memTemplParams" colspan="2">template&lt;typename inputDataT , typename outputDataT &gt; </td></tr>
 <tr class="memitem:ga3bce7eecbe39e1a71a37490a2479a0a4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fftw__template__exec.html#ga3bce7eecbe39e1a71a37490a2479a0a4">mx::fftw_execute_dft</a> (typename fftwTypeSpec&lt; inputDataT, outputDataT &gt;::planT plan, inputDataT *in, outputDataT *out)</td></tr>
 <tr class="memdesc:ga3bce7eecbe39e1a71a37490a2479a0a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute the given plan on the given arrays.  <a href="group__fftw__template__exec.html#ga3bce7eecbe39e1a71a37490a2479a0a4">More...</a><br /></td></tr>
@@ -238,7 +250,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ec7419ef954292aec0c8e01109f2b022.html">fft</a></li><li class="navelem"><a class="el" href="fftwTemplates_8hpp.html">fftwTemplates.hpp</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 13:34:43 for mxlib by
+    <li class="footer">Generated on Wed Aug 30 2017 23:13:58 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

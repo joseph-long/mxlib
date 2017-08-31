@@ -145,10 +145,10 @@ Functions</h2></td></tr>
 <tr class="memitem:gaf95c3d909800ffc09f4c776f3f7a06b3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__psds.html#gaf95c3d909800ffc09f4c776f3f7a06b3">mx::sigproc::averagePeriodogram</a> (std::vector&lt; floatT &gt; &amp;pgram, std::vector&lt; floatT &gt; &amp;ts, floatT dt, floatT avgLen, floatT olap, std::vector&lt; floatT &gt; &amp;w)</td></tr>
 <tr class="memdesc:gaf95c3d909800ffc09f4c776f3f7a06b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the average periodogram from a time series for a specified averaging interval and overlap.  <a href="group__psds.html#gaf95c3d909800ffc09f4c776f3f7a06b3">More...</a><br /></td></tr>
 <tr class="separator:gaf95c3d909800ffc09f4c776f3f7a06b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab462b0d5d3bff8bdc108433a87324c01"><td class="memTemplParams" colspan="2">template&lt;typename vectorTout , typename vectorTin , typename dataT &gt; </td></tr>
-<tr class="memitem:gab462b0d5d3bff8bdc108433a87324c01"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__psds.html#gab462b0d5d3bff8bdc108433a87324c01">mx::sigproc::augment1SidedPSD</a> (vectorTout &amp;psdTwoSided, vectorTin &amp;psdOneSided, dataT zeroFreq=0)</td></tr>
-<tr class="memdesc:gab462b0d5d3bff8bdc108433a87324c01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Augment a 1-sided PSD to standard FFT form.  <a href="group__psds.html#gab462b0d5d3bff8bdc108433a87324c01">More...</a><br /></td></tr>
-<tr class="separator:gab462b0d5d3bff8bdc108433a87324c01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4a3bfd131b011f02ff71d1303e47dfd5"><td class="memTemplParams" colspan="2">template&lt;typename vectorTout , typename vectorTin &gt; </td></tr>
+<tr class="memitem:ga4a3bfd131b011f02ff71d1303e47dfd5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__psds.html#ga4a3bfd131b011f02ff71d1303e47dfd5">mx::sigproc::augment1SidedPSD</a> (vectorTout &amp;psdTwoSided, vectorTin &amp;psdOneSided, bool zeroFreq=false, typename vectorTin::value_type scale=1)</td></tr>
+<tr class="memdesc:ga4a3bfd131b011f02ff71d1303e47dfd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Augment a 1-sided PSD to standard 2-sided FFT form.  <a href="group__psds.html#ga4a3bfd131b011f02ff71d1303e47dfd5">More...</a><br /></td></tr>
+<tr class="separator:ga4a3bfd131b011f02ff71d1303e47dfd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9be4feb5c4ac0b44608a726306b0311a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga9be4feb5c4ac0b44608a726306b0311a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__psds.html#ga9be4feb5c4ac0b44608a726306b0311a">mx::sigproc::augment1SidedPSDFreq</a> (std::vector&lt; T &gt; &amp;freqTwoSided, std::vector&lt; T &gt; &amp;freqOneSided)</td></tr>
 <tr class="memdesc:ga9be4feb5c4ac0b44608a726306b0311a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Augment a 1-sided frequency scale to standard FFT form.  <a href="group__psds.html#ga9be4feb5c4ac0b44608a726306b0311a">More...</a><br /></td></tr>
@@ -160,7 +160,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_749a31579df8fa01bae22bb783a391d0.html">sigproc</a></li><li class="navelem"><a class="el" href="psdUtils_8hpp.html">psdUtils.hpp</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 13:34:43 for mxlib by
+    <li class="footer">Generated on Wed Aug 30 2017 23:13:58 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

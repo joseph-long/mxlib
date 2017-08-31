@@ -7,8 +7,8 @@ var searchData=
   ['parse_5fhms',['parse_hms',['../group__timeutils.html#gaa6b611db0b692ae4dc1afb9b24762d76',1,'mx']]],
   ['parsec',['parsec',['../group__dimensioned__constants.html#ga499aabe29d31081807be82f8ad825609',1,'mx::astro::constants']]],
   ['parsecommandline',['parseCommandLine',['../structmx_1_1appConfigurator.html#ac851f27b280f03833d8355ff0da48c43',1,'mx::appConfigurator']]],
-  ['phiint_5fbasic',['phiInt_basic',['../group__mxAOAnalytic.html#ga2aa55cd4c2812d1895983aa5f90c513e',1,'mx::AO']]],
-  ['phiint_5fmod',['phiInt_mod',['../fourierCovariance_8hpp.html#ad5a1f9ce80ffd2ba4041a0fbab1d157c',1,'mx::AO']]],
+  ['phiint_5fbasic',['phiInt_basic',['../group__mxAOAnalytic.html#ga4c2d016705e5e36c40478fb588b045e5',1,'mx::AO::analysis']]],
+  ['phiint_5fmod',['phiInt_mod',['../fourierCovariance_8hpp.html#a6afffca28702ebedf2f5ef79b0ff2202',1,'mx::AO::analysis']]],
   ['pixel',['pixel',['../classmx_1_1improc_1_1eigenCube.html#a6d1dc9322ec759a7ad1f23219f24cdeb',1,'mx::improc::eigenCube']]],
   ['planetmass2radius',['planetMass2Radius',['../group__planets.html#ga4b350ecfdeaca1bedb897db770b09789',1,'mx::astro']]],
   ['planetmass2radiusfab2014',['planetMass2RadiusFab2014',['../group__planets.html#ga2449cce22f89a7a4203d7463497bdddf',1,'mx::astro']]],
@@ -27,7 +27,7 @@ var searchData=
   ['psdfilter',['psdFilter',['../classmx_1_1sigproc_1_1psdFilter.html#a85e03a8f488a19a2ef00218c8b239a1c',1,'mx::sigproc::psdFilter']]],
   ['psdsqrt',['psdSqrt',['../classmx_1_1sigproc_1_1psdFilter.html#a5c8d103719ab9510c9eecfe53222d6f4',1,'mx::sigproc::psdFilter::psdSqrt(realArrayT *npsdSqrt)'],['../classmx_1_1sigproc_1_1psdFilter.html#a59533f482d200d6a85a031a587f7ff1c',1,'mx::sigproc::psdFilter::psdSqrt(const realArrayT &amp;npsdSqrt)']]],
   ['pseudoinverse',['pseudoInverse',['../aoPaths_8hpp.html#a9cdf826d0cdab4787a1d6d41641b4883',1,'mx::AO::path::dm']]],
-  ['pseudoopenloop',['pseudoOpenLoop',['../structmx_1_1AO_1_1clGainOpt.html#afaa24012a850448fc50b2fc5da86de74',1,'mx::AO::clGainOpt']]],
+  ['pseudoopenloop',['pseudoOpenLoop',['../structmx_1_1AO_1_1analysis_1_1clGainOpt.html#a3602d8c0fcbcd2e7db212bde10e45a2d',1,'mx::AO::analysis::clGainOpt']]],
   ['pupilfile',['pupilFile',['../aoPaths_8hpp.html#a2a852c173c1a4e37f922ffb40df39ee2',1,'mx::AO::path::pupil']]],
   ['pywfsslopereconstructor',['pywfsSlopeReconstructor',['../classmx_1_1AO_1_1sim_1_1pywfsSlopeReconstructor.html#aea1930a2fcf7756e297625ca01ac147c',1,'mx::AO::sim::pywfsSlopeReconstructor']]]
 ];

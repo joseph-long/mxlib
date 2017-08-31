@@ -95,6 +95,8 @@ $(document).ready(function(){initNavTree('group__fftw.html','');});
 <a href="#details">More...</a></p>
 <p>Instructions for building and installing the FFTW library. </p>
 <p>The FFTW library is probably available from your software/package manager, however I recommend building it yourself to ensure it is fullly optimized for your system, and that you have all of the precisions available.</p>
+<h1><a class="anchor" id="fftw_build"></a>
+Build and Install</h1>
 <p>Folow these steps to build the FFTW library.</p>
 <ol type="1">
 <li>download, the latest FFTW library from <a href="http://www.fftw.org/">http://www.fftw.org/</a> <dl class="section note"><dt>Note</dt><dd>As of 2017-03-01 the minimum acceptable version is 3.3.5 (for mxlib).</dd></dl>
@@ -124,16 +126,20 @@ $(document).ready(function(){initNavTree('group__fftw.html','');});
        $ sudo make install</pre></li>
 <li>To build quad (__float128) precision multi-threaded: <pre class="fragment">       $ ./configure --enable-quad-precision --enable-threads
        $ make
-       $ sudo make install</pre> </li>
+       $ sudo make install</pre></li>
 </ul>
 </li>
 </ol>
+<h1><a class="anchor" id="fftw_env_setup"></a>
+FFTW Environment</h1>
+<p>mxlib will manage the FFTW environment for you, which really means importing and exporting wisdom and cleaning up memory. This can be done in a simple way using fftwEnvironment. To make the best use of this, create a directory to store FFTW wisdom. I typically use </p><pre class="fragment">$(HOME)/.fftw </pre><p>Then add the environment variable to you bash profile (i.e. in .bash_profile or .bash_aliases) as so </p><pre class="fragment">export MXFFTW_WISDOM=/path/to/.fftw
+</pre><p>Using this facility requires only that you create an object of type <a class="el" href="structmx_1_1fftwEnvironment.html">mx::fftwEnvironment</a> at the beginning of the program for the real floating point type you are using. See the documentation for <a class="el" href="structmx_1_1fftwEnvironment.html">mx::fftwEnvironment</a> for details. </p>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Aug 5 2017 13:34:43 for mxlib by
+    <li class="footer">Generated on Wed Aug 30 2017 23:13:58 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -101,8 +101,7 @@ $(document).ready(function(){initNavTree('clGainOpt_8hpp.html','');});
 <dl class="section author"><dt>Author</dt><dd>Jared R. Males (<a href="#" onclick="location.href='mai'+'lto:'+'jar'+'ed'+'mal'+'es'+'@gm'+'ai'+'l.c'+'om'; return false;">jared<span style="display: none;">.nosp@m.</span>male<span style="display: none;">.nosp@m.</span>s@gma<span style="display: none;">.nosp@m.</span>il.c<span style="display: none;">.nosp@m.</span>om</a>) </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="clGainOpt_8hpp_source.html">clGainOpt.hpp</a>.</p>
-</div><div class="textblock"><code>#include &lt;boost/math/tools/roots.hpp&gt;</code><br />
-<code>#include &lt;boost/math/tools/minima.hpp&gt;</code><br />
+</div><div class="textblock"><code>#include &lt;boost/math/tools/minima.hpp&gt;</code><br />
 <code>#include &lt;boost/math/constants/constants.hpp&gt;</code><br />
 <code>#include &lt;Eigen/Dense&gt;</code><br />
 <code>#include &lt;mx/timeUtils.hpp&gt;</code><br />
@@ -111,20 +110,14 @@ $(document).ready(function(){initNavTree('clGainOpt_8hpp.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1clMaxStableGainOpt.html">mx::AO::clMaxStableGainOpt&lt; realT &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bisection worker struct for maximum stable gain.  <a href="structmx_1_1AO_1_1clMaxStableGainOpt.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1analysis_1_1clGainOptOptGain__OL.html">mx::AO::analysis::clGainOptOptGain_OL&lt; realT &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bisection worker struct for finding optimum closed loop gain from open loop PSDs.  <a href="structmx_1_1AO_1_1analysis_1_1clGainOptOptGain__OL.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1clGainOptOptGain__OL.html">mx::AO::clGainOptOptGain_OL&lt; realT &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bisection worker struct struct for finding optimum closed loop gain from open loop PSDs.  <a href="structmx_1_1AO_1_1clGainOptOptGain__OL.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1analysis_1_1clGainOpt.html">mx::AO::analysis::clGainOpt&lt; _realT &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage optimizing closed-loop gains.  <a href="structmx_1_1AO_1_1analysis_1_1clGainOpt.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1clGainOpt.html">mx::AO::clGainOpt&lt; _realT &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage optimizing closed-loop gains.  <a href="structmx_1_1AO_1_1clGainOpt.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1clMaxStableGainOpt.html">mx::AO::clMaxStableGainOpt&lt; realT &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bisection worker struct for maximum stable gain.  <a href="structmx_1_1AO_1_1clMaxStableGainOpt.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1clGainOptOptGain__OL.html">mx::AO::clGainOptOptGain_OL&lt; realT &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bisection worker struct struct for finding optimum closed loop gain from open loop PSDs.  <a href="structmx_1_1AO_1_1clGainOptOptGain__OL.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1analysis_1_1clGainOptOptGain__OL.html">mx::AO::analysis::clGainOptOptGain_OL&lt; realT &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bisection worker struct for finding optimum closed loop gain from open loop PSDs.  <a href="structmx_1_1AO_1_1analysis_1_1clGainOptOptGain__OL.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -139,7 +132,7 @@ Namespaces</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4a0bf71ba3138a6abb584fb74c18f794.html">ao</a></li><li class="navelem"><a class="el" href="dir_cf528a69cdca6105739343681d2398d1.html">analysis</a></li><li class="navelem"><a class="el" href="clGainOpt_8hpp.html">clGainOpt.hpp</a></li>
-    <li class="footer">Generated on Sat Aug 5 2017 13:34:43 for mxlib by
+    <li class="footer">Generated on Wed Aug 30 2017 23:13:57 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

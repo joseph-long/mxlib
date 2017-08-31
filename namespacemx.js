@@ -1,7 +1,19 @@
 var namespacemx =
 [
     [ "AO", null, [
-      [ "beta_p", "namespacemx_1_1AO_1_1beta__p.html", "namespacemx_1_1AO_1_1beta__p" ],
+      [ "analysis", null, [
+        [ "aoAtmosphere", "classmx_1_1AO_1_1analysis_1_1aoAtmosphere.html", "classmx_1_1AO_1_1analysis_1_1aoAtmosphere" ],
+        [ "aoSystem", "classmx_1_1AO_1_1analysis_1_1aoSystem.html", "classmx_1_1AO_1_1analysis_1_1aoSystem" ],
+        [ "clAOLinearPredictor", "structmx_1_1AO_1_1analysis_1_1clAOLinearPredictor.html", "structmx_1_1AO_1_1analysis_1_1clAOLinearPredictor" ],
+        [ "clGainOpt", "structmx_1_1AO_1_1analysis_1_1clGainOpt.html", "structmx_1_1AO_1_1analysis_1_1clGainOpt" ],
+        [ "clGainOptOptGain_OL", "structmx_1_1AO_1_1analysis_1_1clGainOptOptGain__OL.html", null ],
+        [ "fourierCovariance", "structmx_1_1AO_1_1analysis_1_1fourierCovariance.html", "structmx_1_1AO_1_1analysis_1_1fourierCovariance" ],
+        [ "fourierTemporalPSD", "structmx_1_1AO_1_1analysis_1_1fourierTemporalPSD.html", "structmx_1_1AO_1_1analysis_1_1fourierTemporalPSD" ],
+        [ "pywfsModAsymptotic", "structmx_1_1AO_1_1analysis_1_1pywfsModAsymptotic.html", "structmx_1_1AO_1_1analysis_1_1pywfsModAsymptotic" ],
+        [ "pywfsUnmod", "structmx_1_1AO_1_1analysis_1_1pywfsUnmod.html", "structmx_1_1AO_1_1analysis_1_1pywfsUnmod" ],
+        [ "vonKarmanSpectrum", "structmx_1_1AO_1_1analysis_1_1vonKarmanSpectrum.html", "structmx_1_1AO_1_1analysis_1_1vonKarmanSpectrum" ],
+        [ "wfs", "structmx_1_1AO_1_1analysis_1_1wfs.html", "structmx_1_1AO_1_1analysis_1_1wfs" ]
+      ] ],
       [ "path", "namespacemx_1_1AO_1_1path.html", null ],
       [ "sim", null, [
         [ "ccdDetector", "classmx_1_1AO_1_1sim_1_1ccdDetector.html", "classmx_1_1AO_1_1sim_1_1ccdDetector" ],
@@ -13,15 +25,7 @@ var namespacemx =
         [ "turbAtmosphere", "structmx_1_1AO_1_1sim_1_1turbAtmosphere.html", "structmx_1_1AO_1_1sim_1_1turbAtmosphere" ],
         [ "turbLayer", "structmx_1_1AO_1_1sim_1_1turbLayer.html", "structmx_1_1AO_1_1sim_1_1turbLayer" ],
         [ "wavefront", "structmx_1_1AO_1_1sim_1_1wavefront.html", "structmx_1_1AO_1_1sim_1_1wavefront" ]
-      ] ],
-      [ "aoAtmosphere", "classmx_1_1AO_1_1aoAtmosphere.html", "classmx_1_1AO_1_1aoAtmosphere" ],
-      [ "aoSystem", "classmx_1_1AO_1_1aoSystem.html", "classmx_1_1AO_1_1aoSystem" ],
-      [ "clGainOpt", "structmx_1_1AO_1_1clGainOpt.html", "structmx_1_1AO_1_1clGainOpt" ],
-      [ "clGainOptOptGain_OL", "structmx_1_1AO_1_1clGainOptOptGain__OL.html", null ],
-      [ "clMaxStableGainOpt", "structmx_1_1AO_1_1clMaxStableGainOpt.html", null ],
-      [ "fourierCovariance", "structmx_1_1AO_1_1fourierCovariance.html", "structmx_1_1AO_1_1fourierCovariance" ],
-      [ "fourierTemporalPSD", "structmx_1_1AO_1_1fourierTemporalPSD.html", "structmx_1_1AO_1_1fourierTemporalPSD" ],
-      [ "vonKarmanSpectrum", "structmx_1_1AO_1_1vonKarmanSpectrum.html", "structmx_1_1AO_1_1vonKarmanSpectrum" ]
+      ] ]
     ] ],
     [ "astro", null, [
       [ "units", null, [
@@ -31,8 +35,12 @@ var namespacemx =
         [ "si", "structmx_1_1astro_1_1units_1_1si.html", "structmx_1_1astro_1_1units_1_1si" ],
         [ "solar", "structmx_1_1astro_1_1units_1_1solar.html", "structmx_1_1astro_1_1units_1_1solar" ]
       ] ],
+      [ "astroFilter", "structmx_1_1astro_1_1astroFilter.html", "structmx_1_1astro_1_1astroFilter" ],
+      [ "astroSpectrum", "structmx_1_1astro_1_1astroSpectrum.html", "structmx_1_1astro_1_1astroSpectrum" ],
+      [ "basicSpectrum", "structmx_1_1astro_1_1basicSpectrum.html", "structmx_1_1astro_1_1basicSpectrum" ],
       [ "calspecSpectrum", "structmx_1_1astro_1_1calspecSpectrum.html", "structmx_1_1astro_1_1calspecSpectrum" ],
-      [ "mainSequence", "structmx_1_1astro_1_1mainSequence.html", "structmx_1_1astro_1_1mainSequence" ]
+      [ "mainSequence", "structmx_1_1astro_1_1mainSequence.html", "structmx_1_1astro_1_1mainSequence" ],
+      [ "picklesSpectrum", "structmx_1_1astro_1_1picklesSpectrum.html", "structmx_1_1astro_1_1picklesSpectrum" ]
     ] ],
     [ "improc", null, [
       [ "ADIDerotator", "structmx_1_1improc_1_1ADIDerotator.html", "structmx_1_1improc_1_1ADIDerotator" ],
@@ -79,7 +87,8 @@ var namespacemx =
     ] ],
     [ "sigproc", null, [
       [ "autocorrelationFromPSD", "structmx_1_1sigproc_1_1autocorrelationFromPSD.html", "structmx_1_1sigproc_1_1autocorrelationFromPSD" ],
-      [ "linearPredictor", "structmx_1_1sigproc_1_1linearPredictor.html", null ],
+      [ "fourierModeDef", "structmx_1_1sigproc_1_1fourierModeDef.html", "structmx_1_1sigproc_1_1fourierModeDef" ],
+      [ "linearPredictor", "structmx_1_1sigproc_1_1linearPredictor.html", "structmx_1_1sigproc_1_1linearPredictor" ],
       [ "psdFilter", "classmx_1_1sigproc_1_1psdFilter.html", "classmx_1_1sigproc_1_1psdFilter" ]
     ] ],
     [ "wfp", null, [
@@ -92,6 +101,7 @@ var namespacemx =
     [ "clOptions", "structmx_1_1clOptions.html", "structmx_1_1clOptions" ],
     [ "configTarget", "structmx_1_1configTarget.html", "structmx_1_1configTarget" ],
     [ "fftT< _inputT, _outputT, _dim, 0 >", "classmx_1_1fftT_3_01__inputT_00_01__outputT_00_01__dim_00_010_01_4.html", "classmx_1_1fftT_3_01__inputT_00_01__outputT_00_01__dim_00_010_01_4" ],
+    [ "fftwEnvironment", "structmx_1_1fftwEnvironment.html", "structmx_1_1fftwEnvironment" ],
     [ "fftwPlanSpec", "structmx_1_1fftwPlanSpec.html", "structmx_1_1fftwPlanSpec" ],
     [ "fftwPlanSpec< __float128 >", "structmx_1_1fftwPlanSpec_3_01____float128_01_4.html", "structmx_1_1fftwPlanSpec_3_01____float128_01_4" ],
     [ "fftwPlanSpec< double >", "structmx_1_1fftwPlanSpec_3_01double_01_4.html", "structmx_1_1fftwPlanSpec_3_01double_01_4" ],
@@ -110,7 +120,6 @@ var namespacemx =
     [ "fftwTypeSpec< double, complexDT >", "structmx_1_1fftwTypeSpec_3_01double_00_01complexDT_01_4.html", "structmx_1_1fftwTypeSpec_3_01double_00_01complexDT_01_4" ],
     [ "fftwTypeSpec< float, complexFT >", "structmx_1_1fftwTypeSpec_3_01float_00_01complexFT_01_4.html", "structmx_1_1fftwTypeSpec_3_01float_00_01complexFT_01_4" ],
     [ "fftwTypeSpec< long double, complexLT >", "structmx_1_1fftwTypeSpec_3_01long_01double_00_01complexLT_01_4.html", "structmx_1_1fftwTypeSpec_3_01long_01double_00_01complexLT_01_4" ],
-    [ "fourierModeDef", "structmx_1_1fourierModeDef.html", "structmx_1_1fourierModeDef" ],
     [ "gnuPlot", "classmx_1_1gnuPlot.html", "classmx_1_1gnuPlot" ],
     [ "is_imagingArray", "structmx_1_1is__imagingArray.html", null ],
     [ "laplace_distribution", "classmx_1_1laplace__distribution.html", "classmx_1_1laplace__distribution" ],

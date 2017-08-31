@@ -1,6 +1,7 @@
 var searchData=
 [
   ['fftt_3c_20_5finputt_2c_20_5foutputt_2c_20_5fdim_2c_200_20_3e',['fftT&lt; _inputT, _outputT, _dim, 0 &gt;',['../classmx_1_1fftT_3_01__inputT_00_01__outputT_00_01__dim_00_010_01_4.html',1,'mx']]],
+  ['fftwenvironment',['fftwEnvironment',['../structmx_1_1fftwEnvironment.html',1,'mx']]],
   ['fftwplanspec',['fftwPlanSpec',['../structmx_1_1fftwPlanSpec.html',1,'mx']]],
   ['fftwplanspec_3c_20_5f_5ffloat128_20_3e',['fftwPlanSpec&lt; __float128 &gt;',['../structmx_1_1fftwPlanSpec_3_01____float128_01_4.html',1,'mx']]],
   ['fftwplanspec_3c_20double_20_3e',['fftwPlanSpec&lt; double &gt;',['../structmx_1_1fftwPlanSpec_3_01double_01_4.html',1,'mx']]],
@@ -25,9 +26,10 @@ var searchData=
   ['fitsfile',['fitsFile',['../classmx_1_1improc_1_1fitsFile.html',1,'mx::improc']]],
   ['fitsheader',['fitsHeader',['../classmx_1_1improc_1_1fitsHeader.html',1,'mx::improc']]],
   ['fitsheadercard',['fitsHeaderCard',['../structmx_1_1improc_1_1fitsHeaderCard.html',1,'mx::improc']]],
-  ['fouriercovariance',['fourierCovariance',['../structmx_1_1AO_1_1fourierCovariance.html',1,'mx::AO']]],
-  ['fouriermodedef',['fourierModeDef',['../structmx_1_1fourierModeDef.html',1,'mx']]],
-  ['fouriertemporalpsd',['fourierTemporalPSD',['../structmx_1_1AO_1_1fourierTemporalPSD.html',1,'mx::AO']]],
+  ['fouriercovariance',['fourierCovariance',['../structmx_1_1AO_1_1analysis_1_1fourierCovariance.html',1,'mx::AO::analysis']]],
+  ['fouriermodedef',['fourierModeDef',['../structmx_1_1sigproc_1_1fourierModeDef.html',1,'mx::sigproc']]],
+  ['fouriertemporalpsd',['fourierTemporalPSD',['../structmx_1_1AO_1_1analysis_1_1fourierTemporalPSD.html',1,'mx::AO::analysis']]],
   ['fraunhoferpropagator',['fraunhoferPropagator',['../classmx_1_1wfp_1_1fraunhoferPropagator.html',1,'mx::wfp']]],
-  ['fraunhoferpropagator_3c_20complexfieldt_20_3e',['fraunhoferPropagator&lt; complexFieldT &gt;',['../classmx_1_1wfp_1_1fraunhoferPropagator.html',1,'mx::wfp']]]
+  ['fraunhoferpropagator_3c_20complexfieldt_20_3e',['fraunhoferPropagator&lt; complexFieldT &gt;',['../classmx_1_1wfp_1_1fraunhoferPropagator.html',1,'mx::wfp']]],
+  ['fraunhoferpropagator_3c_20compleximaget_20_3e',['fraunhoferPropagator&lt; complexImageT &gt;',['../classmx_1_1wfp_1_1fraunhoferPropagator.html',1,'mx::wfp']]]
 ];
