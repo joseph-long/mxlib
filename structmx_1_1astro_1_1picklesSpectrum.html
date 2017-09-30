@@ -116,9 +116,11 @@ $(document).ready(function(){initNavTree('structmx_1_1astro_1_1picklesSpectrum.h
 <div class="header">
   <div class="summary">
 <a href="structmx_1_1astro_1_1picklesSpectrum-members.html">List of all members</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a>  </div>
   <div class="headertitle">
-<div class="title">mx::astro::picklesSpectrum&lt; _units &gt; Struct Template Reference</div>  </div>
+<div class="title">mx::astro::picklesSpectrum&lt; _units &gt; Struct Template Reference<div class="ingroups"><a class="el" href="group__genastro.html">Astronomy</a> &raquo; <a class="el" href="group__astrophot.html">Astronomical Photometry</a> &raquo; <a class="el" href="group__astrophot__spectra.html">Astronomical Spectra</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader"> </h2>
@@ -127,20 +129,172 @@ struct mx::astro::picklesSpectrum&lt; _units &gt;</h3>
 
 <p>A spectrum from the Pickles library. </p>
 
-<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00141">141</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00163">163</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="astroSpectra_8hpp_source.html">astro/astroSpectra.hpp</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a334d1ec52bdf2a86c18f2a80d5b86baf"><td class="memItemLeft" align="right" valign="top">typedef std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1astro_1_1picklesSpectrum.html#a334d1ec52bdf2a86c18f2a80d5b86baf">paramsT</a></td></tr>
+<tr class="memdesc:a334d1ec52bdf2a86c18f2a80d5b86baf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Pickles spectra are parameterized by a spectral type string.  <a href="#a334d1ec52bdf2a86c18f2a80d5b86baf">More...</a><br /></td></tr>
+<tr class="separator:a334d1ec52bdf2a86c18f2a80d5b86baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a0c439199ca4dd836791ae44117e9f86f"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1astro_1_1picklesSpectrum.html#a0c439199ca4dd836791ae44117e9f86f">fileName</a> (const std::string spt)</td></tr>
+<tr class="memdesc:a0c439199ca4dd836791ae44117e9f86f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of the datafile is constructed from its spectral type string.  <a href="#a0c439199ca4dd836791ae44117e9f86f">More...</a><br /></td></tr>
+<tr class="separator:a0c439199ca4dd836791ae44117e9f86f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f1dd206d7750337a6a5932a1db08df3"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1astro_1_1picklesSpectrum.html#a8f1dd206d7750337a6a5932a1db08df3">readSpectrum</a> (std::vector&lt; realT &gt; &amp;rawLambda, std::vector&lt; realT &gt; &amp;rawSpectrum, const std::string &amp;path)</td></tr>
+<tr class="memdesc:a8f1dd206d7750337a6a5932a1db08df3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a Pickles spectrum, which for these purposes is a simple two column ASCII format.  <a href="#a8f1dd206d7750337a6a5932a1db08df3">More...</a><br /></td></tr>
+<tr class="separator:a8f1dd206d7750337a6a5932a1db08df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a1b8fcb5284d318d9db110901fbe16b46"><td class="memItemLeft" align="right" valign="top">static constexpr realT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1astro_1_1picklesSpectrum.html#a1b8fcb5284d318d9db110901fbe16b46">wavelengthUnits</a> = static_cast&lt;realT&gt;(1e10)</td></tr>
 <tr class="memdesc:a1b8fcb5284d318d9db110901fbe16b46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from A to SI m.  <a href="#a1b8fcb5284d318d9db110901fbe16b46">More...</a><br /></td></tr>
 <tr class="separator:a1b8fcb5284d318d9db110901fbe16b46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12452a8e8e97c35db51e5edea3a8d128"><td class="memItemLeft" align="right" valign="top">static constexpr realT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1astro_1_1picklesSpectrum.html#a12452a8e8e97c35db51e5edea3a8d128">fluxUnits</a> = static_cast&lt;realT&gt;(1)</td></tr>
-<tr class="memdesc:a12452a8e8e97c35db51e5edea3a8d128"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from erg s-1 cm-2 A-1 to SI W m-3.  <a href="#a12452a8e8e97c35db51e5edea3a8d128">More...</a><br /></td></tr>
+<tr class="memdesc:a12452a8e8e97c35db51e5edea3a8d128"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Pickles spectra are dimensionless.  <a href="#a12452a8e8e97c35db51e5edea3a8d128">More...</a><br /></td></tr>
 <tr class="separator:a12452a8e8e97c35db51e5edea3a8d128"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0853878b8a8ce5aa7d75a10db53ae228"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1astro_1_1picklesSpectrum.html#a0853878b8a8ce5aa7d75a10db53ae228">dataDirEnvVar</a> = &quot;PICKLES_DATADIR&quot;</td></tr>
+<tr class="memdesc:a0853878b8a8ce5aa7d75a10db53ae228"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Pickles spectra location is specified by the PICKLES_DATADIR environment variable.  <a href="#a0853878b8a8ce5aa7d75a10db53ae228">More...</a><br /></td></tr>
+<tr class="separator:a0853878b8a8ce5aa7d75a10db53ae228"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="a334d1ec52bdf2a86c18f2a80d5b86baf"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename _units &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::string <a class="el" href="structmx_1_1astro_1_1picklesSpectrum.html">mx::astro::picklesSpectrum</a>&lt; _units &gt;::<a class="el" href="structmx_1_1astro_1_1picklesSpectrum.html#a334d1ec52bdf2a86c18f2a80d5b86baf">paramsT</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The Pickles spectra are parameterized by a spectral type string. </p>
+
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00170">170</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a0c439199ca4dd836791ae44117e9f86f"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename _units &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string <a class="el" href="structmx_1_1astro_1_1picklesSpectrum.html">mx::astro::picklesSpectrum</a>&lt; _units &gt;::fileName </td>
+          <td>(</td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>spt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The name of the datafile is constructed from its spectral type string. </p>
+
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00182">182</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+
+<p>References <a class="el" href="stringUtils_8hpp_source.html#l00326">mx::toLower()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8f1dd206d7750337a6a5932a1db08df3"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename _units &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int <a class="el" href="structmx_1_1astro_1_1picklesSpectrum.html">mx::astro::picklesSpectrum</a>&lt; _units &gt;::readSpectrum </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; realT &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rawLambda</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; realT &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rawSpectrum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Read a Pickles spectrum, which for these purposes is a simple two column ASCII format. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">rawLambda</td><td>the raw wavelength vector. This should be an empty vector on input. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">rawSpectrum</td><td>the raw spectrum. This should be an empty vector on input. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>the full path to the file. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00188">188</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+
+<p>References <a class="el" href="readColumns_8hpp_source.html#l00108">mx::readColumns()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a0853878b8a8ce5aa7d75a10db53ae228"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename _units &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr const char* <a class="el" href="structmx_1_1astro_1_1picklesSpectrum.html">mx::astro::picklesSpectrum</a>&lt; _units &gt;::dataDirEnvVar = &quot;PICKLES_DATADIR&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The Pickles spectra location is specified by the PICKLES_DATADIR environment variable. </p>
+
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00179">179</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a12452a8e8e97c35db51e5edea3a8d128"></a>
 <div class="memitem">
 <div class="memproto">
@@ -161,9 +315,9 @@ template&lt;typename _units &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Convert from erg s-1 cm-2 A-1 to SI W m-3. </p>
+<p>The Pickles spectra are dimensionless. </p>
 
-<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00152">152</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00176">176</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
 
 </div>
 </div>
@@ -189,7 +343,7 @@ template&lt;typename _units &gt; </div>
 
 <p>Convert from A to SI m. </p>
 
-<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00149">149</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00173">173</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
 
 </div>
 </div>
@@ -202,7 +356,7 @@ template&lt;typename _units &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemx.html">mx</a></li><li class="navelem"><b>astro</b></li><li class="navelem"><a class="el" href="structmx_1_1astro_1_1picklesSpectrum.html">picklesSpectrum</a></li>
-    <li class="footer">Generated on Sun Sep 10 2017 05:17:57 for mxlib by
+    <li class="footer">Generated on Sat Sep 30 2017 14:26:03 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

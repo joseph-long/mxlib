@@ -26,7 +26,7 @@ var group__psds =
     ] ],
     [ "augment1SidedPSD", "group__psds.html#ga4a3bfd131b011f02ff71d1303e47dfd5", null ],
     [ "augment1SidedPSDFreq", "group__psds.html#ga9be4feb5c4ac0b44608a726306b0311a", null ],
-    [ "averagePeriodogram", "group__psds.html#gaf95c3d909800ffc09f4c776f3f7a06b3", null ],
+    [ "averagePeriodogram", "group__psds.html#ga8667ba5f06cc10388ebde96531a8a170", null ],
     [ "freq_sampling", "group__psds.html#gad62e6e7fd9fde862c407f3d6613e6374", null ],
     [ "frequency_grid", "group__psds.html#gaba00bc8c56a1b8c42777feb8ad123782", null ],
     [ "frequency_grid1D", "group__psds.html#gac4e3f7c1c2541d12a71f2f35a3730ce3", null ],

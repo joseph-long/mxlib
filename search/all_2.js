@@ -1,6 +1,9 @@
 var searchData=
 [
   ['b',['b',['../structmx_1_1AO_1_1analysis_1_1clGainOpt.html#a58932d94814ab98606d2c3b0e49da922',1,'mx::AO::analysis::clGainOpt::b(const std::vector&lt; realT &gt; &amp;newB)'],['../structmx_1_1AO_1_1analysis_1_1clGainOpt.html#a8975688f60a65a4d43e916f1f838a264',1,'mx::AO::analysis::clGainOpt::b(const Eigen::Array&lt; realT,-1,-1 &gt; &amp;newB)']]],
+  ['basespectrum',['baseSpectrum',['../structmx_1_1astro_1_1baseSpectrum.html',1,'mx::astro']]],
+  ['basespectrum_3c_20_5fspectrumt_3a_3aunits_3a_3arealt_20_3e',['baseSpectrum&lt; _spectrumT::units::realT &gt;',['../structmx_1_1astro_1_1baseSpectrum.html',1,'mx::astro']]],
+  ['basespectrum_3c_20_5funits_3a_3arealt_20_3e',['baseSpectrum&lt; _units::realT &gt;',['../structmx_1_1astro_1_1baseSpectrum.html',1,'mx::astro']]],
   ['basic',['basic',['../fourierTemporalPSD_8hpp.html#aa3aa5ac3f2ebf59289762d1635289dc1a51eaaade2b4d6be0e4e7d889c5bc2a19',1,'mx::AO::analysis']]],
   ['basicspectrum',['basicSpectrum',['../structmx_1_1astro_1_1basicSpectrum.html',1,'mx::astro']]],
   ['basis',['basis',['../fourierTemporalPSD_8hpp.html#aa3aa5ac3f2ebf59289762d1635289dc1',1,'mx::AO::analysis']]],
@@ -20,6 +23,8 @@ var searchData=
   ['binvectortypecode',['binVectorTypeCode',['../group__binvector.html#ga1c624b5c7197f141ce5678d0b9b5f2ea',1,'mx']]],
   ['binvsizet',['binVSizeT',['../namespacemx.html#a9ef751d5ed89c8402904ba5db0793aa7',1,'mx']]],
   ['binvtypet',['binVTypeT',['../group__binvector.html#gae0d83fe0d42385db94eb11dbf9df8658',1,'mx']]],
+  ['blackbody',['blackbody',['../structmx_1_1astro_1_1blackbody.html#af5e97253ce734cd636acbf59329b6bba',1,'mx::astro::blackbody::blackbody()'],['../structmx_1_1astro_1_1blackbody.html#a8d84a6c738e2a6eaf42686ea0d842eeb',1,'mx::astro::blackbody::blackbody(realT T, realT R=0, realT d=0)']]],
+  ['blackbody',['blackbody',['../structmx_1_1astro_1_1blackbody.html',1,'mx::astro']]],
   ['boost_20constants',['Boost Constants',['../group__boost__constants.html',1,'']]],
   ['bug_20list',['Bug List',['../bug.html',1,'']]],
   ['build_5fwhat',['build_what',['../classmxException.html#afa052160a2e92d807742d3adbe97e29e',1,'mxException']]],

@@ -6,7 +6,7 @@ var searchData=
   ['wfps',['wfPS',['../structmx_1_1AO_1_1sim_1_1turbAtmosphere.html#a312796312670677ab030b26f306c03cb',1,'mx::AO::sim::turbAtmosphere']]],
   ['wfs',['wfs',['../structmx_1_1AO_1_1analysis_1_1wfs.html#a4e28512997520c28578be3a6151a3d41',1,'mx::AO::analysis::wfs']]],
   ['wfsbetaunalloc',['wfsBetaUnalloc',['../classmx_1_1AO_1_1analysis_1_1aoSystem.html#a8db18f5399516b10b134ebc6a11c0de1',1,'mx::AO::analysis::aoSystem']]],
-  ['wfsnoisepsd',['wfsNoisePSD',['../group__mxAOAnalytic.html#ga0979f1dc1bb3dc2676f8b0acf781767a',1,'mx::AO']]],
+  ['wfsnoisepsd',['wfsNoisePSD',['../group__mxAOAnalytic.html#ga84fdd3e48223467d8d26a098e773e24e',1,'mx::AO::analysis']]],
   ['wfsz',['wfSz',['../structmx_1_1wfp_1_1idealCoronagraph.html#a1e12e750f345ee9d725ed7704f2608d6',1,'mx::wfp::idealCoronagraph::wfSz()'],['../structmx_1_1wfp_1_1idealCoronagraph.html#a55ba3993b8cb270359587da582acacbf',1,'mx::wfp::idealCoronagraph::wfSz(int sz)'],['../structmx_1_1wfp_1_1lyotCoronagraph.html#af0b3d6b119fa8c624d1f625302ee2571',1,'mx::wfp::lyotCoronagraph::wfSz()'],['../structmx_1_1wfp_1_1lyotCoronagraph.html#ad7eee445dcbe0cf38a3d46721adda272',1,'mx::wfp::lyotCoronagraph::wfSz(int sz)']]],
   ['what',['what',['../classmxException.html#a5b2dff8897d30b881bc3457a6f8d2440',1,'mxException']]],
   ['worker',['worker',['../structmx_1_1improc_1_1KLIPreduction.html#a9914dcaf1491f383a4404d28c11bee67',1,'mx::improc::KLIPreduction']]],

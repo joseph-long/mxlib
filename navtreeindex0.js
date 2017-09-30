@@ -1,6 +1,9 @@
 var NAVTREEINDEX0 =
 {
 ".html":[4,0,0,0],
+".html":[5,0,0,4],
+".html":[5,0,0,5],
+".html":[5,0,0,6],
 ".html":[4,0,0,2],
 ".html":[5,0,0,0],
 ".html":[5,0,0,0,0],
@@ -10,9 +13,6 @@ var NAVTREEINDEX0 =
 ".html":[5,0,0,2],
 ".html":[5,0,0,3],
 ".html":[5,0,0,3,0],
-".html":[5,0,0,4],
-".html":[5,0,0,5],
-".html":[5,0,0,6],
 "ADIDerotator_8hpp.html":[6,0,5,0],
 "ADIDerotator_8hpp_source.html":[6,0,5,0],
 "ADIobservation_8hpp.html":[6,0,5,1],
@@ -90,7 +90,6 @@ var NAVTREEINDEX0 =
 "application_8hpp_source.html":[6,0,1,1],
 "astroFilter_8hpp.html":[6,0,12],
 "astroFilter_8hpp.html#ga064d7669cb184aae83180f0b63bbd87a":[6,0,12,7],
-"astroFilter_8hpp.html#ga143925d7c8f870845714c095496a5d62":[6,0,12,12],
 "astroFilter_8hpp.html#ga3203a893c88c2df6e9a297db7d5da1db":[6,0,12,9],
 "astroFilter_8hpp.html#ga500c33dbd33c837fb75306a9b9099320":[6,0,12,2],
 "astroFilter_8hpp.html#ga51be4b8c6e41a6c4da2abb19049ab94f":[6,0,12,11],
@@ -131,6 +130,8 @@ var NAVTREEINDEX0 =
 "binVector_8hpp_source.html":[6,0,15],
 "blackbody_8hpp_source.html":[6,0,2,2],
 "bug.html":[2],
+"cahoyAlbedos_8hpp.html":[6,0,2,3],
+"cahoyAlbedos_8hpp_source.html":[6,0,2,3],
 "ccdDetector_8hpp.html":[6,0,0,1,0],
 "ccdDetector_8hpp_source.html":[6,0,0,1,0],
 "citelist.html":[3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "classmx_1_1AO_1_1analysis_1_1aoSystem.html#a380188eb0c74ec88393a3153cba25ccf":[0,5,5,0,2,28],
 "classmx_1_1AO_1_1analysis_1_1aoSystem.html#a38df30b5054c5e0495d85a7992219c35":[0,5,5,0,2,54],
 "classmx_1_1AO_1_1analysis_1_1aoSystem.html#a41a3c987c9d1b507101ab517f584c3c6":[0,5,5,0,2,35],
-"classmx_1_1AO_1_1analysis_1_1aoSystem.html#a42dc9b355a6e5fd2516841befc8bc0d4":[0,5,5,0,2,38],
-"classmx_1_1AO_1_1analysis_1_1aoSystem.html#a46c7d0db7a46248fa04045b7bed1ab13":[0,5,5,0,2,86]
+"classmx_1_1AO_1_1analysis_1_1aoSystem.html#a42dc9b355a6e5fd2516841befc8bc0d4":[0,5,5,0,2,38]
 };

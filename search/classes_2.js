@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['cahoygrid',['cahoyGrid',['../structmx_1_1astro_1_1cahoyGrid.html',1,'mx::astro']]],
+  ['cahoyspectrumraw',['cahoySpectrumRaw',['../structmx_1_1astro_1_1cahoySpectrumRaw.html',1,'mx::astro']]],
   ['calspecspectrum',['calspecSpectrum',['../structmx_1_1astro_1_1calspecSpectrum.html',1,'mx::astro']]],
   ['ccddetector',['ccdDetector',['../classmx_1_1AO_1_1sim_1_1ccdDetector.html',1,'mx::AO::sim']]],
   ['cgs',['cgs',['../structmx_1_1astro_1_1units_1_1cgs.html',1,'mx::astro::units']]],

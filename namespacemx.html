@@ -270,10 +270,6 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga143925d7c8f870845714c095496a5d62"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
-<tr class="memitem:ga143925d7c8f870845714c095496a5d62"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__astrophot.html#ga143925d7c8f870845714c095496a5d62">readCalspec</a> (std::vector&lt; dataT &gt; &amp;lambda, std::vector&lt; dataT &gt; &amp;flambda, const std::string &amp;spName, const std::string &amp;datadir)</td></tr>
-<tr class="memdesc:ga143925d7c8f870845714c095496a5d62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read an HST Calspec spectrum.  <a href="group__astrophot.html#ga143925d7c8f870845714c095496a5d62">More...</a><br /></td></tr>
-<tr class="separator:ga143925d7c8f870845714c095496a5d62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa6e9b547605f84007a5ef39bad36d46c"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
 <tr class="memitem:gaa6e9b547605f84007a5ef39bad36d46c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__astrophot.html#gaa6e9b547605f84007a5ef39bad36d46c">astrofiltNormalize</a> (std::vector&lt; dataT &gt; &amp;trans)</td></tr>
 <tr class="memdesc:gaa6e9b547605f84007a5ef39bad36d46c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalize a transmission profile to have peak value of 1.0.  <a href="group__astrophot.html#gaa6e9b547605f84007a5ef39bad36d46c">More...</a><br /></td></tr>
@@ -322,34 +318,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga3203a893c88c2df6e9a297db7d5da1db"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__astrophot.html#ga3203a893c88c2df6e9a297db7d5da1db">astrofiltScaleMean</a> (std::vector&lt; dataT &gt; &amp;lambda_s, std::vector&lt; dataT &gt; &amp;spectrum, std::vector&lt; dataT &gt; &amp;lambda_f, std::vector&lt; dataT &gt; &amp;trans, dataT mean, int scaleBy=0)</td></tr>
 <tr class="memdesc:ga3203a893c88c2df6e9a297db7d5da1db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scale a spectrum to a specified mean value in a filter.  <a href="group__astrophot.html#ga3203a893c88c2df6e9a297db7d5da1db">More...</a><br /></td></tr>
 <tr class="separator:ga3203a893c88c2df6e9a297db7d5da1db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga31335d0526d4a67c3c78b6eb9072ad4a"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
-<tr class="memitem:ga31335d0526d4a67c3c78b6eb9072ad4a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__astrophot.html#ga31335d0526d4a67c3c78b6eb9072ad4a">readPickles</a> (std::vector&lt; dataT &gt; &amp;lambda, std::vector&lt; dataT &gt; &amp;flambda, const std::string &amp;spt, const std::string &amp;datadir=&quot;&quot;)</td></tr>
-<tr class="memdesc:ga31335d0526d4a67c3c78b6eb9072ad4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a Pickles atlas spectrum.  <a href="group__astrophot.html#ga31335d0526d4a67c3c78b6eb9072ad4a">More...</a><br /></td></tr>
-<tr class="separator:ga31335d0526d4a67c3c78b6eb9072ad4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1ce74caabed774c52743d41162ab47bd"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
-<tr class="memitem:ga1ce74caabed774c52743d41162ab47bd"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__astrophot.html#ga1ce74caabed774c52743d41162ab47bd">readATRAN</a> (std::vector&lt; dataT &gt; &amp;lambda, std::vector&lt; dataT &gt; &amp;trans, const std::string &amp;site, double pwv, double airmass, const std::string &amp;datadir=&quot;&quot;)</td></tr>
-<tr class="memdesc:ga1ce74caabed774c52743d41162ab47bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the ATRAN atmospheric transmission spectrum from Gemini.  <a href="group__astrophot.html#ga1ce74caabed774c52743d41162ab47bd">More...</a><br /></td></tr>
-<tr class="separator:ga1ce74caabed774c52743d41162ab47bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga07d441d960a7de459cf5703cb8295801"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
-<tr class="memitem:ga07d441d960a7de459cf5703cb8295801"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__astrophot.html#ga07d441d960a7de459cf5703cb8295801">readBTRAM</a> (std::vector&lt; dataT &gt; &amp;lambda, std::vector&lt; dataT &gt; &amp;trans, const std::string &amp;site, const std::string &amp;run, double pwv, double zd, const std::string &amp;datadir=&quot;&quot;)</td></tr>
-<tr class="memdesc:ga07d441d960a7de459cf5703cb8295801"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a BTRAM atmospheric transmission spectrum.  <a href="group__astrophot.html#ga07d441d960a7de459cf5703cb8295801">More...</a><br /></td></tr>
-<tr class="separator:ga07d441d960a7de459cf5703cb8295801"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaed06fffc3d23784577ebd2823c91f361"><td class="memTemplParams" colspan="2">template&lt;typename floatT &gt; </td></tr>
-<tr class="memitem:gaed06fffc3d23784577ebd2823c91f361"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__astrophot.html#gaed06fffc3d23784577ebd2823c91f361">rewritePhoenixSpectrum</a> (const std::string &amp;filename, floatT lmin, floatT lmax)</td></tr>
-<tr class="memdesc:gaed06fffc3d23784577ebd2823c91f361"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read in, crop, and re-write a Phoenix spectrum data file.  <a href="group__astrophot.html#gaed06fffc3d23784577ebd2823c91f361">More...</a><br /></td></tr>
-<tr class="separator:gaed06fffc3d23784577ebd2823c91f361"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1020c936030c6629282cc814eca8d08f"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
-<tr class="memitem:ga1020c936030c6629282cc814eca8d08f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__astrophot.html#ga1020c936030c6629282cc814eca8d08f">readPhoenix</a> (std::vector&lt; dataT &gt; &amp;lambda, std::vector&lt; dataT &gt; &amp;flambda, const std::string &amp;filename, int scale=1, dataT radius=1)</td></tr>
-<tr class="memdesc:ga1020c936030c6629282cc814eca8d08f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a Phoenix model spectrum.  <a href="group__astrophot.html#ga1020c936030c6629282cc814eca8d08f">More...</a><br /></td></tr>
-<tr class="separator:ga1020c936030c6629282cc814eca8d08f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7b5510b1c262c719d3ce00093763cc8f"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
-<tr class="memitem:ga7b5510b1c262c719d3ce00093763cc8f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__astrophot.html#ga7b5510b1c262c719d3ce00093763cc8f">readEarthShine</a> (std::vector&lt; dataT &gt; &amp;lambda, std::vector&lt; dataT &gt; &amp;albedo, std::string &amp;datadir=&quot;&quot;)</td></tr>
-<tr class="memdesc:ga7b5510b1c262c719d3ce00093763cc8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the Earthshine spectrum.  <a href="group__astrophot.html#ga7b5510b1c262c719d3ce00093763cc8f">More...</a><br /></td></tr>
-<tr class="separator:ga7b5510b1c262c719d3ce00093763cc8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga28a13f34e17a06a8524417b917866653"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
-<tr class="memitem:ga28a13f34e17a06a8524417b917866653"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__astrophot.html#ga28a13f34e17a06a8524417b917866653">readEarthShine</a> (std::vector&lt; dataT &gt; &amp;lambda, std::vector&lt; dataT &gt; &amp;albedo)</td></tr>
-<tr class="memdesc:ga28a13f34e17a06a8524417b917866653"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the Earthshine spectrum.  <a href="group__astrophot.html#ga28a13f34e17a06a8524417b917866653">More...</a><br /></td></tr>
-<tr class="separator:ga28a13f34e17a06a8524417b917866653"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1c624b5c7197f141ce5678d0b9b5f2ea"><td class="memTemplParams" colspan="2">template&lt;typename dataT &gt; </td></tr>
 <tr class="memitem:ga1c624b5c7197f141ce5678d0b9b5f2ea"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__binvector.html#gae0d83fe0d42385db94eb11dbf9df8658">binVTypeT</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__binvector.html#ga1c624b5c7197f141ce5678d0b9b5f2ea">binVectorTypeCode</a> ()</td></tr>
 <tr class="memdesc:ga1c624b5c7197f141ce5678d0b9b5f2ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the integer type code corresponding to the type.  <a href="group__binvector.html#ga1c624b5c7197f141ce5678d0b9b5f2ea">More...</a><br /></td></tr>
@@ -826,7 +794,7 @@ template&lt;typename _RealType , typename _CharT , typename _Traits &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemx.html">mx</a></li>
-    <li class="footer">Generated on Sun Sep 10 2017 05:17:57 for mxlib by
+    <li class="footer">Generated on Sat Sep 30 2017 14:26:02 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

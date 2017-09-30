@@ -22,6 +22,7 @@ var searchData=
   ['loadfilelist',['loadFileList',['../structmx_1_1improc_1_1HCIobservation.html#adfc8efdbafb76175dedbd3d936093768',1,'mx::improc::HCIobservation::loadFileList(const std::string &amp;fileListFile)'],['../structmx_1_1improc_1_1HCIobservation.html#a51a4377eafa2a3109722d00d50c583d7',1,'mx::improc::HCIobservation::loadFileList(const std::string &amp;dir, const std::string &amp;prefix, const std::string &amp;ext)']]],
   ['loadfocalmask',['loadFocalMask',['../structmx_1_1wfp_1_1lyotCoronagraph.html#abb27b70d35b85ef6466e812c275512a8',1,'mx::wfp::lyotCoronagraph']]],
   ['loadgmagaox',['loadGMagAOX',['../classmx_1_1AO_1_1analysis_1_1aoSystem.html#ab6f80d19009f83ebaa94c93c06ee3c3a',1,'mx::AO::analysis::aoSystem']]],
+  ['loadgrid',['loadGrid',['../structmx_1_1astro_1_1cahoyGrid.html#a2024e516fca3efe4f9cf7a5df3f3c761',1,'mx::astro::cahoyGrid']]],
   ['loadguyon2005',['loadGuyon2005',['../classmx_1_1AO_1_1analysis_1_1aoAtmosphere.html#a4ac124ced594ed2313fb8039411971e4',1,'mx::AO::analysis::aoAtmosphere::loadGuyon2005()'],['../classmx_1_1AO_1_1analysis_1_1aoSystem.html#a074df769f56f81de3253f69a3271ea26',1,'mx::AO::analysis::aoSystem::loadGuyon2005()']]],
   ['loadlco',['loadLCO',['../classmx_1_1AO_1_1analysis_1_1aoAtmosphere.html#a0ffd7f9064e859a56201107756a4893d',1,'mx::AO::analysis::aoAtmosphere']]],
   ['loadlyotstop',['loadLyotStop',['../structmx_1_1wfp_1_1lyotCoronagraph.html#ac1153e3c9ff57dbab0d15f253bc60298',1,'mx::wfp::lyotCoronagraph']]],

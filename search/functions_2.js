@@ -9,5 +9,6 @@ var searchData=
   ['binright',['binRight',['../classmx_1_1math_1_1histogramUniform.html#a2266fc9f4c167dc4e3633ef7eaff6e79',1,'mx::math::histogramUniform']]],
   ['bins',['bins',['../classmx_1_1math_1_1histogramUniform.html#aa9bb285c5dbe6855465517af0591aee3',1,'mx::math::histogramUniform']]],
   ['binvectortypecode',['binVectorTypeCode',['../group__binvector.html#ga1c624b5c7197f141ce5678d0b9b5f2ea',1,'mx']]],
+  ['blackbody',['blackbody',['../structmx_1_1astro_1_1blackbody.html#af5e97253ce734cd636acbf59329b6bba',1,'mx::astro::blackbody::blackbody()'],['../structmx_1_1astro_1_1blackbody.html#a8d84a6c738e2a6eaf42686ea0d842eeb',1,'mx::astro::blackbody::blackbody(realT T, realT R=0, realT d=0)']]],
   ['build_5fwhat',['build_what',['../classmxException.html#afa052160a2e92d807742d3adbe97e29e',1,'mxException']]]
 ];

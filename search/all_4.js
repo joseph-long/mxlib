@@ -5,6 +5,7 @@ var searchData=
   ['d_5fmin',['d_min',['../classmx_1_1AO_1_1analysis_1_1aoSystem.html#aa2141935c28a27648a624606bf648676',1,'mx::AO::analysis::aoSystem::d_min(realT nd)'],['../classmx_1_1AO_1_1analysis_1_1aoSystem.html#a41a3c987c9d1b507101ab517f584c3c6',1,'mx::AO::analysis::aoSystem::d_min()']]],
   ['d_5fopt',['d_opt',['../classmx_1_1AO_1_1analysis_1_1aoSystem.html#a23d0fba4379d6fa4984a039623673361',1,'mx::AO::analysis::aoSystem']]],
   ['das2r',['DAS2R',['../group__sofa__constants.html#gaaf777442176e851f4e522f4cf60d73d7',1,'sofa_constants.h']]],
+  ['datadirenvvar',['dataDirEnvVar',['../structmx_1_1astro_1_1basicSpectrum.html#afffed1cf41cbcafdea3befcd6514ba02',1,'mx::astro::basicSpectrum::dataDirEnvVar()'],['../structmx_1_1astro_1_1picklesSpectrum.html#a0853878b8a8ce5aa7d75a10db53ae228',1,'mx::astro::picklesSpectrum::dataDirEnvVar()']]],
   ['dau',['DAU',['../group__sofa__constants.html#gabdf4f4aaf52ec1447c5714edbca10c59',1,'sofa_constants.h']]],
   ['day',['day',['../group__dimensioned__constants.html#gaa1ea49135ded31f7f8112a0776dcb4fd',1,'mx::astro::constants']]],
   ['daysec',['DAYSEC',['../group__sofa__constants.html#ga898a072398d102cb0a7f9696bca48c1b',1,'sofa_constants.h']]],

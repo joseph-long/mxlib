@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['datadirenvvar',['dataDirEnvVar',['../structmx_1_1astro_1_1basicSpectrum.html#afffed1cf41cbcafdea3befcd6514ba02',1,'mx::astro::basicSpectrum::dataDirEnvVar()'],['../structmx_1_1astro_1_1picklesSpectrum.html#a0853878b8a8ce5aa7d75a10db53ae228',1,'mx::astro::picklesSpectrum::dataDirEnvVar()']]],
   ['deleteback',['deleteBack',['../structmx_1_1improc_1_1HCIobservation.html#a181b3b4636c7a30ba51d4bbebee76015',1,'mx::improc::HCIobservation']]],
   ['deletefront',['deleteFront',['../structmx_1_1improc_1_1HCIobservation.html#aae92e08c1df056dbe388f484426115dc',1,'mx::improc::HCIobservation']]],
   ['deltat',['deltaT',['../classmx_1_1math_1_1fit_1_1levmarInterface.html#a9a5d50e90075d531cff78b96215fa1bd',1,'mx::math::fit::levmarInterface']]],

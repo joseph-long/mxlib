@@ -116,9 +116,11 @@ $(document).ready(function(){initNavTree('structmx_1_1astro_1_1calspecSpectrum.h
 <div class="header">
   <div class="summary">
 <a href="structmx_1_1astro_1_1calspecSpectrum-members.html">List of all members</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a>  </div>
   <div class="headertitle">
-<div class="title">mx::astro::calspecSpectrum&lt; _units &gt; Struct Template Reference</div>  </div>
+<div class="title">mx::astro::calspecSpectrum&lt; _units &gt; Struct Template Reference<div class="ingroups"><a class="el" href="group__genastro.html">Astronomy</a> &raquo; <a class="el" href="group__astrophot.html">Astronomical Photometry</a> &raquo; <a class="el" href="group__astrophot__spectra.html">Astronomical Spectra</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader"> </h2>
@@ -128,10 +130,25 @@ struct mx::astro::calspecSpectrum&lt; _units &gt;</h3>
 <p>A spectrum from the HST calspec library. </p>
 <p>See <a href="http://www.stsci.edu/hst/observatory/crds/calspec.html">http://www.stsci.edu/hst/observatory/crds/calspec.html</a> </p>
 
-<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00106">106</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00122">122</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="astroSpectra_8hpp_source.html">astro/astroSpectra.hpp</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:ad6b7d98fbb7d0f14ad2dde72b2288cac"><td class="memItemLeft" align="right" valign="top">typedef std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1astro_1_1calspecSpectrum.html#ad6b7d98fbb7d0f14ad2dde72b2288cac">paramsT</a></td></tr>
+<tr class="memdesc:ad6b7d98fbb7d0f14ad2dde72b2288cac"><td class="mdescLeft">&#160;</td><td class="mdescRight">The calspec Spectra are parameterized by star name.  <a href="#ad6b7d98fbb7d0f14ad2dde72b2288cac">More...</a><br /></td></tr>
+<tr class="separator:ad6b7d98fbb7d0f14ad2dde72b2288cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a9bf4d23ff9e408ef03cbb233e9d40854"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1astro_1_1calspecSpectrum.html#a9bf4d23ff9e408ef03cbb233e9d40854">fileName</a> (const std::string name)</td></tr>
+<tr class="memdesc:a9bf4d23ff9e408ef03cbb233e9d40854"><td class="mdescLeft">&#160;</td><td class="mdescRight">The file name is found from the star's name.  <a href="#a9bf4d23ff9e408ef03cbb233e9d40854">More...</a><br /></td></tr>
+<tr class="separator:a9bf4d23ff9e408ef03cbb233e9d40854"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a607fa7c14200d8a3a135aef16adaf371"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1astro_1_1calspecSpectrum.html#a607fa7c14200d8a3a135aef16adaf371">readSpectrum</a> (std::vector&lt; realT &gt; &amp;rawLambda, std::vector&lt; realT &gt; &amp;rawSpectrum, const std::string &amp;path)</td></tr>
+<tr class="memdesc:a607fa7c14200d8a3a135aef16adaf371"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a CALSPEC spectrum, which is a simple two column ASCII format.  <a href="#a607fa7c14200d8a3a135aef16adaf371">More...</a><br /></td></tr>
+<tr class="separator:a607fa7c14200d8a3a135aef16adaf371"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:afa1982b72b7f42c2781c93cf751c2695"><td class="memItemLeft" align="right" valign="top">static constexpr realT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1astro_1_1calspecSpectrum.html#afa1982b72b7f42c2781c93cf751c2695">wavelengthUnits</a> = static_cast&lt;realT&gt;(1e10)</td></tr>
@@ -141,6 +158,112 @@ Static Public Attributes</h2></td></tr>
 <tr class="memdesc:a3aa04335d3d387019b07b2cd14647fa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from erg s-1 cm-2 A-1 to SI W m-3.  <a href="#a3aa04335d3d387019b07b2cd14647fa9">More...</a><br /></td></tr>
 <tr class="separator:a3aa04335d3d387019b07b2cd14647fa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="ad6b7d98fbb7d0f14ad2dde72b2288cac"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename _units &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::string <a class="el" href="structmx_1_1astro_1_1calspecSpectrum.html">mx::astro::calspecSpectrum</a>&lt; _units &gt;::<a class="el" href="structmx_1_1astro_1_1calspecSpectrum.html#ad6b7d98fbb7d0f14ad2dde72b2288cac">paramsT</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The calspec Spectra are parameterized by star name. </p>
+
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00129">129</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a9bf4d23ff9e408ef03cbb233e9d40854"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename _units &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string <a class="el" href="structmx_1_1astro_1_1calspecSpectrum.html">mx::astro::calspecSpectrum</a>&lt; _units &gt;::fileName </td>
+          <td>(</td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The file name is found from the star's name. </p>
+
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00140">140</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a607fa7c14200d8a3a135aef16adaf371"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename _units &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int <a class="el" href="structmx_1_1astro_1_1calspecSpectrum.html">mx::astro::calspecSpectrum</a>&lt; _units &gt;::readSpectrum </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; realT &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rawLambda</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; realT &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rawSpectrum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Read a CALSPEC spectrum, which is a simple two column ASCII format. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">rawLambda</td><td>the raw wavelength vector. This should be an empty vector on input. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">rawSpectrum</td><td>the raw spectrum. This should be an empty vector on input. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>the full path to the file. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00148">148</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+
+<p>References <a class="el" href="readColumns_8hpp_source.html#l00108">mx::readColumns()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a3aa04335d3d387019b07b2cd14647fa9"></a>
 <div class="memitem">
@@ -164,7 +287,7 @@ template&lt;typename _units &gt; </div>
 
 <p>Convert from erg s-1 cm-2 A-1 to SI W m-3. </p>
 
-<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00117">117</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00135">135</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
 
 </div>
 </div>
@@ -190,7 +313,7 @@ template&lt;typename _units &gt; </div>
 
 <p>Convert from nm to SI m. </p>
 
-<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00114">114</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00132">132</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
 
 </div>
 </div>
@@ -203,7 +326,7 @@ template&lt;typename _units &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemx.html">mx</a></li><li class="navelem"><b>astro</b></li><li class="navelem"><a class="el" href="structmx_1_1astro_1_1calspecSpectrum.html">calspecSpectrum</a></li>
-    <li class="footer">Generated on Sun Sep 10 2017 05:17:57 for mxlib by
+    <li class="footer">Generated on Sat Sep 30 2017 14:26:03 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

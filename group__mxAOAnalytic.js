@@ -306,5 +306,5 @@ var group__mxAOAnalytic =
     [ "F_projMod", "group__mxAOAnalytic.html#ga7af7f2691a7869ff105f6483e4769a2e", null ],
     [ "phiInt_basic", "group__mxAOAnalytic.html#ga4c2d016705e5e36c40478fb588b045e5", null ],
     [ "varmapToImage", "group__mxAOAnalytic.html#ga8ada887800a6570c00dbd9921b14315b", null ],
-    [ "wfsNoisePSD", "group__mxAOAnalytic.html#ga0979f1dc1bb3dc2676f8b0acf781767a", null ]
+    [ "wfsNoisePSD", "group__mxAOAnalytic.html#ga84fdd3e48223467d8d26a098e773e24e", null ]
 ];

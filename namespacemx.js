@@ -37,9 +37,14 @@ var namespacemx =
       ] ],
       [ "astroFilter", "structmx_1_1astro_1_1astroFilter.html", "structmx_1_1astro_1_1astroFilter" ],
       [ "astroSpectrum", "structmx_1_1astro_1_1astroSpectrum.html", "structmx_1_1astro_1_1astroSpectrum" ],
+      [ "baseSpectrum", "structmx_1_1astro_1_1baseSpectrum.html", "structmx_1_1astro_1_1baseSpectrum" ],
       [ "basicSpectrum", "structmx_1_1astro_1_1basicSpectrum.html", "structmx_1_1astro_1_1basicSpectrum" ],
+      [ "blackbody", "structmx_1_1astro_1_1blackbody.html", "structmx_1_1astro_1_1blackbody" ],
+      [ "cahoyGrid", "structmx_1_1astro_1_1cahoyGrid.html", "structmx_1_1astro_1_1cahoyGrid" ],
+      [ "cahoySpectrumRaw", "structmx_1_1astro_1_1cahoySpectrumRaw.html", "structmx_1_1astro_1_1cahoySpectrumRaw" ],
       [ "calspecSpectrum", "structmx_1_1astro_1_1calspecSpectrum.html", "structmx_1_1astro_1_1calspecSpectrum" ],
       [ "mainSequence", "structmx_1_1astro_1_1mainSequence.html", "structmx_1_1astro_1_1mainSequence" ],
+      [ "phoenixSpectrum", "structmx_1_1astro_1_1phoenixSpectrum.html", "structmx_1_1astro_1_1phoenixSpectrum" ],
       [ "picklesSpectrum", "structmx_1_1astro_1_1picklesSpectrum.html", "structmx_1_1astro_1_1picklesSpectrum" ]
     ] ],
     [ "improc", null, [

@@ -1,10 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"pyramidSensorSepQuad_8hpp_source.html":[6,0,0,1,8],
-"pyramidSensor_8hpp.html":[6,0,0,1,7],
-"pyramidSensor_8hpp_source.html":[6,0,0,1,7],
-"pywfsSlopeReconstructor_8hpp_source.html":[6,0,0,1,9],
-"randomSeed_8hpp.html":[6,0,33],
 "randomSeed_8hpp.html#ga836cd4e4525b4e098ec8e405057901d1":[6,0,33,0],
 "randomSeed_8hpp_source.html":[6,0,33],
 "randomT_8hpp.html":[6,0,34],
@@ -36,12 +31,12 @@ var NAVTREEINDEX8 =
 "signalWindows_8hpp_source.html":[6,0,8,7],
 "simulatedAOSystem_8hpp.html":[6,0,0,1,10],
 "simulatedAOSystem_8hpp_source.html":[6,0,0,1,10],
-"sofa_8hpp.html":[6,0,2,7],
-"sofa_8hpp_source.html":[6,0,2,7],
+"sofa_8hpp.html":[6,0,2,9],
+"sofa_8hpp_source.html":[6,0,2,9],
 "sofa__constants_8h_source.html":[6,0,3,0],
-"stars_8hpp.html":[6,0,2,8],
-"stars_8hpp.html#ga3df9c066c0292686701b4599a364e5cd":[6,0,2,8,1],
-"stars_8hpp_source.html":[6,0,2,8],
+"stars_8hpp.html":[6,0,2,10],
+"stars_8hpp.html#ga3df9c066c0292686701b4599a364e5cd":[6,0,2,10,0],
+"stars_8hpp_source.html":[6,0,2,10],
 "stringUtils_8hpp.html":[6,0,39],
 "stringUtils_8hpp.html#ga004a53429bf768e41f615c09d2c9220a":[6,0,39,6],
 "stringUtils_8hpp.html#ga1d16c6369a46f9be5a76b93e50e64366":[6,0,39,8],
@@ -249,5 +244,10 @@ var NAVTREEINDEX8 =
 "structmx_1_1appConfigurator.html#a9bb4f7c8e8ef94d6a94a47b71dc78a6e":[0,7,7,1,1],
 "structmx_1_1appConfigurator.html#a9c6658cbaee637a7debbfca11cc6bda5":[0,7,7,1,4],
 "structmx_1_1appConfigurator.html#aa53893cc79fd08306a00ceefeb40d3b1":[0,7,7,1,15],
-"structmx_1_1appConfigurator.html#ac851f27b280f03833d8355ff0da48c43":[0,7,7,1,12]
+"structmx_1_1appConfigurator.html#ac851f27b280f03833d8355ff0da48c43":[0,7,7,1,12],
+"structmx_1_1appConfigurator.html#ad986120b39a26aa8136e861d00bdc4a6":[0,7,7,1,14],
+"structmx_1_1appConfigurator.html#ada3199ab9231b9090a74ab1894aca7c5":[0,7,7,1,8],
+"structmx_1_1appConfigurator.html#adc9e07b8568f4478a0e9bd34c0fbc431":[0,7,7,1,9],
+"structmx_1_1astro_1_1astroFilter.html":[0,6,3,3,1],
+"structmx_1_1astro_1_1astroFilter.html#a29e286f60436dfc18e6b89a15ab3f9ce":[0,6,3,3,1,2]
 };

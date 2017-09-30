@@ -543,10 +543,10 @@ template&lt;typename _realT &gt; </div>
 </div><div class="memdoc">
 
 <p>Coadd the images. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000016">Todo:</a></b></dt><dd>this should really include end of exposure too. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000017">Todo:</a></b></dt><dd>this needs to handle averaging of angles </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000017">Todo:</a></b></dt><dd>this should really include end of exposure too. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo:</a></b></dt><dd>this needs to handle averaging of angles </dd></dl>
 
-<p>Definition at line <a class="el" href="HCIobservation_8hpp_source.html#l00861">861</a> of file <a class="el" href="HCIobservation_8hpp_source.html">HCIobservation.hpp</a>.</p>
+<p>Definition at line <a class="el" href="HCIobservation_8hpp_source.html#l00884">884</a> of file <a class="el" href="HCIobservation_8hpp_source.html">HCIobservation.hpp</a>.</p>
 
 <p>References <a class="el" href="timeUtils_8hpp_source.html#l00035">mx::get_curr_time()</a>, <a class="el" href="eigenCube_8hpp_source.html#l00356">mx::improc::eigenCube&lt; dataT &gt;::image()</a>, <a class="el" href="eigenCube_8hpp_source.html#l00381">mx::improc::eigenCube&lt; dataT &gt;::mean()</a>, <a class="el" href="HCIobservation_8hpp_source.html#l00065">mx::improc::HCI::meanCombine</a>, <a class="el" href="eigenCube_8hpp_source.html#l00504">mx::improc::eigenCube&lt; dataT &gt;::median()</a>, <a class="el" href="HCIobservation_8hpp_source.html#l00064">mx::improc::HCI::medianCombine</a>, and <a class="el" href="HCIobservation_8hpp_source.html#l00063">mx::improc::HCI::noCombine</a>.</p>
 
@@ -570,7 +570,7 @@ template&lt;typename _realT &gt; </div>
 <p>Combine the images into a single final image. </p>
 <p>Images are combined by the method specified in <a class="el" href="structmx_1_1improc_1_1HCIobservation.html#ab002a5c4109f49f8f8a87b06a865f468">combineMethod</a> </p>
 
-<p>Definition at line <a class="el" href="HCIobservation_8hpp_source.html#l01138">1138</a> of file <a class="el" href="HCIobservation_8hpp_source.html">HCIobservation.hpp</a>.</p>
+<p>Definition at line <a class="el" href="HCIobservation_8hpp_source.html#l01161">1161</a> of file <a class="el" href="HCIobservation_8hpp_source.html">HCIobservation.hpp</a>.</p>
 
 <p>References <a class="el" href="timeUtils_8hpp_source.html#l00035">mx::get_curr_time()</a>, <a class="el" href="HCIobservation_8hpp_source.html#l00065">mx::improc::HCI::meanCombine</a>, <a class="el" href="HCIobservation_8hpp_source.html#l00064">mx::improc::HCI::medianCombine</a>, <a class="el" href="HCIobservation_8hpp_source.html#l00063">mx::improc::HCI::noCombine</a>, and <a class="el" href="HCIobservation_8hpp_source.html#l00066">mx::improc::HCI::sigmaMeanCombine</a>.</p>
 
@@ -722,7 +722,7 @@ template&lt;typename _realT &gt; </div>
 
 <p>Reimplemented in <a class="el" href="structmx_1_1improc_1_1ADIobservation.html#a33a2a0cae11fc8e929d467fa74db4f84">mx::improc::ADIobservation&lt; _realT, _derotFunctObj &gt;</a>.</p>
 
-<p>Definition at line <a class="el" href="HCIobservation_8hpp_source.html#l00850">850</a> of file <a class="el" href="HCIobservation_8hpp_source.html">HCIobservation.hpp</a>.</p>
+<p>Definition at line <a class="el" href="HCIobservation_8hpp_source.html#l00873">873</a> of file <a class="el" href="HCIobservation_8hpp_source.html">HCIobservation.hpp</a>.</p>
 
 </div>
 </div>
@@ -742,9 +742,9 @@ template&lt;typename _realT &gt; </div>
 </div><div class="memdoc">
 
 <p>Output the pre-processed images. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo:</a></b></dt><dd>Should add a HISTORY card here </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000019">Todo:</a></b></dt><dd>Should add a HISTORY card here </dd></dl>
 
-<p>Definition at line <a class="el" href="HCIobservation_8hpp_source.html#l01118">1118</a> of file <a class="el" href="HCIobservation_8hpp_source.html">HCIobservation.hpp</a>.</p>
+<p>Definition at line <a class="el" href="HCIobservation_8hpp_source.html#l01141">1141</a> of file <a class="el" href="HCIobservation_8hpp_source.html">HCIobservation.hpp</a>.</p>
 
 <p>References <a class="el" href="fitsFile_8hpp_source.html#l01269">mx::improc::fitsFile&lt; dataT &gt;::write()</a>.</p>
 
@@ -776,7 +776,7 @@ template&lt;typename _realT &gt; </div>
 
 <p>Write the PSF subtracted images to disk. </p>
 
-<p>Definition at line <a class="el" href="HCIobservation_8hpp_source.html#l01327">1327</a> of file <a class="el" href="HCIobservation_8hpp_source.html">HCIobservation.hpp</a>.</p>
+<p>Definition at line <a class="el" href="HCIobservation_8hpp_source.html#l01350">1350</a> of file <a class="el" href="HCIobservation_8hpp_source.html">HCIobservation.hpp</a>.</p>
 
 <p>References <a class="el" href="fitsHeader_8hpp_source.html#l00385">mx::improc::fitsHeader::append()</a>, <a class="el" href="fitsHeader_8hpp_source.html#l00594">mx::improc::fitsHeaderGitStatus()</a>, <a class="el" href="constants_8hpp_source.html#l00091">mx::astro::constants::h()</a>, <a class="el" href="mxlib_8c_source.html#l00021">mxlib_compiled_git_repo_modified()</a>, <a class="el" href="mxlib_8c_source.html#l00013">mxlib_compiled_git_sha1()</a>, <a class="el" href="HCIobservation_8hpp_source.html#l00063">mx::improc::HCI::noCombine</a>, and <a class="el" href="fitsFile_8hpp_source.html#l01269">mx::improc::fitsFile&lt; dataT &gt;::write()</a>.</p>
 
@@ -809,7 +809,7 @@ template&lt;typename _realT &gt; </div>
 
 <p>Reimplemented in <a class="el" href="structmx_1_1improc_1_1ADIobservation.html#a33327db1d17a62bd8574f6bb84a4d53f">mx::improc::ADIobservation&lt; _realT, _derotFunctObj &gt;</a>.</p>
 
-<p>Definition at line <a class="el" href="HCIobservation_8hpp_source.html#l00844">844</a> of file <a class="el" href="HCIobservation_8hpp_source.html">HCIobservation.hpp</a>.</p>
+<p>Definition at line <a class="el" href="HCIobservation_8hpp_source.html#l00867">867</a> of file <a class="el" href="HCIobservation_8hpp_source.html">HCIobservation.hpp</a>.</p>
 
 </div>
 </div>
@@ -830,9 +830,9 @@ template&lt;typename _realT &gt; </div>
 
 <p>Do the pre-processing. </p>
 
-<p>Definition at line <a class="el" href="HCIobservation_8hpp_source.html#l01011">1011</a> of file <a class="el" href="HCIobservation_8hpp_source.html">HCIobservation.hpp</a>.</p>
+<p>Definition at line <a class="el" href="HCIobservation_8hpp_source.html#l01034">1034</a> of file <a class="el" href="HCIobservation_8hpp_source.html">HCIobservation.hpp</a>.</p>
 
-<p>References <a class="el" href="imageFilters_8hpp_source.html#l00193">mx::improc::filterImage()</a>, <a class="el" href="timeUtils_8hpp_source.html#l00035">mx::get_curr_time()</a>, and <a class="el" href="imageFilters_8hpp_source.html#l00312">mx::improc::radprofim()</a>.</p>
+<p>References <a class="el" href="imageFilters_8hpp_source.html#l00194">mx::improc::filterImage()</a>, <a class="el" href="timeUtils_8hpp_source.html#l00035">mx::get_curr_time()</a>, and <a class="el" href="imageFilters_8hpp_source.html#l00313">mx::improc::radprofim()</a>.</p>
 
 </div>
 </div>
@@ -854,10 +854,11 @@ template&lt;typename _realT &gt; </div>
 <p>Read the list of files, cut to size, and apply the mask. </p>
 <dl class="section return"><dt>Returns</dt><dd>0 on success, -1 on error. </dd></dl>
 <dl class="bug"><dt><b><a class="el" href="bug.html#_bug000002">Bug:</a></b></dt><dd>It is this step that is really slow during file reads <em>sometimes</em> </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000016">Todo:</a></b></dt><dd>zeroNaNs should be a member and be configurable. Probably should be true by default. </dd></dl>
 
 <p>Definition at line <a class="el" href="HCIobservation_8hpp_source.html#l00592">592</a> of file <a class="el" href="HCIobservation_8hpp_source.html">HCIobservation.hpp</a>.</p>
 
-<p>References <a class="el" href="fitsHeader_8hpp_source.html#l00385">mx::improc::fitsHeader::append()</a>, <a class="el" href="timeUtils_8hpp_source.html#l00035">mx::get_curr_time()</a>, <a class="el" href="timeUtils_8hpp_source.html#l00160">mx::ISO8601date2mjd()</a>, <a class="el" href="mxError_8hpp_source.html#l00176">MXE_FILENOTFOUND</a>, <a class="el" href="mxError_8hpp_source.html#l00060">mxError</a>, <a class="el" href="HCIobservation_8hpp_source.html#l00063">mx::improc::HCI::noCombine</a>, <a class="el" href="fitsFile_8hpp_source.html#l00721">mx::improc::fitsFile&lt; dataT &gt;::read()</a>, and <a class="el" href="fitsFile_8hpp_source.html#l01425">mx::improc::fitsFile&lt; dataT &gt;::setReadSize()</a>.</p>
+<p>References <a class="el" href="fitsHeader_8hpp_source.html#l00385">mx::improc::fitsHeader::append()</a>, <a class="el" href="timeUtils_8hpp_source.html#l00035">mx::get_curr_time()</a>, <a class="el" href="timeUtils_8hpp_source.html#l00160">mx::ISO8601date2mjd()</a>, <a class="el" href="constants_8hpp_source.html#l00071">mx::astro::constants::k()</a>, <a class="el" href="mxError_8hpp_source.html#l00176">MXE_FILENOTFOUND</a>, <a class="el" href="mxError_8hpp_source.html#l00060">mxError</a>, <a class="el" href="HCIobservation_8hpp_source.html#l00063">mx::improc::HCI::noCombine</a>, <a class="el" href="fitsFile_8hpp_source.html#l00721">mx::improc::fitsFile&lt; dataT &gt;::read()</a>, and <a class="el" href="fitsFile_8hpp_source.html#l01425">mx::improc::fitsFile&lt; dataT &gt;::setReadSize()</a>.</p>
 
 </div>
 </div>
@@ -880,7 +881,7 @@ template&lt;typename _realT &gt; </div>
 <p>This is called by <a class="el" href="structmx_1_1improc_1_1HCIobservation.html#a6db8cba45cd927c6914c0d9b612d07aa" title="Read the list of files, cut to size, and apply the mask. ">readFiles()</a>.</p>
 <dl class="section return"><dt>Returns</dt><dd>0 on success, -1 on error. </dd></dl>
 
-<p>Definition at line <a class="el" href="HCIobservation_8hpp_source.html#l00790">790</a> of file <a class="el" href="HCIobservation_8hpp_source.html">HCIobservation.hpp</a>.</p>
+<p>Definition at line <a class="el" href="HCIobservation_8hpp_source.html#l00813">813</a> of file <a class="el" href="HCIobservation_8hpp_source.html">HCIobservation.hpp</a>.</p>
 
 <p>References <a class="el" href="mxError_8hpp_source.html#l00118">MXE_NOTFOUND</a>, <a class="el" href="mxError_8hpp_source.html#l00111">MXE_PARAMNOTSET</a>, <a class="el" href="mxError_8hpp_source.html#l00126">MXE_SIZEERR</a>, <a class="el" href="mxError_8hpp_source.html#l00060">mxError</a>, and <a class="el" href="readColumns_8hpp_source.html#l00108">mx::readColumns()</a>.</p>
 
@@ -905,7 +906,7 @@ template&lt;typename _realT &gt; </div>
 <p>This is called by <a class="el" href="structmx_1_1improc_1_1HCIobservation.html#a6db8cba45cd927c6914c0d9b612d07aa" title="Read the list of files, cut to size, and apply the mask. ">readFiles()</a>.</p>
 <dl class="section return"><dt>Returns</dt><dd>0 on success, -1 on error. </dd></dl>
 
-<p>Definition at line <a class="el" href="HCIobservation_8hpp_source.html#l00746">746</a> of file <a class="el" href="HCIobservation_8hpp_source.html">HCIobservation.hpp</a>.</p>
+<p>Definition at line <a class="el" href="HCIobservation_8hpp_source.html#l00769">769</a> of file <a class="el" href="HCIobservation_8hpp_source.html">HCIobservation.hpp</a>.</p>
 
 <p>References <a class="el" href="mxError_8hpp_source.html#l00111">MXE_PARAMNOTSET</a>, <a class="el" href="mxError_8hpp_source.html#l00060">mxError</a>, and <a class="el" href="readColumns_8hpp_source.html#l00108">mx::readColumns()</a>.</p>
 
@@ -937,7 +938,7 @@ template&lt;typename _realT &gt; </div>
 
 <p>Write the final combined image to disk. </p>
 
-<p>Definition at line <a class="el" href="HCIobservation_8hpp_source.html#l01248">1248</a> of file <a class="el" href="HCIobservation_8hpp_source.html">HCIobservation.hpp</a>.</p>
+<p>Definition at line <a class="el" href="HCIobservation_8hpp_source.html#l01271">1271</a> of file <a class="el" href="HCIobservation_8hpp_source.html">HCIobservation.hpp</a>.</p>
 
 <p>References <a class="el" href="fitsHeader_8hpp_source.html#l00385">mx::improc::fitsHeader::append()</a>, <a class="el" href="fitsHeader_8hpp_source.html#l00594">mx::improc::fitsHeaderGitStatus()</a>, <a class="el" href="fileUtils_8hpp_source.html#l00200">mx::getSequentialFilename()</a>, <a class="el" href="mxlib_8c_source.html#l00021">mxlib_compiled_git_repo_modified()</a>, <a class="el" href="mxlib_8c_source.html#l00013">mxlib_compiled_git_sha1()</a>, <a class="el" href="HCIobservation_8hpp_source.html#l00063">mx::improc::HCI::noCombine</a>, <a class="el" href="HCIobservation_8hpp_source.html#l00066">mx::improc::HCI::sigmaMeanCombine</a>, and <a class="el" href="fitsFile_8hpp_source.html#l01269">mx::improc::fitsFile&lt; dataT &gt;::write()</a>.</p>
 
@@ -1873,7 +1874,7 @@ template&lt;typename _realT &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemx.html">mx</a></li><li class="navelem"><b>improc</b></li><li class="navelem"><a class="el" href="structmx_1_1improc_1_1HCIobservation.html">HCIobservation</a></li>
-    <li class="footer">Generated on Sun Sep 10 2017 05:17:57 for mxlib by
+    <li class="footer">Generated on Sat Sep 30 2017 14:26:03 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

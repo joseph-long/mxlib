@@ -12,12 +12,20 @@ var hierarchy =
     [ "mx::math::fit::array2Fit< realT >", "structmx_1_1math_1_1fit_1_1array2Fit.html", null ],
     [ "mx::math::fit::array2FitAiry< realT >", "structmx_1_1math_1_1fit_1_1array2FitAiry.html", null ],
     [ "mx::astro::astroFilter< _units, _rsr >", "structmx_1_1astro_1_1astroFilter.html", null ],
-    [ "mx::astro::astroSpectrum< _spectrumT, freq >", "structmx_1_1astro_1_1astroSpectrum.html", null ],
     [ "mx::sigproc::autocorrelationFromPSD< T >", "structmx_1_1sigproc_1_1autocorrelationFromPSD.html", null ],
     [ "mx::sigproc::autocorrelationFromPSD< realT >", "structmx_1_1sigproc_1_1autocorrelationFromPSD.html", null ],
     [ "mx::improc::azBoxKernel< _arrayT, _kernW >", "structmx_1_1improc_1_1azBoxKernel.html", null ],
+    [ "mx::astro::baseSpectrum< realT >", "structmx_1_1astro_1_1baseSpectrum.html", null ],
+    [ "mx::astro::baseSpectrum< _spectrumT::units::realT >", "structmx_1_1astro_1_1baseSpectrum.html", [
+      [ "mx::astro::astroSpectrum< _spectrumT, freq >", "structmx_1_1astro_1_1astroSpectrum.html", null ]
+    ] ],
+    [ "mx::astro::baseSpectrum< _units::realT >", "structmx_1_1astro_1_1baseSpectrum.html", [
+      [ "mx::astro::cahoyGrid< _units >", "structmx_1_1astro_1_1cahoyGrid.html", null ]
+    ] ],
     [ "mx::astro::basicSpectrum< _units >", "structmx_1_1astro_1_1basicSpectrum.html", null ],
     [ "mx::improc::bilinearTransform< _arithT >", "structmx_1_1improc_1_1bilinearTransform.html", null ],
+    [ "mx::astro::blackbody< units, freq >", "structmx_1_1astro_1_1blackbody.html", null ],
+    [ "mx::astro::cahoySpectrumRaw< _units >", "structmx_1_1astro_1_1cahoySpectrumRaw.html", null ],
     [ "mx::astro::calspecSpectrum< _units >", "structmx_1_1astro_1_1calspecSpectrum.html", null ],
     [ "mx::AO::sim::ccdDetector< _floatT >", "classmx_1_1AO_1_1sim_1_1ccdDetector.html", null ],
     [ "mx::astro::units::cgs< _realT >", "structmx_1_1astro_1_1units_1_1cgs.html", null ],
@@ -101,6 +109,7 @@ var hierarchy =
     [ "mxException", "classmxException.html", null ],
     [ "mx::ompLoopWatcher< _outputT, _printPretty, _printLoops, _printPercent, _printNLine >", "classmx_1_1ompLoopWatcher.html", null ],
     [ "mx::laplace_distribution< _RealType >::param_type", "structmx_1_1laplace__distribution_1_1param__type.html", null ],
+    [ "mx::astro::phoenixSpectrum< _units >", "structmx_1_1astro_1_1phoenixSpectrum.html", null ],
     [ "mx::astro::picklesSpectrum< _units >", "structmx_1_1astro_1_1picklesSpectrum.html", null ],
     [ "mx::sigproc::psdFilter< _realT >", "classmx_1_1sigproc_1_1psdFilter.html", null ],
     [ "mx::sigproc::psdFilter< realT >", "classmx_1_1sigproc_1_1psdFilter.html", null ],

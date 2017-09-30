@@ -11,6 +11,5 @@ var astroFilter_8hpp =
     [ "astrofiltScaleMag", "astroFilter_8hpp.html#gaae02082c324c59e671f43ae62942ac16", null ],
     [ "astrofiltScaleMean", "astroFilter_8hpp.html#ga3203a893c88c2df6e9a297db7d5da1db", null ],
     [ "astrofiltTrimWavelength", "astroFilter_8hpp.html#gab5f5b337ae91b81f78b9bb00005aa427", null ],
-    [ "astrofiltTrimWavelength", "astroFilter_8hpp.html#ga51be4b8c6e41a6c4da2abb19049ab94f", null ],
-    [ "readCalspec", "astroFilter_8hpp.html#ga143925d7c8f870845714c095496a5d62", null ]
+    [ "astrofiltTrimWavelength", "astroFilter_8hpp.html#ga51be4b8c6e41a6c4da2abb19049ab94f", null ]
 ];

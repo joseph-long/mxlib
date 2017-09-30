@@ -116,30 +116,117 @@ $(document).ready(function(){initNavTree('structmx_1_1astro_1_1astroFilter.html'
 <div class="header">
   <div class="summary">
 <a href="structmx_1_1astro_1_1astroFilter-members.html">List of all members</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a>  </div>
   <div class="headertitle">
-<div class="title">mx::astro::astroFilter&lt; _units, _rsr &gt; Struct Template Reference</div>  </div>
+<div class="title">mx::astro::astroFilter&lt; _units, _rsr &gt; Struct Template Reference<div class="ingroups"><a class="el" href="group__genastro.html">Astronomy</a> &raquo; <a class="el" href="group__astrophot.html">Astronomical Photometry</a> &raquo; <a class="el" href="group__astrophot__spectra.html">Astronomical Spectra</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader"> </h2>
 <div class="textblock"><h3>template&lt;typename _units, bool _rsr = true&gt;<br />
 struct mx::astro::astroFilter&lt; _units, _rsr &gt;</h3>
 
-<p>A spectrum from the astrofilt filter library. </p>
+<p>A spectrum from the astroFilt filter library. </p>
 
-<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00057">57</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00067">67</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="astroSpectra_8hpp_source.html">astro/astroSpectra.hpp</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:ab1fe0e4223ddbde5ddf41e12d7c830cb"><td class="memItemLeft" align="right" valign="top">typedef std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1astro_1_1astroFilter.html#ab1fe0e4223ddbde5ddf41e12d7c830cb">paramsT</a></td></tr>
+<tr class="memdesc:ab1fe0e4223ddbde5ddf41e12d7c830cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The astroFilters are parameterized by name.  <a href="#ab1fe0e4223ddbde5ddf41e12d7c830cb">More...</a><br /></td></tr>
+<tr class="separator:ab1fe0e4223ddbde5ddf41e12d7c830cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a9b5e216d16ef94592a43e05ec0a330f8"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1astro_1_1astroFilter.html#a9b5e216d16ef94592a43e05ec0a330f8">readSpectrum</a> (std::vector&lt; realT &gt; &amp;rawLambda, std::vector&lt; realT &gt; &amp;rawSpectrum, const std::string &amp;path)</td></tr>
+<tr class="separator:a9b5e216d16ef94592a43e05ec0a330f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a5fc56b1f2a040704f8bcb613178f4cd8"><td class="memItemLeft" align="right" valign="top">static constexpr realT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1astro_1_1astroFilter.html#a5fc56b1f2a040704f8bcb613178f4cd8">wavelengthUnits</a> = static_cast&lt;realT&gt;(1e6)</td></tr>
 <tr class="memdesc:a5fc56b1f2a040704f8bcb613178f4cd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from um to SI m.  <a href="#a5fc56b1f2a040704f8bcb613178f4cd8">More...</a><br /></td></tr>
 <tr class="separator:a5fc56b1f2a040704f8bcb613178f4cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29e286f60436dfc18e6b89a15ab3f9ce"><td class="memItemLeft" align="right" valign="top">static constexpr realT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1astro_1_1astroFilter.html#a29e286f60436dfc18e6b89a15ab3f9ce">fluxUnits</a> = static_cast&lt;realT&gt;(1)</td></tr>
-<tr class="memdesc:a29e286f60436dfc18e6b89a15ab3f9ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from erg s-1 cm-2 A-1 to SI W m-3.  <a href="#a29e286f60436dfc18e6b89a15ab3f9ce">More...</a><br /></td></tr>
+<tr class="memdesc:a29e286f60436dfc18e6b89a15ab3f9ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">No conversion is performed on filter transmission.  <a href="#a29e286f60436dfc18e6b89a15ab3f9ce">More...</a><br /></td></tr>
 <tr class="separator:a29e286f60436dfc18e6b89a15ab3f9ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="ab1fe0e4223ddbde5ddf41e12d7c830cb"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename _units , bool _rsr = true&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::string <a class="el" href="structmx_1_1astro_1_1astroFilter.html">mx::astro::astroFilter</a>&lt; _units, _rsr &gt;::<a class="el" href="structmx_1_1astro_1_1astroFilter.html#ab1fe0e4223ddbde5ddf41e12d7c830cb">paramsT</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The astroFilters are parameterized by name. </p>
+
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00075">75</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a9b5e216d16ef94592a43e05ec0a330f8"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename _units , bool _rsr = true&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int <a class="el" href="structmx_1_1astro_1_1astroFilter.html">mx::astro::astroFilter</a>&lt; _units, _rsr &gt;::readSpectrum </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; realT &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rawLambda</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; realT &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rawSpectrum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">rawLambda</td><td>the raw wavelength vector. This should be an empty vector on input. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">rawSpectrum</td><td>the raw spectrum. This should be an empty vector on input. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>the full path to the file. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00090">90</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+
+<p>References <a class="el" href="readColumns_8hpp_source.html#l00108">mx::readColumns()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a29e286f60436dfc18e6b89a15ab3f9ce"></a>
 <div class="memitem">
@@ -161,9 +248,9 @@ template&lt;typename _units , bool _rsr = true&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Convert from erg s-1 cm-2 A-1 to SI W m-3. </p>
+<p>No conversion is performed on filter transmission. </p>
 
-<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00068">68</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00081">81</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
 
 </div>
 </div>
@@ -189,7 +276,7 @@ template&lt;typename _units , bool _rsr = true&gt; </div>
 
 <p>Convert from um to SI m. </p>
 
-<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00065">65</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00078">78</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
 
 </div>
 </div>
@@ -202,7 +289,7 @@ template&lt;typename _units , bool _rsr = true&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemx.html">mx</a></li><li class="navelem"><b>astro</b></li><li class="navelem"><a class="el" href="structmx_1_1astro_1_1astroFilter.html">astroFilter</a></li>
-    <li class="footer">Generated on Sun Sep 10 2017 05:17:57 for mxlib by
+    <li class="footer">Generated on Sat Sep 30 2017 14:26:03 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
