@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['datadirenvvar',['dataDirEnvVar',['../structmx_1_1astro_1_1basicSpectrum.html#afffed1cf41cbcafdea3befcd6514ba02',1,'mx::astro::basicSpectrum::dataDirEnvVar()'],['../structmx_1_1astro_1_1picklesSpectrum.html#a0853878b8a8ce5aa7d75a10db53ae228',1,'mx::astro::picklesSpectrum::dataDirEnvVar()']]],
+  ['datadirenvvar',['dataDirEnvVar',['../structmx_1_1astro_1_1basicSpectrum.html#afffed1cf41cbcafdea3befcd6514ba02',1,'mx::astro::basicSpectrum::dataDirEnvVar()'],['../structmx_1_1astro_1_1picklesSpectrum.html#a0853878b8a8ce5aa7d75a10db53ae228',1,'mx::astro::picklesSpectrum::dataDirEnvVar()'],['../structmx_1_1astro_1_1earthAlbedo.html#a6c44c87941598c635bd46197229f636d',1,'mx::astro::earthAlbedo::dataDirEnvVar()']]],
   ['deleteback',['deleteBack',['../structmx_1_1improc_1_1HCIobservation.html#a181b3b4636c7a30ba51d4bbebee76015',1,'mx::improc::HCIobservation']]],
   ['deletefront',['deleteFront',['../structmx_1_1improc_1_1HCIobservation.html#aae92e08c1df056dbe388f484426115dc',1,'mx::improc::HCIobservation']]],
   ['deltat',['deltaT',['../classmx_1_1math_1_1fit_1_1levmarInterface.html#a9a5d50e90075d531cff78b96215fa1bd',1,'mx::math::fit::levmarInterface']]],
   ['distribution',['distribution',['../classmx_1_1randomT.html#a40fabbd0f72ec567f8c0d6ca4de7d8ef',1,'mx::randomT']]],
+  ['dlam',['dlam',['../structmx_1_1astro_1_1sqWaveFilter_1_1paramsT.html#a0246397eaf817abd9bc49bb6af608877',1,'mx::astro::sqWaveFilter::paramsT']]],
   ['dohelp',['doHelp',['../classmx_1_1application.html#aa63ee2e2b6a735a5a047efed82eda22f',1,'mx::application']]],
   ['dooutputpsfsub',['doOutputPSFSub',['../structmx_1_1improc_1_1HCIobservation.html#a6a055e79df273043385de0ad8d6a1f52',1,'mx::improc::HCIobservation']]],
   ['dowritefinim',['doWriteFinim',['../structmx_1_1improc_1_1HCIobservation.html#af276e524dc3d2cf031436c0d6f0679f4',1,'mx::improc::HCIobservation']]],

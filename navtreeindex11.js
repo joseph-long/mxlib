@@ -1,5 +1,18 @@
 var NAVTREEINDEX11 =
 {
+"structmx_1_1sigproc_1_1autocorrelationFromPSD.html#a432a12d1a7eeb73d8b356f72e9c5803e":[0,3,0,1],
+"structmx_1_1sigproc_1_1autocorrelationFromPSD.html#ac2814d49690e650b397cae9b94eb02bd":[0,3,0,0],
+"structmx_1_1sigproc_1_1fourierModeDef.html":[5,0,0,5,1],
+"structmx_1_1sigproc_1_1fourierModeDef.html#a0414196c4b994dd967c86a0a399a386d":[5,0,0,5,1,1],
+"structmx_1_1sigproc_1_1fourierModeDef.html#ab5fb7381870e9e513d6ee301819ce3cc":[5,0,0,5,1,2],
+"structmx_1_1sigproc_1_1fourierModeDef.html#ab6d8bdc36be6f77198a42923ac40ed60":[5,0,0,5,1,3],
+"structmx_1_1sigproc_1_1fourierModeDef.html#ac6595f4975baf846abe1f18ce757963f":[5,0,0,5,1,0],
+"structmx_1_1sigproc_1_1linearPredictor.html":[0,3,1],
+"structmx_1_1sigproc_1_1linearPredictor.html#abd8faeae91b199f1deb24f39aab7115a":[0,3,1,0],
+"structmx_1_1skipCol.html":[0,7,2,0],
+"structmx_1_1skipCol.html#a8dab5d53e06611062f049065979bf7cf":[0,7,2,0,0],
+"structmx_1_1textTable.html":[0,7,0,0],
+"structmx_1_1textTable.html#a0f1b818aee0e57af58b3cb711d5e5150":[0,7,0,0,6],
 "structmx_1_1textTable.html#a5f3e656c93e752eab922698700fa895e":[0,7,0,0,5],
 "structmx_1_1textTable.html#a60c5fa533de9b46cfb5ee87ed57c5305":[0,7,0,0,7],
 "structmx_1_1textTable.html#a6ab073578640446f7ae8a4c398eea184":[0,7,0,0,4],

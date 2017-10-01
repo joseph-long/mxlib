@@ -1,6 +1,8 @@
 var dir_0fc3206047eab508bd310c9d22a11fd1 =
 [
-    [ "astroSpectra.hpp", "astroSpectra_8hpp.html", null ],
+    [ "astroSpectra.hpp", "astroSpectra_8hpp.html", [
+      [ "paramsT", "structmx_1_1astro_1_1sqWaveFilter_1_1paramsT.html", "structmx_1_1astro_1_1sqWaveFilter_1_1paramsT" ]
+    ] ],
     [ "astroSpectrum.hpp", "astro_2astroSpectrum_8hpp_source.html", null ],
     [ "blackbody.hpp", "blackbody_8hpp_source.html", null ],
     [ "cahoyAlbedos.hpp", "cahoyAlbedos_8hpp.html", null ],

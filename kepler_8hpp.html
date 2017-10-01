@@ -144,12 +144,12 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga7b401ae9c745645f05a7afba53f0530a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__kepler.html#ga7b401ae9c745645f05a7afba53f0530a">KEPLER_TOL</a>&#160;&#160;&#160;(1e-8)</td></tr>
-<tr class="memdesc:ga7b401ae9c745645f05a7afba53f0530a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default tolerance for solutions to the Kepler problem.  <a href="group__kepler.html#ga7b401ae9c745645f05a7afba53f0530a">More...</a><br /></td></tr>
-<tr class="separator:ga7b401ae9c745645f05a7afba53f0530a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga92fa5b5d7f060e8ca1e044acf532743d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__kepler.html#ga92fa5b5d7f060e8ca1e044acf532743d">KEPLER_ITMAX</a>&#160;&#160;&#160;(1000)</td></tr>
-<tr class="memdesc:ga92fa5b5d7f060e8ca1e044acf532743d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default maximum number of iterations for solutions to the Kepler problem.  <a href="group__kepler.html#ga92fa5b5d7f060e8ca1e044acf532743d">More...</a><br /></td></tr>
-<tr class="separator:ga92fa5b5d7f060e8ca1e044acf532743d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b401ae9c745645f05a7afba53f0530a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="kepler_8hpp.html#a7b401ae9c745645f05a7afba53f0530a">KEPLER_TOL</a>&#160;&#160;&#160;(1e-8)</td></tr>
+<tr class="memdesc:a7b401ae9c745645f05a7afba53f0530a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default tolerance for solutions to the Kepler problem.  <a href="#a7b401ae9c745645f05a7afba53f0530a">More...</a><br /></td></tr>
+<tr class="separator:a7b401ae9c745645f05a7afba53f0530a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92fa5b5d7f060e8ca1e044acf532743d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="kepler_8hpp.html#a92fa5b5d7f060e8ca1e044acf532743d">KEPLER_ITMAX</a>&#160;&#160;&#160;(1000)</td></tr>
+<tr class="memdesc:a92fa5b5d7f060e8ca1e044acf532743d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default maximum number of iterations for solutions to the Kepler problem.  <a href="#a92fa5b5d7f060e8ca1e044acf532743d">More...</a><br /></td></tr>
+<tr class="separator:a92fa5b5d7f060e8ca1e044acf532743d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -166,17 +166,54 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga02cfa22e91f93dc7da9e52aa9b6ac1b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve Kepler's equation using Danby's quartic Newton-Raphson method.  <a href="group__kepler.html#ga02cfa22e91f93dc7da9e52aa9b6ac1b8">More...</a><br /></td></tr>
 <tr class="separator:ga02cfa22e91f93dc7da9e52aa9b6ac1b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5e1b17d5531f2ad1e4da06b5fdd6fdc8"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
-<tr class="memitem:ga5e1b17d5531f2ad1e4da06b5fdd6fdc8"><td class="memTemplItemLeft" align="right" valign="top">long&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__kepler.html#ga5e1b17d5531f2ad1e4da06b5fdd6fdc8">mx::astro::solve_kepler</a> (realT &amp;E, realT &amp;D, realT e, realT M, realT tol=<a class="el" href="group__kepler.html#ga7b401ae9c745645f05a7afba53f0530a">KEPLER_TOL</a>, long itmax=<a class="el" href="group__kepler.html#ga92fa5b5d7f060e8ca1e044acf532743d">KEPLER_ITMAX</a>)</td></tr>
+<tr class="memitem:ga5e1b17d5531f2ad1e4da06b5fdd6fdc8"><td class="memTemplItemLeft" align="right" valign="top">long&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__kepler.html#ga5e1b17d5531f2ad1e4da06b5fdd6fdc8">mx::astro::solve_kepler</a> (realT &amp;E, realT &amp;D, realT e, realT M, realT tol=<a class="el" href="kepler_8hpp.html#a7b401ae9c745645f05a7afba53f0530a">KEPLER_TOL</a>, long itmax=<a class="el" href="kepler_8hpp.html#a92fa5b5d7f060e8ca1e044acf532743d">KEPLER_ITMAX</a>)</td></tr>
 <tr class="memdesc:ga5e1b17d5531f2ad1e4da06b5fdd6fdc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve Kepler's equation for any e. Uses solve_kepler_danby if e &lt; 1.0, hyperbolic_kepler otherwise.  <a href="group__kepler.html#ga5e1b17d5531f2ad1e4da06b5fdd6fdc8">More...</a><br /></td></tr>
 <tr class="separator:ga5e1b17d5531f2ad1e4da06b5fdd6fdc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="a92fa5b5d7f060e8ca1e044acf532743d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define KEPLER_ITMAX&#160;&#160;&#160;(1000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The default maximum number of iterations for solutions to the Kepler problem. </p>
+
+<p>Definition at line <a class="el" href="kepler_8hpp_source.html#l00035">35</a> of file <a class="el" href="kepler_8hpp_source.html">kepler.hpp</a>.</p>
+
+<p>Referenced by <a class="el" href="kepler_8hpp_source.html#l00163">mx::astro::solve_kepler()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7b401ae9c745645f05a7afba53f0530a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define KEPLER_TOL&#160;&#160;&#160;(1e-8)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The default tolerance for solutions to the Kepler problem. </p>
+
+<p>Definition at line <a class="el" href="kepler_8hpp_source.html#l00030">30</a> of file <a class="el" href="kepler_8hpp_source.html">kepler.hpp</a>.</p>
+
+<p>Referenced by <a class="el" href="kepler_8hpp_source.html#l00163">mx::astro::solve_kepler()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_0fc3206047eab508bd310c9d22a11fd1.html">astro</a></li><li class="navelem"><a class="el" href="kepler_8hpp.html">kepler.hpp</a></li>
-    <li class="footer">Generated on Sat Sep 30 2017 14:26:02 for mxlib by
+    <li class="footer">Generated on Sun Oct 1 2017 13:25:40 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

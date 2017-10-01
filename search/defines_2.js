@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['wsz',['WSZ',['../fourierCovariance_8hpp.html#a9035435f98e35948582ac35fe3d9eaeb',1,'fourierCovariance.hpp']]]
+  ['stdvalwidth',['stdValWidth',['../fitsUtils_8hpp.html#a4c5195a4197fde3527ab43f539456e1c',1,'fitsUtils.hpp']]]
 ];

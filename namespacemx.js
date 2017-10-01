@@ -43,9 +43,11 @@ var namespacemx =
       [ "cahoyGrid", "structmx_1_1astro_1_1cahoyGrid.html", "structmx_1_1astro_1_1cahoyGrid" ],
       [ "cahoySpectrumRaw", "structmx_1_1astro_1_1cahoySpectrumRaw.html", "structmx_1_1astro_1_1cahoySpectrumRaw" ],
       [ "calspecSpectrum", "structmx_1_1astro_1_1calspecSpectrum.html", "structmx_1_1astro_1_1calspecSpectrum" ],
+      [ "earthAlbedo", "structmx_1_1astro_1_1earthAlbedo.html", "structmx_1_1astro_1_1earthAlbedo" ],
       [ "mainSequence", "structmx_1_1astro_1_1mainSequence.html", "structmx_1_1astro_1_1mainSequence" ],
       [ "phoenixSpectrum", "structmx_1_1astro_1_1phoenixSpectrum.html", "structmx_1_1astro_1_1phoenixSpectrum" ],
-      [ "picklesSpectrum", "structmx_1_1astro_1_1picklesSpectrum.html", "structmx_1_1astro_1_1picklesSpectrum" ]
+      [ "picklesSpectrum", "structmx_1_1astro_1_1picklesSpectrum.html", "structmx_1_1astro_1_1picklesSpectrum" ],
+      [ "sqWaveFilter", "structmx_1_1astro_1_1sqWaveFilter.html", "structmx_1_1astro_1_1sqWaveFilter" ]
     ] ],
     [ "improc", null, [
       [ "ADIDerotator", "structmx_1_1improc_1_1ADIDerotator.html", "structmx_1_1improc_1_1ADIDerotator" ],
@@ -131,5 +133,6 @@ var namespacemx =
     [ "laplace_distribution", "classmx_1_1laplace__distribution.html", "classmx_1_1laplace__distribution" ],
     [ "ompLoopWatcher", "classmx_1_1ompLoopWatcher.html", "classmx_1_1ompLoopWatcher" ],
     [ "randomT", "classmx_1_1randomT.html", "classmx_1_1randomT" ],
+    [ "skipCol", "structmx_1_1skipCol.html", "structmx_1_1skipCol" ],
     [ "textTable", "structmx_1_1textTable.html", "structmx_1_1textTable" ]
 ];

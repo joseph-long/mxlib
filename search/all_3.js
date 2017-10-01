@@ -136,7 +136,7 @@ var searchData=
   ['converttostring_3c_20std_3a_3astring_20_3e',['convertToString&lt; std::string &gt;',['../group__stringutils.html#ga38272223d7a7ff622fa762a61aa757d2',1,'mx']]],
   ['coronagraphs',['Coronagraphs',['../group__coronagraphs.html',1,'']]],
   ['count',['count',['../structmx_1_1appConfigurator.html#a3144037b75da2594cc0eed025f903c95',1,'mx::appConfigurator']]],
-  ['covar',['covar',['../classmx_1_1math_1_1fit_1_1levmarInterface.html#a0ed27e744bdebd3d070761e5d9451383',1,'mx::math::fit::levmarInterface::covar()'],['../classmx_1_1improc_1_1eigenCube.html#a6e926748d5e2d69742a022fd2221e2ad',1,'mx::improc::eigenCube::Covar()']]],
+  ['covar',['Covar',['../classmx_1_1improc_1_1eigenCube.html#a6e926748d5e2d69742a022fd2221e2ad',1,'mx::improc::eigenCube::Covar()'],['../classmx_1_1math_1_1fit_1_1levmarInterface.html#a0ed27e744bdebd3d070761e5d9451383',1,'mx::math::fit::levmarInterface::covar()']]],
   ['covar_5fsz',['covar_sz',['../classmx_1_1math_1_1fit_1_1levmarInterface.html#ae96b8d6f9de7f330752e95c4f5715216',1,'mx::math::fit::levmarInterface']]],
   ['create',['create',['../group__IPC__sharedmem.html#ga18046d7958dc383c7e1e1d692f6ca5cc',1,'sharedMemSegment']]],
   ['cube',['cube',['../classmx_1_1improc_1_1eigenCube.html#a6b500485988ec85b0c503f9a16de6337',1,'mx::improc::eigenCube']]],

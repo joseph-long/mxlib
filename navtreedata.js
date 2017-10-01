@@ -45,12 +45,12 @@ var NAVTREEINDEX =
 "classmx_1_1math_1_1fit_1_1levmarInterface.html#a95e613aa3176a405266a441657b1e4bf",
 "fourierCovariance_8hpp.html#aa02bbd3ddde647ad76086516251cb3eb",
 "group__astrodynamics.html#ga9c74b649f2b3108bf51253ee4d7393e0",
-"group__hc__imaging__enums.html#gga7bedc230d1b422b72f51ddcec55deaeda4f0b51097a25c33d47a612edd4dd70eb",
-"group__stringutils.html#gab20d87e5a570ff6f7a48abeaeaec4e23",
-"randomSeed_8hpp.html#ga836cd4e4525b4e098ec8e405057901d1",
-"structmx_1_1astro_1_1astroFilter.html#a5fc56b1f2a040704f8bcb613178f4cd8",
-"structmx_1_1improc_1_1ADIobservation.html#aa5d8fdeeadff4c040097f75769a55e26",
-"structmx_1_1textTable.html#a5f3e656c93e752eab922698700fa895e"
+"group__hc__imaging__enums.html#gga7bedc230d1b422b72f51ddcec55deaeda6ffc2f84e2b15449da555a36819faa69",
+"group__stringutils.html#gaee0c06e5289c85231b0c6f9cc517324f",
+"randomT_8hpp.html#a9a14a54b0b31fc372634eae5d1a3edc3",
+"structmx_1_1astro_1_1astroSpectrum.html#a27f5d773b971824359c06fc612014f46",
+"structmx_1_1improc_1_1ADIobservation.html#a33a2a0cae11fc8e929d467fa74db4f84",
+"structmx_1_1sigproc_1_1autocorrelationFromPSD.html#a432a12d1a7eeb73d8b356f72e9c5803e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

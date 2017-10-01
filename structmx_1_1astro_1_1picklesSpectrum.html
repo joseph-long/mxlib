@@ -129,7 +129,7 @@ struct mx::astro::picklesSpectrum&lt; _units &gt;</h3>
 
 <p>A spectrum from the Pickles library. </p>
 
-<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00163">163</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00226">226</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="astroSpectra_8hpp_source.html">astro/astroSpectra.hpp</a>&gt;</code></p>
 <table class="memberdecls">
@@ -144,9 +144,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a0c439199ca4dd836791ae44117e9f86f"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1astro_1_1picklesSpectrum.html#a0c439199ca4dd836791ae44117e9f86f">fileName</a> (const std::string spt)</td></tr>
 <tr class="memdesc:a0c439199ca4dd836791ae44117e9f86f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of the datafile is constructed from its spectral type string.  <a href="#a0c439199ca4dd836791ae44117e9f86f">More...</a><br /></td></tr>
 <tr class="separator:a0c439199ca4dd836791ae44117e9f86f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f1dd206d7750337a6a5932a1db08df3"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1astro_1_1picklesSpectrum.html#a8f1dd206d7750337a6a5932a1db08df3">readSpectrum</a> (std::vector&lt; realT &gt; &amp;rawLambda, std::vector&lt; realT &gt; &amp;rawSpectrum, const std::string &amp;path)</td></tr>
-<tr class="memdesc:a8f1dd206d7750337a6a5932a1db08df3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a Pickles spectrum, which for these purposes is a simple two column ASCII format.  <a href="#a8f1dd206d7750337a6a5932a1db08df3">More...</a><br /></td></tr>
-<tr class="separator:a8f1dd206d7750337a6a5932a1db08df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84bdc97f8d7b15f2428b8c4a3f90aedd"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1astro_1_1picklesSpectrum.html#a84bdc97f8d7b15f2428b8c4a3f90aedd">readSpectrum</a> (std::vector&lt; realT &gt; &amp;rawLambda, std::vector&lt; realT &gt; &amp;rawSpectrum, const std::string &amp;path, const <a class="el" href="structmx_1_1astro_1_1picklesSpectrum.html#a334d1ec52bdf2a86c18f2a80d5b86baf">paramsT</a> &amp;params)</td></tr>
+<tr class="memdesc:a84bdc97f8d7b15f2428b8c4a3f90aedd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a Pickles spectrum, which for these purposes is a simple two column ASCII format.  <a href="#a84bdc97f8d7b15f2428b8c4a3f90aedd">More...</a><br /></td></tr>
+<tr class="separator:a84bdc97f8d7b15f2428b8c4a3f90aedd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -175,7 +175,7 @@ template&lt;typename _units &gt; </div>
 
 <p>The Pickles spectra are parameterized by a spectral type string. </p>
 
-<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00170">170</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00233">233</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
 
 </div>
 </div>
@@ -206,13 +206,13 @@ template&lt;typename _units &gt; </div>
 
 <p>The name of the datafile is constructed from its spectral type string. </p>
 
-<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00182">182</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00245">245</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
 
 <p>References <a class="el" href="stringUtils_8hpp_source.html#l00326">mx::toLower()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a8f1dd206d7750337a6a5932a1db08df3"></a>
+<a class="anchor" id="a84bdc97f8d7b15f2428b8c4a3f90aedd"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -237,7 +237,13 @@ template&lt;typename _units &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>path</em>&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structmx_1_1astro_1_1picklesSpectrum.html#a334d1ec52bdf2a86c18f2a80d5b86baf">paramsT</a> &amp;&#160;</td>
+          <td class="paramname"><em>params</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -258,11 +264,12 @@ template&lt;typename _units &gt; </div>
     <tr><td class="paramdir">[out]</td><td class="paramname">rawLambda</td><td>the raw wavelength vector. This should be an empty vector on input. </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">rawSpectrum</td><td>the raw spectrum. This should be an empty vector on input. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>the full path to the file. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">params</td><td>the parameters are passed in case needed to construct the spectrum </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00188">188</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00251">251</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
 
 <p>References <a class="el" href="readColumns_8hpp_source.html#l00108">mx::readColumns()</a>.</p>
 
@@ -291,7 +298,7 @@ template&lt;typename _units &gt; </div>
 
 <p>The Pickles spectra location is specified by the PICKLES_DATADIR environment variable. </p>
 
-<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00179">179</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00242">242</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
 
 </div>
 </div>
@@ -317,7 +324,7 @@ template&lt;typename _units &gt; </div>
 
 <p>The Pickles spectra are dimensionless. </p>
 
-<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00176">176</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00239">239</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
 
 </div>
 </div>
@@ -343,7 +350,7 @@ template&lt;typename _units &gt; </div>
 
 <p>Convert from A to SI m. </p>
 
-<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00173">173</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
+<p>Definition at line <a class="el" href="astroSpectra_8hpp_source.html#l00236">236</a> of file <a class="el" href="astroSpectra_8hpp_source.html">astroSpectra.hpp</a>.</p>
 
 </div>
 </div>
@@ -356,7 +363,7 @@ template&lt;typename _units &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemx.html">mx</a></li><li class="navelem"><b>astro</b></li><li class="navelem"><a class="el" href="structmx_1_1astro_1_1picklesSpectrum.html">picklesSpectrum</a></li>
-    <li class="footer">Generated on Sat Sep 30 2017 14:26:03 for mxlib by
+    <li class="footer">Generated on Sun Oct 1 2017 13:25:41 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

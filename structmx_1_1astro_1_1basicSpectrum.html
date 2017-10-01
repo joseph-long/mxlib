@@ -144,9 +144,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ae820fc3d8a891b7b01b3fd91219c852c"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1astro_1_1basicSpectrum.html#ae820fc3d8a891b7b01b3fd91219c852c">fileName</a> (const <a class="el" href="structmx_1_1astro_1_1basicSpectrum.html#ad50229278224c575a83de84c8d780838">paramsT</a> &amp;name)</td></tr>
 <tr class="memdesc:ae820fc3d8a891b7b01b3fd91219c852c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function should calculate the file name (without the path) for the spectrum parameters.  <a href="#ae820fc3d8a891b7b01b3fd91219c852c">More...</a><br /></td></tr>
 <tr class="separator:ae820fc3d8a891b7b01b3fd91219c852c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59665864700a53399c1941b85de3522c"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1astro_1_1basicSpectrum.html#a59665864700a53399c1941b85de3522c">readSpectrum</a> (std::vector&lt; realT &gt; &amp;rawLambda, std::vector&lt; realT &gt; &amp;rawSpectrum, const std::string &amp;path)</td></tr>
-<tr class="memdesc:a59665864700a53399c1941b85de3522c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function reads the spectrum, returning its raw wavelength and spectrum points.  <a href="#a59665864700a53399c1941b85de3522c">More...</a><br /></td></tr>
-<tr class="separator:a59665864700a53399c1941b85de3522c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb1547741d0bb0ef7163c7ba754c4b44"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1astro_1_1basicSpectrum.html#acb1547741d0bb0ef7163c7ba754c4b44">readSpectrum</a> (std::vector&lt; realT &gt; &amp;rawLambda, std::vector&lt; realT &gt; &amp;rawSpectrum, const std::string &amp;path, const <a class="el" href="structmx_1_1astro_1_1basicSpectrum.html#ad50229278224c575a83de84c8d780838">paramsT</a> &amp;params)</td></tr>
+<tr class="memdesc:acb1547741d0bb0ef7163c7ba754c4b44"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function reads the spectrum, returning its raw wavelength and spectrum points.  <a href="#acb1547741d0bb0ef7163c7ba754c4b44">More...</a><br /></td></tr>
+<tr class="separator:acb1547741d0bb0ef7163c7ba754c4b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -216,7 +216,7 @@ template&lt;typename _units &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a59665864700a53399c1941b85de3522c"></a>
+<a class="anchor" id="acb1547741d0bb0ef7163c7ba754c4b44"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -241,7 +241,13 @@ template&lt;typename _units &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>path</em>&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structmx_1_1astro_1_1basicSpectrum.html#ad50229278224c575a83de84c8d780838">paramsT</a> &amp;&#160;</td>
+          <td class="paramname"><em>params</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -263,6 +269,7 @@ template&lt;typename _units &gt; </div>
     <tr><td class="paramdir">[out]</td><td class="paramname">rawLambda</td><td>the raw wavelength vector. This should be an empty vector on input. </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">rawSpectrum</td><td>the raw spectrum. This should be an empty vector on input. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>the full path to the file. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">params</td><td>the parameters are passed in case needed to construct the spectrum </td></tr>
   </table>
   </dd>
 </dl>
@@ -361,7 +368,7 @@ template&lt;typename _units &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemx.html">mx</a></li><li class="navelem"><b>astro</b></li><li class="navelem"><a class="el" href="structmx_1_1astro_1_1basicSpectrum.html">basicSpectrum</a></li>
-    <li class="footer">Generated on Sat Sep 30 2017 14:26:03 for mxlib by
+    <li class="footer">Generated on Sun Oct 1 2017 13:25:41 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

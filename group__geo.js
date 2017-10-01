@@ -6,8 +6,6 @@ var group__geo =
     [ "semimaj", "group__geo.html#gaacabc34a486a39e7540654c2bc5e89a7", null ],
     [ "angleDiff", "group__geo.html#gacd188a1f72156491abce8b4c2ad9d393", null ],
     [ "angleMean", "group__geo.html#ga9aeac3c37b3a9f122ed625f27ce4c5c2", null ],
-    [ "angleMod", "group__geo.html#ga240ac82d23cb00d5460201dd0875e220", null ],
     [ "continueAngles", "group__geo.html#ga03d19941cd996137174b767ab992aa13", null ],
-    [ "dtor", "group__geo.html#ga92a420eb057d344c22e3973c29030489", null ],
-    [ "rtod", "group__geo.html#ga3f273f8d9960b886b09a9fce620f1607", null ]
+    [ "dtor", "group__geo.html#ga92a420eb057d344c22e3973c29030489", null ]
 ];

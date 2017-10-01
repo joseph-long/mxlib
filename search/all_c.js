@@ -1,6 +1,7 @@
 var searchData=
 [
   ['l_5f0',['L_0',['../classmx_1_1AO_1_1analysis_1_1aoAtmosphere.html#ac03bda2fdfd0347dc386a86d3b8eb316',1,'mx::AO::analysis::aoAtmosphere::L_0()'],['../classmx_1_1AO_1_1analysis_1_1aoAtmosphere.html#a1c46cbb53c500c45ab40db78abc00d8d',1,'mx::AO::analysis::aoAtmosphere::L_0(const realT &amp;L0)']]],
+  ['lam0',['lam0',['../structmx_1_1astro_1_1sqWaveFilter_1_1paramsT.html#a8e02faefdaf783de79284014d2890150',1,'mx::astro::sqWaveFilter::paramsT']]],
   ['lam_5f0',['lam_0',['../classmx_1_1AO_1_1analysis_1_1aoAtmosphere.html#a0f8bb972240ee718c458e942ec713f12',1,'mx::AO::analysis::aoAtmosphere']]],
   ['lam_5fsci',['lam_sci',['../classmx_1_1AO_1_1analysis_1_1aoSystem.html#ac7650b041c2b7bf43ba4887d9315d1ad',1,'mx::AO::analysis::aoSystem::lam_sci(realT nlam)'],['../classmx_1_1AO_1_1analysis_1_1aoSystem.html#a38df30b5054c5e0495d85a7992219c35',1,'mx::AO::analysis::aoSystem::lam_sci()']]],
   ['lam_5fwfs',['lam_wfs',['../classmx_1_1AO_1_1analysis_1_1aoSystem.html#a900e04c7902e213678c7c99a35debf2a',1,'mx::AO::analysis::aoSystem::lam_wfs(realT nlam)'],['../classmx_1_1AO_1_1analysis_1_1aoSystem.html#af66e8ba1e95e45fa6a200f724ae5c6bd',1,'mx::AO::analysis::aoSystem::lam_wfs()']]],

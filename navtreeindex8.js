@@ -1,9 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"randomSeed_8hpp.html#ga836cd4e4525b4e098ec8e405057901d1":[6,0,33,0],
-"randomSeed_8hpp_source.html":[6,0,33],
-"randomT_8hpp.html":[6,0,34],
-"randomT_8hpp.html#a96424f808c039f0dbc206d8521df1c9f":[6,0,34,7],
 "randomT_8hpp.html#a9a14a54b0b31fc372634eae5d1a3edc3":[6,0,34,5],
 "randomT_8hpp.html#ab68c2aac4345dea238718cfaaadaef17":[6,0,34,8],
 "randomT_8hpp.html#aef38611a611f477cc5e7ab4ee314e8c0":[6,0,34,6],
@@ -249,5 +245,9 @@ var NAVTREEINDEX8 =
 "structmx_1_1appConfigurator.html#ada3199ab9231b9090a74ab1894aca7c5":[0,7,7,1,8],
 "structmx_1_1appConfigurator.html#adc9e07b8568f4478a0e9bd34c0fbc431":[0,7,7,1,9],
 "structmx_1_1astro_1_1astroFilter.html":[0,6,3,3,1],
-"structmx_1_1astro_1_1astroFilter.html#a29e286f60436dfc18e6b89a15ab3f9ce":[0,6,3,3,1,2]
+"structmx_1_1astro_1_1astroFilter.html#a29e286f60436dfc18e6b89a15ab3f9ce":[0,6,3,3,1,2],
+"structmx_1_1astro_1_1astroFilter.html#a4bff07b0d4f3ac6c29a2d1eb8af0c3f4":[0,6,3,3,1,1],
+"structmx_1_1astro_1_1astroFilter.html#a5fc56b1f2a040704f8bcb613178f4cd8":[0,6,3,3,1,3],
+"structmx_1_1astro_1_1astroFilter.html#ab1fe0e4223ddbde5ddf41e12d7c830cb":[0,6,3,3,1,0],
+"structmx_1_1astro_1_1astroSpectrum.html":[0,6,3,1]
 };

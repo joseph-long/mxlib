@@ -19,7 +19,7 @@ var searchData=
   ['angleimage',['angleImage',['../group__image__masks.html#gae867f958e975a1fb99b9902d9f2d6621',1,'mx::improc::angleImage(eigenT &amp;m, typename eigenT::Scalar xc, typename eigenT::Scalar yc, typename eigenT::Scalar scale=radian&lt; typename eigenT::Scalar &gt;())'],['../group__image__masks.html#gac2ab5bd600d74e77b1367f8ca9dc5cc0',1,'mx::improc::angleImage(eigenT &amp;m, typename eigenT::Scalar scale=radian&lt; typename eigenT::Scalar &gt;())']]],
   ['anglekeyword',['angleKeyword',['../structmx_1_1improc_1_1ADIDerotator.html#ab57d856b714be709de9ee4d9b9cd9bf0',1,'mx::improc::ADIDerotator']]],
   ['anglemean',['angleMean',['../group__geo.html#ga9aeac3c37b3a9f122ed625f27ce4c5c2',1,'mx::math']]],
-  ['anglemod',['angleMod',['../group__geo.html#ga240ac82d23cb00d5460201dd0875e220',1,'mx::math']]],
+  ['anglemod',['angleMod',['../geo_8hpp.html#a240ac82d23cb00d5460201dd0875e220',1,'mx::math']]],
   ['annulusindices',['annulusIndices',['../group__image__masks.html#gaf2a256ac7d5a7e089aecfff4224920a6',1,'mx::improc']]],
   ['aoatmosphere',['aoAtmosphere',['../classmx_1_1AO_1_1analysis_1_1aoAtmosphere.html#a7fc6e257056a7e3e5cabc51e09977b49',1,'mx::AO::analysis::aoAtmosphere']]],
   ['aosystem',['aoSystem',['../classmx_1_1AO_1_1analysis_1_1aoSystem.html#af41eae90c09aa77ee7cd16023a54e19e',1,'mx::AO::analysis::aoSystem']]],

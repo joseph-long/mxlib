@@ -107,6 +107,7 @@ $(document).ready(function(){initNavTree('group__ioutils.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#groups">Modules</a> &#124;
 <a href="#files">Files</a> &#124;
 <a href="#func-members">Functions</a>  </div>
@@ -120,6 +121,12 @@ $(document).ready(function(){initNavTree('group__ioutils.html','');});
 <a name="details" id="details"></a><h2 class="groupheader"> </h2>
 <p>Various input/output utilities. </p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1skipCol.html">mx::skipCol</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A dummy class to allow <a class="el" href="group__ioutils.html#gaa5c560a6c4d1651d317005f0ddfbadf5" title="Read in columns from a text file. ">mx::readColumns</a> to skip a column(s) in a file without requiring memory allocation.  <a href="structmx_1_1skipCol.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
 Modules</h2></td></tr>
 <tr class="memitem:group__binvector"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__binvector.html">binVector Binary File Format</a></td></tr>
@@ -227,6 +234,7 @@ template&lt;char delim = ' ', char comment = '#', char eol = '\n', typename... a
 <p>This function opens a file containing data formatted in columns and reads in the data row by row. The data are stored in std::vectors, which should not be pre-allocated (though they could be reserve()-ed).</p>
 <p>Example: </p><div class="fragment"><div class="line">std::vector&lt;int&gt; i1;</div><div class="line">std::vector&lt;float&gt; f1;</div><div class="line">std::vector&lt;double&gt; d1;</div><div class="line"></div><div class="line"><a class="code" href="group__ioutils.html#gaa5c560a6c4d1651d317005f0ddfbadf5">readColumns</a>(<span class="stringliteral">&quot;data_file.txt&quot;</span>, i1, f1, d1);</div></div><!-- fragment --><p>Note that the types of the vectors do not need to be specified as template arguments.</p>
 <p>The format of the file can be specified with template arguments like </p><div class="fragment"><div class="line">readColumns&lt;&#39;,&#39;, &#39;;&#39;, &#39;\r&#39;&gt;(<span class="stringliteral">&quot;data_file.csv&quot;</span>, i1, f1, d1);</div></div><!-- fragment --><p> which sets the delimmiter to comma, the comment character to ;, and the end-of-line to \r.</p>
+<p>Columns can be skipped using <a class="el" href="structmx_1_1skipCol.html" title="A dummy class to allow mx::readColumns to skip a column(s) in a file without requiring memory allocat...">mx::skipCol</a>.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">delim</td><td>is the character separating columns, by default this is space. </td></tr>
@@ -249,7 +257,7 @@ template&lt;char delim = ' ', char comment = '#', char eol = '\n', typename... a
 
 <p>References <a class="el" href="mxError_8hpp_source.html#l00169">MXE_FILECERR</a>, <a class="el" href="mxError_8hpp_source.html#l00148">MXE_FILEOERR</a>, <a class="el" href="mxError_8hpp_source.html#l00162">MXE_FILERERR</a>, <a class="el" href="mxError_8hpp_source.html#l00060">mxError</a>, and <a class="el" href="mxError_8hpp_source.html#l00077">mxPError</a>.</p>
 
-<p>Referenced by <a class="el" href="astroFilter_8hpp_source.html#l00181">mx::astrofilt()</a>, <a class="el" href="ADIobservation_8hpp_source.html#l00277">mx::improc::ADIobservation&lt; _realT, _derotFunctObj &gt;::injectFake()</a>, <a class="el" href="HCIobservation_8hpp_source.html#l00574">mx::improc::HCIobservation&lt; _realT &gt;::loadFileList()</a>, <a class="el" href="astroSpectra_8hpp_source.html#l00051">mx::astro::basicSpectrum&lt; _units &gt;::readSpectrum()</a>, <a class="el" href="astroSpectra_8hpp_source.html#l00090">mx::astro::astroFilter&lt; _units, _rsr &gt;::readSpectrum()</a>, <a class="el" href="cahoyAlbedos_8hpp_source.html#l00090">mx::astro::cahoySpectrumRaw&lt; _units &gt;::readSpectrum()</a>, <a class="el" href="astroSpectra_8hpp_source.html#l00148">mx::astro::calspecSpectrum&lt; _units &gt;::readSpectrum()</a>, <a class="el" href="astroSpectra_8hpp_source.html#l00188">mx::astro::picklesSpectrum&lt; _units &gt;::readSpectrum()</a>, <a class="el" href="HCIobservation_8hpp_source.html#l00813">mx::improc::HCIobservation&lt; _realT &gt;::readWeights()</a>, and <a class="el" href="HCIobservation_8hpp_source.html#l00769">mx::improc::HCIobservation&lt; _realT &gt;::threshold()</a>.</p>
+<p>Referenced by <a class="el" href="astroFilter_8hpp_source.html#l00181">mx::astrofilt()</a>, <a class="el" href="ADIobservation_8hpp_source.html#l00277">mx::improc::ADIobservation&lt; _realT, _derotFunctObj &gt;::injectFake()</a>, <a class="el" href="HCIobservation_8hpp_source.html#l00574">mx::improc::HCIobservation&lt; _realT &gt;::loadFileList()</a>, <a class="el" href="astroSpectra_8hpp_source.html#l00051">mx::astro::basicSpectrum&lt; _units &gt;::readSpectrum()</a>, <a class="el" href="cahoyAlbedos_8hpp_source.html#l00090">mx::astro::cahoySpectrumRaw&lt; _units &gt;::readSpectrum()</a>, <a class="el" href="astroSpectra_8hpp_source.html#l00091">mx::astro::astroFilter&lt; _units, _rsr &gt;::readSpectrum()</a>, <a class="el" href="astroSpectra_8hpp_source.html#l00210">mx::astro::calspecSpectrum&lt; _units &gt;::readSpectrum()</a>, <a class="el" href="astroSpectra_8hpp_source.html#l00251">mx::astro::picklesSpectrum&lt; _units &gt;::readSpectrum()</a>, <a class="el" href="astroSpectra_8hpp_source.html#l00303">mx::astro::earthAlbedo&lt; _units &gt;::readSpectrum()</a>, <a class="el" href="HCIobservation_8hpp_source.html#l00813">mx::improc::HCIobservation&lt; _realT &gt;::readWeights()</a>, and <a class="el" href="HCIobservation_8hpp_source.html#l00769">mx::improc::HCIobservation&lt; _realT &gt;::threshold()</a>.</p>
 
 </div>
 </div>
@@ -258,7 +266,7 @@ template&lt;char delim = ' ', char comment = '#', char eol = '\n', typename... a
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Sep 30 2017 14:26:02 for mxlib by
+    <li class="footer">Generated on Sun Oct 1 2017 13:25:40 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -32,7 +32,7 @@ var searchData=
   ['angleimage',['angleImage',['../group__image__masks.html#gae867f958e975a1fb99b9902d9f2d6621',1,'mx::improc::angleImage(eigenT &amp;m, typename eigenT::Scalar xc, typename eigenT::Scalar yc, typename eigenT::Scalar scale=radian&lt; typename eigenT::Scalar &gt;())'],['../group__image__masks.html#gac2ab5bd600d74e77b1367f8ca9dc5cc0',1,'mx::improc::angleImage(eigenT &amp;m, typename eigenT::Scalar scale=radian&lt; typename eigenT::Scalar &gt;())']]],
   ['anglekeyword',['angleKeyword',['../structmx_1_1improc_1_1ADIDerotator.html#ab57d856b714be709de9ee4d9b9cd9bf0',1,'mx::improc::ADIDerotator']]],
   ['anglemean',['angleMean',['../group__geo.html#ga9aeac3c37b3a9f122ed625f27ce4c5c2',1,'mx::math']]],
-  ['anglemod',['angleMod',['../group__geo.html#ga240ac82d23cb00d5460201dd0875e220',1,'mx::math']]],
+  ['anglemod',['angleMod',['../geo_8hpp.html#a240ac82d23cb00d5460201dd0875e220',1,'mx::math']]],
   ['angles',['angles',['../structmx_1_1improc_1_1ADIDerotator.html#af57554ecb186591562e64157347cdafa',1,'mx::improc::ADIDerotator']]],
   ['anglescale',['angleScale',['../structmx_1_1improc_1_1ADIDerotator.html#a8b522bc9b7c5d0920288b8fa3ee3d964',1,'mx::improc::ADIDerotator']]],
   ['annulusindices',['annulusIndices',['../group__image__masks.html#gaf2a256ac7d5a7e089aecfff4224920a6',1,'mx::improc']]],
