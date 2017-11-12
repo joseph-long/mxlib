@@ -162,10 +162,10 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa81966083d704b713dd0c6467c82e4a0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__signal__processing.html#gaa81966083d704b713dd0c6467c82e4a0">mx::sigproc::gramSchmidt</a> (eigenTout &amp;out, const eigenTin &amp;in, const eigenTWin &amp;window)</td></tr>
 <tr class="memdesc:gaa81966083d704b713dd0c6467c82e4a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform Gram-Schmidt ortogonalization of a basis set on a window, and normalize the result.  <a href="group__signal__processing.html#gaa81966083d704b713dd0c6467c82e4a0">More...</a><br /></td></tr>
 <tr class="separator:gaa81966083d704b713dd0c6467c82e4a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga22b2a894b50bc11ffc82908a316b9cfb"><td class="memTemplParams" colspan="2">template&lt;int progress = 0, typename eigenTout , typename eigenTout2 , typename eigenTin &gt; </td></tr>
-<tr class="memitem:ga22b2a894b50bc11ffc82908a316b9cfb"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__signal__processing.html#ga22b2a894b50bc11ffc82908a316b9cfb">mx::sigproc::gramSchmidtSpectrum</a> (eigenTout &amp;out, eigenTout2 &amp;spect, const eigenTin &amp;in)</td></tr>
-<tr class="memdesc:ga22b2a894b50bc11ffc82908a316b9cfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform Gram-Schmidt ortogonalization of a basis set, and normalize the result, while recording the spectrum.  <a href="group__signal__processing.html#ga22b2a894b50bc11ffc82908a316b9cfb">More...</a><br /></td></tr>
-<tr class="separator:ga22b2a894b50bc11ffc82908a316b9cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabed45cbe9af8b400cd85a2f49f7e86d1"><td class="memTemplParams" colspan="2">template&lt;int progress = 0, typename eigenTout , typename eigenTout2 , typename eigenTin &gt; </td></tr>
+<tr class="memitem:gabed45cbe9af8b400cd85a2f49f7e86d1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__signal__processing.html#gabed45cbe9af8b400cd85a2f49f7e86d1">mx::sigproc::gramSchmidtSpectrum</a> (eigenTout &amp;out, eigenTout2 &amp;spect, const eigenTin &amp;in, typename eigenTin::Scalar normPix=1.0)</td></tr>
+<tr class="memdesc:gabed45cbe9af8b400cd85a2f49f7e86d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform Gram-Schmidt ortogonalization of a basis set, and normalize the result, while recording the spectrum.  <a href="group__signal__processing.html#gabed45cbe9af8b400cd85a2f49f7e86d1">More...</a><br /></td></tr>
+<tr class="separator:gabed45cbe9af8b400cd85a2f49f7e86d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad999b803cf7f36f2ce5067179f3bdf65"><td class="memTemplParams" colspan="2">template&lt;typename floatT &gt; </td></tr>
 <tr class="memitem:gad999b803cf7f36f2ce5067179f3bdf65"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__signal__processing.html#gad999b803cf7f36f2ce5067179f3bdf65">mx::sigproc::tukey1d</a> (floatT *filt, int N, floatT alpha)</td></tr>
 <tr class="memdesc:gad999b803cf7f36f2ce5067179f3bdf65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a 1-D Tukey window.  <a href="group__signal__processing.html#gad999b803cf7f36f2ce5067179f3bdf65">More...</a><br /></td></tr>
@@ -388,7 +388,7 @@ template&lt;int progress = 0, typename eigenTout , typename eigenTin , typename 
 
 </div>
 </div>
-<a class="anchor" id="ga22b2a894b50bc11ffc82908a316b9cfb"></a>
+<a class="anchor" id="gabed45cbe9af8b400cd85a2f49f7e86d1"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -410,7 +410,13 @@ template&lt;int progress = 0, typename eigenTout , typename eigenTout2 , typenam
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const eigenTin &amp;&#160;</td>
-          <td class="paramname"><em>in</em>&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typename eigenTin::Scalar&#160;</td>
+          <td class="paramname"><em>normPix</em> = <code>1.0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -422,24 +428,26 @@ template&lt;int progress = 0, typename eigenTout , typename eigenTout2 , typenam
 
 <p>Perform Gram-Schmidt ortogonalization of a basis set, and normalize the result, while recording the spectrum. </p>
 <p>Performs the stabilized Gram-Schmidt procedure on the input basis set, followed by normalization of the result. Also records the spectrum, that is the coefficients of the linear expansion in the orginal basis set for the resultant basis set.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">out</td><td>[out] is the orthonormal basis set constructed from the input </td></tr>
-    <tr><td class="paramname">spect</td><td>[out] is the spectrum </td></tr>
-    <tr><td class="paramname">int</td><td>[in] is a basis set, where each column represents one vector.</td></tr>
-  </table>
-  </dd>
-</dl>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">progress</td><td>if true, then the loop index is printed for progress reporting </td></tr>
-    <tr><td class="paramname">eigenTout</td><td>is the Eigen array type of the desired output </td></tr>
+    <tr><td class="paramname">eigenTout</td><td>is the Eigen array type of the output orthogonalized array </td></tr>
+    <tr><td class="paramname">eigenTout2</td><td>is the Eigen array type of the spectrum </td></tr>
     <tr><td class="paramname">eigenTin</td><td>is the Eigen array type of the input </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">out</td><td>the orthonormal basis set constructed from the input </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">spect</td><td>the spectrum </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>a basis set, where each column represents one vector </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">normPix</td><td>[optional] are of (usually number of pixels in) the orthogonal region for normalization. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>Definition at line <a class="el" href="gramSchmidt_8hpp_source.html#l00145">145</a> of file <a class="el" href="gramSchmidt_8hpp_source.html">gramSchmidt.hpp</a>.</p>
+<p>Definition at line <a class="el" href="gramSchmidt_8hpp_source.html#l00144">144</a> of file <a class="el" href="gramSchmidt_8hpp_source.html">gramSchmidt.hpp</a>.</p>
 
 </div>
 </div>
@@ -568,8 +576,6 @@ template&lt;typename floatT &gt; </div>
 
 <p>Definition at line <a class="el" href="signalWindows_8hpp_source.html#l00081">81</a> of file <a class="el" href="signalWindows_8hpp_source.html">signalWindows.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="directPhaseReconstructor_8hpp_source.html#l00182">mx::AO::sim::directPhaseReconstructor&lt; realT &gt;::directPhaseReconstructor()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="gae9aed144559ae151b4c78b3c80c60099"></a>
@@ -660,7 +666,7 @@ template&lt;typename floatT &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Oct 1 2017 13:25:40 for mxlib by
+    <li class="footer">Generated on Sun Nov 12 2017 00:12:42 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

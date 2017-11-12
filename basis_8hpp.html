@@ -128,13 +128,14 @@ $(document).ready(function(){initNavTree('basis_8hpp.html','');});
 <dl class="section author"><dt>Author</dt><dd>Jared R. Males (<a href="#" onclick="location.href='mai'+'lto:'+'jar'+'ed'+'mal'+'es'+'@gm'+'ai'+'l.c'+'om'; return false;">jared<span style="display: none;">.nosp@m.</span>male<span style="display: none;">.nosp@m.</span>s@gma<span style="display: none;">.nosp@m.</span>il.c<span style="display: none;">.nosp@m.</span>om</a>) </dd></dl>
 
 <p>Definition in file <a class="el" href="basis_8hpp_source.html">basis.hpp</a>.</p>
-</div><div class="textblock"><code>#include &lt;mx/fourierModes.hpp&gt;</code><br />
-<code>#include &lt;mx/fitsFile.hpp&gt;</code><br />
-<code>#include &lt;mx/gramSchmidt.hpp&gt;</code><br />
+</div><div class="textblock"><code>#include &lt;mx/sigproc/fourierModes.hpp&gt;</code><br />
+<code>#include &lt;mx/improc/fitsFile.hpp&gt;</code><br />
+<code>#include &lt;mx/sigproc/gramSchmidt.hpp&gt;</code><br />
 <code>#include &lt;mx/eigenUtils.hpp&gt;</code><br />
-<code>#include &lt;mx/imageFilters.hpp&gt;</code><br />
-<code>#include &lt;mx/imagePads.hpp&gt;</code><br />
-<code>#include &lt;mx/signalWindows.hpp&gt;</code><br />
+<code>#include &lt;mx/improc/imageFilters.hpp&gt;</code><br />
+<code>#include &lt;mx/improc/imagePads.hpp&gt;</code><br />
+<code>#include &lt;mx/sigproc/signalWindows.hpp&gt;</code><br />
+<code>#include &lt;mx/math/eigenLapack.hpp&gt;</code><br />
 <code>#include &quot;<a class="el" href="aoPaths_8hpp_source.html">aoPaths.hpp</a>&quot;</code><br />
 </div>
 <p><a href="basis_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -156,10 +157,10 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3595b4d96e65d9ed9a37fdd7cc86e2ea"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
-<tr class="memitem:a3595b4d96e65d9ed9a37fdd7cc86e2ea"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="basis_8hpp.html#a3595b4d96e65d9ed9a37fdd7cc86e2ea">mx::AO::applyPupil2Basis</a> (mx::eigenCube&lt; realT &gt; &amp;modes, const std::string &amp;basisName, const std::string &amp;pupilName, realT fwhm=0)</td></tr>
-<tr class="memdesc:a3595b4d96e65d9ed9a37fdd7cc86e2ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiply a raw modal basis by a pupil mask.  <a href="basis_8hpp.html#a3595b4d96e65d9ed9a37fdd7cc86e2ea">More...</a><br /></td></tr>
-<tr class="separator:a3595b4d96e65d9ed9a37fdd7cc86e2ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fda237bc5404371293bd9ee592e0170"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:a2fda237bc5404371293bd9ee592e0170"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="basis_8hpp.html#a2fda237bc5404371293bd9ee592e0170">mx::AO::applyPupil2Basis</a> (<a class="el" href="classmx_1_1improc_1_1eigenCube.html">eigenCube</a>&lt; realT &gt; &amp;modes, const std::string &amp;basisName, const std::string &amp;pupilName, realT fwhm=0)</td></tr>
+<tr class="memdesc:a2fda237bc5404371293bd9ee592e0170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiply a raw modal basis by a pupil mask.  <a href="basis_8hpp.html#a2fda237bc5404371293bd9ee592e0170">More...</a><br /></td></tr>
+<tr class="separator:a2fda237bc5404371293bd9ee592e0170"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b65e17af4f3bdb229fdc3153bd021cc"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
 <tr class="memitem:a2b65e17af4f3bdb229fdc3153bd021cc"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="basis_8hpp.html#a2b65e17af4f3bdb229fdc3153bd021cc">mx::AO::orthogonalizeBasis</a> (const std::string &amp;orthoName, const std::string &amp;basisName, const std::string &amp;pupilName, int method)</td></tr>
 <tr class="memdesc:a2b65e17af4f3bdb229fdc3153bd021cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate an orthogonal projection of a basis on a pupil.  <a href="basis_8hpp.html#a2b65e17af4f3bdb229fdc3153bd021cc">More...</a><br /></td></tr>
@@ -178,9 +179,9 @@ Functions</h2></td></tr>
 
 <p>Constant to specify using the stabilized Gramm Schmidt (SGS) orthogonalization procedure. </p>
 
-<p>Definition at line <a class="el" href="basis_8hpp_source.html#l00076">76</a> of file <a class="el" href="basis_8hpp_source.html">basis.hpp</a>.</p>
+<p>Definition at line <a class="el" href="basis_8hpp_source.html#l00081">81</a> of file <a class="el" href="basis_8hpp_source.html">basis.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="basis_8hpp_source.html#l00155">mx::AO::orthogonalizeBasis()</a>.</p>
+<p>Referenced by <a class="el" href="basis_8hpp_source.html#l00162">mx::AO::orthogonalizeBasis()</a>.</p>
 
 </div>
 </div>
@@ -196,14 +197,14 @@ Functions</h2></td></tr>
 
 <p>Constant to specify using the singular value decomposition (SVD) for orthogonalizing a modal basis. </p>
 
-<p>Definition at line <a class="el" href="basis_8hpp_source.html#l00081">81</a> of file <a class="el" href="basis_8hpp_source.html">basis.hpp</a>.</p>
+<p>Definition at line <a class="el" href="basis_8hpp_source.html#l00086">86</a> of file <a class="el" href="basis_8hpp_source.html">basis.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="basis_8hpp_source.html#l00155">mx::AO::orthogonalizeBasis()</a>.</p>
+<p>Referenced by <a class="el" href="basis_8hpp_source.html#l00162">mx::AO::orthogonalizeBasis()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="file_a3595b4d96e65d9ed9a37fdd7cc86e2ea"></a>
+<a class="anchor" id="file_a2fda237bc5404371293bd9ee592e0170"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -212,7 +213,7 @@ template&lt;typename realT &gt; </div>
         <tr>
           <td class="memname">void mx::AO::applyPupil2Basis </td>
           <td>(</td>
-          <td class="paramtype">mx::eigenCube&lt; realT &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classmx_1_1improc_1_1eigenCube.html">eigenCube</a>&lt; realT &gt; &amp;&#160;</td>
           <td class="paramname"><em>modes</em>, </td>
         </tr>
         <tr>
@@ -243,11 +244,11 @@ template&lt;typename realT &gt; </div>
 
 <p>Multiply a raw modal basis by a pupil mask. </p>
 
-<p>Definition at line <a class="el" href="basis_8hpp_source.html#l00029">29</a> of file <a class="el" href="basis_8hpp_source.html">basis.hpp</a>.</p>
+<p>Definition at line <a class="el" href="basis_8hpp_source.html#l00034">34</a> of file <a class="el" href="basis_8hpp_source.html">basis.hpp</a>.</p>
 
-<p>References <a class="el" href="basis_8hpp_source.html#l00029">mx::AO::applyPupil2Basis()</a>, <a class="el" href="imageFilters_8hpp_source.html#l00194">mx::improc::filterImage()</a>, and <a class="el" href="imagePads_8hpp_source.html#l00043">mx::improc::padImage()</a>.</p>
+<p>References <a class="el" href="basis_8hpp_source.html#l00034">mx::AO::applyPupil2Basis()</a>, <a class="el" href="imageFilters_8hpp_source.html#l00194">mx::improc::filterImage()</a>, <a class="el" href="eigenCube_8hpp_source.html#l00356">mx::improc::eigenCube&lt; dataT &gt;::image()</a>, <a class="el" href="imagePads_8hpp_source.html#l00043">mx::improc::padImage()</a>, and <a class="el" href="fitsFile_8hpp_source.html#l00721">mx::improc::fitsFile&lt; dataT &gt;::read()</a>.</p>
 
-<p>Referenced by <a class="el" href="basis_8hpp_source.html#l00029">mx::AO::applyPupil2Basis()</a>, and <a class="el" href="basis_8hpp_source.html#l00155">mx::AO::orthogonalizeBasis()</a>.</p>
+<p>Referenced by <a class="el" href="basis_8hpp_source.html#l00034">mx::AO::applyPupil2Basis()</a>, and <a class="el" href="basis_8hpp_source.html#l00162">mx::AO::orthogonalizeBasis()</a>.</p>
 
 </div>
 </div>
@@ -306,9 +307,9 @@ template&lt;typename realT &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="basis_8hpp_source.html#l00155">155</a> of file <a class="el" href="basis_8hpp_source.html">basis.hpp</a>.</p>
+<p>Definition at line <a class="el" href="basis_8hpp_source.html#l00162">162</a> of file <a class="el" href="basis_8hpp_source.html">basis.hpp</a>.</p>
 
-<p>References <a class="el" href="basis_8hpp_source.html#l00029">mx::AO::applyPupil2Basis()</a>, <a class="el" href="imagePads_8hpp_source.html#l00288">mx::improc::cutPaddedImage()</a>, <a class="el" href="imageFilters_8hpp_source.html#l00194">mx::improc::filterImage()</a>, <a class="el" href="basis_8hpp_source.html#l00076">MXAO_ORTHO_METHOD_SGS</a>, <a class="el" href="basis_8hpp_source.html#l00081">MXAO_ORTHO_METHOD_SVD</a>, and <a class="el" href="imagePads_8hpp_source.html#l00043">mx::improc::padImage()</a>.</p>
+<p>References <a class="el" href="fitsHeader_8hpp_source.html#l00385">mx::improc::fitsHeader::append()</a>, <a class="el" href="basis_8hpp_source.html#l00034">mx::AO::applyPupil2Basis()</a>, <a class="el" href="imagePads_8hpp_source.html#l00288">mx::improc::cutPaddedImage()</a>, <a class="el" href="imageFilters_8hpp_source.html#l00194">mx::improc::filterImage()</a>, <a class="el" href="eigenCube_8hpp_source.html#l00356">mx::improc::eigenCube&lt; dataT &gt;::image()</a>, <a class="el" href="basis_8hpp_source.html#l00081">MXAO_ORTHO_METHOD_SGS</a>, <a class="el" href="basis_8hpp_source.html#l00086">MXAO_ORTHO_METHOD_SVD</a>, <a class="el" href="imagePads_8hpp_source.html#l00043">mx::improc::padImage()</a>, <a class="el" href="fitsFile_8hpp_source.html#l00721">mx::improc::fitsFile&lt; dataT &gt;::read()</a>, and <a class="el" href="fitsFile_8hpp_source.html#l01269">mx::improc::fitsFile&lt; dataT &gt;::write()</a>.</p>
 
 </div>
 </div>
@@ -318,7 +319,7 @@ template&lt;typename realT &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4a0bf71ba3138a6abb584fb74c18f794.html">ao</a></li><li class="navelem"><a class="el" href="basis_8hpp.html">basis.hpp</a></li>
-    <li class="footer">Generated on Sun Oct 1 2017 13:25:40 for mxlib by
+    <li class="footer">Generated on Sun Nov 12 2017 00:12:41 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

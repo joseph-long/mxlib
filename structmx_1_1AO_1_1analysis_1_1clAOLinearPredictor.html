@@ -139,9 +139,9 @@ struct mx::AO::analysis::clAOLinearPredictor&lt; _realT &gt;</h3>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a36d33277a64d23c60d7558c7c60b4db4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1analysis_1_1clAOLinearPredictor.html#a36d33277a64d23c60d7558c7c60b4db4">calcCoefficients</a> (std::vector&lt; realT &gt; &amp;PSDt, std::vector&lt; realT &gt; &amp;PSDn, realT PSDreg, int Nc)</td></tr>
-<tr class="memdesc:a36d33277a64d23c60d7558c7c60b4db4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the LP coefficients for a turbulence PSD and a noise PSD.  <a href="#a36d33277a64d23c60d7558c7c60b4db4">More...</a><br /></td></tr>
-<tr class="separator:a36d33277a64d23c60d7558c7c60b4db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2da559a2955e86a811e76a447c05acdc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1analysis_1_1clAOLinearPredictor.html#a2da559a2955e86a811e76a447c05acdc">calcCoefficients</a> (std::vector&lt; realT &gt; &amp;PSDt, std::vector&lt; realT &gt; &amp;PSDn, realT PSDreg, int Nc, realT condition=0)</td></tr>
+<tr class="memdesc:a2da559a2955e86a811e76a447c05acdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the LP coefficients for a turbulence PSD and a noise PSD.  <a href="#a2da559a2955e86a811e76a447c05acdc">More...</a><br /></td></tr>
+<tr class="separator:a2da559a2955e86a811e76a447c05acdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31a5e4bec6657b49156e551c8895df64"><td class="memTemplParams" colspan="2">template&lt;bool printout = false&gt; </td></tr>
 <tr class="memitem:a31a5e4bec6657b49156e551c8895df64"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1analysis_1_1clAOLinearPredictor.html#a31a5e4bec6657b49156e551c8895df64">_regularizeCoefficients</a> (realT &amp;min_var, realT &amp;min_sc, realT precision, realT max_sc, <a class="el" href="structmx_1_1AO_1_1analysis_1_1clGainOpt.html">clGainOpt</a>&lt; realT &gt; &amp;go_lp, std::vector&lt; realT &gt; &amp;PSDt, std::vector&lt; realT &gt; &amp;PSDn, int Nc)</td></tr>
 <tr class="memdesc:a31a5e4bec6657b49156e551c8895df64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Worker function for regularizing the PSD for coefficient calculation.  <a href="#a31a5e4bec6657b49156e551c8895df64">More...</a><br /></td></tr>
@@ -245,13 +245,13 @@ template&lt;bool printout = false&gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="clAOLinearPredictor_8hpp_source.html#l00087">87</a> of file <a class="el" href="clAOLinearPredictor_8hpp_source.html">clAOLinearPredictor.hpp</a>.</p>
+<p>Definition at line <a class="el" href="clAOLinearPredictor_8hpp_source.html#l00100">100</a> of file <a class="el" href="clAOLinearPredictor_8hpp_source.html">clAOLinearPredictor.hpp</a>.</p>
 
-<p>References <a class="el" href="clGainOpt_8hpp_source.html#l00457">mx::AO::analysis::clGainOpt&lt; _realT &gt;::a()</a>, <a class="el" href="clGainOpt_8hpp_source.html#l00427">mx::AO::analysis::clGainOpt&lt; _realT &gt;::b()</a>, <a class="el" href="clAOLinearPredictor_8hpp_source.html#l00058">mx::AO::analysis::clAOLinearPredictor&lt; _realT &gt;::calcCoefficients()</a>, <a class="el" href="clGainOpt_8hpp_source.html#l00759">mx::AO::analysis::clGainOpt&lt; _realT &gt;::maxStableGain()</a>, and <a class="el" href="clGainOpt_8hpp_source.html#l00803">mx::AO::analysis::clGainOpt&lt; _realT &gt;::optGainOpenLoop()</a>.</p>
+<p>References <a class="el" href="clGainOpt_8hpp_source.html#l00457">mx::AO::analysis::clGainOpt&lt; _realT &gt;::a()</a>, <a class="el" href="clGainOpt_8hpp_source.html#l00427">mx::AO::analysis::clGainOpt&lt; _realT &gt;::b()</a>, <a class="el" href="clAOLinearPredictor_8hpp_source.html#l00062">mx::AO::analysis::clAOLinearPredictor&lt; _realT &gt;::calcCoefficients()</a>, <a class="el" href="clGainOpt_8hpp_source.html#l00759">mx::AO::analysis::clGainOpt&lt; _realT &gt;::maxStableGain()</a>, and <a class="el" href="clGainOpt_8hpp_source.html#l00803">mx::AO::analysis::clGainOpt&lt; _realT &gt;::optGainOpenLoop()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a36d33277a64d23c60d7558c7c60b4db4"></a>
+<a class="anchor" id="a2da559a2955e86a811e76a447c05acdc"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -282,7 +282,13 @@ template&lt;typename _realT&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>Nc</em>&#160;</td>
+          <td class="paramname"><em>Nc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>condition</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -310,11 +316,11 @@ template&lt;typename _realT&gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="clAOLinearPredictor_8hpp_source.html#l00058">58</a> of file <a class="el" href="clAOLinearPredictor_8hpp_source.html">clAOLinearPredictor.hpp</a>.</p>
+<p>Definition at line <a class="el" href="clAOLinearPredictor_8hpp_source.html#l00062">62</a> of file <a class="el" href="clAOLinearPredictor_8hpp_source.html">clAOLinearPredictor.hpp</a>.</p>
 
 <p>References <a class="el" href="psdUtils_8hpp_source.html#l00405">mx::sigproc::augment1SidedPSD()</a>, and <a class="el" href="linearPredictor_8hpp_source.html#l00047">mx::sigproc::linearPredictor&lt; _realT &gt;::calcCoefficients()</a>.</p>
 
-<p>Referenced by <a class="el" href="clAOLinearPredictor_8hpp_source.html#l00087">mx::AO::analysis::clAOLinearPredictor&lt; _realT &gt;::_regularizeCoefficients()</a>, and <a class="el" href="clAOLinearPredictor_8hpp_source.html#l00157">mx::AO::analysis::clAOLinearPredictor&lt; _realT &gt;::regularizeCoefficients()</a>.</p>
+<p>Referenced by <a class="el" href="clAOLinearPredictor_8hpp_source.html#l00100">mx::AO::analysis::clAOLinearPredictor&lt; _realT &gt;::_regularizeCoefficients()</a>, and <a class="el" href="clAOLinearPredictor_8hpp_source.html#l00172">mx::AO::analysis::clAOLinearPredictor&lt; _realT &gt;::regularizeCoefficients()</a>.</p>
 
 </div>
 </div>
@@ -405,9 +411,9 @@ template&lt;bool printout = false&gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="clAOLinearPredictor_8hpp_source.html#l00157">157</a> of file <a class="el" href="clAOLinearPredictor_8hpp_source.html">clAOLinearPredictor.hpp</a>.</p>
+<p>Definition at line <a class="el" href="clAOLinearPredictor_8hpp_source.html#l00172">172</a> of file <a class="el" href="clAOLinearPredictor_8hpp_source.html">clAOLinearPredictor.hpp</a>.</p>
 
-<p>References <a class="el" href="clGainOpt_8hpp_source.html#l00457">mx::AO::analysis::clGainOpt&lt; _realT &gt;::a()</a>, <a class="el" href="clGainOpt_8hpp_source.html#l00427">mx::AO::analysis::clGainOpt&lt; _realT &gt;::b()</a>, <a class="el" href="clAOLinearPredictor_8hpp_source.html#l00058">mx::AO::analysis::clAOLinearPredictor&lt; _realT &gt;::calcCoefficients()</a>, <a class="el" href="clGainOpt_8hpp_source.html#l00759">mx::AO::analysis::clGainOpt&lt; _realT &gt;::maxStableGain()</a>, and <a class="el" href="clGainOpt_8hpp_source.html#l00803">mx::AO::analysis::clGainOpt&lt; _realT &gt;::optGainOpenLoop()</a>.</p>
+<p>References <a class="el" href="clGainOpt_8hpp_source.html#l00457">mx::AO::analysis::clGainOpt&lt; _realT &gt;::a()</a>, <a class="el" href="clGainOpt_8hpp_source.html#l00427">mx::AO::analysis::clGainOpt&lt; _realT &gt;::b()</a>, <a class="el" href="clAOLinearPredictor_8hpp_source.html#l00062">mx::AO::analysis::clAOLinearPredictor&lt; _realT &gt;::calcCoefficients()</a>, <a class="el" href="clGainOpt_8hpp_source.html#l00759">mx::AO::analysis::clGainOpt&lt; _realT &gt;::maxStableGain()</a>, and <a class="el" href="clGainOpt_8hpp_source.html#l00803">mx::AO::analysis::clGainOpt&lt; _realT &gt;::optGainOpenLoop()</a>.</p>
 
 <p>Referenced by <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00716">mx::AO::analysis::fourierTemporalPSD&lt; realT, aosysT &gt;::analyzePSDGrid()</a>.</p>
 
@@ -422,7 +428,7 @@ template&lt;bool printout = false&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemx.html">mx</a></li><li class="navelem"><b>AO</b></li><li class="navelem"><b>analysis</b></li><li class="navelem"><a class="el" href="structmx_1_1AO_1_1analysis_1_1clAOLinearPredictor.html">clAOLinearPredictor</a></li>
-    <li class="footer">Generated on Sun Oct 1 2017 13:25:41 for mxlib by
+    <li class="footer">Generated on Sun Nov 12 2017 00:12:42 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

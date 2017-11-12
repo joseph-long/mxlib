@@ -5,7 +5,7 @@ var group__signal__processing =
       [ "operator()", "structmx_1_1sigproc_1_1autocorrelationFromPSD.html#a432a12d1a7eeb73d8b356f72e9c5803e", null ]
     ] ],
     [ "linearPredictor", "structmx_1_1sigproc_1_1linearPredictor.html", [
-      [ "calcCoefficients", "structmx_1_1sigproc_1_1linearPredictor.html#abd8faeae91b199f1deb24f39aab7115a", null ]
+      [ "calcCoefficients", "structmx_1_1sigproc_1_1linearPredictor.html#a614cc516016b676cfd7e439eb3a99f41", null ]
     ] ],
     [ "Fast Fourier Transforms", "group__fft.html", "group__fft" ],
     [ "Power Spectra", "group__psds.html", "group__psds" ],
@@ -15,7 +15,7 @@ var group__signal__processing =
     [ "autocorrelation", "group__signal__processing.html#gadbc4beeec00c60f6f2c107736a778159", null ],
     [ "gramSchmidt", "group__signal__processing.html#ga8fd9793819dc5750982b9895476583ac", null ],
     [ "gramSchmidt", "group__signal__processing.html#gaa81966083d704b713dd0c6467c82e4a0", null ],
-    [ "gramSchmidtSpectrum", "group__signal__processing.html#ga22b2a894b50bc11ffc82908a316b9cfb", null ],
+    [ "gramSchmidtSpectrum", "group__signal__processing.html#gabed45cbe9af8b400cd85a2f49f7e86d1", null ],
     [ "tukey1d", "group__signal__processing.html#gad999b803cf7f36f2ce5067179f3bdf65", null ],
     [ "tukey2d", "group__signal__processing.html#ga8f4e77df7fca2f1556d4f56796a92bbc", null ],
     [ "tukey2dAnnulus", "group__signal__processing.html#gae9aed144559ae151b4c78b3c80c60099", null ]

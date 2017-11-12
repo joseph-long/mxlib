@@ -12,7 +12,7 @@ var classmx_1_1AO_1_1sim_1_1simulatedAOSystem =
     [ "_pupilMask", "classmx_1_1AO_1_1sim_1_1simulatedAOSystem.html#aee8d342257fe67bcec9e6883a40424e7", null ],
     [ "_pupilMaskName", "classmx_1_1AO_1_1sim_1_1simulatedAOSystem.html#a25335d5ae7cffaa66e16ec83e042ff08", null ],
     [ "_pupilName", "classmx_1_1AO_1_1sim_1_1simulatedAOSystem.html#a9dd1e5f33fd7751dae55865632052992", null ],
-    [ "_saveFrameStart", "classmx_1_1AO_1_1sim_1_1simulatedAOSystem.html#a56e28115b0062422dc34565d72e21857", null ],
     [ "_sysName", "classmx_1_1AO_1_1sim_1_1simulatedAOSystem.html#acc5e8f688ac99e05dcf7a047d4995017", null ],
-    [ "_wfsName", "classmx_1_1AO_1_1sim_1_1simulatedAOSystem.html#a076e699eaa59a3b5c95ea9f9f3434010", null ]
+    [ "_wfsName", "classmx_1_1AO_1_1sim_1_1simulatedAOSystem.html#a076e699eaa59a3b5c95ea9f9f3434010", null ],
+    [ "_writeIndFrames", "classmx_1_1AO_1_1sim_1_1simulatedAOSystem.html#af6cbfd294e6b76299c3b13d8d264ee76", null ]
 ];

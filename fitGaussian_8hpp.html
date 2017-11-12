@@ -115,7 +115,8 @@ $(document).ready(function(){initNavTree('fitGaussian_8hpp.html','');});
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">fitGaussian.hpp File Reference<div class="ingroups"><a class="el" href="group__gen__math.html">General Mathematics</a> &raquo; <a class="el" href="group__fitting.html">Data Fitting</a> &raquo; <a class="el" href="group__fitting__files.html">Fitting Files</a></div></div>  </div>
 </div><!--header-->
@@ -128,7 +129,8 @@ $(document).ready(function(){initNavTree('fitGaussian_8hpp.html','');});
 <dl class="section author"><dt>Author</dt><dd>Jared R. Males </dd></dl>
 
 <p>Definition in file <a class="el" href="fitGaussian_8hpp_source.html">fitGaussian.hpp</a>.</p>
-</div><div class="textblock"><code>#include &quot;<a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>&quot;</code><br />
+</div><div class="textblock"><code>#include &lt;boost/math/constants/constants.hpp&gt;</code><br />
+<code>#include &quot;<a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="gaussian_8hpp_source.html">../func/gaussian.hpp</a>&quot;</code><br />
 </div>
 <p><a href="fitGaussian_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -167,6 +169,13 @@ Typedefs</h2></td></tr>
 <tr class="memitem:gafed5cbe9c8b165a04d959fd3de646943"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gaussian__peak__fit.html#gafed5cbe9c8b165a04d959fd3de646943">mx::math::fit::fitGaussian2Dgen</a> = <a class="el" href="classmx_1_1math_1_1fit_1_1fitGaussian2D.html">mx::math::fit::fitGaussian2D</a>&lt; <a class="el" href="structmx_1_1math_1_1fit_1_1gaussian2D__gen__fitter.html">mx::math::fit::gaussian2D_gen_fitter</a>&lt; realT &gt;&gt;</td></tr>
 <tr class="memdesc:gafed5cbe9c8b165a04d959fd3de646943"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for the <a class="el" href="classmx_1_1math_1_1fit_1_1fitGaussian2D.html" title="Class to manage fitting a 2D Gaussian to data via the levmarInterface. ">fitGaussian2D</a> type fitting the general elliptical gaussian.  <a href="group__gaussian__peak__fit.html#gafed5cbe9c8b165a04d959fd3de646943">More...</a><br /></td></tr>
 <tr class="separator:gafed5cbe9c8b165a04d959fd3de646943"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga595ec60efa8b7a68bf5b2a8a7668190c"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:ga595ec60efa8b7a68bf5b2a8a7668190c"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gaussian__peak__fit.html#ga595ec60efa8b7a68bf5b2a8a7668190c">mx::math::fit::guessGauss2D_ang</a> (realT &amp;Ag, realT &amp;xg, realT &amp;yg, realT &amp;xFWHM, realT &amp;yFWHM, realT &amp;angG, <a class="el" href="group__eigen__image__processing.html#gaa5f4935db90fd971a51c9ffa85fcfa99">mx::improc::eigenImage</a>&lt; realT &gt; &amp;im, realT maxWidth, realT widthWidth, realT nAngs, realT xg0, realT yg0)</td></tr>
+<tr class="memdesc:ga595ec60efa8b7a68bf5b2a8a7668190c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Form an estimate of the parameters of an elliptical Gaussian from a 2D image.  <a href="group__gaussian__peak__fit.html#ga595ec60efa8b7a68bf5b2a8a7668190c">More...</a><br /></td></tr>
+<tr class="separator:ga595ec60efa8b7a68bf5b2a8a7668190c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -174,7 +183,7 @@ Typedefs</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_fba38f648377aa56ae5d69782adf9e53.html">math</a></li><li class="navelem"><a class="el" href="dir_6db95d63ecdf0969fe78c6ed6d247181.html">fit</a></li><li class="navelem"><a class="el" href="fitGaussian_8hpp.html">fitGaussian.hpp</a></li>
-    <li class="footer">Generated on Sun Oct 1 2017 13:25:40 for mxlib by
+    <li class="footer">Generated on Sun Nov 12 2017 00:12:41 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

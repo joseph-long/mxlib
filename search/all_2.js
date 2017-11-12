@@ -10,7 +10,7 @@ var searchData=
   ['basis_2ehpp',['basis.hpp',['../basis_8hpp.html',1,'']]],
   ['basisroot',['basisRoot',['../aoPaths_8hpp.html#a6f8376eedc150897cf5c6e5dff4dd4ae',1,'mx::AO::path::dm']]],
   ['begin',['begin',['../classmx_1_1improc_1_1fitsHeader.html#af7556dcf550e6d2e7b3e1e58546b1ced',1,'mx::improc::fitsHeader']]],
-  ['beta_5fp',['beta_p',['../structmx_1_1AO_1_1analysis_1_1wfs.html#ad25ce0d0820fd0c04c95f11bce091c78',1,'mx::AO::analysis::wfs::beta_p()'],['../structmx_1_1AO_1_1analysis_1_1pywfsUnmod.html#a05d649645c3e9012e485dc5750eeb969',1,'mx::AO::analysis::pywfsUnmod::beta_p()'],['../structmx_1_1AO_1_1analysis_1_1pywfsModAsymptotic.html#a65ae0ab96f2503fabb46508449533939',1,'mx::AO::analysis::pywfsModAsymptotic::beta_p()']]],
+  ['beta_5fp',['beta_p',['../structmx_1_1AO_1_1analysis_1_1wfs.html#a1434fe7b7b4fe718cb45f91453da3b33',1,'mx::AO::analysis::wfs::beta_p()'],['../structmx_1_1AO_1_1analysis_1_1pywfsUnmod.html#adecaf7944db37ad66bd81e9f35e5e9fb',1,'mx::AO::analysis::pywfsUnmod::beta_p()'],['../structmx_1_1AO_1_1analysis_1_1pywfsModAsymptotic.html#a9567f10a78645172e75aaa35e311aa44',1,'mx::AO::analysis::pywfsModAsymptotic::beta_p()'],['../structmx_1_1AO_1_1analysis_1_1shwfs.html#a655cff94a4a72b02e7c49c58be232683',1,'mx::AO::analysis::shwfs::beta_p()']]],
   ['bilineartransd',['bilinearTransd',['../group__image__transforms.html#ga28ce4db23b62a8f52113584f555f856b',1,'mx::improc']]],
   ['bilineartransf',['bilinearTransf',['../group__image__transforms.html#ga709353e5ccd5ff8b1d8c2c1f250c8eac',1,'mx::improc']]],
   ['bilineartransform',['bilinearTransform',['../structmx_1_1improc_1_1bilinearTransform.html',1,'mx::improc']]],

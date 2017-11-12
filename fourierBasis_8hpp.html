@@ -127,8 +127,9 @@ $(document).ready(function(){initNavTree('fourierBasis_8hpp.html','');});
 <dl class="section author"><dt>Author</dt><dd>Jared R. Males (<a href="#" onclick="location.href='mai'+'lto:'+'jar'+'ed'+'mal'+'es'+'@gm'+'ai'+'l.c'+'om'; return false;">jared<span style="display: none;">.nosp@m.</span>male<span style="display: none;">.nosp@m.</span>s@gma<span style="display: none;">.nosp@m.</span>il.c<span style="display: none;">.nosp@m.</span>om</a>) </dd></dl>
 
 <p>Definition in file <a class="el" href="fourierBasis_8hpp_source.html">fourierBasis.hpp</a>.</p>
-</div><div class="textblock"><code>#include &lt;mx/fourierModes.hpp&gt;</code><br />
-<code>#include &lt;mx/fitsFile.hpp&gt;</code><br />
+</div><div class="textblock"><code>#include &lt;mx/sigproc/fourierModes.hpp&gt;</code><br />
+<code>#include &lt;mx/improc/eigenCube.hpp&gt;</code><br />
+<code>#include &lt;mx/improc/fitsFile.hpp&gt;</code><br />
 </div>
 <p><a href="fourierBasis_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -140,13 +141,13 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a54f13d41830ca2f6548153b7032ca096"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
-<tr class="memitem:a54f13d41830ca2f6548153b7032ca096"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="fourierBasis_8hpp.html#a54f13d41830ca2f6548153b7032ca096">mx::AO::makeModfBasis</a> (const std::string &amp;basisName, int dim, int N)</td></tr>
-<tr class="memdesc:a54f13d41830ca2f6548153b7032ca096"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make the modified Fourier basis.  <a href="fourierBasis_8hpp.html#a54f13d41830ca2f6548153b7032ca096">More...</a><br /></td></tr>
-<tr class="separator:a54f13d41830ca2f6548153b7032ca096"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13f5d56b912fb3dedaead7fe06df40ec"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:a13f5d56b912fb3dedaead7fe06df40ec"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="fourierBasis_8hpp.html#a13f5d56b912fb3dedaead7fe06df40ec">mx::AO::makeModfBasis</a> (const std::string &amp;basisName, int dim, int N, realT ang)</td></tr>
+<tr class="memdesc:a13f5d56b912fb3dedaead7fe06df40ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make the modified Fourier basis.  <a href="fourierBasis_8hpp.html#a13f5d56b912fb3dedaead7fe06df40ec">More...</a><br /></td></tr>
+<tr class="separator:a13f5d56b912fb3dedaead7fe06df40ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="file_a54f13d41830ca2f6548153b7032ca096"></a>
+<a class="anchor" id="file_a13f5d56b912fb3dedaead7fe06df40ec"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -168,7 +169,13 @@ template&lt;typename realT &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>N</em>&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>ang</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -194,11 +201,11 @@ template&lt;typename realT &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="fourierBasis_8hpp_source.html#l00030">30</a> of file <a class="el" href="fourierBasis_8hpp_source.html">fourierBasis.hpp</a>.</p>
+<p>Definition at line <a class="el" href="fourierBasis_8hpp_source.html#l00031">31</a> of file <a class="el" href="fourierBasis_8hpp_source.html">fourierBasis.hpp</a>.</p>
 
-<p>References <a class="el" href="fourierModes_8hpp_source.html#l00680">mx::sigproc::makeFourierBasis_Rect()</a>, <a class="el" href="fourierBasis_8hpp_source.html#l00030">mx::AO::makeModfBasis()</a>, and <a class="el" href="fourierModes_8hpp_source.html#l00041">MX_FOURIER_MODIFIED</a>.</p>
+<p>References <a class="el" href="fourierModes_8hpp_source.html#l00714">mx::sigproc::makeFourierBasis_Rect()</a>, <a class="el" href="fourierBasis_8hpp_source.html#l00031">mx::AO::makeModfBasis()</a>, <a class="el" href="fourierModes_8hpp_source.html#l00043">MX_FOURIER_MODIFIED</a>, and <a class="el" href="fitsFile_8hpp_source.html#l01269">mx::improc::fitsFile&lt; dataT &gt;::write()</a>.</p>
 
-<p>Referenced by <a class="el" href="fourierBasis_8hpp_source.html#l00030">mx::AO::makeModfBasis()</a>.</p>
+<p>Referenced by <a class="el" href="fourierBasis_8hpp_source.html#l00031">mx::AO::makeModfBasis()</a>.</p>
 
 </div>
 </div>
@@ -208,7 +215,7 @@ template&lt;typename realT &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4a0bf71ba3138a6abb584fb74c18f794.html">ao</a></li><li class="navelem"><a class="el" href="fourierBasis_8hpp.html">fourierBasis.hpp</a></li>
-    <li class="footer">Generated on Sun Oct 1 2017 13:25:40 for mxlib by
+    <li class="footer">Generated on Sun Nov 12 2017 00:12:41 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

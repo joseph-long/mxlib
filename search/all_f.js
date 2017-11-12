@@ -33,6 +33,7 @@ var searchData=
   ['orbitmeananol',['orbitMeanAnol',['../group__orbits.html#gaf3b16baed2a7a1419ae7f5102ead882f',1,'mx::astro']]],
   ['orbitperiod',['orbitPeriod',['../group__orbits.html#gaf04530685af21f97cb3d96448d74283b',1,'mx::astro']]],
   ['orbitphasecosine',['orbitPhaseCosine',['../group__orbits.html#ga0a439a86f8870191212a600774cec12b',1,'mx::astro']]],
+  ['orbitrv',['orbitRV',['../group__orbits.html#ga67b697346e56849cde852e9957b1c6b4',1,'mx::astro']]],
   ['orbital_20mechanics',['Orbital Mechanics',['../group__orbits.html',1,'']]],
   ['orbitsemimaj',['orbitSemiMaj',['../group__orbits.html#ga7c82e61408a872dcf22931256cf68d28',1,'mx::astro']]],
   ['orbitutils_2ehpp',['orbitUtils.hpp',['../orbitUtils_8hpp.html',1,'']]],

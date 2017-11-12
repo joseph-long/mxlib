@@ -47,6 +47,13 @@ var group__fitting =
       [ "work_sz", "classmx_1_1math_1_1fit_1_1levmarInterface.html#af47e82cca1bdafcb2a032449a949fa46", null ],
       [ "x", "classmx_1_1math_1_1fit_1_1levmarInterface.html#a2b81f5100e0d775bb09322748f71d4f3", null ]
     ] ],
+    [ "hasJacobian", "structmx_1_1math_1_1fit_1_1hasJacobian.html", [
+      [ "value", "structmx_1_1math_1_1fit_1_1hasJacobian.html#a162c60089cc1a9e5754d9f10aa818771", null ]
+    ] ],
+    [ "array2Fit", "structmx_1_1math_1_1fit_1_1array2Fit.html", [
+      [ "nx", "structmx_1_1math_1_1fit_1_1array2Fit.html#ad6d4ff929741f22a5b8f27254657ecf7", null ],
+      [ "ny", "structmx_1_1math_1_1fit_1_1array2Fit.html#a7f557ce7c296b32b7781274d0589cbfb", null ]
+    ] ],
     [ "Peak Fitting", "group__peak__fit.html", "group__peak__fit" ],
     [ "Fitting Files", "group__fitting__files.html", "group__fitting__files" ],
     [ "The levmar library", "group__levmar.html", null ]

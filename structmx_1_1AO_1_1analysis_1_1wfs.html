@@ -149,6 +149,7 @@ struct mx::AO::analysis::wfs&lt; realT, iosT &gt;</h3>
   <map id="mx::AO::analysis::wfs_3C_20realT_2C_20iosT_20_3E_map" name="mx::AO::analysis::wfs&lt; realT, iosT &gt;_map">
 <area href="structmx_1_1AO_1_1analysis_1_1pywfsModAsymptotic.html" title="The asymptotic modulated pyramid wavefront sensor sensitivity function. " alt="mx::AO::analysis::pywfsModAsymptotic&lt; realT, iosT &gt;" shape="rect" coords="0,56,314,80"/>
 <area href="structmx_1_1AO_1_1analysis_1_1pywfsUnmod.html" title="The unmodulated pyramid wavefront sensor sensitivity function. " alt="mx::AO::analysis::pywfsUnmod&lt; realT, iosT &gt;" shape="rect" coords="324,56,638,80"/>
+<area href="structmx_1_1AO_1_1analysis_1_1shwfs.html" title="The shack hartmann wavefront sensor sensitivity function. " alt="mx::AO::analysis::shwfs&lt; realT, iosT &gt;" shape="rect" coords="648,56,962,80"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -160,9 +161,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a245acebd4dbb7a070fe7e7237710cf4c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1analysis_1_1wfs.html#a245acebd4dbb7a070fe7e7237710cf4c">~wfs</a> ()</td></tr>
 <tr class="memdesc:a245acebd4dbb7a070fe7e7237710cf4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a245acebd4dbb7a070fe7e7237710cf4c">More...</a><br /></td></tr>
 <tr class="separator:a245acebd4dbb7a070fe7e7237710cf4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad25ce0d0820fd0c04c95f11bce091c78"><td class="memItemLeft" align="right" valign="top">virtual realT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1analysis_1_1wfs.html#ad25ce0d0820fd0c04c95f11bce091c78">beta_p</a> (int m, int n, realT D)</td></tr>
-<tr class="memdesc:ad25ce0d0820fd0c04c95f11bce091c78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the sensitivity at a spatial frequency.  <a href="#ad25ce0d0820fd0c04c95f11bce091c78">More...</a><br /></td></tr>
-<tr class="separator:ad25ce0d0820fd0c04c95f11bce091c78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1434fe7b7b4fe718cb45f91453da3b33"><td class="memItemLeft" align="right" valign="top">virtual realT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1analysis_1_1wfs.html#a1434fe7b7b4fe718cb45f91453da3b33">beta_p</a> (int m, int n, realT D, realT d, realT r0)</td></tr>
+<tr class="memdesc:a1434fe7b7b4fe718cb45f91453da3b33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the sensitivity at a spatial frequency.  <a href="#a1434fe7b7b4fe718cb45f91453da3b33">More...</a><br /></td></tr>
+<tr class="separator:a1434fe7b7b4fe718cb45f91453da3b33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae217700aef9093a6c76386b04cd978e0"><td class="memItemLeft" align="right" valign="top">virtual iosT &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1analysis_1_1wfs.html#ae217700aef9093a6c76386b04cd978e0">dumpWFS</a> (iosT &amp;ios)</td></tr>
 <tr class="memdesc:ae217700aef9093a6c76386b04cd978e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump the details of the WFS to an io stream.  <a href="#ae217700aef9093a6c76386b04cd978e0">More...</a><br /></td></tr>
 <tr class="separator:ae217700aef9093a6c76386b04cd978e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,7 +230,7 @@ template&lt;typename realT, typename iosT = std::ostream&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ad25ce0d0820fd0c04c95f11bce091c78"></a>
+<a class="anchor" id="a1434fe7b7b4fe718cb45f91453da3b33"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -254,7 +255,19 @@ template&lt;typename realT, typename iosT = std::ostream&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">realT&#160;</td>
-          <td class="paramname"><em>D</em>&#160;</td>
+          <td class="paramname"><em>D</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>r0</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -277,11 +290,12 @@ template&lt;typename realT, typename iosT = std::ostream&gt; </div>
     <tr><td class="paramdir">[in]</td><td class="paramname">m</td><td>the spatial frequency index for u </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>the spatial frequency index for v </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">D</td><td>the telescope diameter </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">r0</td><td>Fried's parameter, used by some derived WFS. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="structmx_1_1AO_1_1analysis_1_1pywfsModAsymptotic.html#a65ae0ab96f2503fabb46508449533939">mx::AO::analysis::pywfsModAsymptotic&lt; realT, iosT &gt;</a>, and <a class="el" href="structmx_1_1AO_1_1analysis_1_1pywfsUnmod.html#a05d649645c3e9012e485dc5750eeb969">mx::AO::analysis::pywfsUnmod&lt; realT, iosT &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="structmx_1_1AO_1_1analysis_1_1shwfs.html#a655cff94a4a72b02e7c49c58be232683">mx::AO::analysis::shwfs&lt; realT, iosT &gt;</a>, <a class="el" href="structmx_1_1AO_1_1analysis_1_1pywfsModAsymptotic.html#a9567f10a78645172e75aaa35e311aa44">mx::AO::analysis::pywfsModAsymptotic&lt; realT, iosT &gt;</a>, and <a class="el" href="structmx_1_1AO_1_1analysis_1_1pywfsUnmod.html#adecaf7944db37ad66bd81e9f35e5e9fb">mx::AO::analysis::pywfsUnmod&lt; realT, iosT &gt;</a>.</p>
 
 <p>Definition at line <a class="el" href="aoWFS_8hpp_source.html#l00057">57</a> of file <a class="el" href="aoWFS_8hpp_source.html">aoWFS.hpp</a>.</p>
 
@@ -316,7 +330,7 @@ template&lt;typename realT, typename iosT = std::ostream&gt; </div>
 <p>Dump the details of the WFS to an io stream. </p>
 <p>Is virtual so that derived types can add parameters. </p>
 
-<p>Definition at line <a class="el" href="aoWFS_8hpp_source.html#l00068">68</a> of file <a class="el" href="aoWFS_8hpp_source.html">aoWFS.hpp</a>.</p>
+<p>Definition at line <a class="el" href="aoWFS_8hpp_source.html#l00070">70</a> of file <a class="el" href="aoWFS_8hpp_source.html">aoWFS.hpp</a>.</p>
 
 <p>Referenced by <a class="el" href="aoSystem_8hpp_source.html#l01832">mx::AO::analysis::aoSystem&lt; realT, inputSpectT, iosT &gt;::dumpAOSystem()</a>.</p>
 
@@ -331,7 +345,7 @@ template&lt;typename realT, typename iosT = std::ostream&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemx.html">mx</a></li><li class="navelem"><b>AO</b></li><li class="navelem"><b>analysis</b></li><li class="navelem"><a class="el" href="structmx_1_1AO_1_1analysis_1_1wfs.html">wfs</a></li>
-    <li class="footer">Generated on Sun Oct 1 2017 13:25:41 for mxlib by
+    <li class="footer">Generated on Sun Nov 12 2017 00:12:42 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

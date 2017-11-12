@@ -127,9 +127,10 @@ $(document).ready(function(){initNavTree('pupil_8hpp.html','');});
 <dl class="section author"><dt>Author</dt><dd>Jared R. Males (<a href="#" onclick="location.href='mai'+'lto:'+'jar'+'ed'+'mal'+'es'+'@gm'+'ai'+'l.c'+'om'; return false;">jared<span style="display: none;">.nosp@m.</span>male<span style="display: none;">.nosp@m.</span>s@gma<span style="display: none;">.nosp@m.</span>il.c<span style="display: none;">.nosp@m.</span>om</a>) </dd></dl>
 
 <p>Definition in file <a class="el" href="pupil_8hpp_source.html">pupil.hpp</a>.</p>
-</div><div class="textblock"><code>#include &lt;mx/fitsFile.hpp&gt;</code><br />
-<code>#include &lt;mx/imagingUtils.hpp&gt;</code><br />
-<code>#include &lt;mx/signalWindows.hpp&gt;</code><br />
+</div><div class="textblock"><code>#include &lt;mx/improc/fitsFile.hpp&gt;</code><br />
+<code>#include &lt;mx/improc/eigenImage.hpp&gt;</code><br />
+<code>#include &lt;mx/wfp/imagingUtils.hpp&gt;</code><br />
+<code>#include &lt;mx/sigproc/signalWindows.hpp&gt;</code><br />
 <code>#include &quot;<a class="el" href="aoPaths_8hpp_source.html">aoPaths.hpp</a>&quot;</code><br />
 </div>
 <p><a href="pupil_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -142,10 +143,10 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac6507678576ff5489061a713ac83277d"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
-<tr class="memitem:ac6507678576ff5489061a713ac83277d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="pupil_8hpp.html#ac6507678576ff5489061a713ac83277d">mx::AO::circularPupil</a> (const std::string &amp;pupilName, realT pupilDiamPixels, realT pupilDiamMeters, realT centralObs=0)</td></tr>
-<tr class="memdesc:ac6507678576ff5489061a713ac83277d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a circular pupil and saves it to disk.  <a href="pupil_8hpp.html#ac6507678576ff5489061a713ac83277d">More...</a><br /></td></tr>
-<tr class="separator:ac6507678576ff5489061a713ac83277d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05f76619f4dd6d3fa6a5c5b4ab52226a"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:a05f76619f4dd6d3fa6a5c5b4ab52226a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="pupil_8hpp.html#a05f76619f4dd6d3fa6a5c5b4ab52226a">mx::AO::circularPupil</a> (const std::string &amp;pupilName, realT pupilDiamPixels, realT pupilDiamMeters, realT centralObs=0, realT overscan=0)</td></tr>
+<tr class="memdesc:a05f76619f4dd6d3fa6a5c5b4ab52226a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a circular pupil and saves it to disk.  <a href="pupil_8hpp.html#a05f76619f4dd6d3fa6a5c5b4ab52226a">More...</a><br /></td></tr>
+<tr class="separator:a05f76619f4dd6d3fa6a5c5b4ab52226a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4cdc97d64d463b75accec60d5459333"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
 <tr class="memitem:ad4cdc97d64d463b75accec60d5459333"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="pupil_8hpp.html#ad4cdc97d64d463b75accec60d5459333">mx::AO::circularApodizedPupil</a> (const std::string &amp;pupilName, int pupilDiamPixels, realT pupilDiamMeters, realT tukeyAlpha, realT centralObs=0, realT overScan=0)</td></tr>
 <tr class="memdesc:ad4cdc97d64d463b75accec60d5459333"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a circular apodized pupil and saves it to disk.  <a href="pupil_8hpp.html#ad4cdc97d64d463b75accec60d5459333">More...</a><br /></td></tr>
@@ -205,15 +206,15 @@ template&lt;typename realT &gt; </div>
 <p>Generates a circular apodized pupil and saves it to disk. </p>
 <p>Apodization is with a Tukey window. </p>
 
-<p>Definition at line <a class="el" href="pupil_8hpp_source.html#l00058">58</a> of file <a class="el" href="pupil_8hpp_source.html">pupil.hpp</a>.</p>
+<p>Definition at line <a class="el" href="pupil_8hpp_source.html#l00065">65</a> of file <a class="el" href="pupil_8hpp_source.html">pupil.hpp</a>.</p>
 
-<p>References <a class="el" href="pupil_8hpp_source.html#l00058">mx::AO::circularApodizedPupil()</a>.</p>
+<p>References <a class="el" href="fitsHeader_8hpp_source.html#l00385">mx::improc::fitsHeader::append()</a>, <a class="el" href="pupil_8hpp_source.html#l00065">mx::AO::circularApodizedPupil()</a>, and <a class="el" href="fitsFile_8hpp_source.html#l01269">mx::improc::fitsFile&lt; dataT &gt;::write()</a>.</p>
 
-<p>Referenced by <a class="el" href="pupil_8hpp_source.html#l00058">mx::AO::circularApodizedPupil()</a>.</p>
+<p>Referenced by <a class="el" href="pupil_8hpp_source.html#l00065">mx::AO::circularApodizedPupil()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="file_ac6507678576ff5489061a713ac83277d"></a>
+<a class="anchor" id="file_a05f76619f4dd6d3fa6a5c5b4ab52226a"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -241,7 +242,13 @@ template&lt;typename realT &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">realT&#160;</td>
-          <td class="paramname"><em>centralObs</em> = <code>0</code>&#160;</td>
+          <td class="paramname"><em>centralObs</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>overscan</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -253,11 +260,11 @@ template&lt;typename realT &gt; </div>
 
 <p>Generate a circular pupil and saves it to disk. </p>
 
-<p>Definition at line <a class="el" href="pupil_8hpp_source.html#l00025">25</a> of file <a class="el" href="pupil_8hpp_source.html">pupil.hpp</a>.</p>
+<p>Definition at line <a class="el" href="pupil_8hpp_source.html#l00028">28</a> of file <a class="el" href="pupil_8hpp_source.html">pupil.hpp</a>.</p>
 
-<p>References <a class="el" href="pupil_8hpp_source.html#l00025">mx::AO::circularPupil()</a>.</p>
+<p>References <a class="el" href="fitsHeader_8hpp_source.html#l00385">mx::improc::fitsHeader::append()</a>, <a class="el" href="pupil_8hpp_source.html#l00028">mx::AO::circularPupil()</a>, and <a class="el" href="fitsFile_8hpp_source.html#l01269">mx::improc::fitsFile&lt; dataT &gt;::write()</a>.</p>
 
-<p>Referenced by <a class="el" href="pupil_8hpp_source.html#l00025">mx::AO::circularPupil()</a>.</p>
+<p>Referenced by <a class="el" href="pupil_8hpp_source.html#l00028">mx::AO::circularPupil()</a>.</p>
 
 </div>
 </div>
@@ -267,7 +274,7 @@ template&lt;typename realT &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4a0bf71ba3138a6abb584fb74c18f794.html">ao</a></li><li class="navelem"><a class="el" href="pupil_8hpp.html">pupil.hpp</a></li>
-    <li class="footer">Generated on Sun Oct 1 2017 13:25:40 for mxlib by
+    <li class="footer">Generated on Sun Nov 12 2017 00:12:41 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

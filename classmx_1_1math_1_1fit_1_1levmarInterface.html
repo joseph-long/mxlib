@@ -136,7 +136,7 @@ class mx::math::fit::levmarInterface&lt; fitterT &gt;</h3>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00080">80</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00078">78</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="levmarInterface_8hpp_source.html">math/fit/levmarInterface.hpp</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -154,69 +154,6 @@ class mx::math::fit::levmarInterface&lt; fitterT &gt;</h3>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac3cacb19ecb491daee30c2c5767979cd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#ac3cacb19ecb491daee30c2c5767979cd">get_deltaT</a> ()</td></tr>
-<tr class="memdesc:ac3cacb19ecb491daee30c2c5767979cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the elapsed time of the fit.  <a href="#ac3cacb19ecb491daee30c2c5767979cd">More...</a><br /></td></tr>
-<tr class="separator:ac3cacb19ecb491daee30c2c5767979cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4faf711a520e3fa44cebc0f93887c95f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a4faf711a520e3fa44cebc0f93887c95f">dump_params</a> ()</td></tr>
-<tr class="memdesc:a4faf711a520e3fa44cebc0f93887c95f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump the parameter vector to stdout.  <a href="#a4faf711a520e3fa44cebc0f93887c95f">More...</a><br /></td></tr>
-<tr class="separator:a4faf711a520e3fa44cebc0f93887c95f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d880adb50b978e6c230f9748b9d7c29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a8d880adb50b978e6c230f9748b9d7c29">dump_report</a> (bool dumpParams=true)</td></tr>
-<tr class="memdesc:a8d880adb50b978e6c230f9748b9d7c29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a status report to stdout.  <a href="#a8d880adb50b978e6c230f9748b9d7c29">More...</a><br /></td></tr>
-<tr class="separator:a8d880adb50b978e6c230f9748b9d7c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a2b81f5100e0d775bb09322748f71d4f3"><td class="memItemLeft" align="right" valign="top">realT *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a2b81f5100e0d775bb09322748f71d4f3">x</a></td></tr>
-<tr class="memdesc:a2b81f5100e0d775bb09322748f71d4f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">I: measurement vector. NULL implies a zero vector.  <a href="#a2b81f5100e0d775bb09322748f71d4f3">More...</a><br /></td></tr>
-<tr class="separator:a2b81f5100e0d775bb09322748f71d4f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c98c034eeebf7ea634c1890fe54606f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a9c98c034eeebf7ea634c1890fe54606f">n</a></td></tr>
-<tr class="memdesc:a9c98c034eeebf7ea634c1890fe54606f"><td class="mdescLeft">&#160;</td><td class="mdescRight">I: measurement vector dimension.  <a href="#a9c98c034eeebf7ea634c1890fe54606f">More...</a><br /></td></tr>
-<tr class="separator:a9c98c034eeebf7ea634c1890fe54606f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa39e2662f2cf93897cfe8b9778f5957"><td class="memItemLeft" align="right" valign="top">realT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#aaa39e2662f2cf93897cfe8b9778f5957">opts</a> [LM_OPTS_SZ]</td></tr>
-<tr class="memdesc:aaa39e2662f2cf93897cfe8b9778f5957"><td class="mdescLeft">&#160;</td><td class="mdescRight">Options passed to the minimization routines. See <a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a3207e485050ff006af3a5d2765555d64">set_opts</a> for details.  <a href="#aaa39e2662f2cf93897cfe8b9778f5957">More...</a><br /></td></tr>
-<tr class="separator:aaa39e2662f2cf93897cfe8b9778f5957"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a010287f824c3314d3a3e79c8b199a18c"><td class="memItemLeft" align="right" valign="top">realT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a010287f824c3314d3a3e79c8b199a18c">info</a> [LM_INFO_SZ]</td></tr>
-<tr class="memdesc:a010287f824c3314d3a3e79c8b199a18c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Information regarding the minimization.  <a href="#a010287f824c3314d3a3e79c8b199a18c">More...</a><br /></td></tr>
-<tr class="separator:a010287f824c3314d3a3e79c8b199a18c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a5d50e90075d531cff78b96215fa1bd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a9a5d50e90075d531cff78b96215fa1bd">deltaT</a></td></tr>
-<tr class="memdesc:a9a5d50e90075d531cff78b96215fa1bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Elapsed time of the fitting procedure.  <a href="#a9a5d50e90075d531cff78b96215fa1bd">More...</a><br /></td></tr>
-<tr class="separator:a9a5d50e90075d531cff78b96215fa1bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbd4850d9d0f800f3da6e4ccce93a0fb"><td class="memItemLeft" align="right" valign="top">realT *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#abbd4850d9d0f800f3da6e4ccce93a0fb">work</a></td></tr>
-<tr class="memdesc:abbd4850d9d0f800f3da6e4ccce93a0fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Working memory passed to the levmar routines.  <a href="#abbd4850d9d0f800f3da6e4ccce93a0fb">More...</a><br /></td></tr>
-<tr class="separator:abbd4850d9d0f800f3da6e4ccce93a0fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af47e82cca1bdafcb2a032449a949fa46"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#af47e82cca1bdafcb2a032449a949fa46">work_sz</a></td></tr>
-<tr class="memdesc:af47e82cca1bdafcb2a032449a949fa46"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current size of the work array.  <a href="#af47e82cca1bdafcb2a032449a949fa46">More...</a><br /></td></tr>
-<tr class="separator:af47e82cca1bdafcb2a032449a949fa46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ed27e744bdebd3d070761e5d9451383"><td class="memItemLeft" align="right" valign="top">realT *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a0ed27e744bdebd3d070761e5d9451383">covar</a></td></tr>
-<tr class="memdesc:a0ed27e744bdebd3d070761e5d9451383"><td class="mdescLeft">&#160;</td><td class="mdescRight">Covariance matrix corresponding to LS solution; mxm.  <a href="#a0ed27e744bdebd3d070761e5d9451383">More...</a><br /></td></tr>
-<tr class="separator:a0ed27e744bdebd3d070761e5d9451383"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae96b8d6f9de7f330752e95c4f5715216"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#ae96b8d6f9de7f330752e95c4f5715216">covar_sz</a></td></tr>
-<tr class="memdesc:ae96b8d6f9de7f330752e95c4f5715216"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current size of the covar array.  <a href="#ae96b8d6f9de7f330752e95c4f5715216">More...</a><br /></td></tr>
-<tr class="separator:ae96b8d6f9de7f330752e95c4f5715216"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af691fec6060d65c20db6d4bfdc7f2cee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#af691fec6060d65c20db6d4bfdc7f2cee">getCovar</a></td></tr>
-<tr class="memdesc:af691fec6060d65c20db6d4bfdc7f2cee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Controls whether the covar array is allocated.  <a href="#af691fec6060d65c20db6d4bfdc7f2cee">More...</a><br /></td></tr>
-<tr class="separator:af691fec6060d65c20db6d4bfdc7f2cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac913d6eb625bd96830430074d1818cf0"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#ac913d6eb625bd96830430074d1818cf0">adata</a></td></tr>
-<tr class="memdesc:ac913d6eb625bd96830430074d1818cf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to possibly additional data, passed uninterpreted to func &amp; jacf.  <a href="#ac913d6eb625bd96830430074d1818cf0">More...</a><br /></td></tr>
-<tr class="separator:ac913d6eb625bd96830430074d1818cf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a8732e48f876dbd09a3470ad3d4a86106"><td class="memItemLeft" align="right" valign="top">realT *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a8732e48f876dbd09a3470ad3d4a86106">p</a></td></tr>
-<tr class="memdesc:a8732e48f876dbd09a3470ad3d4a86106"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameter array. On input is the initial estimates. On output has the estimated solution.  <a href="#a8732e48f876dbd09a3470ad3d4a86106">More...</a><br /></td></tr>
-<tr class="separator:a8732e48f876dbd09a3470ad3d4a86106"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c1b3c7be76a9c7b0cd8e3f93937a0df"><td class="memItemLeft" align="right" valign="top">realT *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a4c1b3c7be76a9c7b0cd8e3f93937a0df">init_p</a></td></tr>
-<tr class="memdesc:a4c1b3c7be76a9c7b0cd8e3f93937a0df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameter array on input, saved for comparison.  <a href="#a4c1b3c7be76a9c7b0cd8e3f93937a0df">More...</a><br /></td></tr>
-<tr class="separator:a4c1b3c7be76a9c7b0cd8e3f93937a0df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68aefcab33992ad6898c77ba8473f5f4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a68aefcab33992ad6898c77ba8473f5f4">m</a></td></tr>
-<tr class="memdesc:a68aefcab33992ad6898c77ba8473f5f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameter vector dimension (i.e. number of unknowns)  <a href="#a68aefcab33992ad6898c77ba8473f5f4">More...</a><br /></td></tr>
-<tr class="separator:a68aefcab33992ad6898c77ba8473f5f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add883dab77f8d985208367885d94ecbb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#add883dab77f8d985208367885d94ecbb">own_p</a></td></tr>
-<tr class="memdesc:add883dab77f8d985208367885d94ecbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating whether the p array is owned by this object (for de-allocation).  <a href="#add883dab77f8d985208367885d94ecbb">More...</a><br /></td></tr>
-<tr class="separator:add883dab77f8d985208367885d94ecbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a200e5711b5d098973cfa3a0034cd1439"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a200e5711b5d098973cfa3a0034cd1439">itmax</a></td></tr>
-<tr class="memdesc:a200e5711b5d098973cfa3a0034cd1439"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of iterations, default is 100.  <a href="#a200e5711b5d098973cfa3a0034cd1439">More...</a><br /></td></tr>
-<tr class="separator:a200e5711b5d098973cfa3a0034cd1439"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8c01849b245f8f4651123f4e9cae1c9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#ac8c01849b245f8f4651123f4e9cae1c9">levmarInterface</a> ()</td></tr>
 <tr class="memdesc:ac8c01849b245f8f4651123f4e9cae1c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="#ac8c01849b245f8f4651123f4e9cae1c9">More...</a><br /></td></tr>
 <tr class="separator:ac8c01849b245f8f4651123f4e9cae1c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -295,6 +232,69 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a9df7fd9fd443437f59033f798ac174f9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a9df7fd9fd443437f59033f798ac174f9">get_nlinsys</a> ()</td></tr>
 <tr class="memdesc:a9df7fd9fd443437f59033f798ac174f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of linear system solutions during the minimization.  <a href="#a9df7fd9fd443437f59033f798ac174f9">More...</a><br /></td></tr>
 <tr class="separator:a9df7fd9fd443437f59033f798ac174f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3cacb19ecb491daee30c2c5767979cd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#ac3cacb19ecb491daee30c2c5767979cd">get_deltaT</a> ()</td></tr>
+<tr class="memdesc:ac3cacb19ecb491daee30c2c5767979cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the elapsed time of the fit.  <a href="#ac3cacb19ecb491daee30c2c5767979cd">More...</a><br /></td></tr>
+<tr class="separator:ac3cacb19ecb491daee30c2c5767979cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4faf711a520e3fa44cebc0f93887c95f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a4faf711a520e3fa44cebc0f93887c95f">dump_params</a> ()</td></tr>
+<tr class="memdesc:a4faf711a520e3fa44cebc0f93887c95f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump the parameter vector to stdout.  <a href="#a4faf711a520e3fa44cebc0f93887c95f">More...</a><br /></td></tr>
+<tr class="separator:a4faf711a520e3fa44cebc0f93887c95f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d880adb50b978e6c230f9748b9d7c29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a8d880adb50b978e6c230f9748b9d7c29">dump_report</a> (bool dumpParams=true)</td></tr>
+<tr class="memdesc:a8d880adb50b978e6c230f9748b9d7c29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a status report to stdout.  <a href="#a8d880adb50b978e6c230f9748b9d7c29">More...</a><br /></td></tr>
+<tr class="separator:a8d880adb50b978e6c230f9748b9d7c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a2b81f5100e0d775bb09322748f71d4f3"><td class="memItemLeft" align="right" valign="top">realT *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a2b81f5100e0d775bb09322748f71d4f3">x</a></td></tr>
+<tr class="memdesc:a2b81f5100e0d775bb09322748f71d4f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">I: measurement vector. NULL implies a zero vector.  <a href="#a2b81f5100e0d775bb09322748f71d4f3">More...</a><br /></td></tr>
+<tr class="separator:a2b81f5100e0d775bb09322748f71d4f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c98c034eeebf7ea634c1890fe54606f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a9c98c034eeebf7ea634c1890fe54606f">n</a></td></tr>
+<tr class="memdesc:a9c98c034eeebf7ea634c1890fe54606f"><td class="mdescLeft">&#160;</td><td class="mdescRight">I: measurement vector dimension.  <a href="#a9c98c034eeebf7ea634c1890fe54606f">More...</a><br /></td></tr>
+<tr class="separator:a9c98c034eeebf7ea634c1890fe54606f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa39e2662f2cf93897cfe8b9778f5957"><td class="memItemLeft" align="right" valign="top">realT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#aaa39e2662f2cf93897cfe8b9778f5957">opts</a> [LM_OPTS_SZ]</td></tr>
+<tr class="memdesc:aaa39e2662f2cf93897cfe8b9778f5957"><td class="mdescLeft">&#160;</td><td class="mdescRight">Options passed to the minimization routines. See <a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a3207e485050ff006af3a5d2765555d64">set_opts</a> for details.  <a href="#aaa39e2662f2cf93897cfe8b9778f5957">More...</a><br /></td></tr>
+<tr class="separator:aaa39e2662f2cf93897cfe8b9778f5957"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a010287f824c3314d3a3e79c8b199a18c"><td class="memItemLeft" align="right" valign="top">realT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a010287f824c3314d3a3e79c8b199a18c">info</a> [LM_INFO_SZ]</td></tr>
+<tr class="memdesc:a010287f824c3314d3a3e79c8b199a18c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Information regarding the minimization.  <a href="#a010287f824c3314d3a3e79c8b199a18c">More...</a><br /></td></tr>
+<tr class="separator:a010287f824c3314d3a3e79c8b199a18c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a5d50e90075d531cff78b96215fa1bd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a9a5d50e90075d531cff78b96215fa1bd">deltaT</a></td></tr>
+<tr class="memdesc:a9a5d50e90075d531cff78b96215fa1bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Elapsed time of the fitting procedure.  <a href="#a9a5d50e90075d531cff78b96215fa1bd">More...</a><br /></td></tr>
+<tr class="separator:a9a5d50e90075d531cff78b96215fa1bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbd4850d9d0f800f3da6e4ccce93a0fb"><td class="memItemLeft" align="right" valign="top">realT *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#abbd4850d9d0f800f3da6e4ccce93a0fb">work</a></td></tr>
+<tr class="memdesc:abbd4850d9d0f800f3da6e4ccce93a0fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Working memory passed to the levmar routines.  <a href="#abbd4850d9d0f800f3da6e4ccce93a0fb">More...</a><br /></td></tr>
+<tr class="separator:abbd4850d9d0f800f3da6e4ccce93a0fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af47e82cca1bdafcb2a032449a949fa46"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#af47e82cca1bdafcb2a032449a949fa46">work_sz</a></td></tr>
+<tr class="memdesc:af47e82cca1bdafcb2a032449a949fa46"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current size of the work array.  <a href="#af47e82cca1bdafcb2a032449a949fa46">More...</a><br /></td></tr>
+<tr class="separator:af47e82cca1bdafcb2a032449a949fa46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ed27e744bdebd3d070761e5d9451383"><td class="memItemLeft" align="right" valign="top">realT *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a0ed27e744bdebd3d070761e5d9451383">covar</a></td></tr>
+<tr class="memdesc:a0ed27e744bdebd3d070761e5d9451383"><td class="mdescLeft">&#160;</td><td class="mdescRight">Covariance matrix corresponding to LS solution; mxm.  <a href="#a0ed27e744bdebd3d070761e5d9451383">More...</a><br /></td></tr>
+<tr class="separator:a0ed27e744bdebd3d070761e5d9451383"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae96b8d6f9de7f330752e95c4f5715216"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#ae96b8d6f9de7f330752e95c4f5715216">covar_sz</a></td></tr>
+<tr class="memdesc:ae96b8d6f9de7f330752e95c4f5715216"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current size of the covar array.  <a href="#ae96b8d6f9de7f330752e95c4f5715216">More...</a><br /></td></tr>
+<tr class="separator:ae96b8d6f9de7f330752e95c4f5715216"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af691fec6060d65c20db6d4bfdc7f2cee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#af691fec6060d65c20db6d4bfdc7f2cee">getCovar</a></td></tr>
+<tr class="memdesc:af691fec6060d65c20db6d4bfdc7f2cee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Controls whether the covar array is allocated.  <a href="#af691fec6060d65c20db6d4bfdc7f2cee">More...</a><br /></td></tr>
+<tr class="separator:af691fec6060d65c20db6d4bfdc7f2cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac913d6eb625bd96830430074d1818cf0"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#ac913d6eb625bd96830430074d1818cf0">adata</a></td></tr>
+<tr class="memdesc:ac913d6eb625bd96830430074d1818cf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to possibly additional data, passed uninterpreted to func &amp; jacf.  <a href="#ac913d6eb625bd96830430074d1818cf0">More...</a><br /></td></tr>
+<tr class="separator:ac913d6eb625bd96830430074d1818cf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a8732e48f876dbd09a3470ad3d4a86106"><td class="memItemLeft" align="right" valign="top">realT *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a8732e48f876dbd09a3470ad3d4a86106">p</a></td></tr>
+<tr class="memdesc:a8732e48f876dbd09a3470ad3d4a86106"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameter array. On input is the initial estimates. On output has the estimated solution.  <a href="#a8732e48f876dbd09a3470ad3d4a86106">More...</a><br /></td></tr>
+<tr class="separator:a8732e48f876dbd09a3470ad3d4a86106"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c1b3c7be76a9c7b0cd8e3f93937a0df"><td class="memItemLeft" align="right" valign="top">realT *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a4c1b3c7be76a9c7b0cd8e3f93937a0df">init_p</a></td></tr>
+<tr class="memdesc:a4c1b3c7be76a9c7b0cd8e3f93937a0df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameter array on input, saved for comparison.  <a href="#a4c1b3c7be76a9c7b0cd8e3f93937a0df">More...</a><br /></td></tr>
+<tr class="separator:a4c1b3c7be76a9c7b0cd8e3f93937a0df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68aefcab33992ad6898c77ba8473f5f4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a68aefcab33992ad6898c77ba8473f5f4">m</a></td></tr>
+<tr class="memdesc:a68aefcab33992ad6898c77ba8473f5f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameter vector dimension (i.e. number of unknowns)  <a href="#a68aefcab33992ad6898c77ba8473f5f4">More...</a><br /></td></tr>
+<tr class="separator:a68aefcab33992ad6898c77ba8473f5f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add883dab77f8d985208367885d94ecbb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#add883dab77f8d985208367885d94ecbb">own_p</a></td></tr>
+<tr class="memdesc:add883dab77f8d985208367885d94ecbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating whether the p array is owned by this object (for de-allocation).  <a href="#add883dab77f8d985208367885d94ecbb">More...</a><br /></td></tr>
+<tr class="separator:add883dab77f8d985208367885d94ecbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a200e5711b5d098973cfa3a0034cd1439"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a200e5711b5d098973cfa3a0034cd1439">itmax</a></td></tr>
+<tr class="memdesc:a200e5711b5d098973cfa3a0034cd1439"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of iterations, default is 100.  <a href="#a200e5711b5d098973cfa3a0034cd1439">More...</a><br /></td></tr>
+<tr class="separator:a200e5711b5d098973cfa3a0034cd1439"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ac8c01849b245f8f4651123f4e9cae1c9"></a>
@@ -314,7 +314,7 @@ template&lt;class fitterT &gt; </div>
 
 <p>Default constructor. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00339">339</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00337">337</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
 </div>
 </div>
@@ -375,9 +375,9 @@ template&lt;class fitterT &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00345">345</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00343">343</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00142">mx::math::fit::levmarInterface&lt; fitterT &gt;::adata</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00092">mx::math::fit::levmarInterface&lt; fitterT &gt;::m</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00100">mx::math::fit::levmarInterface&lt; fitterT &gt;::n</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00089">mx::math::fit::levmarInterface&lt; fitterT &gt;::p</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00098">mx::math::fit::levmarInterface&lt; fitterT &gt;::x</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00140">mx::math::fit::levmarInterface&lt; fitterT &gt;::adata</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00090">mx::math::fit::levmarInterface&lt; fitterT &gt;::m</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00098">mx::math::fit::levmarInterface&lt; fitterT &gt;::n</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00087">mx::math::fit::levmarInterface&lt; fitterT &gt;::p</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00096">mx::math::fit::levmarInterface&lt; fitterT &gt;::x</a>.</p>
 
 </div>
 </div>
@@ -399,9 +399,9 @@ template&lt;class fitterT &gt; </div>
 <p>Destructor. </p>
 <p>Frees the work and covar matrices. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00361">361</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00359">359</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00131">mx::math::fit::levmarInterface&lt; fitterT &gt;::covar</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00090">mx::math::fit::levmarInterface&lt; fitterT &gt;::init_p</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00093">mx::math::fit::levmarInterface&lt; fitterT &gt;::own_p</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00089">mx::math::fit::levmarInterface&lt; fitterT &gt;::p</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00121">mx::math::fit::levmarInterface&lt; fitterT &gt;::work</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00129">mx::math::fit::levmarInterface&lt; fitterT &gt;::covar</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00088">mx::math::fit::levmarInterface&lt; fitterT &gt;::init_p</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00091">mx::math::fit::levmarInterface&lt; fitterT &gt;::own_p</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00087">mx::math::fit::levmarInterface&lt; fitterT &gt;::p</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00119">mx::math::fit::levmarInterface&lt; fitterT &gt;::work</a>.</p>
 
 </div>
 </div>
@@ -423,11 +423,11 @@ template&lt;class fitterT &gt; </div>
 
 <p>Allocate parameters array based on previous call to <a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#abdffc0c849383513da641cc6eec596e4">set_nparams</a>. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00402">402</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00400">400</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00092">mx::math::fit::levmarInterface&lt; fitterT &gt;::m</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00093">mx::math::fit::levmarInterface&lt; fitterT &gt;::own_p</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00089">mx::math::fit::levmarInterface&lt; fitterT &gt;::p</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00090">mx::math::fit::levmarInterface&lt; fitterT &gt;::m</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00091">mx::math::fit::levmarInterface&lt; fitterT &gt;::own_p</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00087">mx::math::fit::levmarInterface&lt; fitterT &gt;::p</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00415">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_params()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00413">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_params()</a>.</p>
 
 </div>
 </div>
@@ -449,9 +449,9 @@ template&lt;class fitterT &gt; </div>
 
 <p>Set number of parameters and allocate. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00415">415</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00413">413</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00402">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_params()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00373">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_nparams()</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00400">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_params()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00371">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_nparams()</a>.</p>
 
 </div>
 </div>
@@ -473,11 +473,11 @@ template&lt;class fitterT &gt; </div>
 <p>Allocate the work and covar matrices. </p>
 <p>Uses a function object specialized for whether or not there is a jacobian to determine the size of work. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00491">491</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00489">489</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00131">mx::math::fit::levmarInterface&lt; fitterT &gt;::covar</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00134">mx::math::fit::levmarInterface&lt; fitterT &gt;::covar_sz</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00137">mx::math::fit::levmarInterface&lt; fitterT &gt;::getCovar</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00092">mx::math::fit::levmarInterface&lt; fitterT &gt;::m</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00100">mx::math::fit::levmarInterface&lt; fitterT &gt;::n</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00121">mx::math::fit::levmarInterface&lt; fitterT &gt;::work</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00124">mx::math::fit::levmarInterface&lt; fitterT &gt;::work_sz</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00129">mx::math::fit::levmarInterface&lt; fitterT &gt;::covar</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00132">mx::math::fit::levmarInterface&lt; fitterT &gt;::covar_sz</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00135">mx::math::fit::levmarInterface&lt; fitterT &gt;::getCovar</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00090">mx::math::fit::levmarInterface&lt; fitterT &gt;::m</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00098">mx::math::fit::levmarInterface&lt; fitterT &gt;::n</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00119">mx::math::fit::levmarInterface&lt; fitterT &gt;::work</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00122">mx::math::fit::levmarInterface&lt; fitterT &gt;::work_sz</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00608">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00606">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>.</p>
 
 </div>
 </div>
@@ -506,9 +506,9 @@ template&lt;class fitterT&gt; </div>
 
 <p>Dump the parameter vector to stdout. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00290">290</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00288">288</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
 
 </div>
 </div>
@@ -538,7 +538,7 @@ template&lt;class fitterT&gt; </div>
 
 <p>Dump a status report to stdout. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00297">297</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00295">295</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
 <p>Referenced by <a class="el" href="imCenterCircleSym_8hpp_source.html#l00205">mx::improc::imCenterCircleSym&lt; realT &gt;::results()</a>.</p>
 
@@ -562,11 +562,11 @@ template&lt;class fitterT &gt; </div>
 <p>Perform the fit. </p>
 <p>This calls <a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a95e613aa3176a405266a441657b1e4bf">allocate_work</a>, and then dispatches the levmar routine appropriate for fitterT. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00608">608</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00606">606</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00142">mx::math::fit::levmarInterface&lt; fitterT &gt;::adata</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00491">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_work()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00131">mx::math::fit::levmarInterface&lt; fitterT &gt;::covar</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00115">mx::math::fit::levmarInterface&lt; fitterT &gt;::deltaT</a>, <a class="el" href="timeUtils_8hpp_source.html#l00035">mx::get_curr_time()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00112">mx::math::fit::levmarInterface&lt; fitterT &gt;::info</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00090">mx::math::fit::levmarInterface&lt; fitterT &gt;::init_p</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00095">mx::math::fit::levmarInterface&lt; fitterT &gt;::itmax</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00092">mx::math::fit::levmarInterface&lt; fitterT &gt;::m</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00100">mx::math::fit::levmarInterface&lt; fitterT &gt;::n</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00105">mx::math::fit::levmarInterface&lt; fitterT &gt;::opts</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00089">mx::math::fit::levmarInterface&lt; fitterT &gt;::p</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00121">mx::math::fit::levmarInterface&lt; fitterT &gt;::work</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00098">mx::math::fit::levmarInterface&lt; fitterT &gt;::x</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00140">mx::math::fit::levmarInterface&lt; fitterT &gt;::adata</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00489">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_work()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00129">mx::math::fit::levmarInterface&lt; fitterT &gt;::covar</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00113">mx::math::fit::levmarInterface&lt; fitterT &gt;::deltaT</a>, <a class="el" href="timeUtils_8hpp_source.html#l00035">mx::get_curr_time()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00110">mx::math::fit::levmarInterface&lt; fitterT &gt;::info</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00088">mx::math::fit::levmarInterface&lt; fitterT &gt;::init_p</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00093">mx::math::fit::levmarInterface&lt; fitterT &gt;::itmax</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00090">mx::math::fit::levmarInterface&lt; fitterT &gt;::m</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00098">mx::math::fit::levmarInterface&lt; fitterT &gt;::n</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00103">mx::math::fit::levmarInterface&lt; fitterT &gt;::opts</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00087">mx::math::fit::levmarInterface&lt; fitterT &gt;::p</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00119">mx::math::fit::levmarInterface&lt; fitterT &gt;::work</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00096">mx::math::fit::levmarInterface&lt; fitterT &gt;::x</a>.</p>
 
-<p>Referenced by <a class="el" href="fitGaussian_8hpp_source.html#l00142">mx::math::fit::fitGaussian2D&lt; realT &gt;::fit()</a>, and <a class="el" href="fitAiry_8hpp_source.html#l00111">mx::math::fit::fitAiry2D&lt; fitterT &gt;::setGuess()</a>.</p>
+<p>Referenced by <a class="el" href="fitAiry_8hpp_source.html#l00111">mx::math::fit::fitAiry2D&lt; fitterT &gt;::setGuess()</a>.</p>
 
 </div>
 </div>
@@ -595,9 +595,9 @@ template&lt;class fitterT&gt; </div>
 
 <p>Get the elapsed time of the fit. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00282">282</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00280">280</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
 
 </div>
 </div>
@@ -618,11 +618,11 @@ template&lt;class fitterT &gt; </div>
 
 <p>Get the number of function evaluations during the minimization. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00668">668</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00664">664</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00112">mx::math::fit::levmarInterface&lt; fitterT &gt;::info</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00110">mx::math::fit::levmarInterface&lt; fitterT &gt;::info</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
 
 </div>
 </div>
@@ -643,11 +643,11 @@ template&lt;class fitterT &gt; </div>
 
 <p>Returns the L2-norm at the end of the minimization. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00650">650</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00646">646</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00112">mx::math::fit::levmarInterface&lt; fitterT &gt;::info</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00110">mx::math::fit::levmarInterface&lt; fitterT &gt;::info</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
 
 </div>
 </div>
@@ -668,11 +668,11 @@ template&lt;class fitterT &gt; </div>
 
 <p>Returns the L2-norm before minimization occurs. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00644">644</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00640">640</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00112">mx::math::fit::levmarInterface&lt; fitterT &gt;::info</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00110">mx::math::fit::levmarInterface&lt; fitterT &gt;::info</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
 
 </div>
 </div>
@@ -693,11 +693,11 @@ template&lt;class fitterT &gt; </div>
 
 <p>Get the number of iterations taken during the minimization. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00656">656</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00652">652</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00112">mx::math::fit::levmarInterface&lt; fitterT &gt;::info</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00110">mx::math::fit::levmarInterface&lt; fitterT &gt;::info</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
 
 </div>
 </div>
@@ -718,9 +718,9 @@ template&lt;class fitterT &gt; </div>
 
 <p>Get the maximum number of iterations. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00448">448</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00446">446</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00095">mx::math::fit::levmarInterface&lt; fitterT &gt;::itmax</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00093">mx::math::fit::levmarInterface&lt; fitterT &gt;::itmax</a>.</p>
 
 </div>
 </div>
@@ -741,11 +741,11 @@ template&lt;class fitterT &gt; </div>
 
 <p>Get the number of jacobian evaluations during the minimization. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00674">674</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00670">670</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00112">mx::math::fit::levmarInterface&lt; fitterT &gt;::info</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00110">mx::math::fit::levmarInterface&lt; fitterT &gt;::info</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
 
 </div>
 </div>
@@ -766,9 +766,9 @@ template&lt;class fitterT &gt; </div>
 
 <p>Get the number of linear system solutions during the minimization. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00680">680</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00676">676</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00112">mx::math::fit::levmarInterface&lt; fitterT &gt;::info</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00110">mx::math::fit::levmarInterface&lt; fitterT &gt;::info</a>.</p>
 
 </div>
 </div>
@@ -789,9 +789,9 @@ template&lt;class fitterT &gt; </div>
 
 <p>Get the current number of parameters. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00395">395</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00393">393</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00092">mx::math::fit::levmarInterface&lt; fitterT &gt;::m</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00090">mx::math::fit::levmarInterface&lt; fitterT &gt;::m</a>.</p>
 
 </div>
 </div>
@@ -820,9 +820,9 @@ template&lt;class fitterT &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00559">559</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00557">557</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00142">mx::math::fit::levmarInterface&lt; fitterT &gt;::adata</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00131">mx::math::fit::levmarInterface&lt; fitterT &gt;::covar</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00112">mx::math::fit::levmarInterface&lt; fitterT &gt;::info</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00095">mx::math::fit::levmarInterface&lt; fitterT &gt;::itmax</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00092">mx::math::fit::levmarInterface&lt; fitterT &gt;::m</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00100">mx::math::fit::levmarInterface&lt; fitterT &gt;::n</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00105">mx::math::fit::levmarInterface&lt; fitterT &gt;::opts</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00089">mx::math::fit::levmarInterface&lt; fitterT &gt;::p</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00121">mx::math::fit::levmarInterface&lt; fitterT &gt;::work</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00098">mx::math::fit::levmarInterface&lt; fitterT &gt;::x</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00140">mx::math::fit::levmarInterface&lt; fitterT &gt;::adata</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00129">mx::math::fit::levmarInterface&lt; fitterT &gt;::covar</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00110">mx::math::fit::levmarInterface&lt; fitterT &gt;::info</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00093">mx::math::fit::levmarInterface&lt; fitterT &gt;::itmax</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00090">mx::math::fit::levmarInterface&lt; fitterT &gt;::m</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00098">mx::math::fit::levmarInterface&lt; fitterT &gt;::n</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00103">mx::math::fit::levmarInterface&lt; fitterT &gt;::opts</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00087">mx::math::fit::levmarInterface&lt; fitterT &gt;::p</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00119">mx::math::fit::levmarInterface&lt; fitterT &gt;::work</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00096">mx::math::fit::levmarInterface&lt; fitterT &gt;::x</a>.</p>
 
 </div>
 </div>
@@ -843,9 +843,9 @@ template&lt;class fitterT &gt; </div>
 
 <p>Get current pointer array address. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00454">454</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00452">452</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00089">mx::math::fit::levmarInterface&lt; fitterT &gt;::p</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00087">mx::math::fit::levmarInterface&lt; fitterT &gt;::p</a>.</p>
 
 </div>
 </div>
@@ -866,11 +866,11 @@ template&lt;class fitterT &gt; </div>
 
 <p>Get a code specifying the reason minimization terminated. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00662">662</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00658">658</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00112">mx::math::fit::levmarInterface&lt; fitterT &gt;::info</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00110">mx::math::fit::levmarInterface&lt; fitterT &gt;::info</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00686">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_reason_string()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00682">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_reason_string()</a>.</p>
 
 </div>
 </div>
@@ -891,11 +891,11 @@ template&lt;class fitterT &gt; </div>
 
 <p>Get the descriptive string describing the reason minimization terminated. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00686">686</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00682">682</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00662">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_reason_code()</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00658">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_reason_code()</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
 
 </div>
 </div>
@@ -917,11 +917,11 @@ template&lt;class fitterT &gt; </div>
 
 <p>Point the parameter pointer at an externally allocated array. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00423">423</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00421">421</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00093">mx::math::fit::levmarInterface&lt; fitterT &gt;::own_p</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00089">mx::math::fit::levmarInterface&lt; fitterT &gt;::p</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00091">mx::math::fit::levmarInterface&lt; fitterT &gt;::own_p</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00087">mx::math::fit::levmarInterface&lt; fitterT &gt;::p</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00435">mx::math::fit::levmarInterface&lt; fitterT &gt;::point_params()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00433">mx::math::fit::levmarInterface&lt; fitterT &gt;::point_params()</a>.</p>
 
 </div>
 </div>
@@ -953,9 +953,9 @@ template&lt;class fitterT &gt; </div>
 
 <p>Point the parameter pointer at an externally allocated array. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00435">435</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00433">433</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00423">mx::math::fit::levmarInterface&lt; fitterT &gt;::point_params()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00373">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_nparams()</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00421">mx::math::fit::levmarInterface&lt; fitterT &gt;::point_params()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00371">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_nparams()</a>.</p>
 
 </div>
 </div>
@@ -984,9 +984,9 @@ template&lt;class fitterT &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00442">442</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00440">440</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00095">mx::math::fit::levmarInterface&lt; fitterT &gt;::itmax</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00093">mx::math::fit::levmarInterface&lt; fitterT &gt;::itmax</a>.</p>
 
 </div>
 </div>
@@ -1008,11 +1008,11 @@ template&lt;class fitterT &gt; </div>
 
 <p>Set number of parameters, but don't allocate. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00373">373</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00371">371</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00090">mx::math::fit::levmarInterface&lt; fitterT &gt;::init_p</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00092">mx::math::fit::levmarInterface&lt; fitterT &gt;::m</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00093">mx::math::fit::levmarInterface&lt; fitterT &gt;::own_p</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00089">mx::math::fit::levmarInterface&lt; fitterT &gt;::p</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00088">mx::math::fit::levmarInterface&lt; fitterT &gt;::init_p</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00090">mx::math::fit::levmarInterface&lt; fitterT &gt;::m</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00091">mx::math::fit::levmarInterface&lt; fitterT &gt;::own_p</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00087">mx::math::fit::levmarInterface&lt; fitterT &gt;::p</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00415">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_params()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00435">mx::math::fit::levmarInterface&lt; fitterT &gt;::point_params()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00413">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_params()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00433">mx::math::fit::levmarInterface&lt; fitterT &gt;::point_params()</a>.</p>
 
 </div>
 </div>
@@ -1057,9 +1057,9 @@ template&lt;class fitterT &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00525">525</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00523">523</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00100">mx::math::fit::levmarInterface&lt; fitterT &gt;::n</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00105">mx::math::fit::levmarInterface&lt; fitterT &gt;::opts</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00098">mx::math::fit::levmarInterface&lt; fitterT &gt;::n</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00103">mx::math::fit::levmarInterface&lt; fitterT &gt;::opts</a>.</p>
 
 </div>
 </div>
@@ -1088,11 +1088,11 @@ template&lt;class fitterT &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00532">532</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00530">530</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00100">mx::math::fit::levmarInterface&lt; fitterT &gt;::n</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00105">mx::math::fit::levmarInterface&lt; fitterT &gt;::opts</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00098">mx::math::fit::levmarInterface&lt; fitterT &gt;::n</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00103">mx::math::fit::levmarInterface&lt; fitterT &gt;::opts</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
 
 </div>
 </div>
@@ -1115,9 +1115,9 @@ template&lt;class fitterT &gt; </div>
 <p>Copy parameters to the parameter array. </p>
 <p>This assumes that either the array was allocated (i.e. with <a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a3d7354d29795886fc46e821401295cf4">allocate_params</a>) or that <a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#abcb3ff0785e6d6d8ada6767e30f612bc">point_params</a> has been called </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00460">460</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00458">458</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00092">mx::math::fit::levmarInterface&lt; fitterT &gt;::m</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00100">mx::math::fit::levmarInterface&lt; fitterT &gt;::n</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00089">mx::math::fit::levmarInterface&lt; fitterT &gt;::p</a>.</p>
+<p>References <a class="el" href="levmarInterface_8hpp_source.html#l00090">mx::math::fit::levmarInterface&lt; fitterT &gt;::m</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00098">mx::math::fit::levmarInterface&lt; fitterT &gt;::n</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00087">mx::math::fit::levmarInterface&lt; fitterT &gt;::p</a>.</p>
 
 </div>
 </div>
@@ -1137,9 +1137,9 @@ template&lt;class fitterT&gt; </div>
 <p>Pointer to possibly additional data, passed uninterpreted to func &amp; jacf. </p>
 <p>Set to NULL if not needed. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00142">142</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00140">140</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00608">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00559">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_opts()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00345">mx::math::fit::levmarInterface&lt; fitterT &gt;::levmarInterface()</a>, <a class="el" href="fitGaussian_8hpp_source.html#l00256">mx::math::fit::gaussian2D_sym_fitter&lt; _realT &gt;::paramNormalizer()</a>, and <a class="el" href="fitGaussian_8hpp_source.html#l00212">mx::math::fit::fitGaussian2D&lt; realT &gt;::theta()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00606">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00557">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_opts()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00343">mx::math::fit::levmarInterface&lt; fitterT &gt;::levmarInterface()</a>.</p>
 
 </div>
 </div>
@@ -1158,9 +1158,9 @@ template&lt;class fitterT&gt; </div>
 <p>Covariance matrix corresponding to LS solution; mxm. </p>
 <p>Here this is allocated to size m-x-m by allocate_work, but if you don't want it allcoated and calculated set <a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#af691fec6060d65c20db6d4bfdc7f2cee">getCovar</a> to false and NULL will be passed. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00131">131</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00129">129</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00491">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_work()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00608">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00559">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_opts()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00361">mx::math::fit::levmarInterface&lt; fitterT &gt;::~levmarInterface()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00489">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_work()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00606">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00557">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_opts()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00359">mx::math::fit::levmarInterface&lt; fitterT &gt;::~levmarInterface()</a>.</p>
 
 </div>
 </div>
@@ -1178,9 +1178,9 @@ template&lt;class fitterT&gt; </div>
 
 <p>The current size of the covar array. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00134">134</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00132">132</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00491">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_work()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00489">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_work()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
 
 </div>
 </div>
@@ -1198,9 +1198,9 @@ template&lt;class fitterT&gt; </div>
 
 <p>Elapsed time of the fitting procedure. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00115">115</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00113">113</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00608">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00282">mx::math::fit::levmarInterface&lt; realT &gt;::get_deltaT()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00606">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00280">mx::math::fit::levmarInterface&lt; realT &gt;::get_deltaT()</a>.</p>
 
 </div>
 </div>
@@ -1218,9 +1218,9 @@ template&lt;class fitterT&gt; </div>
 
 <p>Controls whether the covar array is allocated. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00137">137</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00135">135</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00491">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_work()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00489">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_work()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
 
 </div>
 </div>
@@ -1239,9 +1239,9 @@ template&lt;class fitterT&gt; </div>
 <p>Information regarding the minimization. </p>
 <p>See the levmar source code for documentation. These fields are accessed by <a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a3a6b8a07f0950dc230c9eb661eb7b8ea">get_initial_norm</a>, <a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a30048183d26256def992baee141a8f64">get_final_norm</a>, <a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#aed7f486f5e7ae216330b19ad7116a8e0">get_iterations</a>, <a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a433dea172d7950292cdfd46d8ad206e9">get_reason_code</a>, <a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a35938dd1540b6ff1985bab56dec33bde">get_reason_string</a>, <a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#ab9e7ffb13087081867d991b6e4bc67f0">get_fevals</a>, <a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a62735153fdfff8e636b6f58412c52e87">get_jevals</a>, <a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a9df7fd9fd443437f59033f798ac174f9">get_nlinsys</a> </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00112">112</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00110">110</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00608">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00668">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_fevals()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00650">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_final_norm()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00644">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_initial_norm()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00656">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_iterations()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00674">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_jevals()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00680">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_nlinsys()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00559">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_opts()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00662">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_reason_code()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00606">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00664">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_fevals()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00646">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_final_norm()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00640">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_initial_norm()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00652">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_iterations()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00670">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_jevals()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00676">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_nlinsys()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00557">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_opts()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00658">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_reason_code()</a>.</p>
 
 </div>
 </div>
@@ -1267,9 +1267,9 @@ template&lt;class fitterT&gt; </div>
 
 <p>Parameter array on input, saved for comparison. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00090">90</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00088">88</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="fitGaussian_8hpp_source.html#l00142">mx::math::fit::fitGaussian2D&lt; realT &gt;::fit()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00608">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00373">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_nparams()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00361">mx::math::fit::levmarInterface&lt; fitterT &gt;::~levmarInterface()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00606">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00371">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_nparams()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00359">mx::math::fit::levmarInterface&lt; fitterT &gt;::~levmarInterface()</a>.</p>
 
 </div>
 </div>
@@ -1295,9 +1295,9 @@ template&lt;class fitterT&gt; </div>
 
 <p>Maximum number of iterations, default is 100. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00095">95</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00093">93</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00608">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00448">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_itmax()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00559">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_opts()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00442">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_itmax()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00606">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00446">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_itmax()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00557">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_opts()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00440">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_itmax()</a>.</p>
 
 </div>
 </div>
@@ -1323,9 +1323,9 @@ template&lt;class fitterT&gt; </div>
 
 <p>Parameter vector dimension (i.e. number of unknowns) </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00092">92</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00090">90</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00402">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_params()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00491">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_work()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00290">mx::math::fit::levmarInterface&lt; realT &gt;::dump_params()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00608">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00395">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_nparams()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00559">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_opts()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00345">mx::math::fit::levmarInterface&lt; fitterT &gt;::levmarInterface()</a>, <a class="el" href="fitGaussian_8hpp_source.html#l00256">mx::math::fit::gaussian2D_sym_fitter&lt; _realT &gt;::paramNormalizer()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00373">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_nparams()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00460">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_params()</a>, and <a class="el" href="fitGaussian_8hpp_source.html#l00212">mx::math::fit::fitGaussian2D&lt; realT &gt;::theta()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00400">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_params()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00489">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_work()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00288">mx::math::fit::levmarInterface&lt; realT &gt;::dump_params()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00606">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00393">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_nparams()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00557">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_opts()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00343">mx::math::fit::levmarInterface&lt; fitterT &gt;::levmarInterface()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00371">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_nparams()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00458">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_params()</a>.</p>
 
 </div>
 </div>
@@ -1343,9 +1343,9 @@ template&lt;class fitterT&gt; </div>
 
 <p>I: measurement vector dimension. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00100">100</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00098">98</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00491">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_work()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00608">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00559">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_opts()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00345">mx::math::fit::levmarInterface&lt; fitterT &gt;::levmarInterface()</a>, <a class="el" href="fitGaussian_8hpp_source.html#l00256">mx::math::fit::gaussian2D_sym_fitter&lt; _realT &gt;::paramNormalizer()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00525">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_opts()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00532">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_opts_default()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00460">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_params()</a>, <a class="el" href="fitGaussian_8hpp_source.html#l00128">mx::math::fit::fitGaussian2D&lt; realT &gt;::setArray()</a>, <a class="el" href="fitAiry_8hpp_source.html#l00111">mx::math::fit::fitAiry2D&lt; fitterT &gt;::setGuess()</a>, and <a class="el" href="fitGaussian_8hpp_source.html#l00212">mx::math::fit::fitGaussian2D&lt; realT &gt;::theta()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00489">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_work()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00606">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00557">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_opts()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00343">mx::math::fit::levmarInterface&lt; fitterT &gt;::levmarInterface()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00523">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_opts()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00530">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_opts_default()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00458">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_params()</a>, and <a class="el" href="fitAiry_8hpp_source.html#l00111">mx::math::fit::fitAiry2D&lt; fitterT &gt;::setGuess()</a>.</p>
 
 </div>
 </div>
@@ -1363,9 +1363,9 @@ template&lt;class fitterT&gt; </div>
 
 <p>Options passed to the minimization routines. See <a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a3207e485050ff006af3a5d2765555d64">set_opts</a> for details. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00105">105</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00103">103</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00608">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00559">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_opts()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00525">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_opts()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00532">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_opts_default()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00606">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00557">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_opts()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00523">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_opts()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00530">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_opts_default()</a>.</p>
 
 </div>
 </div>
@@ -1391,9 +1391,9 @@ template&lt;class fitterT&gt; </div>
 
 <p>Flag indicating whether the p array is owned by this object (for de-allocation). </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00093">93</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00091">91</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00402">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_params()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00423">mx::math::fit::levmarInterface&lt; fitterT &gt;::point_params()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00373">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_nparams()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00361">mx::math::fit::levmarInterface&lt; fitterT &gt;::~levmarInterface()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00400">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_params()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00421">mx::math::fit::levmarInterface&lt; fitterT &gt;::point_params()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00371">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_nparams()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00359">mx::math::fit::levmarInterface&lt; fitterT &gt;::~levmarInterface()</a>.</p>
 
 </div>
 </div>
@@ -1419,9 +1419,9 @@ template&lt;class fitterT&gt; </div>
 
 <p>Parameter array. On input is the initial estimates. On output has the estimated solution. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00089">89</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00087">87</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="fitGaussian_8hpp_source.html#l00163">mx::math::fit::fitGaussian2D&lt; realT &gt;::A()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00402">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_params()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="fitGaussian_8hpp_source.html#l00142">mx::math::fit::fitGaussian2D&lt; realT &gt;::fit()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00608">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, <a class="el" href="fitGaussian_8hpp_source.html#l00157">mx::math::fit::fitGaussian2D&lt; realT &gt;::G0()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00559">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_opts()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00454">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_params()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00345">mx::math::fit::levmarInterface&lt; fitterT &gt;::levmarInterface()</a>, <a class="el" href="fitGaussian_8hpp_source.html#l00256">mx::math::fit::gaussian2D_sym_fitter&lt; _realT &gt;::paramNormalizer()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00423">mx::math::fit::levmarInterface&lt; fitterT &gt;::point_params()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00373">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_nparams()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00460">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_params()</a>, <a class="el" href="fitAiry_8hpp_source.html#l00079">mx::math::fit::fitAiry2D&lt; fitterT &gt;::setGuess()</a>, <a class="el" href="fitGaussian_8hpp_source.html#l00083">mx::math::fit::fitGaussian2D&lt; realT &gt;::setGuess()</a>, <a class="el" href="fitGaussian_8hpp_source.html#l00185">mx::math::fit::fitGaussian2D&lt; realT &gt;::sigma()</a>, <a class="el" href="fitGaussian_8hpp_source.html#l00198">mx::math::fit::fitGaussian2D&lt; realT &gt;::sigma_x()</a>, <a class="el" href="fitGaussian_8hpp_source.html#l00205">mx::math::fit::fitGaussian2D&lt; realT &gt;::sigma_y()</a>, <a class="el" href="fitGaussian_8hpp_source.html#l00212">mx::math::fit::fitGaussian2D&lt; realT &gt;::theta()</a>, <a class="el" href="fitGaussian_8hpp_source.html#l00169">mx::math::fit::fitGaussian2D&lt; realT &gt;::x0()</a>, <a class="el" href="fitGaussian_8hpp_source.html#l00175">mx::math::fit::fitGaussian2D&lt; realT &gt;::y0()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00361">mx::math::fit::levmarInterface&lt; fitterT &gt;::~levmarInterface()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00400">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_params()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00606">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00557">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_opts()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00452">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_params()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00343">mx::math::fit::levmarInterface&lt; fitterT &gt;::levmarInterface()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00421">mx::math::fit::levmarInterface&lt; fitterT &gt;::point_params()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00371">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_nparams()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00458">mx::math::fit::levmarInterface&lt; fitterT &gt;::set_params()</a>, <a class="el" href="fitAiry_8hpp_source.html#l00079">mx::math::fit::fitAiry2D&lt; fitterT &gt;::setGuess()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00359">mx::math::fit::levmarInterface&lt; fitterT &gt;::~levmarInterface()</a>.</p>
 
 </div>
 </div>
@@ -1440,9 +1440,9 @@ template&lt;class fitterT&gt; </div>
 <p>Working memory passed to the levmar routines. </p>
 <p>From the levmar documentation: at least LM_DER/DIF_WORKSZ() reals large, allocated if NULL Here this is always allocated by a call to <a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html#a95e613aa3176a405266a441657b1e4bf">allocate_work</a>. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00121">121</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00119">119</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00491">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_work()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00608">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00559">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_opts()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00361">mx::math::fit::levmarInterface&lt; fitterT &gt;::~levmarInterface()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00489">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_work()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00606">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00557">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_opts()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00359">mx::math::fit::levmarInterface&lt; fitterT &gt;::~levmarInterface()</a>.</p>
 
 </div>
 </div>
@@ -1460,9 +1460,9 @@ template&lt;class fitterT&gt; </div>
 
 <p>The current size of the work array. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00124">124</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00122">122</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00491">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_work()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00489">mx::math::fit::levmarInterface&lt; fitterT &gt;::allocate_work()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>.</p>
 
 </div>
 </div>
@@ -1480,9 +1480,9 @@ template&lt;class fitterT&gt; </div>
 
 <p>I: measurement vector. NULL implies a zero vector. </p>
 
-<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00098">98</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
+<p>Definition at line <a class="el" href="levmarInterface_8hpp_source.html#l00096">96</a> of file <a class="el" href="levmarInterface_8hpp_source.html">levmarInterface.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00297">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00608">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00559">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_opts()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00345">mx::math::fit::levmarInterface&lt; fitterT &gt;::levmarInterface()</a>.</p>
+<p>Referenced by <a class="el" href="levmarInterface_8hpp_source.html#l00295">mx::math::fit::levmarInterface&lt; realT &gt;::dump_report()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00606">mx::math::fit::levmarInterface&lt; fitterT &gt;::fit()</a>, <a class="el" href="levmarInterface_8hpp_source.html#l00557">mx::math::fit::levmarInterface&lt; fitterT &gt;::get_opts()</a>, and <a class="el" href="levmarInterface_8hpp_source.html#l00343">mx::math::fit::levmarInterface&lt; fitterT &gt;::levmarInterface()</a>.</p>
 
 </div>
 </div>
@@ -1495,7 +1495,7 @@ template&lt;class fitterT&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemx.html">mx</a></li><li class="navelem"><b>math</b></li><li class="navelem"><b>fit</b></li><li class="navelem"><a class="el" href="classmx_1_1math_1_1fit_1_1levmarInterface.html">levmarInterface</a></li>
-    <li class="footer">Generated on Sun Oct 1 2017 13:25:41 for mxlib by
+    <li class="footer">Generated on Sun Nov 12 2017 00:12:42 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

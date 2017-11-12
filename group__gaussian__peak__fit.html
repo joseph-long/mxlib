@@ -108,7 +108,8 @@ $(document).ready(function(){initNavTree('group__gaussian__peak__fit.html','');}
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Gaussians<div class="ingroups"><a class="el" href="group__gen__math.html">General Mathematics</a> &raquo; <a class="el" href="group__fitting.html">Data Fitting</a> &raquo; <a class="el" href="group__peak__fit.html">Peak Fitting</a></div></div>  </div>
 </div><!--header-->
@@ -142,6 +143,13 @@ Typedefs</h2></td></tr>
 <tr class="memitem:gafed5cbe9c8b165a04d959fd3de646943"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gaussian__peak__fit.html#gafed5cbe9c8b165a04d959fd3de646943">mx::math::fit::fitGaussian2Dgen</a> = <a class="el" href="classmx_1_1math_1_1fit_1_1fitGaussian2D.html">mx::math::fit::fitGaussian2D</a>&lt; <a class="el" href="structmx_1_1math_1_1fit_1_1gaussian2D__gen__fitter.html">mx::math::fit::gaussian2D_gen_fitter</a>&lt; realT &gt;&gt;</td></tr>
 <tr class="memdesc:gafed5cbe9c8b165a04d959fd3de646943"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for the <a class="el" href="classmx_1_1math_1_1fit_1_1fitGaussian2D.html" title="Class to manage fitting a 2D Gaussian to data via the levmarInterface. ">fitGaussian2D</a> type fitting the general elliptical gaussian.  <a href="group__gaussian__peak__fit.html#gafed5cbe9c8b165a04d959fd3de646943">More...</a><br /></td></tr>
 <tr class="separator:gafed5cbe9c8b165a04d959fd3de646943"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga595ec60efa8b7a68bf5b2a8a7668190c"><td class="memTemplParams" colspan="2">template&lt;typename realT &gt; </td></tr>
+<tr class="memitem:ga595ec60efa8b7a68bf5b2a8a7668190c"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__gaussian__peak__fit.html#ga595ec60efa8b7a68bf5b2a8a7668190c">mx::math::fit::guessGauss2D_ang</a> (realT &amp;Ag, realT &amp;xg, realT &amp;yg, realT &amp;xFWHM, realT &amp;yFWHM, realT &amp;angG, <a class="el" href="group__eigen__image__processing.html#gaa5f4935db90fd971a51c9ffa85fcfa99">mx::improc::eigenImage</a>&lt; realT &gt; &amp;im, realT maxWidth, realT widthWidth, realT nAngs, realT xg0, realT yg0)</td></tr>
+<tr class="memdesc:ga595ec60efa8b7a68bf5b2a8a7668190c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Form an estimate of the parameters of an elliptical Gaussian from a 2D image.  <a href="group__gaussian__peak__fit.html#ga595ec60efa8b7a68bf5b2a8a7668190c">More...</a><br /></td></tr>
+<tr class="separator:ga595ec60efa8b7a68bf5b2a8a7668190c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a class="anchor" id="gafed5cbe9c8b165a04d959fd3de646943"></a>
@@ -158,7 +166,7 @@ template&lt;typename realT &gt; </div>
 
 <p>Alias for the <a class="el" href="classmx_1_1math_1_1fit_1_1fitGaussian2D.html" title="Class to manage fitting a 2D Gaussian to data via the levmarInterface. ">fitGaussian2D</a> type fitting the general elliptical gaussian. </p>
 
-<p>Definition at line <a class="el" href="fitGaussian_8hpp_source.html#l00397">397</a> of file <a class="el" href="fitGaussian_8hpp_source.html">fitGaussian.hpp</a>.</p>
+<p>Definition at line <a class="el" href="fitGaussian_8hpp_source.html#l00401">401</a> of file <a class="el" href="fitGaussian_8hpp_source.html">fitGaussian.hpp</a>.</p>
 
 </div>
 </div>
@@ -176,7 +184,121 @@ template&lt;typename realT &gt; </div>
 
 <p>Alias for the <a class="el" href="classmx_1_1math_1_1fit_1_1fitGaussian2D.html" title="Class to manage fitting a 2D Gaussian to data via the levmarInterface. ">fitGaussian2D</a> type fitting the symmetric gaussian. </p>
 
-<p>Definition at line <a class="el" href="fitGaussian_8hpp_source.html#l00391">391</a> of file <a class="el" href="fitGaussian_8hpp_source.html">fitGaussian.hpp</a>.</p>
+<p>Definition at line <a class="el" href="fitGaussian_8hpp_source.html#l00395">395</a> of file <a class="el" href="fitGaussian_8hpp_source.html">fitGaussian.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ga595ec60efa8b7a68bf5b2a8a7668190c"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename realT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int mx::math::fit::guessGauss2D_ang </td>
+          <td>(</td>
+          <td class="paramtype">realT &amp;&#160;</td>
+          <td class="paramname"><em>Ag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT &amp;&#160;</td>
+          <td class="paramname"><em>xg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT &amp;&#160;</td>
+          <td class="paramname"><em>yg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT &amp;&#160;</td>
+          <td class="paramname"><em>xFWHM</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT &amp;&#160;</td>
+          <td class="paramname"><em>yFWHM</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT &amp;&#160;</td>
+          <td class="paramname"><em>angG</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__eigen__image__processing.html#gaa5f4935db90fd971a51c9ffa85fcfa99">mx::improc::eigenImage</a>&lt; realT &gt; &amp;&#160;</td>
+          <td class="paramname"><em>im</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>maxWidth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>widthWidth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>nAngs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>xg0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>yg0</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Form an estimate of the parameters of an elliptical Gaussian from a 2D image. </p>
+<p>Note that this assumes that there is no constant value (i.e. it is zero-ed). </p>
+<dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">Ag</td><td>estimate of the peak </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">xg</td><td>estimate of the x-coordinate of the peak </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">yg</td><td>estimate of the y-coordinate of the peak </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">xFWHM</td><td>estimate of the x-FWHM </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">yFWHM</td><td>estimate of the y-FWHM </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">angG</td><td>estimate of the angle of the ellipse </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">im</td><td>the image with an elliptical gaussian </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">maxWidth</td><td>the width of the box to search for the maximum </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">widthWidth</td><td>the radius of the circle to search for the widths </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nAngs</td><td>the number of angles at which to search for the widths </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">xg0</td><td>an initial guess at the x-coordinate of the peak </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">yg0</td><td>an initial guess at the y-coordinate of the peak </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="fitGaussian_8hpp_source.html#l00410">410</a> of file <a class="el" href="fitGaussian_8hpp_source.html">fitGaussian.hpp</a>.</p>
+
+<p>References <a class="el" href="constants_8hpp_source.html#l00060">mx::astro::constants::c()</a>.</p>
 
 </div>
 </div>
@@ -185,7 +307,7 @@ template&lt;typename realT &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Oct 1 2017 13:25:40 for mxlib by
+    <li class="footer">Generated on Sun Nov 12 2017 00:12:42 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

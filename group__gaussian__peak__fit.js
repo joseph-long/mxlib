@@ -19,5 +19,6 @@ var group__gaussian__peak__fit =
     ] ],
     [ "gaussian2D_gen_fitter", "structmx_1_1math_1_1fit_1_1gaussian2D__gen__fitter.html", null ],
     [ "fitGaussian2Dgen", "group__gaussian__peak__fit.html#gafed5cbe9c8b165a04d959fd3de646943", null ],
-    [ "fitGaussian2Dsym", "group__gaussian__peak__fit.html#ga02a3bb524e60a566087f27bdb194ae90", null ]
+    [ "fitGaussian2Dsym", "group__gaussian__peak__fit.html#ga02a3bb524e60a566087f27bdb194ae90", null ],
+    [ "guessGauss2D_ang", "group__gaussian__peak__fit.html#ga595ec60efa8b7a68bf5b2a8a7668190c", null ]
 ];

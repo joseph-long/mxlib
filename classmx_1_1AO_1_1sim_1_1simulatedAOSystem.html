@@ -129,7 +129,7 @@ class mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT,
 
 <p>A simulated AO system. </p>
 <p>Minimum requirement for _turbSeqT: </p><div class="fragment"><div class="line">{</div><div class="line">   <span class="keywordtype">int</span> wfPS(<a class="code" href="classmx_1_1AO_1_1sim_1_1simulatedAOSystem.html#ac8d129a7596821e797ce99e216482ba6">realT</a> ps); <span class="comment">//Sets the wavefront platescale (only needed for cascaded systems).</span></div><div class="line">   <span class="keywordtype">int</span> frames(); <span class="comment">//Returns the number of frames, sets the number of iterations to run.</span></div><div class="line">   <span class="keywordtype">int</span> nextWF(wavefront&lt;realT&gt; &amp; wf); <span class="comment">//Fills in the wavefront with phase and amplitude</span></div><div class="line">};</div></div><!-- fragment --> 
-<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00077">77</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00079">79</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="simulatedAOSystem_8hpp_source.html">ao/sim/simulatedAOSystem.hpp</a>&gt;</code></p>
 <table class="memberdecls">
@@ -184,8 +184,8 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:aee8d342257fe67bcec9e6883a40424e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pupil mask which is applied once at the beginning of propagation. Could be apodized and/or different from _pupil.  <a href="#aee8d342257fe67bcec9e6883a40424e7">More...</a><br /></td></tr>
 <tr class="separator:aee8d342257fe67bcec9e6883a40424e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
-<tr class="memitem:a56e28115b0062422dc34565d72e21857"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1AO_1_1sim_1_1simulatedAOSystem.html#a56e28115b0062422dc34565d72e21857">_saveFrameStart</a></td></tr>
-<tr class="separator:a56e28115b0062422dc34565d72e21857"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6cbfd294e6b76299c3b13d8d264ee76"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_1_1AO_1_1sim_1_1simulatedAOSystem.html#af6cbfd294e6b76299c3b13d8d264ee76">_writeIndFrames</a></td></tr>
+<tr class="separator:af6cbfd294e6b76299c3b13d8d264ee76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="aec95db984cd305b891ca7a7e9bfab269"></a>
@@ -202,7 +202,7 @@ template&lt;typename _realT , typename _wfsT , typename _reconT , typename _filt
 
 <p>The complex image type. </p>
 
-<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00089">89</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00091">91</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
 
 </div>
 </div>
@@ -220,7 +220,7 @@ template&lt;typename _realT , typename _wfsT , typename _reconT , typename _filt
 
 <p>The real image type. </p>
 
-<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00087">87</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00089">89</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
 
 </div>
 </div>
@@ -238,7 +238,7 @@ template&lt;typename _realT , typename _wfsT , typename _reconT , typename _filt
 
 <p>The floating point type used for all calculations. </p>
 
-<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00083">83</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00085">85</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
 
 </div>
 </div>
@@ -256,7 +256,7 @@ template&lt;typename _realT , typename _wfsT , typename _reconT , typename _filt
 
 <p>The wavefront type. </p>
 
-<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00085">85</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00087">87</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
 
 </div>
 </div>
@@ -278,9 +278,9 @@ template&lt;typename _realT , typename _wfsT , typename _reconT , typename _filt
 
 <p>Default c'tor. </p>
 
-<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00236">236</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00240">240</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
 
-<p>References <a class="el" href="simulatedAOSystem_8hpp_source.html#l00143">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_saveFrameStart</a>.</p>
+<p>References <a class="el" href="simulatedAOSystem_8hpp_source.html#l00145">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_writeIndFrames</a>.</p>
 
 </div>
 </div>
@@ -301,9 +301,9 @@ template&lt;typename _realT , typename _wfsT , typename _reconT , typename _filt
 
 <p>Destructor. </p>
 
-<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00256">256</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00261">261</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
 
-<p>References <a class="el" href="stringUtils_8hpp_source.html#l00059">mx::convertToString()</a>.</p>
+<p>References <a class="el" href="simulatedAOSystem_8hpp_source.html#l00145">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_writeIndFrames</a>, <a class="el" href="stringUtils_8hpp_source.html#l00059">mx::convertToString()</a>, and <a class="el" href="fitsFile_8hpp_source.html#l01269">mx::improc::fitsFile&lt; dataT &gt;::write()</a>.</p>
 
 </div>
 </div>
@@ -375,9 +375,9 @@ template&lt;typename _realT , typename _wfsT , typename _reconT , typename _filt
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00287">287</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00292">292</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
 
-<p>References <a class="el" href="simulatedAOSystem_8hpp_source.html#l00205">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_pupil</a>, <a class="el" href="simulatedAOSystem_8hpp_source.html#l00206">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_pupilMask</a>, <a class="el" href="simulatedAOSystem_8hpp_source.html#l00100">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_pupilMaskName</a>, <a class="el" href="simulatedAOSystem_8hpp_source.html#l00099">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_pupilName</a>, <a class="el" href="simulatedAOSystem_8hpp_source.html#l00097">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_sysName</a>, <a class="el" href="simulatedAOSystem_8hpp_source.html#l00098">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_wfsName</a>, <a class="el" href="mxError_8hpp_source.html#l00126">MXE_SIZEERR</a>, <a class="el" href="mxError_8hpp_source.html#l00060">mxError</a>, and <a class="el" href="fitsFile_8hpp_source.html#l00721">mx::improc::fitsFile&lt; dataT &gt;::read()</a>.</p>
+<p>References <a class="el" href="simulatedAOSystem_8hpp_source.html#l00209">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_pupil</a>, <a class="el" href="simulatedAOSystem_8hpp_source.html#l00210">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_pupilMask</a>, <a class="el" href="simulatedAOSystem_8hpp_source.html#l00102">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_pupilMaskName</a>, <a class="el" href="simulatedAOSystem_8hpp_source.html#l00101">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_pupilName</a>, <a class="el" href="simulatedAOSystem_8hpp_source.html#l00099">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_sysName</a>, <a class="el" href="simulatedAOSystem_8hpp_source.html#l00100">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_wfsName</a>, <a class="el" href="mxError_8hpp_source.html#l00126">MXE_SIZEERR</a>, <a class="el" href="mxError_8hpp_source.html#l00060">mxError</a>, and <a class="el" href="fitsFile_8hpp_source.html#l00721">mx::improc::fitsFile&lt; dataT &gt;::read()</a>.</p>
 
 </div>
 </div>
@@ -424,9 +424,9 @@ template&lt;typename _realT , typename _wfsT , typename _reconT , typename _filt
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00439">439</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00444">444</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
 
-<p>References <a class="el" href="simulatedAOSystem_8hpp_source.html#l00205">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_pupil</a>, <a class="el" href="simulatedAOSystem_8hpp_source.html#l00206">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_pupilMask</a>, <a class="el" href="simulatedAOSystem_8hpp_source.html#l00099">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_pupilName</a>, <a class="el" href="simulatedAOSystem_8hpp_source.html#l00143">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_saveFrameStart</a>, <a class="el" href="simulatedAOSystem_8hpp_source.html#l00097">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_sysName</a>, <a class="el" href="simulatedAOSystem_8hpp_source.html#l00098">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_wfsName</a>, <a class="el" href="wavefront_8hpp_source.html#l00037">mx::AO::sim::wavefront&lt; _realT &gt;::amplitude</a>, <a class="el" href="stringUtils_8hpp_source.html#l00059">mx::convertToString()</a>, <a class="el" href="timeUtils_8hpp_source.html#l00035">mx::get_curr_time()</a>, <a class="el" href="wavefront_8hpp_source.html#l00046">mx::AO::sim::wavefront&lt; _realT &gt;::iterNo</a>, <a class="el" href="imagePads_8hpp_source.html#l00043">mx::improc::padImage()</a>, <a class="el" href="wavefront_8hpp_source.html#l00040">mx::AO::sim::wavefront&lt; _realT &gt;::phase</a>, <a class="el" href="fraunhoferPropagator_8hpp_source.html#l00145">mx::wfp::fraunhoferPropagator&lt; _wavefrontT &gt;::propagatePupilToFocal()</a>, and <a class="el" href="fitsFile_8hpp_source.html#l01269">mx::improc::fitsFile&lt; dataT &gt;::write()</a>.</p>
+<p>References <a class="el" href="simulatedAOSystem_8hpp_source.html#l00209">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_pupil</a>, <a class="el" href="simulatedAOSystem_8hpp_source.html#l00210">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_pupilMask</a>, <a class="el" href="simulatedAOSystem_8hpp_source.html#l00101">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_pupilName</a>, <a class="el" href="simulatedAOSystem_8hpp_source.html#l00099">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_sysName</a>, <a class="el" href="simulatedAOSystem_8hpp_source.html#l00100">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_wfsName</a>, <a class="el" href="simulatedAOSystem_8hpp_source.html#l00145">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_writeIndFrames</a>, <a class="el" href="wavefront_8hpp_source.html#l00037">mx::AO::sim::wavefront&lt; _realT &gt;::amplitude</a>, <a class="el" href="stringUtils_8hpp_source.html#l00059">mx::convertToString()</a>, <a class="el" href="timeUtils_8hpp_source.html#l00035">mx::get_curr_time()</a>, <a class="el" href="eigenCube_8hpp_source.html#l00356">mx::improc::eigenCube&lt; dataT &gt;::image()</a>, <a class="el" href="wavefront_8hpp_source.html#l00046">mx::AO::sim::wavefront&lt; _realT &gt;::iterNo</a>, <a class="el" href="imagePads_8hpp_source.html#l00043">mx::improc::padImage()</a>, <a class="el" href="wavefront_8hpp_source.html#l00040">mx::AO::sim::wavefront&lt; _realT &gt;::phase</a>, <a class="el" href="fraunhoferPropagator_8hpp_source.html#l00145">mx::wfp::fraunhoferPropagator&lt; _wavefrontT &gt;::propagatePupilToFocal()</a>, and <a class="el" href="fitsFile_8hpp_source.html#l01269">mx::improc::fitsFile&lt; dataT &gt;::write()</a>.</p>
 
 </div>
 </div>
@@ -445,9 +445,9 @@ template&lt;typename _realT , typename _wfsT , typename _reconT , typename _filt
 
 <p>The system pupil. This is generally a binary mask and will be applied at various points in the propagation. </p>
 
-<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00205">205</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00209">209</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="simulatedAOSystem_8hpp_source.html#l00287">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::initSystem()</a>, and <a class="el" href="simulatedAOSystem_8hpp_source.html#l00439">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::takeResponseMatrix()</a>.</p>
+<p>Referenced by <a class="el" href="simulatedAOSystem_8hpp_source.html#l00292">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::initSystem()</a>, and <a class="el" href="simulatedAOSystem_8hpp_source.html#l00444">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::takeResponseMatrix()</a>.</p>
 
 </div>
 </div>
@@ -465,9 +465,9 @@ template&lt;typename _realT , typename _wfsT , typename _reconT , typename _filt
 
 <p>A pupil mask which is applied once at the beginning of propagation. Could be apodized and/or different from _pupil. </p>
 
-<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00206">206</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00210">210</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="simulatedAOSystem_8hpp_source.html#l00287">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::initSystem()</a>, and <a class="el" href="simulatedAOSystem_8hpp_source.html#l00439">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::takeResponseMatrix()</a>.</p>
+<p>Referenced by <a class="el" href="simulatedAOSystem_8hpp_source.html#l00292">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::initSystem()</a>, and <a class="el" href="simulatedAOSystem_8hpp_source.html#l00444">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::takeResponseMatrix()</a>.</p>
 
 </div>
 </div>
@@ -485,9 +485,9 @@ template&lt;typename _realT , typename _wfsT , typename _reconT , typename _filt
 
 <p>The pupil mask name for use in the <a class="el" href="namespacemx_1_1AO_1_1path.html" title="Namespace for paths. ">mx::AO::path</a>. </p>
 
-<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00100">100</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00102">102</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="simulatedAOSystem_8hpp_source.html#l00287">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::initSystem()</a>.</p>
+<p>Referenced by <a class="el" href="simulatedAOSystem_8hpp_source.html#l00292">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::initSystem()</a>.</p>
 
 </div>
 </div>
@@ -505,28 +505,9 @@ template&lt;typename _realT , typename _wfsT , typename _reconT , typename _filt
 
 <p>The pupil name for use in the <a class="el" href="namespacemx_1_1AO_1_1path.html" title="Namespace for paths. ">mx::AO::path</a>. </p>
 
-<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00099">99</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00101">101</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="simulatedAOSystem_8hpp_source.html#l00287">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::initSystem()</a>, and <a class="el" href="simulatedAOSystem_8hpp_source.html#l00439">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::takeResponseMatrix()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a56e28115b0062422dc34565d72e21857"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename _realT , typename _wfsT , typename _reconT , typename _filterT , typename _dmT , typename _turbSeqT &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">long <a class="el" href="classmx_1_1AO_1_1sim_1_1simulatedAOSystem.html">mx::AO::sim::simulatedAOSystem</a>&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_saveFrameStart</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Image outputs </p>
-
-<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00143">143</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
-
-<p>Referenced by <a class="el" href="simulatedAOSystem_8hpp_source.html#l00236">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::simulatedAOSystem()</a>, and <a class="el" href="simulatedAOSystem_8hpp_source.html#l00439">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::takeResponseMatrix()</a>.</p>
+<p>Referenced by <a class="el" href="simulatedAOSystem_8hpp_source.html#l00292">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::initSystem()</a>, and <a class="el" href="simulatedAOSystem_8hpp_source.html#l00444">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::takeResponseMatrix()</a>.</p>
 
 </div>
 </div>
@@ -544,9 +525,9 @@ template&lt;typename _realT , typename _wfsT , typename _reconT , typename _filt
 
 <p>The system name for use in <a class="el" href="namespacemx_1_1AO_1_1path.html" title="Namespace for paths. ">mx::AO::path</a>. </p>
 
-<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00097">97</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00099">99</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="simulatedAOSystem_8hpp_source.html#l00287">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::initSystem()</a>, and <a class="el" href="simulatedAOSystem_8hpp_source.html#l00439">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::takeResponseMatrix()</a>.</p>
+<p>Referenced by <a class="el" href="simulatedAOSystem_8hpp_source.html#l00292">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::initSystem()</a>, and <a class="el" href="simulatedAOSystem_8hpp_source.html#l00444">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::takeResponseMatrix()</a>.</p>
 
 </div>
 </div>
@@ -564,9 +545,28 @@ template&lt;typename _realT , typename _wfsT , typename _reconT , typename _filt
 
 <p>The WFS name for use in the <a class="el" href="namespacemx_1_1AO_1_1path.html" title="Namespace for paths. ">mx::AO::path</a>. </p>
 
-<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00098">98</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00100">100</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="simulatedAOSystem_8hpp_source.html#l00287">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::initSystem()</a>, and <a class="el" href="simulatedAOSystem_8hpp_source.html#l00439">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::takeResponseMatrix()</a>.</p>
+<p>Referenced by <a class="el" href="simulatedAOSystem_8hpp_source.html#l00292">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::initSystem()</a>, and <a class="el" href="simulatedAOSystem_8hpp_source.html#l00444">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::takeResponseMatrix()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af6cbfd294e6b76299c3b13d8d264ee76"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename _realT , typename _wfsT , typename _reconT , typename _filterT , typename _dmT , typename _turbSeqT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classmx_1_1AO_1_1sim_1_1simulatedAOSystem.html">mx::AO::sim::simulatedAOSystem</a>&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::_writeIndFrames</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Image outputs </p>
+
+<p>Definition at line <a class="el" href="simulatedAOSystem_8hpp_source.html#l00145">145</a> of file <a class="el" href="simulatedAOSystem_8hpp_source.html">simulatedAOSystem.hpp</a>.</p>
+
+<p>Referenced by <a class="el" href="simulatedAOSystem_8hpp_source.html#l00240">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::simulatedAOSystem()</a>, <a class="el" href="simulatedAOSystem_8hpp_source.html#l00444">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::takeResponseMatrix()</a>, and <a class="el" href="simulatedAOSystem_8hpp_source.html#l00261">mx::AO::sim::simulatedAOSystem&lt; _realT, _wfsT, _reconT, _filterT, _dmT, _turbSeqT &gt;::~simulatedAOSystem()</a>.</p>
 
 </div>
 </div>
@@ -579,7 +579,7 @@ template&lt;typename _realT , typename _wfsT , typename _reconT , typename _filt
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemx.html">mx</a></li><li class="navelem"><b>AO</b></li><li class="navelem"><b>sim</b></li><li class="navelem"><a class="el" href="classmx_1_1AO_1_1sim_1_1simulatedAOSystem.html">simulatedAOSystem</a></li>
-    <li class="footer">Generated on Sun Oct 1 2017 13:25:41 for mxlib by
+    <li class="footer">Generated on Sun Nov 12 2017 00:12:42 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

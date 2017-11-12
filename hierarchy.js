@@ -141,6 +141,7 @@ var hierarchy =
     [ "mx::AO::sim::wavefront< _realT >", "structmx_1_1AO_1_1sim_1_1wavefront.html", null ],
     [ "mx::AO::analysis::wfs< realT, iosT >", "structmx_1_1AO_1_1analysis_1_1wfs.html", [
       [ "mx::AO::analysis::pywfsModAsymptotic< realT, iosT >", "structmx_1_1AO_1_1analysis_1_1pywfsModAsymptotic.html", null ],
-      [ "mx::AO::analysis::pywfsUnmod< realT, iosT >", "structmx_1_1AO_1_1analysis_1_1pywfsUnmod.html", null ]
+      [ "mx::AO::analysis::pywfsUnmod< realT, iosT >", "structmx_1_1AO_1_1analysis_1_1pywfsUnmod.html", null ],
+      [ "mx::AO::analysis::shwfs< realT, iosT >", "structmx_1_1AO_1_1analysis_1_1shwfs.html", null ]
     ] ]
 ];

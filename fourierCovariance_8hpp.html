@@ -135,16 +135,19 @@ $(document).ready(function(){initNavTree('fourierCovariance_8hpp.html','');});
 <code>#include &quot;<a class="el" href="jinc_8hpp_source.html">../../math/func/jinc.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fourierModes_8hpp_source.html">../../sigproc/fourierModes.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fitsFile_8hpp_source.html">../../improc/fitsFile.hpp</a>&quot;</code><br />
+<code>#include &quot;../../improc/eigenImage.hpp&quot;</code><br />
 <code>#include &quot;<a class="el" href="eigenCube_8hpp_source.html">../../improc/eigenCube.hpp</a>&quot;</code><br />
 <code>#include &quot;../../mxlib_uncomp_version.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="mxlib_8h_source.html">../../mxlib.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ompLoopWatcher_8hpp_source.html">../../ompLoopWatcher.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="timeUtils_8hpp_source.html">../../timeUtils.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="eigenLapack_8hpp_source.html">../../math/eigenLapack.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="airyPattern_8hpp_source.html">../../math/func/airyPattern.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="aoAtmosphere_8hpp_source.html">aoAtmosphere.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="aoPSDs_8hpp_source.html">aoPSDs.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="aoSystem_8hpp_source.html">aoSystem.hpp</a>&quot;</code><br />
 <code>#include &quot;mxaoa_version.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="varmapToImage_8hpp_source.html">varmapToImage.hpp</a>&quot;</code><br />
 </div>
 <p><a href="fourierCovariance_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -187,6 +190,10 @@ Functions</h2></td></tr>
 <tr class="memitem:aa02bbd3ddde647ad76086516251cb3eb"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="fourierCovariance_8hpp.html#aa02bbd3ddde647ad76086516251cb3eb">mx::AO::analysis::fourierVarVec</a> (const std::string &amp;fname, int N, aosysT &amp;aosys, realT absTol, realT relTol, bool modifed=true)</td></tr>
 <tr class="memdesc:aa02bbd3ddde647ad76086516251cb3eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate a vector of Fourier mode variances.  <a href="fourierCovariance_8hpp.html#aa02bbd3ddde647ad76086516251cb3eb">More...</a><br /></td></tr>
 <tr class="separator:aa02bbd3ddde647ad76086516251cb3eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82b13a00dea588ed8c12bfd595a68e7c"><td class="memTemplParams" colspan="2">template&lt;typename realT , typename aosysT &gt; </td></tr>
+<tr class="memitem:a82b13a00dea588ed8c12bfd595a68e7c"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="fourierCovariance_8hpp.html#a82b13a00dea588ed8c12bfd595a68e7c">mx::AO::analysis::fourierPSDMap</a> (improc::eigenImage&lt; realT &gt; &amp;var, improc::eigenImage&lt; realT &gt; &amp;psd, int N, int overSample, aosysT &amp;aosys)</td></tr>
+<tr class="memdesc:a82b13a00dea588ed8c12bfd595a68e7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate a map of Fourier variances by convolution with the PSD.  <a href="fourierCovariance_8hpp.html#a82b13a00dea588ed8c12bfd595a68e7c">More...</a><br /></td></tr>
+<tr class="separator:a82b13a00dea588ed8c12bfd595a68e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a9035435f98e35948582ac35fe3d9eaeb"></a>
@@ -201,13 +208,80 @@ Functions</h2></td></tr>
 
 <p>The size of the gsl_integration workspaces. </p>
 
-<p>Definition at line <a class="el" href="fourierCovariance_8hpp_source.html#l00048">48</a> of file <a class="el" href="fourierCovariance_8hpp_source.html">fourierCovariance.hpp</a>.</p>
+<p>Definition at line <a class="el" href="fourierCovariance_8hpp_source.html#l00054">54</a> of file <a class="el" href="fourierCovariance_8hpp_source.html">fourierCovariance.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="fourierCovariance_8hpp_source.html#l00298">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::fourierCovariance()</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00360">mx::AO::analysis::fourierTemporalPSD&lt; realT, aosysT &gt;::fourierTemporalPSD()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00322">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::getVariance()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00218">mx::AO::analysis::kInt()</a>, and <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00437">mx::AO::analysis::fourierTemporalPSD&lt; realT, aosysT &gt;::singleLayerPSD()</a>.</p>
+<p>Referenced by <a class="el" href="fourierCovariance_8hpp_source.html#l00304">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::fourierCovariance()</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00360">mx::AO::analysis::fourierTemporalPSD&lt; realT, aosysT &gt;::fourierTemporalPSD()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00328">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::getVariance()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00224">mx::AO::analysis::kInt()</a>, and <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00437">mx::AO::analysis::fourierTemporalPSD&lt; realT, aosysT &gt;::singleLayerPSD()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="file_a82b13a00dea588ed8c12bfd595a68e7c"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename realT , typename aosysT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int mx::AO::analysis::fourierPSDMap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__eigen__image__processing.html#gaa5f4935db90fd971a51c9ffa85fcfa99">improc::eigenImage</a>&lt; realT &gt; &amp;&#160;</td>
+          <td class="paramname"><em>var</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__eigen__image__processing.html#gaa5f4935db90fd971a51c9ffa85fcfa99">improc::eigenImage</a>&lt; realT &gt; &amp;&#160;</td>
+          <td class="paramname"><em>psd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>overSample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">aosysT &amp;&#160;</td>
+          <td class="paramname"><em>aosys</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate a map of Fourier variances by convolution with the PSD. </p>
+<p>Uses the Airy pattern for the circularly unobstructed aperture.</p>
+<dl class="section return"><dt>Returns</dt><dd>0 on success </dd>
+<dd>
+-1 on error </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">var</td><td>The variance estimated by convolution with the PSD </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">psd</td><td>the PSD map </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>the number of components to analyze </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">aosys</td><td>[in[ the AO system defining the PSD characteristics. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="fourierCovariance_8hpp_source.html#l00429">429</a> of file <a class="el" href="fourierCovariance_8hpp_source.html">fourierCovariance.hpp</a>.</p>
+
+<p>References <a class="el" href="fourierCovariance_8hpp_source.html#l00291">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::absTol</a>, <a class="el" href="airyPattern_8hpp_source.html#l00037">mx::math::func::airyPattern()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00261">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::aosys</a>, <a class="el" href="fitsHeader_8hpp_source.html#l00385">mx::improc::fitsHeader::append()</a>, <a class="el" href="eigenCube_8hpp_source.html#l00350">mx::improc::eigenCube&lt; dataT &gt;::cube()</a>, <a class="el" href="aoSystem_8hpp_source.html#l00997">mx::AO::analysis::aoSystem&lt; realT, inputSpectT, iosT &gt;::D()</a>, <a class="el" href="fitsHeader_8hpp_source.html#l00594">mx::improc::fitsHeaderGitStatus()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00429">mx::AO::analysis::fourierPSDMap()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00328">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::getVariance()</a>, <a class="el" href="eigenCube_8hpp_source.html#l00356">mx::improc::eigenCube&lt; dataT &gt;::image()</a>, <a class="el" href="ompLoopWatcher_8hpp_source.html#l00134">mx::ompLoopWatcher&lt; _outputT, _printPretty, _printLoops, _printPercent, _printNLine &gt;::incrementAndOutputStatus()</a>, <a class="el" href="constants_8hpp_source.html#l00071">mx::astro::constants::k()</a>, <a class="el" href="aoAtmosphere_8hpp_source.html#l00453">mx::AO::analysis::aoAtmosphere&lt; _realT &gt;::L_0()</a>, <a class="el" href="aoSystem_8hpp_source.html#l00921">mx::AO::analysis::aoSystem&lt; realT, inputSpectT, iosT &gt;::loadMagAOX()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00270">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::m</a>, <a class="el" href="fourierModes_8hpp_source.html#l00714">mx::sigproc::makeFourierBasis_Rect()</a>, <a class="el" href="fourierModes_8hpp_source.html#l00584">mx::sigproc::makeFourierModeFreqs_Rect()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00288">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::mnCon</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00063">mx::AO::analysis::modified</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00279">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::mp</a>, <a class="el" href="fourierModes_8hpp_source.html#l00043">MX_FOURIER_MODIFIED</a>, <a class="el" href="mxlib_8c_source.html#l00021">mxlib_compiled_git_repo_modified()</a>, <a class="el" href="mxlib_8c_source.html#l00013">mxlib_compiled_git_sha1()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00273">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::n</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00282">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::np</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00267">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::p</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00276">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::pp</a>, <a class="el" href="aoAtmosphere_8hpp_source.html#l00419">mx::AO::analysis::aoAtmosphere&lt; _realT &gt;::r_0()</a>, <a class="el" href="fitsFile_8hpp_source.html#l00721">mx::improc::fitsFile&lt; dataT &gt;::read()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00294">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::relTol</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00264">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::useBasic</a>, <a class="el" href="varmapToImage_8hpp_source.html#l00029">mx::AO::analysis::varmapToImage()</a>, and <a class="el" href="fitsFile_8hpp_source.html#l01269">mx::improc::fitsFile&lt; dataT &gt;::write()</a>.</p>
+
+<p>Referenced by <a class="el" href="fourierCovariance_8hpp_source.html#l00429">mx::AO::analysis::fourierPSDMap()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="file_aa02bbd3ddde647ad76086516251cb3eb"></a>
 <div class="memitem">
 <div class="memproto">
@@ -260,11 +334,11 @@ template&lt;typename realT , typename aosysT &gt; </div>
 
 <p>Calculate a vector of Fourier mode variances. </p>
 
-<p>Definition at line <a class="el" href="fourierCovariance_8hpp_source.html#l00342">342</a> of file <a class="el" href="fourierCovariance_8hpp_source.html">fourierCovariance.hpp</a>.</p>
+<p>Definition at line <a class="el" href="fourierCovariance_8hpp_source.html#l00348">348</a> of file <a class="el" href="fourierCovariance_8hpp_source.html">fourierCovariance.hpp</a>.</p>
 
-<p>References <a class="el" href="fourierCovariance_8hpp_source.html#l00285">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::absTol</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00255">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::aosys</a>, <a class="el" href="fitsHeader_8hpp_source.html#l00385">mx::improc::fitsHeader::append()</a>, <a class="el" href="eigenCube_8hpp_source.html#l00350">mx::improc::eigenCube&lt; dataT &gt;::cube()</a>, <a class="el" href="aoSystem_8hpp_source.html#l00997">mx::AO::analysis::aoSystem&lt; realT, inputSpectT, iosT &gt;::D()</a>, <a class="el" href="fitsHeader_8hpp_source.html#l00594">mx::improc::fitsHeaderGitStatus()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00342">mx::AO::analysis::fourierVarVec()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00322">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::getVariance()</a>, <a class="el" href="eigenCube_8hpp_source.html#l00356">mx::improc::eigenCube&lt; dataT &gt;::image()</a>, <a class="el" href="ompLoopWatcher_8hpp_source.html#l00134">mx::ompLoopWatcher&lt; _outputT, _printPretty, _printLoops, _printPercent, _printNLine &gt;::incrementAndOutputStatus()</a>, <a class="el" href="constants_8hpp_source.html#l00071">mx::astro::constants::k()</a>, <a class="el" href="aoAtmosphere_8hpp_source.html#l00453">mx::AO::analysis::aoAtmosphere&lt; _realT &gt;::L_0()</a>, <a class="el" href="aoSystem_8hpp_source.html#l00921">mx::AO::analysis::aoSystem&lt; realT, inputSpectT, iosT &gt;::loadMagAOX()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00264">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::m</a>, <a class="el" href="fourierModes_8hpp_source.html#l00680">mx::sigproc::makeFourierBasis_Rect()</a>, <a class="el" href="fourierModes_8hpp_source.html#l00552">mx::sigproc::makeFourierModeFreqs_Rect()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00282">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::mnCon</a>, <a class="el" href="fourierTemporalPSD_8hpp_source.html#l00063">mx::AO::analysis::modified</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00273">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::mp</a>, <a class="el" href="fourierModes_8hpp_source.html#l00041">MX_FOURIER_MODIFIED</a>, <a class="el" href="mxlib_8c_source.html#l00021">mxlib_compiled_git_repo_modified()</a>, <a class="el" href="mxlib_8c_source.html#l00013">mxlib_compiled_git_sha1()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00267">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::n</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00276">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::np</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00261">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::p</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00270">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::pp</a>, <a class="el" href="aoAtmosphere_8hpp_source.html#l00419">mx::AO::analysis::aoAtmosphere&lt; _realT &gt;::r_0()</a>, <a class="el" href="fitsFile_8hpp_source.html#l00721">mx::improc::fitsFile&lt; dataT &gt;::read()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00288">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::relTol</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00258">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::useBasic</a>, and <a class="el" href="fitsFile_8hpp_source.html#l01269">mx::improc::fitsFile&lt; dataT &gt;::write()</a>.</p>
+<p>References <a class="el" href="fourierCovariance_8hpp_source.html#l00291">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::absTol</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00261">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::aosys</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00348">mx::AO::analysis::fourierVarVec()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00328">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::getVariance()</a>, <a class="el" href="ompLoopWatcher_8hpp_source.html#l00134">mx::ompLoopWatcher&lt; _outputT, _printPretty, _printLoops, _printPercent, _printNLine &gt;::incrementAndOutputStatus()</a>, <a class="el" href="constants_8hpp_source.html#l00071">mx::astro::constants::k()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00270">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::m</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00288">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::mnCon</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00279">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::mp</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00273">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::n</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00282">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::np</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00267">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::p</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00276">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::pp</a>, and <a class="el" href="fourierCovariance_8hpp_source.html#l00294">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::relTol</a>.</p>
 
-<p>Referenced by <a class="el" href="fourierCovariance_8hpp_source.html#l00342">mx::AO::analysis::fourierVarVec()</a>.</p>
+<p>Referenced by <a class="el" href="fourierCovariance_8hpp_source.html#l00348">mx::AO::analysis::fourierVarVec()</a>.</p>
 
 </div>
 </div>
@@ -310,11 +384,11 @@ template&lt;typename realT , typename aosysT &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="fourierCovariance_8hpp_source.html#l00218">218</a> of file <a class="el" href="fourierCovariance_8hpp_source.html">fourierCovariance.hpp</a>.</p>
+<p>Definition at line <a class="el" href="fourierCovariance_8hpp_source.html#l00224">224</a> of file <a class="el" href="fourierCovariance_8hpp_source.html">fourierCovariance.hpp</a>.</p>
 
-<p>References <a class="el" href="constants_8hpp_source.html#l00071">mx::astro::constants::k()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00279">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::k</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00218">mx::AO::analysis::kInt()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00291">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::phi_w</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00258">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::useBasic</a>, and <a class="el" href="fourierCovariance_8hpp_source.html#l00048">WSZ</a>.</p>
+<p>References <a class="el" href="constants_8hpp_source.html#l00071">mx::astro::constants::k()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00285">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::k</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00224">mx::AO::analysis::kInt()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00297">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::phi_w</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00264">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::useBasic</a>, and <a class="el" href="fourierCovariance_8hpp_source.html#l00054">WSZ</a>.</p>
 
-<p>Referenced by <a class="el" href="fourierCovariance_8hpp_source.html#l00218">mx::AO::analysis::kInt()</a>.</p>
+<p>Referenced by <a class="el" href="fourierCovariance_8hpp_source.html#l00224">mx::AO::analysis::kInt()</a>.</p>
 
 </div>
 </div>
@@ -360,11 +434,11 @@ template&lt;typename realT , typename aosysT &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="fourierCovariance_8hpp_source.html#l00135">135</a> of file <a class="el" href="fourierCovariance_8hpp_source.html">fourierCovariance.hpp</a>.</p>
+<p>Definition at line <a class="el" href="fourierCovariance_8hpp_source.html#l00141">141</a> of file <a class="el" href="fourierCovariance_8hpp_source.html">fourierCovariance.hpp</a>.</p>
 
-<p>References <a class="el" href="fourierCovariance_8hpp_source.html#l00255">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::aosys</a>, <a class="el" href="jinc_8hpp_source.html#l00045">mx::math::func::jinc()</a>, <a class="el" href="constants_8hpp_source.html#l00071">mx::astro::constants::k()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00279">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::k</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00264">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::m</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00282">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::mnCon</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00273">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::mp</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00267">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::n</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00276">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::np</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00261">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::p</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00135">mx::AO::analysis::phiInt_mod()</a>, and <a class="el" href="fourierCovariance_8hpp_source.html#l00270">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::pp</a>.</p>
+<p>References <a class="el" href="fourierCovariance_8hpp_source.html#l00261">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::aosys</a>, <a class="el" href="jinc_8hpp_source.html#l00045">mx::math::func::jinc()</a>, <a class="el" href="constants_8hpp_source.html#l00071">mx::astro::constants::k()</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00285">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::k</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00270">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::m</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00288">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::mnCon</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00279">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::mp</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00273">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::n</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00282">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::np</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00267">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::p</a>, <a class="el" href="fourierCovariance_8hpp_source.html#l00141">mx::AO::analysis::phiInt_mod()</a>, and <a class="el" href="fourierCovariance_8hpp_source.html#l00276">mx::AO::analysis::fourierCovariance&lt; realT, aosysT &gt;::pp</a>.</p>
 
-<p>Referenced by <a class="el" href="fourierCovariance_8hpp_source.html#l00135">mx::AO::analysis::phiInt_mod()</a>.</p>
+<p>Referenced by <a class="el" href="fourierCovariance_8hpp_source.html#l00141">mx::AO::analysis::phiInt_mod()</a>.</p>
 
 </div>
 </div>
@@ -374,7 +448,7 @@ template&lt;typename realT , typename aosysT &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4a0bf71ba3138a6abb584fb74c18f794.html">ao</a></li><li class="navelem"><a class="el" href="dir_cf528a69cdca6105739343681d2398d1.html">analysis</a></li><li class="navelem"><a class="el" href="fourierCovariance_8hpp.html">fourierCovariance.hpp</a></li>
-    <li class="footer">Generated on Sun Oct 1 2017 13:25:40 for mxlib by
+    <li class="footer">Generated on Sun Nov 12 2017 00:12:41 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

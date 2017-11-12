@@ -135,7 +135,7 @@ struct mx::AO::analysis::pywfsModAsymptotic&lt; realT, iosT &gt;</h3>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="aoWFS_8hpp_source.html#l00121">121</a> of file <a class="el" href="aoWFS_8hpp_source.html">aoWFS.hpp</a>.</p>
+<p>Definition at line <a class="el" href="aoWFS_8hpp_source.html#l00125">125</a> of file <a class="el" href="aoWFS_8hpp_source.html">aoWFS.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="aoWFS_8hpp_source.html">ao/analysis/aoWFS.hpp</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -152,9 +152,9 @@ struct mx::AO::analysis::pywfsModAsymptotic&lt; realT, iosT &gt;</h3>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a65ae0ab96f2503fabb46508449533939"><td class="memItemLeft" align="right" valign="top">realT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1analysis_1_1pywfsModAsymptotic.html#a65ae0ab96f2503fabb46508449533939">beta_p</a> (int m, int n, realT D)</td></tr>
-<tr class="memdesc:a65ae0ab96f2503fabb46508449533939"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the sensitivity at a spatial frequency.  <a href="#a65ae0ab96f2503fabb46508449533939">More...</a><br /></td></tr>
-<tr class="separator:a65ae0ab96f2503fabb46508449533939"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9567f10a78645172e75aaa35e311aa44"><td class="memItemLeft" align="right" valign="top">realT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1analysis_1_1pywfsModAsymptotic.html#a9567f10a78645172e75aaa35e311aa44">beta_p</a> (int m, int n, realT D, realT d, realT r0)</td></tr>
+<tr class="memdesc:a9567f10a78645172e75aaa35e311aa44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the sensitivity at a spatial frequency.  <a href="#a9567f10a78645172e75aaa35e311aa44">More...</a><br /></td></tr>
+<tr class="separator:a9567f10a78645172e75aaa35e311aa44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structmx_1_1AO_1_1analysis_1_1wfs"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structmx_1_1AO_1_1analysis_1_1wfs')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structmx_1_1AO_1_1analysis_1_1wfs.html">mx::AO::analysis::wfs&lt; realT, iosT &gt;</a></td></tr>
 <tr class="memitem:a4e28512997520c28578be3a6151a3d41 inherit pub_methods_structmx_1_1AO_1_1analysis_1_1wfs"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1AO_1_1analysis_1_1wfs.html#a4e28512997520c28578be3a6151a3d41">wfs</a> ()</td></tr>
 <tr class="memdesc:a4e28512997520c28578be3a6151a3d41 inherit pub_methods_structmx_1_1AO_1_1analysis_1_1wfs"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a4e28512997520c28578be3a6151a3d41">More...</a><br /></td></tr>
@@ -167,7 +167,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae217700aef9093a6c76386b04cd978e0 inherit pub_methods_structmx_1_1AO_1_1analysis_1_1wfs"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a65ae0ab96f2503fabb46508449533939"></a>
+<a class="anchor" id="a9567f10a78645172e75aaa35e311aa44"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -192,7 +192,19 @@ template&lt;typename realT , typename iosT  = std::ostream&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">realT&#160;</td>
-          <td class="paramname"><em>D</em>&#160;</td>
+          <td class="paramname"><em>D</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">realT&#160;</td>
+          <td class="paramname"><em>r0</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -215,13 +227,14 @@ template&lt;typename realT , typename iosT  = std::ostream&gt; </div>
     <tr><td class="paramdir">[in]</td><td class="paramname">m</td><td>the spatial frequency index for u </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>the spatial frequency index for v </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">D</td><td>the telescope diameter </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">r0</td><td>Fried's parameter, not used by PyWFS </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Reimplemented from <a class="el" href="structmx_1_1AO_1_1analysis_1_1wfs.html#ad25ce0d0820fd0c04c95f11bce091c78">mx::AO::analysis::wfs&lt; realT, iosT &gt;</a>.</p>
+<p>Reimplemented from <a class="el" href="structmx_1_1AO_1_1analysis_1_1wfs.html#a1434fe7b7b4fe718cb45f91453da3b33">mx::AO::analysis::wfs&lt; realT, iosT &gt;</a>.</p>
 
-<p>Definition at line <a class="el" href="aoWFS_8hpp_source.html#l00133">133</a> of file <a class="el" href="aoWFS_8hpp_source.html">aoWFS.hpp</a>.</p>
+<p>Definition at line <a class="el" href="aoWFS_8hpp_source.html#l00137">137</a> of file <a class="el" href="aoWFS_8hpp_source.html">aoWFS.hpp</a>.</p>
 
 </div>
 </div>
@@ -234,7 +247,7 @@ template&lt;typename realT , typename iosT  = std::ostream&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemx.html">mx</a></li><li class="navelem"><b>AO</b></li><li class="navelem"><b>analysis</b></li><li class="navelem"><a class="el" href="structmx_1_1AO_1_1analysis_1_1pywfsModAsymptotic.html">pywfsModAsymptotic</a></li>
-    <li class="footer">Generated on Sun Oct 1 2017 13:25:41 for mxlib by
+    <li class="footer">Generated on Sun Nov 12 2017 00:12:42 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

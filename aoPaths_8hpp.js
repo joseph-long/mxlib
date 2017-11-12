@@ -16,6 +16,9 @@ var aoPaths_8hpp =
     [ "root", "aoPaths_8hpp.html#a63cadf1f78b2b6df6966f740e3058077", null ],
     [ "root", "aoPaths_8hpp.html#a1f7fa884358515b4f69a8cfa4ec30fec", null ],
     [ "root", "aoPaths_8hpp.html#aab63f7178f0a9f96e13dd7b99310e327", null ],
+    [ "S", "aoPaths_8hpp.html#a72a356fe4d87852dc3a12c72d979b066", null ],
     [ "singularValues", "aoPaths_8hpp.html#add3b3219a51e998f4568832ca1f733b1", null ],
-    [ "sysResp", "aoPaths_8hpp.html#a912ad4722e80b5e587f23bd52e79c276", null ]
+    [ "sysResp", "aoPaths_8hpp.html#a912ad4722e80b5e587f23bd52e79c276", null ],
+    [ "U", "aoPaths_8hpp.html#a1d5e85e167d3958f9d3ac6b4bc62353e", null ],
+    [ "VT", "aoPaths_8hpp.html#ada02ea5c6f1de4b9057565e8c82e80ef", null ]
 ];

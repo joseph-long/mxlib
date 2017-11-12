@@ -7,5 +7,6 @@ var orbitUtils_8hpp =
     [ "orbitMeanAnol", "orbitUtils_8hpp.html#gaf3b16baed2a7a1419ae7f5102ead882f", null ],
     [ "orbitPeriod", "orbitUtils_8hpp.html#gaf04530685af21f97cb3d96448d74283b", null ],
     [ "orbitPhaseCosine", "orbitUtils_8hpp.html#ga0a439a86f8870191212a600774cec12b", null ],
+    [ "orbitRV", "orbitUtils_8hpp.html#ga67b697346e56849cde852e9957b1c6b4", null ],
     [ "orbitSemiMaj", "orbitUtils_8hpp.html#ga7c82e61408a872dcf22931256cf68d28", null ]
 ];

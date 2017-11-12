@@ -207,18 +207,21 @@ var group__mxAOAnalytic =
     [ "wfs", "structmx_1_1AO_1_1analysis_1_1wfs.html", [
       [ "wfs", "structmx_1_1AO_1_1analysis_1_1wfs.html#a4e28512997520c28578be3a6151a3d41", null ],
       [ "~wfs", "structmx_1_1AO_1_1analysis_1_1wfs.html#a245acebd4dbb7a070fe7e7237710cf4c", null ],
-      [ "beta_p", "structmx_1_1AO_1_1analysis_1_1wfs.html#ad25ce0d0820fd0c04c95f11bce091c78", null ],
+      [ "beta_p", "structmx_1_1AO_1_1analysis_1_1wfs.html#a1434fe7b7b4fe718cb45f91453da3b33", null ],
       [ "dumpWFS", "structmx_1_1AO_1_1analysis_1_1wfs.html#ae217700aef9093a6c76386b04cd978e0", null ]
     ] ],
     [ "pywfsUnmod", "structmx_1_1AO_1_1analysis_1_1pywfsUnmod.html", [
-      [ "beta_p", "structmx_1_1AO_1_1analysis_1_1pywfsUnmod.html#a05d649645c3e9012e485dc5750eeb969", null ]
+      [ "beta_p", "structmx_1_1AO_1_1analysis_1_1pywfsUnmod.html#adecaf7944db37ad66bd81e9f35e5e9fb", null ]
     ] ],
     [ "pywfsModAsymptotic", "structmx_1_1AO_1_1analysis_1_1pywfsModAsymptotic.html", [
-      [ "beta_p", "structmx_1_1AO_1_1analysis_1_1pywfsModAsymptotic.html#a65ae0ab96f2503fabb46508449533939", null ]
+      [ "beta_p", "structmx_1_1AO_1_1analysis_1_1pywfsModAsymptotic.html#a9567f10a78645172e75aaa35e311aa44", null ]
+    ] ],
+    [ "shwfs", "structmx_1_1AO_1_1analysis_1_1shwfs.html", [
+      [ "beta_p", "structmx_1_1AO_1_1analysis_1_1shwfs.html#a655cff94a4a72b02e7c49c58be232683", null ]
     ] ],
     [ "clAOLinearPredictor", "structmx_1_1AO_1_1analysis_1_1clAOLinearPredictor.html", [
       [ "_regularizeCoefficients", "structmx_1_1AO_1_1analysis_1_1clAOLinearPredictor.html#a31a5e4bec6657b49156e551c8895df64", null ],
-      [ "calcCoefficients", "structmx_1_1AO_1_1analysis_1_1clAOLinearPredictor.html#a36d33277a64d23c60d7558c7c60b4db4", null ],
+      [ "calcCoefficients", "structmx_1_1AO_1_1analysis_1_1clAOLinearPredictor.html#a2da559a2955e86a811e76a447c05acdc", null ],
       [ "regularizeCoefficients", "structmx_1_1AO_1_1analysis_1_1clAOLinearPredictor.html#a9483ca9cf2af5e1e60ea3265e748ec62", null ]
     ] ],
     [ "clGainOpt", "structmx_1_1AO_1_1analysis_1_1clGainOpt.html", [

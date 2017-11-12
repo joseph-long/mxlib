@@ -27,7 +27,7 @@ var group__imaging =
     [ "imagingArray.hpp", "imagingArray_8hpp.html", null ],
     [ "fraunhoferPropagator.hpp", "fraunhoferPropagator_8hpp.html", null ],
     [ "imagingUtils.hpp", "imagingUtils_8hpp.html", null ],
-    [ "circularPupil", "group__imaging.html#ga934da0cb40165efd58d58111b07631c3", null ],
+    [ "circularPupil", "group__imaging.html#gaf069c47255c9d0d7432fdf39d02d48be", null ],
     [ "fftPlateScale", "group__imaging.html#gadf8b0de496e91b0f48dcd96839571729", null ],
     [ "makeComplexPupil", "group__imaging.html#ga8cc3db912b30e0e8ce4aec335d6e3421", null ],
     [ "makeComplexPupil", "group__imaging.html#ga0e82119d4be00475591ea80b6347904a", null ],

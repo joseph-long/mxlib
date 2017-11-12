@@ -1,4 +1,4 @@
 var structmx_1_1sigproc_1_1linearPredictor =
 [
-    [ "calcCoefficients", "structmx_1_1sigproc_1_1linearPredictor.html#abd8faeae91b199f1deb24f39aab7115a", null ]
+    [ "calcCoefficients", "structmx_1_1sigproc_1_1linearPredictor.html#a614cc516016b676cfd7e439eb3a99f41", null ]
 ];

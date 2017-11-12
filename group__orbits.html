@@ -151,6 +151,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ga328766118d6755439392f862ce159955"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__orbits.html#ga328766118d6755439392f862ce159955">mx::astro::orbitLambertPhase</a> (realT cos_alf)</td></tr>
 <tr class="memdesc:ga328766118d6755439392f862ce159955"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the lambertian phase function at orbital phase specified as cos(alfa), where alfa is the phase angle.  <a href="group__orbits.html#ga328766118d6755439392f862ce159955">More...</a><br /></td></tr>
 <tr class="separator:ga328766118d6755439392f862ce159955"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga67b697346e56849cde852e9957b1c6b4"><td class="memTemplParams" colspan="2">template&lt;typename units &gt; </td></tr>
+<tr class="memitem:ga67b697346e56849cde852e9957b1c6b4"><td class="memTemplItemLeft" align="right" valign="top">units::realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__orbits.html#ga67b697346e56849cde852e9957b1c6b4">mx::astro::orbitRV</a> (typename units::realT m1, typename units::realT m2, typename units::realT inc, typename units::realT a, typename units::realT e, typename units::realT w, typename units::realT f)</td></tr>
+<tr class="memdesc:ga67b697346e56849cde852e9957b1c6b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the radial velocity of an orbiting body inclined relative to an observer.  <a href="group__orbits.html#ga67b697346e56849cde852e9957b1c6b4">More...</a><br /></td></tr>
+<tr class="separator:ga67b697346e56849cde852e9957b1c6b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8d625f304ac8854e26355f860591f604"><td class="memTemplParams" colspan="2">template&lt;typename vectorT , typename realT &gt; </td></tr>
 <tr class="memitem:ga8d625f304ac8854e26355f860591f604"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__orbits.html#ga8d625f304ac8854e26355f860591f604">mx::astro::orbitCartesianWork</a> (vectorT *x, vectorT *y, vectorT *z, vectorT *r, vectorT *rProj, vectorT *f, vectorT *cos_alf, vectorT *phi, const vectorT &amp;t, const size_t N, realT a, realT P, realT e, realT t0, realT i, realT w, realT W)</td></tr>
 <tr class="memdesc:ga8d625f304ac8854e26355f860591f604"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate various quantities of an orbit given the keplerian elements and a vector of times.  <a href="group__orbits.html#ga8d625f304ac8854e26355f860591f604">More...</a><br /></td></tr>
@@ -294,9 +298,9 @@ template&lt;typename vectorT , typename arithT &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="orbitUtils_8hpp_source.html#l00270">270</a> of file <a class="el" href="orbitUtils_8hpp_source.html">orbitUtils.hpp</a>.</p>
+<p>Definition at line <a class="el" href="orbitUtils_8hpp_source.html#l00297">297</a> of file <a class="el" href="orbitUtils_8hpp_source.html">orbitUtils.hpp</a>.</p>
 
-<p>References <a class="el" href="orbitUtils_8hpp_source.html#l00177">mx::astro::orbitCartesianWork()</a>.</p>
+<p>References <a class="el" href="orbitUtils_8hpp_source.html#l00204">mx::astro::orbitCartesianWork()</a>.</p>
 
 </div>
 </div>
@@ -456,11 +460,11 @@ template&lt;typename vectorT , typename realT &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="orbitUtils_8hpp_source.html#l00177">177</a> of file <a class="el" href="orbitUtils_8hpp_source.html">orbitUtils.hpp</a>.</p>
+<p>Definition at line <a class="el" href="orbitUtils_8hpp_source.html#l00204">204</a> of file <a class="el" href="orbitUtils_8hpp_source.html">orbitUtils.hpp</a>.</p>
 
 <p>References <a class="el" href="orbitUtils_8hpp_source.html#l00080">mx::astro::orbitElements()</a>, and <a class="el" href="orbitUtils_8hpp_source.html#l00062">mx::astro::orbitMeanAnol()</a>.</p>
 
-<p>Referenced by <a class="el" href="orbitUtils_8hpp_source.html#l00270">mx::astro::orbitCartesian2DPhi()</a>.</p>
+<p>Referenced by <a class="el" href="orbitUtils_8hpp_source.html#l00297">mx::astro::orbitCartesian2DPhi()</a>.</p>
 
 </div>
 </div>
@@ -561,7 +565,7 @@ template&lt;typename realT &gt; </div>
 
 <p>References <a class="el" href="kepler_8hpp_source.html#l00163">mx::astro::solve_kepler()</a>.</p>
 
-<p>Referenced by <a class="el" href="orbitUtils_8hpp_source.html#l00177">mx::astro::orbitCartesianWork()</a>.</p>
+<p>Referenced by <a class="el" href="orbitUtils_8hpp_source.html#l00204">mx::astro::orbitCartesianWork()</a>.</p>
 
 </div>
 </div>
@@ -637,7 +641,7 @@ template&lt;typename realT &gt; </div>
 
 <p>Definition at line <a class="el" href="orbitUtils_8hpp_source.html#l00062">62</a> of file <a class="el" href="orbitUtils_8hpp_source.html">orbitUtils.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="orbitUtils_8hpp_source.html#l00177">mx::astro::orbitCartesianWork()</a>.</p>
+<p>Referenced by <a class="el" href="orbitUtils_8hpp_source.html#l00204">mx::astro::orbitCartesianWork()</a>.</p>
 
 </div>
 </div>
@@ -748,6 +752,81 @@ template&lt;typename realT &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="ga67b697346e56849cde852e9957b1c6b4"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename units &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">units::realT mx::astro::orbitRV </td>
+          <td>(</td>
+          <td class="paramtype">typename units::realT&#160;</td>
+          <td class="paramname"><em>m1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typename units::realT&#160;</td>
+          <td class="paramname"><em>m2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typename units::realT&#160;</td>
+          <td class="paramname"><em>inc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typename units::realT&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typename units::realT&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typename units::realT&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typename units::realT&#160;</td>
+          <td class="paramname"><em>f</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate the radial velocity of an orbiting body inclined relative to an observer. </p>
+<dl class="section return"><dt>Returns</dt><dd>the radial velocity of the body with mass m1 as it orbits the barycenter of its orbit w.r.t. m2. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">m1</td><td>the mass of the body for which the RV is computer </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">m2</td><td>the mass of the other body in the orbiting pair </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">inc</td><td>the inclination of thte orbit of m2. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>the semi-major axis of the orbit </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">e</td><td>the eccentricity of the orbit </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">w</td><td>the argument of pericenter </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">f</td><td>the true anomaly at which the RV is to be calculated. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="orbitUtils_8hpp_source.html#l00169">169</a> of file <a class="el" href="orbitUtils_8hpp_source.html">orbitUtils.hpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ga7c82e61408a872dcf22931256cf68d28"></a>
 <div class="memitem">
 <div class="memproto">
@@ -806,7 +885,7 @@ template&lt;typename units &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Oct 1 2017 13:25:40 for mxlib by
+    <li class="footer">Generated on Sun Nov 12 2017 00:12:42 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

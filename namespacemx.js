@@ -11,6 +11,7 @@ var namespacemx =
         [ "fourierTemporalPSD", "structmx_1_1AO_1_1analysis_1_1fourierTemporalPSD.html", "structmx_1_1AO_1_1analysis_1_1fourierTemporalPSD" ],
         [ "pywfsModAsymptotic", "structmx_1_1AO_1_1analysis_1_1pywfsModAsymptotic.html", "structmx_1_1AO_1_1analysis_1_1pywfsModAsymptotic" ],
         [ "pywfsUnmod", "structmx_1_1AO_1_1analysis_1_1pywfsUnmod.html", "structmx_1_1AO_1_1analysis_1_1pywfsUnmod" ],
+        [ "shwfs", "structmx_1_1AO_1_1analysis_1_1shwfs.html", "structmx_1_1AO_1_1analysis_1_1shwfs" ],
         [ "vonKarmanSpectrum", "structmx_1_1AO_1_1analysis_1_1vonKarmanSpectrum.html", "structmx_1_1AO_1_1analysis_1_1vonKarmanSpectrum" ],
         [ "wfs", "structmx_1_1AO_1_1analysis_1_1wfs.html", "structmx_1_1AO_1_1analysis_1_1wfs" ]
       ] ],

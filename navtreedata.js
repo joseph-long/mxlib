@@ -40,17 +40,17 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"classmx_1_1AO_1_1analysis_1_1aoSystem.html#a46c7d0db7a46248fa04045b7bed1ab13",
-"classmx_1_1AO_1_1sim_1_1simulatedAOSystem.html#a9fc4b9926e3ba9bf064a3fc930b8c222",
-"classmx_1_1math_1_1fit_1_1levmarInterface.html#a95e613aa3176a405266a441657b1e4bf",
-"fourierCovariance_8hpp.html#aa02bbd3ddde647ad76086516251cb3eb",
-"group__astrodynamics.html#ga9c74b649f2b3108bf51253ee4d7393e0",
-"group__hc__imaging__enums.html#gga7bedc230d1b422b72f51ddcec55deaeda6ffc2f84e2b15449da555a36819faa69",
-"group__stringutils.html#gaee0c06e5289c85231b0c6f9cc517324f",
-"randomT_8hpp.html#a9a14a54b0b31fc372634eae5d1a3edc3",
-"structmx_1_1astro_1_1astroSpectrum.html#a27f5d773b971824359c06fc612014f46",
-"structmx_1_1improc_1_1ADIobservation.html#a33a2a0cae11fc8e929d467fa74db4f84",
-"structmx_1_1sigproc_1_1autocorrelationFromPSD.html#a432a12d1a7eeb73d8b356f72e9c5803e"
+"classmx_1_1AO_1_1analysis_1_1aoSystem.html#a38df30b5054c5e0495d85a7992219c35",
+"classmx_1_1AO_1_1sim_1_1pywfsSlopeReconstructor.html#ab621faccac5be9b78379b11ed5addc8a",
+"classmx_1_1math_1_1fit_1_1levmarInterface.html#a0c6ad75613988e54f1842a74d61893ff",
+"fitsFile_8hpp.html#gae7d4d92f6e73d0fd438d60d10da346f8",
+"group__astrodynamics.html#ga130d9601d46e9c624a3c656e10498d35",
+"group__geo.html#gaacabc34a486a39e7540654c2bc5e89a7",
+"group__stringutils.html#ga22e0c6a104b6cc29b7e5343747345786",
+"psdFilter_8hpp_source.html",
+"structmx_1_1AO_1_1sim_1_1wavefront.html#a730a345878d3b101b6b64dd40da36339",
+"structmx_1_1fftwTypeSpec_3_01float_00_01complexFT_01_4.html#abf7e3662cf134744c54f65ec2c465499",
+"structmx_1_1improc_1_1is__eigenCube.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

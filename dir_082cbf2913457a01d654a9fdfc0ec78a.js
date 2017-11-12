@@ -4,6 +4,7 @@ var dir_082cbf2913457a01d654a9fdfc0ec78a =
     [ "deformableMirror.hpp", "deformableMirror_8hpp.html", null ],
     [ "directPhaseReconstructor.hpp", "directPhaseReconstructor_8hpp_source.html", null ],
     [ "directPhaseReconstructorD.hpp", "directPhaseReconstructorD_8hpp_source.html", null ],
+    [ "directPhaseReconstructorOrtho.hpp", "directPhaseReconstructorOrtho_8hpp_source.html", null ],
     [ "directPhaseSensor.hpp", "directPhaseSensor_8hpp.html", null ],
     [ "generalIntegrator.hpp", "generalIntegrator_8hpp.html", [
       [ "generalIntegrator", "classmx_1_1AO_1_1sim_1_1generalIntegrator.html", "classmx_1_1AO_1_1sim_1_1generalIntegrator" ]

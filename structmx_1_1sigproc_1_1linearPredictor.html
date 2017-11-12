@@ -134,12 +134,12 @@ struct mx::sigproc::linearPredictor&lt; _realT &gt;</h3>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abd8faeae91b199f1deb24f39aab7115a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1sigproc_1_1linearPredictor.html#abd8faeae91b199f1deb24f39aab7115a">calcCoefficients</a> (std::vector&lt; realT &gt; &amp;ac, size_t Nc, realT condition=0)</td></tr>
-<tr class="memdesc:abd8faeae91b199f1deb24f39aab7115a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the LP coefficients given an autocorrelation.  <a href="#abd8faeae91b199f1deb24f39aab7115a">More...</a><br /></td></tr>
-<tr class="separator:abd8faeae91b199f1deb24f39aab7115a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a614cc516016b676cfd7e439eb3a99f41"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmx_1_1sigproc_1_1linearPredictor.html#a614cc516016b676cfd7e439eb3a99f41">calcCoefficients</a> (std::vector&lt; realT &gt; &amp;ac, size_t Nc, realT condition=0, int extrap=0)</td></tr>
+<tr class="memdesc:a614cc516016b676cfd7e439eb3a99f41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the LP coefficients given an autocorrelation.  <a href="#a614cc516016b676cfd7e439eb3a99f41">More...</a><br /></td></tr>
+<tr class="separator:a614cc516016b676cfd7e439eb3a99f41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="abd8faeae91b199f1deb24f39aab7115a"></a>
+<a class="anchor" id="a614cc516016b676cfd7e439eb3a99f41"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -164,7 +164,13 @@ template&lt;typename _realT&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">realT&#160;</td>
-          <td class="paramname"><em>condition</em> = <code>0</code>&#160;</td>
+          <td class="paramname"><em>condition</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>extrap</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -184,7 +190,7 @@ template&lt;typename _realT&gt; </div>
 
 <p>Definition at line <a class="el" href="linearPredictor_8hpp_source.html#l00047">47</a> of file <a class="el" href="linearPredictor_8hpp_source.html">linearPredictor.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="clAOLinearPredictor_8hpp_source.html#l00058">mx::AO::analysis::clAOLinearPredictor&lt; _realT &gt;::calcCoefficients()</a>.</p>
+<p>Referenced by <a class="el" href="clAOLinearPredictor_8hpp_source.html#l00062">mx::AO::analysis::clAOLinearPredictor&lt; _realT &gt;::calcCoefficients()</a>.</p>
 
 </div>
 </div>
@@ -197,7 +203,7 @@ template&lt;typename _realT&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemx.html">mx</a></li><li class="navelem"><b>sigproc</b></li><li class="navelem"><a class="el" href="structmx_1_1sigproc_1_1linearPredictor.html">linearPredictor</a></li>
-    <li class="footer">Generated on Sun Oct 1 2017 13:25:41 for mxlib by
+    <li class="footer">Generated on Sun Nov 12 2017 00:12:42 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -76,10 +76,11 @@ var searchData=
   ['gperrormsg',['gpErrorMsg',['../classmx_1_1gnuPlot.html#aac7541efb2ee586e6a43701ce868a0ab',1,'mx::gnuPlot']]],
   ['gramschmidt',['gramSchmidt',['../group__signal__processing.html#ga8fd9793819dc5750982b9895476583ac',1,'mx::sigproc::gramSchmidt(eigenTout &amp;out, const eigenTin &amp;in)'],['../group__signal__processing.html#gaa81966083d704b713dd0c6467c82e4a0',1,'mx::sigproc::gramSchmidt(eigenTout &amp;out, const eigenTin &amp;in, const eigenTWin &amp;window)']]],
   ['gramschmidt_2ehpp',['gramSchmidt.hpp',['../gramSchmidt_8hpp.html',1,'']]],
-  ['gramschmidtspectrum',['gramSchmidtSpectrum',['../group__signal__processing.html#ga22b2a894b50bc11ffc82908a316b9cfb',1,'mx::sigproc']]],
+  ['gramschmidtspectrum',['gramSchmidtSpectrum',['../group__signal__processing.html#gabed45cbe9af8b400cd85a2f49f7e86d1',1,'mx::sigproc']]],
   ['grid',['grid',['../structmx_1_1improc_1_1imCenterCircleSym.html#a0b4d9caba9d17aad4ab228961b483f55',1,'mx::improc::imCenterCircleSym']]],
   ['gsl_5finterpolate',['gsl_interpolate',['../group__interpolation.html#ga79ccb1b0a47b746afba0c50ca544d8fb',1,'mx::gsl_interpolate(const gsl_interp_type *interpT, double *xin, double *yin, size_t Nin, double *xout, double *yout, size_t Nout)'],['../group__interpolation.html#ga4d199ac493f747f1a5af4ffa9a2e6067',1,'mx::gsl_interpolate(const gsl_interp_type *interpT, std::vector&lt; double &gt; &amp;xin, std::vector&lt; double &gt; &amp;yin, std::vector&lt; double &gt; &amp;xout, std::vector&lt; double &gt; &amp;yout)']]],
   ['gslinterpolation_2ehpp',['gslInterpolation.hpp',['../gslInterpolation_8hpp.html',1,'']]],
+  ['guessgauss2d_5fang',['guessGauss2D_ang',['../group__gaussian__peak__fit.html#ga595ec60efa8b7a68bf5b2a8a7668190c',1,'mx::math::fit']]],
   ['guesswidth',['guessWidth',['../structmx_1_1improc_1_1imCenterCircleSym.html#afb3ce6077aaee654cee7d959d70ddada',1,'mx::improc::imCenterCircleSym']]],
   ['getting_20mkl',['Getting MKL',['../group__mkl.html',1,'']]],
   ['general_20utilities',['General Utilities',['../group__utils.html',1,'']]]

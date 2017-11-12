@@ -164,10 +164,10 @@ Functions</h2></td></tr>
 <tr class="memitem:gadf8b0de496e91b0f48dcd96839571729"><td class="memTemplItemLeft" align="right" valign="top">realT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__imaging.html#gadf8b0de496e91b0f48dcd96839571729">mx::wfp::fftPlateScale</a> (size_t pixels, realT metersPerPixel, realT lambda)</td></tr>
 <tr class="memdesc:gadf8b0de496e91b0f48dcd96839571729"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the angular plate scale (radians per pixel) of an image after propagation by FFT.  <a href="group__imaging.html#gadf8b0de496e91b0f48dcd96839571729">More...</a><br /></td></tr>
 <tr class="separator:gadf8b0de496e91b0f48dcd96839571729"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga934da0cb40165efd58d58111b07631c3"><td class="memTemplParams" colspan="2">template&lt;class arrayT , int overscan = 2&gt; </td></tr>
-<tr class="memitem:ga934da0cb40165efd58d58111b07631c3"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__imaging.html#ga934da0cb40165efd58d58111b07631c3">mx::wfp::circularPupil</a> (arrayT &amp;m, typename arrayT::Scalar eps=0, typename arrayT::Scalar rad=0)</td></tr>
-<tr class="memdesc:ga934da0cb40165efd58d58111b07631c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill in an Eigen-like array with a circular pupil mask.  <a href="group__imaging.html#ga934da0cb40165efd58d58111b07631c3">More...</a><br /></td></tr>
-<tr class="separator:ga934da0cb40165efd58d58111b07631c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf069c47255c9d0d7432fdf39d02d48be"><td class="memTemplParams" colspan="2">template&lt;class arrayT &gt; </td></tr>
+<tr class="memitem:gaf069c47255c9d0d7432fdf39d02d48be"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__imaging.html#gaf069c47255c9d0d7432fdf39d02d48be">mx::wfp::circularPupil</a> (arrayT &amp;m, typename arrayT::Scalar eps=0, typename arrayT::Scalar rad=0, typename arrayT::Scalar overscan=0)</td></tr>
+<tr class="memdesc:gaf069c47255c9d0d7432fdf39d02d48be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill in an Eigen-like array with a circular pupil mask.  <a href="group__imaging.html#gaf069c47255c9d0d7432fdf39d02d48be">More...</a><br /></td></tr>
+<tr class="separator:gaf069c47255c9d0d7432fdf39d02d48be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8cc3db912b30e0e8ce4aec335d6e3421"><td class="memTemplParams" colspan="2">template&lt;typename arrayOutT , typename arrayInT &gt; </td></tr>
 <tr class="memitem:ga8cc3db912b30e0e8ce4aec335d6e3421"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__imaging.html#ga8cc3db912b30e0e8ce4aec335d6e3421">mx::wfp::makeComplexPupil</a> (arrayOutT &amp;complexPupil, const arrayInT &amp;realPupil, int wavefrontSizePixels)</td></tr>
 <tr class="memdesc:ga8cc3db912b30e0e8ce4aec335d6e3421"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a complex pupil plane wavefront from a real amplitude mask.  <a href="group__imaging.html#ga8cc3db912b30e0e8ce4aec335d6e3421">More...</a><br /></td></tr>
@@ -182,11 +182,11 @@ Functions</h2></td></tr>
 <tr class="separator:ga4802aba34c0c75f833e8f058aa871daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ga934da0cb40165efd58d58111b07631c3"></a>
+<a class="anchor" id="gaf069c47255c9d0d7432fdf39d02d48be"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class arrayT , int overscan = 2&gt; </div>
+template&lt;class arrayT &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">int mx::wfp::circularPupil </td>
@@ -204,7 +204,13 @@ template&lt;class arrayT , int overscan = 2&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">typename arrayT::Scalar&#160;</td>
-          <td class="paramname"><em>rad</em> = <code>0</code>&#160;</td>
+          <td class="paramname"><em>rad</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typename arrayT::Scalar&#160;</td>
+          <td class="paramname"><em>overscan</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -216,14 +222,6 @@ template&lt;class arrayT , int overscan = 2&gt; </div>
 
 <p>Fill in an Eigen-like array with a circular pupil mask. </p>
 <p>Sets any pixel which is at rad &lt;= r &lt; rad+(1.0/overscan) pixels to rho = 1,</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">m</td><td>is the allocated Array. Dimensions are used to create the pupil. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">eps</td><td>[optional] is the central obscuration. 0-1, default is 0. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">rad</td><td>[optional] is the desired radius. If rad &lt;= 0, then the maximum radius based on dimensions of m is used.</td></tr>
-  </table>
-  </dd>
-</dl>
 <dl class="retval"><dt>Return values</dt><dd>
   <table class="retval">
     <tr><td class="paramname">0</td><td>on success </td></tr>
@@ -231,8 +229,17 @@ template&lt;class arrayT , int overscan = 2&gt; </div>
   </table>
   </dd>
 </dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">m</td><td>is the allocated Array. Dimensions are used to create the pupil. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">eps</td><td>[optional] is the central obscuration. 0-1, default is 0. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">rad</td><td>[optional] is the desired radius. If rad &lt;= 0, then the maximum radius based on dimensions of m is used. Default is 0. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">overscan</td><td>[optional] overscan in fractional pixels, to include partial pixels on the edge. Default is 0. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>Definition at line <a class="el" href="imagingUtils_8hpp_source.html#l00054">54</a> of file <a class="el" href="imagingUtils_8hpp_source.html">imagingUtils.hpp</a>.</p>
+<p>Definition at line <a class="el" href="imagingUtils_8hpp_source.html#l00051">51</a> of file <a class="el" href="imagingUtils_8hpp_source.html">imagingUtils.hpp</a>.</p>
 
 <p>References <a class="el" href="mxError_8hpp_source.html#l00097">MXE_INVALIDARG</a>, and <a class="el" href="mxError_8hpp_source.html#l00060">mxError</a>.</p>
 
@@ -336,7 +343,7 @@ template&lt;typename arrayOutT , typename arrayInT &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="imagingUtils_8hpp_source.html#l00163">163</a> of file <a class="el" href="imagingUtils_8hpp_source.html">imagingUtils.hpp</a>.</p>
+<p>Definition at line <a class="el" href="imagingUtils_8hpp_source.html#l00162">162</a> of file <a class="el" href="imagingUtils_8hpp_source.html">imagingUtils.hpp</a>.</p>
 
 <p>Referenced by <a class="el" href="lyotCoronagraph_8hpp_source.html#l00394">mx::wfp::lyotCoronagraph&lt; _realT, _fpmaskFloatT &gt;::optimizeAPLCMC()</a>, and <a class="el" href="wavefront_8hpp_source.html#l00049">mx::AO::sim::wavefront&lt; _realT &gt;::setZero()</a>.</p>
 
@@ -392,7 +399,7 @@ template&lt;typename arrayOutT , typename arrayInT &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="imagingUtils_8hpp_source.html#l00197">197</a> of file <a class="el" href="imagingUtils_8hpp_source.html">imagingUtils.hpp</a>.</p>
+<p>Definition at line <a class="el" href="imagingUtils_8hpp_source.html#l00196">196</a> of file <a class="el" href="imagingUtils_8hpp_source.html">imagingUtils.hpp</a>.</p>
 
 </div>
 </div>
@@ -438,7 +445,7 @@ template&lt;typename wavefrontT &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="imagingUtils_8hpp_source.html#l00228">228</a> of file <a class="el" href="imagingUtils_8hpp_source.html">imagingUtils.hpp</a>.</p>
+<p>Definition at line <a class="el" href="imagingUtils_8hpp_source.html#l00227">227</a> of file <a class="el" href="imagingUtils_8hpp_source.html">imagingUtils.hpp</a>.</p>
 
 </div>
 </div>
@@ -447,7 +454,7 @@ template&lt;typename wavefrontT &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Oct 1 2017 13:25:40 for mxlib by
+    <li class="footer">Generated on Sun Nov 12 2017 00:12:42 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
