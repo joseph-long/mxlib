@@ -153,6 +153,9 @@ Build and Install</h1>
 </li>
 <li>In the mxlib directory, type make, and then make install. The library is now installed.</li>
 </ol>
+<h1><a class="anchor" id="install_environment"></a>
+Build Environment</h1>
+<p>You can customize the files mx.makefile and <a class="el" href="mx_8makefile_8inc_source.html">mx.makefile.inc</a> in the local directory. Once that is done, set the following two environment variables (e.g. in bash_aliases): </p><div class="fragment"><div class="line">export MXMAKEFILEINC=/path/to/mxlib/local/<a class="code" href="namespacemx.html">mx</a>.makefile.inc</div><div class="line">export MXMAKEFILE=/path/to/mxlib/local/<a class="code" href="namespacemx.html">mx</a>.makefile</div></div><!-- fragment --><p>You can then build a single .cpp program, let's say "myProgram.cpp", with the following line </p><div class="fragment"><div class="line">make -B -f $MXMAKEFILE t=myProgram </div></div><!-- fragment --><p>If you want to develop a more complicated build system, local/mx.makefile should give you all the information you need for how to link the dependencies.</p>
 <h1><a class="anchor" id="github"></a>
 I've Moved!</h1>
 <p>On 2017-07-08 I moved from bitbucket to github. To follow along, issue these commands: </p><pre class="fragment">  git remote set-url origin https://github.com/jaredmales/mxlib.git
@@ -162,7 +165,7 @@ I've Moved!</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Nov 12 2017 00:12:42 for mxlib by
+    <li class="footer">Generated on Sun Nov 12 2017 00:44:52 for mxlib by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
