@@ -27,7 +27,8 @@ jobs:
           ~/miniconda3/bin/conda create -n build
       - name: (re-)Create build environment
         run: |
-          source ~/miniconda3/envs/build/bin/activate
+          source ~/miniconda3/etc/profile.d/conda.sh
+          conda activate build
           ${{ github.workspace }}/setup/conda_env_setup_${{ runner.os }}.bash
       - name: Build and install
         working-directory: ${{ github.workspace }}
