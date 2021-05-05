@@ -19,8 +19,8 @@ jobs:
             ${{ runner.os }}-
       - name: Install miniconda
         run: |
-          curl -OL https://repo.anaconda.com/miniconda/Miniconda3-latest-{{ runner.os }}-x86_64.sh
-          bash Miniconda3-latest-{{ runner.os }}-x86_64.sh -b
+          curl -OL https://repo.anaconda.com/miniconda/Miniconda3-latest-${{ runner.os }}-x86_64.sh
+          bash Miniconda3-latest-${{ runner.os }}-x86_64.sh -b
       - name: (re-)Create build environment
         run: |
           ~/miniconda3/bin/conda env remove -n build || true
@@ -28,7 +28,7 @@ jobs:
       - name: (re-)Create build environment
         run: |
           source ~/miniconda3/envs/build/bin/activate
-          {{ github.workspace }}/setup/conda_env_setup_${{ runner.os }}.bash
+          ${{ github.workspace }}/setup/conda_env_setup_${{ runner.os }}.bash
       - name: Build and install
         working-directory: ${{ github.workspace }}
         run: |
