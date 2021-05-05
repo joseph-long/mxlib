@@ -37,4 +37,5 @@ jobs:
         working-directory: ${{ github.workspace }}
         run: |
           source ~/miniconda3/etc/profile.d/conda.sh
+          conda activate build
           make install PREFIX=$HOME
