@@ -1,0 +1,36 @@
+name: Build with dependencies from conda
+on: [push]
+jobs:
+  build-with-conda:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: Cache miniconda packages
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-miniconda
+        with:
+          path: ~/miniconda3
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('setup/*.bash') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+      - name: Install miniconda
+        run: |
+          curl -OL https://repo.anaconda.com/miniconda/Miniconda3-latest-{{ runner.os }}-x86_64.sh
+          bash Miniconda3-latest-{{ runner.os }}-x86_64.sh -b
+      - name: (re-)Create build environment
+        run: |
+          ~/miniconda3/bin/conda env remove -n build || true
+          ~/miniconda3/bin/conda create -n build
+      - name: (re-)Create build environment
+        run: |
+          source ~/miniconda3/envs/build/bin/activate
+          {{ github.workspace }}/setup/conda_env_setup_${{ runner.os }}.bash
+      - name: Build and install
+        working-directory: ${{ github.workspace }}
+        run: |
+          source ~/miniconda3/envs/build/bin/activate
+          make install PREFIX=$HOME
