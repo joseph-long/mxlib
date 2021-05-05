@@ -23,8 +23,11 @@ jobs:
           bash Miniconda3-latest-${{ runner.os }}-x86_64.sh -b
       - name: (re-)Create build environment
         run: |
-          ~/miniconda3/bin/conda env remove -n build || true
-          ~/miniconda3/bin/conda create -n build
+          source ~/miniconda3/etc/profile.d/conda.sh
+          conda env remove -n build || true
+          conda create -n build
+          conda config --add channels conda-forge
+          conda config --set channel_priority strict
       - name: (re-)Create build environment
         run: |
           source ~/miniconda3/etc/profile.d/conda.sh
