@@ -16,10 +16,10 @@ jobs:
           cache-name: cache-miniconda
         with:
           path: ~/miniconda3
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('setup/conda_env_setup.bash', 'setup/conda_env_setup_${{ runner.os }}.bash') }}
+          key: ${{ runner.os }}-v1-${{ env.cache-name }}-${{ hashFiles('setup/conda_env_setup.bash', 'setup/conda_env_setup_${{ runner.os }}.bash') }}
           restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
+            ${{ runner.os }}-v1-${{ env.cache-name }}-
+            ${{ runner.os }}-v1-
             ${{ runner.os }}-
       - name: Install miniconda
         shell: bash -l {0}
