@@ -95,7 +95,9 @@ else
 endif
 
 sofa:
+	@echo "!!!!!! in source level make"
 	env
+	@echo "!!!!!! end in source level make"
 	pkg-config --list-all
 	$(MAKE) -C $(CURRENT_SOFA)/c/src/ install
 

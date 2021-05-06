@@ -61,6 +61,9 @@ setup:
 	@echo "***"
 
 lib: mxlib_uncomp_version mxlib_comp_version
+	@echo "!!!!!! in top level make"
+	env
+	@echo "!!!!!! end in top level make"
 	pkg-config eigen3 --cflags
 	cd source; ${MAKE}
 	
