@@ -1,3 +1,5 @@
+$(warning $(shell env))
+$(warning $(shell pkg-config --list-all))
 # Common path and make variable definitions
 #
 # NOTE: This file should only be edited in mxlib/local, not in the root mxlib directory.

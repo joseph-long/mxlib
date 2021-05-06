@@ -1,5 +1,3 @@
-$(warning $(shell env))
-$(warning $(shell pkg-config --list-all))
 -include ../mk/MxLib.mk
 -include ../mk/Common.mk
 
