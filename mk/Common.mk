@@ -6,6 +6,9 @@ $(warning $(shell pkg-config --list-all))
 #
 SELF_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
 -include $(SELF_DIR)/../local/Common.mk
+
+export
+
 UNAME ?= $(shell uname)
 # environments setting -Wl,-dead_strip_dylibs by default break MKL link options
 # so we remove it by replacing it with zero if it's there; later parts of the
