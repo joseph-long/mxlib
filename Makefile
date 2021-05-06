@@ -1,3 +1,5 @@
+$(warning $(shell pkg-config --list-all))
+$(warning $(shell env))
 ##########################################
 ##                                      ##
 ##          Makefile for mxlib          ##
