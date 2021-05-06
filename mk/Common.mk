@@ -1,13 +1,9 @@
-$(warning $(shell env))
-$(warning $(shell pkg-config --list-all))
 # Common path and make variable definitions
 #
 # NOTE: This file should only be edited in mxlib/local, not in the root mxlib directory.
 #
 SELF_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
 -include $(SELF_DIR)/../local/Common.mk
-
-export
 
 UNAME ?= $(shell uname)
 # environments setting -Wl,-dead_strip_dylibs by default break MKL link options
@@ -51,7 +47,7 @@ USE_BLAS_FROM ?= mkl
 
 # Configure includes and libraries based on build options
 ifeq ($(USE_BLAS_FROM),mkl)
-    $(if ${MKLROOT},,$(error No value set for environment variable $$MKLROOT))
+    $(if ${MKLROOT},,$(warning No value set for environment variable $$MKLROOT))
     BLAS_INCLUDES ?= -DMXLIB_MKL -m64 -I${MKLROOT}/include
     ifeq ($(UNAME),Darwin)
         BLAS_LDFLAGS ?= -L${MKLROOT}/lib -Wl,-rpath,${MKLROOT}/lib
@@ -64,8 +60,8 @@ ifeq ($(USE_BLAS_FROM),mkl)
 endif
 
 ifeq ($(USE_BLAS_FROM),openblas)
-    BLAS_LDFLAGS ?=
-    BLAS_LDLIBS ?= -lblas -llapack
+    BLAS_LDFLAGS ?= $(shell pkg-config --libs-only-L openblas)
+    BLAS_LDLIBS ?= $(shell pkg-config --libs-only-l openblas)
 endif
 
 ifeq ($(USE_BLAS_FROM),atlas)
