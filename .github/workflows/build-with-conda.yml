@@ -19,23 +19,32 @@ jobs:
             ${{ runner.os }}-
       - name: Install miniconda
         run: |
-          curl -OL https://repo.anaconda.com/miniconda/Miniconda3-latest-${{ runner.os }}-x86_64.sh
-          bash Miniconda3-latest-${{ runner.os }}-x86_64.sh -b
+          if [[ ! -e ~/miniconda3 ]]; then
+            curl -OL https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+            bash Miniconda3-latest-Linux-x86_64.sh -b -p $GITHUB_WORKSPACE/miniconda3
+          fi
       - name: (re-)Create build environment
         run: |
-          source ~/miniconda3/etc/profile.d/conda.sh
+          source $GITHUB_WORKSPACE/miniconda3/etc/profile.d/conda.sh
           conda env remove -n build || true
-          conda create -n build
+          conda create -y -n build
           conda config --add channels conda-forge
           conda config --set channel_priority strict
-      - name: (re-)Create build environment
+      - name: Run conda env setup
         run: |
-          source ~/miniconda3/etc/profile.d/conda.sh
+          source $GITHUB_WORKSPACE/miniconda3/etc/profile.d/conda.sh
           conda activate build
-          ${{ github.workspace }}/setup/conda_env_setup_${{ runner.os }}.bash
+          bash -x setup/conda_env_setup_${{ runner.os }}.bash
+          conda deactivate
+      - name: Examine pkg-config
+        run: |
+          source $GITHUB_WORKSPACE/miniconda3/etc/profile.d/conda.sh
+          conda activate build
+          pkg-config eigen3 --cflags
+          pkg-config --list-all
       - name: Build and install
-        working-directory: ${{ github.workspace }}
         run: |
-          source ~/miniconda3/etc/profile.d/conda.sh
+          source $GITHUB_WORKSPACE/miniconda3/etc/profile.d/conda.sh
           conda activate build
+          pkg-config eigen3 --cflags
           make install PREFIX=$HOME

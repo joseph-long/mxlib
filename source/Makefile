@@ -88,6 +88,7 @@ app/optionparser.o: ../include/app/optionparser/optionparser.h
 
 libmxlib.$(LIB_SUFFIX): sofa $(OBJS) $(CUDA_OBJS)
 	$(MAKE) -C vendor/levmar-2.6/
+	$(MAKE) -C $(CURRENT_SOFA)/c/src/ install
 ifeq ($(UNAME),Darwin)
 	$(LINK.o) -dynamiclib -install_name @rpath/libmxlib.dylib -rpath @loader_path $(VENDOROBJS) $(OBJS) $(CUDA_OBJS) -o libmxlib.dylib $(LDFLAGS) $(LDLIBS) $(CUDA_LIBS)
 else
@@ -98,7 +99,6 @@ sofa:
 	$(MAKE) -C $(CURRENT_SOFA)/c/src/ 
 
 install: libmxlib.$(LIB_SUFFIX)
-	$(MAKE) -C $(CURRENT_SOFA)/c/src/ install
 	install -d $(LIB_PATH)
 	install libmxlib.$(LIB_SUFFIX) $(LIB_PATH)
 
