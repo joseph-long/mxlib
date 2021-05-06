@@ -20,21 +20,22 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-${{ env.cache-name }}-
       - name: Install miniconda
-        shell: bash -l {0}
         run: |
           if [[ ! -e ~/miniconda3 ]]; then
             curl -OL https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
             bash Miniconda3-latest-Linux-x86_64.sh -b
           fi
+          source ~/miniconda3/bin/activate
+          conda init bash
       - name: (re-)Create build environment
-        shell: bash -l {0}
+        shell: bash -l {0} # needed for conda command
         run: |
           conda env remove -n build || true
           conda create -y -n build
           conda config --add channels conda-forge
           conda config --set channel_priority strict
       - name: Run conda env setup
-        shell: bash -l {0}
+        shell: bash -l {0} # needed for conda command
         run: |
           # source ~/miniconda3/etc/profile.d/conda.sh
           conda activate build
@@ -44,7 +45,7 @@ jobs:
       #     source ~/miniconda3/etc/profile.d/conda.sh
       #     conda activate build
       - name: Build and install
-        shell: bash -l {0}
+        shell: bash -l {0} # needed for conda command
         run: |
           conda activate build
           make install PREFIX=$CONDA_PREFIX NEED_CUDA=no
