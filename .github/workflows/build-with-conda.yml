@@ -10,33 +10,38 @@ jobs:
       #   uses: conda-incubator/setup-miniconda@v2
       #   with:
       #       channels: conda-forge
-      - name: Cache conda packages
+      - name: Cache miniconda packages
         uses: actions/cache@v2
         env:
-          cache-name: cache-conda
+          cache-name: cache-miniconda
         with:
-          path: /usr/share/miniconda
+          path: ~/miniconda3
           key: ${{ runner.os }}-${{ env.cache-name }}-v1-${{ hashFiles('setup/conda_env_setup.bash', 'setup/conda_env_setup_${{ runner.os }}.bash') }}
           restore-keys: |
             ${{ runner.os }}-${{ env.cache-name }}-
-      # - name: Install miniconda
-      #   run: |
-      #     if [[ ! -e ~/miniconda3 ]]; then
-      #       curl -OL https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-      #       bash Miniconda3-latest-Linux-x86_64.sh -b
-      #     fi
-      #     source ~/miniconda3/bin/activate
-      #     conda init bash
-      - name: (re-)Create build environment
-        # shell: bash -l {0} # needed for conda command
+      - name: Install miniconda
         run: |
+          if [[ ! -e ~/miniconda3 ]]; then
+            curl -OL https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+            bash Miniconda3-latest-Linux-x86_64.sh -b
+          fi
+          source ~/miniconda3/bin/activate
+          conda init bash
+          cat ~/.bashrc
+      - name: (re-)Create build environment
+        shell: bash -l {0} # needed for conda command
+        run: |
+          which conda
+          source ~/.bashrc
+          which conda
           conda env remove -n build || true
           conda create -y -n build
           conda config --add channels conda-forge
           conda config --set channel_priority strict
       - name: Run conda env setup
-        # shell: bash -l {0} # needed for conda command
+        shell: bash -l {0} # needed for conda command
         run: |
+          # source ~/miniconda3/etc/profile.d/conda.sh
           conda activate build
           bash -x setup/conda_env_setup_${{ runner.os }}.bash
       # - name: Examine pkg-config
@@ -44,7 +49,7 @@ jobs:
       #     source ~/miniconda3/etc/profile.d/conda.sh
       #     conda activate build
       - name: Build and install
-        # shell: bash -l {0} # needed for conda command
+        shell: bash -l {0} # needed for conda command
         run: |
           conda activate build
           make install PREFIX=$CONDA_PREFIX NEED_CUDA=no
