@@ -42,9 +42,9 @@ jobs:
           conda activate build
           pkg-config eigen3 --cflags
           pkg-config --list-all
-      # - name: Build and install
-      #   run: |
-      #     source ~/miniconda3/etc/profile.d/conda.sh
-      #     conda activate build
-      #     pkg-config eigen3 --cflags
-      #     make install PREFIX=$HOME
+      - name: Build and install
+        run: |
+          source ~/miniconda3/etc/profile.d/conda.sh
+          conda activate build
+          pkg-config eigen3 --cflags
+          make install PREFIX=$HOME
