@@ -65,7 +65,7 @@ lib: mxlib_uncomp_version mxlib_comp_version
 	env
 	@echo "!!!!!! end in top level make"
 	which pkg-config
-	pkg-config eigen3 --cflags
+	PKG_CONFIG_DEBUG_SPEW=1 pkg-config eigen3 --cflags
 	cd source; ${MAKE}
 	
 install: all mxlib_uncomp_version
