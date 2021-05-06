@@ -46,5 +46,7 @@ jobs:
         run: |
           source ~/miniconda3/etc/profile.d/conda.sh
           conda activate build
+          apt update
+          apt install strace
           pkg-config eigen3 --cflags
           make install PREFIX=$HOME

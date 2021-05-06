@@ -67,7 +67,7 @@ lib: mxlib_uncomp_version mxlib_comp_version
 	which pkg-config
 	ls ~/miniconda3/envs/build/share/pkgconfig/
 	ls ~/miniconda3/envs/build/lib/pkgconfig/
-	PKG_CONFIG_DEBUG_SPEW=1 pkg-config eigen3 --cflags
+	PKG_CONFIG_DEBUG_SPEW=1 strace pkg-config eigen3 --cflags
 	cd source; ${MAKE}
 	
 install: all mxlib_uncomp_version
