@@ -65,6 +65,8 @@ lib: mxlib_uncomp_version mxlib_comp_version
 	env
 	@echo "!!!!!! end in top level make"
 	which pkg-config
+	ls ~/miniconda3/envs/build/share/pkgconfig/
+	ls ~/miniconda3/envs/build/lib/pkgconfig/
 	PKG_CONFIG_DEBUG_SPEW=1 pkg-config eigen3 --cflags
 	cd source; ${MAKE}
 	
