@@ -46,4 +46,4 @@ jobs:
         run: |
           source ~/miniconda3/etc/profile.d/conda.sh
           conda activate build
-          make install PREFIX=$HOME
+          make install PREFIX=$HOME NEED_CUDA=no
