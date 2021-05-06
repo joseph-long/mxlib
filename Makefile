@@ -61,6 +61,7 @@ setup:
 	@echo "***"
 
 lib: mxlib_uncomp_version mxlib_comp_version
+	pkg-config eigen3 --cflags
 	cd source; ${MAKE}
 	
 install: all mxlib_uncomp_version

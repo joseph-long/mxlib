@@ -1,3 +1,4 @@
+$(warning $(shell pkg-config eigen3 --cflags))
 -include ../mk/MxLib.mk
 -include ../mk/Common.mk
 
@@ -87,6 +88,8 @@ app/optionparser.o: ../include/app/optionparser/optionparser.h
 #mxlib_uncomp_version
 
 libmxlib.$(LIB_SUFFIX): sofa $(OBJS) $(CUDA_OBJS)
+	env
+	pkg-config --list-all
 	$(MAKE) -C vendor/levmar-2.6/
 	$(MAKE) -C $(CURRENT_SOFA)/c/src/ install
 ifeq ($(UNAME),Darwin)
